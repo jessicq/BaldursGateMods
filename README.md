@@ -18,3 +18,5 @@ Topls/Resources Used:
 8. Gimp by Spencer Kimball and Peter Mattis
 9. Shadowkeeper by Mudmaster
 10. Zamzar by Zamzar
+
+*Huge thank you to the staff at Gibberlings3 for hosting The Beaurin Legacy!! (http://www.gibberlings3.net/)*
