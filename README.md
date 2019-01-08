@@ -1,5 +1,5 @@
 # BaldursGateMods
-Mods written using the Infinity Engine for BioWare's critically acclaimed RPG
+Mods written using the Infinity Engine for BioWare's critically acclaimed RPG.
 
 Self-started project that involves creating new NPCs, quests, dialogues, items, audio, music, etc. to integrate into the
 Baldur's Gate Trilogy.
