@@ -1,0 +1,50 @@
+//Location of Minyae - City Gates
+IF
+Global("MINYAEExists","AR0020",0)
+THEN
+RESPONSE #100
+SetGlobal("MINYAEExists","AR0020",1)
+CreateCreature("MINYAE",[187.605], 12)
+END
+
+//Minyae is leveled according to the PC
+IF
+InParty("QI#Mi")
+Global("QI#MiExperienceSet","GLOBAL",0)
+XPLT(Player1,280001)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+END
+
+IF
+InParty("QI#Mi")
+Global("QI#MiExperienceSet","GLOBAL",0)
+XPGT(Player1,280000)
+XPLT(Player1,600001)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+AddXPObject("QI#Mi",239000)
+END
+
+IF
+InParty("QI#Mi")
+Global("QI#MiExperienceSet","GLOBAL",0)
+XPGT(Player1,600000)
+XPLT(Player1,1000001)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+AddXPObject("QI#Mi",639000)
+END
+
+IF
+InParty("QI#Mi")
+Global("QI#MiExperienceSet","GLOBAL",0)
+XPGT(Player1,1000000)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+AddXPObject("QI#Mi",1039000)
+END

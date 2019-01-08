@@ -1,0 +1,132 @@
+//Main Script//
+
+IF
+HotKey(K)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+StartCutScene("QI#ElaF")
+END
+
+//Initial Meeting
+IF 
+InParty("QI#Mi")
+See("QI#Mi")
+Global("QI#MiEncounter","GLOBAL",0)
+THEN
+RESPONSE #100
+Dialogue("QI#Mi")
+END
+
+
+//Attack Minyae
+
+IF
+Global("ElarynPrep","GLOBAL",0)
+Global("QI#MiEncounter","GLOBAL",1) 
+Global("MinyaeDies","GLOBAL",1)
+THEN
+RESPONSE #100
+ReallyForceSpell("QI#Ela", CLERIC_ARMOR_OF_FAITH)
+ReallyForceSpell("QI#Ela", WIZARD_IMPROVED_HASTE)
+SetGlobal("ElarynPrep","GLOBAL",1)
+END
+
+IF
+Global("QI#MiEncounter","GLOBAL",1) 
+Global("ElarynAttacking","GLOBAL",0)
+Global("MinyaeDies","GLOBAL",1)
+THEN
+RESPONSE #100
+Attack("QI#Mi")
+SetGlobal("ElarynAttacking","GLOBAL",1) 
+END 
+
+
+//Does not kill Minyae
+IF 
+InParty("QI#Mi")
+Global("QI#MiEncounter","GLOBAL",1)
+Global("QI#ElarynDies","GLOBAL",1)
+THEN
+RESPONSE #100
+Enemy()
+Attack("QI#Mi")
+Attack(LastSeenBy())
+END
+
+//1v1
+IF
+Global("QI#MiEncounter","GLOBAL",1)
+Global("OneAlive","GLOBAL",1)
+Global("ElaMinCheck","GLOBAL",1)
+THEN
+RESPONSE #100
+ReallyForceSpell("QI#Ela", CLERIC_ARMOR_OF_FAITH)
+ReallyForceSpell("QI#Ela", WIZARD_IMPROVED_HASTE)
+Attack("QI#Mi")
+SetGlobal("ElaMinCheck","GLOBAL",2)
+END
+
+
+//Talk after encounter - after siding
+IF
+InParty(Myself)
+Dead("QI#Mi")
+Global("ElarynTimer","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("QI#ElaTimer","GLOBAL",1800)
+SetGlobal("ElarynTimer","GLOBAL",1)
+END
+
+
+IF
+InParty(Myself)
+Global("MinyaeDies","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+Global("QI#MiEncounterTalk","GLOBAL",0)
+!GlobalTimerNotExpired("QI#ElaTimer","GLOBAL")
+Global("ElarynTimer","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiEncounterTalk","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+See(Player1)
+CombatCounter(0)
+Global("QI#MiEncounterTalk","GLOBAL",1)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//Talk after encounter - 1v1
+IF
+InParty(Myself)
+Global("OneAlive","GLOBAL",1)
+Dead("QI#Mi")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("QI#MiAfterTalk","GLOBAL",1)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF
+//InParty("QI#Mi")
+!Global("QI#MiJoined","GLOBAL",1)
+THEN
+RESPONSE #100
+EscapeArea()
+END

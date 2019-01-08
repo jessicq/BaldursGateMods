@@ -1,0 +1,44 @@
+IF
+Global("QI#OrderEncounter","GLOBAL",1)
+Global("QI#EncounterTalk2","GLOBAL",0)
+InParty("QI#Mi")
+OR (2)
+  See(Player1)
+  See("QI#Mi")
+THEN
+RESPONSE #100
+Dialogue(Player1)
+Wait(1)
+END
+
+IF
+Global("QI#OrderEncounter","GLOBAL",1)
+Global("QI#EncounterTalk2","GLOBAL",0)
+InParty("QI#Ela")
+!StateCheck("QI#Ela",CD_STATE_NOTVALID)
+OR (2)
+  See(Player1)
+  See("QI#Ela")
+THEN
+RESPONSE #100
+Dialogue(Player1)
+Wait(1)
+END   
+
+IF 
+Global("QI#EncounterTalk2","GLOBAL",1)
+Global("WilliasPrep","GLOBAL",0)
+THEN
+RESPONSE #100
+ReallyForceSpell(Myself, WIZARD_IMPROVED_HASTE)
+ReallyForceSpell(Myself, CLERIC_ARMOR_OF_FAITH)
+SetGlobal("WilliasPrep","GLOBAL",1)
+END
+
+IF
+Global("QI#EncounterTalk2","GLOBAL",1)
+THEN
+RESPONSE #100
+Enemy()
+Attack(LastSeenBy())
+END

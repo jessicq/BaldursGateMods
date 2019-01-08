@@ -1,0 +1,12 @@
+//Minyae vs. Elaryn by herself
+
+IF
+True()
+THEN 
+RESPONSE #100
+CutSceneID(Player1)
+ActionOverride("QI#Mi",Attack("QI#Ela"))
+ActionOverride("QI#Ela",Attack("QI#Mi"))
+EndCutSceneMode()
+END
+

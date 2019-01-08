@@ -1,0 +1,138 @@
+//Epilogues//
+
+//No friendship
+IF
+Global("StartEndBios","AR6200",1)
+InParty("QI#Mi")
+!Global("QI#MiNoFriendship","GLOBAL",0)
+GlobalLT("QI#MiEdwinRomanceToB","GLOBAL",7)
+Global("QI#MiBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiBio","GLOBAL",1)
+TextScreen("QI#Me03")
+SmallWait(1)
+Continue()
+END
+
+//PC Friendship & True Neutral
+IF
+Global("StartEndBios","AR6200",1)
+InParty("QI#Mi")
+Global("QI#MiNoFriendship","GLOBAL",0)
+GlobalLT("QI#MiEdwinRomanceToB","GLOBAL",7)
+Global("QI#MiBio","GLOBAL",0)
+Alignment("QI#Mi",NEUTRAL)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiBio","GLOBAL",1)
+TextScreen("QI#Me01")
+SmallWait(1)
+Continue()
+END
+
+//PC Friendship & Neutral Evil
+IF
+Global("StartEndBios","AR6200",1)
+InParty("QI#Mi")
+Global("QI#MiNoFriendship","GLOBAL",0)
+GlobalLT("QI#MiEdwinRomanceToB","GLOBAL",7)
+Global("QI#MiBio","GLOBAL",0)
+Alignment("QI#Mi",NEUTRAL_EVIL)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiBio","GLOBAL",1)
+TextScreen("QI#Me02")
+SmallWait(1)
+Continue()
+END
+
+//True Neutral with Edwin
+IF
+Global("StartEndBios","AR6200",1)
+InParty("QI#Mi")
+Alignment("QI#Mi",NEUTRAL)
+Global("QI#MiBio","GLOBAL",0)
+GlobalGT("QI#MiEdwinRomanceToB","GLOBAL",7)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiBio","GLOBAL",1)
+TextScreen("QI#Me04")
+SmallWait(1)
+Continue()
+END
+
+//Neutral Evil with Edwin
+IF
+Global("StartEndBios","AR6200",1)
+InParty("QI#Mi")
+Global("QI#MiBio","GLOBAL",0)
+GlobalGT("QI#MiEdwinRomanceToB","GLOBAL",7)
+Alignment("QI#Mi",NEUTRAL_EVIL)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiBio","GLOBAL",1)
+TextScreen("QI#Me05")
+SmallWait(1)
+Continue()
+END
+
+//Edwin True Neutral
+IF
+Global("StartEndBios","AR6200",1)
+InParty("Edwin")
+Global("QI#EdwinBio","GLOBAL",0)
+GlobalGT("QI#MiEdwinRomanceToB","GLOBAL",7)
+Alignment("QI#Mi",NEUTRAL)
+THEN
+RESPONSE #100
+SetGlobal("EdwinBio","GLOBAL",1)
+SetGlobal("QI#EdwinBio","GLOBAL",1)
+TextScreen("QI#Ee02")
+SmallWait(1)
+Continue()
+END
+
+//Edwin Neutral Evil
+IF
+Global("StartEndBios","AR6200",1)
+InParty("Edwin")
+Global("QI#EdwinBio","GLOBAL",0)
+GlobalGT("QI#MiEdwinRomanceToB","GLOBAL",7)
+Alignment("QI#Mi",NEUTRAL_EVIL)
+THEN
+RESPONSE #100
+SetGlobal("EdwinBio","GLOBAL",1)
+SetGlobal("QI#EdwinBio","GLOBAL",1)
+TextScreen("QI#Ee01")
+SmallWait(1)
+Continue()
+END
+
+//Elaryn - Friends
+IF
+Global("StartEndBios","AR6200",1)
+InParty("QI#Ela")
+Global("QI#ElaNoFriendship","GLOBAL",0)
+Global("QI#ElaBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("QI#ElaBio","GLOBAL",1)
+TextScreen("QI#El01")
+SmallWait(1)
+Continue()
+END
+
+//Elaryn - Not Friends
+IF
+Global("StartEndBios","AR6200",1)
+InParty("QI#Ela")
+!Global("QI#ElaNoFriendship","GLOBAL",0)
+Global("QI#ElaBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("QI#ElaBio","GLOBAL",1)
+TextScreen("QI#El02")
+SmallWait(1)
+Continue()
+END

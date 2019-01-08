@@ -1,0 +1,18 @@
+IF 
+Global("QI#EncounterTalk2","GLOBAL",1)
+THEN
+RESPONSE #100
+Enemy()
+Attack(NearestEnemyOf(Myself))
+END
+
+IF 
+Global("QI#EncounterTalk2","GLOBAL",1)
+Global("AneilaPrep","GLOBAL",0)
+THEN
+RESPONSE #100
+ReallyForceSpell(Myself, CLERIC_ARMOR_OF_FAITH)
+ReallyForceSpell(Myself, WIZARD_IMPROVED_HASTE)
+ReallyForceSpell(Myself, CLERIC_TRUE_SIGHT)
+SetGlobal("AneilaPrep","GLOBAL",1)
+END

@@ -1,0 +1,171 @@
+IF
+HotKey(K)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+StartCutScene("QI#ElaF")
+END
+
+//Reputation
+IF 
+ReputationLT(Player1, 3)
+Global("QI#ElarynComplain","LOCALS",0)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//Initiate Friendship
+IF
+InParty(Myself)
+Global("QI#ElaNoFriendship","GLOBAL",0)
+Global("QI#ElaFriendshipTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("QI#ElaTimer","GLOBAL",2100)
+SetGlobal("QI#ElaFriendshipTalk","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+RealGlobalTimerExpired("QI#ElaTimer","GLOBAL")
+Global("QI#ElaNoFriendship","GLOBAL",0)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+!AreaType(DUNGEON)
+OR(3)
+Global("QI#ElaFriendshipTalk","GLOBAL",1)
+Global("QI#ElaFriendshipTalk","GLOBAL",3)
+Global("QI#ElaFriendshipTalk","GLOBAL",7) 
+THEN
+RESPONSE #100
+IncrementGlobal("QI#ElaFriendshipTalk","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+RealGlobalTimerExpired("QI#ElaTimer","GLOBAL")
+Global("QI#ElaNoFriendship","GLOBAL",0)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+!AreaType(DUNGEON)
+OR(3)
+Global("QI#ElaFriendshipTalk","GLOBAL",2)
+Global("QI#ElaFriendshipTalk","GLOBAL",4)
+Global("QI#ElaFriendshipTalk","GLOBAL",8)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("ffight2-")
+StartDialogueNoSet(Player1)
+END
+
+//Saradush Talk
+IF
+InParty(Myself)
+Global("QI#ElaNoFriendship","GLOBAL",0)
+Dead("yaga01")
+PartyRested()
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+!AreaType(DUNGEON)
+Global("ElarynYagaShura","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("ElarynYagaShura","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+Global("QI#ElaNoFriendship","GLOBAL",0)
+Global("ElarynYagaShura","GLOBAL",1)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("ffight2-")
+StartDialogueNoSet(Player1)
+END
+
+// Friendship Talk - After Willias Encounter
+IF
+InParty(Myself)
+RealGlobalTimerExpired("QI#ElaTimer","GLOBAL")
+Global("QI#ElaNoFriendship","GLOBAL",0)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+!AreaType(DUNGEON)
+!Global("TalkedToMarlowe","GLOBAL",0)
+Dead("QI#Will")
+Global("QI#ElaFriendshipTalk","GLOBAL",9)
+THEN
+RESPONSE #100
+IncrementGlobal("QI#ElaFriendshipTalk","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+RealGlobalTimerExpired("QI#ElaTimer","GLOBAL")
+Global("QI#ElaNoFriendship","GLOBAL",0)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+!AreaType(DUNGEON)
+Dead("QI#Will")
+!Global("TalkedToMarlowe","GLOBAL",0)
+Global("QI#ElaFriendshipTalk","GLOBAL",10)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("ffight2-")
+StartDialogueNoSet(Player1)
+END
+
+
+//Talk after Encounter with Willias - Talk5
+IF
+InParty(Myself)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+!AreaType(DUNGEON)
+Dead("QI#Will")
+Global("QI#EncounterTalk2","GLOBAL",1)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//Final Talk
+IF 
+Dead("chalrv01")
+Global("ElarynFinalTalk","GLOBAL",0)
+Global("QI#ElaNoFriendship","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("ElarynFinalTalk","GLOBAL",1)
+PlaySong(0)
+PlaySound("ffight2-")
+StartDialogueNoSet(Player1)
+END
+

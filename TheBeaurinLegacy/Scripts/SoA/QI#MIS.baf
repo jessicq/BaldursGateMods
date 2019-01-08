@@ -1,0 +1,707 @@
+//Main Script//
+
+IF
+HotKey(K)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+StartCutScene("QI#MiF")
+END
+
+
+//Friendship Track//
+
+IF
+InParty(Myself)
+Global("QI#MiNoFriendship","GLOBAL",0)
+Global("QI#MiFriendshipTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("QI#MiTimer","GLOBAL",3600)
+SetGlobal("QI#MiFriendshipTalk","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+RealGlobalTimerExpired("QI#MiTimer","GLOBAL")
+Global("QI#MiNoFriendship","GLOBAL",0)
+Global("QI#NoBook","GLOBAL",2)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+!AreaType(DUNGEON)
+OR(10)
+Global("QI#MiFriendshipTalk","GLOBAL",1)
+Global("QI#MiFriendshipTalk","GLOBAL",3)
+Global("QI#MiFriendshipTalk","GLOBAL",5)
+Global("QI#MiFriendshipTalk","GLOBAL",7)
+Global("QI#MiFriendshipTalk","GLOBAL",9)
+Global("QI#MiFriendshipTalk","GLOBAL",11)
+Global("QI#MiFriendshipTalk","GLOBAL",13)
+Global("QI#MiFriendshipTalk","GLOBAL",15)
+Global("QI#MiFriendshipTalk","GLOBAL",17)
+Global("QI#MiFriendshipTalk","GLOBAL",19)
+THEN
+RESPONSE #100
+IncrementGlobal("QI#MiFriendshipTalk","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+Global("QI#MiNoFriendship","GLOBAL",0)
+Global("QI#NoBook","GLOBAL",2)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)
+OR(10)      //If there is an issue, change this to 9                            
+Global("QI#MiFriendshipTalk","GLOBAL",2)
+Global("QI#MiFriendshipTalk","GLOBAL",4)
+Global("QI#MiFriendshipTalk","GLOBAL",6)
+Global("QI#MiFriendshipTalk","GLOBAL",8)
+//Global("QI#MiFriendshipTalk","GLOBAL",10)
+Global("QI#MiFriendshipTalk","GLOBAL",12)
+Global("QI#MiFriendshipTalk","GLOBAL",14)
+Global("QI#MiFriendshipTalk","GLOBAL",16)
+Global("QI#MiFriendshipTalk","GLOBAL",18)
+Global("QI#MiFriendshipTalk","GLOBAL",20)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("QI#MiFr")
+StartDialogueNoSet(Player1)
+END
+
+//After Encounter with Lich - Lich Talking and Alive
+IF
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+Global("QI#NoBook","GLOBAL",1)
+!See([ENEMY])
+THEN
+RESPONSE #100
+AddXPObject("QI#Mi",5000)
+StartDialogueNoSet(Player1)
+END
+
+//Lich is Already Dead
+IF
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!Global("QI#NoBook","GLOBAL",2)
+//Global("QI#NoBook","GLOBAL",0)
+AreaCheck("AR0082")
+Dead("GRVLCH01")
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//Go to the Slums in Athkatla
+IF
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("QI#NoBook","GLOBAL",2)
+Global("Chapter","GLOBAL",6)
+Global("QI#Slums","GLOBAL",0)
+!Global("QI#MiEncounter","GLOBAL",1)
+!AreaCheck("AR2500")
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//1v1-dead
+IF
+Global("ElaMinCheck","GLOBAL",2)
+//Global("QI#MiAfterTalk","GLOBAL",1)
+Dead("QI#Mi")
+THEN
+RESPONSE #100
+LeaveParty()
+DestroySelf()
+END
+
+//KillMinyae
+IF
+Global("MinyaeDies","GLOBAL",1)
+Dead("QI#Mi")
+Global("QI#MiAfterTalk","GLOBAL",1)
+THEN
+RESPONSE #100
+LeaveParty()
+DestroySelf()
+END
+
+//When first coming to temple ruins
+IF
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("QI#MiRuinTalk","GLOBAL",0)
+AreaCheck("AR1404")
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//When entering the ruins
+IF
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("QI#MiRuinTalk","GLOBAL",1)
+AreaCheck("AR1401")
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//When the temple is sunlit once more
+IF
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("QI#MiRuinTalk","GLOBAL",2)
+AreaCheck("AR1400")
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//Attack Elaryn
+IF
+Global("QI#MiEncounter","GLOBAL",1) 
+Global("MinyaeDies","GLOBAL",1)
+THEN
+RESPONSE #100
+LeaveParty()
+Enemy()
+Attack("QI#Ela")
+Attack(LastSeenBy())
+END
+
+//Talk After Encounter with Elaryn after siding with her
+IF
+InParty(Myself)
+Global("ElarynDies","GLOBAL",1)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("QI#MiEncounterTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiEncounterTalk","GLOBAL",1)
+AddXPObject("QI#Mi",10000)
+AddXPObject(Player1,5000)
+StartDialogueNoSet(Player1)
+END
+
+//Talk After Encounter with Elaryn after 1v1
+IF
+InParty(Myself)
+Global("OneAlive","GLOBAL",1)
+Dead("QI#Ela")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("QI#MiEncounterTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiEncounterTalk","GLOBAL",1)
+AddXPObject("QI#Mi",10000)
+StartDialogueNoSet(Player1)
+END
+
+/* Edwin Romance Conflicts (involving Laufey's and Dorotea's Edwin Romance - PLEASE NOTE: This content is not part of that mod but only refers to it */
+
+//Conflict #1 Timer
+IF
+InParty(Myself)
+InParty("Edwin")
+Global("MinyaeEdwinConflict","GLOBAL",0)
+Global("EdwinRomanceActive","GLOBAL",1)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",3)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("QI#MiPCEdwinConflictTalk1Timer","GLOBAL",900)
+SetGlobal("MinyaeEdwinConflict","GLOBAL",1)
+END
+
+//Triggers Conflict #1 Talk
+IF 
+InParty(Myself)
+InParty("Edwin")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+RealGlobalTimerExpired("QI#MiPCEdwinConflictTalk1Timer","GLOBAL")
+Global("MinyaeEdwinConflict","GLOBAL",1)
+Global("EdwinRomanceActive","GLOBAL",1)
+THEN 
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//Conflict #2 Timer
+IF
+InParty(Myself)
+InParty("Edwin")
+Global("MinyaeEdwinConflict","GLOBAL",2)
+Global("EdwinRomanceActive","GLOBAL",1)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",12)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("QI#MiPCEdwinConflictTalk2Timer","GLOBAL",900)
+SetGlobal("MinyaeEdwinConflict","GLOBAL",3)
+END
+
+//Triggers Conflict #2 Talk
+IF 
+InParty(Myself)
+InParty("Edwin")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+RealGlobalTimerExpired("QI#MiPCEdwinConflictTalk2Timer","GLOBAL")
+Global("QI#MiEdwinRomanceSoA","GLOBAL",12)
+Global("MinyaeEdwinConflict","GLOBAL",3)
+Global("EdwinRomanceActive","GLOBAL",1)
+THEN 
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+
+//Edwin Romance//
+
+IF
+InParty(Myself)
+InParty("Edwin")
+Global("QI#MiSoAStart","GLOBAL",0)
+Global("MinyaeEdwinRomanceEnd","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiSoAStart","GLOBAL",1)
+END
+
+//if Edwin becomes a female sooner than expected
+IF
+InParty(Myself)
+InParty("Edwin")
+Gender("Edwin",FEMALE)
+Global("QI#MiEdwinFemale","GLOBAL",0)
+GlobalGT("QI#MiEdwinRomanceSoA","GLOBAL",4)
+GlobalLT("QI#MiEdwinRomanceSoA","GLOBAL",9)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiEdwinFemale","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!Global("Chapter","GLOBAL",5)
+Global("QI#MiEdwinFemale","GLOBAL",1)
+!GlobalTimerNotExpired("QI#MiEdwinFemaleTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinFemaleTimer","GLOBAL",TWO_DAYS)
+END
+
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!Global("Chapter","GLOBAL",5)
+Global("QI#MiEdwinFemale","GLOBAL",2)
+!GlobalTimerNotExpired("QI#MiEdwinFemaleTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinFemaleTimer","GLOBAL",TWO_DAYS)
+END
+
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!Global("Chapter","GLOBAL",5)
+Global("QI#MiEdwinFemale","GLOBAL",3)
+!GlobalTimerNotExpired("QI#MiEdwinFemaleTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinFemaleTimer","GLOBAL",TWO_DAYS)
+END
+
+ 
+//Talk1 - Tome
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",0)
+Global("QI#MiSoAStart","GLOBAL",1)
+!Global("Chapter","GLOBAL",5)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",ONE_DAY)
+END
+
+//Talk2 - Bickering
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",1)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",TWO_DAYS)
+END
+
+//Talk3 - Suggestive Proposal
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",2)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",ONE_DAY)
+END
+
+//Talk4 - Tavern Wench
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",3)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",THREE_DAYS)
+END
+
+//Talk5 - The Finest Wizard
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",4)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",TWO_DAYS)
+END
+
+//Talk6 - Mulani Traditions
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",5)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",ONE_DAY)
+END
+
+
+//Talk7 - Teach me
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",6)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",TWO_DAYS)
+END
+
+//Talk8 - Times up 
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",7)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",THREE_DAYS)
+END
+
+//Talk9 - First Time Meeting Edwina
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",8)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",TWO_DAYS)
+END
+
+//Talk10 - Red Dresses and Silken Robes
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",9)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",TWO_DAYS)
+END
+
+//Talk11 - Edwina Tries to Communicate
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",10)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",THREE_DAYS)
+END
+
+//Talk12 - Beg for Forgiveness
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID)  
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",11)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",THREE_DAYS)
+END
+
+//Talk13 - I am here for you
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID)  
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!Global("MinyaeEdwinRomanceEnd","GLOBAL",1) 
+Global("QI#MiEdwinRomanceSoA","GLOBAL",12)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",TWO_DAYS)
+END
+
+//Talk14 - Dream Script - First Night: Rejection
+
+//Talk15 - Dream Script - Second Time's the Charm
+
+//Talk16 - Endurance and Fortitude
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID)  
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",15)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+//PlaySong(0)
+//PlaySound("QI#MiEdwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",TWO_DAYS)
+END
+
+//Talk17 - Interruption Question when Edwin was Edwina
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",16)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+//PlaySong(0)
+//PlaySound("QI#MiEdwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",TWO_DAYS)
+END
+
+//Talk18 - Friends with Benefits
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",17)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+//PlaySong(0)
+//PlaySound("QI#MiEdwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",THREE_DAYS)
+END
+
+//Talk19 - Background History
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",18)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+//PlaySong(0)
+//PlaySound("QI#MiEdwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",ONE_DAY)
+END
+
+//Talk20 - Look at the Stars: Night
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID)  
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",19)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+OR(7)
+Time(22)
+Time(23)
+Time(0)
+Time(1)
+Time(2)
+Time(3)
+Time(4)
+THEN
+RESPONSE #100
+Interact("Edwin")
+//PlaySong(0)
+//PlaySound("QI#MiEdwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",TWO_DAYS)
+END
+
+//Talk21 - Confession
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",20)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+//PlaySong(0)
+//PlaySound("QI#MiEdwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",ONE_DAY)
+END
+

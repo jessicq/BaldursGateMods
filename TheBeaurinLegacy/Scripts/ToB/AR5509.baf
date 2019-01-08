@@ -1,0 +1,28 @@
+IF 
+    InParty("QI#Mi")
+	Alignment("QI#Mi",NEUTRAL_EVIL)
+    Global("SkeletonWithTome","AR5509",0)
+	Global("LichFightStart","AR5509",1)
+	Global("Reinforcements","AR5509",1)
+	!Dead("marlowe")
+THEN 
+RESPONSE #100
+    SetGlobal("SkeletonWithTome","AR5509",1)
+	CreateCreature("skebook",[842.508],S)
+	Continue()
+END
+
+IF 
+    InParty("QI#Mi")
+	Alignment("QI#Mi",NEUTRAL_EVIL)
+    Global("SkeletonWithTome","AR5509",0)
+	Dead("marlowe")
+	Global("LichJob","GLOBAL",4)
+	PartyHasItem("AMSOUL01")
+THEN 
+RESPONSE #100
+    SetGlobal("SkeletonWithTome","AR5509",1)
+	CreateCreature("skebook",[842.508],S)
+	Continue()
+END
+

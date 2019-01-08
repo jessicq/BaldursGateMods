@@ -1,0 +1,84 @@
+//Minyae
+IF
+  Global("QI#OrderEncounter","GLOBAL",0)
+  InParty("QI#Mi")
+  Global("QI#WillExists","AR5500",0)
+THEN
+RESPONSE #100
+  SetGlobal("QI#OrderEncounter","GLOBAL",1)
+  SetGlobal("QI#WillExists","AR5500",1) 
+  CreateCreature("QI#Will", [1865.1260], 0)
+
+END
+
+
+IF 
+  InParty("QI#Mi")
+  Global("QI#AneiExists","AR5500",0)
+THEN 
+RESPONSE #100
+  SetGlobal("QI#AneiExists","AR5500",1)
+  CreateCreature("QI#Anei", [1860.1259], 0)
+END
+
+
+IF 
+  InParty("QI#Mi")
+  Global("QI#KaldExists","AR5500",0)
+THEN 
+RESPONSE #100
+  SetGlobal("QI#KaldExists","AR5500",1)
+  CreateCreature("QI#Kald", [1863.1253], 0)
+END
+
+
+IF 
+  InParty("QI#Mi")
+  Global("QI#SwifExists","AR5500",0)
+THEN 
+RESPONSE #100
+  SetGlobal("QI#SwifExists","AR5500",1)
+  CreateCreature("QI#Swif", [1855.1265], 0)
+END
+
+
+//Elaryn
+IF
+  Global("QI#OrderEncounter","GLOBAL",0)
+  InParty("QI#Ela")
+  Global("QI#WillExists","AR5500",0)
+THEN
+RESPONSE #100
+  SetGlobal("QI#OrderEncounter","GLOBAL",1)
+  SetGlobal("QI#WillExists","AR5500",1) 
+  CreateCreature("QI#Will", [1865.1260], 0)
+END
+
+
+IF 
+  InParty("QI#Ela")
+  Global("QI#AneiExists","AR5500",0)
+THEN 
+RESPONSE #100
+  SetGlobal("QI#AneiExists","AR5500",1)
+  CreateCreature("QI#Anei", [1860.1259], 0)
+END
+
+
+IF 
+  InParty("QI#Ela")
+  Global("QI#KaldExists","AR5500",0)
+THEN 
+RESPONSE #100
+  SetGlobal("QI#KaldExists","AR5500",1)
+  CreateCreature("QI#Kald", [1863.1253], 0)
+END
+
+IF 
+  InParty("QI#Ela")
+  Global("QI#SwifExists","AR5500",0)
+THEN 
+RESPONSE #100
+  SetGlobal("QI#SwifExists","AR5500",1)
+  CreateCreature("QI#Swif", [1855.1265], 0)
+END

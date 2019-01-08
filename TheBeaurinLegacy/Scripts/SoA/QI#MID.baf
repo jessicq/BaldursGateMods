@@ -1,0 +1,53 @@
+//Dream Script - happens when you are about to rest
+
+/*IF
+InParty(Myself)
+Global("QI#MiFirstNight","GLOBAL",0)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",28)	//Talk14 already happened
+!StateCheck("Edwin",CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!AreaType(DUNGEON)
+THEN
+RESPONSE #100
+IncrementGlobal("QI#MiFirstNight","GLOBAL",1)
+PlaySong(0)
+PlaySound("QI#MiEdwin")
+Interact("Edwin")
+END*/
+
+//Talk14
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",13)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+//PlaySong(0)
+//PlaySound("QI#MiEdwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",ONE_DAY)
+END
+
+
+//Talk15
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceSoA","GLOBAL",14)
+!GlobalTimerNotExpired("QI#MiEdwinTimer","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+//PlaySong(0)
+//PlaySound("QI#MiEdwin")
+SetGlobalTimer("QI#MiEdwinTimer","GLOBAL",THREE_DAYS)
+END

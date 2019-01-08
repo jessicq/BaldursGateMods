@@ -1,0 +1,9 @@
+/* botsmith.bcs: (Cespenar) */
+
+IF
+	Global("QI#MiItemMaker","GLOBAL",1)
+THEN
+	RESPONSE #100
+		GiveItemCreate("QI#NEWR",Player1,0,0,0) 
+		StartDialogueNoSet(Player1)
+END

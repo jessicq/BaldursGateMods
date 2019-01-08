@@ -1,0 +1,573 @@
+IF
+Global("QI#MiSummoned","GLOBAL",1)
+THEN
+RESPONSE #100
+StartDialogueNoSet([PC])
+Wait(1)
+END
+
+//Level Up
+//Minyae is leveled according to the PC
+IF
+InParty("QI#Mi")
+Global("QI#MiExperienceSet","GLOBAL",0)
+Global("QI#MiSummoned","GLOBAL",2)
+XPLT(Player1,280001)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+END
+
+IF
+InParty("QI#Mi")
+Global("QI#MiExperienceSet","GLOBAL",0)
+Global("QI#MiSummoned","GLOBAL",2)
+XPGT(Player1,280000)
+XPLT(Player1,600001)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+AddXPObject("QI#Mi",239000)
+END
+
+IF
+InParty("QI#Mi")
+Global("QI#MiExperienceSet","GLOBAL",0)
+Global("QI#MiSummoned","GLOBAL",2)
+XPGT(Player1,600000)
+XPLT(Player1,1000001)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+AddXPObject("QI#Mi",639000)
+END
+
+IF
+InParty("QI#Mi")
+Global("QI#MiExperienceSet","GLOBAL",0)
+Global("QI#MiSummoned","GLOBAL",2)
+XPGT(Player1,1000000)
+XPLT(Player1,1600001)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+AddXPObject("QI#Mi",1039000)
+END
+
+IF 
+InParty("QI#Mi")
+Global("QI#MiExperienceSet","GLOBAL",0)
+Global("QI#MiSummoned","GLOBAL",2)
+XPGT(Player1,1600000)
+XPLT(Player1,2000001)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+AddXPObject("QI#Mi",1639000)
+END
+
+IF 
+InParty("QI#Mi")
+Global("QI#MiExperienceSet","GLOBAL",0)
+Global("QI#MiSummoned","GLOBAL",2)
+XPGT(Player1,2000000)
+XPLT(Player1,2500001)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+AddXPObject("QI#Mi",2039000)
+END
+
+IF 
+InParty("QI#Mi")
+Global("QI#MiExperienceSet","GLOBAL",0)
+Global("QI#MiSummoned","GLOBAL",2)
+XPGT(Player1,2500000)
+XPLT(Player1,3000001)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+AddXPObject("QI#Mi",2539000)
+END
+
+IF 
+InParty("QI#Mi")
+Global("QI#MiExperienceSet","GLOBAL",0)
+Global("QI#MiSummoned","GLOBAL",2)
+XPGT(Player1,3000000)
+//XPLT(Player1,3500001)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+AddXPObject("QI#Mi",3039000)
+END
+
+
+/*Note to Self: EncounterTalk2 shouldn't be a friendship talk*/
+
+//Pre-Talk
+IF
+InParty(Myself)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+!AreaType(DUNGEON)
+Global("QI#MiToBTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+StartDialogueNoSet([PC])
+END
+
+// Starting ToB Friendship Talk
+IF
+InParty(Myself)
+Global("QI#MiNoFriendship","GLOBAL",0)
+Global("QI#MiFriendshipTalkToB","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("QI#MiTimerToB","GLOBAL",3600)
+SetGlobal("QI#MiFriendshipTalkToB","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+RealGlobalTimerExpired("QI#MiTimerToB","GLOBAL")
+Global("QI#MiNoFriendship","GLOBAL",0)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+!AreaType(DUNGEON)
+Global("QI#MiFriendshipTalkToB","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("QI#MiFriendshipTalkToB","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+Global("QI#MiNoFriendship","GLOBAL",0)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON)                               
+Global("QI#MiFriendshipTalkToB","GLOBAL",2)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("QI#MiFr")
+StartDialogueNoSet(Player1)
+END
+
+//Saradush Talk - Talk 2
+IF
+InParty(Myself)
+Global("QI#MiNoFriendship","GLOBAL",0)
+Global("QI#MiYagaShura","GLOBAL",0)
+Dead("Yaga01")
+PartyRested()
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+!AreaType(DUNGEON) 
+THEN
+RESPONSE #100
+SetGlobal("QI#MiYagaShura","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiYagaShura","GLOBAL",1)
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("QI#MiFr")
+StartDialogueNoSet(Player1)
+END
+
+//Talk5 --> Vongoethe
+IF
+InParty(Myself)
+Global("QI#MiNoFriendship","GLOBAL",0)
+Global("MinyaeHasTome","GLOBAL",0)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Alignment("QI#Mi",NEUTRAL_EVIL)
+PartyHasItem("BOOK01")
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF
+InParty(Myself)
+Global("QI#MiNoFriendship","GLOBAL",0)
+Global("MinyaeHasTome","GLOBAL",0)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Alignment("QI#Mi",NEUTRAL)
+Dead("amlich01")
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF
+InParty(Myself)
+Global("QI#MiNoFriendship","GLOBAL",0)
+Global("MinyaeHasTome","GLOBAL",0)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+Alignment("QI#Mi",NEUTRAL)
+Global("LichJob","GLOBAL",4)
+Dead("marlowe")
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+
+//Not Friends But Has Tome
+IF
+InParty(Myself)
+!Global("QI#MiNoFriendship","GLOBAL",0)
+Global("MinyaeHasTome","GLOBAL",0)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+PartyHasItem("BOOK01")
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+
+//Talk after Encounter with Willias - Friends: Alignment Change (Friendship Talk3)
+IF
+InParty(Myself)
+Global("QI#MiNoFriendship","GLOBAL",0)
+//RealGlobalTimerExpired("QI#MiTimerToB","GLOBAL")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+!AreaType(DUNGEON)
+Global("QI#EncounterTalk2","GLOBAL",1)
+Dead("QI#Will")
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//Alignment Change
+IF
+Global("MinyaeChanged","GLOBAL",0)
+Global("QI#MiAlignmentChange","GLOBAL",2)
+THEN
+RESPONSE #100
+ChangeAlignment(Myself,NEUTRAL)
+SetGlobal("MinyaeChanged","GLOBAL",1)
+END
+
+//Final Talk
+IF 
+Dead("chalrv01")
+Global("MinyaeFinalTalk","GLOBAL",0)
+Global("QI#MiNoFriendship","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("MinyaeFinalTalk","GLOBAL",1) // might be an issue?
+PlaySong(0)
+PlaySound("QI#MiFr")
+StartDialogueNoSet(Player1)
+END
+
+//Talk about Edwin with PC - To Love or Not To Love
+IF
+InParty(Myself)
+InParty("Edwin")
+Global("QI#MiNoFriendship","GLOBAL",0)
+Global("MinyaeChoosing","GLOBAL",0)
+Global("QI#MiEdwinChoice","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("MinyaeChoosing","GLOBAL",1)
+SetGlobalTimer("QI#MiEdwinLoveTimerToB","GLOBAL",ONE_DAY)
+END
+
+IF
+InParty(Myself)
+InParty("Edwin")
+!GlobalTimerNotExpired("QI#MiEdwinLoveTimerToB","GLOBAL")
+Global("QI#MiEdwinChoice","GLOBAL",1)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0) 
+!See([ENEMY])
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//NoTalk between PC and Minyae - not friends
+IF
+InParty(Myself)
+InParty("Edwin")
+!Global("QI#MiNoFriendship","GLOBAL",0)
+Global("QI#MiEdwinRomanceToB","GLOBAL",4)
+Global("QI#MiEdwinChoice","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("QI#RejectLove","GLOBAL",1)
+SetGlobal("QI#MiEdwinChoice","GLOBAL",2)
+END
+
+//If Minyae and Edwin completed Romance in SoA
+IF
+InParty(Myself)
+InParty("Edwin")
+Global("QI#MiRomanceStartToB","GLOBAL",0)
+GlobalGT("QI#MiEdwinRomanceSoA","GLOBAL",20)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiRomanceStartToB","GLOBAL",1) 
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",ONE_DAY)
+END
+
+//If Minyae and Edwin did not complete Romance in SoA
+IF
+InParty(Myself)
+InParty("Edwin")
+Global("QI#MiUnfinishedSoA","GLOBAL",0)
+Global("QI#MiRomanceStartToB","GLOBAL",0)
+GlobalLT("QI#MiEdwinRomanceSoA","GLOBAL",20)
+GlobalGT("QI#MiEdwinRomanceSoA","GLOBAL",14)
+THEN
+RESPONSE #100
+SetGlobal("QI#MiUnfinishedSoA","GLOBAL",1)
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",ONE_DAY)
+END
+
+
+//Edwin Romance//
+
+//Pre-Talk if Romance not finished
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiUnfinishedSoA","GLOBAL",1)
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",ONE_DAY)
+END
+
+//Talk1
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiRomanceStartToB","GLOBAL",1) 
+Global("QI#MiEdwinRomanceToB","GLOBAL",0)
+!GlobalTimerNotExpired("QI#MiEdwinTimerToB","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",TWO_DAYS)
+END
+
+//Talk2
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceToB","GLOBAL",1)
+!GlobalTimerNotExpired("QI#MiEdwinTimerToB","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",TWO_DAYS)
+END
+
+//Talk3
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceToB","GLOBAL",2)
+!GlobalTimerNotExpired("QI#MiEdwinTimerToB","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",TWO_DAYS)
+END
+
+//Talk4
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceToB","GLOBAL",3)
+Global("QI#MiEdwinChoice","GLOBAL",0)
+!GlobalTimerNotExpired("QI#MiEdwinTimerToB","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",FOUR_DAYS) 
+SetGlobalTimer("QI#MiEdwinLoveDecisionTimerToB","GLOBAL",ONE_DAY)
+END
+
+//Talk5
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#MiEdwinRomanceToB","GLOBAL",4)
+Global("QI#MiEdwinChoice","GLOBAL",2)
+!GlobalTimerNotExpired("QI#MiEdwinTimerToB","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",THREE_DAYS)
+END
+
+//Talk6
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#AcceptLove","GLOBAL",1)
+Global("QI#MiEdwinRomanceToB","GLOBAL",5)
+!GlobalTimerNotExpired("QI#MiEdwinTimerToB","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",TWO_DAYS)
+END
+
+//Talk7
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#AcceptLove","GLOBAL",1)
+Global("QI#MiEdwinRomanceToB","GLOBAL",6)
+!GlobalTimerNotExpired("QI#MiEdwinTimerToB","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",ONE_DAY)
+END
+
+//Talk8
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Global("QI#AcceptLove","GLOBAL",1)
+Global("QI#MiEdwinRomanceToB","GLOBAL",7)
+!Global("QI#MiAlignmentChange","GLOBAL",0)
+!GlobalTimerNotExpired("QI#MiEdwinTimerToB","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",TWO_DAYS)
+END
+
+//Talk9 - True Neutral
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Alignment("QI#Mi",NEUTRAL)
+Global("QI#AcceptLove","GLOBAL",1)
+Global("QI#MiEdwinRomanceToB","GLOBAL",8)
+!GlobalTimerNotExpired("QI#MiEdwinTimerToB","GLOBAL")
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",THREE_DAYS)
+END
+
+//Talk9 - Neutral Evil
+IF
+InParty(Myself)
+InParty("Edwin")
+CombatCounter(0) 
+!See([ENEMY])
+!StateCheck("Edwin",CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+Alignment("QI#Mi",NEUTRAL_EVIL)
+Global("QI#AcceptLove","GLOBAL",1)
+Global("QI#MiEdwinRomanceToB","GLOBAL",8)
+!GlobalTimerNotExpired("QI#MiEdwinTimerToB","GLOBAL")
+//Global("QI#MiEncounter2","GLOBAL",1)
+THEN
+RESPONSE #100
+Interact("Edwin")
+SetGlobalTimer("QI#MiEdwinTimerToB","GLOBAL",THREE_DAYS)
+END
+
+IF
+HotKey(K)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+StartCutScene("QI#MiF")
+END
