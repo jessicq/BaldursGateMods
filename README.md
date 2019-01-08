@@ -5,7 +5,7 @@ Self-started project that involves creating new NPCs, quests, dialogues, items, 
 Baldur's Gate Trilogy.
 
 Current Released Mod(s) Include:
-1. The Beaurin Legacy - Baldur's Gate II: Shadows of Amn (Throne of Bhaal currently in-progress)
+1. The Beaurin Legacy - Baldur's Gate II: Shadows of Amn & Throne of Bhaal and BGII:EE
 
 Topls/Resources Used: 
 1. Audacity by Sourceforge
