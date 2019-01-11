@@ -124,7 +124,7 @@
 @123 = ~My people?!~
 @124 = ~You assume that all elves are tree-huggers. Bah!~
 @125 = ~Not all of us are weak, some of us understand the meaning of power! It is clear that you know of no such thing.~
-@126 = ~I see you are tired Anomen. Why don't you lay down and let me massage your weary back?~ [QI#Mi164]
+@126 = ~I see you are tired, Anomen. Why don't you lay down and let me massage your weary back?~ [QI#Mi164]
 @127 = ~That does sound very nice, but I can see through your evil mind. What do you want from me?~
 @128 = ~Oh come now, Anomen. I am not as dark-hearted as you think I am.~
 @129 = ~However, you are correct. I do have a request from you, but it is a simple one. Will you hear me out?~
@@ -139,10 +139,10 @@
 @138 = ~Rat? No, no, no. Boo is a miniature giant space hamster!~
 @139 = ~Why did I even bother asking..?~
 @140 = ~Why are you so interested in what I have learned from Irenicus, Minyae?~
-@141 =  ~And why would I not be? It is chance of a lifetime, but you can fail to see the great opportunity you have lost.~ [QI#Mi167]
+@141 = ~And why would I not be? It is chance of a lifetime, but you can fail to see the great opportunity you have lost.~ [QI#Mi167]
 @142 = ~Irenicus is a bad person. I wouldn't wish my worst enemy to be in the situation I was in.~
-@143 = ~Then you are a fool.~
-@144 = ~I'd rather a fool then.~
+@143 = ~Then, you are a fool.~
+@144 = ~I'd rather be a fool.~
 @145 = ~You call yourself an enchanter, yet you have no friends. Why is that?~
 @146 = ~And now you want to talk? Hmph. What makes you think I want to answer your questions?~ [QI#Mi168]
 @147 = ~Because I found it odd.~
@@ -233,8 +233,8 @@
 @232 = ~You would take the lip balms? That's absurd!~
 @233 = ~You don't believe me? I had a great great aunt who didn't believe me either when I told her I was not going to hide a scorpion in her purse. But when she stuck her hand in her purse, she soon realized that the joke was on her. I would believe me if I were you.~
 @234 = ~I could put a curse on you gnome. Do you believe I would not do that gnome? I would believe me if I were you.~
-@235 = ~But you see Minny, it's not that I don't believe you, it's just that I *know* you wouldn't do that. You wouldn't risk such a gamble, especially when your favorite lip balm is at stake. And if I were you, I would call the gnome by his name or he might take away the supply of turnip lip balms forever.~
-@236 = ~Fine, you win Jan.~ 
+@235 = ~But you see, Minny, it's not that I don't believe you, it's just that I *know* you wouldn't do that. You wouldn't risk such a gamble, especially when your favorite lip balm is at stake. And if I were you, I would call the gnome by his name or he might take away the supply of turnip lip balms forever.~
+@236 = ~Fine. You win, Jan.~ 
 @237 = ~Boo informed me that you and Edwin are doing unspeakable acts! Tell me it isn't so!~
 @238 = ~I'm afraid your little rat is right, Minsc. Maybe you should learn to be more like it.~ [QI#Mi181]
 @239 = ~Why, Minyae? Why would you do that? He wanted to kill my beloved witch Dynaheir! He is a madman.~
@@ -245,7 +245,7 @@
 @244 = ~Your stuttering, pitiful, imbecile of a husband was and is weak, Jaheira.~
 @245 = ~NO! You dishonor the memory of our fellow friend Khalid and the kind Dynaheir!~
 @246 = ~Now, now everyone, let's not be hasty. While I would certainly enjoy seeing Edwin disintegrate what is left of your brain ranger, right now would not be the best time to do it.~
-@247 = ~Same with you Jaheira. As much as I would love to see Edwin burn you into ashes, we may need your skills for the days to come. Obviously you are not required to complete this quest, but it would be quite nice to have an extra hand when one needs it.~
+@247 = ~Same with you, Jaheira. As much as I would love to see Edwin burn you into ashes, we may need your skills for the days to come. Obviously you are not required to complete this quest, but it would be quite nice to have an extra hand when one needs it.~
 @248 = ~With that said, I think we should end our intriguing conversations before I can no longer handle this by batting my eyelashes at the lot of you.~
 @249 = ~ Do not speak to me in that tone, wench. I demand you tell me more of your 'magnum opus'. (What could she possibly be hiding?)~
 @250 = ~You do not refer to me as wench, bitch of Thay.~ [QI#Mi090]
@@ -333,7 +333,7 @@
 @332 = ~Well, when you phrase it like that...(No! She is a woman, she is attempting to trick you since you are in your weakened state!)~
 @333 = ~Edwin, how can I be lying to you? You are a woman, you are already in your most powerful form.~
 @334 = ~(Such treacherous lies!)~
-@335 = ~You will see for yourself one day Eddie.~
+@335 = ~You will see for yourself one day, Eddie.~
 @336 = ~Oh Edwina, I was wondering when you'd show up. I was starting to think you were having troubles putting on your nice red dress.~ [QI#Mi091]
 @337 = ~It is a ROBE made for only the most exceptional wizards! (If only I could be free of this wretched form and that cursed name!)~
 @338 = ~Oh? A robe you say? Is it a silken robe?~
@@ -353,7 +353,7 @@
 @352 = ~And here I thought we were getting on so well. So well in fact that I almost believed you would stop calling me wench.~
 @353 = ~But if it is an apology you are looking for, I suppose I can give you that.~
 @354 = ~*raises an eyebrow* For? (I require her to beg on her knees for forgiveness! I want her to gravel and kiss my feet!)~
-@355 = ~Now now Eddie, that's a little bit too extreme don't you think?~
+@355 = ~Now now, Eddie, that's a little bit too extreme don't you think?~
 @356 = ~But if you really insist on a apology, then I, Minyae Beaurin, am deeply apologetic for the way I have been behaving around your ladyship.~
 @357 = ~I have had enough of your babbling foolishness for today, but thank you...~
 @358 = ~Edwin. I want to let you know that I am here for you.~
@@ -409,7 +409,7 @@
 @408 = ~Regardless, I too am comfortable with our "standing".~
 @409 = ~Excellent.~
 @410 = ~Since we are now *ahem* intimately engaged...perhaps you would answer my inquiries, Minyae?~
-@411 = ~Wow Eddie. That was the nicest question I have ever heard from you. Of course you may ask since you so kindly asked.~
+@411 = ~Wow, Eddie. That was the nicest question I have ever heard from you. Of course you may ask since you so kindly asked.~
 @412 = ~Hmph. (How I put up with this woman, I will never know.)~
 @413 = ~I find myself pondering your past or your childhood. (It is normal for one to ask about someone's history after bedding them, yes? Or was it the other way around...)~
 @414 = ~I do not know of my true origin Edwin. But if I had to guess, I am moon elf and wood elf. Or I could just be a wood elf...and my life in the woods and on the streets have crippled my physical growth.~
@@ -425,7 +425,7 @@
 @424 = ~Eh? I don't waste my time focusing on stars.~
 @425 = ~But why not? When you look into the sky, can you not see the stories? Can you not imagine in your mind and draw pictures with the stars?~
 @426 = ~Look over there, use your addled brain and tell me what your human eyes see.~
-@427 = ~Stop with your foolishness Minyae. I see nothing but small, inconvenient balls of light in the dark sky. They make no pattern, and there is nothing exceptional about them at all. (Nothing is as exceptional as I!)~
+@427 = ~Stop with your foolishness, Minyae. I see nothing but small, inconvenient balls of light in the dark sky. They make no pattern, and there is nothing exceptional about them at all. (Nothing is as exceptional as I!)~
 @428 = ~I am slightly disappointed that you would find such mential things intriguing.~
 @429 = ~But are they really that meaningless Edwin? The stars are the moon's companions. They help her guide weary travelers through forests - the moon and her comrades aid this party as well.~
 @430 = ~And when the moon is too tired to shine, her companions lend her a helping hand. They let her rest while they take up the moon's burden.~
