@@ -159,7 +159,7 @@
 @158 = ~I thought we were above such petty quarrels. I thought we were on to more vigorous topics, specifically ones that require proof of concept and evidence. But if not, I guess you would not mind if I tell <CHARNAME> or anyone really, how you like your beard scratched, hm?~
 @159 = ~No, no. You have made your point loud and clear. (Not the beard!)~ 
 @160 = ~Good.~ 
-@161 = ~What are your thoughts on the inhabitants of Saradush, the god-forsaken place?~
+@161 = ~What are your thoughts on the inhabitants of Saradush, the god-forsaken place?~ [QI#Mi132]
 @162 = ~These monkeys will not survive if not for these walls that barricade their pathetic selves.~
 @163 = ~So I take it you do not sympathize with them?~
 @164 = ~Why would I give a second glance to this rabble? They should feel grateful that I bless them with my presence! (Does this woman think me a fool?)~
@@ -174,7 +174,7 @@
 @173 = ~Your speculations are laughable. You will never face such an obstacle.~
 @174 = ~And how can you be so sure?~
 @175 = ~I will not allow that to happen to you.~
-@176 = ~I know that look on your face. You have something on your mind, don't you?~
+@176 = ~I know that look on your face. You have something on your mind, don't you?~ [QI#Mi133]
 @177 = ~I find it odd that throughout all of discussions, we have never discussed the situation about your sister. Why is that? (Yes...why is that?)~
 @178 = ~Her memory is best forgotten. The elven maiden we fought before, she was not my sister. My sister would have never laid a finger on me, she would have always protected me no matter the cost. My sister died a long time ago.~
 @179 = ~That may appear so, but you cannot dismiss the fact that your sister has exploited a weakness.~ 
@@ -187,7 +187,7 @@
 @186 = ~But if you do not recognize your own flaw, then your doom will be closer than you think.~
 @187 = ~I suppose you are right, and what do you propose I do about it then?~
 @188 = ~(Good question.) I do not know how to answer your dilemma, but we will find out together.~
-@189 = ~That look of longing on your face...you are thinking of the festivities in Suldanessellar?~
+@189 = ~That look of longing on your face...you are thinking of the festivities in Suldanessellar.~ [QI#Mi136]
 @190 = ~I miss the luxurious feasts and the worship from the elves in Suldanessellar. (Oh how they knelt before me!)~
 @191 = ~I did not realize that you were capable of missing anything, Eddie. What has changed you?~
 @192 = ~Who would not gladly revel in the praises of those simians? Watching them shower you with gifts and kiss your feet as if we were gods! (The food was definitely a winner too.)~
@@ -202,7 +202,7 @@
 @201 = ~If you were so "high and mighty" as you so claim to be, you would be able to discern that I feel a somewhat equivalent way. Do you think I would waste my nights of sleep deep in conversation with a monkey? NO.~ 
 @202 = ~Oh. I did not realize -~
 @203 = ~You do not realize many things.~
-@204 = ~I feel your eyes on me, Red Wizard. Is something the matter?~
+@204 = ~I feel your eyes on me, Red Wizard. Is something the matter?~ [QI#Mi137]
 @205 = ~I have something to share with you. (These thoughts are bursting through and I can no longer restrain them - they must be relieved!)~
 @206 = ~Can it not wait, Edwin? This is clearly not the time to be sharing any sort of information with me. Everyone can hear us. And it sounds like whatever you are about to say should be private.~
 @207 = ~I don't care if monkeys listen.~
@@ -220,7 +220,7 @@
 @219 = ~I will not leave you be! Woman, do you think any ordinary man would put up with your stubborn behavior? Your constant pestering? Your perpetual demands and complaints of others and your daily life struggles - I have listened to your every whim and word. Can you not see that I care for you?!~
 @220 = ~I cannot handle this at the moment, if you truly do care for me, you will give me my time.~
 @221 = ~So be it.~
-@222 = ~Edwin, it is very urgent that I speak to you now, before I change my mind.~
+@222 = ~Edwin, it is very urgent that I speak to you now, before I change my mind.~ [QI#Mi139]
 @223 = ~What could you possibly want now?! Your avoidance from me has been noticeable.~
 @224 = ~I am truly sorry for how I acted before. I acted immaturely, and you did not deserve that, you never did.~
 @225 = ~Hmph. (When do I deserve anything less than the best?)~
@@ -237,7 +237,7 @@
 @236 = ~Edwin, I am sorry. I truly am.~
 @237 = ~May you find peace in your life, and I hope you will learn to love another who can give you all that you could ever want.~
 @238 = ~Impetulant fool! (She will never understand.)~
-@239 = ~And what do you think you're doing Edwin?~
+@239 = ~And what do you think you're doing, Edwin?~ [QI#Mi140]
 @240 = ~I can do whatever I please. What I do is no business of yours! (Who does this woman think she is?!)~
 @241 = ~You know damn well what I am talking about.~
 @242 = ~I saw you rummaging through my bag! I saw you take something from it!~
@@ -260,7 +260,7 @@
 @259 = ~To express the emotions I feel around you.~
 @260 = ~I -. It's beautiful Edwin, thank you.~
 @261 = ~Hmph. (Finally, some appreciation!)~
-@262 = ~I have come to the realization that you are a human and what it really means to me.~
+@262 = ~I have come to the realization that you are a human and what it really means to me.~ [QI#Mi141]
 @263 = ~Really? I am astounded by your sense of detection and astuteness. Such ingenious has never been seen before! (She must be on to something...)~
 @264 = ~Ha ha, very funny, Eddie.~
 @265 = ~As I was saying, you are a human, and I am an elf.~
@@ -306,7 +306,7 @@
 @305 = ~We will attempt it, Edwin. I will do this for you, we will be strong together. No one will dare oppose us.~
 @306 = ~Excellent! (I will be even more powerful than that pointy-hat wizard, Elminster!)~
 @307 = ~Regardless, there are other tasks at hand that need more attention. This is something to ponder after all of this is over. For now, we will enjoy whatever peace we have left before the fight begins again.~
-@308 = ~Don't just stand there and gawk at me. Speak.~
+@308 = ~Don't just stand there and gawk at me. Speak.~ [QI#Mi144]
 @309 = ~What has caused the change in your heart, Minyae?~
 @310 = ~What are you talking about, Eddie?~
 @311 = ~The way you survey your surroundings, the way you enunciate your words, even the sparkle in your eyes when you speak to me, there is something different about you.~

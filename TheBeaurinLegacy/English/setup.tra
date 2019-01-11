@@ -105,7 +105,7 @@ Weight: 1~
 @89 = ~There was no mention of Minyae after parting ways with <CHARNAME>'s company. However, there were rumors of a purple-hooded figure taking away young children in the dark of night circulating in large cities, with an abnormally large amount of lower class citizens. It was only until many years later when she made her reappearance, but the sightings did not come from this plane, but from another. She was seen raiding through ancient tombs and libraries, always in search of more knowledge with legions of the undead at her beckon. Eventually, the order in which her sister had died for, found her and attempted to end her life, but all were met with a horrendous death; they were resurrected later, only to serve Minyae in death. Fear struck all who dared utter the name "Beaurin" and if there is one thing that still holds true to this day, it is that the Beaurin legacy will live on.~
 @90 = ~Edwin and Minyae were considered one of the most renowned adventurers with their travels with <CHARNAME>, and in the years following their association they would exploit that. In time, they achieved enough influence to subjugate even the Red Wizards themselves, becoming the greatest leaders they had known in recent memory. During this time, Minyae returned to dark thoughts transforming her human lover into a lich but ultimately, she dismissed the thought for reasons she would not discuss with him. She kept to herself for a few months, hiding her growing secret from the public eye and her beloved. Edwin had grown impatient and frustrated with her, but in time, he would realize that there were other ways that his legacy would live on. The birth of their daughter and the following days after, were the happiest and the bitterest days for the both of them. The birth of Edwin's daughter came upon the ears of his enemies in Thay, as well as the weakened state of his advisor and lover. The Red Wizards seized this opportunity to rise up against Edwin and Minyae and successfully captured the control of the city once again.
 
-The three barely managed to escape with their lives and have been on the run ever since. After many years of relocating and staying away from their adversaries, the Red Wizards finally caught up to the trio. Their daughter mysteriously vanished and Edwin was driven to madness. Minyae became infuriated with the insanity of her lover and the disappearance of her child, so she took it upon herself to launch a crusade against the Red Wizards in the hopes of finding her daughter. It is said that till this very day, she is still searching for her lost daughter.~
+The three barely managed to escape with their lives and have been on the run ever since. After many years of relocating and staying away from their adversaries, the Red Wizards finally caught up to the trio. Their daughter mysteriously vanished and Edwin was driven to madness. Minyae became infuriated with the insanity of her lover and the disappearance of her child, so she took it upon herself to launch a crusade against the Red Wizards in the hopes of finding her daughter. It is said that till this very day, she is still searching for her lost daughter - leaving the Beaurin legacy unknown.~
 @91 = ~Edwin and Minyae gained great infamy in their travels with <CHARNAME>, and in the years following their association, they would exploit that infamy. In time, they achieved enough influence to subjugate even the Red Wizards themselves, becoming the greatest leaders they had known in recent memory. During this time, Edwin and Minyae were ready to solidify their legacy by becoming liches so that they could rule Thay for an eternity. However, before their plans could come into fruition, Minyae disappeared for reasons unknown to Edwin.
 
 It was later discovered that she had taken refuge in the forests near Velen, however, she was not alone. Sightings from nearby villages and towns confirm the presence of a very young boy, who wore a necklace similar to those of a certain Red Wizard, was constantly at her side. The duo led a rather quiet life until one fateful day. Upon returning from a nearby village, Minyae was astonished to see her former lover greeting her. However, their greeting was not a pleasant one and a terrible battle was fought. In the end, Minyae was no match for the Red Wizard and as he was about to strike the killing blow, her son blocked the attack but it ultimately cost him his life. Overcome with a great sadness, Minyae struggled to reach her dying son. She did not notice the sudden departure of Edwin Odesseiron, nor did she realize that he had spared her.
@@ -166,8 +166,8 @@ Requires:
 Weight: 1~
 @102 = ~Installing crossmod for The Beaurin Legacy for BGII~
 @103 = ~The Beaurin Legacy mod needs to be installed.~
-@104 = ~Ajantis BG2 mod detected. Installing crossmod content...~
-@105 = ~Ajantis BG2 mod has not been detected. Please install The Beaurin Legacy crossmod component after installing the Ajantis BG2 mod!~
+@104 = ~~
+@105 = ~~
 @106 = ~Willias~
 @107 = ~Aneila~
 @108 = ~Kaldava~
@@ -175,21 +175,4 @@ Weight: 1~
 @110 = ~Dusty Tome~
 @111 = ~A dusty, old tome that reveals nothing but blank pages when opened. This object would only be of use to Minyae.~
 @112 = ~Skeleton Warrior~
-@113 = ~Verr'Sza BG2 mod detected. Installing crossmod content...~
-@114 = ~Verr'Sza BG2 mod has not been detected. Please install The Beaurin Legacy crossmod component after installing the Verr'Sza BG2 mod!~
-@115 = ~Auren Aseph mod detected. Installing crossmod content...~
-@116 = ~Auren Aseph mod has not been detected. Please install The Beaurin Legacy crossmod component after installing the Auren Aseph mod!~
-@117 = ~Sarah mod detected. Installing crossmod content...~
-@118 = ~Sarah mod has not been detected. Please install The Beaurin Legacy crossmod component after installing the Sarah mod!~
-@119 = ~Isra mod detected. Installing crossmod content...~
-@120 = ~Isra mod has not been detected. Please install The Beaurin Legacy crossmod component after installing the Isra mod!~
-@121 = ~Adrian mod detected. Installing crossmod content...~
-@122 = ~Adrian mod has not been detected. Please install The Beaurin Legacy crossmod component after installing the Adrian mod!~
-@123 = ~Yvette mod detected. Installing crossmod content...~
-@124 = ~Skie: The Cost of One Girl's Soul mod has not been detected. Please install The Beaurin Legacy crossmod component after installing the Skie: The Cost of One Girl's Soul mod!~
-@125 = ~Skie: The Cost of One Girl's Soul mod detected. Installing crossmod content...~
-@126 = ~Foundling mod has not been detected. Please install The Beaurin Legacy crossmod component after installing the Foundling mod!~
-@127 = ~Foundling mod detected. Installing crossmod content...~
-@128 = ~Will mod has not been detected. Please install The Beaurin Legacy crossmod component after installing the Will mod!~
-@129 = ~Will mod detected. Installing crossmod content...~ 
-@130 = ~Yvette mod has not been detected. Please install The Beaurin Legacy crossmod component after installing the Yvette mod!~
+
