@@ -19,4 +19,4 @@ Topls/Resources Used:
 9. Shadowkeeper by Mudmaster
 10. Zamzar by Zamzar
 
-*Huge thank you to the staff at Gibberlings3 for hosting The Beaurin Legacy!! (http://www.gibberlings3.net/)*
+*Huge thank you to the staff at Gibberlings3 for hosting The Beaurin Legacy!! (https://www.gibberlings3.net/mods/npcs/beaurin/)*
