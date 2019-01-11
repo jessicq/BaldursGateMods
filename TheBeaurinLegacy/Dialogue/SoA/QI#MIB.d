@@ -134,12 +134,12 @@ See("QI#Mi")
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 CombatCounter(0)
 Global("QI#MiHaerDalis2","GLOBAL",0)~ THEN BHAERDA QI#MiHaerDalis2
-@48
+@49
 DO ~SetGlobal("QI#MiHaerDalis2","GLOBAL",1)~
-== QI#MIB @49
-== BHAERDA @50
-== QI#MIB @51
-== BHAERDA @52
+== QI#MIB @50
+== BHAERDA @51
+== QI#MIB @52
+== BHAERDA @53
 EXIT
 
 //Jan
@@ -150,15 +150,15 @@ See("Jan")
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 CombatCounter(0)
 Global("QI#MiJan2","GLOBAL",0)~ THEN QI#MIB QI#MiJan2
-@53
+@54
 DO ~SetGlobal("QI#MiJan2","GLOBAL",1)~
-== BJAN @54
-== QI#MIB @55
-== BJAN @56
-== QI#MIB @57
-== BJAN @58
-== QI#MIB @59
-== BJAN @60
+== BJAN @55
+== QI#MIB @56
+== BJAN @57
+== QI#MIB @58
+== BJAN @59
+== QI#MIB @60
+== BJAN @472
 == QI#MIB @61
 == BJAN @62
 EXIT
