@@ -2,10 +2,14 @@
 Mods written using the Infinity Engine for BioWare's critically acclaimed RPG.
 
 Self-started project that involves creating new NPCs, quests, dialogues, items, audio, music, etc. to integrate into the
-Baldur's Gate Trilogy.
+Baldur's Gate Trilogy: Enhanced Edition (enhanced by Beamdog).
+
+Currently In-Progress:
+1. Hala - Baldur's Gate I: Enhanced Edition
+2. Telzi - Siege of Dragonspear
 
 Current Released Mod(s) Include:
-1. The Beaurin Legacy - Baldur's Gate II: Shadows of Amn & Throne of Bhaal and BGII:EE
+1. The Beaurin Legacy - Baldur's Gate II: Shadows of Amn & Throne of Bhaal Enhanced Edition
 
 Topls/Resources Used: 
 1. Audacity by Sourceforge
