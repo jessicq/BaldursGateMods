@@ -1,0 +1,241 @@
+BACKUP ~Hala_BG1/backup~
+AUTHOR ~jmaeq~
+VERSION ~v1.0~
+
+// Crossplatform var stuff blatantly stolen from cmorgan/gavin/bg1npc!
+ALWAYS
+ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
+  /*Tell the player it is using BG:EE stuff */
+  PRINT ~BG:EE install detected~
+  INCLUDE ~Hala_BG1\Libraries\liam_bgee_vars.tpa~
+END ELSE BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
+    /* Tell the player it is using Tutu stuff */
+    PRINT ~Tutu install detected.~
+    INCLUDE ~Hala_BG1\Libraries\g3_tutu_cpmvars.tpa~
+  END ELSE BEGIN
+    ACTION_IF FILE_EXISTS_IN_GAME ~AR7200.are~ THEN BEGIN
+        /* Tell the player it is using BGT stuff */
+        PRINT ~BGT install detected.~
+        INCLUDE ~Hala_BG1\Libraries\g3_bgt_cpmvars.tpa~
+        /* Tell the player it is not Tutu or BGT */
+    END ELSE BEGIN FAIL ~Please install on BG:EE, Tutu or BGT.~
+    END
+  END
+END
+END
+
+BEGIN ~Hala for BG:EE~
+
+APPEND ~STATE.IDS~ // adds custom IsValidForPartyDialogue state
+  ~0x80101FEF CD_STATE_NOTVALID~
+  UNLESS ~CD_STATE_NOTVALID~
+  
+  
+// Fixing Imoen's dialogue file
+  /* Tutu: Giving Imoen a banter file entry in the interdi.2da */
+  ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
+    APPEND ~interdia.2da~ ~IMOEN                    _BIMOEN~ UNLESS ~_\(BIMOEN\|bimoen\)~
+  END
+  /* BGT: Giving Imoen a banter file if the Fixpack isn't installed */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~cdbehbla.pro~) AND (FILE_EXISTS_IN_GAME ~AR7200.are~) THEN BEGIN
+    ACTION_IF FILE_EXISTS_IN_GAME ~saradush.mve~ THEN BEGIN
+      COPY_EXISTING ~interdia.2da~ ~override~
+        SET_2DA_ENTRY 17 1 2 ~BIMOEN2~ // fixes ToB version
+      BUT_ONLY_IF_IT_CHANGES
+    END ELSE BEGIN
+        APPEND ~interdia.2da~ ~IMOEN       BIMOEN2~ // fixes SoA version
+        UNLESS ~BIMOEN2~
+    END
+  END
+  
+      /* Imoen BIMOEN.DLG rebuild */
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME ~_bimoen.dlg~) AND (FILE_EXISTS_IN_GAME ~FW0100.are~) THEN BEGIN
+    COMPILE ~Hala_BG1/Dialogue/x#bimoen_tutu.d~
+  END ELSE BEGIN
+    ACTION_IF NOT (FILE_EXISTS_IN_GAME ~bimoen2.dlg~) AND (FILE_EXISTS_IN_GAME ~AR7200.are~) THEN BEGIN
+      COMPILE ~Hala_BG1/Dialogue/x#bimoen_bgt.d~
+    END
+  END
+  
+    /* ACTION.IDS and TRIGGER.IDS patching to ToB - thanks, Cam, if you read it */
+  /* and GTIMES.IDS, ANIMATE.IDS patching to ToB, courtesy of the BG2 Fix Pack */
+  INCLUDE ~Hala_BG1/Libraries/ids_entries_cleanup.tph~
+  
+  /* Tutu Area Script Assignment Patching: All Areas Script ID'd */
+ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
+  INCLUDE ~Hala_BG1/Libraries/tutu_area_script_assign.tph~
+END
+
+/* Area Type Flagging */
+/* ToSC only: Tutu and BGT */
+ACTION_IF (FILE_EXISTS_IN_GAME ~FW1500.are~) OR (FILE_EXISTS_IN_GAME ~ARW500.are~) THEN BEGIN // if TotSC is installed
+  COPY_EXISTING ~%IsleofBalduranN%.are~ ~override~
+                ~%IsleofBalduranS%.are~ ~override~
+                ~%DurlagsTower%.are~ ~override~
+                ~%Farmlands%.are~ ~override~
+    READ_BYTE  "0x48" "flags"
+    WRITE_BYTE "0x48" ("%flags%" BOR "0b00010001")
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ /* FOREST and OUTDOOR: Tutu and BGT */
+ACTION_IF (FILE_EXISTS_IN_GAME ~FW0100.are~) OR (FILE_EXISTS_IN_GAME ~AR7200.are~) THEN BEGIN
+  COPY_EXISTING ~%FishingVillage%.are~ ~override~
+                ~%Peldvale%.are~ ~override~
+                ~%LionsWay%.are~ ~override~
+                ~%CoastWay%.are~ ~override~
+                ~%Larswood%.are~ ~override~
+                ~%ShipwrecksCoast%.are~ ~override~
+                ~%HighHedge%.are~ ~override~
+                ~%MutaminsGarden%.are~ ~override~
+                ~%Lighthouse%.are~ ~override~
+                ~%RedCanyons%.are~ ~override~
+                ~%SouthBeregostRoad%.are~ ~override~
+                ~%Ulcaster%.are~ ~override~
+                ~%ArchaeologicalSite%.are~ ~override~
+                ~%FishermansLake%.are~ ~override~
+                ~%NorthNashkelRoad%.are~ ~override~
+                ~%LonelyPeaks%.are~ ~override~
+                ~%FirewineBridge%.are~ ~override~
+                ~%BearRiver%.are~ ~override~
+                ~%ValleyoftheTombs%.are~ ~override~
+                ~%DryadFalls%.are~ ~override~
+                ~%FireLeafForest%.are~ ~override~
+                ~%GibberlingMountains%.are~ ~override~
+    READ_BYTE  "0x48" "flags"
+    WRITE_BYTE "0x48" ("%flags%" BOR "0b00010001")
+    BUT_ONLY_IF_IT_CHANGES
+
+/* OUTDOOR ONLY: Tutu and BGT */
+COPY_EXISTING ~%GnollStronghold%.are~ ~override~
+              ~%NashkelMines%.are~ ~override~
+              ~%FriendlyArmInn%.are~ ~override~
+              ~%Temple%.are~ ~override~
+              ~%NashkelCarnival%.are~ ~override~
+  READ_BYTE  "0x48" "flags"
+  WRITE_BYTE "0x48" ("%flags%" BOR "0b00000001")
+  BUT_ONLY_IF_IT_CHANGES
+
+/* CITY and OUTDOOR */
+COPY_EXISTING ~%WyrmsCrossing%.are~ ~override~
+              ~%Candlekeep_Ch6%.are~ ~override~
+              ~%Gullykin%.are~ ~override~
+  READ_BYTE  "0x48" "flags"
+  WRITE_BYTE "0x48" ("%flags%" BOR "0b00001001")
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+COPY ~Hala_BG1/Audio~ ~override~
+
+COPY ~Hala_BG1/Creatures/QI#HALA.cre~ ~override/QI#HALA.cre~
+
+SAY NAME1 ~Hala~
+SAY NAME2 ~Hala~
+
+SAY BIO ~When asked about her past, HALA proudly states that she is Hala yr Oma, and she is the eldest of five sisters. She does not mention her father but she claims that the love for each other in her family was all she needed in life. When asked of more current events, her face becomes sullen as she continues to speak. She explains that a series of tragic events has led her to the life she is currently leads and that the sooner she is able to resolve the task at hand, the sooner she will be able to reunite with her family.~
+SAY UNHAPPY_SERIOUS ~Your lack of sanity is obvious. I must be rid of it.~ [QI#HALAd]
+SAY LEADER ~If you insist, I will lead as best as I can, but I can make no promises.~ [QI#HALAe]
+SAY TIRED ~Sleep will be most welcome.~ [QI#HALAf]
+SAY BORED ~It will take a miracle to fulfill all your wishes.~ [QI#HALAg]
+SAY AREA_NIGHT ~The shroud of darkness is the perfect time to hunt.~ [QI#HALAh]
+SAY AREA_DAY ~To be able to breathe in the fresh, crisp air is a blessing all on its own.~ [QI#HALAi]
+SAY AREA_DUNGEON ~The shroud of darkness is the perfect time to hunt.~ [QI#HALAh]
+SAY AREA_CITY ~Laws are spider webs through which the big flies pass, and the little ones get caught.~ [QI#HALAj]
+SAY AREA_FOREST ~Seeing the lush greenery is always a sight for sore eyes.~ [QI#HALAk]
+SAY BATTLE_CRY1 ~You are on death's doorstep!~ [QI#HALAl]
+SAY BATTLE_CRY2 ~You are nothing but fodder!~ [QI#HALAm]
+SAY BATTLE_CRY3 ~You will not outlive this day.~ [QI#HALAn]
+SAY BATTLE_CRY4 ~You are nothing but fodder!~ [QI#HALAm]
+SAY BATTLE_CRY5 ~You will not outlive this day.~ [QI#HALAn]
+SAY DAMAGE ~Ugh!~ [QI#HALAo]
+SAY DYING ~I had hoped for better.~ [QI#HALAp]
+SAY HURT ~I'm needed elsewhere! My life cannot end here.~ [QI#HALAq]
+SAY SELECT_COMMON1 ~Hm.~ [QI#HALAr]
+SAY SELECT_COMMON2 ~Say what's on your mind.~ [QI#HALAs]
+SAY SELECT_COMMON3 ~What say you?~ [QI#HALAt]
+SAY SELECT_COMMON4 ~Yes?~ [QI#HALAu]
+SAY SELECT_COMMON5 ~Is there something I can help you with?~ [QI#HALAv]
+SAY SELECT_COMMON6 ~Say what's on your mind.~ [QI#HALAs]
+SAY SELECT_ACTION1 ~Certainly.~ [QI#HALAw]
+SAY SELECT_ACTION2 ~I will be there.~ [QI#HALAx]
+SAY SELECT_ACTION3 ~That can most certainly be done.~ [QI#HALAy]
+SAY SELECT_ACTION4 ~Yes, I can do that.~ [QI#HALAz]
+SAY SELECT_ACTION5 ~Soon. I'll be there soon.~ [QI#HALA1]
+SAY SELECT_ACTION6 ~Your wish is my command.~ [QI#HAL01]
+SAY SELECT_ACTION7 ~That is something I can do.~ [QI#HAL02]
+SAY CRITICAL_HIT ~How lovely!~ [QI#HALA2]
+SAY CRITICAL_MISS ~Mark my words - I will get it next time!~ [QI#HALA3]
+SAY TARGET_IMMUNE ~Curses!~ [QI#HAL03]
+SAY INVENTORY_FULL ~You must be mistaken. I simply have no more room for that so, I've dropped it.~ [QI#HALA4]
+SAY SELECT_RARE1 ~Wherever there is faith as slender as one strand of the spider's web, there the fullness of redeeming grace is active.~ [QI#HALA5]
+SAY SELECT_RARE2 ~It takes time to weave around, be patient!~ [QI#HALA6]
+SAY PICKED_POCKET ~This is yours no longer.~ [QI#HALA7]
+SAY SPELL_DISRUPTED ~Curses! I've lost the spell.~ [QI#HALA8]
+SAY HIDDEN_IN_SHADOWS ~Now you see me, now you don't.~ [QI#HALA9]
+SAY SET_A_TRAP ~~ []
+
+COMPILE EVALUATE_BUFFER ~Hala_BG1/Dialogue/QI#HALA.d~
+COMPILE EVALUATE_BUFFER ~Hala_BG1/Dialogue/QI#HALAP.d~
+
+/* ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
+  COMPILE EVALUATE_BUFFER ~Hala_BG1/Dialogue/QI#HALAee.d~
+END */
+
+
+ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
+  // Area scripts
+  EXTEND_TOP ~_AR3307.bcs~ ~Hala_BG1/Scripts/fw3307.baf~ EVALUATE_BUFFER
+
+END ELSE BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~AR7200.are~ THEN BEGIN
+
+    // Area scripts
+    EXTEND_TOP ~AR6707.bcs~ ~Hala_BG1/Scripts/fw3307.baf~ EVALUATE_BUFFER
+
+  END ELSE BEGIN
+    ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
+
+     // Area scripts
+     EXTEND_TOP ~AR3307.bcs~ ~Hala_BG1/Scripts/fw3307.baf~ EVALUATE_BUFFER
+
+  END
+END
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~FW0100.are~) OR (FILE_EXISTS_IN_GAME ~ar7200.are~) THEN BEGIN
+   COPY ~Hala_BG1/Portraits/BG/HalaL.bmp~ ~override/HalaL.bmp~
+   COPY ~Hala/Portraits/BG/HalaM.bmp~ ~override/HalaM.bmp~
+   COPY ~Hala/Portraits/BG/HalaS.bmp~ ~override/HalaS.bmp~
+END ELSE BEGIN ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
+   COPY ~Hala/Portraits/BGee/HalaL.bmp~ ~override/HalaL.bmp~
+   COPY ~Hala/Portraits/BGee/HalaM.bmp~ ~override/HalaM.bmp~
+   COPY ~Hala/Portraits/BGee/HalaS.bmp~ ~override/HalaS.bmp~
+   END
+END
+  
+LAF HANDLE_AUDIO END
+
+APPEND ~pdialog.2da~
+~QI#HALA QI#HALAP QI#HALAJ QI#HALAD~
+UNLESS ~QI#HALA~
+
+APPEND ~interdia.2da~ 
+~QI#HALA QI#HALAB~
+UNLESS ~QI#HALA~
+
+BEGIN ~Alternative Portrait 1 by wayleri at DeviantArt~
+  SUBCOMPONENT ~Alternative 1 Hala Portrait Without Veil~
+  REQUIRE_FILE ~Hala/Setup-Hala_BG1.tp2~ ~You must have Hala installed to select this option.~
+  ACTION_IF (FILE_EXISTS_IN_GAME ~FW0100.are~) OR (FILE_EXISTS_IN_GAME ~ar7200.are~) 
+  THEN BEGIN
+   COPY ~Hala/Portraits/BG/Halt1L.bmp~ ~override/HalaL.bmp~
+   COPY ~Hala/Portraits/BG/Halt1M.bmp~ ~override/HalaM.bmp~
+   COPY ~Hala/Portraits/BG/Halt1S.bmp~ ~override/HalaS.bmp~
+  END ELSE BEGIN ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ 
+  THEN BEGIN
+   COPY ~Hala/Portraits/BGee/Halt1L.bmp~ ~override/HalaL.bmp~
+   COPY ~Hala/Portraits/BGee/Halt1M.bmp~ ~override/HalaM.bmp~
+   COPY ~Hala/Portraits/BGee/Halt1S.bmp~ ~override/HalaS.bmp~
+  END
+END 

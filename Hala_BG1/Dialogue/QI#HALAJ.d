@@ -1,0 +1,1 @@
+BEGIN QI#HALAJ
