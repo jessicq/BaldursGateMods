@@ -5,8 +5,8 @@ Self-started project that involves creating new NPCs, quests, dialogues, items, 
 Baldur's Gate Trilogy: Enhanced Edition (enhanced by Beamdog).
 
 Currently In-Progress:
-1. Hala - Baldur's Gate I: Enhanced Edition
-2. Telzi - Siege of Dragonspear
+1. Hala - Baldur's Gate I: Enhanced Edition (Nov. 2018 - )
+2. Telzi - Siege of Dragonspear (Jan. 2019 - )
 
 Current Released Mod(s) Include:
 1. The Beaurin Legacy - Baldur's Gate II: Shadows of Amn & Throne of Bhaal Enhanced Edition (July 2017 - Jan. 2019)
