@@ -9,7 +9,7 @@ Currently In-Progress:
 2. Telzi - Siege of Dragonspear
 
 Current Released Mod(s) Include:
-1. The Beaurin Legacy - Baldur's Gate II: Shadows of Amn & Throne of Bhaal Enhanced Edition
+1. The Beaurin Legacy - Baldur's Gate II: Shadows of Amn & Throne of Bhaal Enhanced Edition (July 2017 - Jan. 2019)
 
 Topls/Resources Used: 
 1. Audacity by Sourceforge
