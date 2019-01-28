@@ -53,7 +53,7 @@ SAY ~That is kind of you.~
 END
 
 IF ~~ tIntro1.0.1a
-SAY ~I don't need to know many people.~
+SAY ~I do not need to know many people.~
 ++ ~Sure...anyway, what can you offer me in return for saving you?~ + tIntro1.0.2
 ++ ~Okay, well, you are free to go.~ + tIntro1.0.5
 ++ ~I expected as much, but you look like you can hold your own ground. We could use someone like you.~ + tIntro1.1
@@ -76,7 +76,7 @@ SAY ~It means that you smell differently than others.~
 END 
 
 IF ~~ tIntro1.0.1bc
-SAY ~You're welcome.~
+SAY ~You are welcome.~
 ++ ~...I was being sarcastic.~ + tIntro1.0.1d
 ++ ~Okay, well, what can you offer me?~ + tIntro1.0.2
 ++ ~Anyway, like I said, I couldn't let them hurt you.~ + tIntro1.0.2
@@ -121,7 +121,7 @@ IF ~~ DO ~EscapeArea() SetGlobal("QI#TelziEncounter1","GLOBAL",2)~ EXIT
 END
 
 IF ~~ tIntro1.1
-SAY ~I don't like to travel with strangers.~
+SAY ~I do not like to travel with strangers.~
 ++ ~You'll get to know me as we travel together.~ + tIntro1.2
 ++ ~You must be the life of the party in all the taverns, aren't you?~ + tIntro1.1.1
 ++ ~Fine, I just thought it would be better for you to travel with me than on your own.~ + tIntro1.1.2
@@ -142,7 +142,7 @@ SAY ~It is best if I travel alone.~
 END
 
 IF ~~ tIntro1.2
-SAY ~I don't need to know you.~
+SAY ~I do not need to know you.~
 ++ ~I give up. I'm not arguing with you.~ + tIntro1.2.1
 ++ ~Well, I think you do.~ + tIntro1.2.2
 ++ ~Are you sure about that?~ + tIntro1.2.3
@@ -160,14 +160,14 @@ SAY ~There was no argument to begin with.~
 END
 
 IF ~~ tIntro1.2.2
-SAY ~I don't.~
+SAY ~I do not.~
 ++ ~I give up. I'm not arguing with you.~ + tIntro1.2.1
 ++ ~Are you sure about that?~ + tIntro1.2.3
 ++ ~You do.~ + tIntro1.2.2a
 END
 
 IF ~~ tIntro1.2.2a
-SAY ~No, I don't.~
+SAY ~I do not.~
 ++ ~I give up. I'm not arguing with you.~ + tIntro1.2.1
 ++ ~Are you sure about that?~ + tIntro1.2.3
 ++ ~You do.~ + tIntro1.2.2b
@@ -190,7 +190,7 @@ SAY ~Yes.~
 END
 
 IF ~~ tIntro1.3
-SAY ~No. I don't like traveling with strangers.~
+SAY ~No. I do not like traveling with strangers.~
 ++ ~You'll get to know me as we travel together.~ + tIntro1.2
 ++ ~Fine, I just thought it would be better for you to travel with me than on your own.~ + tIntro1.1.2
 ++ ~Makes sense. Safe travels to you.~ + tIntro1.0.5
@@ -199,7 +199,7 @@ END
 
 // Second Encounter
 IF ~Global("QI#TelziEncounter1","GLOBAL",2)~ SecondEncounter1.0
-SAY ~I don't like this situation that you always find me in.~
+SAY ~I do not like this situation that you always find me in.~
 ++ ~Don't put yourself in these types of situations then.~ + SecondEncounter1.0.1
 ++ ~You should've traveled with me in the first place.~ + SecondEncounter1.0.2
 ++ ~This is the second time I've saved your hide.~ + SecondEncounter1.0.3
@@ -207,7 +207,7 @@ SAY ~I don't like this situation that you always find me in.~
 END
 
 IF ~~ SecondEncounter1.0.1
-SAY ~Hmph. I don't put myself in these situations. It just happens to me.~
+SAY ~Hmph. I do not put myself in these situations. It just happens to me.~
 ++ ~So it seems.~ + SecondEncounter1.0.1a
 ++ ~Yes, well, now that I have already proven that you need me, why don't you join me?~ + SecondEncounter1.0.2
 ++ ~Well, hopefully it doesn't happen again.~ + SecondEncounter1.0.1b
@@ -220,7 +220,7 @@ SAY ~It is what it is.~
 END
 
 IF ~~ SecondEncounter1.0.1b
-SAY ~Yes, let's hope.~
+SAY ~Yes, let us hope.~
 ++ ~What will you do now?~ + SecondEncounter1.1
 ++ ~Anyway, I have other things to attend to. Try not to get into trouble again, I might not be there to help you out.~ + SecondEncounter1.0.4a
 END
@@ -243,7 +243,7 @@ IF ~~ + SecondEncounter.0
 END
 
 IF ~~ SecondEncounter1.0.4a
-SAY ~I won't.~
+SAY ~I will not.~
 IF ~~ + SecondEncounter.0
 END
 
@@ -287,7 +287,7 @@ SAY ~I can protect you. Reconsider.~
 END
 
 IF ~~ SecondEncounter1.2Male
-SAY ~But don't get too prideful, male.~
+SAY ~But do not get too prideful, male.~
 = ~Remember, I am not your slave.~
 = ~Do not treat me as one, and I will join you.~
 ++ ~I will not treat you as a slave, you have my word.~ + SecondEncounter1.2Malea
