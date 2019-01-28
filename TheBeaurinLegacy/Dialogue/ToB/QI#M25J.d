@@ -3,7 +3,7 @@ BEGIN QI#M25J
 EXTEND_TOP FATESP 6 #2
 + ~!Dead("QI#Mi") 
 !InMyArea("QI#Mi") 
-Global("QI#MiSummoned","GLOBAL",0)~ + @0
+Global("QI#MiSummoned","GLOBAL",0)~ + @595
 DO ~CreateVisualEffect("SPPORTAL",[1999.1228])
 Wait(2) 
 CreateCreature("MIN25",[1999.1228],0) 
@@ -11,13 +11,14 @@ SetGlobal("QI#MiNoFriendship","GLOBAL",1)
 SetGlobal("QI#MiSummoned","GLOBAL",1)~ GOTO 8
 + ~!Dead("QI#Mi") 
 !InMyArea("QI#Mi") 
-Global("QI#MiSummoned","GLOBAL",0)~ + @1
+Global("QI#MiSummoned","GLOBAL",0)~ + @596
 DO ~CreateVisualEffect("SPPORTAL",[1999.1228])
 Wait(2)
 SetGlobal("QI#MiFriendshipTrack","GLOBAL",22)
 CreateCreature("MIN25",[1999.1228],0) 
 SetGlobal("QI#MiSummoned","GLOBAL",1)~ GOTO 8
 END
+
 
 //Watcher's Keep
 I_C_T GORDEMO 12 QI#MiGordemo17
