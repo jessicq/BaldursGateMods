@@ -68,5 +68,34 @@ IF ~~ DO ~SetGlobal("QI#TelziFriendshipActive,"GLOBAL",1)~ EXIT
 END
 
 IF ~~ tft4.1
-SAY ~~
+SAY ~It is a pleasure and honor watching you fight. I feel inspired by your actions.~
+= ~You have also calmly traveled with a monster. It is surprising to me.~
+++ ~You aren't a monster, you're my friend.~ + tft4.2
+++ ~Aren't we all monsters here?~ + tft4.1.1
+++ ~I wouldn't say I was calm about the whole situation, but you're welcome.~ + tft4.2
+++ ~Good. I am glad to hear that. Perhaps you will fight harder for me next we engage in battle.~ + tft4.1.2
+END
+
+IF ~~ tft4.1.1
+SAY ~No, you are a <PRO_RACE>.~
+++ ~(sigh) Never mind.~ + tft4.2
+++ ~I'll never get tired of your sense of humor.~ + tft4.1.1a
+END
+
+IF ~~ tft4.1.1a
+SAY ~I was not trying to be funny.~
+++ ~(sigh) Never mind.~ + tft4.2
+END
+
+IF ~~ tft4.1.2
+SAY ~Yes, I will do that.~
+IF ~~ + tft4.2
+END
+
+IF ~~ tft4.2
+SAY ~You are a rare find.~
+= ~There is no other creature like you in this world, always stay to true yourself. Do not let others speak ill of you.~
+= ~Do not change.~
+= ~You will always have my support, my friend.~
+IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1)~ EXIT
 END
