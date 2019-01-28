@@ -1,0 +1,197 @@
+/* Main Script */
+
+/*************** Telzi Matches PC's Level ***************/
+IF
+	InParty("QI#TEL")
+	Global("QI#TELExperienceSet","GLOBAL",0)
+	XPLT(Player1,280001)
+THEN 
+  RESPONSE #100
+	SetGlobal("QI#TELExperienceSet","GLOBAL",1)
+END
+
+IF
+	InParty("QI#TEL")
+	Global("QI#TELExperienceSet","GLOBAL",0)
+	XPGT(Player1,280000)
+	XPLT(Player1,600001)
+THEN 
+  RESPONSE #100
+	SetGlobal("QI#TELExperienceSet","GLOBAL",1)
+	AddXPObject("QI#TEL",239000)
+END
+
+IF
+	InParty("QI#TEL")
+	Global("QI#TELExperienceSet","GLOBAL",0)
+	XPGT(Player1,600000)
+	XPLT(Player1,1000001)
+THEN 
+  RESPONSE #100
+	SetGlobal("QI#TELExperienceSet","GLOBAL",1)
+	AddXPObject("QI#TEL",639000)
+END
+
+IF
+	InParty("QI#TEL")
+	Global("QI#TELExperienceSet","GLOBAL",0)
+	XPGT(Player1,1000000)
+THEN 
+  RESPONSE #100
+	SetGlobal("QI#TELExperienceSet","GLOBAL",1)
+	AddXPObject("QI#TEL",1039000)
+END
+
+
+/*************** Romance ***************/
+// Requirements
+IF
+	InParty(Myself)
+	Gender(Player1,FEMALE)
+	Global("QI#TelziRomanceActive","GLOBAL",0)
+THEN
+  RESPONSE #100
+	SetGlobal("QI#TelziRomanceActive","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	Gender(Player1,MALE)
+	Global("QI#TelziRomanceActive","GLOBAL",0)
+THEN
+  RESPONSE #100
+	SetGlobal("QI#TelziRomanceActive","GLOBAL",3)
+END
+
+IF
+	InParty(Myself)
+	Global("QI#TelziRomanceActive","GLOBAL",1)
+THEN
+  RESPONSE #100
+	RealSetGlobalTimer("QI#TelziRomanceTimer","GLOBAL",2100)
+	SetGlobal("QI#TelziLoveTalk","GLOBAL",1)
+END
+
+// Regular LoveTalks
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#TelziRomanceTimer","GLOBAL")
+	OR(2)
+	  Global("QI#TelziRomanceActive","GLOBAL",1)
+	  Global("QI#TelziRomanceActive","GLOBAL",2)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0) 
+	!See([ENEMY])
+	OR(7)
+	  Global("QI#TelziLoveTalk","GLOBAL",1)
+	  Global("QI#TelziLoveTalk","GLOBAL",3)
+	  Global("QI#TelziLoveTalk","GLOBAL",5)
+	  Global("QI#TelziLoveTalk","GLOBAL",7)
+	  Global("QI#TelziLoveTalk","GLOBAL",9)
+	  Global("QI#TelziLoveTalk","GLOBAL",13)
+	  Global("QI#TelziLoveTalk","GLOBAL",15)
+THEN
+  RESPONSE #100
+	IncrementGlobal("QI#MiFriendshipTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	OR(7)                        
+	  Global("QI#TelziLoveTalk","GLOBAL",2)
+	  Global("QI#TelziLoveTalk","GLOBAL",4)
+	  Global("QI#TelziLoveTalk","GLOBAL",6)
+	  Global("QI#TelziLoveTalk","GLOBAL",8)
+	  Global("QI#TelziLoveTalk","GLOBAL",10)
+	  Global("QI#TelziLoveTalk","GLOBAL",14)
+	  Global("QI#TelziLoveTalk","GLOBAL",16)
+THEN
+  RESPONSE #100
+	PlaySong(0)
+	PlaySound("QI#Telzi")
+	StartDialogueNoSet(Player1)
+END
+
+
+// DreamTalk
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#TelziRomanceTimer","GLOBAL")
+	Global("QI#TelziRomanceActive","GLOBAL",1)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0) 
+	!See([ENEMY])
+	Global("QI#TelziLoveTalk","GLOBAL",11)
+THEN
+  RESPONSE #100
+	IncrementGlobal("QI#MiFriendshipTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#TelziLoveTalk","GLOBAL",12)
+THEN
+  RESPONSE #100
+	PlaySong(0)
+	PlaySound("QI#Telzi")
+	StartDialogueNoSet(Player1)
+END
+
+/*************** Event Triggered ***************/
+// Talk After First Encounter
+IF
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY]) 
+	Global("QI#TelziEncounter1","GLOBAL",1)
+THEN 
+  RESPONSE #100
+	StartDialogueNoSet(Player1)  
+END 
+
+
+// Talk After Second Encounter
+IF 
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#TelziEncounter1","GLOBAL",2)
+THEN
+  RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
+// Talk Before The End
+IF 
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#TelziRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
+// Please Don't Hate Me For This Guys

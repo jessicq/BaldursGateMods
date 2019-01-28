@@ -1,0 +1,7 @@
+IF
+	Global("TelziExists","BD0120",0)
+THEN
+  RESPONSE #100
+    CreateCreature("QI#TELZI",[1073.1596],12)
+	SetGlobal("TelziExists","BD0120",1)
+END
