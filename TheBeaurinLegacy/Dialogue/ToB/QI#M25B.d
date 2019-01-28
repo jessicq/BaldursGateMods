@@ -670,15 +670,15 @@ Global("QI#MiEdwinRomanceToB","GLOBAL",7)~ THEN QI#M25B QI#MiEdwinToB8
 == BSAREV25 IF ~InParty("Sarevok") !StateCheck("Sarevok",CD_STATE_NOTVALID)~ THEN @287
 == BANOME25 IF ~InParty("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @288
 == BNALIA25 IF ~InParty("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @289
-== BRASAA25 IF ~InParty("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @290
-== QI#M25B IF ~InParty("Rasaad") InParty("Aerie") InParty("Sarevok") InParty("Anomen") InParty("Jaheira") InParty("Keldorn") InParty("Cernd") InParty("Minsc") InParty("Valygar") InParty("Imoen2")~ THEN @291
+//== BRASAA25 IF ~InParty("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @290
+== QI#M25B IF ~InParty("Aerie") InParty("Sarevok") InParty("Anomen") InParty("Jaheira") InParty("Keldorn") InParty("Cernd") InParty("Minsc") InParty("Valygar") InParty("Imoen2")~ THEN @291
 == BAERIE25 IF ~InParty("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @292
 == QI#M25B IF ~InParty("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @293
 == BAERIE25 IF ~InParty("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @294
 == BJAN25 IF ~InParty("Aerie") InParty("Jan") !StateCheck("Aerie",CD_STATE_NOTVALID) !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @295
-== BDORN25 IF ~InParty("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID) InParty("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @296
-== BNEERA25 IF ~InParty("Neera") !StateCheck("Neera",CD_STATE_NOTVALID) InParty("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @297
-== BNEERA25 IF ~InParty("Neera") !StateCheck("Neera",CD_STATE_NOTVALID) InParty("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @298
+//== BDORN25 IF ~InParty("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID) InParty("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @296
+//== BNEERA25 IF ~InParty("Neera") !StateCheck("Neera",CD_STATE_NOTVALID) InParty("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @297
+//== BNEERA25 IF ~InParty("Neera") !StateCheck("Neera",CD_STATE_NOTVALID) InParty("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @298
 == QI#M25B IF ~InParty("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @299
 == BEDWIN25 IF ~InParty("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @300
 == BVICON25 IF ~InParty("Viconia") InParty("Aerie") InParty("Jan") !StateCheck("Aerie",CD_STATE_NOTVALID) !StateCheck("Jan",CD_STATE_NOTVALID) !StateCheck("Viconia",CD_STATE_NOTVALID) ~ THEN @301
@@ -756,6 +756,7 @@ EXIT
 //Edwin - Not Romanced/Never Was 
 CHAIN 
 IF ~InParty("QI#Mi")
+InParty("Edwin")
 See("QI#Mi")
 !StateCheck("Edwin",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
