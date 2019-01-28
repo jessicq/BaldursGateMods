@@ -3,22 +3,32 @@
 /********************* Romance Path *********************/
 
 /********************* "Friendship" Path *********************/
-//Talk 1 -
-IF ~Global("QI#TelziFriendshipTalk","GLOBAL",2)~
+//Talk 1 - Male Dislike
+IF ~Global("QI#TelziFriendshipTalk","GLOBAL",2) Gender(Player1, MALE)~ TelziFriendshipTalk1.0Male
+SAY ~I do not like males.~
+= ~They reek of strong odors and think too highly of themselves.~
+++ ~I was not put into this world for you to like me.~
+++ ~I could care less what you think of men.~
+++ ~Because men are the rulers of this world. We have and make kings and great leaders, what does your kind do?~
+++ ~You are a troll - a monster! If you think I smell, then you must haven't properly smelled yourself!~
+++ ~Then, don't talk to me.~
+END
+
+IF ~Global("QI#TelziFriendshipTalk","GLOBAL",2) Gender(Player1, FEMALE)~ TelziFriendshipTalk1.0Female
 SAY ~~
 END
 
 //Talk 2 -
-IF ~Global("QI#TelziFriendshipTalk","GLOBAL",4)~
+IF ~Global("QI#TelziFriendshipTalk","GLOBAL",4)~ TelziFriendshipTalk2.0
 SAY ~~
 END
 
-//Talk 3 -
-IF ~Global("QI#TelziFriendshipTalk","GLOBAL",6)~
+//Talk 3 - 
+IF ~Global("QI#TelziFriendshipTalk","GLOBAL",6)~ TelziFriendshipTalk3.0
 SAY ~~
 END
 
-//Talk 4 - 
+//Talk 4 - I support you.
 IF ~Global("QI#TelziFriendshipTalk","GLOBAL",8)~ TelziFriendshipTalk4.0
 SAY ~You are a respectable warrior.~
 + Gender(Player1, MALE) + ~Thank you. You are too.~ + tft4.0.1a
