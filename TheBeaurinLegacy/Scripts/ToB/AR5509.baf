@@ -8,7 +8,7 @@ IF
 THEN 
 RESPONSE #100
     SetGlobal("SkeletonWithTome","AR5509",1)
-	CreateCreature("skebook",[842.508],S)
+	CreateCreature("skebook",[842.508],6)
 	Continue()
 END
 
@@ -22,7 +22,7 @@ IF
 THEN 
 RESPONSE #100
     SetGlobal("SkeletonWithTome","AR5509",1)
-	CreateCreature("skebook",[842.508],S)
+	CreateCreature("skebook",[842.508],6)
 	Continue()
 END
 
