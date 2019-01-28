@@ -1,8 +1,7 @@
 /********************* Interjections *********************/
 
-/********************* Romance Path *********************/
-
 /********************* "Friendship" Path *********************/
+
 //Talk 1 - Male Dislike
 IF ~Global("QI#TelziFriendshipTalk","GLOBAL",2) Gender(Player1, MALE)~ TelziFriendshipTalk1.0Male
 SAY ~I do not like males.~
@@ -109,3 +108,107 @@ SAY ~You are a rare find.~
 = ~You will always have my support, my friend.~
 IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1)~ EXIT
 END
+
+
+/********************* Romance Path *********************/
+// Talk 1
+IF ~Global("QI#TelziLoveTalk","GLOBAL",2)~ tz1.0
+SAY ~You radiant strength and power.~
+= ~It is very appealing to anyone in the area.~
+++ ~Thank you, that was a very nice compliment.~ + tz1.0.1
+++ ~Your flattery is not needed.~ + tz1.0.2
+++ ~You're not so bad yourself.~ + tz1.0.3
+++ ~I don't know what you are getting at, but I'm not interested.~ + tz1.0.4
+END
+
+IF ~~ tz1.0.1
+SAY ~You are welcome.~
+IF ~~ + tz1.1
+END
+
+IF ~~ tz1.0.2
+SAY ~Then, what is needed?~
+++ ~Not flattery.~ + tz1.1
+++ ~Wouldn't you like to know.~ + tz1.0.2a
+++ ~Flowers and the finest chocolates.~ + tz1.1
+++ ~Not you.~ + tz1.1.0
+END
+
+IF ~~ tz1.0.2a
+SAY ~I would.~
+IF ~~ + tz1.1
+END
+
+IF ~~ tz1.0.3
+SAY ~I am not a bad person.~
+IF ~~ + tz1.1
+END
+
+IF ~~ tz1.0.4
+SAY ~What are you not interested in?~
+++ ~You.~ + tz1.1.0
+END
+
+IF ~~ tz1.1.0
+SAY ~Okay, I will not bother you anymore.~
+IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
+END
+
+IF ~~ tz1.1
+SAY ~I am not good with words, <CHARNAME>.~
+= ~You should know that.~
+++ ~You don't say.~ + tz1.2
+++ ~I could tell.~ + tz1.2
+++ ~Then, what are you good at?~ + tz1.1.1
+++ ~I don't need flowery words, Telzi. You should know that.~ + tz1.2
+END
+
+IF ~~ tz1.1.1
+SAY ~Fighting. Eating. Speaking the truth.~
+IF ~~ + tz1.2
+END
+
+IF ~~ tz1.2
+SAY ~I like to say things as they are.~
+= ~I do not like hidden meanings. Symbols. Puzzles. Mysteries. Magic. Mages.~
+= ~They are strange. They are secretive. They are dangerous.~
+= ~They do not care about anything, except themselves.~
++ ~Class(Player1,MAGE_ALL)~ + ~You know I am a mage, right?~ + tz1.2.1
+++ ~I disagree, without the mysteries of the world, what would we be searching for in life?~ + tz1.3a
+++ ~I disagree, mages are very useful.~ + tz1.2.3
+++ ~Every thing and everyone has their uses.~ + tz1.3b
+++ ~I don't like mysteries either. It requires too much thinking.~ + tz1.3a
+++ ~I don't like those things either, the answer should always be plain and simple.~ + tz1.3a
++ ~!Class(Player1,MAGE_ALL)~ + ~I've never been a fan of mages myself.~ + tz1.2.2
+END
+
+IF ~~ tz1.2.1
+SAY ~Yes, I am aware.~
+= ~But you are different. You saved me.~
+= ~So, you cannot be like all mages.~
+= ~Your actions speak for you, and your actions are true. Therefore, your words as a mage is okay.~
+IF ~~ + tz1.3a
+END
+
+IF ~~ tz1.2.2
+SAY ~Good.~
+= ~That is something we have in common. Good bonds start with similarities, so I have been told.~
+= ~Mages would be easier to handle if they spoke without mysteries.~
+IF ~~ + tz1.3a
+END
+
+IF ~~ t1.2.3
+SAY ~Hmph. Maybe a use for you, but not for me.~
+= ~I find mages distrustful. They do not speak the truth.~
+IF ~~ + tz1.3a
+END
+
+IF ~~ tz1.3a
+SAY ~If people would speak their minds and share things straight away, we would not have to think about things longer than needed.~
+= ~People would know what another person would want immediately. No need for guesses or embarrassment. No need to fake anything. Everything would be real.~
+= ~Like you and me, and my sudden tiredness of this conversation.~
+= ~I will speak to you again, when I am ready to talk.~
+END
+
+
+/***************** Player-Initiated Dialogues *****************/
