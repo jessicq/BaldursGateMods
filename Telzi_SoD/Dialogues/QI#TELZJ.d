@@ -6,14 +6,80 @@
 IF ~Global("QI#TelziFriendshipTalk","GLOBAL",2) Gender(Player1, MALE)~ TelziFriendshipTalk1.0Male
 SAY ~I do not like males.~
 = ~They reek of strong odors and think too highly of themselves.~
-++ ~I was not put into this world for you to like me.~
-++ ~I could care less what you think of men.~
-++ ~Because men are the rulers of this world. We have and make kings and great leaders, what does your kind do?~
-++ ~You are a troll - a monster! If you think I smell, then you must haven't properly smelled yourself!~
-++ ~Then, don't talk to me.~
+++ ~I agree.~ + tft1.0.1male
+++ ~I was not put into this world for you to like me.~ + tft1.0.2male
+++ ~I could care less what on you think of men.~ + tft1.0.3
+++ ~Because men are the rulers of this world. We have and make kings and great leaders, what does your kind do?~ + tft1.0.4male
+++ ~You are a troll - a monster! If you think I smell, then you haven't properly smelled yourself!~ + tft1.0.5
+++ ~Then, don't talk to me.~ + tft1.0.0male
 END
 
+IF ~~ tft1.0.0male
+SAY ~That is something I will not have a problem doing.~
+IF ~~ DO ~SetGlobal("QI#TelziFriendshipActive","GLOBAL",1)~ EXIT
+END
+
+IF ~~ tft1.0.1male
+SAY ~You would agree? I find that strange that a male would agree with this statement.~
+= ~I expected resistance from your kind.~
+++ ~No, I agree. My "kind" step out of their bounds, far too often, I might add.~ + tft1.0.1malea
+++ ~I was just pulling your leg. I don't think that way about men.~ + tft1.0.1maleb
+++ ~I neither disagree or agree.~ + tft1.0.1malec
+END
+
+IF ~~ tft1.0.1malea
+SAY ~You show surprising intelligence.~
+= ~Your kind could learn more from you.~
+IF ~~ tft1.1
+END
+
+IF ~~ tft1.0.1maleb
+SAY ~I did not feel a tugging sensation on my leg.~
+= ~You lie.~
+++ ~Uh, never mind.~ + tft1.1
+END
+
+IF ~~ tft1.0.1malec
+SAY ~Typical.~
+= ~You speak before you know what you have said.~
+IF ~~ + tft1.1
+END
+
+IF ~~ tft1.0.2male
+SAY ~You speak the truth.~
+= ~However, it would not hurt for your kind to understand the perspectives of those who are not of the same gender.~
+IF ~~ + tft1.1
+END
+  
+IF ~~ tft1.0.4male
+SAY ~That thinking is the reason why there is chaos in this world.~
+= ~Males believe they provide law and order, but they only bring pain and suffering.~
+IF ~~ + tft1.1
+END
+
+//Talk 1 - Female Version
 IF ~Global("QI#TelziFriendshipTalk","GLOBAL",2) Gender(Player1, FEMALE)~ TelziFriendshipTalk1.0Female
+SAY ~It is good to see a female as powerful and memorable as you. I do not like males.~
+= ~They reek of strong odors and think too highly of themselves.~
+++ ~I agree.~ + tft1.0.1female
+++ ~I could care less on what you think of men.~ + tft1.0.2female
+++ ~Because men are the rulers of this world. We have and make kings and great leaders, what does your kind do?~ + tft1.0.4female
+++ ~You are a troll - a monster! If you think men smell, then you haven't properly smelled yourself!~ + tft1.0.5
+++ ~I don't want to talk to you anymore, stop talking.~ + tft1.0.0female
+END
+
+IF ~~ tft1.0.0female
+SAY ~I was a hoping a strong female like yourself would appreciate this talk.~
+= ~But I see I was wrong about you.~
+IF ~~ DO ~SetGlobal("QI#TelziFriendshipActive","GLOBAL",1)~ EXIT
+END
+
+IF ~~ tft1.0.1female
+SAY ~I am glad to hear your agreement.~
+IF ~~ + tft1.1
+END
+
+IF ~~ tft1.1
 SAY ~~
 END
 
