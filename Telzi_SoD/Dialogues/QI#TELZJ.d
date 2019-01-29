@@ -63,7 +63,7 @@ SAY ~It is good to see a female as powerful and memorable as you. I do not like 
 = ~They reek of strong odors and think too highly of themselves.~
 ++ ~I agree.~ + tft1.0.1female
 ++ ~I could care less on what you think of men.~ + tft1.0.2female
-++ ~Because men are the rulers of this world. We have and make kings and great leaders, what does your kind do?~ + tft1.0.4female
+++ ~Because men are the rulers of this world. They have and make kings and great leaders, what does your kind do?~ + tft1.0.4female
 ++ ~You are a troll - a monster! If you think men smell, then you haven't properly smelled yourself!~ + tft1.0.5
 ++ ~I don't want to talk to you anymore, stop talking.~ + tft1.0.0female
 END
@@ -76,6 +76,21 @@ END
 
 IF ~~ tft1.0.1female
 SAY ~I am glad to hear your agreement.~
+IF ~~ + tft1.1
+END
+
+IF ~~ tft1.0.2female
+SAY ~That may be true, but you cannot deny the way males present themselves.~
+IF ~~ + tft1.1
+END
+
+IF ~~ tft1.0.4female
+SAY ~It is appalling how the males have brainwashed you into thinking.~
+IF ~~ + tft1.1
+END
+
+IF ~~ tft1.0.5
+SAY ~A smell does not make a creature a monster.~
 IF ~~ + tft1.1
 END
 
