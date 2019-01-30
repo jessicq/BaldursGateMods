@@ -95,7 +95,37 @@ IF ~~ + tft1.1
 END
 
 IF ~~ tft1.1
-SAY ~~
+SAY ~Males think they command the most respect, but they never stop to think properly.~
+= ~Where would they be if females did not exist? It is said the greatest gift was given to the females by the gods - the gift of giving life to another.~
+= ~Yet, males think they can control every thing everything they can touch.~
+++ ~You speak as if you have experience with bad men.~ + tft1.2
++ ~Gender(PLAYER1, FEMALE)~ + ~Not every man is as evil as you think.~ + tft1.1.1female
++ ~Gender(PLAYER1, MALE)~ + ~Not every man is as evil as you think.~ + tft1.1.1male
+++ ~Look, I really don't want to hear your opinions and your complaints about men.~ + tft1.1.2
+END
+
+IF ~~ tft1.1.1female
+SAY ~That is what they want you to believe.~
+IF ~~ + tft1.2
+END
+
+IF ~~ tft1.1.1male
+SAY ~(snort) Is one male going to change my mind about the entirety of all males?~
+= ~I do not that is likely.~
+IF ~~ + tft1.2
+END
+
+IF ~~ tft1.1.2
+SAY ~Then, you do not want to hear the truth.~
+= ~Continue to be blind, I do not care.~
+IF ~~ DO ~SetGlobal("QI#TelziFriendshipActive","GLOBAL",1)~ EXIT
+END
+
+IF ~~ tft1.2
+SAY ~Men have taken much for me.~
+= ~But this is not the time to tell.~
+= ~Let us move on.~
+IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTimer("QI#FriendshipTimer",2400)~ EXIT
 END
 
 //Talk 2 -
