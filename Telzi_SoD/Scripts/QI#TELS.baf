@@ -47,6 +47,7 @@ END
 IF
 	InParty(Myself)
 	Global("QI#TelziRomanceActive","GLOBAL",3)
+	Global("QI#TelziRude","GLOBAL",0)
 THEN
   RESPONSE #100
 	RealSetGlobalTimer("QI#TelziFriendshipTimer","GLOBAL",3600)
