@@ -49,7 +49,7 @@ IF
 	Global("QI#TelziFriendshipActive","GLOBAL",0)
 THEN
   RESPONSE #100
-	RealSetGlobalTimer("QI#TelziFriendshipTimer","GLOBAL",3600)
+	RealSetGlobalTimer("QI#TelziFriendshipTimer","GLOBAL",2700)
 END
 
 // Regular FriendshipTalks
