@@ -46,6 +46,7 @@ END
 // Requirements
 IF
 	InParty(Myself)
+	Global("QI#TelziFriendshipActive","GLOBAL",0)
 	Global("QI#TelziRomanceActive","GLOBAL",3)
 	Global("QI#TelziRude","GLOBAL",0)
 THEN
