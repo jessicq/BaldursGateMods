@@ -125,12 +125,72 @@ IF ~~ tft1.2
 SAY ~Men have taken much for me.~
 = ~But this is not the time to tell.~
 = ~Let us move on.~
-IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTimer("QI#TelziFriendshipTimer",3600)~ EXIT
+IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTimer("QI#TelziFriendshipTimer",2700)~ EXIT
 END
 
-//Talk 2 -
+//Talk 2 - The Reasoning
 IF ~Global("QI#TelziFriendshipTalk","GLOBAL",4)~ TelziFriendshipTalk2.0
-SAY ~~
+SAY ~Would you like to hear my personal experience with men and mages?~
+++ ~Sure, go ahead and explain yourself.~ + tft2.1
+++ ~Make this quick.~ + tf2.1
+++ ~I don't have time for this right now. Maybe later?~ + tf2.0.1
+++ ~No, and I don't want you to speak to me again.~ + tft2.0.2
+END
+
+IF ~~ tft2.0.1
+SAY ~No. You need to hear it now.~
+++ ~Fine. Go ahead.~ + tft2.1
+++ ~Then, I don't want to hear what you have to say.~ + tft2.0.2
+END
+
+IF ~~ tft2.0.2
+SAY ~Okay.~
+= ~It is probably better this way.~
+IF ~~ DO ~SetGlobal("QI#TelziFriendshipActive","GLOBAL",1)~ EXIT
+END
+
+IF ~~ tft2.1
+SAY ~I was born to a troll and an elf.~
+= ~The union was not meant to be. It was forced by a greedy male mage.~
+= ~This is how I came to be. I was a prize for the male. He thought the child of a troll and an elf would have the consitution and the dexterity of each of its parent.~
+= ~I was bred to fight in fights at a young age. Half trolls age quickly, so the male mage was always at an advantage when I fought against the others.~
+++ ~Continue.~ + tft2.2
+++ ~That sounds terrible.~ tft2.1.1
+++ ~Who and what did you fight against?~ + tft2.1.2
+++ ~I like where this mage was going with that idea.~ + tft2.1.3
+++ ~That's what monsters are meant to do.~ + tft2.1.4
+END
+
+
+IF ~~ tft2.1.1
+SAY ~It was a lot to take in, but failure to win a battle would mean many lashings. Sometimes, even death.~
+IF ~~ + tft2.2
+END
+
+IF ~~ tft2.1.2
+SAY ~Runty goblins, dwarves, and pointy-teeth halflings. Sometimes wild dogs and wolves. For the bonus round, there would be a group of scared and dirty children.~
+IF ~~ + tft2.1.1
+END
+
+IF ~~ tft2.1.3
+SAY ~He was right to assume the union of a troll and an elf would be good, but the male wizard was wrong to force the union.~
+= ~He was pure evil.~
+IF ~~ + tft2.2
+END
+
+IF ~~ tft2.1.4
+SAY ~Monsters can do more than fight.~
+IF ~~ + tft2.2
+END
+
+IF ~~ tft2.2
+SAY ~As I grew older and more mature, the male mage noticed my changes. He called me "hideous" and "grotesque", but I saw his eyes stare at my body with desire.~
+= ~So, he began to fix my face - starting with my nose.~
+= ~He reconstructed my face, until I could not recognize myself when I looked at the puddles from the rain. The only thing that is from my original face is my eyes.~
+= ~When he made me the way he liked, he stopped my fights and made me his pleasure slave to him and his male mage friends.~
+= ~He would tell me he could do all this, because he was powerful and that was his will. He said all males had this right.~
+= ~This is why I hate males, especially male mages.~
+IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTimer("QI#TelziFriendshipTimer",2700)~ EXIT
 END
 
 //Talk 3 - 
