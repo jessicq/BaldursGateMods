@@ -125,7 +125,7 @@ IF ~~ tft1.2
 SAY ~Men have taken much for me.~
 = ~But this is not the time to tell.~
 = ~Let us move on.~
-IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTimer("QI#FriendshipTimer",2400)~ EXIT
+IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTimer("QI#TelziFriendshipTimer",3600)~ EXIT
 END
 
 //Talk 2 -
@@ -319,7 +319,25 @@ SAY ~If people would speak their minds and share things straight away, we would 
 = ~People would know what another person would want immediately. No need for guesses or embarrassment. No need to fake anything. Everything would be real.~
 = ~Like you and me, and my sudden tiredness of this conversation.~
 = ~I will speak to you again, when I am ready to talk.~
+IF ~~ DO ~IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer","GLOBAL",2100)~ EXIT
 END
+
+// Talk 2
+
+// Talk 3
+
+// Talk 4
+
+// Talk 5
+
+// Talk 6
+
+// Talk 7 - Dream Talk
+IF ~Global("QI#TelziLoveTalk","GLOBAL",12)~ tz7.0
+SAY ~~
+END
+
+// Talk 8
 
 
 /***************** Player-Initiated Dialogues *****************/
