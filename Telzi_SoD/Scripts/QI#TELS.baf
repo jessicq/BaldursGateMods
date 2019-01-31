@@ -47,8 +47,6 @@ END
 IF
 	InParty(Myself)
 	Global("QI#TelziFriendshipActive","GLOBAL",0)
-	Global("QI#TelziRomanceActive","GLOBAL",3)
-	Global("QI#TelziRude","GLOBAL",0)
 THEN
   RESPONSE #100
 	RealSetGlobalTimer("QI#TelziFriendshipTimer","GLOBAL",3600)
@@ -58,7 +56,6 @@ END
 IF
 	InParty(Myself)
 	RealGlobalTimerExpired("QI#TelziFriendshipTimer","GLOBAL")
-	Global("QI#TelziRomanceActive","GLOBAL",3)
 	See(Player1)
 	!StateCheck(Player1,CD_STATE_NOTVALID) 
 	!StateCheck(Myself,CD_STATE_NOTVALID)
@@ -97,6 +94,7 @@ IF
 	InParty(Myself)
 	Gender(Player1,FEMALE)
 	Global("QI#TelziRomanceActive","GLOBAL",0)
+	GlobalGT("QI#TelziFriendshipTalk","GLOBAL",8)
 THEN
   RESPONSE #100
 	SetGlobal("QI#TelziRomanceActive","GLOBAL",1)
@@ -132,14 +130,11 @@ IF
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	CombatCounter(0) 
 	!See([ENEMY])
-	OR(7)
+	OR(4)
 	  Global("QI#TelziLoveTalk","GLOBAL",1)
-	  Global("QI#TelziLoveTalk","GLOBAL",3)
 	  Global("QI#TelziLoveTalk","GLOBAL",5)
-	  Global("QI#TelziLoveTalk","GLOBAL",7)
 	  Global("QI#TelziLoveTalk","GLOBAL",9)
-	  Global("QI#TelziLoveTalk","GLOBAL",13)
-	  Global("QI#TelziLoveTalk","GLOBAL",15)
+	  Global("QI#TelziLoveTalk","GLOBAL",11)
 THEN
   RESPONSE #100
 	IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1)
@@ -152,14 +147,11 @@ IF
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	CombatCounter(0)
 	!See([ENEMY])
-	OR(7)                        
+	OR(4)
 	  Global("QI#TelziLoveTalk","GLOBAL",2)
-	  Global("QI#TelziLoveTalk","GLOBAL",4)
 	  Global("QI#TelziLoveTalk","GLOBAL",6)
-	  Global("QI#TelziLoveTalk","GLOBAL",8)
 	  Global("QI#TelziLoveTalk","GLOBAL",10)
-	  Global("QI#TelziLoveTalk","GLOBAL",14)
-	  Global("QI#TelziLoveTalk","GLOBAL",16)
+	  Global("QI#TelziLoveTalk","GLOBAL",12)
 THEN
   RESPONSE #100
 	PlaySong(0)
@@ -178,7 +170,9 @@ IF
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	CombatCounter(0) 
 	!See([ENEMY])
-	Global("QI#TelziLoveTalk","GLOBAL",11)
+	OR(2)
+	  Global("QI#TelziLoveTalk","GLOBAL",3)
+	  Global("QI#TelziLoveTalk","GLOBAL",7)
 THEN
   RESPONSE #100
 	IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1)
@@ -191,7 +185,9 @@ IF
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	CombatCounter(0)
 	!See([ENEMY])
-	Global("QI#TelziLoveTalk","GLOBAL",12)
+	OR(2)
+	  Global("QI#TelziLoveTalk","GLOBAL",4)
+	  Global("QI#TelziLoveTalk","GLOBAL",8)
 THEN
   RESPONSE #100
 	PlaySong(0)
