@@ -334,6 +334,59 @@ END
 
 // Talk 7 - Dream Talk
 IF ~Global("QI#TelziLoveTalk","GLOBAL",12)~ tz7.0
+SAY ~You are so strong, so determined, so full of life. You are so beautiful.~
+= ~Come sit with me.~
+++ ~Thank you, Telzi. What do you need?~ + tz7.1
+++ ~Alright, what do you want?~ + tz7.1
+++ ~Can't you say whatever you need to say right now?~ + tz7.0.1
+++ ~Please go away, I don't want to talk to you right now.~ + tz7.0.2
+++ ~I think you have the wrong idea about us, Telzi.~ + tz7.0.3
+END
+
+IF ~~ tz7.0.1
+SAY ~No, this needs to be said privately.~
+++ ~Fine. Lead the way.~ + tz7.1
+++ ~No, I don't want to talk to you right now.~ + tz7.0.2
+END
+
+IF ~~ tz7.0.2
+SAY ~This is important to me.~
+++ ~Fine. Lead the way.~ + tz7.1
+++ ~We can talk about this later, I promise.~ + tz7.0.2a
+++ ~I don't care. I don't want to talk to you right now.~ + tz7.0.2b
+END
+
+IF ~~ tz7.0.2a
+SAY ~I trust you will keep your promise. I will say no more until then.~
+IF ~~ DO ~SetGlobal("QI#TelziRomanceWait","GLOBAL",1)~ EXIT
+END
+
+IF ~~ tz7.0.2b
+SAY ~~
+END
+
+IF ~~ tz7.0.3
+SAY ~I have the right idea about us.~
+= ~What we have is right.~
+++ ~No, it's not. I'm sorry, Telzi.~ + tz7.0.3a
+++ ~Ha! We are not the right idea. You are a monster, I can't be with a monster!~ + tz7.0.3b
+END
+
+IF ~~ tz7.0.3a
+SAY ~Do not apologize, I regret nothing.~
+IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
+END
+
+IF ~~ tz7.0.3b
+SAY ~You think I am a monster? After all this?~
+= ~No, <CHARNAME>. I am not the monster, you are.~
+= ~If there is anything I have learned, it is that one's appearance does not mean they are a monster. It is their actions.~
+= ~Your actions in dealing with this makes you a monster.
+= ~I thought you would have the goodness in you to deny me earlier. I will not speak to you any longer.~
+IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3) SetGlobal("QI#TelziRude","GLOBAL",1)~ EXIT
+END
+
+IF ~~ tz7.1
 SAY ~~
 END
 
