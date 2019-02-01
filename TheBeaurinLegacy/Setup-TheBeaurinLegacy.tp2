@@ -1,7 +1,7 @@
 BACKUP ~TheBeaurinLegacy/backup~
 AUTHOR ~jmaeq~
 README ~TheBeaurinLegacy/README-TheBeaurinLegacy.html~
-VERSION ~v2.1.1~
+VERSION ~v2.1.2~
 
 AUTO_TRA ~TheBeaurinLegacy\%s~
 
@@ -560,11 +560,6 @@ COPY ~TheBeaurinLegacy/Items/QI#MICK.itm~ ~override~
    SAY UNIDENTIFIED_DESC @71
    SAY DESC @72
 
-COPY ~TheBeaurinLegacy/Items/QI#NE.itm~ ~override~
-   SAY NAME1 @83
-   SAY NAME2 @83
-   SAY DESC @84
-
 COPY ~TheBeaurinLegacy/Items/QI#NEWR.itm~ ~override~
    SAY NAME1 @98
    SAY NAME2 @98
@@ -634,6 +629,16 @@ ACTION_IF GAME_IS ~BG2EE~ BEGIN
 	~TheBeaurinLegacy/Dialogue/ElaEE.d~
 	
   EXTEND_BOTTOM ~botsmith.bcs~ ~TheBeaurinLegacy/Scripts/ToB/CespenarUpgrade.baf~
+  
+  COPY ~TheBeaurinLegacy/Items/QI#NE.itm~ ~override~
+   SAY NAME1 @83
+   SAY NAME2 @83
+   SAY DESC @84
+END ELSE BEGIN
+  COPY ~TheBeaurinLegacy/Items/BG2/QI#NE.itm~ ~override~
+   SAY NAME1 @83
+   SAY NAME2 @83
+   SAY DESC @84
 END
 
 END //End ToB Content
