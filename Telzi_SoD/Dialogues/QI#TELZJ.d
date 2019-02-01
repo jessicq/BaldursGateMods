@@ -193,9 +193,65 @@ SAY ~As I grew older and more mature, the male mage noticed my changes. He calle
 IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTimer("QI#TelziFriendshipTimer",2700)~ EXIT
 END
 
-//Talk 3 - 
+//Talk 3 - Relatability and Escape
 IF ~Global("QI#TelziFriendshipTalk","GLOBAL",6)~ TelziFriendshipTalk3.0
+SAY ~I am used to others point and stare at me. Some attempt to kill me too.~
+= ~I think you can find this relatable.~
+++ ~Yes, it's relatable. Although, I am used to it as well. In fact, I welcome it.~ + tft3.0.1
+++ ~Yes, it's relatable. I'm not used to all this and sometimes I wish I was reading the dusty tomes in Candlekeep.~ + tft3.0.1
+++ ~Heh, most people nowadays want to kill me too.~ + tft3.0.1
+++ ~No, I don't think we are relatable. There is a difference to why people point and stare at us.~ + tft3.0.2
+++ ~No, there is nothing relatable between us.~ + tft3.0.2
+END
+
+IF ~~ tft3.0.1
+SAY ~I never liked attention.~
+IF ~~ + tft3.1
+END
+
+IF ~~ tft3.0.2
+SAY ~That could be true.~
+IF ~~ + tft3.1
+END
+
+IF ~~ tft3.1
+SAY ~Attention was all I ever got from the male wizard.~
+= ~I hated it. I hated him.~
+++ ~I can see why you hated him. He did terrible things to you.~ + tft3.2
+++ ~You should try and get over it.~ + + tft3.2
++ ~Gender(Player1,FEMALE)~ + ~I don't appreciate your hatred towards men. You can't judge one man's wrongdoings for the entire gender.~ + tft3.1.1
++ ~Gender(Player1,MALE)~ + ~I don't appreciate your hatred towards men. Have you forgotten that I am one?~ + tft3.1.2
+++ ~Look, I'm not here to be your therapist. Speak to someone else about your hatred.~ + tft3.1.3
+++ ~That's great, can we move on now?~ + tft3.1.3
+END
+
+IF ~~ tft3.1.1
+SAY ~Your people say that first impressions are important.~
+= ~My first impression of males was through that mage.~
+= ~I have seen the greed in the eyes of male and their dominance. The day you see it for yourself will be the day you are no longer a Bhaalspawn, it seems.~
+END
+
+IF ~~ tft3.1.2
+SAY ~I have not forgotten.~
+= ~I do not like you, but one male should know the atrocities of his kind.~
+END
+
+IF ~~ tft3.1.3
+SAY ~You do not wish to hear more?~
+++ ~If it's more about your hatred towards "males", then no.~ + tft3.1.3a
+++ ~No, I am tired of listening to you.~ + tft3.1.3b
+END
+
+IF ~~ tft3.1.3a
 SAY ~~
+END
+
+IF ~~ tft3.1.3b
+SAY ~~
+END
+
+IF ~~ tft3.2
+SAY ~I killed him.~
 END
 
 //Talk 4 - I support you.
