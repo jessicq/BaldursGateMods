@@ -161,7 +161,6 @@ SAY ~I was born to a troll and an elf.~
 ++ ~That's what monsters are meant to do.~ + tft2.1.4
 END
 
-
 IF ~~ tft2.1.1
 SAY ~It was a lot to take in, but failure to win a battle would mean many lashings. Sometimes, even death.~
 IF ~~ + tft2.2
@@ -458,10 +457,41 @@ SAY ~If people would speak their minds and share things straight away, we would 
 IF ~~ DO ~IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer","GLOBAL",2100)~ EXIT
 END
 
-// Talk 2 - Dream Talk 1
+// Talk 2 - Dream Talk 1: Reading and Writing
 IF ~Global("QI#TelziLoveTalk","GLOBAL",4)~ tz2.0
 SAY ~I see you write in that book often.~
 = ~(Telzi closes the distance between the two of you and curiously peers over your shoulder to look at your journal.)~
+++ ~(Move closer to Telzi and show her the contents of your journal.)~ + tz2.1
+++ ~Can you read this?~ + tz2.1
+++ ~Can you not stand so close to me?~ + tz2.0.1
+++ ~Stand away from me, monster!~ + tz2.0.2
+++ ~I don't want to share my journal with you.~ + tz2.1
+END
+
+IF ~~ tz2.0.1
+SAY ~(Telzi stiffens for a moment and backs away quickly.)~
+= ~What is in there?~
+++ ~(Show Telzi the contents of your journal.)~ + tz2.1
+++ ~Can you read this?~ + tz2.1
+++ ~I meant, you should stand far from me. I don't want you near me.~ + tz2.0.2
+++ ~I don't want to share my journal with you.~ + tz2.1
+END
+
+IF ~~ tz2.0.2
+SAY ~(Telzi makes no sound and turns away from you.)~
+= ~(From the corner of your eyes, you catch a glimpse of her sulking to her room.)~
+IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
+END
+
+IF ~~ tz2.1
+SAY ~I cannot read. I cannot write.~
+++ ~Why?~ + tz2.2
+++ ~That's not a surprise.~ + tz2.2
+++ ~I feel sorry for you.~ + tz2.2
+END
+
+IF ~~ tz2.2
+SAY ~I have experience in only two things - fighting and pleasure.~
 END
 
 // Talk 3
