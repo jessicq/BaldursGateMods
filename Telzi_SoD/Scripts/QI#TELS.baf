@@ -61,11 +61,13 @@ IF
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	CombatCounter(0) 
 	!See([ENEMY])
-	OR(4)
+	OR(6)
 	  Global("QI#TelziFriendshipTalk","GLOBAL",1)
 	  Global("QI#TelziFriendshipTalk","GLOBAL",3)
 	  Global("QI#TelziFriendshipTalk","GLOBAL",5)
 	  Global("QI#TelziFriendshipTalk","GLOBAL",7)
+	  Global("QI#TelziFriendshipTalk","GLOBAL",9)
+	  Global("QI#TelziFriendshipTalk","GLOBAL",11)
 THEN
   RESPONSE #100
 	IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1)
@@ -78,11 +80,13 @@ IF
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	CombatCounter(0)
 	!See([ENEMY])
-	OR(4)                        
+	OR(6)                        
 	  Global("QI#TelziFriendshipTalk","GLOBAL",2)
 	  Global("QI#TelziFriendshipTalk","GLOBAL",4)
 	  Global("QI#TelziFriendshipTalk","GLOBAL",6)
 	  Global("QI#TelziFriendshipTalk","GLOBAL",8)
+	  Global("QI#TelziFriendshipTalk","GLOBAL",10)
+	  Global("QI#TelziFriendshipTalk","GLOBAL",12)
 THEN
   RESPONSE #100
 	StartDialogueNoSet(Player1)
@@ -94,7 +98,7 @@ IF
 	InParty(Myself)
 	Gender(Player1,FEMALE)
 	Global("QI#TelziRomanceActive","GLOBAL",0)
-	GlobalGT("QI#TelziFriendshipTalk","GLOBAL",8)
+	GlobalGT("QI#TelziFriendshipTalk","GLOBAL",12)
 THEN
   RESPONSE #100
 	SetGlobal("QI#TelziRomanceActive","GLOBAL",1)
