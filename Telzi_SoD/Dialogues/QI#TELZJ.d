@@ -265,11 +265,17 @@ IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTime
 END
 
 //Talk 4 - Family Massacre
+IF ~~ TelziFriendshipTalk4.0
+SAY ~~
+END
 
 //Talk 5 - Monastary
+IF ~~ TelziFriendshipTalk5.0
+SAY ~~
+END
 
 //Talk 6 - I support you.
-IF ~Global("QI#TelziFriendshipTalk","GLOBAL",8)~ TelziFriendshipTalk6.0
+IF ~Global("QI#TelziFriendshipTalk","GLOBAL",12)~ TelziFriendshipTalk6.0
 SAY ~You are a respectable warrior.~
 + Gender(Player1, MALE) + ~Thank you. You are too.~ + tft6.0.1a
 + Gender(Player1, FEMALE) + ~Thank you. You are too.~ + tft6.0.1b
@@ -453,13 +459,19 @@ IF ~~ DO ~IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer"
 END
 
 // Talk 2 - Dream Talk 1
+IF ~Global("QI#TelziLoveTalk","GLOBAL",4)~ tz2.0
+SAY ~I see you write in that book often.~
+= ~(Telzi closes the distance between the two of you and curiously peers over your shoulder to look at your journal.)~
+END
 
 // Talk 3
 
+
 // Talk 4
 
+
 // Talk 5 - Dream Talk Talk 2
-IF ~Global("QI#TelziLoveTalk","GLOBAL",12)~ tz5.0
+IF ~Global("QI#TelziLoveTalk","GLOBAL",10)~ tz5.0
 SAY ~You are so strong, so determined, so full of life. You are so beautiful.~
 = ~Come sit with me.~
 ++ ~Thank you, Telzi. What do you need?~ + tz5.1
@@ -554,6 +566,7 @@ IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",1) RealSetGlobalTimer("QI#T
 END
 
 // Talk 6 - Confession
+
 
 
 /***************** Player-Initiated Dialogues *****************/
