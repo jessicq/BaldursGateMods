@@ -238,20 +238,25 @@ END
 
 IF ~~ tft3.1.3
 SAY ~You do not wish to hear more?~
+++ ~Fine, go on.~ + tft3.2
 ++ ~If it's more about your hatred towards "males", then no.~ + tft3.1.3a
-++ ~No, I am tired of listening to you.~ + tft3.1.3b
+++ ~No, I am tired of listening to you. Leave me alone.~ + tft3.1.3b
 END
 
 IF ~~ tft3.1.3a
-SAY ~~
+SAY ~No.~
+IF ~~ + tft3.2
 END
 
 IF ~~ tft3.1.3b
-SAY ~~
+SAY ~Fine.~
+= ~It is better this way anyway.~
+IF ~~ DO ~SetGlobal("QI#TelziFriendshipActive","GLOBAL",1)~ EXIT
 END
 
 IF ~~ tft3.2
 SAY ~I killed him.~
+= ~After the male wizard had his way with me, he ~
 END
 
 //Talk 4 - I support you.
