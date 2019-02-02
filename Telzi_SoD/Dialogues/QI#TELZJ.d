@@ -320,6 +320,92 @@ END
 //Talk 5 - Monastary
 IF ~~ TelziFriendshipTalk5.0
 SAY ~If you were wondering how I was able to properly phrase the lesson I had learned, I did not do it alone.~
+++ ~Those words seemed a little...out of place coming from, I admit.~ + tft5.1
+++ ~You're a murderer. Don't you realize that?~ + tft5.0.1
+++ ~Oh really? I thought you were some type of hidden genius.~ + tft5.0.2
+++ ~Actually, I was wondering about the million other things going on right now.~ + tft5.0.3
+++ ~No, I haven't thought about it since.~ + tft5.0.4
+END
+
+IF ~~ tft5.0.1
+SAY ~Yes, I am a murderer, but I have seen you murder people too.~
+++ ~That's different! I am forced to kill them!~ + tft5.0.1a
+++ ~I suppose you are right about that.~ + tft5.0.1b
+++ ~Yes, but I revel in it.~ + tft5.0.1c
+END
+
+IF ~~ tft5.0.1a
+SAY ~You are not forced to do anything.~
+= ~You can do nothing and let them kill you.~
+++ ~But I would die then!~ + tft5.0.1ab
+++ ~I suppose you are right about that.~ + tft5.0.1b
+END
+
+IF ~~ tft5.0.1ab
+SAY ~Exactly.~
+= ~Although, I understand our situations are different.~
+IF ~~ + tft5.1
+END
+
+IF ~~ tft5.0.1b
+SAY ~Yes, I am.~
+IF ~~ + tft5.1
+END
+
+IF ~~ tft5.0.1c
+SAY ~I did not like killing those people - that child.~
+IF ~~ + tft5.1
+END
+
+IF ~~ tft5.0.2
+SAY ~I am not a genius.~
+= ~You should know this by now.~
+IF ~~ + tft5.1
+END
+
+IF ~~ tft5.0.3
+SAY ~~
+END
+
+IF ~~ tft5.0.4
+SAY ~What have you been thinking about?~
+++ ~Never mind. Tell me what you wanted to say.~ + tft5.1
+++ ~It's none of your business.~ + tft5.0.4a
+++ ~When you will stop talking to me.~ + tft5.0.4b
+END
+
+IF ~~ tft5.0.4a
+SAY ~If you do not want to talk to me about it, then I will not bother you with my thoughts anymore.~
+IF ~~ DO ~SetGlobal("QI#TelziFriendshipActive","GLOBAL",1)~ EXIT
+END
+
+IF ~ tft5.0.4b
+SAY ~I see.~
+= ~I will not bother you anymore then.~
+IF ~~ DO ~SetGlobal("QI#TelziFriendshipActive","GLOBAL",1)~ EXIT
+END
+
+IF ~~ tft5.1
+SAY ~...There is a deep rage within me that is unleashed only when my hunger takes over all my other instincts.~
+= ~After I had killed those people, I wanted to control my hunger.~
+= ~I overheard stories of the wisdom and discipline of monks during my time with the male wizard.~
+= ~So, I decided to seek them out.~
+++ ~Go on.~ + tft5.2
+++ ~Did you succeed?~ + tft5.2
+END
+
+IF ~~ tft5.2
+SAY ~I succeeded in finding them.~
+= ~And they took me in without hesitation and without questions.~
+= ~I stayed with them for a while and they helped me to control some of my hunger, as well as their fighting technique.~
+= ~I would have rather stayed but the monks needed someone to travel to Baldur's Gate and see what they could do to help.~
+++ ~Don't you need to go back then?~ + tft5.3
+++ ~~
+END
+
+IF ~~ tft5.3
+SAY ~I think I am helping more than I could now by following you than wandering around and trying to help the people at Baldur's Gate.~
+= ~You saw how they treated me.~
 END
 
 //Talk 6 - I support you.
