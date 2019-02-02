@@ -1,7 +1,6 @@
 /********************* Interjections *********************/
 
 /********************* "Friendship" Path *********************/
-
 //Talk 1 - Male Dislike
 IF ~Global("QI#TelziFriendshipTalk","GLOBAL",2) Gender(Player1, MALE)~ TelziFriendshipTalk1.0Male
 SAY ~I do not like males.~
@@ -258,8 +257,8 @@ SAY ~I killed him.~
 = ~After the male wizard had his way with me, he was not careful enough to be my shackles on me.~
 = ~I broke free that day and ran until my legs could not carry me.~
 = ~All would have been fine, but I did not know the power of my hunger. I did not understand my need for food and water, and as a half-troll, my hunger was intensified.~
-= ~I learned one thing during my escape.~
-= ~Hunger takes away any semblance of one's humanity.~
+= ~It is scary for me to think about, even now.~
+= ~I do not want to think about it anymore, let us be on our way.~
 IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTimer("QI#TelziFriendshipTimer",2700)~ EXIT
 END
 
@@ -270,7 +269,7 @@ END
 
 //Talk 5 - Monastary
 IF ~~ TelziFriendshipTalk5.0
-SAY ~~
+SAY ~If you were wondering how I was able to properly phrase the lesson I had learned, I did not do it alone.~
 END
 
 //Talk 6 - I support you.
