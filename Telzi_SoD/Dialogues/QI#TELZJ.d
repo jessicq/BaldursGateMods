@@ -264,7 +264,57 @@ END
 
 //Talk 4 - Family Massacre
 IF ~~ TelziFriendshipTalk4.0
-SAY ~~
+SAY ~I think to understand and get over this feeling of guilt, I should tell you what happened.~
+++ ~Sure, go ahead and let it out.~ + tft4.1
+++ ~Could you have made that anymore ominous?~ tft4.1
+++ ~I am not here for you to use as someone to "ease your feelings of guilt".~ tft4.0.1
+++ ~Stop right there. I don't care, nor will I ever care about how you feel about anything.~ + tft4.0.2
+END
+
+IF ~~ tft4.0.1
+SAY ~That is not how I meant it to sound.~
+= ~I would like to share this moment with you though.~
+++ ~Alright, go ahead.~ + tft4.1
+++ ~Like I said, I don't want any part of this.~ + tft4.0.2
+END
+
+IF ~~ tft4.0.2
+SAY ~Understandable.~
+= ~It is probably best you did not know.~
+IF ~~ DO ~SetGlobal("QI#TelziFriendshipActive","GLOBAL",1)~ EXIT
+END
+
+IF ~~ tft4.1
+SAY ~When I escaped from the male mage, I had issues finding a roof over my head, but more importantly, food.~
+= ~Food was constantly on my mind. I always had to eat. I did not care what it was, I know I needed to eat.~
+= ~I do not remember what happened very clearly, but I remember bits and pieces of it.~
+++ ~Go on.~ + tft4.2
+END
+
+IF ~~ tft4.2
+SAY ~I remember digging through a garbage pile and feeling a light tap on my shoulder.~
+= ~I ignored it. I was hungry. I needed to eat.~
+= ~But the tapping continued.~
+= ~Finally, I stopped, and I smelled the most delicious smell I had ever known - meat.~
+= ~For this next part, you must understand, I was blinded by hunger. I was not myself.~
+++ ~What happened?~ + tft4.3
+++ ~Okay, I got it. Keep going.~ + tft4.3
+++ ~Aren't we all not ourselves when we are hungry?~ + tft4.2.1
+END
+
+IF ~~ tft4.2.1
+SAY ~A half-troll's hunger is always on its mind. If you think I am a monster now, you would not have recognized me before.~
+IF ~~ + tft4.3
+END
+
+IF ~~ tft4.3
+SAY ~I do not remember the details, but when my hunger subsided, I saw blood covering my hands and pools of it everywhere.~
+= ~I saw arms, legs, fingers, ears, and many other body parts around me.~
+= ~However, there is one thing that I can clearly remember.~
+= ~I saw a hand...it had to be a child's hand - it was small. The hand was curled around a bright, red apple.~
+= ~Once again, I ran.~
+= ~I learned the most important lesson that day - hunger takes away any semblance of one's humanity.~
+IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTimer("QI#TelziFriendshipTimer",2700)~ EXIT
 END
 
 //Talk 5 - Monastary
