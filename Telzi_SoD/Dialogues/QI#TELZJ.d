@@ -491,7 +491,83 @@ SAY ~I cannot read. I cannot write.~
 END
 
 IF ~~ tz2.2
-SAY ~I have experience in only two things - fighting and pleasure.~
+SAY ~I have experience in only two things - fighting and pleasuring.~
+= ~I was never given a...a book.~
+= ~I have seen the male wizard spend many days looking at them, and that is when I liked him most. He didn't bother me when he was looking at them.~
+++ ~I am sorry to hear that.~ + tz2.3
+++ ~Pleasuring, eh? I have seen you fight, but not the latter.~ + tz2.2.1
+++ ~That sucks, but there's nothing I can do about that.~ + tz2.3
+END
+
+IF ~~ tz2.2.1
+SAY ~Because we have not been intimate.~
+++ ~I figured.~ + tz2.3
+++ ~Again with your blunt attitude.~ + tz2.2.1a
+++ ~Yes, I know. Why don't we change that?~ + tz2.2.1b
+++ ~And I would never want to be intimate with you.~ + tz2.2.1c
+END
+
+IF ~~ tz2.2.1a
+SAY ~I do not know what you expect from me.~
+= ~But, I have something to ask you.~
+IF ~~ + tz2.3
+END
+
+IF ~~ tz2.2.1b
+SAY ~Change..?~
+= ~Do not be hurt from this, <CHARNAME>, but I do not want to be intimate with you. Not now.~
+= ~But, I have something to ask you.~
+IF ~~ + tz2.3
+END
+
+IF ~~ tz2.2.1c
+SAY ~I do not want to be intimate with you either.~
+= ~But, I have something to ask you.~
+IF ~~ + tz2.3
+END
+
+IF ~~ tz2.3
+SAY ~Can you teach me how to read and write?~
+++ ~Of course.~ + tz2.4
+++ ~When would we have time for reading and writing lessons?~ + tz2.3.1
+++ ~I'm not your personal tutor, go find someone else.~ + tz2.3.2
+++ ~Ha! *You* want to learn? I don't think it's possible for me to teach someone with such low intelligence.~ + tz2.3.3
+END
+
+IF ~~ tz2.3.1
+SAY ~When we stop for rest or when we are taking a break at camp.~
+= ~I want to learn. I will do my best.~
+++ ~I'd be happy to teach you. Let's get started now.~ + tz2.4
+++ ~Fine, I'll teach you, but don't expect me to hand-hold you through everything!~ + tz2.3.1a
+++ ~I'm not your personal tutor, go find someone else.~ + tz2.3.2
+++ ~Ha! *You* want to learn? I don't think it's possible for me to teach someone with such low intelligence.~ + tz2.3.3
+END 
+
+IF ~~ tz2.3.1a
+SAY ~I do not expect it from you.~
+= ~But you will not have to worry, I will make you proud.~
+IF ~~ DO ~ SetGlobal("QI#TelziReadingWriting","GLOBAL",1) IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer","GLOBAL",2100)~ EXIT
+END
+
+IF ~~ tz2.3.2
+SAY ~That was the expected answer from you.~
+= ~I understand you are a very busy person.~
+= ~I will not ask you this again.~
+IF ~~ DO ~IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer","GLOBAL",2100)~ EXIT
+END 
+
+IF ~~ tz2.3.3
+SAY ~You think so lowly of me?~
+= ~Then, why do you continue to talk to me?~
+= ~Never mind. I do not want to hear your answer. I will not bother you again.~
+IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
+END 
+
+IF ~~ tz2.4
+SAY ~Now?~
+= ~Yes, now.~
+= ~Where do we begin?~
+IF ~~ DO ~ SetGlobal("QI#TelziReadingWriting","GLOBAL",1) IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer","GLOBAL",2100)~ EXIT
 END
 
 // Talk 3
