@@ -710,7 +710,7 @@ END
 IF ~~ tz2.3.1a
 SAY ~I do not expect it from you.~
 = ~But you will not have to worry, I will make you proud.~
-IF ~~ DO ~ SetGlobal("QI#TelziReadingWriting","GLOBAL",1) IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer","GLOBAL",2100)~ EXIT
+IF ~~ DO ~SetGlobal("QI#TelziReadingWriting","GLOBAL",1) IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer","GLOBAL",2100)~ EXIT
 END
 
 IF ~~ tz2.3.2
@@ -731,64 +731,132 @@ IF ~~ tz2.4
 SAY ~Now?~
 = ~Yes, now.~
 = ~Where do we begin?~
-IF ~~ DO ~ SetGlobal("QI#TelziReadingWriting","GLOBAL",1) IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer","GLOBAL",2100)~ EXIT
+IF ~~ DO ~SetGlobal("QI#TelziReadingWriting","GLOBAL",1) IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer","GLOBAL",2100)~ EXIT
 END
 
-// Talk 3
+// Talk 3 - Monsters
+IF ~Global("QI#TelziLoveTalk","GLOBAL",6)~ tz3.0
+SAY ~I am told that mothers tell their offspring that monsters exist. They also tell them to stay away from them.~
+= ~Do...do you think I am a monster?~
+++ ~No, you are far from being a monster of any sorts.~ + tz3.0.1
+++ ~A monster can be defined as many things, but you are not any of them.~ + tz3.0.2
+++ ~Monsters can't be as pretty as you.~ + tz3.0.3
+++ ~I'm sorry, Telzi. But whatever we have, or whatever this is, needs to stop.~ + tz3.0.4
+++ ~Yes, you are the biggest monster I have ever met. Now, leave me alone.~ + tz3.0.5
+END
 
+IF ~~ tz3.0.1
+SAY ~You are kind to say so.~
+= ~But many would say differently.~
+++ ~I don't care what anyone else says, you are your own person.~ + tz3.1
+++ ~And they can continue to say differently, because my opinion is the only thing that should matter to you.~ + tz3.0.2a
+++ ~I'm sorry, Telzi. But whatever we have, or whatever this is, needs to stop.~ + tz3.0.4
+END
 
-// Talk 4
+IF ~~ tz3.0.2
+SAY ~You are right, but you are kind to say so.~
+= ~However, many would say differently.~
+++ ~I don't care what anyone else says, you are your own person.~ + tz3.0.2b
+++ ~And they can continue to say differently, because my opinion is the only thing that should matter to you.~ + tz3.0.2a
+++ ~I'm sorry, Telzi. But whatever we have, or whatever this is, needs to stop.~ + tz3.0.4
+END
 
+IF ~~ tz3.0.2a
+SAY ~Why?~
+++ ~Because I like you, Telzi. I care about you.~ + tz3.1
+++ ~Let's just say that I've grown quite fond of you.~ + tz3.1
+++ ~Because you are a wonderful friend, and I know what's best for you.~ + tz3.0.2aa
+++ ~I have no reason, forget I even said anything. Actually, let's forget this conversation ever happened.~ + tz3.0.5
+END
 
-// Talk 5 - Dream Talk Talk 2
-IF ~Global("QI#TelziLoveTalk","GLOBAL",10)~ tz5.0
+IF ~~ tz3.0.2aa
+SAY ~A friend? That is all?~
+++ ~Yes, just a friend.~ + tz3.0.4
+++ ~Let's just say that I've grown quite fond of you.~ + tz3.1
+++ ~Okay, you caught me. I like you, Telzi.~ + tz3.1
+++ ~I'm just kidding, I don't care about you in any sort of way.~ + tz3.0.5
+END
+
+IF ~~ tz3.0.2b
+SAY ~That is good to hear, especially coming from you. Why are you so kind to me?~
+++ ~Because I like you, Telzi. I care about you.~ + tz3.1
+++ ~Let's just say that I've grown quite fond of you.~ + tz3.1
+++ ~Because you are a wonderful friend, and I know what's best for you.~ + tz3.0.2aa
+++ ~I have no reason, forget I even said anything. Actually, let's forget this conversation ever happened.~ + tz3.0.5
+END
+
+IF ~~ tz3.0.3
+SAY ~You...you think I am pretty?~
+= ~I had thought the male wizard had changed my face to match what males would want.~
+END
+
+IF ~~ tz3.0.4
+SAY ~I...I understand.~
+= ~I expected too much.~
+IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
+END
+
+IF ~~ tz3.0.5
+SAY ~I...I thought you --~
+= ~Nothing. Do not mind me. I expected too much.~
+IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
+END
+
+IF ~~ tz3.1
+SAY ~I am fond of you too. I like you.~
+= ~Being with you fills a void in my stomach. Figuratively and maybe literally. *smiles*~
+IF ~~ DO ~IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer","GLOBAL",2100)~ EXIT
+END
+
+// Talk 4 - Dream Talk 2
+IF ~Global("QI#TelziLoveTalk","GLOBAL",8)~ tz4.0
 SAY ~You are so strong, so determined, so full of life. You are so beautiful.~
 = ~Come sit with me.~
-++ ~Thank you, Telzi. What do you need?~ + tz5.1
-++ ~Alright, what do you want?~ + tz5.1
-++ ~Can't you say whatever you need to say right now?~ + tz5.0.1
-++ ~Please go away, I don't want to talk to you right now.~ + tz5.0.2
-++ ~I think you have the wrong idea about us, Telzi.~ + tz5.0.3
+++ ~Thank you, Telzi. What do you need?~ + tz4.1
+++ ~Alright, what do you want?~ + tz4.1
+++ ~Can't you say whatever you need to say right now?~ + tz4.0.1
+++ ~Please go away, I don't want to talk to you right now.~ + tz4.0.2
+++ ~I think you have the wrong idea about us, Telzi.~ + tz4.0.3
 END
 
-IF ~~ tz5.0.1
+IF ~~ tz4.0.1
 SAY ~No, this needs to be said privately.~
-++ ~Fine. Lead the way.~ + tz5.1
-++ ~No, I don't want to talk to you right now.~ + tz5.0.2
+++ ~Fine. Lead the way.~ + tz4.1
+++ ~No, I don't want to talk to you right now.~ + tz4.0.2
 END
 
-IF ~~ tz5.0.2
+IF ~~ tz4.0.2
 SAY ~This is important to me.~
 ++ ~Fine. Lead the way.~ + tz5.1
-++ ~We can talk about this later, I promise.~ + tz5.0.2a
-++ ~I don't care. I don't want to talk to you right now.~ + tz5.0.2b
+++ ~We can talk about this later, I promise.~ + tz4.0.2a
+++ ~I don't care. I don't want to talk to you right now.~ + tz4.0.2b
 END
 
-IF ~~ tz5.0.2a
+IF ~~ tz4.0.2a
 SAY ~I trust you will keep your promise. I will say no more until then.~
 IF ~~ DO ~SetGlobal("QI#TelziRomanceWait","GLOBAL",1)~ EXIT
 END
 
-IF ~~ tz5.0.2b
+IF ~~ tz4.0.2b
 SAY ~You do not care?~
 = ~Then, you have said enough.~
 = ~You will not hear from me again.~
 IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
 END
 
-IF ~~ tz5.0.3
+IF ~~ tz4.0.3
 SAY ~I have the right idea about us.~
 = ~What we have is right.~
-++ ~No, it's not. I'm sorry, Telzi.~ + tz5.0.3a
-++ ~Ha! We are not the right idea. You are a monster, I can't be with a monster!~ + tz5.0.3b
+++ ~No, it's not. I'm sorry, Telzi.~ + tz4.0.3a
+++ ~Ha! We are not the right idea. You are a monster, I can't be with a monster!~ + tz4.0.3b
 END
 
-IF ~~ tz5.0.3a
+IF ~~ tz4.0.3a
 SAY ~Do not apologize, I regret nothing.~
 IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
 END
 
-IF ~~ tz5.0.3b
+IF ~~ tz4.0.3b
 SAY ~You think I am a monster? After all this?~
 = ~No, <CHARNAME>. I am not the monster, you are.~
 = ~If there is anything I have learned, it is that one's appearance does not mean they are a monster. It is their actions.~
@@ -797,46 +865,48 @@ SAY ~You think I am a monster? After all this?~
 IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
 END
 
-IF ~~ tz5.1
+IF ~~ tz4.1
 SAY ~Spend this night with me.~
 = ~I will make it worth your while.~
-++ ~You didn't have to say that last bit, I would have spent the night with you regardless.~ + tz5.2
-++ ~It's about time! I was wondering how a half-troll handles themselves in bed.~ + tz5.2
-++ ~Why do you have to be so blunt about this?~ + tz5.1.1
-++ ~I'm sorry, I don't feel the same way.~ + tz5.0.3a
-++ ~Right now? I am tired, how about I come to you when I am ready?~ + tz5.0.2b
-++ ~Me? Be intimate with you - a monster? That's outrageous!~ + tz5.0.3b
+++ ~You didn't have to say that last bit, I would have spent the night with you regardless.~ + tz4.2
+++ ~It's about time! I was wondering how a half-troll handles themselves in bed.~ + tz4.2
+++ ~Why do you have to be so blunt about this?~ + tz4.1.1
+++ ~I'm sorry, I don't feel the same way.~ + tz4.0.3a
+++ ~Right now? I am tired, how about I come to you when I am ready?~ + tz4.0.2b
+++ ~Me? Be intimate with you - a monster? That's outrageous!~ + tz4.0.3b
 END
 
-IF ~~ tz5.1.1
+IF ~~ tz4.1.1
 SAY ~I do not know how people say it these days.~
 = ~I do not want to "dance around the subject", as people say.~
-++ ~Woah, you didn't take that literally.~ + tz5.1.1a
-++ ~Never mind.~ + tz5.1.1b
+++ ~Woah, you didn't take that literally.~ + tz4.1.1a
+++ ~Never mind.~ + tz4.1.1b
 END
 
-IF ~~ tz5.1.1a
+IF ~~ tz4.1.1a
 SAY ~It is physically impossible to dance around a subject, or a topic.~
-++ ~Never mind.~ + tz5.1.1b
+++ ~Never mind.~ + tz4.1.1b
 END
 
-IF ~~ tz5.1.1b
+IF ~~ tz4.1.1b
 SAY ~Then, what is your verdict?~
-++ ~You didn't have to say that last bit, I would have spent the night with you regardless.~ + tz5.2
-++ ~It's about time! I was wondering how a half-troll handles themselves in bed.~ + tz5.2
-++ ~I'm sorry, I don't feel the same way.~ + tz5.0.3a
-++ ~Right now? I am tired, how about I come to you when I am ready?~ + tz5.0.2b
-++ ~Me? Be intimate with you - a monster? That's outrageous!~ + tz5.0.3b
+++ ~You didn't have to say that last bit, I would have spent the night with you regardless.~ + tz4.2
+++ ~It's about time! I was wondering how a half-troll handles themselves in bed.~ + tz4.2
+++ ~I'm sorry, I don't feel the same way.~ + tz4.0.3a
+++ ~Right now? I am tired, how about I come to you when I am ready?~ + tz4.0.2b
+++ ~Me? Be intimate with you - a monster? That's outrageous!~ + tz4.0.3b
 END
 
-IF ~~ tz5.2
+IF ~~ tz4.2
 SAY ~This makes me happy to hear.~
 = ~I will make you happy, this is my promise to you.~
 IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",1) RealSetGlobalTimer("QI#TelziRomanceTimer","GLOBAL",2100)~
 END
 
-// Talk 6 - Confession
-
+// Talk 5 - Confession
+IF ~Global("QI#TelziLoveTalk","GLOBAL",10)~ tz5.0
+SAY ~~
+END
 
 
 /***************** Player-Initiated Dialogues *****************/
