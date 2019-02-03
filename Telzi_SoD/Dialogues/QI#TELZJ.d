@@ -364,7 +364,15 @@ IF ~~ + tft5.1
 END
 
 IF ~~ tft5.0.3
-SAY ~~
+SAY ~I can add on one more thing to the millions of things you are thinking about now.~
+++ ~I'd prefer you didn't. I'd like for you to leave me alone.~ + tft5.0.3a
+++ ~Sure, knock yourself out.~ + tft5.1
+END
+
+IF ~~ tft5.0.3a
+SAY ~Fine.~
+= ~It is probably best this way anyway.~
+IF ~~ + tft5.1
 END
 
 IF ~~ tft5.0.4
@@ -399,13 +407,34 @@ SAY ~I succeeded in finding them.~
 = ~And they took me in without hesitation and without questions.~
 = ~I stayed with them for a while and they helped me to control some of my hunger, as well as their fighting technique.~
 = ~I would have rather stayed but the monks needed someone to travel to Baldur's Gate and see what they could do to help.~
-++ ~Don't you need to go back then?~ + tft5.3
-++ ~~
+++ ~Don't you need to go back to them?~ + tft5.3
+++ ~And here you are.~ + tft5.2.1
++ ~Gender(Player1,MALE)~ + ~But this is a lot more fun, isn't it?~ + tft5.2.2
++ ~Gender(Player1,FEMALE)~ + ~But this is a lot more fun, isn't it?~ + tft5.2.3
+++ ~But this is a lot more fun, isn't it?~ + tft5.2.3
+END
+
+IF ~~ tft5.2.1
+SAY ~Yes, here I am.~
+IF ~~ + tft5.3
+END
+
+IF ~~ tft5.2.2
+SAY ~Yes, it is.~
+= ~It surprises me to say this, even though you are a male.~
+IF ~~ + tft5.3
+END
+
+IF ~~ tft5.2.2
+SAY ~Yes, it is.~
+IF ~~ + tft5.3
 END
 
 IF ~~ tft5.3
-SAY ~I think I am helping more than I could now by following you than wandering around and trying to help the people at Baldur's Gate.~
+SAY ~I think I am helping more than I could now by following you, than wandering around and trying to help the people at Baldur's Gate.~
 = ~You saw how they treated me.~
+= ~It does not matter now though. I am traveling with you, and I do not think this is a bad thing.~
+IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTimer("QI#TelziFriendshipTimer",2700)~ EXIT
 END
 
 //Talk 6 - I support you.
