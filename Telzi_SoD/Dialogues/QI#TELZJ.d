@@ -263,7 +263,7 @@ IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTime
 END
 
 //Talk 4 - Family Massacre
-IF ~~ TelziFriendshipTalk4.0
+IF ~Global("QI#TelziFriendshipTalk","GLOBAL",8)~ TelziFriendshipTalk4.0
 SAY ~I think to understand and get over this feeling of guilt, I should tell you what happened.~
 ++ ~Sure, go ahead and let it out.~ + tft4.1
 ++ ~Could you have made that anymore ominous?~ tft4.1
@@ -318,7 +318,7 @@ IF ~~ DO ~IncrementGlobal("QI#TelziFriendshipTalk","GLOBAL",1) RealSetGlobalTime
 END
 
 //Talk 5 - Monastary
-IF ~~ TelziFriendshipTalk5.0
+IF ~("QI#TelziFriendshipTalk","GLOBAL",10)~ TelziFriendshipTalk5.0
 SAY ~If you were wondering how I was able to properly phrase the lesson I had learned, I did not do it alone.~
 ++ ~Those words seemed a little...out of place coming from, I admit.~ + tft5.1
 ++ ~You're a murderer. Don't you realize that?~ + tft5.0.1
@@ -1006,6 +1006,40 @@ END
 
 /***************** Player-Initiated Dialogues *****************/
 
-IF ~IsGabber(Player1)~ QI#TelziDialogues
+IF ~ GlobalGT("QI#TelziFriendshipTalk","GLOBAL",6) !Global("QI#TelziFriendshipActive","GLOBAL",1) IsGabber(Player1)~ QI#TelziFriendDialogues
 SAY ~Speak.~ [F_Barb#]
+++ ~Where did you get the name "Telzi"?~
+++ ~Would you ever consider being with a man if they proved to you that they were good and kind?~
+++ ~Do you have any advice for me?~
+++ ~You eat so much, I don't understand how we even have enough to feed you.~
+++ ~What are you going to do after all this is over?~
+++ ~Tell me more about yourself, Telzi.~
+++ ~How are you doing?~
+++ ~(Regard Telzi's physical form.)~
+++ ~Never mind.~ EXIT
+END
+
+IF ~OR (2)
+       Global("QI#TelziRomanceActive","GLOBAL",1) 
+       Global("QI#TelziRomanceActive","GLOBAL",2)
+    IsGabber(Player1)~ QI#TelziRomanceDialogues
+SAY ~(Telzi looks at you expectantly.)~
+++ ~Where did you get the name "Telzi"?~
+++ ~Would you ever consider being with a man if they proved to you that they were good and kind?~
+++ ~Do you have any advice for me?~
+++ ~You eat so much, I don't understand how we even have enough to feed you.~
+++ ~What are you going to do after all this is over?~
+++ ~Tell me more about yourself, Telzi.~
+++ ~How are you doing?~
+++ ~(Take her by the hand.)~
+++ ~You look so exotic. I like it.~
+++ ~You're so tall. Maybe you could hoist me up on your shoulders one day?~
+++ ~(Hug her.)~
+++ ~(Kiss her on the cheek.)~
+++ ~(Give her a quick kiss on the lips.)~
++ !Global("QI#TelziRomanceActive","GLOBAL",2)! + ~(Passionately kiss her.)~
+++ ~(Regard Telzi's physical form.)~
++ ~Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I have some time now, Telzi. What do you need to speak to me about that was so urgent?~
++ ~GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~
+++ ~Never mind.~ EXIT
 END
