@@ -450,14 +450,14 @@ SAY ~You are a respectable warrior.~
 END
 
 IF ~~ tft6.0.1a
-SAY ~I did not think males could be respectable.~
+SAY ~I did not think males could be respectable. I did not think they could listen too.~
 = ~But I see I was wrong.~
 IF ~~ + tft6.1
 END
 
 IF ~~ tft6.0.1b
-SAY ~You are a formidable female.~
-= ~I cannot help but admire your strength and determination.~
+SAY ~You are a formidable female. I did not expect you to listen to me either.~
+= ~At the same time, I cannot help but admire your strength and determination.~
 IF ~~ + tft6.1
 END
 
@@ -905,8 +905,61 @@ END
 
 // Talk 5 - Confession
 IF ~Global("QI#TelziLoveTalk","GLOBAL",10)~ tz5.0
+SAY ~<CHARNAME>. I would like to speak to you. Now.~
+++ ~Is something the matter, Telzi?~ + tz5.1
+++ ~Now? Is this a matter of urgency...or something else? *wink*~ + tz5.0.1
+++ ~We don't have the time right now, can't this wait?~ + + tz5.0.2
+++ ~I don't have the time to do this, Telzi. Everything that has happened thus far has been a mistake.~ + tz5.0.3
+END
+
+IF ~~ tz5.0.1
+SAY ~Is there something in your eye?~
+= ~I don't see anything in it.~
+++ ~*sigh* Never mind.~ + tz5.0.1a
+END
+
+IF ~~ tz5.0.1a
+SAY ~If that is what you wish, I will go on then.~
+IF ~~ + tz5.1
+END
+
+IF ~~ tz5.0.2
 SAY ~~
 END
 
+IF ~~ tz5.0.3
+SAY ~~
+END
+
+IF ~~ tz5.1
+SAY ~You have listened to my story and still accepted me.~
+IF ~Global("QI#TelziReadingWriting","GLOBAL",1)~ + tz5.1a
+IF ~!Global("QI#TelziReadingWriting","GLOBAL",1)~ + tz5.2            
+END
+
+IF ~~ tz5.1a
+SAY ~You have taught me how to read and write.~
+= ~I know I have a lot more to learn, but I think I am able to read and write a little.~
+IF ~~ + tz5.2
+END
+
+IF ~~ tz5.2
+SAY ~I want to say thank you.~
+= ~So, thank you.~
+= ~I have something else I must say to you.~
+++ ~What is it?~ + tz5.3
+++ ~That's the first time I have heard you say thank you - you're welcome!~ + tz5.2.1
+++ ~I don't have all day. Come on now.~ + tz5.3
+++ ~Spit it out already.~ + tz5.3
+END
+
+IF ~~ tz5.2.1
+SAY ~Showing thanks is not one of my strengths.~
+= ~Even then, appreciation is given too often nowadays. It should be more thoughtful, I think.~
+END
+
+IF ~~ tz5.3
+SAY ~~
+END
 
 /***************** Player-Initiated Dialogues *****************/
