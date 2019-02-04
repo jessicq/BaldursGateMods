@@ -1005,3 +1005,7 @@ IF ~~ DO ~IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer"
 END
 
 /***************** Player-Initiated Dialogues *****************/
+
+IF ~IsGabber(Player1)~ QI#TelziDialogues
+SAY ~Speak.~ [F_Barb#]
+END
