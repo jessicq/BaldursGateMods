@@ -1,9 +1,9 @@
 /*************** Banters ***************/
-//Baeloth
+/** Baeloth **/
 IF
   InMyArea(Player1)
   InParty("Baeloth")
-  InParty("QI#Tel")
+  InParty("QI#TEL")
   CombatCounter(0)
   !See([ENEMY])
   Global("QI#TelziBaeloth","GLOBAL",1)
@@ -14,24 +14,133 @@ IF
   Switch("QI#TelziBaeloth1","MYAREA")
 THEN 
   RESPONSE #0
-	  DisplayStringHead("CORWIN",~~)
+	  DisplayStringHead("BAELOTH",~Ah! You would make a wonderful addition in my warring tournaments!~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	  SetGlobal("QI#TelziBaeloth1","MYAREA",10)
   RESPONSE #10
-  	DisplayStringHead("QI#Tel",~~)
-	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
+  	  DisplayStringHead("QI#TEL",~Tournaments? You mean fights. I have been in too many to count.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
 	  SetGlobal("QI#TelziBaeloth1","MYAREA",20)
   RESPONSE #20
+    	  DisplayStringHead("BAELOTH",~All the better! More experienced competitors means more flamboyant challenges and more challenges means more money!~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  SetGlobal("QI#TelziBaeloth1","MYAREA",20)
+  RESPONSE #30
+    	  DisplayStringHead("QI#TEL",~I do not like you. Stay away from me and I will not be forced to break your neck.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
+	  SetGlobal("QI#TelziBaeloth1","MYAREA",20)
 END
 
-//Corwin
+/*** Corwin ***/
+//Talk 1
+IF
+  InMyArea(Player1)
+  InParty("Corwin")
+  InParty("QI#TEL")
+  CombatCounter(0)
+  !See([ENEMY])
+  Global("QI#TelziCorwin","GLOBAL",1)
+  RealGlobalTimerExpired("QI#TelziCorwinTalk","GLOBAL")
+  !GlobalTimerNotExpired("BD_BANTER_DELAY","MYAREA")
+  !RealGlobalTimerNotExpired("QI#_BANTER_DELAY","GLOBAL")
+  !Global("QI#TelziCorwin1","MYAREA",-1)
+  Switch("QI#TelziCorwin1","MYAREA")
+THEN 
+  RESPONSE #0
+	  DisplayStringHead("CORWIN",~I've heard rumors about a large, mysterious figure roaming the city. Now I know those rumors are true.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",10)
+  RESPONSE #10
+  	  DisplayStringHead("QI#TEL",~I would like to make myself known, but I learned a long time ago that humans do not like seeing something that is not like them.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",20)
+  RESPONSE #20
+    	  DisplayStringHead("CORWIN",~I can understand that. I'm not sure how I'd handle seeing you on the streets.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",20)
+  RESPONSE #30
+    	  DisplayStringHead("QI#TEL",~I do not think you would see me on the streets. I can stay hidden, if needed.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",20)
+  RESPONSE #40
+    	  DisplayStringHead("CORWIN",~Sure, and I can shoot my bow using my legs.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",20)	  
+  RESPONSE #50
+    	  DisplayStringHead("QI#TEL",~Really?~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",20)
+  RESPONSE #60
+    	  DisplayStringHead("CORWIN",~No.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",2)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",20)
+END
 
-//Dorn
+//Talk 2
+IF
+  InMyArea(Player1)
+  InParty("Corwin")
+  InParty("QI#TEL")
+  CombatCounter(0)
+  !See([ENEMY])
+  Global("QI#TelziCorwin","GLOBAL",1)
+  RealGlobalTimerExpired("QI#TelziCorwinTalk","GLOBAL")
+  !GlobalTimerNotExpired("BD_BANTER_DELAY","MYAREA")
+  !RealGlobalTimerNotExpired("QI#_BANTER_DELAY","GLOBAL")
+  !Global("QI#TelziCorwin2","MYAREA",-1)
+  Switch("QI#TelziCorwin2","MYAREA")
+THEN 
+  RESPONSE #0
+	  DisplayStringHead("CORWIN",~~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",10)
+END
 
-//Dynaheir 
+/*** Dorn ***/
 
-//Edwin 
+/*** Dynaheir ***/ 
 
+/*** Edwin ***/ 
+//Talk 1
+IF
+  InMyArea(Player1)
+  InParty("EDWIN")
+  InParty("QI#TEL")
+  CombatCounter(0)
+  !See([ENEMY])
+  Global("QI#TelziEdwin","GLOBAL",1)
+  RealGlobalTimerExpired("QI#TelziEdwinTalk","GLOBAL")
+  !GlobalTimerNotExpired("BD_BANTER_DELAY","MYAREA")
+  !RealGlobalTimerNotExpired("QI#_BANTER_DELAY","GLOBAL")
+  !Global("QI#TelziEdwin1","MYAREA",-1)
+  Switch("QI#TelziEdwin1","MYAREA")
+THEN 
+  RESPONSE #0
+	  DisplayStringHead("QI#TEL",~A male mage. Two things I hate the most.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziEdwin1","MYAREA",10)
+  RESPONSE #10
+  	  DisplayStringHead("EDWIN",~I am surprised you have gathered enough brain cells to form a sentence. (Or maybe the monster is repeating a line it has heard earlier.)~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  SetGlobal("QI#TelziEdwin1","MYAREA",10)
+  RESPONSE #20
+  	  DisplayStringHead("QI#TEL",~You remind me of someone.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziEdwin1","MYAREA",10)
+RESPONSE #30
+  	  DisplayStringHead("EDWIN",~I remind you of the most intelligent, handsome --~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziEdwin1","MYAREA",10)
+RESPONSE #40
+  	  DisplayStringHead("QI#TEL",~Ugh! Your voice bothers me! Stop talking or I will bash your skull with my fists!~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  SetGlobal("QI#TelziEdwin1","MYAREA",10)
+RESPONSE #50
+  	  DisplayStringHead("EDWIN",~(Not today, Odesseiron. Not today.)~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziEdwin1","MYAREA",10)
+END 
+	  
 //Glint
 
 //Jaheira
