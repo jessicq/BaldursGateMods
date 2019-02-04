@@ -1,0 +1,53 @@
+/*************** Banters ***************/
+//Baeloth
+IF
+  InMyArea(Player1)
+  InParty("Baeloth")
+  InParty("QI#Tel")
+  CombatCounter(0)
+  !See([ENEMY])
+  Global("QI#TelziBaeloth","GLOBAL",1)
+  RealGlobalTimerExpired("QI#TelziBaelothTalk","GLOBAL")
+  !GlobalTimerNotExpired("BD_BANTER_DELAY","MYAREA")
+  !RealGlobalTimerNotExpired("QI#_BANTER_DELAY","GLOBAL")
+  !Global("QI#TelziBaeloth1","MYAREA",-1)
+  Switch("QI#TelziBaeloth1","MYAREA")
+THEN 
+  RESPONSE #0
+	  DisplayStringHead("CORWIN",~~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
+	  SetGlobal("QI#TelziBaeloth1","MYAREA",10)
+  RESPONSE #10
+  	DisplayStringHead("QI#Tel",~~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
+	  SetGlobal("QI#TelziBaeloth1","MYAREA",20)
+  RESPONSE #20
+END
+
+//Corwin
+
+//Dorn
+
+//Dynaheir 
+
+//Edwin 
+
+//Glint
+
+//Jaheira
+
+//Khalid
+
+//M'khiin
+
+//Minsc
+
+//Neera
+
+//Rasaad
+
+//Safana
+
+//Viconia
+
+//Voghiln
