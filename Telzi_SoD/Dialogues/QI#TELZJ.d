@@ -924,11 +924,23 @@ IF ~~ + tz5.1
 END
 
 IF ~~ tz5.0.2
-SAY ~~
+SAY ~No, this cannot wait. This needs to be said now.~
+++ ~Alright, go ahead.~ + tz5.1
+++ ~Well, whatever you need to say can't be that important.~ + tz5.0.2a
+END
+
+IF ~~ tz5.0.2a
+SAY ~If you thought so little of me, then it is good you have stalled me this long.~
+= ~You will not hear from me again, I can promise that.~
+IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
 END
 
 IF ~~ tz5.0.3
-SAY ~~
+SAY ~That is how you feel?~
+= ~Then, why did you spend the night with me? Why would you listen to talk? Why --~
+= ~No, I do not want to know the answer.~
+= ~I will not speak to you again. You can expect that from me.~
+IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
 END
 
 IF ~~ tz5.1
@@ -956,10 +968,40 @@ END
 IF ~~ tz5.2.1
 SAY ~Showing thanks is not one of my strengths.~
 = ~Even then, appreciation is given too often nowadays. It should be more thoughtful, I think.~
+IF ~~ + t5.3
 END
 
 IF ~~ tz5.3
-SAY ~~
+SAY ~I feel...strangely calm when I am around you.~
+= ~You occupy my mind more than my hunger and want of food.~
+++ ~That is wonderful to hear. I find myself thinking about you more as well.~ + tz5.4
+++ ~You are the one person that can compare to food and still sound some-what cute about it.~ + tz5.4
+++ ~Gee, thanks.~ + tz5.3.1
+++ ~I'm sorry, Telzi. I don't feel the same way about you.~ + tz5.0.3
+++ ~Ha! You like me! Well, that stinks because I could never like a monster like you.~ + tz5.0.3
+END
+
+IF ~~ tz5.3.1
+SAY ~You are welcome.~
+IF ~~ + tz5.4
+END
+
+IF ~~ tz5.4
+SAY ~I care deeply for you, <CHARNAME>.~
+= ~I have not felt this feeling before, but I know how I feel about you.~
+= ~You do not need to say anything else, but I would like for you to know that wherever you go, I will follow. Whatever you do, I will support you.~
+= ~I will protect you with my life. I would give you my life, if you asked for it.~
+= ~You have my complete and utter devotion. All I ask in return is your affection and kindness towards me to continue.~
+++ ~Of course, Telzi. I care deeply for you too.~ + tz5.5
+++ ~Complete and utter devotion, eh? I like the sound of that. I'll give you the affection you desperately crave.~ + tz5.5
+++ ~I'm sorry, Telzi. I don't feel the same way about you.~ + tz5.0.3
+++ ~Ha! You like me! Well, that stinks because I could never like a monster like you.~ + tz5.0.3
+END
+
+IF ~~ tz5.5
+SAY ~That is all I could have asked for in this life.~
+= ~You are one of a kind, <CHARNAME>.~
+IF ~~ DO ~IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer","GLOBAL",2100)~ EXIT
 END
 
 /***************** Player-Initiated Dialogues *****************/
