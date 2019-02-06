@@ -1,5 +1,5 @@
 /*************** Banters ***************/
-/** Baeloth **/
+/*** Baeloth ***/
 //Talk 1
 IF
   InMyArea(Player1)
@@ -155,8 +155,60 @@ END
 
 /*** Dorn ***/
 //Talk 1
+IF
+  InMyArea(Player1)
+  InParty("Dorn")
+  InParty("QI#TEL")
+  CombatCounter(0)
+  !See([ENEMY])
+  Global("QI#TelziDorn","GLOBAL",1)
+  RealGlobalTimerExpired("QI#TelziDornTalk","GLOBAL")
+  !GlobalTimerNotExpired("BD_BANTER_DELAY","MYAREA")
+  !RealGlobalTimerNotExpired("QI#_BANTER_DELAY","GLOBAL")
+  !Global("QI#TelziDorn1","MYAREA",-1)
+  Switch("QI#TelziDorn1","MYAREA")
+THEN 
+  RESPONSE #0
+	  DisplayStringHead("DORN",~It is pitiful to see a troll serve one so willingly.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziDorn1","MYAREA",10)
+  RESPONSE #10
+	  DisplayStringHead("QI#TEL",~*sniff* You reek of wrongness. Why would I answer to one such as you?~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
+	  SetGlobal("QI#TelziDorn1","MYAREA",20)
+  RESPONSE #20
+	  DisplayStringHead("DORN",~Wrongness? You mean of power and strength.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziDorn1","MYAREA",30)
+  RESPONSE #30
+	  DisplayStringHead("QI#TEL",~Typical male. You think you are all high and mighty.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziDorn1","MYAREA",40)
+  RESPONSE #40
+	  DisplayStringHead("QI#TEL",~Men can be weak, but I am not.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",ONE_MINUTE)
+	  RealSetGlobalTimer("QI#_BANTER_DELAY","GLOBAL",THIRTY_MINUTES)
+	  SetGlobal("QI#TelziDorn1","MYAREA",-1)
+	  SetGlobal("QI#TelziDorn","GLOBAL",2)
+END
 
 //Talk 2
+IF
+  InMyArea(Player1)
+  InParty("Dorn")
+  InParty("QI#TEL")
+  CombatCounter(0)
+  !See([ENEMY])
+  Global("QI#TelziDorn","GLOBAL",2)
+  RealGlobalTimerExpired("QI#TelziDornTalk","GLOBAL")
+  !GlobalTimerNotExpired("BD_BANTER_DELAY","MYAREA")
+  !RealGlobalTimerNotExpired("QI#_BANTER_DELAY","GLOBAL")
+  !Global("QI#TelziDorn2","MYAREA",-1)
+  Switch("QI#TelziDorn2","MYAREA")
+THEN 
+  RESPONSE #0
+END
 
 /*** Dynaheir ***/ 
 //Talk 1
