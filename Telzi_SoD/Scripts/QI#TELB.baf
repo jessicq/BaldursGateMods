@@ -1,5 +1,6 @@
 /*************** Banters ***************/
 /** Baeloth **/
+//Talk 1
 IF
   InMyArea(Player1)
   InParty("Baeloth")
@@ -24,11 +25,49 @@ THEN
   RESPONSE #20
     	  DisplayStringHead("BAELOTH",~All the better! More experienced competitors means more flamboyant challenges and more challenges means more money!~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
-	  SetGlobal("QI#TelziBaeloth1","MYAREA",20)
+	  SetGlobal("QI#TelziBaeloth1","MYAREA",30)
   RESPONSE #30
     	  DisplayStringHead("QI#TEL",~I do not like you. Stay away from me and I will not be forced to break your neck.~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
-	  SetGlobal("QI#TelziBaeloth1","MYAREA",20)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",ONE_MINUTE)
+	  RealSetGlobalTimer("QI#_BANTER_DELAY","GLOBAL",THIRTY_MINUTES)
+	  SetGlobal("QI#TelziBaeloth","GLOBAL",2)
+	  SetGlobal("QI#TelziBaeloth1","MYAREA",-1)
+END
+
+//Talk 2
+IF
+  InMyArea(Player1)
+  InParty("Baeloth")
+  InParty("QI#TEL")
+  CombatCounter(0)
+  !See([ENEMY])
+  Global("QI#TelziBaeloth","GLOBAL",2)
+  RealGlobalTimerExpired("QI#TelziBaelothTalk","GLOBAL")
+  !GlobalTimerNotExpired("BD_BANTER_DELAY","MYAREA")
+  !RealGlobalTimerNotExpired("QI#_BANTER_DELAY","GLOBAL")
+  !Global("QI#TelziBaeloth2","MYAREA",-1)
+  Switch("QI#TelziBaeloth2","MYAREA")
+THEN 
+  RESPONSE #0
+  	  DisplayStringHead("BAELOTH",~Have you given thought to --~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziBaeloth2","MYAREA",10)
+  RESPONSE #10
+  	  DisplayStringHead("QI#TEL",~I have said this before. I do not want to join your fights. I do not even want to see your face.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  SetGlobal("QI#TelziBaeloth2","MYAREA",20)
+  RESPONSE #20
+  	  DisplayStringHead("QI#TEL",~Speak to me again, and I will not hesitate to kill you.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziBaeloth2","MYAREA",30)
+  RESPONSE #30
+  	  DisplayStringHead("QI#TEL",~Oookay! But if you ever change your mind, you know where I'm at!~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",ONE_MINUTE)
+	  RealSetGlobalTimer("QI#_BANTER_DELAY","GLOBAL",THIRTY_MINUTES)
+	  SetGlobal("QI#TelziBaeloth2","MYAREA",-1)
+	  SetGlobal("QI#TelziBaeloth","GLOBAL",3)
 END
 
 /*** Corwin ***/
@@ -57,23 +96,26 @@ THEN
   RESPONSE #20
     	  DisplayStringHead("CORWIN",~I can understand that. I'm not sure how I'd handle seeing you on the streets.~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
-	  SetGlobal("QI#TelziCorwin1","MYAREA",20)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",30)
   RESPONSE #30
     	  DisplayStringHead("QI#TEL",~I do not think you would see me on the streets. I can stay hidden, if needed.~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
-	  SetGlobal("QI#TelziCorwin1","MYAREA",20)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",40)
   RESPONSE #40
     	  DisplayStringHead("CORWIN",~Sure, and I can shoot my bow using my legs.~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
-	  SetGlobal("QI#TelziCorwin1","MYAREA",20)	  
+	  SetGlobal("QI#TelziCorwin1","MYAREA",50)	  
   RESPONSE #50
     	  DisplayStringHead("QI#TEL",~Really?~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
-	  SetGlobal("QI#TelziCorwin1","MYAREA",20)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",70)
   RESPONSE #60
     	  DisplayStringHead("CORWIN",~No.~)
-	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",2)
-	  SetGlobal("QI#TelziCorwin1","MYAREA",20)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",2)	  
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",ONE_MINUTE)
+	  RealSetGlobalTimer("QI#_BANTER_DELAY","GLOBAL",THIRTY_MINUTES)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",-1)
+	  SetGlobal("QI#TelziCorwin","GLOBAL",2)
 END
 
 //Talk 2
@@ -122,23 +164,26 @@ THEN
   RESPONSE #10
   	  DisplayStringHead("EDWIN",~I am surprised you have gathered enough brain cells to form a sentence. (Or maybe the monster is repeating a line it has heard earlier.)~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
-	  SetGlobal("QI#TelziEdwin1","MYAREA",10)
+	  SetGlobal("QI#TelziEdwin1","MYAREA",20)
   RESPONSE #20
   	  DisplayStringHead("QI#TEL",~You remind me of someone.~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
-	  SetGlobal("QI#TelziEdwin1","MYAREA",10)
+	  SetGlobal("QI#TelziEdwin1","MYAREA",30)
 RESPONSE #30
   	  DisplayStringHead("EDWIN",~I remind you of the most intelligent, handsome --~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
-	  SetGlobal("QI#TelziEdwin1","MYAREA",10)
+	  SetGlobal("QI#TelziEdwin1","MYAREA",40)
 RESPONSE #40
   	  DisplayStringHead("QI#TEL",~Ugh! Your voice bothers me! Stop talking or I will bash your skull with my fists!~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
-	  SetGlobal("QI#TelziEdwin1","MYAREA",10)
+	  SetGlobal("QI#TelziEdwin1","MYAREA",50)
 RESPONSE #50
   	  DisplayStringHead("EDWIN",~(Not today, Odesseiron. Not today.)~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
-	  SetGlobal("QI#TelziEdwin1","MYAREA",10)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",ONE_MINUTE)
+	  RealSetGlobalTimer("QI#_BANTER_DELAY","GLOBAL",THIRTY_MINUTES)
+	  SetGlobal("QI#TelziEdwin1","MYAREA",-1)
+	  SetGlobal("QI#TelziEdwin","GLOBAL",2)
 END 
 	  
 //Glint
