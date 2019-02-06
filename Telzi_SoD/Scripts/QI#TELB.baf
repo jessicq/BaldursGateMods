@@ -208,6 +208,25 @@ IF
   Switch("QI#TelziDorn2","MYAREA")
 THEN 
   RESPONSE #0
+  	  DisplayStringHead("DORN",~I can admire your fortitude, but it is wasted on you.~)
+  	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziDorn2","MYAREA",10)
+  RESPONSE #10
+  	  DisplayStringHead("QI#TEL",~If you are addressing my heritage, my existence was not meant to be.~)
+  	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
+	  SetGlobal("QI#TelziDorn2","MYAREA",20)
+  RESPONSE #20
+  	  DisplayStringHead("QI#TEL",~No. You are weak. You do not know how to use the gifts given to you.~)
+  	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
+	  SetGlobal("QI#TelziDorn2","MYAREA",30)
+  RESPONSE #30
+  	  DisplayStringHead("QI#TEL",~You are a male. You think everyone is weak who is not of your kind.~)
+  	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
+	  SetGlobal("QI#TelziDorn2","MYAREA",40)
+  RESPONSE #40
+  	  DisplayStringHead("DORN",~~)
+  	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
+	  SetGlobal("QI#TelziDorn2","MYAREA",40)
 END
 
 /*** Dynaheir ***/ 
