@@ -125,7 +125,7 @@ IF
   InParty("QI#TEL")
   CombatCounter(0)
   !See([ENEMY])
-  Global("QI#TelziCorwin","GLOBAL",1)
+  Global("QI#TelziCorwin","GLOBAL",2)
   RealGlobalTimerExpired("QI#TelziCorwinTalk","GLOBAL")
   !GlobalTimerNotExpired("BD_BANTER_DELAY","MYAREA")
   !RealGlobalTimerNotExpired("QI#_BANTER_DELAY","GLOBAL")
@@ -133,14 +133,35 @@ IF
   Switch("QI#TelziCorwin2","MYAREA")
 THEN 
   RESPONSE #0
-	  DisplayStringHead("CORWIN",~~)
-	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  DisplayStringHead("CORWIN",~I'm surprised our food stocks haven't disappeared altogether yet.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	  SetGlobal("QI#TelziCorwin1","MYAREA",10)
+  RESPONSE #10
+	  DisplayStringHead("QI#TEL",~Would you like for me to starve instead? That is something you do not want to see.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",20)
+  RESPONSE #20
+	  DisplayStringHead("CORWIN",~I'm sure it would be a sight to see.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziCorwin1","MYAREA",30)
+  RESPONSE #40
+	  DisplayStringHead("QI#TEL",~Believe me. You would not outlive the day.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",ONE_MINUTE)
+	  RealSetGlobalTimer("QI#_BANTER_DELAY","GLOBAL",THIRTY_MINUTES)
+	  SetGlobal("QI#TelziCorwin2","MYAREA",-1)
+	  SetGlobal("QI#TelziCorwin","GLOBAL",3)
 END
 
 /*** Dorn ***/
+//Talk 1
+
+//Talk 2
 
 /*** Dynaheir ***/ 
+//Talk 1
+
+//Talk 2
 
 /*** Edwin ***/ 
 //Talk 1
@@ -186,22 +207,52 @@ RESPONSE #50
 	  SetGlobal("QI#TelziEdwin","GLOBAL",2)
 END 
 	  
-//Glint
+/*** Glint ***/
+//Talk 1
 
-//Jaheira
+//Talk 2
 
-//Khalid
+/*** Jaheira ***/
+//Talk 1
 
-//M'khiin
+//Talk 2
 
-//Minsc
+/*** Khalid ***/
+//Talk 1
 
-//Neera
+//Talk 2
 
-//Rasaad
+/*** M'khiin ***/
+//Talk 1
 
-//Safana
+//Talk 2
 
-//Viconia
+/*** Minsc ***/
+//Talk 1
 
-//Voghiln
+//Talk 2
+
+/*** Neera ***/
+//Talk 1
+
+//Talk 2
+
+/*** Rasaad ***/
+//Talk 1
+
+//Talk 2
+
+/*** Safana ***/
+//Talk 1
+
+//Talk 2
+
+/*** Viconia ***/
+//Talk 1
+
+//Talk 2
+
+/*** Voghiln ***/
+//Talk 1
+
+//Talk 2
