@@ -1005,73 +1005,210 @@ IF ~~ DO ~IncrementGlobal("QI#TelziLoveTalk","GLOBAL",1) ("QI#TelziRomanceTimer"
 END
 
 /***************** Player-Initiated Dialogues *****************/
-
-IF ~ GlobalGT("QI#TelziFriendshipTalk","GLOBAL",6) !Global("QI#TelziFriendshipActive","GLOBAL",1) IsGabber(Player1)~ QI#TelziFriendDialogues
+//Non-Romance PIDs
+IF ~Global("QI#TelziRomanceActive","GLOBAL",0) GlobalGT("QI#TelziFriendshipTalk","GLOBAL",6) !Global("QI#TelziFriendshipActive","GLOBAL",1) IsGabber(Player1)~ QI#TelziFriendDialogues
 SAY ~Speak.~ [F_Barb#]
-++ ~Where did you get the name "Telzi"?~
-++ ~Would you ever consider being with a man if they proved to you that they were good and kind?~
-+ ~RandomNum(4,1)~ + ~Do you have any advice for me?~
-+ ~RandomNum(4,2)~ + ~Do you have any advice for me?~
-+ ~RandomNum(4,3)~ + ~Do you have any advice for me?~
-+ ~RandomNum(4,4)~ + ~Do you have any advice for me?~
-++ ~You eat so much, I don't understand how we even have enough to feed you.~
-++ ~What are you going to do after all this is over?~
-++ ~Tell me more about yourself, Telzi.~
-+ ~RandomNum(4,1)~ + ~How are you doing?~
-+ ~RandomNum(4,2)~ + ~How are you doing?~
-+ ~RandomNum(4,3)~ + ~How are you doing?~
-+ ~RandomNum(4,4)~ + ~How are you doing?~
-+ ~RandomNum(3,1)~ + ~(Regard Telzi's physical form.)~
-+ ~RandomNum(3,2)~ + ~(Regard Telzi's physical form.)~
-+ ~RandomNum(3,3)~ + ~(Regard Telzi's physical form.)~
+++ ~Where did you get the name "Telzi"?~ + TelziName1.0
+++ ~Would you ever consider being with a man if they proved to you that they were good and kind?~ + TelziMan1.0
++ ~RandomNum(4,1)~ + ~Do you have any advice for me?~ + TelziAdvice1.0
++ ~RandomNum(4,2)~ + ~Do you have any advice for me?~ + TelziAdvice2.0
++ ~RandomNum(4,3)~ + ~Do you have any advice for me?~ + TelziAdvice3.0
++ ~RandomNum(4,4)~ + ~Do you have any advice for me?~ + TelziAdvice4.0
+++ ~You eat so much, I don't understand how we even have enough to feed you.~ + TelziEat1.0
+++ ~What are you going to do after all this is over?~ + TelziOver1.0
+++ ~Tell me more about yourself, Telzi.~ + TelziExplain1.0
+++ ~Why do you take everything so literally? Haven't you heard of a joke?~ + TelziJoke1.0
++ ~RandomNum(4,1)~ + ~How are you doing?~ + TelziFeeling1.0
++ ~RandomNum(4,2)~ + ~How are you doing?~ + TelziFeeling2.0
++ ~RandomNum(4,3)~ + ~How are you doing?~ + TelziFeeling3.0
++ ~RandomNum(4,4)~ + ~How are you doing?~ + TelziFeeling4.0
++ ~RandomNum(3,1)~ + ~(Regard Telzi's physical form.)~ + TelziRegard1.0
++ ~RandomNum(3,2)~ + ~(Regard Telzi's physical form.)~ + TelziRegard2.0
++ ~RandomNum(3,3)~ + ~(Regard Telzi's physical form.)~ + TelziRegard3.0
 ++ ~Never mind.~ EXIT
 END
 
+IF ~~ TelziAdvice1.0
+SAY ~A full belly calms any creature.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziAdvice2.0
+SAY ~Speak the truth. Do not waste time avoiding it.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziAdvice3.0
+SAY ~Not at this time, no.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziAdvice4.0
+SAY ~Do not be afraid to put a male in its place.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziEat1.0
+SAY ~I do not eat as much as I used to. It is a great improvement.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziOver1.0
+SAY ~I will return to the monastary and live out the rest of my days there.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziExplain1.0
+SAY ~What is there to tell that you do not know already?~
+++ ~Tell me anything about yourself. Anything.~ + TelziExplain1.1
+++ ~Good point. Never mind.~ EXIT
+END
+
+IF ~~ TelziExplain1.1
+SAY ~I like to eat. I like ale. The stronger, the better.~
+= ~I like the way the sun feels on my skin.~
+= ~I like to feel the dirt between my toes.~
+= ~I prefer the truth to lies.~
+= ~My greatest desire in this world is to live in peace.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziJoke1.0
+SAY ~I have heard of jokes, yes. I do not know why they are so amusing.~
+= ~ Besides, treating things literally makes things easier for me to think about.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziFeelings1.0
+SAY ~My stomach is full.~
+= ~I am happy.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziFeelings2.0
+SAY ~I could go for another piece of meat.~
+= ~I think this being fed would make me happier.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziFeelings3.0
+SAY ~I am still alive.~
+= ~It is a good day.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziFeelings4.0
+SAY ~Well enough.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziRegard1.0
+SAY ~(Telzi is seen casually munching on who-knows-what and you curiously watch her as she chows down.)~
+= ~(She takes large, generous bites and soon enough, the object in her hand disappears.)~
+= ~(You watch her search through her pack. Her lean, yet muscular arms ripple in the light and you can see her lips curl in frustration as she rummages around.)~
+= ~(Finally, she pulls out what looks like a rack of meat, and your thoughts wander to how she stores such large amounts of food in there.)~
+= ~(You are quickly brought back into reality when you hear a loud, satisfied burp from Telzi.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziRegard2.0
+SAY ~(Telzi is intently scanning around her surroundings for any unwanted visitors. You decide that this is the best time to regard the half-troll.)~
+= ~(Strangely enough, Telzi shows few physical signs of her troll heritage. She is exceptionally tall and her eyes are an odd ghost-like pale blue color. If not for her teal skin and three-fingered hands and two-legged toes resembling more like claws, she could easily pass off as an half-elf.)~
+= ~(As your eyes make your way up to her face, Telzi's gaze shifts to meet yours. Her stone-cold look makes this a good time to look away.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziRegard3.0
+SAY ~(You take this moment to carefully examine Telzi.)~
+= ~(Her flaming red hair makes her stand out in a crowd. Even if it was covered by a hood, it is long enough where small strands fall out.)~
+= ~(Another close look at Telzi's face reveals a slightly freckled face. It wouldn't be very noticeable if not for the angle in which she stands. A suddent shift in her position hides them, and you are left wondering how her freckles blend in so well with her skin.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziName1.0
+SAY ~I chose the name "Telzi" for myself.~
+= ~The male wizard gave me no name, other than bitch, whore, slave, and troll.~
+++ ~How did you come up with that name though?~ + TeziName1.1
+++ ~Wow, that was too much information.~ + TelziName1.2
+++ ~That is a very sad life, Telzi.~ + TelziName1.3
+++ ~Can I call you those names as well?~ + TelziName1.4
+END
+
+IF ~~ TelziName1.1
+SAY ~I liked the sound of it.~
+= ~That is all.~
+= ~Not everything has a hidden meaning behind it.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziName1.2
+SAY ~You asked.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziName1.3
+SAY ~So many have said.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziName1.4
+SAY ~No.~
+= ~You will call me Telzi, and that is the only name you will call me.~
+IF ~~ EXIT
+END
+
+//Romance PIDs
 IF ~OR (2)
        Global("QI#TelziRomanceActive","GLOBAL",1) 
        Global("QI#TelziRomanceActive","GLOBAL",2)
     IsGabber(Player1)~ QI#TelziRomanceDialogues
 SAY ~(Telzi looks at you expectantly.)~
-++ ~Where did you get the name "Telzi"?~
-++ ~Would you ever consider being with a man if they proved to you that they were good and kind?~
-+ ~RandomNum(4,1)~ + ~Do you have any advice for me?~
-+ ~RandomNum(4,2)~ + ~Do you have any advice for me?~
-+ ~RandomNum(4,3)~ + ~Do you have any advice for me?~
-+ ~RandomNum(4,4)~ + ~Do you have any advice for me?~
-++ ~You eat so much, I don't understand how we even have enough to feed you.~
-++ ~What are you going to do after all this is over?~
-++ ~Tell me more about yourself, Telzi.~
-+ ~RandomNum(4,1)~ + ~How are you doing?~
-+ ~RandomNum(4,2)~ + ~How are you doing?~
-+ ~RandomNum(4,3)~ + ~How are you doing?~
-+ ~RandomNum(4,4)~ + ~How are you doing?~
+++ ~Where did you get the name "Telzi"?~ + TelziName1.0
+++ ~Would you ever consider being with a man if they proved to you that they were good and kind?~ + TelziMan1.0
++ ~RandomNum(4,1)~ + ~Do you have any advice for me?~ + TelziAdvice1.0
++ ~RandomNum(4,2)~ + ~Do you have any advice for me?~ + TelziAdvice2.0
++ ~RandomNum(4,3)~ + ~Do you have any advice for me?~ + Telziadvice3.0
++ ~RandomNum(4,4)~ + ~Do you have any advice for me?~ + TelziAdvice4.0
+++ ~You eat so much, I don't understand how we even have enough to feed you.~ + TelziEat1.0
++ ~Global("QI#TelziRomanceActive","GLOBAL",1) ~ + ~What are you going to do after all this is over?~ + TelziOver1.0
++ ~Global("QI#TelziRomanceActive","GLOBAL",2) ~ + ~What are you going to do after all this is over?~ + TelziOver2.0
+++ ~Tell me more about yourself, Telzi.~ + TelziExplain1.0
++ ~RandomNum(4,1)~ + ~How are you doing?~ + TelziFeeling1.0
++ ~RandomNum(4,2)~ + ~How are you doing?~ + TelziFeeling2.0
++ ~RandomNum(4,3)~ + ~How are you doing?~ + TelziFeeling3.0
++ ~RandomNum(4,4)~ + ~How are you doing?~ + TelziFeeling4.0
 + ~RandomNum(3,1)~ + ~(Take her by the hand.)~
 + ~RandomNum(3,2)~ + ~(Take her by the hand.)~
 + ~RandomNum(3,3)~ + ~(Take her by the hand.)~
 + ~RandomNum(2,1)~ + ~You look so exotic. I like it.~
 + ~RandomNum(2,2)~ + ~You look so exotic. I like it.~
-+ ~RandomNum(3,1)~ + ~You're so tall. Maybe you could hoist me up on your shoulders one day?~
-+ ~RandomNum(3,2)~ + ~You're so tall. Maybe you could hoist me up on your shoulders one day?~
-+ ~RandomNum(3,3)~ + ~You're so tall. Maybe you could hoist me up on your shoulders one day?~
-+ ~RandomNum(3,1)~ + ~(Hug her.)~
-+ ~RandomNum(3,2)~ + ~(Hug her.)~
-+ ~RandomNum(3,3)~ + ~(Hug her.)~
-+ ~RandomNum(3,1)~ + ~(Kiss her on the cheek.)~
-+ ~RandomNum(3,2)~ + ~(Kiss her on the cheek.)~
-+ ~RandomNum(3,3)~ + ~(Kiss her on the cheek.)~
-+ ~RandomNum(2,1)~ + ~(Give her a quick kiss on the lips.)~
-+ ~RandomNum(2,2)~ + ~(Give her a quick kiss on the lips.)~
-+ ~RandomNum(2,1) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Give her a quick kiss on the lips.)~
-+ ~RandomNum(2,2) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Give her a quick kiss on the lips.)~
-+ ~RandomNum(3,1) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Passionately kiss her.)~
-+ ~RandomNum(3,2) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Passionately kiss her.)~
-+ ~RandomNum(3,3) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Passionately kiss her.)~
-+ ~RandomNum(3,1)~ + ~(Regard Telzi's physical form.)~
-+ ~RandomNum(3,2)~ + ~(Regard Telzi's physical form.)~
-+ ~RandomNum(3,3)~ + ~(Regard Telzi's physical form.)~
-+ ~Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I have some time now, Telzi. What do you need to speak to me about that was so urgent?~
-+ ~RandomNum(3,1) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~
-+ ~RandomNum(3,2) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~
-+ ~RandomNum(3,3) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~
++ ~RandomNum(3,1)~ + ~You're so tall. Maybe you could hoist me up on your shoulders one day?~ + TelziTall1.0
++ ~RandomNum(3,2)~ + ~You're so tall. Maybe you could hoist me up on your shoulders one day?~ + TelziTall2.0
++ ~RandomNum(3,3)~ + ~You're so tall. Maybe you could hoist me up on your shoulders one day?~ + TelziTall3.0
++ ~RandomNum(3,1)~ + ~(Hug her.)~ + TelziHug1.0
++ ~RandomNum(3,2)~ + ~(Hug her.)~ + TelziHug2.0
++ ~RandomNum(3,3)~ + ~(Hug her.)~ + TelziHug3.0
++ ~RandomNum(3,1)~ + ~(Kiss her on the cheek.)~ +TelziCheek1.0
++ ~RandomNum(3,2)~ + ~(Kiss her on the cheek.)~ + TelziCheek2.0
++ ~RandomNum(3,3)~ + ~(Kiss her on the cheek.)~ + TelziCheek3.0
++ ~RandomNum(4,1)~ + ~(Give her a quick kiss on the lips.)~ + TelziQuickLips1.0
++ ~RandomNum(4,2)~ + ~(Give her a quick kiss on the lips.)~ + TelziQuickLips2.0
++ ~RandomNum(4,3) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Give her a quick kiss on the lips.)~ + TelziQuickLips3.0
++ ~RandomNum(4,4) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Give her a quick kiss on the lips.)~ + TelziQuickLips4.0
++ ~RandomNum(3,1) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Passionately kiss her.)~ + TelziPassion1.0
++ ~RandomNum(3,2) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Passionately kiss her.)~ + TelziPassion2.0
++ ~RandomNum(3,3) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Passionately kiss her.)~ + TelziPassion3.0
++ ~RandomNum(3,1)~ + ~(Regard Telzi's physical form.)~ + TelziRegard1.0
++ ~RandomNum(3,2)~ + ~(Regard Telzi's physical form.)~ + TelziRegard2.0
++ ~RandomNum(3,3)~ + ~(Regard Telzi's physical form.)~ + TelziRegard4.0
++ ~Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I have some time now, Telzi. What do you need to speak to me about that was so urgent?~ + WaitingUrgent
++ ~RandomNum(3,1) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~ + TelziSleep1.0
++ ~RandomNum(3,2) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~ + TelziSleep2.0
++ ~RandomNum(3,3) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~ + TelziSleep3.0
 ++ ~Never mind.~ EXIT
+END
+
+IF ~~ WaitingUrgent
+SAY ~This will seem blunt for you, but this has been on my mind since then.~
+IF ~~ + tz4.1
 END
