@@ -68,6 +68,7 @@ COPY ~Telzi_SoD/Creatures/QI#TELZI.cre~ ~override/QI#TELZI.cre~
 // Dialogues
 COMPILE EVALUATE_BUFFER ~Telzi_SoD/Dialogues/QI#TELZI.d~
 COMPILE EVALUATE_BUFFER ~Telzi_SoD/Dialogues/QI#TELZP.d~
+COMPILE EVALUATE_BUFFER ~Telzi_SoD/Dialogues/QI#TELZJ.d~
 
 // Scripts
 COMPILE EVALUATE_BUFFER ~Telzi_SoD/Scripts/QI#TELS.baf~
