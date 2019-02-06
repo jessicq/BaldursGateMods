@@ -1010,12 +1010,20 @@ IF ~ GlobalGT("QI#TelziFriendshipTalk","GLOBAL",6) !Global("QI#TelziFriendshipAc
 SAY ~Speak.~ [F_Barb#]
 ++ ~Where did you get the name "Telzi"?~
 ++ ~Would you ever consider being with a man if they proved to you that they were good and kind?~
-++ ~Do you have any advice for me?~
++ ~RandomNum(4,1)~ + ~Do you have any advice for me?~
++ ~RandomNum(4,2)~ + ~Do you have any advice for me?~
++ ~RandomNum(4,3)~ + ~Do you have any advice for me?~
++ ~RandomNum(4,4)~ + ~Do you have any advice for me?~
 ++ ~You eat so much, I don't understand how we even have enough to feed you.~
 ++ ~What are you going to do after all this is over?~
 ++ ~Tell me more about yourself, Telzi.~
-++ ~How are you doing?~
-++ ~(Regard Telzi's physical form.)~
++ ~RandomNum(4,1)~ + ~How are you doing?~
++ ~RandomNum(4,2)~ + ~How are you doing?~
++ ~RandomNum(4,3)~ + ~How are you doing?~
++ ~RandomNum(4,4)~ + ~How are you doing?~
++ ~RandomNum(3,1)~ + ~(Regard Telzi's physical form.)~
++ ~RandomNum(3,2)~ + ~(Regard Telzi's physical form.)~
++ ~RandomNum(3,3)~ + ~(Regard Telzi's physical form.)~
 ++ ~Never mind.~ EXIT
 END
 
@@ -1026,20 +1034,44 @@ IF ~OR (2)
 SAY ~(Telzi looks at you expectantly.)~
 ++ ~Where did you get the name "Telzi"?~
 ++ ~Would you ever consider being with a man if they proved to you that they were good and kind?~
-++ ~Do you have any advice for me?~
++ ~RandomNum(4,1)~ + ~Do you have any advice for me?~
++ ~RandomNum(4,2)~ + ~Do you have any advice for me?~
++ ~RandomNum(4,3)~ + ~Do you have any advice for me?~
++ ~RandomNum(4,4)~ + ~Do you have any advice for me?~
 ++ ~You eat so much, I don't understand how we even have enough to feed you.~
 ++ ~What are you going to do after all this is over?~
 ++ ~Tell me more about yourself, Telzi.~
-++ ~How are you doing?~
-++ ~(Take her by the hand.)~
-++ ~You look so exotic. I like it.~
-++ ~You're so tall. Maybe you could hoist me up on your shoulders one day?~
-++ ~(Hug her.)~
-++ ~(Kiss her on the cheek.)~
-++ ~(Give her a quick kiss on the lips.)~
-+ !Global("QI#TelziRomanceActive","GLOBAL",2)! + ~(Passionately kiss her.)~
-++ ~(Regard Telzi's physical form.)~
++ ~RandomNum(4,1)~ + ~How are you doing?~
++ ~RandomNum(4,2)~ + ~How are you doing?~
++ ~RandomNum(4,3)~ + ~How are you doing?~
++ ~RandomNum(4,4)~ + ~How are you doing?~
++ ~RandomNum(3,1)~ + ~(Take her by the hand.)~
++ ~RandomNum(3,2)~ + ~(Take her by the hand.)~
++ ~RandomNum(3,3)~ + ~(Take her by the hand.)~
++ ~RandomNum(2,1)~ + ~You look so exotic. I like it.~
++ ~RandomNum(2,2)~ + ~You look so exotic. I like it.~
++ ~RandomNum(3,1)~ + ~You're so tall. Maybe you could hoist me up on your shoulders one day?~
++ ~RandomNum(3,2)~ + ~You're so tall. Maybe you could hoist me up on your shoulders one day?~
++ ~RandomNum(3,3)~ + ~You're so tall. Maybe you could hoist me up on your shoulders one day?~
++ ~RandomNum(3,1)~ + ~(Hug her.)~
++ ~RandomNum(3,2)~ + ~(Hug her.)~
++ ~RandomNum(3,3)~ + ~(Hug her.)~
++ ~RandomNum(3,1)~ + ~(Kiss her on the cheek.)~
++ ~RandomNum(3,2)~ + ~(Kiss her on the cheek.)~
++ ~RandomNum(3,3)~ + ~(Kiss her on the cheek.)~
++ ~RandomNum(2,1)~ + ~(Give her a quick kiss on the lips.)~
++ ~RandomNum(2,2)~ + ~(Give her a quick kiss on the lips.)~
++ ~RandomNum(2,1) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Give her a quick kiss on the lips.)~
++ ~RandomNum(2,2) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Give her a quick kiss on the lips.)~
++ ~RandomNum(3,1) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Passionately kiss her.)~
++ ~RandomNum(3,2) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Passionately kiss her.)~
++ ~RandomNum(3,3) Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~(Passionately kiss her.)~
++ ~RandomNum(3,1)~ + ~(Regard Telzi's physical form.)~
++ ~RandomNum(3,2)~ + ~(Regard Telzi's physical form.)~
++ ~RandomNum(3,3)~ + ~(Regard Telzi's physical form.)~
 + ~Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I have some time now, Telzi. What do you need to speak to me about that was so urgent?~
-+ ~GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~
++ ~RandomNum(3,1) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~
++ ~RandomNum(3,2) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~
++ ~RandomNum(3,3) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~
 ++ ~Never mind.~ EXIT
 END
