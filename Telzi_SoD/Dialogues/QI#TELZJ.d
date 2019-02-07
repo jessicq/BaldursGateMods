@@ -1028,6 +1028,44 @@ SAY ~Speak.~ [F_Barb#]
 ++ ~Never mind.~ EXIT
 END
 
+IF ~~ TelziName1.0
+SAY ~I chose the name "Telzi" for myself.~
+= ~The male wizard gave me no name, other than bitch, whore, slave, and troll.~
+++ ~How did you come up with that name though?~ + TeziName1.1
+++ ~Wow, that was too much information.~ + TelziName1.2
+++ ~That is a very sad life, Telzi.~ + TelziName1.3
+++ ~Can I call you those names as well?~ + TelziName1.4
+END
+
+IF ~~ TelziName1.1
+SAY ~I liked the sound of it.~
+= ~That is all.~
+= ~Not everything has a hidden meaning behind it.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziName1.2
+SAY ~You asked.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziName1.3
+SAY ~So many have said.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziName1.4
+SAY ~No.~
+= ~You will call me Telzi, and that is the only name you will call me.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziMan1.0
+SAY ~If there was such a male, I might consider it. But my time with males have only ended in pain and suffering,~
+= ~This male would need to be extraordinary. Extraordinary enough to take away my memories of my past.~
+IF ~~ EXIT
+END
+
 IF ~~ TelziAdvice1.0
 SAY ~A full belly calms any creature.~
 IF ~~ EXIT
@@ -1122,38 +1160,6 @@ IF ~~ TelziRegard3.0
 SAY ~(You take this moment to carefully examine Telzi.)~
 = ~(Her flaming red hair makes her stand out in a crowd. Even if it was covered by a hood, it is long enough where small strands fall out.)~
 = ~(Another close look at Telzi's face reveals a slightly freckled face. It wouldn't be very noticeable if not for the angle in which she stands. A suddent shift in her position hides them, and you are left wondering how her freckles blend in so well with her skin.)~
-IF ~~ EXIT
-END
-
-IF ~~ TelziName1.0
-SAY ~I chose the name "Telzi" for myself.~
-= ~The male wizard gave me no name, other than bitch, whore, slave, and troll.~
-++ ~How did you come up with that name though?~ + TeziName1.1
-++ ~Wow, that was too much information.~ + TelziName1.2
-++ ~That is a very sad life, Telzi.~ + TelziName1.3
-++ ~Can I call you those names as well?~ + TelziName1.4
-END
-
-IF ~~ TelziName1.1
-SAY ~I liked the sound of it.~
-= ~That is all.~
-= ~Not everything has a hidden meaning behind it.~
-IF ~~ EXIT
-END
-
-IF ~~ TelziName1.2
-SAY ~You asked.~
-IF ~~ EXIT
-END
-
-IF ~~ TelziName1.3
-SAY ~So many have said.~
-IF ~~ EXIT
-END
-
-IF ~~ TelziName1.4
-SAY ~No.~
-= ~You will call me Telzi, and that is the only name you will call me.~
 IF ~~ EXIT
 END
 
