@@ -224,13 +224,37 @@ THEN
   	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	  SetGlobal("QI#TelziDorn2","MYAREA",40)
   RESPONSE #40
-  	  DisplayStringHead("DORN",~~)
+  	  DisplayStringHead("DORN",~You go on and on about men, yet you have yet to prove your worth.~)
   	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
-	  SetGlobal("QI#TelziDorn2","MYAREA",40)
+	  SetGlobal("QI#TelziDorn2","MYAREA",50)
+  RESPONSE #50
+    	  DisplayStringHead("QI#TEL",~Enough! I do not know why I speak to you. You are the epitome of male scum.~)
+  	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",ONE_MINUTE)
+	  RealSetGlobalTimer("QI#_BANTER_DELAY","GLOBAL",THIRTY_MINUTES)
+	  SetGlobal("QI#TelziDorn2","MYAREA",-1)
+	  SetGlobal("QI#TelziDorn","GLOBAL",3)  
 END
 
 /*** Dynaheir ***/ 
 //Talk 1
+IF
+  InMyArea(Player1)
+  InParty("Dynaheir")
+  InParty("QI#TEL")
+  CombatCounter(0)
+  !See([ENEMY])
+  Global("QI#TelziDynaheir","GLOBAL",1)
+  RealGlobalTimerExpired("QI#TelziDynaheirTalk","GLOBAL")
+  !GlobalTimerNotExpired("BD_BANTER_DELAY","MYAREA")
+  !RealGlobalTimerNotExpired("QI#_BANTER_DELAY","GLOBAL")
+  !Global("QI#TelziDynaheir1","MYAREA",-1)
+  Switch("QI#TelziDynaheir1","MYAREA")
+THEN 
+  RESPONSE #0
+	  DisplayStringHead("DYNHAHEIR",~It is pitiful to see a troll serve one so willingly.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziDynaheir1","MYAREA",10)
 
 //Talk 2
 
