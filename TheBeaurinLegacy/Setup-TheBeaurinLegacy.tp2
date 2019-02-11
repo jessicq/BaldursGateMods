@@ -1,7 +1,35 @@
 BACKUP ~TheBeaurinLegacy/backup~
 AUTHOR ~jmaeq~
 README ~TheBeaurinLegacy/README-TheBeaurinLegacy.html~
-VERSION ~v2.1.2~
+VERSION ~v3.0~
+
+ALWAYS
+
+  ACTION_IF NOT VARIABLE_IS_SET bg2_chapter THEN BEGIN // check to make this happen only once per install
+
+    ACTION_IF GAME_IS ~eet~ BEGIN
+      OUTER_SET bg2_chapter = 12
+    END ELSE BEGIN
+      OUTER_SET bg2_chapter = 0
+    END
+    OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+      OUTER_SET bg2_chapter = bg2_chapter + 1
+      OUTER_SPRINT name_source ~bg2_chapter_%i%~
+      OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+    END
+    ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+      OUTER_SET ee_game = 1
+      // convert strings to UTF-8 for BGEE/BG2EE
+      ACTION_DEFINE_ARRAY cdreload BEGIN setup END
+      ACTION_DEFINE_ARRAY cdnoconvert BEGIN ee END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
+      LAF HANDLE_CHARSETS INT_VAR infer_charsets = 1 STR_VAR tra_path = ~TheBeaurinLegacy~ noconvert_array = cdnoconvert reload_array = cdreload END
+
+    END ELSE BEGIN
+      OUTER_SET ee_game = 0
+    END
+  END
+
+END
 
 AUTO_TRA ~TheBeaurinLegacy\%s~
 
@@ -254,16 +282,25 @@ SAY SPELL_DISRUPTED @59
 SAY TIRED @65
 SAY BIO @66
 
-COMPILE ~TheBeaurinLegacy/Dialogue/SoA/QI#MI.d~
+COMPILE 
+    ~TheBeaurinLegacy/Dialogue/SoA/QI#MI.d~
  	~TheBeaurinLegacy/Dialogue/SoA/QI#MIP.d~
+	
+COMPILE EVALUATE_BUFFER 
  	~TheBeaurinLegacy/Dialogue/SoA/QI#MIB.d~
  	~TheBeaurinLegacy/Dialogue/SoA/QI#MIJ.d~
+	
+COMPILE
 	~TheBeaurinLegacy/Dialogue/SoA/QI#Ela.d~
 	~TheBeaurinLegacy/Dialogue/SoA/QI#ElaP.d~
 	~TheBeaurinLegacy/Dialogue/SoA/QI#ElaB.d~
 	~TheBeaurinLegacy/Dialogue/SoA/QI#ElaJ.d~
 	~TheBeaurinLegacy/Dialogue/SoA/QI#EvM.d~
 
+COMPILE EVALUATE_BUFFER 
+	~TheBeaurinLegacy/Scripts/SoA/QI#MIS.baf~
+	
+COMPILE
 	~TheBeaurinLegacy/Scripts/SoA/QI#MIS.baf~
 	~TheBeaurinLegacy/Scripts/SoA/QI#MID.baf~
 	~TheBeaurinLegacy/Scripts/SoA/QI#MiF.baf~
