@@ -1214,6 +1214,62 @@ SAY ~(Telzi looks at you expectantly.)~
 ++ ~Never mind.~ EXIT
 END
 
+IF ~~ TelziPassion1.0
+SAY ~~
+END
+
+IF ~~ TelziPassion2.0
+SAY ~~
+END
+
+IF ~~ TelziPassion3.0
+SAY ~~
+END
+
+IF ~~ TelziRegard4.0
+SAY ~(You regard Telzi as she stands protectively in front of you - eyes forever staring at whatever could be behind you.)~
+= ~(A single drop of sweat draws your attention and you watch as it makes its way down her neck and suddenly disappear into her bosom.)~
+= ~(Your concentration is quickly interrupted by Telzi calling out to you. You quickly look away from her and return to the task at hand.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziSleep1.0
+SAY ~Will this be another one of our reading and writing sessions?~
+++ ~Ha, no. I was thinking about something a little more...intimate.~ + TelziSleep1.1
+++ ~That's not what I was thinking, but we can.~ + TelziSleep1.2
+++ ~Never mind.~ + EXIT
+END
+
+IF ~~ TelziSleep1.1
+SAY ~Meaning?~
+++ ~You and me. Tonight in bed.~ + TelziSleep1.1a
+++ ~Never mind.~ + EXIT
+END
+
+IF ~~ TelziSleep1.1a
+SAY ~(You see a red blush creeping up on Telzi's face.) Ah, that is what you mean.~
+= ~In that case, I cannot wait to be alone with you tonight too.~   
+IF ~~ EXIT
+END
+
+IF ~~ TelziSleep1.2
+SAY ~Excellent. I enjoy our lessons.~
+= ~These are the moments I treasure the most.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziSleep2.0
+SAY ~(Telzi suddently becomes stiff and just when you are about to speak again, she takes you into her arms and passionately kisses you.~
+= ~I cannot wait either.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziSleep3.0
+SAY ~(Telzi gingerly places a kiss on your forehead and stares deeply into your eyes.)~
+= ~The touch of your skin on my lips is enough to satisfy me until then.~
+IF ~~ EXIT
+END
+
 IF ~~ WaitingUrgent
 SAY ~This will seem blunt for you, but this has been on my mind since then.~
 IF ~~ + tz4.1
