@@ -1214,16 +1214,104 @@ SAY ~(Telzi looks at you expectantly.)~
 ++ ~Never mind.~ EXIT
 END
 
+IF ~~ TelziTall1.0
+SAY ~(Without a word, Telzi lifts you high above the ground and places you on her shoulders.)~ 
+= ~(You can feel the gentle breeze caress your skin and for a moment, you shiver in its glory.)~
+= ~(Sensing your shiver, Telzi immediately sets you down.)~
+= ~This is not the time for you to get sick, <CHARNAME>.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziTall2.0
+SAY ~(Telzi ponders your request for a moment before granting you your wish.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziTall3.0
+SAY ~Not today, <CHARNAME>. We have much to do and I am unsure if it safe here.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziHug1.0
+SAY ~(While you embrace Telzi, you can hear her whisper something close to your head. What she is saying, you don't know, but Telzi seems to be content laying her head on top of yours.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziHug2.0
+SAY ~(Telzi returns your hug eagerly and holds you tightly.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziHug3.0
+SAY ~(Your hug makes Telzi stiffen, but after a few moments pass, she finally relaxes into your arms.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziQuickLips1.0
+SAY ~(Your kiss catches Telzi by surprise and she is left shocked as you gleefully turn away.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziQuickLips2.0
+SAY ~What a delicious taste.~
+IF ~~ EXIT
+END
+
+IF ~Global("QI#TelziRomanceActive","GLOBAL",2)~ TelziQuickLips3.0
+SAY ~You can be quite cruel, <CHARNAME>.~
+= ~I only receive a taste of the real thing, even though you are here in front of me.~
+= ~I hunger for more, maybe I will receive more tonight?~
+IF ~~ EXIT
+END
+
+IF ~Global("QI#TelziRomanceActive","GLOBAL",2)~ TelziQuickLips4.0
+SAY ~(You attempt to give a quick kiss on Telzi's lips.)~
+= ~(At first, Telzi doesn't know how to react and she stares blankly at you.)~
+= ~(The realization of your quick kiss finally strikes her and eyes light up brilliantly, while she releases a content sigh.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziCheeck1.0
+SAY ~(You see Telzi distractedly looking off into the distance, and you decide to surprise her with a light kiss on her cheek.)~
+= ~(Telzi looks at you stunned for a moment, and red flush can be seen as she turns to face away from you.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziCheek2.0
+SAY ~(You take this opportunity to give Telzi a quick peck on her cheek.)~
+= ~(As soon as your lips touch Telzi's cheek, her usual tense posture is quicky replaced by a more relaxed stance.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziCheek3.0
+SAY ~(As you attempt to plant a simple kiss on Telzi's cheek, she suddenly turns to face you, and you end up kissing the nape of her neck.)~
+= ~(Telzi's eyes immediately light up and she reaches for the area where your lips have touched her.)~
+= ~I have been blessed with your touch, I could not be happier.~
+IF ~~ EXIT
+END
+
 IF ~~ TelziPassion1.0
-SAY ~~
+SAY ~(Your tongue immediately entangles with Telzi's, and she wraps her strong, lean arms around your waist.)~
+= ~(Your tongues are ferociously battling each other, and the faster and more intense the fighting goes on, the more tightly Telzi holds you.)~
+= ~(Suddenly, Telzi releases you and takes a deep breath.)~
+= ~This will continue soon...tonight.~
+IF ~~ EXIT
 END
 
 IF ~~ TelziPassion2.0
-SAY ~~
+SAY ~(Before you can turn to peer up at Telzi, it seems she already understand your intentions.)~
+= ~(Her usual, hard stares are replaced by a look of absolute adoration and tenderness as her lips meet yours.)~
+= ~(You both explore each other's mouths eagerly and soon, the two of you are panting for more air.)~
+= ~(As Telzi breaks away from the kiss, she takes the chance to give one last kiss on your forehead.)~
+IF ~~ EXIT
 END
 
 IF ~~ TelziPassion3.0
-SAY ~~
+SAY ~(You walk briskly towards Telzi and she looks at curiously.)~
+= ~(You tilt your head upwards, close your eyes, and partially open your mouth.)~
+= ~(Not a moment sooner, you feel Telzi's warm lips upon yours and she embraces you tightly as your kiss deepens.)~
+= ~(When the two of you finally pull away, you are left breathless and in a happier mood than before.)~
+IF ~~ EXIT
 END
 
 IF ~~ TelziRegard4.0
