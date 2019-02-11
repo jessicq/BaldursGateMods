@@ -45,6 +45,14 @@ END
 /*************** Friendship ***************/
 // Requirements
 IF
+	Gender(Player1,MALE)
+	Class(Player1,MAGE_ALL)
+THEN
+  RESPONSE #100
+  	SetGlobal("QI#TelziFriendshipActive","GLOBAL",1)
+END
+
+IF
 	InParty(Myself)
 	Global("QI#TelziFriendshipActive","GLOBAL",0)
 THEN
