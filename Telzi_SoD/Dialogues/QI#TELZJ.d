@@ -1176,18 +1176,18 @@ SAY ~(Telzi looks at you expectantly.)~
 + ~RandomNum(4,3)~ + ~Do you have any advice for me?~ + Telziadvice3.0
 + ~RandomNum(4,4)~ + ~Do you have any advice for me?~ + TelziAdvice4.0
 ++ ~You eat so much, I don't understand how we even have enough to feed you.~ + TelziEat1.0
-+ ~Global("QI#TelziRomanceActive","GLOBAL",1) ~ + ~What are you going to do after all this is over?~ + TelziOver1.0
-+ ~Global("QI#TelziRomanceActive","GLOBAL",2) ~ + ~What are you going to do after all this is over?~ + TelziOver2.0
++ ~Global("QI#TelziRomanceActive","GLOBAL",1)~ + ~What are you going to do after all this is over?~ + TelziOver1.0
++ ~Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~What are you going to do after all this is over?~ + TelziOver2.0
 ++ ~Tell me more about yourself, Telzi.~ + TelziExplain1.0
 + ~RandomNum(4,1)~ + ~How are you doing?~ + TelziFeeling1.0
 + ~RandomNum(4,2)~ + ~How are you doing?~ + TelziFeeling2.0
 + ~RandomNum(4,3)~ + ~How are you doing?~ + TelziFeeling3.0
 + ~RandomNum(4,4)~ + ~How are you doing?~ + TelziFeeling4.0
-+ ~RandomNum(3,1)~ + ~(Take her by the hand.)~
-+ ~RandomNum(3,2)~ + ~(Take her by the hand.)~
-+ ~RandomNum(3,3)~ + ~(Take her by the hand.)~
-+ ~RandomNum(2,1)~ + ~You look so exotic. I like it.~
-+ ~RandomNum(2,2)~ + ~You look so exotic. I like it.~
++ ~RandomNum(3,1)~ + ~(Take her by the hand.)~ + TelziHand1.0
++ ~RandomNum(3,2)~ + ~(Take her by the hand.)~ + TelziHand2.0
++ ~RandomNum(3,3)~ + ~(Take her by the hand.)~ + TelziHand3.0
++ ~RandomNum(2,1)~ + ~You look so exotic. I like it.~ + TelziExotic1.0
++ ~RandomNum(2,2)~ + ~You look so exotic. I like it.~ + TelziExotic2.0
 + ~RandomNum(3,1)~ + ~You're so tall. Maybe you could hoist me up on your shoulders one day?~ + TelziTall1.0
 + ~RandomNum(3,2)~ + ~You're so tall. Maybe you could hoist me up on your shoulders one day?~ + TelziTall2.0
 + ~RandomNum(3,3)~ + ~You're so tall. Maybe you could hoist me up on your shoulders one day?~ + TelziTall3.0
@@ -1211,7 +1211,64 @@ SAY ~(Telzi looks at you expectantly.)~
 + ~RandomNum(3,1) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~ + TelziSleep1.0
 + ~RandomNum(3,2) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~ + TelziSleep2.0
 + ~RandomNum(3,3) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~ + TelziSleep3.0
++ ~Global("QI#TelziRomanceActive","GLOBAL",1)~ + ~Telzi, I'd like to end our relationship.~ + TelziRomanceEnd1.0
++ ~Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~Telzi, I'd like to end our relationship.~ + TelziRomanceEnd2.0
 ++ ~Never mind.~ EXIT
+END
+
+IF ~~ TelziRomanceEnd1.0
+SAY ~If you think so, then it is probably better this way.~
+IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
+END
+
+IF ~~ TelziRomanceEnd2.0
+SAY ~...After everything?~
+++ ~Yes.~ + TelziRomanceEnd2.1
+++ ~I don't know what came over me. Please ignore that.~ EXIT
+END
+
+IF ~~ TelziRomanceEnd2.1
+SAY ~I disagree with this, but a relationship will only work with two willing individuals.~
+= ~You will not be bothered by me any longer.~
+IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
+END
+
+IF ~~ TelziOver1.0
+SAY ~I will go where I am directed next.~
+= ~It is as simple as that.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziOver2.0
+SAY ~Wherever you go, <CHARNAME>, I will follow you.~
+= ~I will always be near you.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziHand1.0
+SAY ~(Telzi stares at your intertwined hands and finally looks up at you with eyes full of adoration.)~
+= ~You are too kind to me.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziHand2.0
+SAY ~(Telzi squeezes your hand in response to your public display of affection.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziHand3.0
+SAY ~(Your hand slips into Telzi's claw-like fingers and you are pleasantly surprised by how soft her palm feels.)~
+IF ~~ EXIT
+END
+
+IF ~~ TelziExotic1.0
+SAY ~Then the male wizard did something right.~
+IF ~~ EXIT
+END
+
+IF ~~ TelziExotic2.0
+SAY ~I hope you know I was not born looking like this.~
+IF ~~ EXIT
 END
 
 IF ~~ TelziTall1.0
