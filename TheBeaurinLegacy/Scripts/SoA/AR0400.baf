@@ -1,13 +1,8 @@
 //Location of Elaryn
 IF
 InParty("QI#Mi")
+Global("QI#Slums","GLOBAL",1)
 Global("ELARYNExists","AR0400",0)
-Global("QI#NoBook","GLOBAL",2)
-!Global("Chapter","GLOBAL",%bg2_chapter_5%)
-!Global("Chapter","GLOBAL",%bg2_chapter_4%)
-!Global("Chapter","GLOBAL",%bg2_chapter_3%)
-!Global("Chapter","GLOBAL",%bg2_chapter_2%)
-!Global("Chapter","GLOBAL",%bg2_chapter_1%)
 THEN
 RESPONSE #100
 CreateCreature("QI#Ela",[2678.2413], 13)
