@@ -252,9 +252,26 @@ IF
   Switch("QI#TelziDynaheir1","MYAREA")
 THEN 
   RESPONSE #0
-	  DisplayStringHead("DYNHAHEIR",~It is pitiful to see a troll serve one so willingly.~)
+	  DisplayStringHead("DYNHAHEIR",~'Tis pitiful to see a troll serve one so willingly.~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
 	  SetGlobal("QI#TelziDynaheir1","MYAREA",10)
+  RESPONSE #10
+	  DisplayStringHead("QI#TEL",~What are you talking about?~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziDynaheir1","MYAREA",20)
+  RESPONSE #30
+  	  DisplayStringHead("QI#TEL",~Actually no. I do not care. You are a mage. The more you speak, the less I want to listen.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
+	  SetGlobal("QI#TelziDynaheir1","MYAREA",30)
+  RESPONSE #40
+  	  DisplayStringHead("QI#TEL",~Nothing good comes from mages.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziDynaheir","GLOBAL",1)
+	  SetGlobal("QI#TelziDynaheir1","MYAREA",-1)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",ONE_MINUTE)
+	  RealSetGlobalTimer("QI#_BANTER_DELAY","GLOBAL",THIRTY_MINUTES)
+END
+  
 
 //Talk 2
 
