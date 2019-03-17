@@ -313,14 +313,58 @@ RESPONSE #40
 RESPONSE #50
   	  DisplayStringHead("EDWIN",~(Not today, Odesseiron. Not today.)~)
 	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
-	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",ONE_MINUTE)
 	  RealSetGlobalTimer("QI#_BANTER_DELAY","GLOBAL",THIRTY_MINUTES)
 	  SetGlobal("QI#TelziEdwin1","MYAREA",-1)
-	  SetGlobal("QI#TelziEdwin","GLOBAL",2)
+	  SetGlobal("QI#TelziEdwin1","GLOBAL",2)
 END 
 	  
 /*** Glint ***/
 //Talk 1
+IF
+  InMyArea(Player1)
+  InParty("GLINT")
+  InParty("QI#TEL")
+  CombatCounter(0)
+  !See([ENEMY])
+  Global("QI#TelziGlint","GLOBAL",1)
+  RealGlobalTimerExpired("QI#TelziGlintTalk","GLOBAL")
+  !GlobalTimerNotExpired("BD_BANTER_DELAY","MYAREA")
+  !RealGlobalTimerNotExpired("QI#_BANTER_DELAY","GLOBAL")
+  !Global("QI#TelziGlint1","MYAREA",-1)
+  Switch("QI#TelziGlint1","MYAREA")
+THEN 
+  RESPONSE #0
+	  DisplayStringHead("QI#TEL",~You are a small, strange male.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziGlint1","MYAREA",10)
+  RESPONSE #10
+  	  DisplayStringHead("Glint",~What? Who? You are talking to me? Obviously, you were. You must be. But oh, did you say something?~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5)
+	  SetGlobal("QI#TelziGlint1","MYAREA",20)
+  RESPONSE #20
+  	  DisplayStringHead("QI#TEL",~Yes. I am talking to you.~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",2)
+	  SetGlobal("QI#TelziGlint1","MYAREA",30)
+  RESPONSE #30
+  	  DisplayStringHead("GLINT",~But what else? You said something. I can't quite remember what though...~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
+	  SetGlobal("QI#TelziGlint1","MYAREA",40)
+  RESPONSE #40
+  	  DisplayStringHead("QI#TEL",~I--~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",2)
+	  SetGlobal("QI#TelziGlint1","MYAREA",50)
+  RESPONSE #50
+  	  DisplayStringHead("GLINT",~I'm trying to remember. Give me a few seconds...~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziGlint1","MYAREA",60)
+  RESPONSE #60
+  	  DisplayStringHead("QI#TEL",~No! I said nothing. Stop, just stop talking!~)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
+	  SetGlobal("QI#TelziGlint1","MYAREA",-1)
+	  SetGlobal("QI#TelziGlint1","GLOBAL",2)
+	  RealSetGlobalTimer("QI#_BANTER_DELAY","GLOBAL",THIRTY_MINUTES)
+	  SetGlobalTimer("BD_BANTER_DELAY","MYAREA",ONE_MINUTE)
+END
 
 //Talk 2
 
