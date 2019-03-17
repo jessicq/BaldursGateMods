@@ -866,40 +866,40 @@ IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
 END
 
 IF ~~ tz4.1
-SAY ~Spend this night with me.~
-= ~I will make it worth your while.~
-++ ~You didn't have to say that last bit, I would have spent the night with you regardless.~ + tz4.2
-++ ~It's about time! I was wondering how a half-troll handles themselves in bed.~ + tz4.2
+SAY ~Share this moment with me.~
+= ~Let me kiss you.~
+++ ~You didn't have to say that last bit, I would have shared this kiss with you regardless.~ + tz4.2
+++ ~It's about time! I was wondering how a half-troll handles themselves.~ + tz4.2
 ++ ~Why do you have to be so blunt about this?~ + tz4.1.1
 ++ ~I'm sorry, I don't feel the same way.~ + tz4.0.3a
 ++ ~Right now? I am tired, how about I come to you when I am ready?~ + tz4.0.2b
-++ ~Me? Be intimate with you - a monster? That's outrageous!~ + tz4.0.3b
+++ ~Me? Kiss a monster? That's outrageous!~ + tz4.0.3b
 END
 
 IF ~~ tz4.1.1
 SAY ~I do not know how people say it these days.~
 = ~I do not want to "dance around the subject", as people say.~
 ++ ~Woah, you didn't take that literally.~ + tz4.1.1a
-++ ~Never mind.~ + tz4.1.1b
+++ ~Nevermind.~ + tz4.1.1b
 END
 
 IF ~~ tz4.1.1a
 SAY ~It is physically impossible to dance around a subject, or a topic.~
-++ ~Never mind.~ + tz4.1.1b
+++ ~Nevermind.~ + tz4.1.1b
 END
 
 IF ~~ tz4.1.1b
 SAY ~Then, what is your verdict?~
-++ ~You didn't have to say that last bit, I would have spent the night with you regardless.~ + tz4.2
-++ ~It's about time! I was wondering how a half-troll handles themselves in bed.~ + tz4.2
+++ ~You didn't have to say that last bit, I would have spent this kiss with you regardless.~ + tz4.2
+++ ~It's about time! I was wondering how a half-troll handles themselves.~ + tz4.2
 ++ ~I'm sorry, I don't feel the same way.~ + tz4.0.3a
 ++ ~Right now? I am tired, how about I come to you when I am ready?~ + tz4.0.2b
-++ ~Me? Be intimate with you - a monster? That's outrageous!~ + tz4.0.3b
+++ ~Me? Kiss a monster? That's outrageous!~ + tz4.0.3b
 END
 
 IF ~~ tz4.2
 SAY ~This makes me happy to hear.~
-= ~I will make you happy, this is my promise to you.~
+= ~I will cherish this moment for as long as I live...~
 IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",1) RealSetGlobalTimer("QI#TelziRomanceTimer","GLOBAL",2100)~
 END
 
@@ -937,7 +937,7 @@ END
 
 IF ~~ tz5.0.3
 SAY ~That is how you feel?~
-= ~Then, why did you spend the night with me? Why would you listen to me talk? Why --~
+= ~Then, why did you kiss me? Why would you listen to me talk? Why --~
 = ~No, I do not want to know the answer.~
 = ~I will not speak to you again. You can expect that from me.~
 IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
@@ -1208,9 +1208,9 @@ SAY ~(Telzi looks at you expectantly.)~
 + ~RandomNum(3,2)~ + ~(Regard Telzi's physical form.)~ + TelziRegard2.0
 + ~RandomNum(3,3)~ + ~(Regard Telzi's physical form.)~ + TelziRegard4.0
 + ~Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I have some time now, Telzi. What do you need to speak to me about that was so urgent?~ + WaitingUrgent
-+ ~RandomNum(3,1) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~ + TelziSleep1.0
-+ ~RandomNum(3,2) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~ + TelziSleep2.0
-+ ~RandomNum(3,3) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you tonight.~ + TelziSleep3.0
++ ~RandomNum(3,1) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you when this is all over.~ + TelziSleep1.0
++ ~RandomNum(3,2) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you when this is all over.~ + TelziSleep2.0
++ ~RandomNum(3,3) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you when this is all over.~ + TelziSleep3.0
 + ~Global("QI#TelziRomanceActive","GLOBAL",1)~ + ~Telzi, I'd like to end our relationship.~ + TelziRomanceEnd1.0
 + ~Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~Telzi, I'd like to end our relationship.~ + TelziRomanceEnd2.0
 ++ ~Never mind.~ EXIT
@@ -1387,13 +1387,13 @@ END
 
 IF ~~ TelziSleep1.1
 SAY ~Meaning?~
-++ ~You and me. Tonight in bed.~ + TelziSleep1.1a
+++ ~You and me. In bed.~ + TelziSleep1.1a
 ++ ~Never mind.~ + EXIT
 END
 
 IF ~~ TelziSleep1.1a
 SAY ~(You see a red blush creeping up on Telzi's face.) Ah, that is what you mean.~
-= ~In that case, I cannot wait to be alone with you tonight too.~   
+= ~In that case, I cannot wait to be alone with you too.~   
 IF ~~ EXIT
 END
 
