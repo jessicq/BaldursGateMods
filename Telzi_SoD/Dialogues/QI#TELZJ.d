@@ -937,7 +937,7 @@ END
 
 IF ~~ tz5.0.3
 SAY ~That is how you feel?~
-= ~Then, why did you spend the night with me? Why would you listen to talk? Why --~
+= ~Then, why did you spend the night with me? Why would you listen to me talk? Why --~
 = ~No, I do not want to know the answer.~
 = ~I will not speak to you again. You can expect that from me.~
 IF ~~ DO ~SetGlobal("QI#TelziRomanceActive","GLOBAL",3)~ EXIT
