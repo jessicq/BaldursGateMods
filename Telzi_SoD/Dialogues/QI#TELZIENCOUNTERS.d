@@ -44,6 +44,7 @@ EXIT
 CHAIN
 IF ~Global("QI#TelziEncounter1","GLOBAL",1) See(Player1)~ QI#THUG1 SecondMeeting1.0
 ~Did you really think we were going to let you go?~
+DO ~SetGlobal("QI#TelziEncounter1","GLOBAL",2)~
 = ~You must be stupid if you thought we were. Well, you are a troll after all.~
 IF ~~ + SecondMeeting1.1
 END
@@ -83,5 +84,12 @@ END
 	
 CHAIN
 IF ~~ QI#TEL SecondMeeting3.1
-~~
-END
+~Fine. You leave me with no choice.~
+= ~May your souls rest in peace.~
+DO ~Enemy()
+  Attack(Player1) 
+  ReallyForceSpell("QI#TEL", CLERIC_ARMOR_OF_FAITH)
+  ReallyForceSpell("QI#TEL", WIZARD_IMPROVED_HASTE)~
+EXIT
+
+
