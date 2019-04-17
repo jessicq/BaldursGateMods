@@ -5,6 +5,7 @@ THEN
 RESPONSE #100
 SetGlobal("MINYAEExists","AR0020",1)
 CreateCreature("MINYAE",[187.605], 12)
+Continue()
 END
 
 //Minyae is leveled according to the PC
