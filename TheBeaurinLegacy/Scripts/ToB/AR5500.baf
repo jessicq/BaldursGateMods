@@ -8,7 +8,7 @@ RESPONSE #100
   SetGlobal("QI#OrderEncounter","GLOBAL",1)
   SetGlobal("QI#WillExists","AR5500",1) 
   CreateCreature("QI#Will", [1865.1260], 0)
-
+  Continue()
 END
 
 
@@ -19,6 +19,7 @@ THEN
 RESPONSE #100
   SetGlobal("QI#AneiExists","AR5500",1)
   CreateCreature("QI#Anei", [1860.1259], 0)
+  Continue()
 END
 
 
@@ -29,6 +30,7 @@ THEN
 RESPONSE #100
   SetGlobal("QI#KaldExists","AR5500",1)
   CreateCreature("QI#Kald", [1863.1253], 0)
+  Continue()
 END
 
 
@@ -39,6 +41,7 @@ THEN
 RESPONSE #100
   SetGlobal("QI#SwifExists","AR5500",1)
   CreateCreature("QI#Swif", [1855.1265], 0)
+  Continue()
 END
 
 
@@ -52,6 +55,7 @@ RESPONSE #100
   SetGlobal("QI#OrderEncounter","GLOBAL",1)
   SetGlobal("QI#WillExists","AR5500",1) 
   CreateCreature("QI#Will", [1865.1260], 0)
+  Continue()
 END
 
 
@@ -62,6 +66,7 @@ THEN
 RESPONSE #100
   SetGlobal("QI#AneiExists","AR5500",1)
   CreateCreature("QI#Anei", [1860.1259], 0)
+  Continue()
 END
 
 
@@ -72,6 +77,7 @@ THEN
 RESPONSE #100
   SetGlobal("QI#KaldExists","AR5500",1)
   CreateCreature("QI#Kald", [1863.1253], 0)
+  Continue()
 END
 
 IF 
@@ -81,4 +87,5 @@ THEN
 RESPONSE #100
   SetGlobal("QI#SwifExists","AR5500",1)
   CreateCreature("QI#Swif", [1855.1265], 0)
+  Continue()
 END
