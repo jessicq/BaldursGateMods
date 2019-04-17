@@ -1208,9 +1208,6 @@ SAY ~(Telzi looks at you expectantly.)~
 + ~RandomNum(3,2)~ + ~(Regard Telzi's physical form.)~ + TelziRegard2.0
 + ~RandomNum(3,3)~ + ~(Regard Telzi's physical form.)~ + TelziRegard4.0
 + ~Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I have some time now, Telzi. What do you need to speak to me about that was so urgent?~ + WaitingUrgent
-+ ~RandomNum(3,1) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you when this is all over.~ + TelziSleep1.0
-+ ~RandomNum(3,2) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you when this is all over.~ + TelziSleep2.0
-+ ~RandomNum(3,3) GlobalGT("QI#TelziLoveTalk","GLOBAL",8) !Global("QI#TelziRomanceWait","GLOBAL",1)~ + ~I can't wait to be alone with you when this is all over.~ + TelziSleep3.0
 + ~Global("QI#TelziRomanceActive","GLOBAL",1)~ + ~Telzi, I'd like to end our relationship.~ + TelziRomanceEnd1.0
 + ~Global("QI#TelziRomanceActive","GLOBAL",2)~ + ~Telzi, I'd like to end our relationship.~ + TelziRomanceEnd2.0
 ++ ~Never mind.~ EXIT
@@ -1375,43 +1372,6 @@ IF ~~ TelziRegard4.0
 SAY ~(You regard Telzi as she stands protectively in front of you - eyes forever staring at whatever could be behind you.)~
 = ~(A single drop of sweat draws your attention and you watch as it makes its way down her neck and suddenly disappear into her bosom.)~
 = ~(Your concentration is quickly interrupted by Telzi calling out to you. You quickly look away from her and return to the task at hand.)~
-IF ~~ EXIT
-END
-
-IF ~~ TelziSleep1.0
-SAY ~Will this be another one of our reading and writing sessions?~
-++ ~Ha, no. I was thinking about something a little more...intimate.~ + TelziSleep1.1
-++ ~That's not what I was thinking, but we can.~ + TelziSleep1.2
-++ ~Never mind.~ + EXIT
-END
-
-IF ~~ TelziSleep1.1
-SAY ~Meaning?~
-++ ~You and me. In bed.~ + TelziSleep1.1a
-++ ~Never mind.~ + EXIT
-END
-
-IF ~~ TelziSleep1.1a
-SAY ~(You see a red blush creeping up on Telzi's face.) Ah, that is what you mean.~
-= ~In that case, I cannot wait to be alone with you too.~   
-IF ~~ EXIT
-END
-
-IF ~~ TelziSleep1.2
-SAY ~Excellent. I enjoy our lessons.~
-= ~These are the moments I treasure the most.~
-IF ~~ EXIT
-END
-
-IF ~~ TelziSleep2.0
-SAY ~(Telzi suddently becomes stiff and just when you are about to speak again, she takes you into her arms and passionately kisses you.~
-= ~I cannot wait either.~
-IF ~~ EXIT
-END
-
-IF ~~ TelziSleep3.0
-SAY ~(Telzi gingerly places a kiss on your forehead and stares deeply into your eyes.)~
-= ~The touch of your skin on my lips is enough to satisfy me until then.~
 IF ~~ EXIT
 END
 
