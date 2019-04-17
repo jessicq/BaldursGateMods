@@ -91,5 +91,3 @@ DO ~Enemy()
   ReallyForceSpell("QI#TEL", CLERIC_ARMOR_OF_FAITH)
   ReallyForceSpell("QI#TEL", WIZARD_IMPROVED_HASTE)~
 EXIT
-
-
