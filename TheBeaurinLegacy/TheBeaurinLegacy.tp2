@@ -1,7 +1,7 @@
 BACKUP ~TheBeaurinLegacy/backup~
 SUPPORT ~https://www.gibberlings3.net/forums/forum/200-the-beaurin-legacy/~
 README ~%MOD_FOLDER%/TheBeaurinLegacy-ReadMe.html~
-VERSION ~v3.2~
+VERSION ~v3.3~
 
 AUTO_EVAL_STRINGS
 ALWAYS
@@ -509,7 +509,7 @@ BEGIN @1000 DESIGNATED 1000 LABEL BeaurinLegacyMain
     END
 
 // Alternative class
-BEGIN @2000 LABEL BeaurinLegacyMinyaeClassEnchanter
+BEGIN @2000 DESIGNATED 2000 LABEL BeaurinLegacyMinyaeClassEnchanter
     REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2" (ID_OF_LABEL "%MOD_FOLDER%.tp2" BeaurinLegacyMain) @1010
 
     ACTION_IF GAME_IS ~BG2EE EET~ BEGIN
@@ -697,7 +697,7 @@ BEGIN @2000 LABEL BeaurinLegacyMinyaeClassEnchanter
     END
 
 // Alternative portraits
-BEGIN @3010 SUBCOMPONENT @3000  LABEL BeaurinLegacyPortraitTamikaProud
+BEGIN @3010 DESIGNATED 3010 SUBCOMPONENT @3000  LABEL BeaurinLegacyPortraitTamikaProud
     REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2" (ID_OF_LABEL "%MOD_FOLDER%.tp2" BeaurinLegacyMain) @1010
 
     ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
@@ -710,7 +710,7 @@ BEGIN @3010 SUBCOMPONENT @3000  LABEL BeaurinLegacyPortraitTamikaProud
         COPY ~%MOD_FOLDER%/Portraits/BG2/QI#alt_S.bmp~ ~override/QI#MiS.bmp~
     END
 
-BEGIN @3020 SUBCOMPONENT @3000  LABEL BeaurinLegacyPortraitDominiqueWesson
+BEGIN @3020 DESIGNATED 3020 SUBCOMPONENT @3000  LABEL BeaurinLegacyPortraitDominiqueWesson
     REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2" (ID_OF_LABEL "%MOD_FOLDER%.tp2" BeaurinLegacyMain) @1010
 
     ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
@@ -723,7 +723,7 @@ BEGIN @3020 SUBCOMPONENT @3000  LABEL BeaurinLegacyPortraitDominiqueWesson
         COPY ~%MOD_FOLDER%/Portraits/BG2/QI#alt2S.bmp~ ~override/QI#MiS.bmp~
     END
 
-BEGIN @3030 SUBCOMPONENT @3000  LABEL BeaurinLegacyPortraitAerwindale
+BEGIN @3030 DESIGNATED 3030 SUBCOMPONENT @3000  LABEL BeaurinLegacyPortraitAerwindale
     REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2" (ID_OF_LABEL "%MOD_FOLDER%.tp2" BeaurinLegacyMain) @1010
 
     ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
