@@ -19,7 +19,8 @@ EXIT
 
 CHAIN
 IF ~InParty("Neera")
-See("Neera")
+InParty("QI#Mi")
+See("QI#Mi")
 !StateCheck("Neera",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 Global("QI#MiNeera2","GLOBAL",0)~ THEN BNEERA QI#MiNeera2
@@ -36,8 +37,10 @@ EXIT
 
 CHAIN
 IF ~InParty("Neera")
+InParty("QI#Mi")
 InParty("Edwin")
 See("Neera")
+See("QI#Mi")
 !StateCheck("Neera",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 !StateCheck("Edwin",CD_STATE_NOTVALID)
@@ -81,7 +84,8 @@ EXIT
 
 CHAIN
 IF ~InParty("Dorn")
-See("Dorn")
+InParty("QI#Mi")
+See("QI#Mi")
 !StateCheck("Dorn",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 Global("QI#MiDorn3","GLOBAL",0)~ THEN BDORN QI#MiDorn3
@@ -96,8 +100,9 @@ EXIT
 
 CHAIN
 IF ~InParty("Dorn")
+InParty("QI#Mi")
 InParty("Edwin")
-See("Dorn")
+See("QI#Mi")
 !StateCheck("Dorn",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 !StateCheck("Edwin",CD_STATE_NOTVALID)
@@ -186,7 +191,8 @@ EXIT
 // Rasaad
 CHAIN
 IF ~InParty("Rasaad")
-See("Rasaad")
+InParty("QI#Mi")
+See("QI#Mi")
 !StateCheck("Rasaad",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 Global("QI#MiRasaadToB1","GLOBAL",0)~ THEN BRASAA25 QI#MiRasaadToB1
@@ -203,7 +209,8 @@ CHAIN
 IF ~InParty("Neera")
 InParty("Edwin")
 InParty("QI#Mi")
-See("Neera")
+See("QI#Mi")
+See("Edwin")
 !StateCheck("Neera",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 !StateCheck("Edwin",CD_STATE_NOTVALID)
@@ -225,7 +232,8 @@ CHAIN
 IF ~InParty("Neera")
 InParty("Edwin")
 InParty("QI#Mi")
-See("Neera")
+See("QI#Mi")
+See("Edwin")
 !StateCheck("Neera",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 !StateCheck("Edwin",CD_STATE_NOTVALID)
