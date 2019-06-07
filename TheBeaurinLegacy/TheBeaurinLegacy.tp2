@@ -1,7 +1,7 @@
 BACKUP ~TheBeaurinLegacy/backup~
 SUPPORT ~https://www.gibberlings3.net/forums/forum/200-the-beaurin-legacy/~
 README ~%MOD_FOLDER%/TheBeaurinLegacy-ReadMe.html~
-VERSION ~v3.3~
+VERSION ~v3.3.1~
 
 AUTO_EVAL_STRINGS
 ALWAYS
@@ -516,6 +516,7 @@ BEGIN @2000 DESIGNATED 2000 LABEL BeaurinLegacyMinyaeClassEnchanter
         COPY ~%MOD_FOLDER%/Creatures/Enchanter/MINYAE.cre~ ~override/MINYAE.cre~
         SAY NAME1 @1
         SAY NAME2 @1
+
 
         SAY MORALE @2
         SAY HAPPY @3
