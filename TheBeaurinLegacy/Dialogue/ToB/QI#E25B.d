@@ -3,7 +3,8 @@ BEGIN QI#E25B
 //Aerie
 CHAIN
 IF ~InParty("QI#Ela")
-See("QI#Ela")
+InParty("Aerie")
+See("Aerie")
 !StateCheck("Aerie",CD_STATE_NOTVALID)
 !StateCheck("QI#Ela",CD_STATE_NOTVALID)
 Global("AerieRomanceActive","GLOBAL",2)
@@ -25,7 +26,7 @@ See("Minsc")
 CombatCounter(0)
 Global("QI#ElaMinscToB1","GLOBAL",0)~ THEN QI#E25B QI#ElaMinscToB1
 @3
-DO ~SetGlobal("QI#ElaMinscToB1","GLOBAL",0)~
+DO ~SetGlobal("QI#ElaMinscToB1","GLOBAL",1)~
 == BMINSC25 @4
 == QI#E25B @5
 == BMINSC25 @6
@@ -36,7 +37,8 @@ EXIT
 //Jaheira
 CHAIN
 IF ~InParty("QI#Ela")
-See("QI#Ela")
+InParty("Jaheira")
+See("Jaheira")
 !StateCheck("Jaheira",CD_STATE_NOTVALID)
 !StateCheck("QI#Ela",CD_STATE_NOTVALID)
 Global("JaheiraRomanceActive","GLOBAL",2)
@@ -84,7 +86,8 @@ EXIT
 //Anomen
 CHAIN
 IF ~InParty("QI#Ela")
-See("QI#Ela")
+InParty("Anomen")
+See("Anomen")
 !StateCheck("Anomen",CD_STATE_NOTVALID)
 !StateCheck("QI#Ela",CD_STATE_NOTVALID)
 Global("AnomenRomanceActive","GLOBAL",2)
@@ -101,7 +104,8 @@ EXIT
 //Edwin
 CHAIN
 IF ~InParty("QI#Ela")
-See("QI#Ela")
+InParty("Edwin")
+See("Edwin")
 !StateCheck("Edwin",CD_STATE_NOTVALID)
 !StateCheck("QI#Ela",CD_STATE_NOTVALID)
 CombatCounter(0)
@@ -174,7 +178,8 @@ EXIT
 //Viconia
 CHAIN
 IF ~InParty("QI#Ela")
-See("QI#Ela")
+InParty("Viconia")
+See("Viconia")
 !StateCheck("Viconia",CD_STATE_NOTVALID)
 !StateCheck("QI#Ela",CD_STATE_NOTVALID)
 Global("ViconiaRomanceActive","GLOBAL",2)
@@ -190,7 +195,8 @@ EXIT
 //Keldorn
 CHAIN 
 IF ~InParty("QI#Ela")
-See("QI#Ela")
+InParty("Keldorn")
+See("Keldorn")
 !StateCheck("Keldorn",CD_STATE_NOTVALID)
 !StateCheck("QI#Ela",CD_STATE_NOTVALID)
 CombatCounter(0)
@@ -205,7 +211,8 @@ EXIT
 //Cernd
 CHAIN 
 IF ~InParty("QI#Ela")
-See("QI#Ela")
+InParty("Cernd")
+See("Cernd")
 !StateCheck("Cernd",CD_STATE_NOTVALID)
 !StateCheck("QI#Ela",CD_STATE_NOTVALID)
 CombatCounter(0)
@@ -242,7 +249,7 @@ See("QI#Ela")
 CombatCounter(0)
 Global("QI#ElaKorganToB1","GLOBAL",0)~ THEN BKORGA25 QI#ElaKorganToB1
 @70
-DO ~SetGlobal("QI#ElaKorganToB1","GLOBAL",0)~
+DO ~SetGlobal("QI#ElaKorganToB1","GLOBAL",1)~
 == QI#E25B @71
 == BKORGA25 @72
 EXIT
@@ -265,11 +272,11 @@ EXIT
 
 //Sarevok
 CHAIN
-IF ~InParty("QI#Mi")
+IF ~InParty("QI#Ela")
 InParty("Sarevok")
-See("QI#Mi")
+See("Sarevok")
 !StateCheck("Sarevok",CD_STATE_NOTVALID)
-!StateCheck("QI#Mi",CD_STATE_NOTVALID)
+!StateCheck("QI#Ela",CD_STATE_NOTVALID)
 CombatCounter(0)
 Global("QI#MiSarevokToB1","GLOBAL",0)~ THEN QI#E25B QI#MiSarevokToB1
 @78

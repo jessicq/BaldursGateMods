@@ -1686,6 +1686,7 @@ IF ~~ stories1
 SAY @563
 = @564
 = @565
+IF ~~ EXIT 
 END
 
 IF ~~ stories2
@@ -1697,6 +1698,7 @@ IF ~~ stories3
 SAY @567
 = @568
 = @569
+IF ~~ EXIT 
 END
 
 IF ~~ regretevil1
