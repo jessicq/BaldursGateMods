@@ -1,7 +1,7 @@
 BACKUP ~TheBeaurinLegacy/backup~
 SUPPORT ~https://www.gibberlings3.net/forums/forum/200-the-beaurin-legacy/~
 README ~%MOD_FOLDER%/TheBeaurinLegacy-ReadMe.html~
-VERSION ~v3.3.1~
+VERSION ~v3.5~
 
 AUTO_EVAL_STRINGS
 ALWAYS
@@ -711,7 +711,7 @@ BEGIN @3010 DESIGNATED 3010 SUBCOMPONENT @3000  LABEL BeaurinLegacyPortraitTamik
         COPY ~%MOD_FOLDER%/Portraits/BG2/QI#alt_S.bmp~ ~override/QI#MiS.bmp~
     END
 
-BEGIN @3020 DESIGNATED 3020 SUBCOMPONENT @3000  LABEL BeaurinLegacyPortraitDominiqueWesson
+BEGIN @3020 DESIGNATED 3020 SUBCOMPONENT @3000  LABEL BeaurinLegacyPortraitErisForan
     REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2" (ID_OF_LABEL "%MOD_FOLDER%.tp2" BeaurinLegacyMain) @1010
 
     ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
