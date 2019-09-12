@@ -1706,7 +1706,7 @@ IF ~~ DO ~IncrementGlobal("QI#MiRuinTalk","GLOBAL",1)~ EXIT
 END
 
 //Go to Slums in Athkatla
-IF ~Global("QI#NoBook","GLOBAL",2) Global("Chapter","GLOBAL",%bg2_chapter_6%) Global("QI#Slums","GLOBAL",0)~ ElaSlum
+IF ~Global("Chapter","GLOBAL",6) !Global("QI#Slums","GLOBAL",1)~ ElaSlum
 SAY @750
 = @751
 IF ~~ DO ~SetGlobal("QI#Slums","GLOBAL",1)~ EXIT
