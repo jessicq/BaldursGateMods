@@ -16,6 +16,7 @@ XPLT(Player1,280001)
 THEN
 RESPONSE #100
 SetGlobal("QI#MiExperienceSet","GLOBAL",1)
+Continue()
 END
 
 IF
@@ -27,6 +28,7 @@ THEN
 RESPONSE #100
 SetGlobal("QI#MiExperienceSet","GLOBAL",1)
 AddXPObject("QI#Mi",239000)
+Continue()
 END
 
 IF
@@ -38,6 +40,7 @@ THEN
 RESPONSE #100
 SetGlobal("QI#MiExperienceSet","GLOBAL",1)
 AddXPObject("QI#Mi",639000)
+Continue()
 END
 
 IF
@@ -48,4 +51,5 @@ THEN
 RESPONSE #100
 SetGlobal("QI#MiExperienceSet","GLOBAL",1)
 AddXPObject("QI#Mi",1039000)
+Continue()
 END
