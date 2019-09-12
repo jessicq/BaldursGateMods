@@ -1,0 +1,49 @@
+@0 = ~What do you want stranger?~ [QI#Mi034]
+@1 = ~You look like you need some help. Do you?~
+@2 = ~I would be careful with that attitude.~ 
+@3 = ~Nothing. I was simply passing through.~ 
+@4 = ~No, why would I want any help from you vagabonds?~ [QI#Mi035]
+@5 = ~...Actually, I retract my previous statement.  You and your group look decently equipped, and I am indeed in need of assistance.~ [QI#Mi036]
+@6 = ~Excuse me? Vagabonds? I come to offer you my help and you insult me?~
+@7 = ~Yes, well, how can we help you?~
+@8 = ~Actually, I've changed my mind. I'll be off now.~
+@9 = ~I guess so. How can we help you?~ 
+@10 = ~No, we can't. Farewell.~
+@11 = ~I have spent many years researching and preparing for my own personal quest.~
+@12 = ~I have finally found the location of my magnum opus. And this is where you, brave adventurer, this is where you come in.~
+@13 = ~My studies and calculations have lead me to here - this vagrant-infested city.~
+@14 = ~There is a hidden door that you must enter, and I will accompany you. I won't take no for an answer either on that matter.~ [QI#Mi038]
+@15 = ~And what do I get out of this?~ 
+@16 = ~Why do you need me to retrieve a book? What's the catch?~ 
+@17 = ~Sounds simple enough. Let's do it.~ 
+@18 = ~On second thought, I really don't have time for this.~ 
+@19 = ~I offer my services to you until your quest is done.  I am quite skilled in the arcane arts, and I do pride myself on "borrowing" items from others.~
+@20 = ~If you understand what I am referring to that is, but assuming that your brain is addled, I will say it very simplistically. I am good at taking things.~
+@21 = ~So whatever gold you desire would easily be much more obtainable.~
+@22 = ~Sounds like a deal. Let's go find your tome.~
+@23 = ~No thanks.~
+@24 = ~Hm, aren't you a clever one.~
+@25 = ~Unfortunately, there is no catch.  The magic that has been hiding the hidden door has been diminishing over time, and the tomb should just be inside.~
+@26 = ~But why would someone need to hide a door with magic? Unless it is keeping someone from coming in...or something from coming out.~ 
+@27 = ~Okay, then let's get on with it.~
+@28 = ~I have a bad feeling about this. I am not doing this.~
+@29 = ~There could be. But whatever could be in there is most likely long dead.~
+@30 = ~I refuse to help you until you tell me the truth!~ 
+@31 = ~I guess you are right. Let's finish this then.~
+@32 = ~I no longer feel the need to help you on your quest, there is something not right about this.~ 
+@33 = ~Do you really wish to know?!~
+@34 = ~Well, I hate to tell you this, but there is NOTHING!~
+@35 = ~Either you help me or you don't!~
+@36 = ~I guess you are right. Let's finish this then.~
+@37 = ~No, I will take no part in this.~
+@38 = ~Off with you then. Stop wasting my time.~
+@39 = ~Excellent.~
+@40 = ~I see that you are back again.  Are you here to waste my time again or have you reconsidered?~ [QI#MI037]
+@41 = ~I've thought it over, and I have come to the conclusion that I will help you.~ 
+@42 = ~No, sorry.~ 
+@43 = ~Look, I apologize for my careless words. Can you help me or not?~
+
+@88888 = ~A Hidden Book
+
+A young elven lady, by the name of Minyae, offered me her services if I helped retrieve a tome for her. Her request seems easy enough. Go inside a room, find the book, pick it up, and go. That's all there is to it...right?~
+
