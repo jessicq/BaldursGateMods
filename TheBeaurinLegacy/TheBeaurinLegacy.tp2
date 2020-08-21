@@ -1,7 +1,7 @@
 BACKUP ~TheBeaurinLegacy/backup~
 SUPPORT ~https://www.gibberlings3.net/forums/forum/200-the-beaurin-legacy/~
 README ~%MOD_FOLDER%/TheBeaurinLegacy-ReadMe.html~
-VERSION ~v3.5~
+VERSION ~v4.0~
 
 AUTO_EVAL_STRINGS
 ALWAYS
@@ -33,8 +33,9 @@ ALWAYS
 END
 
 AUTO_TRA ~TheBeaurinLegacy\%s~
+LANGUAGE ~English~ ~English~ ~TheBeaurinLegacy/English/setup.tra~
+LANGUAGE ~Russian~ ~Russian~ ~TheBeaurinLegacy/Russian/setup.tra~
 
-LANGUAGE ~English~ ~English~ ~%MOD_FOLDER%/English/setup.tra~
 
 BEGIN @1000 DESIGNATED 1000 LABEL BeaurinLegacyMain
 
