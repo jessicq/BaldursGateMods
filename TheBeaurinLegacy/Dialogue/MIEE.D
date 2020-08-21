@@ -50,8 +50,8 @@ Global("QI#MiNeera3","GLOBAL",0)~ THEN BNEERA QI#MiNeera3
 DO ~SetGlobal("QI#MiNeera3","GLOBAL",1)~
 == BNEERA @16
 == QI#MIB @17
-== BNEERA @18
-== BEDWIN @19
+== BEDWIN @18
+== QI#MIB @19
 == BNEERA @20
 EXIT
 

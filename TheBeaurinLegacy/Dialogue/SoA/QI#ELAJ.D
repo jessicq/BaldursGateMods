@@ -107,11 +107,6 @@ I_C_T BEGGAR1 0 QI#ElaBEGGAR1
 == QI#ELAJ IF ~InParty("QI#Ela") InMyArea("QI#Ela") !StateCheck("QI#Ela",CD_STATE_NOTVALID)~ THEN @22
 END
 
-//Hendak
-I_C_T HENDAK 1 QI#ElaHendak1
-== QI#ELAJ IF ~InParty("QI#Ela") InMyArea("QI#Ela") !StateCheck("QI#Ela",CD_STATE_NOTVALID)~ THEN @23
-END
-
 //Kangaxx
 I_C_T HLKANG 2 QI#HKLANG02
 == QI#ELAJ IF ~InParty("QI#Ela") InMyArea("QI#Ela") !StateCheck("QI#Ela",CD_STATE_NOTVALID)~ THEN @24

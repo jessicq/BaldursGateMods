@@ -86,7 +86,7 @@ END
 ++ @13 EXTERN QI#MIJ notfriends1
 
 CHAIN QI#MIJ notfriends1
-~If I left now, I would be missing one of the greatest events in history, and I would not know of your fate. I will not leave, and I stand ready for whatever danger lies ahead.~
+@14
 END
 COPY_TRANS PLAYER1 33 
 
@@ -201,9 +201,9 @@ I_C_T GAAL 0 QI#GAAL0
 END
 
 //Shadow Thieves
-I_C_T GAELAN 66 QI#GAELAN66
+/*I_C_T GAELAN 66 QI#GAELAN66
 == QI#MIJ IF ~InParty("QI#Mi") InMyArea("QI#Mi") !StateCheck("QI#Mi",CD_STATE_NOTVALID)~ @760
-END
+END */
 
 I_C_T MAEVAR 25 QI#MAEVAR24
 == QI#MIJ IF ~InParty("QI#Mi") InMyArea("QI#Mi") !StateCheck("QI#Mi",CD_STATE_NOTVALID)~ @35
@@ -314,7 +314,7 @@ I_C_T UDSILVER 9 QI#UDSILVER9
 == QI#MIJ IF ~InParty("QI#Mi") InMyArea("QI#Mi") !StateCheck("QI#Mi",CD_STATE_NOTVALID)~ THEN @61
 END
 
-I_C_T UDSILVER 50 QI#UDSILVER50
+I_C_T UDSILVER 49 QI#UDSILVER50
 == QI#MIJ IF ~InParty("QI#Mi") InMyArea("QI#Mi") !StateCheck("QI#Mi",CD_STATE_NOTVALID)~ THEN @62
 END
 
