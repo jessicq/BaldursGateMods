@@ -64,7 +64,7 @@ Follow the path that most will not walk."~
 @59 = ~This seems suspicious. Be care <CHARNAME>.~
 @60 = ~(sigh) Why do we always get sucked in to such things?~
 @61 = ~A silver dragon. What a beautiful creature... I hear their blood is a very unique magical component.~
-@62 = ~We can harvest the blood of this magnificent beast and examine its magical properties. How exciting this will be but maddening during the killing process!~
+@62 = ~Provoking the beast with the death of her eggs, excellent! We can harvest the blood of this magnificent beast and examine its magical properties. How exciting this will be but maddening during the killing process!~
 @63 = ~Deception at its finest.~
 @64 = ~These elves... pathetic.~
 @65 = ~These people are hypocrites. Free the drow so that she may take vengeance against these asinine people.~
@@ -732,7 +732,7 @@ Follow the path that most will not walk."~
 @727 = ~The simple things in life?~
 @728 = ~Sounds like a wonderful way to live.~ 
 @729 = ~Sounds like a horrible way to live.~
-@730 = ~You must have lead a very different life than me.~
+@730 = ~You must have led a very different life than me.~
 @731 = ~It was a spectacular way of life!~
 @732 = ~Then you know nothing of life.~
 @733 = ~It was good to share some of my background with you, but I am starting to wonder if you even have the stomach to lead this party.~
@@ -823,6 +823,7 @@ Follow the path that most will not walk."~
 @818 = ~Very well. You will hear no more of this from me.~
 @819 = ~However, I ask you to treat him with utmost respect and if you dare --~
 @820 = ~...Just know that if you damage his intellect, I will end you.~
+@821 = ~If I left now, I would be missing one of the greatest events in history, and I would not know of your fate. I will not leave, and I stand ready for whatever danger lies ahead.~
 
 @88888 = ~A Hidden Book
 
