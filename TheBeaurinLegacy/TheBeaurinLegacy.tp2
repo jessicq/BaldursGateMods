@@ -35,6 +35,7 @@ END
 AUTO_TRA ~TheBeaurinLegacy\%s~
 LANGUAGE ~English~ ~English~ ~TheBeaurinLegacy/English/setup.tra~
 LANGUAGE ~Russian~ ~Russian~ ~TheBeaurinLegacy/Russian/setup.tra~
+LANGUAGE ~French~ ~French~ ~TheBeaurinLegacy/French/setup.tra~
 
 
 BEGIN @1000 DESIGNATED 1000 LABEL BeaurinLegacyMain
