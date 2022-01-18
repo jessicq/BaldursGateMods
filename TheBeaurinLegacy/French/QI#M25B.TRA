@@ -91,7 +91,7 @@
 @71 = ~Moi non plus.~
 
 // Sarevok
-@72 = ~On dirait que je ne suis pas la seule à with a change of perspective.~ [QI#Mi193]
+@72 = ~On dirait que je ne suis pas la seule à voir changé.~ [QI#Mi193]
 @73 = ~Oui, ça m'en a tout l'air.~
 @74 = ~Je trouve étrange, presque drôle, que nos vies aient pris un tel tournant en seulement quelques mois et sous l'influence de la même personne.~
 @75 = ~Est-ce que cette discussion mène quelque part ?~
@@ -104,11 +104,11 @@
 @80 = ~Silence ! Ne rends pas ça plus dur que nécessaire.~
 @81 = ~Alors qu'est-ce que tu me veux, Viconia?~
 @82 = ~Si tu n'avais pas encore saisi à propos de ma relation avec <CHARNAME>, alors tu es vraiment une -~
-@83 = ~Oui. Je suis au courant à propos de toi et <CHARNAME>. En fait, tout le monde l'est.~
+@83 = ~Oui. Je suis au courant pour toi et <CHARNAME>. En fait, tout le monde l'est.~
 @84 = ~Iblith ! Arrête de m'interrompre !~
 @85 = ~*ahem* Comme je disais... toi et Edwin êtes --.~
 @86 = ~Pas un mot de plus Viconia, je vois très bien où tu veux en venir. Et je t'en remercie.~
-@87 = ~And you still do not know how and when to shut up...~
+@87 = ~Je vois que tu ne sais toujours pas la fermer quand il faut...~
 
 // Jaheira
 @88 = ~Je ne pensais pas Edwin capable de tels sentiments.~
@@ -129,54 +129,54 @@
 @99 = ~Aerie, j'aimerais m'excuser pour la manière dont je t'ai traitée.~  [QI#Mi197]
 @100 = ~Êtes-vous malade ? Je peux panser vos blessures.~
 @101 = ~Non ça va, je me sens bien.~
-@102 = ~But you are confused on the change of heart, je le serais aussi étant donné mon comportement avec toi, mais ce sont des excuses sincères. Les accepteras-tu ?~
+@102 = ~Mais mon évolution te trouble, je le serais aussi étant donné mon comportement avec toi, mais ce sont des excuses sincères. Les accepteras-tu ?~
 @103 = ~J-je pense.~
 @104 = ~Je t'en remercie.~
 
 // Valygar
-@105 = ~Que savez-vous d'un homme du nom de Nhiroh?~
-@106 = ~How do you know that name?~ [QI#Mi198]
+@105 = ~Que savez-vous d'un homme qui s'appelle Nhiroh ?~
+@106 = ~Comment connais-tu ce nom ?~ [QI#Mi198]
 @107 = ~Ah, il vous est donc familier.~ 
-@108 = ~Je n'ai jamais dit que je connaissais ce paladin, but he was probably simple-minded like the rest of the mongrels. I simply asked how you knew that name. It is not very common around these parts.~
+@108 = ~Je n'ai jamais dit que je connaissais ce paladin, mais c'était probablement un simplet comme le reste de ses semblables. Je t'ai simplement demandé où tu avais entendu le nom. Il n'est pas très courant dans cette région.~
 @109 = ~Je n'ai jamais mentionné que Nhiroh était un paladin.~ 
-@110 = ~I... It was a lucky guess. Le nom donnait l'impression d'être plus masculin que féminin.~
+@110 = ~Je... C'était un coup de chance. Le nom sonnait plus masculin que féminin.~
 @111 = ~Mais ça n'explique pas comment vous avez deviné sa profession.~
 @112 = ~J'ai eu de la chance - c'est tout !~
-@113 = ~We are done here.~
+@113 = ~Fin de la discussion.~
 
 // Mazzy
 @114 = ~Tu dois souvent te l'entendre dire, mais les "paladins" petites-personnes sont exceptionnellement rares.~ [QI#Mi199]
 @115 = ~Ceux qui se battent pour un monde meilleur ne sont pas durs à trouver, Minyae.~
 @116 = ~Tu devrais le savoir depuis le temps.~
-@117 = ~There are many things I know and don't know, but things I don't know, I want to learn more about.~
-@118 = ~Alors dis m'en d'avantage sur toi. Parle moi de tes aspirations, de ton engagement, et par-dessus tout, why you do this quand le reste de ton peuple semble ne faire que manger, boire, et profiter joyeusement de la vie.~
-@119 = ~The answers you seeks cannot be explained in one sitting, Minyae. Venez, nous parlerons en marchant.~ 
+@117 = ~Mes connaissances sont à la fois immenses et infimes, mais ce que je ne sais pas, je veux l'apprendre.~
+@118 = ~Alors dis m'en d'avantage sur toi. Parle moi de tes aspirations, de ton engagement, et par-dessus tout, de ce qui te motive quand le reste de ton peuple semble ne faire que manger, boire, et profiter joyeusement de la vie.~
+@119 = ~Les réponses que vous cherchez ne peuvent s'enseigner en une seule leçon, Minyae. Venez, nous parlerons en marchant.~ 
 
 // Haer'Dalis
-@120 = ~Let me swoop you off your feet, my manx. Laisse-moi te montrer comment danser au son de mes mélodies.~
-@121 = ~Haer'Dalis, je ne sais pas danser. Nor would I be willing dance with you.~ [QI#Mi200]
+@120 = ~Laisse-moi te faire tourner la tête, mon chaton. Laisse-moi te montrer comment danser au son de mes mélodies.~
+@121 = ~Haer'Dalis, je ne sais pas danser. Et même si je savais, je n'en aurais pas envie avec toi.~ [QI#Mi200]
 @122 = ~Et pourquoi pas ? Tu es légère et agile. Je t'ai vu courir dans tous les sens, gambader, laisse-moi t'enseigner comment virevolter gracieusement.~
-@123 = ~Why are you so interested in teaching me? Et pourquoi est-ce que tu m'observais ? J'exige des réponses !~
-@124 = ~Je te donnerai les réponses que tu cherches si tu me laisses être ton professeur.~
+@123 = ~Pourquoi est-ce que tu insistes autant ? Et pourquoi est-ce que tu m'observais ? J'exige des réponses !~
+@124 = ~Et je te les donnerai si tu me laisses être ton professeur.~
 @125 = ~Je suppose que ça ne peut pas me faire de mal.~
 @126 = ~Excellent ! Ne perdons pas une minute de plus !~
 
 // Imoen
 @127 = ~Je te préfère maintenant.~
-@128 = ~Tu souris plus souvent and every time you smirk, I can see that you're actually enjoying yourself.~
-@129 = ~Je suis toujours la même, Imoen. I simply have had a change of heart.~  [QI#Mi201]
-@130 = ~Is that what you keep telling yourself?~
-@131 = ~Yes, because it is true.~
-@132 = ~Or maybe it's because *you* think it is the truth.~
+@128 = ~Tu souris plus souvent et quand tu le fais, on voit que tu prends vraiment du plaisir.~
+@129 = ~Je suis toujours la même, Imoen. J'ai simplement revu mes opinions.~  [QI#Mi201]
+@130 = ~Est-ce ce dont tu essaies de te persuader ?~
+@131 = ~Oui, parce que c'est la vérité.~
+@132 = ~Ou peut-être que *tu* penses que c'est la vérité.~
 @133 = ~C'est exactement ce que je viens de dire.~
-@134 = ~Non non. C'est une question de point de vue, Minyae. You think versus what I think, ya know?~
+@134 = ~Non non. C'est une question de point de vue, Minyae. Ce que tu penses par rapport à ce que je pense, t'vois ?~
 @135 = ~Je crois.~
 
 // Imoen + Edwin
 @136 = ~Je suis obligée de le reconnaître. C'est bizarrement mignon de vous voir ensemble.~
 @137 = ~Mais de quoi est-ce que tu me parles ?~ [QI#Mi202]
 @138 = ~Toi et comme tu l'appelles, "Eddie".~
-@139 = ~NON ! Je laisse déjà une femme utiliser ce surnom ridicule, I do not need two women believing that this is the norm! (Et surtout pas cette gamine de bas-étage avec ces cheveux roses !)~ 
+@139 = ~NON ! Je laisse déjà une femme utiliser ce surnom ridicule, je n'ai pas besoin de deux qui prennent cette habitude ! (Et surtout pas cette gamine de bas-étage avec ces cheveux roses !)~ 
 @140 = ~Imoen, je crois que tu as utilisé le mot "mignon" de manière erronée. En tant que mage douée d'un minimum d'intelligence, je dois dire que je suis assez déçue de te voir prononcer "mignon" et "relation avec Edwin" dans la même phrase.~
 @141 = ~Peut-être que les événements à Spellhold ont eu des conséquences sur toi plus graves que nous ne l'imaginions.~
 @142 = ~D'accord, d'accord, tu marques un point.~
@@ -191,146 +191,146 @@
 @149 = ~Il n'y a jamais rien eu entre nous.~ 
 @150 = ~Fin de la discussion.~
 
-// Edwin 1
+// Edwin - parité
 @151 = ~Beaucoup de choses ont changées suite à ce qu'il s'est passé avec Irenicus, tu ne trouves pas, Eddie?~
-@152 = ~What are you trying to infer woman? (How joyous, more pestering from this insufferable monkey.)~
+@152 = ~Qu'est-ce que tu essaies de suggérer femme ? (Quelle joie, cet insupportable singe continue de m'ennuyer.)~
 @153 = ~Tu dois bien voir de quoi je parle, non ?~
 @154 = ~Hein ? (Pourquoi les femmes pensent-elles que nous sommes capables de lire dans leur esprit confus ? Nous ne sommes pas des flagelleurs mentaux ! Ce serait tellement plus simple si elle crachait le morceau, au lieu de me fixer impatiemment.)~
-@155 = ~*soupir* Men never understand the subtleties of women. Maybe that is why women are the most dangerous gender, parce que nous savons comment utiliser nos mots et notre langage corporel pour communiquer, alors que les mâles grossiers résolvent leurs problèmes à coup de massues et de lances.~
-@156 = ~Ha! Such idle fantasies, women are placed here to serve the stronger gender! (De plus, cet homme-ci préfère utiliser des boules de feu et des éclairs !)~
-@157 = ~Eddie, do we really have to get into why I am better than you in so many different ways that even you could not count? Devons-nous confronter nos points de vue des nuits entières pour que tu comprennes que les femmes sont au moins vos égales, peut-être même supérieures à vous ?~
-@158 = ~Je pensais que nous étions au delà de disputes aussi insignifiantes. I thought we were on to more sujets plus approfondies, de ceux qui demandent preuves et validation. Mais si ce n'est pas le cas, je suppose que ça ne te dérangera pas si je raconte à <CHARNAME> ou même au reste du groupe, à quel point tu aimes que je te gratte la barbe, hm ?~
+@155 = ~*soupir* Notre finesse vous échappera toujours. Peut-être est-ce la raison qui fait que des deux sexes, ce sont les femmes les plus dangereuses, parce que nous savons comment utiliser nos mots et notre langage corporel pour communiquer, alors que les mâles grossiers résolvent leurs problèmes à coup de massues et de lances.~
+@156 = ~Ah ! Que de fantasmes sans intérêt, les femmes n'existent que pour servir le sexe fort ! (De plus, cet homme-ci préfère utiliser des boules de feu et des éclairs !)~
+@157 = ~Eddie, dois-je vraiment énumérer tous les domaines dans lesquels je te suis clairement supérieure ? Devons-nous confronter nos points de vue des nuits entières pour que tu comprennes que les femmes sont au moins vos égales, peut-être même supérieures à vous ?~
+@158 = ~Je pensais que nous étions au delà de disputes aussi insignifiantes. Que nous étions passés à des sujets plus approfondies, de ceux qui demandent preuves et validation. Mais si ce n'est pas le cas, je suppose que ça ne te dérangera pas si je raconte à <CHARNAME> ou même au reste du groupe, à quel point tu aimes que je te gratte la barbe, hm ?~
 @159 = ~Non, non. Tu as été parfaitement claire. (Pas la barbe !)~ 
 @160 = ~Bien.~ 
 
-// Edwin 2
+// Edwin - peur
 @161 = ~Que penses-tu des habitants de cet enfer qu'est Saradush ?~ [QI#Mi132]
 @162 = ~Ces singes ne survivront que parce que ces murs sont assez épais pour protéger leur misérable vie.~
 @163 = ~Donc si je comprends bien, tu n'éprouves aucune compassion à leur égard ?~
-@164 = ~Why would I give a second glance to this rabble? They should feel grateful that I bless them with my presence! (Cette femme me prend-elle pour un idiot ?)~
-@165 = ~What if I told you I sympathized with them?~
+@164 = ~Pourquoi devrais-je accorder le moins regard à cette populace ? Ils devraient être reconnaissants que je les honore de ma présence ! (Cette femme me prend-elle pour un idiot ?)~
+@165 = ~Et si je te disais que je les plains ?~
 @166 = ~Alors tu es plus faible que ce que je pensais.~
 @167 = ~Peut-être que c'est le cas, mais laisse-moi tout de même m'expliquer.~
-@168 = ~There is an endless siege outside these walls, there is a barrage of fire shooting out of the catapults onto the homes of these scum, et même s'ils parviennent à s'échapper, où vont-ils aller ? À quelle distance est-ce que leurs petites jambes vont les porter avant qu'ils ne s'effondrent d'épuisement ?~ [QI#Mi218]
-@169 = ~This is an unusual thought coming from you, Minyae. (What is causing her to think of such pitiful things?)~
-@170 = ~It is a fear of mine, Edwin.~ [QI#Mi219]
-@171 = ~Knowing that no matter the outcome, the possibilities of survival are next to nothing. Que peut-on faire dans une telle situation ? Faut-il rester et se battre ou tenter de s'enfuir ?~
-@172 = ~Maybe I should rephrase myself, I care not for the denizens of this wretched place, I am terrified of the idea of their fates. It is something that I would not know how to handle myself.~
-@173 = ~Tes conjectures sont ridicules. You will never face such an obstacle.~
+@168 = ~Il y a un siège sans fin à l’extérieur de ces murs, une pluie de feu en provenance des catapultes directement sur les maisons de cette vermine, et même s'ils parviennent à s'échapper, où vont-ils aller ? À quelle distance est-ce que leurs petites jambes vont les porter avant qu'ils ne s'effondrent d'épuisement ?~ [QI#Mi218]
+@169 = C'est un questionnement surprenant venant de toi, Minyae. (Qu'est-ce qui provoque ces pitoyables pensées ?)~
+@170 = ~Ça me fait peur, Edwin.~ [QI#Mi219]
+@171 = ~Savoir que quelle qu'en soit l'issue, les chances de survie sont quasiment inexistantes. Que peut-on faire dans une telle situation ? Faut-il rester et se battre ou tenter de s'enfuir ?~
+@172 = ~Peut-être que je devrais le dire différemment, je me fiche des habitants de cette ville de malheur, c'est ce que leur réserve le destin qui me terrifie. Je ne saurais pas quoi faire à leur place.~
+@173 = ~Tes conjectures sont ridicules. Tu n'affronteras jamais rien de similaire.~
 @174 = ~Comment peux-tu en être si sûr ?~ [QI#Mi220]
-@175 = ~I will not allow that to happen to you.~
+@175 = ~Je ne le laisserai pas arriver.~
 
-// Edwin 3
+// Edwin - sœur
 @176 = ~Je connais ce regard. Tu as quelque chose en tête, n'est-ce pas ?~ [QI#Mi133]
-@177 = ~I find it odd that throughout all of discussions, nous n'ayons encore jamais eu l'occasion de parler de ta sœur. Pourquoi cela ? (Oui, très bonne question... pourquoi ?)~
+@177 = ~Je trouve étrange que malgré toutes nos conversations, nous n'ayons encore jamais eu l'occasion de parler de ta sœur. Pourquoi cela ? (Oui, très bonne question... pourquoi ?)~
 @178 = ~Il y a des souvenirs qu'il vaut mieux oublier. La jeune elfe que nous avons combattue, ce n'était pas ma sœur. Elle n'aurait jamais levé la main sur moi, elle m'aurait toujours protégée, quoi qu'il lui en coûte. Ma sœur est morte il y a bien longtemps.~
-@179 = ~That may appear so, but you cannot dismiss the fact that your sister has exploited a weakness.~ 
-@180 = ~Je ne comprends pas ce que tu veux dire. Exploited a weakness? Je l'ai *tuée*, any weakness she knew of me is now dead.~ 
-@181 = ~(N'est-ce pourtant pas évident ?) Your past is your downfall.~
+@179 = ~Il semblerait que oui, mais tu ne peux écarter le fait que ta sœur a exploité une faiblesse.~ 
+@180 = ~Je ne comprends pas ce que tu veux dire. Exploité une faiblesse ? Je l'ai *tuée*, si il y en avait, elles ont disparu avec elle.~ 
+@181 = ~(N'est-ce pourtant pas évident ?) Ton passé causera ta perte.~
 @182 = ~Mon passé ? Tu te trompes, je me fiche de mon passé. Ma vie entière a été déballée devant tout le monde, je n'ai absolument plus rien à cacher.~
-@183 = ~You have the audacity to say that I am incorrect? J'ai vu la colère et la douleur dans tes yeux alors que tu massacrais ta sœur !~
+@183 = ~Tu oses dire que j'ai tord ? J'ai vu la colère et la douleur dans tes yeux alors que tu massacrais ta sœur !~
 @184 = ~MA SŒUR EST MORTE IL Y A UNE ÉTERNITÉ ! CETTE SALOPE ELFE N'ÉTAIT PAS ELLE !~
 @185 = ~Quoi qu'il en soit, je pense qu'il serait sage de ta part de ne plus t'accrocher à ce qu'il t'est arrivé dans le passé, mais n'oublie pas pour autant ceux qui t'ont causé des tords. Fais-en ton but dans la vie, traque-les, et anéanti-les ! (Une boule de feu est particulièrement efficace quand ils sont plusieurs !)~
-@186 = ~Mais si tu ne reconnais pas tes propres failles, then your doom will be closer than you think.~
+@186 = ~Mais si tu ne reconnais pas tes propres failles, la mort t'attend au tournant.~
 @187 = ~Je suppose que tu as raison, et comment est-ce que tu proposes que j'y remédie ?~
 @188 = ~(Bonne question.) Je ne sais que répondre à ce dilemme, mais nous trouverons une solution ensemble.~
 
-// Edwin 4
+// Edwin - disputes
 @189 = ~Ce regard nostalgique... tu repenses aux fêtes de Suldanessellar.~ [QI#Mi136]
-@190 = ~Les festins luxueux et la vénération des elfes de Suldanessellar me manquent. (Oh comme ils s'agenouillaient devant moi !)~
-@191 = ~Je ne pensais pas que quoi que ce soit pouvait te manquer, Eddie. What has changed you?~
-@192 = ~Qui ne se délecterait pas des éloges de ces simiens ? Les regarder nous couvrir de présents et nous baiser les pieds comme si nous étions des dieux ! (The food was definitely a winner too.)~
+@190 = ~Les festins luxueux et la vénération des elfes me manquent. (Oh comme ils s'agenouillaient devant moi !)~
+@191 = ~Je ne pensais pas que quoi que ce soit pouvait te manquer, Eddie. Qu'est-ce qui t'a changé ?~
+@192 = ~Qui ne se délecterait pas des éloges de ces simiens ? Les regarder nous couvrir de présents et nous baiser les pieds comme si nous étions des dieux ! (La nourriture n'était pas mal du tout non plus.)~
 @193 = ~C'est vrai, tu as raison, mais sais-tu ce qui me manque le plus à moi ?~
 @194 = ~Les nuits-blanches ? (Ou peut-être parlait-elle de ces elfes rampants devant nous ?)~
 @195 = ~Pas tout à fait.~
-@196 = ~Tu vas trouver ça bête, but the absence of the quietness under the shining stars is what I missed the most. While the prideful elves may inhabit the city, Suldanessellar était sublime de nuit.~
-@197 = ~Bah ! Such foolish thoughts indeed, Minyae! How could you have cherished the city night when we were in constant disputes? (Disputes can be interesting, not beautiful, right?)~
+@196 = ~Tu vas trouver ça bête, mais c'est le bruit permanent sous la lueur des étoiles qui me manque le plus. Bien que des elfes orgueilleux l'occupent, Suldanessellar était sublime de nuit.~
+@197 = ~Bah ! Quelle idée ridicule en effet, Minyae! Comment as-tu pu aimer les nuits dans la ville quand nous nous chamaillions en permanence ? (Les désaccords sont intéressants, pas sublimes, non ?)~
 @198 = ~Es-tu stupide à ce point ?! Faut-il que je te fasse un dessin à chaque fois ?~
-@199 = ~...What I am trying to say is our nightly disputes about whatever controversial topic was, and is, the highlight of my days, but apparently you do not feel the same way.~
-@200 = ~Ah ! Not only is your intellect irreparable, mais en plus tu es une hypocrite. (Cette femme a le culot de me trouver stupide !)~  
-@201 = ~If you were so "high and mighty" as you so claim to be, you would be able to discern that I feel a somewhat equivalent way. Do you think I would waste my nights of sleep deep in conversation with a monkey? NO.~ 
-@202 = ~Oh. I did not realize -~
-@203 = ~You do not realize many things.~
+@199 = ~...Ce que j'essaie de dire c'est que nos querelles la nuit à propos de je ne sais quels sujets controversés étaient, et sont toujours, les meilleurs moments de mes journées, mais j'ai l'impression que tu n'es pas de cet avis.~
+@200 = ~Ah ! Non seulement ton intellect est endommagé au delà de toute réparation, mais en plus tu es une hypocrite. (Cette femme a le culot de me trouver stupide !)~  
+@201 = ~Si tu étais si "belle et intelligente" comme tu l'affirmes, tu percevrais que ce que je ressens est similaire. Penses-tu que je gâcherais mes nuits de sommeil à débattre avec un singe ? NON.~ 
+@202 = ~Oh. je n'avais pas compris que -~
+@203 = ~Tu ne comprends pas assez souvent.~
 
-// Edwin 5
+// Edwin - confession
 @204 = ~Je sens ton regard posé sur moi, Magicien Rouge. Quelque chose ne va pas ?~ [QI#Mi137]
-@205 = ~I have something to share with you. (These thoughts are bursting through and I can no longer restrain them - they must be relieved!)~
-@206 = ~Est-ce que cela ne peut pas attendre, Edwin ? This is clearly not the time to be sharing any sort of information with me. Tout le monde nous entend. And it sounds like whatever you are about to say should be private.~
-@207 = ~I don't care if monkeys listen.~
-@208 = ~I find that you are a woman of exceptional intelligence and beauty. Je pense avoir trouvé mon égale.~
-@209 = ~Edwin, I do not think this is the time to be spouting such sentiments...~
-@210 = ~AS I WAS SAYING. I believe that I have found someone to share in my conquests, and I believe this lucky simian to be you...~
-@211 = ~Mais qu'est-ce que tu essaie de me dire...~
-@212 = ~My physical body has long been yours, and now my very essence is yours too. (How much more detail does this woman need?)~
-@213 = ~Meaning...?~
-@214 = ~You impossible, thick-headed woman! You coccydynia!~
-@215 = ~Je t'aime. (There, it is out!)~
+@205 = ~J'ai quelque chose à te dire. (Ces pensées font irruption dans ma tête et je ne peux plus les retenir - je dois m'en soulager !)~
+@206 = ~Est-ce que cela ne peut pas attendre, Edwin ? Ça ne me semble vraiment pas le bon moment de me raconter quoi que ce soit. Tout le monde nous entend. Et quoi que tu aies à me dire, j'ai l'impression que cela devrait rester privé.~ 
+@207 = ~Ça m'est égal si des singes nous écoutent.~
+@208 = ~Je pense que tu es un femme exceptionnellement belle et intelligente. Je pense avoir trouvé mon égale.~
+@209 = ~Edwin, ce n'est pas le moment de devenir sentimental...~
+@210 = ~COMME JE DISAIS. Je pense avoir trouvé quelqu'un avec qui partager mes victoires, et je pense que cette simienne chanceuse, c'est toi...~
+@211 = ~Mais qu'est-ce que tu me racontes...~
+@212 = ~Mon corps t'appartient depuis longtemps, et maintenant, mon âme t'appartient aussi. (Cette femme a t-elle vraiment besoin que je précise plus ?)~
+@213 = ~Oui...?~
+@214 = ~Quelle femme insupportable et bornée ! Quelle casse-pieds !~
+@215 = ~Je t'aime. (Voilà, c'est sorti !)~
 @216 = ~Non.~
 @217 = ~Non, non, non !~
-@218 = ~I thought we were both happy about our status with each other. I cannot do this. Pas maintenant... laisse-moi tranquille !~
-@219 = ~C'est hors de question ! Femme, tu penses vraiment qu'on homme ordinaire aurait toléré aussi longtemps ton comportement entêté ? Your constant pestering? Tes exigences perpétuelles and complaints of others and your daily life struggles - I have listened to your every whim and word. Ne vois-tu pas que je tiens à toi ?!~
-@220 = ~I cannot handle this at the moment, if you truly do care for me, you will give me my time.~
+@218 = ~Je pensais que notre relation nous convenait comme elle était. Je n'y arriverai pas. Pas maintenant... laisse-moi tranquille !~
+@219 = ~C'est hors de question ! Femme, tu penses vraiment qu'on homme ordinaire aurait toléré aussi longtemps ton comportement entêté ? Tes taquinements permanents ? Tes exigences perpétuelles et t'entendre te plaindre constamment des autres et des difficultés de la vie - j'ai enduré tous tes caprices. Ne vois-tu pas que je tiens à toi ?!~
+@220 = ~Je ne peux pas gérer ça maintenant, si tu tiens vraiment à moi, tu me laisseras le temps.~
 @221 = ~Qu'il en soit ainsi.~
 
-// Edwin 6
-@222 = ~Edwin, it is very urgent that I speak to you now, avant que je ne change d'avis.~ [QI#Mi139]
-@223 = ~Que peux-tu bien me vouloir maintenant ?! Your avoidance from me has been noticeable.~
-@224 = ~I am truly sorry for how I acted before. I acted immaturely, and you did not deserve that, you never did.~
-@225 = ~Hmph. (When do I deserve anything less than the best?)~
-@226 = ~I have made my decision. Edwin, this is very difficult for me to say...~
+// Edwin - choix
+@222 = ~Edwin, il faut absolument que je te parle, tout de suite, avant que je ne change d'avis.~ [QI#Mi139]
+@223 = ~Que peux-tu bien me vouloir maintenant ?! Il est évident que tu m'évites.~
+@224 = ~Je suis sincèrement désolée de ma réaction la dernière fois. C'était immature, et tu ne méritais pas ça, tu n'as jamais mérité ça.~
+@225 = ~Hmph. (Est-ce que je ne mérite pas rien moins que le meilleur ?)~
+@226 = ~J'ai pris une décision. Edwin, c'est très compliqué pour moi d'en parler...~
 @227 = ~Je... Je t'aime.~
-@228 = ~I have never cared for anyone but myself until now. I always thought caring for anyone else would be the end of me, because I thought love was the greatest weakness.~
-@229 = ~You are not a weakness. You are not *my* weakness.~
-@230 = ~You are my other half, my better half. You are a friend who challenges me to do my best, you lend me your ears when I need it most, and you... you care for me like no other. And last but not least, I feel safe in your arms.~ 
-@231 = ~That is an interesting conclusion. (Quick, Odesseiron! There must be a witty remark somewhere up your robes. Think!)~
-@232 = ~You do not need to say anything, you know how I feel now. It is a great relief to be able to tell you that, but I am glad I have said it.~
-@233 = ~I... I cannot be with you. Love is a weakness. You are my weakness.~
+@228 = ~Je ne me suis jamais souciée de personne d'autre que moi jusqu'à présent. J'ai toujours pensé que si quoi que ce soit me tenait à cœur, ça en serait terminé de moi, parce que l'amour est la plus grande de toutes les faiblesses.~
+@229 = ~Tu n'es pas un point faible. Tu n'es certainement pas *mon* point faible.~
+@230 = ~Tu es ma moitié, mon cher et tendre. Tu es un ami qui me tire vers le haut, tu me prêtes une oreille attentive quand j'en ai besoin, et tu... tu tiens à moi plus que quiconque. Enfin et surtout, je me sens en sécurité dans tes bras.~ 
+@231 = ~C'est un dénouement intéressant. (Vite, Odesseiron ! Tu as probablement un trait d'esprit en réserve. Réfléchis !)~
+@232 = ~Tu n'as rien besoin de dire, tu sais ce que je ressens maintenant. C'est un soulagement d'avoir pu m'ouvrir ainsi, et je suis heureuse de l'avoir fait.~
+@233 = ~Nous... Nous ne pouvons pas être ensemble. On est faible quand on aime. Tu es mon point faible.~
 @234 = ~Si je dois devenir puissante un jour, je ne peux pas me permettre une telle faille. J'aurai des ennemies, et ils chercheront à te faire du mal, et je ne veux pas leur donner ce plaisir si ils y arrivaient.~
-@235 = ~You idiotic wench! How would I be your downfall? YOU would be my greatest flaw. I cannot believe I confessed such a thing to you.~
+@235 = ~Espèce de femelle stupide ! Comment pourrais-je causer ta chute ? C'est TOI qui serait une faille pour moi. Je n'arrive pas à croire que je me suis confié à toi.~
 @236 = ~Edwin, je suis désolée. Sincèrement.~
-@237 = ~May you find peace in your life, and I hope you will learn to love another who can give you all that you could ever want.~
-@238 = ~Impetulant fool! (She will never understand.)~
+@237 = ~Puisses-tu trouver la paix, et j'espère que tu sauras en aimer une autre qui pourra te donner tout ce que tu désires.~
+@238 = ~Espèce de vieille femme capricieuse ! (Elle ne comprendra jamais.)~
 
-// Edwin 7
-@239 = ~And what do you think you're doing, Edwin?~ [QI#Mi140]
-@240 = ~I can do whatever I please. What I do is no business of yours! (Who does this woman think she is?!)~
+// Edwin - cadeau
+@239 = ~Mais qu'est-ce que tu fais, Edwin?~ [QI#Mi140]
+@240 = ~J'agis comme bon me semble. Et ce n'est pas tes affaires ! (Cette femme, mais pour qui se prend-elle ?!)~
 @241 = ~Tu sais parfaitement bien de quoi je parle.~
-@242 = ~Je t'ai vu farfouiller dans mes affaires ! Je t'ai vu y prendre quelque chose !~
-@243 = ~Ah wench, you are more wary than I take you for. But not wary enough, I, Edwin Odesseiron, do not steal from the common rabble. I have simply placed something in your bag.~
-@244 = ~Oh ? I do like surprises.~
-@245 = ~Regarde donc par toi-même. (I cannot wait to see the look on her face when she sees it!)~
-@246 = ~...What is this?~
-@247 = ~It's a necklace!~
-@248 = ~A necklace? For what?~
-@249 = ~For you. (Must I always spout the obvious?)~
-@250 = ~Why would I want this?~ 
-@251 = ~You ungrateful woman! Look at it!~
-@252 = ~What is there to loo-~
+@242 = ~Je t'ai vu farfouiller dans mon sac ! Je t'ai vu y prendre quelque chose !~
+@243 = ~Ah femelle, tu es plus méfiante que je pensais. Mais ne te méfie donc pas tant car, moi, Edwin Odesseiron, ne vole pas le petit peuple. J'y ai simplement déposé quelque chose.~
+@244 = ~Oh ? j'aime les surprises.~
+@245 = ~Regarde donc par toi-même. (J'ai hâte de voir sa tête quand elle la trouvera !)~
+@246 = ~...Qu'est-ce que c'est ?~
+@247 = ~C'est une amulette !~
+@248 = ~Une amulette ? Pour quoi faire ?~
+@249 = ~C'est pour toi. (Suis-je toujours obligé de lui expliquer l'évidence ?)~
+@250 = ~Pourquoi est-ce que j'en voudrais ?~ 
+@251 = ~Femme ingrate ! Regarde-la bien !~
+@252 = ~Qu'est-ce qu'il y a à rega-~
 @253 = ~Oh.~
-@254 = ~It looks similar to the necklace you wear on your neck.~
-@255 = ~I have dabbled into some enchantments and have imbued it with magical properties. (Because I am oh-so brilliant.)~
-@256 = ~Are you expecting me to cry or something?~
-@257 = ~Just put it on. (A little appreciation would be nice, but what were you expecting, Odesseiron?)~
-@258 = ~Fine, but why did you do this for me?~
-@259 = ~To express the emotions I feel around you.~
-@260 = ~Je -. It's beautiful Edwin, thank you.~
-@261 = ~Hmph. (Finally, some appreciation!)~
+@254 = ~Elle ressemble à celle que tu portes à ton coup.~
+@255 = ~Je me suis essayé aux enchantements et l'ai imprégnée de propriétés magiques. (Parce que je suis génial à ce point.)~
+@256 = ~Tu ne t'attends quand même pas à ce que je verse une larme ?~
+@257 = ~Porte-la, tout simplement. (Un peu de reconnaissance ne ferait pas de mal, mais n'es-tu pas un peu trop optimiste, Odesseiron ?)~
+@258 = ~Très bien, mais pourquoi as-tu créé cela pour moi ?~
+@259 = ~Pour t'exprimer ce que je ressens quand je suis avec toi.~
+@260 = ~Je -. Elle est magnifique Edwin, merci.~
+@261 = ~Hmph. (Enfin, un peu de gratitude !)~
 
-// Edwin 8
-@262 = ~I have come to the realization that you are a human and what it really means to me.~ [QI#Mi141]
-@263 = ~Vraiment ? I am astounded by your sense of detection and astuteness. Such ingenious has never been seen before! (She must be on to something...)~
+// Edwin - humain
+@262 = ~J'ai pris conscience que tu étais un humain et ce que cela signifiait pour moi.~ [QI#Mi141]
+@263 = ~Vraiment ? Ton sens de la déduction et ta sagesse me stupéfient. Une telle ingéniosité, c'est du jamais vu ! (Elle doit avoir une idée derrière la tête...)~
 @264 = ~Ah ah, très drôle, Eddie.~
 @265 = ~Donc, comme je disais, tu es un humain, et je suis une elfe.~
-@266 = ~Why are you stating the obvious? (And I had concluded she was more intelligent than this, must I go back and re-evaluate my findings?)~
+@266 = ~Es-tu obligée de toujours enfoncer les portes ouvertes ? (Je la croyais plus intelligente que ça, dois-je réévaluer mon jugement ?)~
 @267 = ~Je continuerai à vivre bien après ta mort.~
-@268 = ~Hmph. (Must she always state the obvious?)~
-@269 = ~But what of your quest? Use the knowledge that you have gained, and let me live alongside you.~
-@270 = ~You have spent many arduous years educating yourself on the prerequisites on what must be done in order to obtained your desired form. You would see it all go to waste, because of my "humanity"?~
-@271 = ~That is quite the idea to think about, but I do not think you understand what must be done in order for you to achieve what you desire.~ 
-@272 = ~Et quelle importance ? Si je peux prolonger ma vie, why not?~
-@273 = ~I am afraid to lose your humanity.~
-@274 = ~Tu penses que je suis faible ? Je serai plus puissant que jamais. (Plus puissant même que Elminster en personne - quelle idée magnifique !)~
-@275 = ~I suppose...~
+@268 = ~Hmph. (Pourquoi continue-t-elle avec ces évidences ?)~
+@269 = ~Et ta quête ? Utilise les connaissances que tu as acquises, et laisse-moi vivre pour toujours à tes côtés.~
+@270 = ~Tu as passé de nombreuses et laborieuses années à te former sur les conditions nécessaires pour accomplir ta transformation. Tu gâcherais tout ça, parce que je suis un "humain" ?~
+@271 = ~C'est une idée qui mérite effectivement réflexion, mais je ne suis pas sure que tu saisisses toutes les implications de ce que tu désires.~ 
+@272 = ~Et quelle importance ? Si je peux prolonger ma vie, pourquoi ne pas le faire ?~
+@273 = ~J'ai peur que tu y perdes ton humanité.~
+@274 = ~Tu penses que je suis faible ? Je serai plus puissant que jamais. (Plus puissant même qu'Elminster en personne - quelle idée magnifique !)~
+@275 = ~C'est possible...~
 @276 = ~Nous en reparlerons une prochaine fois.~
 
 // Edwin x
@@ -366,7 +366,7 @@
 @306 = ~Excellent! (I will be even more powerful than that pointy-hat wizard, Elminster!)~
 @307 = ~Regardless, there are other tasks at hand that need more attention. This is something to ponder after all of this is over. For now, we will enjoy whatever peace we have left before the fight begins again.~
 
-// Edwin x
+// Edwin - mariage
 @308 = ~Ne reste pas là à me regarder bêtement. Parle.~ [QI#Mi144]
 @309 = ~What has caused the change in your heart, Minyae ?~
 @310 = ~De quoi est-ce que tu parles, Eddie?~
@@ -379,32 +379,32 @@
 @317 = ~And how do you propose to do this?~
 @318 = ~As I have stated before, becoming a lich is not the answer to my problem, and neither is it the solution for your short, human life.~
 @319 = ~Edwin, as cliche as this sounds, nous pouvons tout faire, si nous le voulons vraiment. We are brilliant people, and with great brilliance, comes great responsibility.~
-@320 = ~Hmph. (J'ai déjà entendu ça quelque part, it was definitely NOT an original saying.)~
+@320 = ~Hmph. (J'ai déjà entendu ça quelque part, ça ne venait définitivement pas d'elle.)~
 @321 = ~Et qu'as-tu l'intention de faire avec ces, euh, nouvelles connaissances ?~
 @322 = ~Je veux dédier ma vie à ta cause. Où que tu ailles, je te suivrai. Quoi que tu désires, je t'aiderai à l'obtenir. Je suis pour toujours à tes ordres.~
-@323 = ~Tu n'es pas ma servante. (Although, that does sound quite nice.)~
+@323 = ~Tu n'es pas ma servante. (Même si ça ne serait pas désagréable.)~
 @324 = ~Évidemment que non. Je déciderai si tu vas trop loin, mais d'ici là, je ferai tout mon possible pour t'aider. Je sais que tu accompliras de grandes choses de ton vivant, et je voudrais être là à chaque fois que ça arrivera. Et quel meilleur moyen d'être reconnue qu'avec le génial Edwin Odesseiron ? Mon nom perdurera.~
-@325 = ~C'est un point de vue intéressant. One that I have no objection to, one that I might find myself curious about...~
+@325 = ~C'est un point de vue intéressant. Je n'ai rien à y redire, je dirais même qu'il éveille ma curiosité...~
 @326 = ~*toussotement* Donc je suppose que Minyae Odesseiron est hors de question ?~
-@327 = ~What a self-absorbed man you are, Eddie. You demand so much from me, d'abord mon corps, puis mon cœur, et pour finir mon nom de famille ? Such a despicable man you are!~
+@327 = ~Quel égocentrique tu es, Eddie. Tu exiges tout de moi, d'abord mon corps, puis mon cœur, et pour finir mon nom de famille ? Tu es vraiment méprisable !~
 @328 = ~Quoi ?! Je t'accordais simplement le privilège de devenir une Odesseiron. (Le culot de cette femme !)~
 @329 = ~Quand vas-tu enfin apprendre à ne pas être si susceptible ? J'ai l'impression que je vais devoir cultiver ton sens de l'humour pour les années à venir, et peut-être qu'alors, j'envisagerai de porter ton nom.~
-@330 = ~I was advised to continue on my path to lichdom, et rien ne se mettra en travers de mon but. Et toi mon amour, tu seras à mes côtés.~
-@331 = ~The best way for my legacy to live is on is for me to live on, and as I said before and I will say again, I will do everything in power to live. My name will go on.~
+@330 = ~On m'a conseillé de poursuivre mes recherches pour devenir une liche, et rien ne se mettra en travers de mon but. Et toi mon amour, tu seras à mes côtés.~
+@331 = ~La meilleure manière pour mon héritage de perdurer est pour moi de vivre éternellement, and as I said before and I will say again, I will do everything in power to live. My name will go on.~
 @332 = ~Donc je suppose que Minyae Odesseiron est hors de question ?~
 @333 = ~Quelle excellente nouvelle ! (Je sauterais de joie si ma robe le permettait !)~ 
 
-// Edwin x
-@334 = ~I noticed you eyeing me back there when I mentioned my "future plans". Instead of staring from a distance, why don't you say what you have to say?~
-@335 = ~Une liche hein ? (Maybe we can milk some delightfully, juicy details from this elf.)~
+// Edwin - liche
+@334 = ~Je t'ai vu froncer les sourcils la dernière fois quand j'ai mentionné mes "plans pour la suite". Plutôt que de me fixer de loin, pourquoi est-ce que tu ne dirais pas ce que tu as en tête ?~
+@335 = ~Une liche hein ? (Peut-être que je peux soutirer à cette elfe quelques détails juteux.)~
 @336 = ~Oui, une liche. Et ?~
-@337 = ~And?~
-@338 = ~What of it?~
-@339 = ~Why don't you start from the beginning so I can compile all the information you have gathered.~
-@340 = ~What would that do for me?~
-@341 = ~Why does it matter? Do what you're told to do, wench. (Why so many questions?)~
-@342 = ~If there's nothing to be gained, why should I bother telling you anything?~
-@343 = ~Because you will be favored by the amazing, Edwin Odesseiron.~
-@344 = ~I care not for your favors, you imbecile.~
-@345 = ~Then you have not witnessed true power! (I am the epitome of true power!)~
-@346 = ~If talking to yourself is the true power, I do not want any part of it.~
+@337 = ~Et ?~
+@338 = ~Et bien qu'as tu à m'en dire ?~
+@339 = ~Reprends donc du début que je puisse dresser une liste de toutes les informations que tu as rassemblées pour le moment.~
+@340 = ~Qu'est-ce que ça va me rapporter ?~
+@341 = ~Quelle importance ? Fais ce que je te demande, femelle. (Pourquoi toutes ces questions ?)~
+@342 = ~Si je n'ai rien à y gagner, pourquoi est-ce que je prendrais la peine de te dire quoi que ce soit ?~
+@343 = ~Parce que tu gagnerais les faveurs de l'extraordinaire Edwin Odesseiron.~
+@344 = ~Je me fiche complètement de tes faveurs, imbécile.~
+@345 = ~Alors c'est que tu n'as pas encore contemplé la véritable puissance ! (J'en suis l'incarnation !)~
+@346 = ~Si se parler constamment à soi-même est inclus avec, ça ne m'intéresse vraiment pas.~
