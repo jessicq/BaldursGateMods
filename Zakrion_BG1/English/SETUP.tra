@@ -1,0 +1,70 @@
+@0 = ~Zakrion for BG1:EE~
+@1 = ~duelist~
+@2 = ~Duelist~
+@3 = ~DUELIST: The Duelist is the happy-go-lucky hero with the ready wit and the flashing rapier. He's happiest when he's in the big city, but can be an imposing warrior anywhere-enemies often underestimate him because of his charming manners and don't realize that he can hold his own in the melee as well as anyone else. Attacking with a trademark speed and grace, the Duelist's agility makes up for their disdain for heavy armor or large weapons. The Duelist, because he's bright and well-spoken, often becomes party leader... or at least the leader's spokesman.
+
+Duelists are found among all races and alignments.
+
+Advantages:
+
+-  Gains a +1 bonus to weapon speed factor, THAC0 and damage per 10 levels.
+-  Gains a +1 bonus to armor class per 5 levels.
+
+Disadvantages:
+
+-  Grand Mastery may only be attained using single-handed, bladed weapons. All other weapons, and the Two-Handed Weapon fighting style, are limited to one proficiency point.
+-  May not wear armor heavier than studded leather.~
+@4 = ~Strange Ring~
+@5 = ~Your companion, Zakrion Dessani, was found near the shores of the Sword Coast wearing this strange ring. Apparently, he doesn't remember how it got on his finger.
+
+Nonetheless, it is a pretty ring.
+
+STATISTICS:
+
+Weight: 0~
+@6 = ~Zakrion~
+@7 = ~When asked about his past, ZAKRION smiles calmly at you and says that he was a son of a ship captain.  He fondly relays a time where he would stand atop the ship and smell the salty sea breeze. He falls silent for a moment but neither his eyes nor his voice betrays him as he blatantly speaks of his father's ship being taken by pirates. Ever since then, he was named the next captain for the survivors of the invasion until his own ship wreckage where he lost his entire crew and left him as the sole survivor.~
+@8 = ~Cut and run!~ [QI#ZAK15]
+@9 = ~Not sure what you're doing, captain, but it doesn't look too good.~ [QI#ZAK31]
+@10 = ~Had anyone on my crew acted like this, they would be over the barrel.~ [QI#ZAK32]
+@11 = ~I've led crews before, so this should be no problem. I hope.~ [QI#ZAK04]
+@12 = ~I could use a good rest.~ [QI#ZAK05]
+@13 = ~Any day now...~ [QI#ZAK06]
+@14 = ~It's getting a little late to navigate.~ [QI#ZAK33]
+@15 = ~This is the perfect time to get underway.~ [QI#ZAK34]
+@16 = ~I prefer the sea to this.~ [QI#ZAK20]
+@17 = ~Forests are vast, but not as vast as the sea.~ [QI#ZAK19]
+@18 = ~Your life ends here!~ [QI#ZAK01]
+@19 = ~Clear the deck!~ [QI#ZAK35]
+@20 = ~Today isn't your day, is it?~ [QI#ZAK02]
+@21 = ~I don't think you can ever reach me, but you can certainly try.~ [QI#ZAK03]
+@22 = ~It seems we've got a devil to pay.~ [QI#ZAK36] 
+@23 = ~~ [QI#ZAK18]
+@24 = ~I just wanted to see the ocean one last time...~ [QI#ZAK00]
+@25 = ~The beacons burn so brightly...~ [QI#ZAK07]
+@26 = ~Yeah?~ [QI#ZAK08]
+@27 = ~Is there something I can do?~ [QI#ZAK09]
+@28 = ~Speak up.~ [QI#ZAK11]
+@29 = ~What do you need?~ [QI#ZAK10]
+@30 = ~Above board.~ [QI#ZAK37]
+@31 = ~Don't leave me high and dry.~ [QI#ZAK38]
+@32 = ~I'll get to it.~ [QI#ZAK30]
+@33 = ~Don't worry, I'll do it.~ [QI#ZAK16]
+@34 = ~I got this.~ [QI#ZAK17]
+@35 = ~Done.~ [QI#ZAK28]
+@36 = ~I can do that.~ [QI#ZAK12]
+@37 = ~Sure, sure.~ [QI#ZAK13]
+@38 = ~Alright.~ [QI#ZAK14]
+@39 = ~Didn't see that coming, did you?~ [QI#ZAK23]
+@40 = ~How could I have missed?~ [QI#ZAK22]
+@41 = ~This isn't working.~ [QI#ZAK21]
+@42 = ~Sorry, but you need to find someone else to carry it.~ [QI#ZAK24]
+@43 = ~Ah, what I would do for a square meal right now...~ [QI#ZAK39]
+@44 = ~Do you think we could turn a blind eye for just a moment? Long enough to get a meal, maybe two.~ [QI#ZAK40]
+@45 = ~That wasn't hard, was it?~ [QI#ZAK26]
+@46 = ~Ugh, sorry.~ [QI#ZAK29]
+@47 = ~I'm out of sight.~ [QI#ZAK27]
+@48 = ~I feel sorry for the poor soul who gets stuck in this.~ [QI#ZAK25]
+@49 = ~Alternative Portrait 1 by Nyaka-N at DeviantArt~
+@50 = ~Alternative Portrait 1 - Zakrion~
+@51 = ~You must have Zakrion_BG1 installed to select this option.~

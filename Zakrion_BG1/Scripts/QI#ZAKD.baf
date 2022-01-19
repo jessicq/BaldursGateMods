@@ -1,0 +1,23 @@
+/**************************************************************************************************
+			No Romance Only Physical Track
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakNoFeelingsTimer","GLOBAL")
+	Global("QI#ZakNoSexOnlyActive","GLOBAL",1)
+	Global("QI#ZakSemiRomTalk","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	OR(3)
+		Global("QI#ZakNoFeelingsTalk","GLOBAL",1)
+		Global("QI#ZakNoFeelingsTalk","GLOBAL",3)
+		Global("QI#ZakNoFeelingsTalk","GLOBAL",5)
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakNoFeelingsTalk","GLOBAL",1)
+	StartDialogueNoSet(Player1)
+END
