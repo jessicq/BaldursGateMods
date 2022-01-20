@@ -1,0 +1,652 @@
+
+/**************************************************************************************************
+			Introduction: Bring Zakrion to a tavern
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakNeedRest","GLOBAL",1)
+	OR(21)
+		AreaCheck("%BaldursGateDocks_JopalinsTavern%")
+		AreaCheck("%Beregost_FeldepostsInn_L1%")
+		AreaCheck("%Beregost_JovialJuggler_L1%")
+		AreaCheck("%Beregost_RedSheaf_L1%")
+		AreaCheck("%Beregost_BurningWizard_L1%")
+		AreaCheck("%EBaldursGate_KeexieTavern_L1%")
+		AreaCheck("%EBaldursGate_ElfsongTavern_L1%")
+		AreaCheck("%EBaldursGate_Inn_L1%")
+		AreaCheck("%FriendlyArmInn_L1%")
+		AreaCheck("%Nashkel_Inn%")
+		AreaCheck("%NBaldursGate_ThreeOldKegs_L1%")
+		AreaCheck("%NEBaldursGate_BlushingMermaid_L1%")
+		AreaCheck("%NEBaldursGate_SplurgingSturgeon_L2%")
+		AreaCheck("%NEBaldursGate_SplurgingSturgeon_L1%")
+		AreaCheck("%NWBaldursGate_Helm&Cloak_L1%")
+		AreaCheck("%NWBaldursGate_Tavern_L1%")
+		AreaCheck("%SEBaldursGate_Inn_L1%")
+		AreaCheck("%SEBaldursGate_Blade&Stars_L1%")
+		AreaCheck("%SWBaldursGate_Tavern_L1%")
+		AreaCheck("%SWBaldursGate_YeOldeInn_L1%")
+		AreaCheck("%UlgothsBeard_Inn%")
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakNeedRest","GLOBAL",2)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakNeedRest","GLOBAL",2)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/**************************************************************************************************
+			Introduction: Bring Zakrion to a tavern - Warning
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakNeedRestDelayed","GLOBAL",0)
+	!Global("QI#ZakNeedRest","GLOBAL",4)
+	!GlobalTimerNotExpired("QI#ZakDelayedTimer1","GLOBAL") 
+THEN 
+RESPONSE #100
+	SetGlobal("QI#ZakNeedRestDelayed","GLOBAL",1)
+END 
+
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!Global("QI#ZakNeedRest","GLOBAL",4)
+	Global("QI#ZakNeedRestDelayed","GLOBAL",1)
+THEN 
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END  
+
+
+/**************************************************************************************************
+			Introduction: Bring Zakrion to a tavern - Leaving
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakNeedRestDelayed","GLOBAL",2)
+	!GlobalTimerNotExpired("QI#ZakDelayedTimer2","GLOBAL") 
+THEN 
+RESPONSE #100
+	SetGlobal("QI#ZakNeedRestDelayed","GLOBAL",3)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakNeedRestDelayed","GLOBAL",3)
+THEN 
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
+/**************************************************************************************************
+			Fatigued until Tavern
+**************************************************************************************************/
+
+IF 
+	Global("QI#ZakNeedRest","GLOBAL",3)
+THEN
+RESPONSE #100
+	DestroyItem("QI#ZAKCU")
+	SetGlobal("QI#ZakNeedRest","GLOBAL",4)
+END 
+
+/**************************************************************************************************
+			Friendship Track
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	Global("QI#ZakNeedRest","GLOBAL",4)
+	Global("QI#ZakTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+	RealSetGlobalTimer("QI#ZakTimer","GLOBAL",3600)
+	SetGlobal("QI#ZakTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakTimer","GLOBAL")
+	Global("QI#ZakFriendshipActive","GLOBAL",0)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	OR(16)
+		Global("QI#ZakTalk","GLOBAL",1)
+		Global("QI#ZakTalk","GLOBAL",3)
+		Global("QI#ZakTalk","GLOBAL",5)
+		Global("QI#ZakTalk","GLOBAL",7)
+		Global("QI#ZakTalk","GLOBAL",9)
+		Global("QI#ZakTalk","GLOBAL",11)
+		Global("QI#ZakTalk","GLOBAL",13)
+		Global("QI#ZakTalk","GLOBAL",15)
+		Global("QI#ZakTalk","GLOBAL",17)
+		Global("QI#ZakTalk","GLOBAL",19)
+		Global("QI#ZakTalk","GLOBAL",21)
+		Global("QI#ZakTalk","GLOBAL",23)
+		Global("QI#ZakTalk","GLOBAL",25)
+		Global("QI#ZakTalk","GLOBAL",27)
+		Global("QI#ZakTalk","GLOBAL",29)
+		Global("QI#ZakTalk","GLOBAL",31)
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakTimer","GLOBAL")
+	Global("QI#ZakFriendshipActive","GLOBAL",0)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	OR(16)
+		Global("QI#ZakTalk","GLOBAL",2)
+		Global("QI#ZakTalk","GLOBAL",4)
+		Global("QI#ZakTalk","GLOBAL",6)
+		Global("QI#ZakTalk","GLOBAL",8)
+		Global("QI#ZakTalk","GLOBAL",10)
+		Global("QI#ZakTalk","GLOBAL",12)
+		Global("QI#ZakTalk","GLOBAL",14)
+		Global("QI#ZakTalk","GLOBAL",16)
+		Global("QI#ZakTalk","GLOBAL",18)
+		Global("QI#ZakTalk","GLOBAL",20)
+		Global("QI#ZakTalk","GLOBAL",22)
+		Global("QI#ZakTalk","GLOBAL",24)
+		Global("QI#ZakTalk","GLOBAL",26)
+		Global("QI#ZakTalk","GLOBAL",28)
+		Global("QI#ZakTalk","GLOBAL",30)
+		Global("QI#ZakTalk","GLOBAL",32)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
+/**************************************************************************************************
+			Semi-Romance Track
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	Global("QI#ZakSemiRomTalk","GLOBAL",0)
+	GlobalGT("QI#ZakTalk","GLOBAL",32)
+	!Global("QI#ZakSemiRomanceActive","GLOBAL",3)
+	Global("QI#ZakFriendshipActive","GLOBAL",0)
+	Gender(Player1,FEMALE)
+	OR(5)
+		Race(Player1,HUMAN)
+		Race(Player1,ELF)
+		Race(Player1,HALF_ELF)
+		Race(Player1,HALFLING)
+		Race(Player1,GNOME)
+THEN
+RESPONSE #100
+	RealSetGlobalTimer("QI#ZakSemiRomanceTimer","GLOBAL",3600)
+	SetGlobal("QI#ZakSemiRomTalk","GLOBAL",1)
+	SetGlobal("QI#ZakSemiRomanceActive","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakSemiRomanceTimer","GLOBAL")
+	Global("QI#ZakSemiRomanceActive","GLOBAL",1)
+	!Global("QI#ZakNoSexOnlyActive","GLOBAL",1)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	OR(4)
+		Global("QI#ZakSemiRomTalk","GLOBAL",1)
+		Global("QI#ZakSemiRomTalk","GLOBAL",3)
+		Global("QI#ZakSemiRomTalk","GLOBAL",5)
+		Global("QI#ZakSemiRomTalk","GLOBAL",7)
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakSemiRomTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakSemiRomanceTimer","GLOBAL")
+	Global("QI#ZakSemiRomanceActive","GLOBAL",1)
+	!Global("QI#ZakNoSexOnlyActive","GLOBAL",1)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	OR(4)
+		Global("QI#ZakSemiRomTalk","GLOBAL",2)
+		Global("QI#ZakSemiRomTalk","GLOBAL",4)
+		Global("QI#ZakSemiRomTalk","GLOBAL",6)
+		Global("QI#ZakSemiRomTalk","GLOBAL",8)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakSemiRomanceTimer","GLOBAL")
+	Global("QI#ZakSemiRomanceActive","GLOBAL",1)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	GlobalGT("Chapter","GLOBAL",6)
+	Global("QI#ZakSemiRomTalk","GLOBAL",9)
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakSemiRomTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakSemiRomanceTimer","GLOBAL")
+	Global("QI#ZakSemiRomanceActive","GLOBAL",1)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakSemiRomTalk","GLOBAL",10)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+/**************************************************************************************************
+			Only Physical Track
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	Global("QI#ZakNoSexOnlyActive","GLOBAL",0)
+	Global("QI#ZakNoFeelingsTalk","GLOBAL",0)
+	Global("QI#ZakSemiRomanceActive","GLOBAL",3)
+	Global("QI#ZakSemiRomTalk","GLOBAL",3)
+THEN
+RESPONSE #100
+	RealSetGlobalTimer("QI#ZakNoFeelingsTimer","GLOBAL",3600)
+	SetGlobal("QI#ZakNoFeelingsTalk","GLOBAL",1)
+	SetGlobal("QI#ZakNoSexOnlyActive","GLOBAL",1)
+END
+
+/**************************************************************************************************
+			Event 1: *Seeing a note* - I had a hard time figuring out my signature.
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakNotes","GLOBAL",0)
+	PartyHasItem("SCRLKAR")
+	OR(2)
+		PartyHasItem("SCRLNEI")
+		PartyHasItem("SCRLZHA")
+THEN 
+RESPONSE #100
+	SetGlobal("QI#ZakNotes", "GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakNotes", "GLOBAL",1)
+THEN 
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+/**************************************************************************************************
+			Event 2: *PC dreams* - I used to have bad dreams when my mother left my father and me.
+**************************************************************************************************/
+
+IF 
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakDreams","GLOBAL",0)
+	GlobalGT("Chapter","GLOBAL",3)
+THEN 
+RESPONSE #100
+	RealSetGlobalTimer("QI#ZakNightmaresTimer","GLOBAL",2400) 
+	SetGlobal("QI#ZakDreams","GLOBAL",1)
+END 
+
+IF 
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])	
+	RealGlobalTimerExpired("QI#ZakNightmaresTimer","GLOBAL")
+	Global("QI#ZakDreams","GLOBAL",1)
+THEN 
+RESPONSE #100
+	SetGlobal("QI#ZakDreams","GLOBAL",2)
+END
+
+IF 
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakDreams","GLOBAL",2)	
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/**************************************************************************************************
+			Event 3: *PC helps little girl find her dead cat* - Buttercup
+**************************************************************************************************/
+
+IF 
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakButtercup","GLOBAL",0)
+	Global("HelpDrienne","GLOBAL",1)
+THEN 
+RESPONSE #100
+	SetGlobal("QI#ZakButtercup","GLOBAL",1)
+END 
+
+IF 
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakButtercup","GLOBAL",1)
+THEN 
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/**************************************************************************************************
+			Event 4: *PC finds out their heritage* - And I thought being a pirate was bad
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	GlobalGT("Chapter","GLOBAL",6)
+	PartyHasItem("SCRL2J")
+	Global("QI#ZakBhaalspawnTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakBhaalspawnTalk","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakBhaalspawnTalk","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/**************************************************************************************************
+			Event 5: *Crashed ship* - Reminds me of my ship
+**************************************************************************************************/
+
+IF 
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakCrashedShip","GLOBAL",0)
+	//AreaCheck("%ShipwrecksCoast%")
+THEN 
+RESPONSE #100
+	SetGlobal("QI#ZakCrashedShip","GLOBAL",1)
+END 
+
+IF 
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakCrashedShip","GLOBAL",1)
+THEN 
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+/**************************************************************************************************
+			Event 6: *Tavern Drinks* - Where's that pint of ale?
+**************************************************************************************************/
+
+IF 
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakTavern","GLOBAL",0)
+	GlobalGT("Chapter","GLOBAL",3)
+	OR(21)
+		AreaCheck("%BaldursGateDocks_JopalinsTavern%")
+		AreaCheck("%Beregost_FeldepostsInn_L1%")
+		AreaCheck("%Beregost_JovialJuggler_L1%")
+		AreaCheck("%Beregost_RedSheaf_L1%")
+		AreaCheck("%Beregost_BurningWizard_L1%")
+		AreaCheck("%EBaldursGate_KeexieTavern_L1%")
+		AreaCheck("%EBaldursGate_ElfsongTavern_L1%")
+		AreaCheck("%EBaldursGate_Inn_L1%")
+		AreaCheck("%FriendlyArmInn_L1%")
+		AreaCheck("%Nashkel_Inn%")
+		AreaCheck("%NBaldursGate_ThreeOldKegs_L1%")
+		AreaCheck("%NEBaldursGate_BlushingMermaid_L1%")
+		AreaCheck("%NEBaldursGate_SplurgingSturgeon_L2%")
+		AreaCheck("%NEBaldursGate_SplurgingSturgeon_L1%")
+		AreaCheck("%NWBaldursGate_Helm&Cloak_L1%")
+		AreaCheck("%NWBaldursGate_Tavern_L1%")
+		AreaCheck("%SEBaldursGate_Inn_L1%")
+		AreaCheck("%SEBaldursGate_Blade&Stars_L1%")
+		AreaCheck("%SWBaldursGate_Tavern_L1%")
+		AreaCheck("%SWBaldursGate_YeOldeInn_L1%")
+		AreaCheck("%UlgothsBeard_Inn%")
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakTavern","GLOBAL",1)
+END 
+
+IF 
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakTavern","GLOBAL",1)
+THEN 
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/**************************************************************************************************
+			 Event 7: *Blushing Mermaid* - Have you ever seen a blushing mermaid?
+**************************************************************************************************/
+
+IF 
+	InParty(Myself)
+	See(Player1)
+	!StateCheck("Player1",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakBlushingMermaid","GLOBAL",0)
+	AreaCheck("%NEBaldursGate_BlushingMermaid_L1%")
+	GlobalGT("QI#ZakNoFeelingsTalk","GLOBAL",1)
+	!Global("QI#ZakNoSexOnlyActive","GLOBAL",1)
+	Global("QI#ZakSemiRomanceActive","GLOBAL",3)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakBlushingMermaid","GLOBAL",1)
+END 
+
+IF 
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakBlushingMermaid","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/**************************************************************************************************
+			 Event 8: *Getting a ship and crew* - We've amassed a lot of money.
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck("Player1",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	PartyGoldGT(50000)
+	GlobalGT("Chapter","GLOBAL",4)
+	Global("QI#ZakShipMoney","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakShipMoney","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck("Player1",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakShipMoney","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/**************************************************************************************************
+			 Event 9: *Tavern full of sailors* - These men are sailors no doubt.
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck("Player1",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakSailorTavern","GLOBAL",0)
+	AreaCheck("%BaldursGateDocks_JopalinsTavern%")
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakSailorTavern","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck("Player1",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	AreaCheck("%BaldursGateDocks_JopalinsTavern%")
+	Global("QI#ZakSailorTavern","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 

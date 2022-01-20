@@ -1,0 +1,21 @@
+// Crossplatform var stuff blatantly stolen from cmorgan/gavin/bg1npc!
+	ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
+	  /*Tell the player it is using BG:EE stuff */
+	  PRINT ~BG:EE install detected~
+	  INCLUDE ~%MOD_FOLDER%\Library\liam_bgee_vars.tpa~
+	  INCLUDE ~%MOD_FOLDER%\Library\functions.tpa~
+	END ELSE BEGIN
+	  ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
+		/* Tell the player it is using Tutu stuff */
+		PRINT ~Tutu install detected.~
+		INCLUDE ~%MOD_FOLDER%\Library\g3_tutu_cpmvars.tpa~
+	  END ELSE BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~AR7200.are~ THEN BEGIN
+			/* Tell the player it is using BGT stuff */
+			PRINT ~BGT install detected.~
+			INCLUDE ~%MOD_FOLDER%\Library\g3_bgt_cpmvars.tpa~
+			/* Tell the player it is not Tutu or BGT */
+		END ELSE BEGIN FAIL ~Please install on BG:EE, Tutu or BGT.~
+    END
+  END
+END

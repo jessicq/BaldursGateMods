@@ -1,11 +1,16 @@
 # BaldursGateMods
 Mods written using the Infinity Engine for BioWare's critically acclaimed RPG.
 
-Self-started projects that involves creating new NPCs, quests, dialogues, items, audio, music, etc. to integrate into the
+Projects that involves creating new NPCs, quests, dialogues, items, audio, music, etc. to integrate into the
 Baldur's Gate Trilogy: Enhanced Edition (enhanced by Beamdog).
 
+*Please note: only self-started mods will be held in this repository.
+
 Currently Released and Supported Mod(s) Include:
-1. The Beaurin Legacy - Baldur's Gate II: Shadows of Amn & Throne of Bhaal Enhanced Edition (July 2017 - Jan. 2019)
+1. The Beaurin Legacy - Baldur's Gate II: Shadows of Amn & Throne of Bhaal Enhanced Edition (released in 2018) - DONE
+2. Yoshimo's Remorse (in collaboration with Lava) - Baldur's Gate II: Shadows of Amn & Throne of Bhaal Enhanced Edition (released in 2019) - DONE
+3. Zakrion - Baldur's Gate I Enhanced Edition (released in 2020)
+4. Zakrion - Baldur's Gate II: Shadows of Amn & Throne of Bhaal Enhanced Edition - IN PROGRESS
 
 Topls/Resources Used: 
 1. Audacity by Sourceforge
@@ -18,5 +23,6 @@ Topls/Resources Used:
 8. Gimp by Spencer Kimball and Peter Mattis
 9. Shadowkeeper by Mudmaster
 10. Zamzar by Zamzar
+11. Notepad++
 
 *Huge thank you to the staff at Gibberlings3 for hosting The Beaurin Legacy!! (https://www.gibberlings3.net/mods/npcs/beaurin/)*
