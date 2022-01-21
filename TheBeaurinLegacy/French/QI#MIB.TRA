@@ -35,7 +35,7 @@
 
 // Nalia
 @27 = ~Tu dois te considérer comme une si bonne personne, n'est-ce pas ?~ [QI#Mi150]
-@28 = ~Et bien, je ne dirais pas ça.  Je fais juste ce que je peux pour aider les pauvres et ceux dans le besoin.~
+@28 = ~Et bien, je ne dirais pas ça. Je fais juste ce que je peux pour aider les pauvres et ceux dans le besoin.~
 @29 = ~Tu donnes l'aumône.~
 @30 = ~Quoi ? Non, je -~
 @31 = ~Comprends bien ça, Nalia - plus tu leur donnes, plus ils te prendront. Tu gaspilles ton temps et ton argent.~
@@ -426,7 +426,7 @@
 
 // Edwin 9
 @336 = ~Oh Edwina, je me demandais quand tu serais prête. Je commençais à croire que tu avais des difficultés à enfiler ta belle jupe rouge.~ [QI#Mi091]
-@337 = ~C'est une ROBE fabriquée exclusivement pour les magiciens les plus exceptionnels ! (Si seulement je pouvais me débarrasser de cet misérable corps et de ce maudit nom !)~
+@337 = ~C'est une ROBE fabriquée exclusivement pour les magiciens les plus exceptionnels ! (Si seulement je pouvais me débarrasser de ce misérable corps et de ce maudit nom !)~
 @338 = ~Oh ? Une robe tu dis ? Est-elle en soie ?~
 @339 = ~Je crois bien que oui, elle convient parfaitement à tes formes plantureuses en tout cas.~
 @340 = ~(Hm, elle n'a pas tord. J'ai plutôt belle allure dans cette robe... non ! Elle tente à nouveau de me remplir le crâne avec ces choses !)~
@@ -508,7 +508,7 @@
 
 // Edwin 16
 @404 = ~Notre relation actuelle me convient parfaitement.~
-@405 = ~C'est de moi qui tu parles ?~
+@405 = ~C'est de moi que tu parles ?~
 @406 = ~Oui, ta cervelle comprends de plus en plus vite. (Je vois que notre association a décuplé son intellect.)~
 @407 = ~Ou peut-être est-ce l'inverse. Y as-tu pensé ?~
 @408 = ~Quoi qu'il en soit, moi aussi, je suis à l'aise avec notre "relation".~
@@ -555,7 +555,7 @@
 @443 = ~Je constate qu'il est agréable de te parler. J'apprécie sincèrement nos discussions, particulièrement celles la nuit.~ [QI#Mi101]
 @444 = ~Économise tes paroles.~ [QI#Mi102]
 @445 = ~Tu n'as pas à t'inquiéter de mes sentiments pour toi. Je suis au delà de ça.~ [QI#Mi103]
-@446 = ~Je fais mon possible, comme tu le sais bien, pour toujours améliorer ma condition. Si j'estime que je n'ai plus besoin de toi ou que tu ne m'es plus utile, je te le ferai savoir.~ [QI#Mi104]
+@446 = ~Je fais mon possible, comme tu le sais bien, pour toujours améliorer ma condition. Si j'estime que je n'ai plus besoin de toi ou que tu ne m'es plus utile, tu seras au courant.~ [QI#Mi104]
 @447 = ~C'est... bon à savoir.~
 
 // Edwin other
@@ -568,7 +568,7 @@
 @454 = ~Tu as quelque chose à me dire, Magicien Rouge ?~
 @455 = ~Tes joues sont encore plus écarlates que ta robe, Eddie. J'hésite à le demander, mais puis-je faire quoi que ce soit pour apaiser tes rougeurs ?~
 @456 = ~Ça n'a pas de sens de se moquer d'une femme si puissante.~
-@457 = ~Je ne suis pas une femme ! Je suis la force et l'intelligence incarnées - je suis un homme ! (Ton esprit naïf n'aurait jamais pu comprendre ce qu'il vient de se produire, je suis plus proche du pouvoir que personne ne l'a jamais imaginé. Ce n'est qu'un très léger problème temporaire, j'espère...)~
+@457 = ~Je ne suis pas une femme ! Je suis la force et l'intelligence incarnées - je suis un homme ! (Ton esprit naïf n'aurait jamais pu comprendre ce qu'il vient de se produire, je suis plus proche du pouvoir que personne ne l'a jamais imaginé. Ce n'est qu'un très léger contretemps, j'espère...)~
 @458 = ~Puisque tu le dis. Même si je pense toutefois que les femmes sont réputées pour leur tolérance ainsi que leur extraordinaire pédagogie.~
 @459 = ~Pourquoi ne pas faire bon usage de tes talents et m'enseigner à être moins "simple d'esprit" ? Profitons de cette opportunité.~
 @460 = ~Ne te rappelles-tu donc de rien de ce que je t'ai enseigné ?!~
