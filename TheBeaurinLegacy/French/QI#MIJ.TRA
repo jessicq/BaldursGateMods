@@ -1,74 +1,143 @@
+// Kveroslava - voyante
 @0 = ~Be careful for what you are searching for. There are other alternatives for your solution.~
+
+// Celvan le dingue
 @1 = ~"There once was an elf with dark desires;
 Little did she know, she'd face much ire.
 But soon she'll see, where her desires lead
 Is the bane of her existence possibly greed?
 Follow the path that most will not walk."~
 @2 = ~I will walk wherever I please, you know nothing.~
-@3 = ~IntÃ©ressant. You have tapped into your hidden powers, but you must find a way to control it.~
-@4 = ~Nous aurions dÃ» casser son verre quand nous avions l'opportunitÃ© !~
-@5 = ~Boo! Get him out of here, this is atrocious! Ne me regarde pas comme Ã§a, someone was going to start doing it. Might as well be me.~
-@6 = ~Greetings, my lady. Je suis Madame Nin, et je suis lÃ  pour m'assurer que vous passiez une soirÃ©e des plus plaisantes. Would you be interested in such a proposal?~
-@7 = ~Sounds tempting enough. Peut-Ãªtre une autre fois ?~
+
+// Transformation écorcheur
+@3 = ~Intéressant. You have tapped into your hidden powers, but you must find a way to control it.~
+
+// Aboleth
+@4 = ~Nous aurions dû casser son verre quand nous avions l'opportunité !~
+
+// Biff la doublure
+@5 = ~Boo! Get him out of here, this is atrocious! Ne me regarde pas comme ça, someone was going to start doing it. Might as well be me.~
+
+// Madame Nin
+@6 = ~Greetings, my lady. Je suis Madame Nin, et je suis là pour m'assurer que vous passiez une soirée des plus plaisantes. Would you be interested in such a proposal?~
+@7 = ~Sounds tempting enough. Peut-être une autre fois ?~
+
+// Trahison Yoshimo
 @8 = ~I expected something drastic would happen, but this? I would not have thought of it.~
+
+// Lonk
 @9 = ~And the ring leader is dead. We must end this quickly before additional, unwanted events come to pass.~
+
+// Arbre de vie - pas pote
 @10 = ~Minyae, a well-versed mage and dexterous thief. She looks at you with a smirk and starts to stroke her weapon. You sometimes find yourself wondering why she is still with you and what her attentions are.~
 @11 = ~Minyae, ce n'est pas ton combat. I do not expect you to go through with this.~
 @12 = ~Your services have been very useful, Minyae. You can leave now if you wish.~
-@13 = ~Es-tu prÃªtes pour ce qui nous attend ? J'ai besoin de toi Ã  ton meilleur.~ 
-@14 = ~If I left now, I would be missing one of the greatest events in history, and I would not know of your fate. Je ne partirai pas, et suis prÃªte, quel que soit les dangers qui nous attendent.~
-@15 = ~Minyae, once a stranger and now a trusted friend. Elle te regarde avec un sourire narquois et commence Ã  carresser son arme.~
-@16 = ~Tu ne m'as pas laissÃ© tombÃ© quand j'en avais besoin, je ne quitterai donc pas tes cÃ´tÃ©s tant qu'Irenicus n'aura pas payÃ© pour ses actes.~
+@13 = ~Es-tu prêtes pour ce qui nous attend ? J'ai besoin de toi à ton meilleur.~ 
+@14 = ~If I left now, I would be missing one of the greatest events in history, and I would not know of your fate. Je ne partirai pas, et suis prête, quel que soit les dangers qui nous attendent.~
+
+// Arbre de vie - pote
+@15 = ~Minyae, once a stranger and now a trusted friend. Elle te regarde avec un sourire narquois et commence à carresser son arme.~
+@16 = ~Tu ne m'as pas laissé tombé quand j'en avais besoin, je ne quitterai donc pas tes côtés tant qu'Irenicus n'aura pas payé pour ses actes.~
 @17 = ~You are one of my trusted friends, and I will see this to the end.~
+
+// Arbre de vie - Irenicus
 @18 = ~Oh how the mighty crumble, but what effect does it have on you? Has your soul returned?~
-@19 = ~What is this? Have I died and entered Hell itself? Ce n'est pas comme Ã§a que c'est sensÃ© se terminer !~ [QI#Mi131]
-@20 = ~J'aimerais tellement te regarder mourir Ã  petit feu, mais malheureusement, je trouve ta prÃ©sence rÃ©pugante. PrÃ©pare toi Ã  mourrir rapidement, Irenicus!~ [QI#Mi130]
+
+// Enfer
+@19 = ~What is this? Have I died and entered Hell itself? Ce n'est pas comme ça que c'est sensé se terminer !~ [QI#Mi131]
+
+// Irenicus - la fin
+@20 = ~J'aimerais tellement te regarder mourir à petit feu, mais malheureusement, je trouve ta présence répugante. Prépare toi à mourrir rapidement, Irenicus!~ [QI#Mi130]
+
+// Bodhi
 @21 = ~Who does she think she is? This better be our last task...~
 @22 = ~A warm greeting in the dark of night, how warm can it really be?~
+
+// Hendak
 @23 = ~Yes, free the good man <CHARNAME>. Start a riot. Do it.~
 @24 = ~Take over the inn? What a delightful idea.~
+
+// Mendiants
 @25 = ~Bah! Why do you waste your time with these impetuous fools!~
 @26 = ~Ne gaspille pas ton argent.~
-@27 = ~Ce cafard pathÃ©tique ment <CHARNAME>.~
+@27 = ~Ce cafard pathétique ment <CHARNAME>.~
+
+// Firkraag
 @28 = ~I think it may be best to leave this mighty beast be, <CHARNAME>.~
+
+// Quête Nalia
 @29 = ~I do not appreciate her secretiveness, mais je suppose que nous avons besoin de l'argent.~
 @30 = ~Des trolls ? Ha ! What a pathetic group of humans. Fire and acid is all it takes.~
 @31 = ~(sigh) Useless. Complete and utter garbage.~
 @32 = ~A troll with magic? I cannot wait to obliterate it with magic of my own!~
+
+// Quête Aerie
 @33 = ~She might have been more useful as an ogre...~
-@34 = ~Sacred ground, my ass. J'ai toujours dÃ©testÃ© les religions...~
-@35 = ~Hmm.... Cet Edwin a l'air plutÃ´t interessant.~
+
+// Quête Œil aveugle
+@34 = ~Sacred ground, my ass. J'ai toujours détesté les religions...~
+
+// Voleurs de l'ombre
+@35 = ~Hmm.... Cet Edwin a l'air plutôt interessant.~
 @36 = ~Ha ! Ce sont des VOLEURS. 2videmment qu'il y a un traitre. C'est ridicule.~
 @37 = ~Ca me parait un bon plan.~
 @38 = ~Sloppy he says? Who cares when your life is on the line?~
 @39 = ~Leader of the thieves <CHARNAME> ? What a turn of events.~
-@40 = ~Les vampires ne font jamais plaisir Ã  voir.~
+@40 = ~Les vampires ne font jamais plaisir à voir.~
 @41 = ~Hmph. This better not happen again.~
 @42 = ~More tasks?! Nous ne sommes pas tes larbins !~
 @43 = ~Imagine that... this could have all been avoided if they had helped us earlier.~
 @44 = ~Hmph. Doing dirty work yet again.~
 @45 = ~Voici donc le fameux Edwin Odesseiron...~
-@46 = ~Bien sÃ»r. Je suis tout ce que tu espÃ©rais, et plus encore (especially for an arrogant, bratty, yet charmingly delicious, wench like yourself).~
+@46 = ~Bien sûr. Je suis tout ce que tu espérais, et plus encore (especially for an arrogant, bratty, yet charmingly delicious, wench like yourself).~
 @47 = ~Actually, you fall short of my expectations, but I know how to deal with disappointment.~
 @48 = ~Yes, well. Back to what I was saying!~
-@49 = ~Je pense qu'il n'est pas sage de rejeter un mage Ã  ce point formidable <CHARNAME>, mais si tu insistes.~
+@49 = ~Je pense qu'il n'est pas sage de rejeter un mage à ce point formidable <CHARNAME>, mais si tu insistes.~
+
+// Tanneur
 @50 = ~So we have caught the criminal, but will his work go to waste I wonder?~
+
+// Prison planaire
 @51 = ~You can't blame someone for wanting more, especially when they thoroughly deserve it.~
+
+// Paladins déchus
 @52 = ~Or maybe their views have simply just changed into a more realistic one.~
+
+// Tolgerias
 @53 = ~Sounds easy enough.~
+
+// Neeber
 @54 = ~Killing genies... I'm about to blast this idiot into smithereens.~
+
+// Logan
 @55 = ~He reeks of weakness. He cannot even protect his own people and figure out his dilemma on his own.~
 @56 = ~More menial tasks. Jolly joy.~
+
+// Faldorn
 @57 = ~Why don't we leave them be? They seem like a powerful force to be reckoned with.~
+
+// Spellhold
 @58 = ~He's insane. We should just leave him be.~
 @59 = ~This seems suspicious. Be care <CHARNAME>.~
+
+// Sahuagin
 @60 = ~(sigh) Why do we always get sucked in to such things?~
+
+// Adalon
 @61 = ~A silver dragon. What a beautiful creature... I hear their blood is a very unique magical component.~
 @62 = ~Provoking the beast with the death of her eggs, excellent! We can harvest the blood of this magnificent beast and examine its magical properties. How exciting this will be but maddening during the killing process!~
 @63 = ~Deception at its finest.~
+
+// Elhan
 @64 = ~These elves... pathetic.~
+
+// Rencontre Viconia
 @65 = ~These people are hypocrites. Free the drow so that she may take vengeance against these asinine people.~
+
+// Edwina
 @66 = ~This woman speaks the truth! If we had met this Edwin, we would all be enlightened by his brilliance!~
+
+// Quête tanneur
 @67 = ~How is this a problem? This killer is ridding these streets of vagrants. We should be overjoyed at the thought of this!~
 @68 = ~You sound like an adoring fan of this murderer. If you weren't in the company with these people, I would have had your hands in cuffs.~
 @69 = ~I would have liked to see you try, but unfortunately, I think I may have stepped out of line seeing as how everyone is looking at me. Continue, fool.~
@@ -76,14 +145,26 @@ Follow the path that most will not walk."~
 @71 = ~No, you are not about to scam us out of our money when you have done NOTHING to deserve it! Give us what we want OR YOU WILL DIE!~
 @72 = ~Y-yes, Rampah give it to the nice lady. N-No need to harm p-poor Rampah.~
 @73 = ~Now tell us what we need to know about this object of interest!~ 
+
+// Duels dans la taverne drow
 @74 = ~Are you serious? ...I guess I do have the best chance out of all of us to win. Watch as our foe perishes.~
+
+// Saemon
 @75 = ~You think simple night scares will spur us? Think again, Saemon.~
 @76 = ~Oh wonderful, we are going to help this treacherous worm aren't we? Why can't we just kill him already and be done with it?~
+
+// Sir Sarles
 @77 = ~I need to resist the urge to kill this man...~
 @78 = ~He dares to insult us when he insults us with his ridiculous demands. He treasures his hands does he not? Allow me to incinerate his hands...~
 @79 = ~No? (sigh) Don't give me that look, it was only a friendly suggestion.~
+
+// Prostituée
 @80 = ~Really <CHARNAME>? You have to stoop so low of a level to appease your insatiable appetite? Pathetic.~
+
+// Collines d'Umar - maire
 @81 = ~No reward? This town is even more pathetic than I had originally thought it was.~
+
+// Liche du Crâne Tordu
 @82 = ~Give me the tome I seek, lich, and we will leave without punishing you!~
 @83 = ~Long have I been alive, and have met no one who would make such demands from me. Who are you to make such demands from me? I will not give you an answer until I receive mine.~
 @84 = ~Coward. My name is Minyae Beaurin, and I demand you hand over the magnum opus!~
@@ -92,11 +173,17 @@ Follow the path that most will not walk."~
 @87 = ~The tome is gone, taken by another elf. Ah, I see the fire in your eyes. Soon it will be distinguished.~
 @88 = ~You lie. LIES!~
 @89 = ~What would I gain lying to your dead corpse? Your tome is gone, and you will be next.~
+
+// Kangaxx
 @90 = ~Not if we kill you again!~
 @91 = ~Foolish girl. I tire of your -~
 @92 = ~What is that smell?  What is your kind doing here?! THIS IS AN INSULT!~
+
+// Pas de bouquin
 @93 = ~There is no tome in sight. Another must have taken the tome...~
 @94 = ~I must reflect on this, I must plan my next course of action. Lead on, <CHARNAME>.~
+
+// TODO
 @95 = ~I feel I owe you an explanation... or at least an apology.~ [QI#Mi039]
 @96 = ~You're damn right, you owe me a huge apology. You nearly got us all killed.~
 @97 = ~It's totally fine, I'm just disappointed that there was nothing there.~
@@ -114,6 +201,8 @@ Follow the path that most will not walk."~
 @109 = ~Fair enough.~
 @110 = ~You helped me for no cost and now you are letting me go? An excellent bargain indeed!~
 @111 = ~I don't need you to tell me twice. You won't see me again.~
+
+// TODO
 @112 = ~I can feel your eyes on me <CHARNAME>.  Ask your questions politely, and I may or may not entertain you.~ [QI#Mi040]
 @113 = ~Where are you from?~ 
 @114 = ~Why are you here?~
@@ -181,6 +270,8 @@ Follow the path that most will not walk."~
 @176 = ~Where are you from?~ 
 @177 = ~Why are you here?~
 @178 = ~What are you looking for?~ 
+
+// TODO
 @179 = ~Why are you here <CHARNAME>?~ [QI#Mi044]
 @180 = ~I am on a conquest for power and glory.~
 @181 = ~I was captured by a mage by the name of Irenicus.  I want to find out why he captured me.~
@@ -229,7 +320,7 @@ Follow the path that most will not walk."~
 @224 = ~And you would be correct in your assumption.~
 @225 = ~I am glad to see that we both feel the same way on certain subjects. My regards for you have slightly risen, but do not think much of it. It was very low to begin with.~
 @226 = ~But nonetheless, I am pleased to have enlightened you on the truth. Just remember that some people's lives are worth more than others. This is has always been the way of life. The more power and wealth one has, the more influence and valuable their lives are. But a lowly commoner or a beggar? They will never be able to influence the course of history.~
-@227 = ~Hm... that is indeed very interesting. But what could he have possibly want with you I wonder? You seem ordinary enoughÃ¢â‚¬Â¦other than the obvious fact that is.~
+@227 = ~Hm... that is indeed very interesting. But what could he have possibly want with you I wonder? You seem ordinary enoughâ€¦other than the obvious fact that is.~
 @228 = ~Excuse me.  I'm still here.~
 @229 = ~That's exactly what I was thinking.~
 @230 = ~What does it matter what he wants with me, it is what he has done to me. He must pay for his actions.~
@@ -257,6 +348,8 @@ Follow the path that most will not walk."~
 @252 = ~Ha! I agree full-heartedly.~
 @253 = ~Information is always useful.~
 @254 = ~Hmph. I suppose that is understandable.~
+
+// TODO
 @255 = ~You were raised in Candlekeep, were you not?~ [QI#Mi050]
 @256 = ~Yes, I was raised in Candlekeep. What is it to you?~ 
 @257 = ~I don't have time to talk about idle things Minyae.~
@@ -269,6 +362,8 @@ Follow the path that most will not walk."~
 @264 = ~Because I am the one who has started this conversation. If you have any questions, ask me.~
 @265 = ~You aren't as entertaining as I thought you were.~
 @266 = ~A pity.~
+
+// TODO
 @267 = ~Do you remember our last discussion?~ [QI#Mi052]
 @268 = ~Of course I do.~
 @269 = ~No, I don't.~
@@ -301,6 +396,8 @@ Follow the path that most will not walk."~
 @296 = ~And this is the part where I leave you with a cliffhanger.~ [QI#Mi053]
 @297 = ~And before you start pouting or complaining, I have already taken up much precious time. We need to keep going.~ [QI#Mi054]
 @298 = ~You can thank me later.~
+
+// TODO
 @299 = ~I am ready to continue my story, if you would but take the time to listen.~ [QI#Mi055]
 @300 = ~Yes, I am quite eager to know how your story turns out.~ 
 @301 = ~If you make it quick, I will hear you out.~
@@ -345,6 +442,8 @@ Follow the path that most will not walk."~
 @340 = ~Can you truly condemn someone for thinking they are doing what they think is the best for their homeland? Can you condemn me for trying to live, for trying to survive?~ [QI#Mi061]
 @341 = ~I have said enough already, and you are most likely drowning with thoughts of your own. Think carefully on what I have said.~
 @342 = ~And before you decide to be a pain in my rear, demons are a true source of evil.~
+
+// TODO
 @343 = ~I believe I have given you enough time to think about our talks, have I not?~ [QI#Mi062]
 @344 = ~No matter, I don't care for your opinions. I wanted you to see that everything in this world is not as simple as seeing black and white, and I think I have gotten my point across.~
 @345 = ~Yes, what we discussed previous was certainly intriguing. It was very thought-provoking, and I appreciate such deep thought.~
@@ -383,6 +482,8 @@ Follow the path that most will not walk."~
 @378 = ~And what was on it?~
 @379 = ~That's not something I am willing to share with you at this time.~ [QI#Mi064]
 @380 = ~Perhaps another day.~ [QI#Mi065]
+
+// TODO
 @381 = ~<CHARNAME>, how did you get to where you are now? As in, what inspired you to become what you are?~ [QI#Mi066]
 @382 = ~The death and the loss of friends and family have lead me to this path.~
 @383 = ~My search for answers to the unknowin has always inspired me to keep going.~
@@ -418,6 +519,8 @@ Follow the path that most will not walk."~
 @413 = ~And finally, it started to glow once more, and this time, I was able to read it. And this is where I learned life's greatest lesson.~
 @414 = ~Knowledge is power.~ [QI#Mi069]
 @415 = ~Death seems to have taken a liking to you. But keeping yourself alive is definitely a reason to carve your own path.~
+
+// TODO
 @416 = ~What would you do if you had an eternity to live?~ [QI#Mi070]
 @417 = ~Rule the world.~ 
 @418 = ~Have a family and enjoy life with them.~
@@ -439,6 +542,8 @@ Follow the path that most will not walk."~
 @434 = ~You are right to question me, I have given you no reason to trust me.~
 @435 = ~You are right, I have given you no reason to trust me.~
 @436 = ~But know that if you put your faith in me, you will not regret it.~
+
+// TODO
 @437 = ~Thanks for nothing.~
 @438 = ~I'm sorry.~
 @439 = ~I obviously have everything under control, but as a companion who proved herself helpful to your quest, I did not expect you to turn your back on me.~
@@ -456,6 +561,8 @@ Follow the path that most will not walk."~
 @451 = ~And here I am now, I am in a party of a band of bumbling baboons and a dead elven maiden by my feet. I have no sister, and I have no allies here.~
 @452 = ~I knew you had it all under control.~ 
 @453 = ~You can't blame me for not wanting to be in family business, especially how violently it escalated.~
+
+// TODO
 @454 = ~The first time you helped me, I offered you my services. The second time you help me? I can offer nothing but my gratitude.~ [QI#Mi074]
 @455 = ~You gratitude means nothing to me.~ 
 @456 = ~And that's all I need. You're welcome.~ 
@@ -470,11 +577,11 @@ Follow the path that most will not walk."~
 @465 = ~Understandable, but I know there is more for me to tell.~
 @466 = ~Yes, that is good to know. But I know there is more for me to tell.~
 @467 = ~I know that look in your eyes, you know that I yet hide more information from you, and you wonder why I have not told you about my sister, Elaryn.~
-@468 = ~En vÃ©ritÃ©, je pensais qu'elle Ã©tait morte. I did not want to bring up the past and relive any depressing moments. I had blocked her out of my mind all these years, oubliant petit Ã  petit que j'avais mÃªme une soeur. J'en suis venu au point oÃ¹ j'ai *presque* pensÃ© Ãªtre la derniÃ¨re Beaurin vivante.~
-@469 = ~Si j'avais su qu'elle Ã©tait en vie, or had I even known that she was the elf that took the tome in the Crooked Crane... Je ne sais pas ce que j'aurais fait.~
+@468 = ~En vérité, je pensais qu'elle était morte. I did not want to bring up the past and relive any depressing moments. I had blocked her out of my mind all these years, oubliant petit à petit que j'avais même une soeur. J'en suis venu au point où j'ai *presque* pensé être la dernière Beaurin vivante.~
+@469 = ~Si j'avais su qu'elle était en vie, or had I even known that she was the elf that took the tome in the Crooked Crane... Je ne sais pas ce que j'aurais fait.~
 @470 = ~But why did you not tell me?~ 
 @471 = ~Tout le monde a ces secrets, mais j'attendais plus de ta part.~ 
-@472 = ~Mais nous... *tu* as tuÃ© ta soeur.~ 
+@472 = ~Mais nous... *tu* as tué ta soeur.~ 
 @473 = ~Are you daft? Did I not just say why I did not tell you sooner?~
 @474 = ~Yes, yes, Elaryn used to say to that to me all the time.~
 @475 = ~And? If I did not kill her, she would have killed me. What was I supposed to do? Lay down like an obedient dog and die willingly?~
@@ -515,6 +622,8 @@ Follow the path that most will not walk."~
 @510 = ~I will tell you more of myself and what awaits us after our dealings with Irenicus. But right now, your soul is at stake, and this is our top priority. All you need to know is that I will need your help again soon. I know there is a second tome, but I am not quite sure where it is.~
 @511 = ~But to think, I would be friends with the greatest Bhaalspawn of our time...~ 
 @512 = ~Une liche ?!~ 
+
+// Ruines du temple - carte
 @513 = ~Cet endroit... Cet endroit me rappelle des souvenirs.~
 @514 = ~Are you okay? You look a little pale.~
 @515 = ~Connais-tu cet endroit ? Have you been here before?~ 
@@ -528,12 +637,14 @@ Follow the path that most will not walk."~
 @523 = ~Neither do I.~
 @524 = ~Don't compare me with that weakling. There is a fine line that distinguishes us.~
 @525 = ~I don't care to stand around idly and watch the grass grow, so let's get a move on.~
+
+// Ruines du temple - entrée
 @526 = ~We must be careful of traps here. We don't know what to expect, and I would rather not end up in a battle like before.~
 @527 = ~What do you mean "like before"?~ 
 @528 = ~Don't worry, I have this under control.~ 
 @529 = ~Obviously, do you have anymore obvious suggestions or advice?~ 
 @530 = ~Please just shut up, I have been delving into treacherous places like this since I could remember.~ 
-@531 = ~J'ai dit Ã§a ? Well, I clearly did not mean anything by it.~
+@531 = ~J'ai dit ça ? Well, I clearly did not mean anything by it.~
 @532 = ~Just a simple slip of the tongue.~
 @533 = ~N'esquive pas la question.~ 
 @534 = ~Si tu le dis.~ 
@@ -545,8 +656,10 @@ Follow the path that most will not walk."~
 @540 = ~You would do well to listen to those who are obviously more superior in intellect than yourself. Be grateful.~ 
 @541 = ~But nonetheless, I will remain silent but vigilant, if only for myself.~
 @542 = ~Ha!~
-@543 = ~Tu oublies que je suis une elfe, imbÃ©cile.~
+@543 = ~Tu oublies que je suis une elfe, imbécile.~
 @544 = ~But nonetheless, I will remain silent but vigilant, if only for myself.~
+
+// Ruines du temple - fin
 @545 = ~I am almost impressed to have witnessed your capabilities in that old, musty ruin. Especially since you were unaware of the possible magical traps and enchantments that may have been laid there by the previous inhabitants.~
 @546 = ~Of course I am, have a little faith in me.~ 
 @547 = ~I appreciate the sentiment, thank you.~ 
@@ -570,19 +683,21 @@ Follow the path that most will not walk."~
 @565 = ~I am sorry to hear that.~
 @566 = ~Ca leur apprendra.~
 @567 = ~Je n'ai pas besoin de tes excuses.~
-@568 = ~Le passÃ© est le passÃ©.~
+@568 = ~Le passé est le passé.~
 @569 = ~There is no point in lingering on such things. I am over it, and you should be too.~
 @570 = ~Indeed.~
 @571 = ~I am glad you could see their stupidity. Now, let's go.~
 @572 = ~A coward? I am far from it.~
 @573 = ~I was the only one in that group that had the brains to do whatever was necessary to survive. I was the only one that led the group as far as they did, and I was the only one worthy enough to live.~
 @574 = ~However, that is something I will never forget, and you would do well to learn from my mistakes.~
+
+// Initié par le joueur
 @575 = ~What do you want?~ [QI#Mi008]
 @576 = ~So what's in the book that you are so eager to have?~ 
 @577 = ~So what can you tell me about the tome now that I have risked my life for you?~
 @578 = ~Now that we are friends, will you tell me about the tome now?~
 @579 = ~So you and Edwin..?~
-@580 = ~As-tu un conseil Ã  me donner ?~ 
+@580 = ~As-tu un conseil à me donner ?~ 
 @581 = ~(Hug her.)~
 @582 = ~(Pat her on the back.)~
 @583 = ~Care to drink with me?~
@@ -590,9 +705,9 @@ Follow the path that most will not walk."~
 @585 = ~You have an interesting complexion.~ 
 @586 = ~You stated that if I had any questions, I should ask you. So here I am.~
 @587 = ~What did the those people, your sister, want from you?~ 
-@588 = ~Nous avons risquÃ© nos vies pour toi. Nous avons tuÃ© ta soeur. J'exige des rÃ©ponses !~
+@588 = ~Nous avons risqué nos vies pour toi. Nous avons tué ta soeur. J'exige des réponses !~
 @589 = ~Qu'est-ce que tu penses de moi, Minyae?~ 
-@590 = ~Je trouve Ã©trange que tu n'ai aucune cicatrice visible.~ 
+@590 = ~Je trouve étrange que tu n'ai aucune cicatrice visible.~ 
 @591 = ~Peux-tu me parler de tes companions? Ceux avec qui tu voyageais avant ?~
 @592 = ~Je n'ai besoin de rien.~
 @593 = ~Soit, mais je ne te donnerai aucun nom. No matter how persistent you may be.~
@@ -654,7 +769,7 @@ Follow the path that most will not walk."~
 @649 = ~You're helping me out of the goodness of your ginormous heart.~
 @650 = ~It's a very ancient tome. It will take me a while to translate it when I find it, I presume.~
 @651 = ~Will you let me know when you've translated it?~
-@652 = ~Peut-Ãªtre.~
+@652 = ~Peut-être.~
 @653 = ~I suppose it wouldn't hurt to tell you a little bit more.~
 @654 = ~From what I believe, the spell is a long and arduous process. It is beyond your knowledge.~
 @655 = ~What's the spell?~
@@ -666,7 +781,7 @@ Follow the path that most will not walk."~
 @661 = ~Tu veux en parler ?~
 @662 = ~No, we are simply enjoying each other's company. He is free to do whatever he wishes, as am I.~
 @663 = ~Nothing more and nothing less.~
-@664 = ~Ne t'inquiÃ¨tes pas. Je ne suis pas faible et lui non plus.~
+@664 = ~Ne t'inquiètes pas. Je ne suis pas faible et lui non plus.~
 @665 = ~There is really nothing to talk about it.~
 @666 = ~Edwin and I enjoy each other's company. This is something very temporary for me until I find something or someone more amusing.~
 @667 = ~Take this to heart: understand something for what it truly is.~
@@ -679,7 +794,7 @@ Follow the path that most will not walk."~
 @674 = ~The people you hire are only looking out for themselves, and they will rat you out as soon as they think they are in trouble.~
 @675 = ~The longer you live, the more you experience.~
 @676 = ~And the more you experience, the more you will learn.~
-@677 = ~Es qu'est-ce que c'est sensÃ© vouloir dire ?~
+@677 = ~Es qu'est-ce que c'est sensé vouloir dire ?~
 @678 = ~Tu n'es pas aussi cruelle que je le pensais.~
 @679 = ~You are more terrible than I had originally thought.~
 @680 = ~Rien. Oublie que j'ai dis quoi que ce soit~
@@ -698,26 +813,28 @@ Follow the path that most will not walk."~
 @693 = ~Sounds to me like that is your problem.~
 @694 = ~I'd suggest you find some way to deal with it, because I am going nowhere.~
 @695 = ~I thought it was clear what they were after. Ils me voulaient morte et c'est tout ce que tu as besoin de savoir pour le moment.~
-@696 = ~Your demands means nothing to me. I have the tome and that's all I needed, just know that my quest is not over. J'aurai besoin de toi Ã  nouveau un jour.~
+@696 = ~Your demands means nothing to me. I have the tome and that's all I needed, just know that my quest is not over. J'aurai besoin de toi à nouveau un jour.~
 @697 = ~Does it look like I have the time to dawdle?~
 @698 = ~It has been a rather rough day. Perhaps one will do.~
 @699 = ~No.~
+
+// ?
 @700 = ~So here you are indeed. But there is no question in sight nor demand for an answer.~ [QI#Mi078]
 @701 = ~Tell me of your younger years.~
 @702 = ~Actually, I don't have any questions or concerns for you at the moment.~
 @703 =~What is there to tell? I don't remember anything when I was a baby. I had a mother and father just like any other child.~ [QI#Mi079]
 @704 = ~I mean, how did you get to where you are now?~
-@705 = ~ArrÃªte de me faire perdre mon temps et viens-en aux faits !~
-@706 = ~TrÃ¨s bien, je ferais ce que tu demandes pour cette fois. But watch your tongue lest I cast a spell to silence you.~
+@705 = ~Arrête de me faire perdre mon temps et viens-en aux faits !~
+@706 = ~Très bien, je ferais ce que tu demandes pour cette fois. But watch your tongue lest I cast a spell to silence you.~
 @707 = ~Pourquoi ne suis-je pas surprise.~
-@708 = ~J'Ã©tais un orphelin. J'ai fais ce que je devais pour survivre.~
+@708 = ~J'étais un orphelin. J'ai fais ce que je devais pour survivre.~
 @709 =  ~If you really must know, I stole whatever I needed or wanted as a child. And then when I figured out that I was gifted with magic, I used it for luxuries. And as I grew into womanhood, I realized that men desired me - and I used this to my advantage.~ [QI#Mi080]
 @710 = ~I also came to terms that there are things that I should let go, for example the past. There are things that should have been changed, that could have been changed, and would have been changed, but such is life.~
 @711 = ~I know you might think of Gorion time and time again, it is normal to do so, but whether it be out of anger, hatred, or regret, it does not matter. It should not matter. At least, that is what I tell myself.~
 @712 = ~And more importantly, I like living, so there's no need to get into harm's way if I can avoid it.~ 
 @713 = ~That's it?~
 @714 = ~On dirait que tu n'as pas eu une vie facile.~
-@715 = ~Quelle vie pitoyable tu as menÃ©. Pas Ã©tonnant que tu sois une pitoyable personne.~ 
+@715 = ~Quelle vie pitoyable tu as mené. Pas étonnant que tu sois une pitoyable personne.~ 
 @716 = ~What did you expect me to say? Did you expect me to whine and cry about something I cannot change?~
 @717 = ~I have no secret past if that is what is on your mind.~
 @718 = ~No secrets? That is such a bore!~
@@ -742,18 +859,24 @@ Follow the path that most will not walk."~
 @737 = ~Those were the simple things in life that I enjoyed.~ [QI#Mi081]
 @738 = ~Like?~
 @739 = ~(Poke her.)~
+
+// Liche du Crâne Tordu déjà morte
 @740 = ~It's dead? How...?~
 @741 = ~I knew it! You did know what was hidden here!~
 @742 = ~Yeah, we already killed the lich that was in here.~
 @743 = ~Take a look around the room. Perhaps there is something there that I did not see before.~
 @744 = ~Oui, oui. Bon travail.~
-@745 = ~Maintenant... OÃ¹ est mon livre ?~
-@746 = ~Je ne vois rien. Rien que de la poussiÃ¨re. Quelqu'un d'autre a certainement pris le livre.~
+@745 = ~Maintenant... Où est mon livre ?~
+@746 = ~Je ne vois rien. Rien que de la poussière. Quelqu'un d'autre a certainement pris le livre.~
 @747 = ~Hmph. That is unexpected, but it saves me from an unnecessary fight.~
 @748 = ~Yes, of course.~
 @749 = ~...There is no tome in sight. Another must have taken the tome.~
+
+// TODO
 @750 = ~<CHARNAME>, I know there are more important tasks at hand. However, I sense that something is drawing closer to us as we speak.~
 @751 = ~Let us make our way to the entrance of the Copper Coronet when we get the opportunity.~
+
+// Salvanas
 @752 = ~A dark-haired maiden with the duskiest and stormiest of eyes and skin as luscious as the break of dawn. What would it take to caress the flawless skin of a goddess?~  
 @753 = ~What flattering words, keep going.~
 @754 = ~Oh the curl of your tender lips and the sway of your hips. My goddess, please, let me trace the curves of your body with my own lips!~
@@ -762,8 +885,16 @@ Follow the path that most will not walk."~
 @757 = ~Of course, my elegant, beautiful lady. The sound of your luscious voice sends shivers down my spine. Oh, how I ache for you to be mine.~
 @758 = ~Hm, okay. I have had my fill of flattery. Off with you now.~
 @759 = ~Alas, I will have to worship my goddess from afar!~
+
+// ?
 @760 = ~With the money we spent, it had better be that way.~
+
+// ?
 @761 = ~And what would you know about what I seek? Absolutely nothing. Get out of my sight. What a waste of time and gold.~
+
+/* Conflits avec le mod Edwin Romance */
+
+// Conflit 1
 @762 = ~I didn't think you were interested in our Red Wizard here, unless you are intrigued about his intellect and wish to obtain some of the knowledge he holds in his brain.~
 @763 = ~That would be completely understandable, however, I cannot help but think it could be something more..?~
 @764 = ~This is none of your business, Minyae.~
@@ -788,22 +919,24 @@ Follow the path that most will not walk."~
 @783 = ~He is rather useful isn't he? Although, I find his constant mutterings to himself to be rather annoying. Maybe next time you speak to him, you can suggest that he be less annoying, yes?~
 @784 = ~No interest in him?~
 @785 = ~That is good to hear. He would only distract you from your goals. Speaking of which, we have spoken enough. Let's continue on our way.~
+
+// Conflit 2
 @786 = ~<CHARNAME>. j'ai besoin de te parler. Tout de suite.~
-@787 = ~Est-ce que Ã§a peut attendre ?~
-@788 = ~Bien sÃ»r, de quoi as-tu besoin?~
+@787 = ~Est-ce que ça peut attendre ?~
+@788 = ~Bien sûr, de quoi as-tu besoin?~
 @789 = ~I don't like your tone. Maybe if you were speak nicely to me, I would bend my ear.~
-@790 = ~Je n'ai pas le temps pour Ã§a maintenant.~
+@790 = ~Je n'ai pas le temps pour ça maintenant.~
 @791 = ~Non.~
 @792 = ~Cela ne peut attendre. Something must be said about it.~
 @793 = ~Does it look like I care what *you* want right now?~
 @794 = ~Toi et Edwin.~
-@795 = ~Quoi Ã  propos de nous ?~
-@796 = ~Tu penses vraiment que  t'associer avec un Magicien Rouge de Thay est bon pour ton apparence ? Un enfant de Bhaal et les tristements cÃ©lÃ©bres Magiciens Rouges.~
-@797 = ~Je me fous de ce que les autres ont Ã  dire Ã  notre propos. I care about him.~
+@795 = ~Quoi à propos de nous ?~
+@796 = ~Tu penses vraiment que  t'associer avec un Magicien Rouge de Thay est bon pour ton apparence ? Un enfant de Bhaal et les tristements célébres Magiciens Rouges.~
+@797 = ~Je me fous de ce que les autres ont à dire à notre propos. I care about him.~
 @798 = ~Que veux tu dire ?~
 @799 = ~Tu agis comme si ce que tu disais m'importais.~ 
 @800 = ~Je pense qu'il y a plus que ce que tu veux bien laisser paraitre...~
-@801 = ~...Tu tiens Ã  lui ?~
+@801 = ~...Tu tiens à lui ?~
 @802 = ~This is preposterous! What would you know about caring for someone? You are a child of Bhaal - your life reeks with death!~
 @803 = ~My point is that you two shouldn't be together.~
 @804 = ~You should care about what I have to say. I know more about him than you could possibly ever imagine. Do yourself a favor and leave him.~
@@ -812,7 +945,7 @@ Follow the path that most will not walk."~
 @807 = ~He is a brilliant man who has no equal.~
 @808 = ~I do not want him to be... hindered by any distractions. I only wish to see him flourish and grow to his true potential.~
 @809 = ~Is that so?~ 
-@810 = ~Tu l'apprÃ©cies. Admet le.~
+@810 = ~Tu l'apprécies. Admet le.~
 @811 = ~I had no idea you felt that way about him. Edwin means a lot to me, but I can see he means more to you. I am sorry for interfering, I will end my relationship with him now.~
 @812 = ~Minyae, I am sorry to hear that, but I care about Edwin and I don't want to let him go.~
 @813 = ~That's so sweet. Too bad I don't really care. He's mine and if you don't back off him now, then you're going to have to leave.~
@@ -820,9 +953,11 @@ Follow the path that most will not walk."~
 @815 = ~Merci, <CHARNAME>.~
 @816 = ~This means more to me than you could know.~
 @817 = ~I see that nothing I say will persuade you otherwise.~
-@818 = ~TrÃ¨s bien. Tu ne m'entendras plus en parler.~
+@818 = ~Très bien. Tu ne m'entendras plus en parler.~
 @819 = ~However, I ask you to treat him with utmost respect and if you dare --~
 @820 = ~...Just know that if you damage his intellect, I will end you.~
+
+// Arbre de vie - dupliqué
 @821 = ~Si je partais maintenant, I would be missing one of the greatest events in history, and I would not know of your fate. I will not leave, and I stand ready for whatever danger lies ahead.~
 
 @88888 = ~A Hidden Book
