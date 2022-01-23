@@ -10,77 +10,77 @@ Follow the path that most will not walk."~
 @2 = ~I will walk wherever I please, you know nothing.~
 
 // Transformation écorcheur
-@3 = ~Intéressant. You have tapped into your hidden powers, but you must find a way to control it.~
+@3 = ~Intéressant. Tu viens de puiser dans des pouvoirs enfouis en toi, mais il te faut trouver un moyen de les contrôler.~
 
 // Aboleth
-@4 = ~Nous aurions dû casser son verre quand nous avions l'opportunité !~
+@4 = ~Nous aurions dû casser son aquarium quand nous en avions l'opportunité !~
 
 // Biff la doublure
-@5 = ~Boo! Get him out of here, this is atrocious! Ne me regarde pas comme ça, someone was going to start doing it. Might as well be me.~
+@5 = ~Boo ! Fais-le sortir, c'est horrible ! Ne me regarde pas comme ça, quelqu'un devait bien s'en charger. Autant que ce soit moi.~
 
 // Madame Nin
 @6 = ~Greetings, my lady. Je suis Madame Nin, et je suis là pour m'assurer que vous passiez une soirée des plus plaisantes. Would you be interested in such a proposal?~
-@7 = ~Sounds tempting enough. Peut-être une autre fois ?~
+@7 = ~C'est assez tentant. Peut-être une autre fois ?~
 
 // Trahison Yoshimo
 @8 = ~I expected something drastic would happen, but this? I would not have thought of it.~
 
 // Lonk
-@9 = ~And the ring leader is dead. We must end this quickly before additional, unwanted events come to pass.~
+@9 = ~Et le chef de la bande est maintenant mort. Nous devons vite en finir avant que d'autres imprévus ne se produisent.~
 
 // Arbre de vie - pas pote
-@10 = ~Minyae, a well-versed mage and dexterous thief. She looks at you with a smirk and starts to stroke her weapon. You sometimes find yourself wondering why she is still with you and what her attentions are.~
-@11 = ~Minyae, ce n'est pas ton combat. I do not expect you to go through with this.~
-@12 = ~Your services have been very useful, Minyae. You can leave now if you wish.~
-@13 = ~Es-tu prêtes pour ce qui nous attend ? J'ai besoin de toi à ton meilleur.~ 
-@14 = ~If I left now, I would be missing one of the greatest events in history, and I would not know of your fate. Je ne partirai pas, et suis prête, quel que soit les dangers qui nous attendent.~
+@10 = ~Minyae, une magicienne compétente et une voleuse habile. Elle vous regarde avec un sourire narquois et commence à caresser son arme. Vous vous demandez parfois pourquoi elle est toujours avec vous et quelles sont ses intentions.~
+@11 = ~Minyae, ce n'est pas ton combat. Je ne m'attends pas à ce que tu ailles au bout.~
+@12 = ~Tes services m'ont été très utiles, Minyae. Tu peux nous quitter maintenant si tu le souhaites.~
+@13 = ~Es-tu prête pour ce qui nous attend ? J'ai besoin de toi au meilleur de ta forme.~ 
+@14 = ~Si je te quittais maintenant, I would be missing one of the greatest events in history, and I would not know of your fate. Je ne partirai pas, et je suis prête, quels que soient les dangers qui nous attendent.~
 
 // Arbre de vie - pote
-@15 = ~Minyae, once a stranger and now a trusted friend. Elle te regarde avec un sourire narquois et commence à carresser son arme.~
-@16 = ~Tu ne m'as pas laissé tombé quand j'en avais besoin, je ne quitterai donc pas tes côtés tant qu'Irenicus n'aura pas payé pour ses actes.~
+@15 = ~Minyae, autrefois une étrangère et maintenant une amie fidèle. Elle vous regarde avec un sourire narquois et commence à caresser son arme.~
+@16 = ~Tu ne m'as pas laissée tomber quand j'en avais besoin, je resterai donc à tes côtés tant qu'Irenicus n'aura pas payé pour ses actes.~
 @17 = ~You are one of my trusted friends, and I will see this to the end.~
 
 // Arbre de vie - Irenicus
-@18 = ~Oh how the mighty crumble, but what effect does it have on you? Has your soul returned?~
+@18 = ~Oh how the mighty crumble, mais cela a t-il eu un quelconque effet sur toi ? As-tu retrouvé ton âme ?~
 
 // Enfer
-@19 = ~What is this? Have I died and entered Hell itself? Ce n'est pas comme ça que c'est sensé se terminer !~ [QI#Mi131]
+@19 = ~What is this? Have I died and entered Hell itself? Ce n'est pas comme ça que c'était sensé se terminer !~ [QI#Mi131]
 
 // Irenicus - la fin
-@20 = ~J'aimerais tellement te regarder mourir à petit feu, mais malheureusement, je trouve ta présence répugante. Prépare toi à mourrir rapidement, Irenicus!~ [QI#Mi130]
+@20 = ~J'aimerais tellement te regarder agoniser à petit feu, mais malheureusement, je trouve ta présence répugnante. Dépêche-toi de mourir, Irenicus!~ [QI#Mi130]
 
 // Bodhi
-@21 = ~Who does she think she is? This better be our last task...~
-@22 = ~A warm greeting in the dark of night, how warm can it really be?~
+@21 = ~Mais pour qui elle se prend ? Il vaudrait mieux que ça soit notre dernière mission...~
+@22 = ~Un accueil chaleureux au milieu de la nuit, mais est-il vraiment si chaleureux que ça ?~
 
 // Hendak
-@23 = ~Yes, free the good man <CHARNAME>. Start a riot. Do it.~
-@24 = ~Take over the inn? What a delightful idea.~
+@23 = ~Oui, libère donc cette brave personne <CHARNAME>. Déclenche une émeute. Fais-le.~
+@24 = ~Prendre le contrôle de la taverne ? Quelle idée splendide.~
 
 // Mendiants
-@25 = ~Bah! Why do you waste your time with these impetuous fools!~
+@25 = ~Bah ! Arrête donc de perdre ton temps avec ces imbéciles !~
 @26 = ~Ne gaspille pas ton argent.~
 @27 = ~Ce cafard pathétique ment <CHARNAME>.~
 
 // Firkraag
-@28 = ~I think it may be best to leave this mighty beast be, <CHARNAME>.~
+@28 = ~Je pense que ça serait une bonne idée de laisser cette puissante créature tranquille, <CHARNAME>.~
 
 // Quête Nalia
-@29 = ~I do not appreciate her secretiveness, mais je suppose que nous avons besoin de l'argent.~
-@30 = ~Des trolls ? Ha ! What a pathetic group of humans. Fire and acid is all it takes.~
-@31 = ~(sigh) Useless. Complete and utter garbage.~
-@32 = ~A troll with magic? I cannot wait to obliterate it with magic of my own!~
+@29 = ~Elle nous cache des choses et je n'aime pas beaucoup ça, mais je suppose que nous avons besoin de l'argent.~
+@30 = ~Des trolls ? Ah ! Quelle bande d'humains pathétiques. Alors qu'il suffit d'utiliser du feu et de l'acide.~
+@31 = ~(soupir) Useless. Complete and utter garbage.~
+@32 = ~Un troll qui utilise la magie ? J'ai hâte de l’anéantir avec mes propres sorts !~
 
 // Quête Aerie
-@33 = ~She might have been more useful as an ogre...~
+@33 = ~Elle aurait probablement été plus utile si c'était restée un ogre...~
 
 // Quête Œil aveugle
-@34 = ~Sacred ground, my ass. J'ai toujours détesté les religions...~
+@34 = ~Une terre consacrée, mon œil. J'ai toujours détesté les religions...~
 
 // Voleurs de l'ombre
-@35 = ~Hmm.... Cet Edwin a l'air plutôt interessant.~
-@36 = ~Ha ! Ce sont des VOLEURS. 2videmment qu'il y a un traitre. C'est ridicule.~
-@37 = ~Ca me parait un bon plan.~
+@35 = ~Hmm.... Cet Edwin a l'air plutôt intéressant.~
+@36 = ~Ah ! Ce sont des VOLEURS. Évidemment qu'il y a un traître. C'est ridicule.~
+@37 = ~Ça me parait un bon plan.~
 @38 = ~Sloppy he says? Who cares when your life is on the line?~
 @39 = ~Leader of the thieves <CHARNAME> ? What a turn of events.~
 @40 = ~Les vampires ne font jamais plaisir à voir.~
@@ -129,43 +129,43 @@ Follow the path that most will not walk."~
 @63 = ~Deception at its finest.~
 
 // Elhan
-@64 = ~These elves... pathetic.~
+@64 = ~Ces elfes... pathétique.~
 
 // Rencontre Viconia
-@65 = ~These people are hypocrites. Free the drow so that she may take vengeance against these asinine people.~
+@65 = ~Ces gens ne sont que des hypocrites. Libère l'elfe noire afin qu'elle puisse se venger de cette bande d'idiots.~
 
 // Edwina
 @66 = ~This woman speaks the truth! If we had met this Edwin, we would all be enlightened by his brilliance!~
 
 // Quête tanneur
-@67 = ~How is this a problem? This killer is ridding these streets of vagrants. We should be overjoyed at the thought of this!~
+@67 = ~En quoi est-ce un problème ? This killer is ridding these streets of vagrants. We should be overjoyed at the thought of this!~
 @68 = ~You sound like an adoring fan of this murderer. If you weren't in the company with these people, I would have had your hands in cuffs.~
 @69 = ~I would have liked to see you try, but unfortunately, I think I may have stepped out of line seeing as how everyone is looking at me. Continue, fool.~
-@70 = ~You are wasting your money on this ilk? Ridiculous!~
-@71 = ~No, you are not about to scam us out of our money when you have done NOTHING to deserve it! Give us what we want OR YOU WILL DIE!~
-@72 = ~Y-yes, Rampah give it to the nice lady. N-No need to harm p-poor Rampah.~
+@70 = ~You are wasting your money on this ilk? Ridicule !~
+@71 = ~Non, tu ne vas pas nous extorquer notre argent quand tu n'as RIEN FAIT pour le mériter ! Donne-nous ce que nous cherchons OU TU MOURRAS !~
+@72 = ~O-oui, Rampah va  le donner à la gentille dame. P-pas besoin de faire du mal au p-pauvre Rampah.~
 @73 = ~Now tell us what we need to know about this object of interest!~ 
 
 // Duels dans la taverne drow
-@74 = ~Are you serious? ...I guess I do have the best chance out of all of us to win. Watch as our foe perishes.~
+@74 = ~Sérieusement ? ...I guess I do have the best chance out of all of us to win. Regarde nos ennemis périr sous mes coups.~
 
 // Saemon
 @75 = ~You think simple night scares will spur us? Think again, Saemon.~
 @76 = ~Oh wonderful, we are going to help this treacherous worm aren't we? Why can't we just kill him already and be done with it?~
 
 // Sir Sarles
-@77 = ~I need to resist the urge to kill this man...~
-@78 = ~He dares to insult us when he insults us with his ridiculous demands. He treasures his hands does he not? Allow me to incinerate his hands...~
-@79 = ~No? (sigh) Don't give me that look, it was only a friendly suggestion.~
+@77 = ~Je dois vraiment me retenir pour ne pas tuer cet homme...~
+@78 = ~He dares to insult us when he insults us with his ridiculous demands. Il chérit ses mains c'est ça ? Laisse-moi les lui incinérer...~
+@79 = ~Non ? (soupir) Ne me regarde pas comme ça, je voulais juste aider.~
 
 // Prostituée
-@80 = ~Really <CHARNAME>? You have to stoop so low of a level to appease your insatiable appetite? Pathetic.~
+@80 = ~Vraiment <CHARNAME> ? Tu vas vraiment t'abaisser à ce point appease your insatiable appetite? Pathétique.~
 
 // Collines d'Umar - maire
-@81 = ~No reward? This town is even more pathetic than I had originally thought it was.~
+@81 = ~Aucune récompense ? Ce village est encore plus pathétique que je ne le pensais.~
 
 // Liche du Crâne Tordu
-@82 = ~Give me the tome I seek, lich, and we will leave without punishing you!~
+@82 = ~Donne-moi le grimoire que je cherche, liche, et nous partirons sans te faire du mal !~
 @83 = ~Long have I been alive, and have met no one who would make such demands from me. Who are you to make such demands from me? I will not give you an answer until I receive mine.~
 @84 = ~Coward. My name is Minyae Beaurin, and I demand you hand over the magnum opus!~
 @85 = ~Beaurin... yes, I have heard that name before. I spit on you and your family. It will bring me great joy to vanquish your blood line.~
@@ -180,8 +180,8 @@ Follow the path that most will not walk."~
 @92 = ~What is that smell?  What is your kind doing here?! THIS IS AN INSULT!~
 
 // Pas de bouquin
-@93 = ~There is no tome in sight. Another must have taken the tome...~
-@94 = ~I must reflect on this, I must plan my next course of action. Lead on, <CHARNAME>.~
+@93 = ~Le grimoire n'est pas ici. Quelqu'un d'autre a dû s'en emparer...~
+@94 = ~Je dois y réfléchir, et revoir mon plan d'action. En avant, <CHARNAME>.~
 
 // TODO
 @95 = ~I feel I owe you an explanation... or at least an apology.~ [QI#Mi039]
