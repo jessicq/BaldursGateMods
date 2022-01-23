@@ -150,8 +150,8 @@ Requires:
  3 Strength
 
 Weight: 1~
-@102 = ~Installing crossmod for The Beaurin Legacy for BGII~
-@103 = ~The Beaurin Legacy mod needs to be installed.~
+@102 = ~Installation du crossmod pour The Beaurin Legacy pour BGII~
+@103 = ~Le mod The Beaurin Legacy est requis pour l'installation.~
 @104 = ~~
 @105 = ~~
 @106 = ~Willias~
@@ -163,12 +163,12 @@ Weight: 1~
 @112 = ~Skeleton Warrior~
 
 @1000 = ~The Beaurin Legacy pour BG2:SoA & ToB & BGII:EE~
-@1010 = ~This component require the The Beaurin Legacy main component.~
+@1010 = ~Ce composant requiert le composant principal de The Beaurin Legacy.~
 
-@2000 = ~Changer la classe de Minyae en Enchanteur (plutot que multi Enchanteur/Voleur)~
+@2000 = ~Changer la classe de Minyae en Enchanteur (plutot que multiclasses Enchanteur/Voleur)~
 
-@3000 = ~Minyae's Portrait~
-@3010 = ~Change Minyae's portrait to alternative by TamikaProud at DeviantArt~
-@3020 = ~Change Minyae's Portrait to alternative by ErisForan at DeviantArt~
-@3030 = ~Change Minyae's Portrait to alternative by Aerwindale at DeviantArt~
+@3000 = ~Portrait de Minyae~
+@3010 = ~Alternative disponible pour le portrait de Minyae par TamikaProud de DeviantArt~
+@3020 = ~Alternative disponible pour le portrait de Minyae par ErisForan de DeviantArt~
+@3030 = ~Alternative disponible pour le portrait de Minyae par Aerwindale de DeviantArt~
 
