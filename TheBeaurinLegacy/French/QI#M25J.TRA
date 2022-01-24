@@ -15,10 +15,10 @@
 @7 = ~Parle-moi de Minyae.~ 
 @8 = ~Une voleuse habile et une magicienne ingénieuse, des rumeurs circulent affirmant que la jeune elfe aux cheveux bruns est à la recherche d'un savoir ancestral.~
 @9 = ~Quiconque me surveille de si près est clairement capable de se renseigner correctement, mais cela peut rester des rumeurs pour le moment. Je préférerais éviter les ennuis si possible, et ces ennuis là sont certainement évitables.~ 
-@10 = ~On dit que l'Enfant de Bhaal et la jeune elfe ont uni leurs forces et sont une puissance sur laquelle il faudra compter.~
+@10 = ~On dit que l'Enfant de Bhaal et la jeune elfe ont uni leurs forces et sont une puissance redoutable.~
 @11 = ~On dit aussi que la jeune elfe aux cheveux bruns a trouvé une protection inattendue dans les bras d'un certain Magicien Rouge de Thay. Personne ne connaît la véritable nature de leur relation, mais je vous serais infiniment reconnaissant de m'accorder un moment en privé à ce propos. Et si nous nous revoyions demain pour en discuter plus en détails ?~
 @12 = ~Il n'y a rien entre Edwin et moi, fourre-toi ça dans le crâne et répète-le bien à qui veut l'entendre. Au moins, la partie à propos de <CHARNAME> et moi n'est pas mensongère.~
-@13 = ~On pouvait compter sur ma puissance bien avant <CHARNAME>, mais <PRO_HESHE> a fait de moi une femme meilleure, plus forte.~
+@13 = ~J'étais déjà redoutable bien avant <CHARNAME>, mais <PRO_HESHE> a fait de moi une femme meilleure, plus forte.~
 @14 = ~On dit que la jeune elfe aux cheveux bruns a trouvé une protection inattendue dans les bras d'un certain Magicien Rouge de Thay. Personne ne connaît la véritable nature de leur relation, mais je vous serais infiniment reconnaissant de m'accorder un moment en privé à ce propos. Et si nous nous revoyions demain pour en discuter plus en détails ?~
 @15 = ~Il n'y a rien entre Edwin et moi, fourre-toi ça dans le crâne et répète-le bien à qui veut l'entendre.~
 
@@ -75,7 +75,7 @@
 @63 = ~Ce n'est probablement pas le meilleur moment pour évoquer le sujet, mais je me sens dans l'obligation de le faire avant d'oublier.~ [QI#Mi109]
 @64 = ~Je n'ai pas toujours été honnête avec toi jusqu'à présent, et j'ai dit un jour que la confiance était requise dans un groupe, tout particulièrement un tel que le nôtre.~ [QI#Mi110]
 @65 = ~J'en ai donc conclu que si tu avais des questions à propos de...mon passé, je ferai mon possible pour y répondre. Au moins, je te dirai ce que j'estime nécessaire.~ [QI#Mi111]
-@66 = ~On pouvait compter sur ma puissance bien avant <CHARNAME>, mais <PRO_HESHE> a fait de moi une femme meilleure, plus forte.~
+@66 = ~J'étais déjà redoutable bien avant <CHARNAME>, mais <PRO_HESHE> a fait de moi une femme meilleure, plus forte.~
 @67 = ~Nous y voilà à nouveau, sur un chemin pavé de mort et de destruction. Mais il y a maintenant plus à faire et de plus grand enjeux, n'est-ce pas ?~ [QI#Mi112] 
 @68 = ~Exactement.~
 @69 = ~Oui, et je ne sais pas quand ça s'arrêtera.~  
