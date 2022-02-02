@@ -843,75 +843,75 @@ Elle suit un chemin que peu emprunte."~
 @699 = ~Non.~
 
 // Initié par le jouer, enfance
-@700 = ~Effectivement te voilà. But there is no question in sight nor demand for an answer.~ [QI#Mi078]
-@701 = ~Tell me of your younger years.~
-@702 = ~Actually, I don't have any questions or concerns for you at the moment.~
-@703 =~What is there to tell? I don't remember anything when I was a baby. I had a mother and father just like any other child.~ [QI#Mi079]
-@704 = ~I mean, how did you get to where you are now?~
+@700 = ~Effectivement te voilà. Mais je ne vais pas attendre une éternité que tu demandes ni que tu formules tes exigences alors dépêche-toi.~ [QI#Mi078]
+@701 = ~Parle moi de ta jeunesse.~
+@702 = ~Finalement, je n'ai pas de questions ni de préoccupations te concernant pour le moment.~
+@703 = ~Qu'y a-t-il à en dire ? Je ne me rappelle rien de quand j'étais bébé. J'avais un père et une mère comme tous les autres enfants.~ [QI#Mi079]
+@704 = ~Je veux dire, comment en es-tu arrivée où tu es aujourd'hui ?~
 @705 = ~Arrête de me faire perdre mon temps et viens-en aux faits !~
-@706 = ~Très bien, je ferais ce que tu demandes pour cette fois. But watch your tongue lest I cast a spell to silence you.~
+@706 = ~Très bien, je ferai ce que tu demandes pour cette fois. Mais surveille tes paroles si tu ne veux pas qu'un sort te réduise au silence.~
 @707 = ~Pourquoi ne suis-je pas surprise.~
-@708 = ~J'étais un orphelin. J'ai fais ce que je devais pour survivre.~
-@709 = ~If you really must know, I stole whatever I needed or wanted as a child. And then when I figured out that I was gifted with magic, I used it for luxuries. And as I grew into womanhood, I realized that men desired me - and I used this to my advantage.~ [QI#Mi080]
-@710 = ~I also came to terms that there are things that I should let go, for example the past. There are things that should have been changed, that could have been changed, and would have been changed, but such is life.~
-@711 = ~I know you might think of Gorion time and time again, it is normal to do so, but whether it be out of anger, hatred, or regret, it does not matter. It should not matter. At least, that is what I tell myself.~
-@712 = ~And more importantly, I like living, so there's no need to get into harm's way if I can avoid it.~ 
-@713 = ~That's it?~
+@708 = ~J'étais une orpheline. J'ai fait ce que je devais pour survivre.~
+@709 = ~Si tu veux vraiment savoir, étant enfant, je volais ce dont j'avais besoin ou ce que je convoitais. Et quand j'ai compris que j'étais douée de magie, je l'ai utilisée pour des envies plus superflues. Adulte, je me suis rendu compte que les hommes me désiraient - et je m'en suis servi à mon avantage.~ [QI#Mi080]
+@710 = ~J'ai aussi accepté que je ne devais pas m'accrocher, au passé par exemple. Il y a des choses qui auraient dû être changées, certaines qui auraient pu, d'autres mêmes qui auraient changées, mais c'est la vie.~
+@711 = ~Peut-être que tu penses à Gorion de temps en temps, et c'est normal, mais que ce soit de la colère, de la haine, ou des regrets, ça n'a pas d'importance. Ça ne devrait pas en avoir. En tout cas, c'est ce que je me dis.~
+@712 = ~Mais surtout, j'aime vivre, j'évite donc autant que possible de me mettre en danger.~ 
+@713 = ~C'est tout ?~
 @714 = ~On dirait que tu n'as pas eu une vie facile.~
-@715 = ~Quelle vie pitoyable tu as mené. Pas étonnant que tu sois une pitoyable personne.~ 
-@716 = ~What did you expect me to say? Did you expect me to whine and cry about something I cannot change?~
-@717 = ~I have no secret past if that is what is on your mind.~
-@718 = ~No secrets? That is such a bore!~
-@719 = ~I don't know what I was expecting.~
-@720 = ~I wasn't expecting you to say anything.~
-@721 = ~Hmph. Secrets are unnecessary. They will turn on you if you are not carefully wording everything you say.~
-@722 = ~C'est bien ce que je pensais. It's a wonder how you can even think sometimes, let alone lead a party.~
-@723 = ~How interesting. But that could be your stupidity speaking.~
-@724 = ~Anyway, we should get back to the task at hand. We have much to do, and your constant questions are starting to annoy me.~
-@725 = ~Ha! It may have been, but I reveled in it.~
-@726 = ~Not knowing how to get your next meal and trying to figure out how to trick the next person... those were some of the best moments.~
-@727 = ~The simple things in life?~
-@728 = ~Sounds like a wonderful way to live.~ 
-@729 = ~Sounds like a horrible way to live.~
-@730 = ~You must have led a very different life than me.~
-@731 = ~It was a spectacular way of life!~
-@732 = ~Then you know nothing of life.~
-@733 = ~It was good to share some of my background with you, but I am starting to wonder if you even have the stomach to lead this party.~
-@734 = ~But nonetheless, it was good to share some of my background with you. Il est important que tu saches avec qui tu voyages.~
-@735 = ~Pitiful you say? I am far from pitiful.~
-@736 = ~I reveled in the days that I needed to worry about how to get my next meal and trying to figure out how to trick the next person... those were some of the best moments.~
-@737 = ~Those were the simple things in life that I enjoyed.~ [QI#Mi081]
-@738 = ~Like?~
+@715 = ~Quelle triste vie tu as menée. Pas étonnant que tu sois devenue triste toi même.~ 
+@716 = ~Que voulais-tu que je te dise ? Tu t'attendais à ce que je gémisse ou que je pleure, alors que c'est quelque chose sur lequel je ne peux plus revenir ?~
+@717 = ~Je n'ai rien à cacher si c'est ce que tu avais en tête.~
+@718 = ~Rien ? Quel ennui !~
+@719 = ~Je ne sais pas trop à quoi je m'attendais.~
+@720 = ~Je m'attendais à ce que tu ne dises rien du tout.~
+@721 = ~Hmph. Les secrets sont inutiles. Ils se retourneront contre toi si tu ne fais pas très attention à tout ce que tu dis.~
+@722 = ~C'est bien ce que je pensais. Je me demande parfois comment tu arrives à mettre un pied devant l'autre, et je ne parle même pas de mener ce groupe.~
+@723 = ~Intéressant. Mais c'est probablement ta stupidité qui parle.~
+@724 = ~Bref, nous devrions nous remettre au travail. Nous avons tant à faire, et tes questions incessantes commencent à m'agacer.~
+@725 = ~Ah ! Peut-être bien, mais je m'y épanouissais.~
+@726 = ~Ne pas savoir de quoi serait fait mon prochain repas ou quel serait mon prochain subterfuge... C'est des souvenirs que je chéris.~
+@727 = ~"Ces petits moments simples" ?~
+@728 = ~Ça devait être merveilleux.~ 
+@729 = ~Ça avait l'air affreux.~
+@730 = ~Ta vie était probablement très différente de la mienne.~
+@731 = ~C'était un mode de vie incroyable !~
+@732 = ~Alors tu n'y connais rien à la vie.~
+@733 = ~Il est bon que je te partage quelques informations à propos de mon passé, mais je commence à me demander si tu as vraiment le courage nécessaire pour mener ce groupe.~
+@734 = ~Malgré tout, il est bon que je te partage quelques informations à propos de mon passé. Il est important que tu saches avec qui tu voyages.~
+@735 = ~Triste tu dis ? Très loin de là.~
+@736 = ~Je me délectais de ces jours où je ne savais pas de quoi serait fait mon prochain repas ou quel serait mon prochain subterfuge... C'est des souvenirs que je chéris.~
+@737 = ~J'appréciais ces petits moments simples de la vie.~ [QI#Mi081]
+@738 = ~Quoi par exemple ?~
 @739 = ~(Lui donner un petit coup avec le doigt.)~
 
 // Liche du Crâne Tordu déjà morte
-@740 = ~It's dead? How...?~
-@741 = ~I knew it! You did know what was hidden here!~
-@742 = ~Yeah, we already killed the lich that was in here.~
-@743 = ~Take a look around the room. Perhaps there is something there that I did not see before.~
+@740 = ~Elle est déjà morte ? Mais comment...?~
+@741 = ~Je le savais ! Tu étais au courant de ce qui se cachait ici !~
+@742 = ~Ouais, nous avons déjà tué la liche qui se trouvait ici.~
+@743 = ~Jette un œil à la pièce. Il y a peut-être quelque chose que j'ai raté la première fois.~
 @744 = ~Oui, oui. Bon travail.~
-@745 = ~Maintenant... Où est mon livre ?~
-@746 = ~Je ne vois rien. Rien que de la poussière. Quelqu'un d'autre a certainement pris le livre.~
-@747 = ~Hmph. That is unexpected, but it saves me from an unnecessary fight.~
-@748 = ~Yes, of course.~
-@749 = ~...There is no tome in sight. Another must have taken the tome.~
+@745 = ~Maintenant... Où est mon grimoire ?~
+@746 = ~Je ne vois rien. Rien que de la poussière. Quelqu'un d'autre l'a certainement déjà pris.~
+@747 = ~Hmph. Je ne m'y attendais pas, mais au moins, ça m'épargne un combat inutile.~
+@748 = ~Oui, bien sûr.~
+@749 = ~...Pas de grimoire en vue. Quelqu'un d'autre l'a certainement déjà pris.~
 
-// TODO
-@750 = ~<CHARNAME>, I know there are more important tasks at hand. However, I sense that something is drawing closer to us as we speak.~
-@751 = ~Let us make our way to the entrance of the Copper Coronet when we get the opportunity.~
+// Début chapitre 6, avant la sœur
+@750 = ~<CHARNAME>, je sais que nous avons une mission importe en cours. Cependant, je sens que quelque chose se rapproche de nous en ce moment même.~
+@751 = ~Dirigeons-nous à l'entrée de la Couronne de Cuivre dès que nous en aurons l'occasion.~
 
 // Salvanas
-@752 = ~A dark-haired maiden with the duskiest and stormiest of eyes and skin as luscious as the break of dawn. What would it take to caress the flawless skin of a goddess?~ 
-@753 = ~What flattering words, keep going.~
-@754 = ~Oh the curl of your tender lips and the sway of your hips. My goddess, please, let me trace the curves of your body with my own lips!~
-@755 = ~Hmm... I will have to contemplate this tempting offer. Might I hear one more line?~
-@756 = ~Minyae, you cannot be seriously considering this fool laying his sordid paws on you. (She can't be, right?)~
-@757 = ~Of course, my elegant, beautiful lady. The sound of your luscious voice sends shivers down my spine. Oh, how I ache for you to be mine.~
-@758 = ~Hm, okay. I have had my fill of flattery. Off with you now.~
-@759 = ~Alas, I will have to worship my goddess from afar!~
+@752 = ~Une jeune elfe aux cheveux bruns, ses yeux sont sombres et flamboyants, sa peau aussi séduisante qu'un jour nouveau. Que m'en coûtera-t-il de toucher du bout des doigts cette perfection ?~ 
+@753 = ~Que de paroles flatteuses, continue.~
+@754 = ~Oh cette moue enivrante et ce déhanché hypnotisant. Ma déesse, par pitié, laissez-moi dessiner les courbes de votre corps de mes lèvres !~
+@755 = ~Hmm... Je vais réfléchir à cette charmante proposition. Pourrais-je entendre un vers de plus ?~
+@756 = ~Minyae, tu ne peux pas sérieusement envisager de laisser cet idiot poser ses sales pattes sur toi. (Elle ne peut pas, n'est-ce pas ?)~
+@757 = ~Bien sûr, ma dame, vous êtes si élégante, si belle. Le son de votre voix délicieuse me donne des frissons dans le dos. Oh, comme je me languis de vous serrer dans mes bras.~
+@758 = ~Hm, bien. J'ai eu ma dose de compliments. Allez, file maintenant.~
+@759 = ~Hélas, il me faudra vénérer ma déesse de loin !~
 
-// ?
-@760 = ~With the money we spent, it had better be that way.~
+// Après avoir donné l'argent à Gaelan, pas utilisé
+@760 = ~Avec tout l'argent que nous venons de dépenser, j'espère bien.~
 
 // Kveroslava - voyante (2)
 @761 = ~Et qu'est-ce que tu connais de mon but d'abord ? Absolument rien. Hors de ma vue. Quelle perte de temps et d'argent.~
@@ -984,14 +984,14 @@ Elle suit un chemin que peu emprunte."~
 // Arbre de vie - dupliqué
 @821 = ~Si je te quittais maintenant, je raterais un des plus grands événements de notre histoire, et je ne saurais pas ce qu'il est advenu de toi. Je ne partirai pas, et je suis prête, quels que soient les dangers qui nous attendent.~
 
-@88888 = ~A Hidden Book
+@88888 = ~Un livre caché
 
-A young elven lady, by the name of Minyae, offered me her services if I helped retrieve a tome for her. Her request seems easy enough. Go inside a room, find the book, pick it up, and go. That's all there is to it... right?~
+Une jeune femme elfe, du nom de Minyae, m'a proposé ses services si je l'aide à récupérer un grimoire. Sa requête semble relativement simple. Entrer dans une pièce, trouver le livre, le ramasser, s'en aller. Et c'est tout... N'est-ce pas ?~
 
-@88889 = ~A Hidden Book
+@88889 = ~Un livre caché
 
-Lies! As soon as we walked into the room, there was a lich! Minyae must have known what was beyond the door, she wouldn't have asked for our help otherwise. Unfortunately, according to the lich, the tome has already been taken by another. However, I should definitely keep an eye on Minyae.~
+Mensonges ! Dès que nous sommes entrés dans la pièce, une liche nous a attaqué ! Minyae était forcément au courant de sa présence ou elle n'aurait pas demandé notre aide. Unfortunately, according to the lich, the tome has already been taken by another. However, I should definitely keep an eye on Minyae.~
 
-@90000 = ~A Hidden Book
+@90000 = ~Un livre caché
 
 Minyae knew what was beyond the hidden door, she wouldn't have asked for our help otherwise. Fortunately for us, we already killed the lich in the room, however, Minyae's 'magnum opus' was nowhere in the room. Minyae is convinced someone has taken the tome, but if I want to make sure she causes no trouble in the party, I should definitely keep an eye on Minyae.~
