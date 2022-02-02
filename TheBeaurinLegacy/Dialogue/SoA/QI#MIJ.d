@@ -1972,7 +1972,7 @@ SAY @657
 ++ @658 + e1.1
 ++ @659 + e1.1
 ++ @660 + e1.2
-+ ~Global("QI#MiEncounter","GLOBAL",1) !Global("QI#MiNoFrienship","GLOBAL",0)~ + @641 + e1.3
++ ~Global("QI#MiEncounter","GLOBAL",1) !Global("QI#MiNoFrienship","GLOBAL",0)~ + @661 + e1.3
 END
 
 IF ~~ e1.1
