@@ -916,70 +916,70 @@ Elle suit un chemin que peu emprunte."~
 // Kveroslava - voyante (2)
 @761 = ~Et qu'est-ce que tu connais de mon but d'abord ? Absolument rien. Hors de ma vue. Quelle perte de temps et d'argent.~
 
-/* Conflits avec le mod Edwin Romance */
+/* Conflits avec le mod Edwin Romance (du coup, féminin uniquement) */
 
 // Conflit 1
-@762 = ~I didn't think you were interested in our Red Wizard here, unless you are intrigued about his intellect and wish to obtain some of the knowledge he holds in his brain.~
-@763 = ~That would be completely understandable, however, I cannot help but think it could be something more..?~
-@764 = ~This is none of your business, Minyae.~
-@765 = ~I enjoy his company. That is all that needs to be said.~
-@766 = ~I admit, I rather enjoy his company. I like Edwin.~
-@767 = ~I happen to like Edwin, but we will see where this goes.~
-@768 = ~He is an interesting fellow, I'll give him that.~
-@769 = ~Edwin is a tool, that is all he is to me.~
-@770 = ~I have no feeling towards Edwin.~
-@771 = ~Perhaps.~
-@772 = ~Although, it *is* my business because I don't want to stand here and watch you two ogle each other while the rest of are busy doing what are supposed to be doing. Or have you forgotten your purpose because of that fool?~
-@773 = ~No matter. I think I have said enough.~
-@774 = ~I suggest you end your merriments with him before it gets any further.~
-@775 = ~I see.~
-@776 = ~Let it be known that I do not want to stand here and watch you two ogle each other while the rest of are busy doing what are supposed to be doing. Or have you forgotten your purpose because of that fool?~
-@777 = ~No matter. I think I have said enough.~
-@778 = ~I suggest you end your merriments with him before it gets any further.~
-@779 = ~Yes, he is quite interesting, isn't he?~
-@780 = ~*ahem* No matter. Let it be known that I do not want to stand here and watch you two ogle each other while the rest of are busy doing what are supposed to be doing. Or have you forgotten your purpose because of that fool?~
-@781 = ~I believe I have made my point so I suggest you end your merriments with him before it gets any further.~
-@782 = ~Now that is something I understand and can respect.~
-@783 = ~He is rather useful isn't he? Although, I find his constant mutterings to himself to be rather annoying. Maybe next time you speak to him, you can suggest that he be less annoying, yes?~
-@784 = ~No interest in him?~
-@785 = ~That is good to hear. He would only distract you from your goals. Speaking of which, we have spoken enough. Let's continue on our way.~
+@762 = ~Je ne pensais pas que notre Magicien Rouge t'intéressait, à moins que son intellect ne t'intrigue et que tu désires obtenir certaines des connaissances enfouies dans son cerveau.~
+@763 = ~Ce qui serait tout à fait compréhensible. Cependant, je ne peux m'empêcher de me demander si il n'y aurait pas plus entre vous deux..?~
+@764 = ~Ce n'est pas tes affaires, Minyae.~
+@765 = ~J'aime passer du temps avec lui. C'est tout ce qu'il y a à en dire.~
+@766 = ~Je l'admets, j'apprécie de passer du temps avec lui. J'aime bien Edwin.~
+@767 = ~Il se trouve que j'aime bien Edwin, mais nous verrons bien où ça nous mène.~
+@768 = ~C'est un type intéressant, je veux bien lui accorder ça.~
+@769 = ~Edwin est un outil, rien de plus.~
+@770 = ~Je ne ressens absolument rien pour Edwin.~
+@771 = ~Peut-être bien que non.~
+@772 = ~Ou peut-être bien que *si* parce que je n'ai pas l'intention de rester plantée là à vous regarder vous reluquer pendant que le reste du groupe est occupé à se battre à votre place. Ou as-tu oublié ton objectif à cause de cet idiot ?~
+@773 = ~Qu'importe. Je pense que j'en ai dit assez.~
+@774 = ~Je te suggère de mettre fin à tes petits jeux avec lui avant que ça n'aille plus loin.~
+@775 = ~Je vois.~
+@776 = ~Sache que je n'ai pas l'intention de rester plantée là à vous regarder vous reluquer pendant que le reste du groupe est occupé à se battre à votre place. Ou as-tu oublié ton objectif à cause de cet idiot ?~
+@777 = ~Qu'importe. Je pense que j'en ai dit assez.~
+@778 = ~Je te suggère de mettre fin à tes petits jeux avec lui avant que ça n'aille plus loin.~
+@779 = ~Oui, il est assez intéressant, n'est-ce pas ?~
+@780 = ~*ahem* Qu'importe. Sache que je n'ai pas l'intention de rester plantée là à vous regarder vous reluquer pendant que le reste du groupe est occupé à se battre à votre place. Ou as-tu oublié ton objectif à cause de cet idiot ?~
+@781 = ~Je pense que j'ai été claire donc je te suggère de mettre fin à tes petits jeux avec lui avant que ça n'aille plus loin.~
+@782 = ~Ça, c'est un point de vue que je comprends et que je peux respecter.~
+@783 = ~Il est plutôt utile, n'est-ce pas ? Bien que je trouve ses incessants grommellements à lui même plutôt agaçants. La prochaine fois que tu lui parles, peut-être que tu pourras lui suggérer d'arrêter, non ?~
+@784 = ~Rien du tout ?~
+@785 = ~C'est bon à savoir. Il ne ferait que te détourner de ton but. En parlant de ça, nous avons assez perdu de temps. Poursuivons notre chemin.~
 
 // Conflit 2
-@786 = ~<CHARNAME>. j'ai besoin de te parler. Tout de suite.~
+@786 = ~<CHARNAME>. J'ai besoin de te parler. Tout de suite.~
 @787 = ~Est-ce que ça peut attendre ?~
 @788 = ~Bien sûr, de quoi as-tu besoin?~
-@789 = ~I don't like your tone. Maybe if you were speak nicely to me, I would bend my ear.~
+@789 = ~Ce ton me déplaît. Peut-être que si tu me parlais plus gentiment, je te prêterais l'oreille.~
 @790 = ~Je n'ai pas le temps pour ça maintenant.~
 @791 = ~Non.~
-@792 = ~Cela ne peut attendre. Something must be said about it.~
-@793 = ~Does it look like I care what *you* want right now?~
+@792 = ~Cela ne peut attendre. Nous devons en parler.~
+@793 = ~Est-ce que tu as vraiment l'impression que j'ai quoi que ce soit à faire de ce que *tu* veux ?~
 @794 = ~Toi et Edwin.~
-@795 = ~Quoi à propos de nous ?~
-@796 = ~Tu penses vraiment que t'associer avec un Magicien Rouge de Thay est bon pour ton apparence ? Un enfant de Bhaal et les tristements célébres Magiciens Rouges.~
-@797 = ~Je me fous de ce que les autres ont à dire à notre propos. I care about him.~
-@798 = ~Que veux tu dire ?~
-@799 = ~Tu agis comme si ce que tu disais m'importais.~ 
-@800 = ~Je pense qu'il y a plus que ce que tu veux bien laisser paraitre...~
+@795 = ~Quoi à notre propos ?~
+@796 = ~Tu penses vraiment que t'associer avec un Magicien Rouge de Thay est bon pour ta réputation ? Un enfant de Bhaal et les tristement célèbres Magiciens Rouges.~
+@797 = ~Je me fous de ce que les autres ont à dire à notre propos. Je tiens à lui.~
+@798 = ~Que veux-tu dire ?~
+@799 = ~Comme si ce que tu disais m'importais.~ 
+@800 = ~Je pense qu'il y a plus que ce que tu veux bien laisser paraître...~
 @801 = ~...Tu tiens à lui ?~
-@802 = ~This is preposterous! What would you know about caring for someone? You are a child of Bhaal - your life reeks with death!~
-@803 = ~My point is that you two shouldn't be together.~
-@804 = ~You should care about what I have to say. I know more about him than you could possibly ever imagine. Do yourself a favor and leave him.~
-@805 = ~I --! I...~
-@806 = ~...Edwin has made a significant impact on my life.~
-@807 = ~He is a brilliant man who has no equal.~
-@808 = ~I do not want him to be... hindered by any distractions. I only wish to see him flourish and grow to his true potential.~
-@809 = ~Is that so?~ 
-@810 = ~Tu l'apprécies. Admet le.~
-@811 = ~I had no idea you felt that way about him. Edwin means a lot to me, but I can see he means more to you. I am sorry for interfering, I will end my relationship with him now.~
-@812 = ~Minyae, I am sorry to hear that, but I care about Edwin and I don't want to let him go.~
-@813 = ~That's so sweet. Too bad I don't really care. He's mine and if you don't back off him now, then you're going to have to leave.~
-@814 = ~And what if I do?~
+@802 = ~C'est ridicule ! Comment pourrais-tu savoir ce que ça signifie de tenir à quelqu'un ? Tu es un enfant de Bhaal - ta vie empeste la mort !~
+@803 = ~Je veux dire que vous ne devriez pas être ensemble.~
+@804 = ~Ça devrait pourtant. Je le connais mieux que tu ne pourras jamais en rêver. Rends-toi ce service et quitte-le.~
+@805 = ~Je --! Je...~
+@806 = ~...Edwin a eu une influence profonde sur ma vie.~
+@807 = ~C'est un homme brillant et peu le valent.~
+@808 = ~Je ne veux pas qu'il soit... déconcentré par quoi que ce soit. Mon seul souhait est de le voir s'épanouir et atteindre son vrai potentiel.~
+@809 = ~Vraiment ?~ 
+@810 = ~Tu l'apprécies. Admets-le.~
+@811 = ~Je ne savais pas que tu avais de tels sentiments pour lui. Edwin m'est cher, mais je vois qu'il l'est plus encore pour toi. Je suis désolée de m'en être mêlée, je vais mettre un terme à notre relation tout de suite.~
+@812 = ~Minyae, je suis désolée de l'entendre, mais je tiens à Edwin et je ne veux pas le quitter.~
+@813 = ~C'est tellement mignon. Dommage que je m'en fiche. Il est à moi et si tu ne laisses pas tomber, tu vas devoir quitter ce groupe.~
+@814 = ~Et si c'était le cas ?~
 @815 = ~Merci, <CHARNAME>.~
-@816 = ~This means more to me than you could know.~
-@817 = ~I see that nothing I say will persuade you otherwise.~
+@816 = ~Ça signifie beaucoup pour moi.~
+@817 = ~Je vois que rien ne te fera changer d'avis.~
 @818 = ~Très bien. Tu ne m'entendras plus en parler.~
-@819 = ~However, I ask you to treat him with utmost respect and if you dare --~
-@820 = ~...Just know that if you damage his intellect, I will end you.~
+@819 = ~Cependant, je te demande de le traiter avec le plus grand respect et si tu oses --~
+@820 = ~...Sache juste que si tu endommages son intellect, je te tue.~
 
 // Arbre de vie - dupliqué
 @821 = ~Si je te quittais maintenant, je raterais un des plus grands événements de notre histoire, et je ne saurais pas ce qu'il est advenu de toi. Je ne partirai pas, et je suis prête, quels que soient les dangers qui nous attendent.~
@@ -990,8 +990,8 @@ Une jeune femme elfe, du nom de Minyae, m'a proposé ses services si je l'aide à 
 
 @88889 = ~Un livre caché
 
-Mensonges ! Dès que nous sommes entrés dans la pièce, une liche nous a attaqué ! Minyae était forcément au courant de sa présence ou elle n'aurait pas demandé notre aide. Unfortunately, according to the lich, the tome has already been taken by another. However, I should definitely keep an eye on Minyae.~
+Mensonges ! Dès que nous sommes entrés dans la pièce, une liche nous a attaqué ! Minyae était forcément au courant de sa présence ou elle n'aurait pas demandé notre aide. Malheureusement, d'après la liche, quelqu'un s'était déjà emparé du grimoire. Je crois que je vais devoir garder un œil sur notre nouveau compagnon.~
 
 @90000 = ~Un livre caché
 
-Minyae knew what was beyond the hidden door, she wouldn't have asked for our help otherwise. Fortunately for us, we already killed the lich in the room, however, Minyae's 'magnum opus' was nowhere in the room. Minyae is convinced someone has taken the tome, but if I want to make sure she causes no trouble in the party, I should definitely keep an eye on Minyae.~
+Minyae savait ce qui se cachait derrière la porte, elle n'aurait pas demandé notre aide sinon. Heureusement, nous avions déjà tué la liche mais il n'y avait aucun "grimoire" dans la pièce. Minyae est convaincue que quelqu'un d'autre s'en est déjà emparé. Si je veux être sûr qu'elle ne créé pas de problèmes dans le groupe, je vais devoir garder un œil sur elle.~
