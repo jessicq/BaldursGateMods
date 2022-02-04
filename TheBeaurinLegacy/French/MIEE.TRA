@@ -10,7 +10,7 @@
 // Neera
 @7 = ~Tu es une personne épouvantable, Minyae.~
 @8 = ~Dis-moi plutôt quelque chose que je ne sais pas déjà.~
-@9 = ~Je t'ai à nouveau aperçue en train de voler.~
+@9 = ~Je t'ai encore aperçue en train de voler.~
 @10 = ~Et ?~
 @11 = ~C'est contraire aux lois, tu sais ? Pas que ça m'importe beaucoup cela dit...~
 @12 = ~Quoi que tu m'aies vu prendre, j'en avais plus besoin que la personne à qui je l'ai volé.~
@@ -31,9 +31,9 @@
 @23 = ~Tu vas te taire femme. Ne te moque pas de moi ou tu vas le regretter.~
 
 // Dorn
-@24 = ~Qu'est-ce qui te fait penser que je douterais de toi, Dorn ? Tu es l'incarnation même de la force.~
+@24 = ~Qu'est-ce qui te fait penser que je me moquerais de toi, Dorn ? Tu es l'incarnation même de la force.~
 @25 = ~Si je devais envisager l'idée que toi et moi pourrions un jour être ensemble...~
-@26 = ~Pourquoi ne le fais-tu pas ?~
+@26 = ~Alors qu'attends-tu ?~
 @27 = ~Tu ne m'as pas laissé terminer. Je préférerais mourir que de fréquenter une sorcière maléfique.~
 
 // Dorn
@@ -62,7 +62,7 @@
 
 // Hexxat
 @46 = ~Soyons claires toutes les deux. L'aura que tu dégages est troublante, mais je peux te supporter si tu ne te mets pas en travers de mon chemin.~
-@47 = ~C'est comme si c'était fait. Mais tu réaliseras mon potentiel en temps voulu.~
+@47 = ~Comme tu veux. Mais tu réaliseras mon potentiel en temps voulu.~
 
 // Dorn (2)
 @48 = ~De toi évidemment. Regardez moi ces -~
@@ -96,26 +96,26 @@
 @70 = ~Ce qui est fait est fait.~ // Neera (2)
 @71 = ~Vu à quel point tu t'es écarté du tien.~
 @72 = ~Je ne crois pas que tu saisisses bien tout ce qu'il m'est arrivé.~
-@73 = ~J'en sais assez pour savoir que te parler d'une quelconque rédemption serait une pure perte de temps.~
+@73 = ~J'en sais assez pour savoir que parler avec toi d'une quelconque rédemption serait une pure perte de temps.~
 
 // Neera
-@74 = ~Tu l'aimes vraiment. Tu es sérieusement amoureuse d'un homme comme Edwin. Jamais de la vie j'aurais pensé qu'un Magicien Rouge en était capable ou même qu'il le méritait en retour.~
+@74 = ~Tu l'aimes vraiment. Tu es sérieusement amoureuse d'un homme comme Edwin. Jamais de la vie j'aurais pensé qu'un Magicien Rouge puisse le mériter et encore moins aimer en retour.~
 @75 = ~Et jamais de la vie j'aurais pensé devoir supporter la compagnie d'une personne aussi pitoyable et agaçante.~
 @76 = ~Enfin, je veux dire, c'est TOI qui es avec Edwin. Pourquoi t'as choisi de te mettre dans ce pétrin, ça m'échappe complètement.~
-@77 = ~Je parlais de toi, imbécile.~ 
-@78 = ~Oh allez. Ce n'est *pas* possible que je sois la personne la plus agaçante du groupe parce que déjà, ce n'est pas moi qui parade avec ma robe rouge en permanence et essaie d'attirer l'attention dessus partout où je vais.~
+@77 = ~Je parlais de toi, idiote.~ 
+@78 = ~Oh allez. Ce n'est *pas* possible que je sois la personne la plus agaçante du groupe parce que déjà, ce n'est pas moi qui passe mon temps à parader avec ma robe rouge tout en essayant d'attirer l'attention dessus partout où je vais.~
 @79 = ~On dirait que les Magiciens Rouges t'effraient, Neera. Pourquoi insisterais-tu autant sur sa robe sinon ?~ 
-@80 = ~Euh, tu n'as vraiment RIEN écouté du tout ? Ils me traquent à cause de mes pouvoirs !~
+@80 = ~Euh, tu n'as vraiment RIEN suivi du tout ? Ils me traquent à cause de mes pouvoirs !~
 @81 = ~Alors pourquoi est-ce que tu ne nous rendrais pas à tous un service en disparaissant comme par magie, hein ?~
 @82 = ~Tu peux être vraiment méchante parfois, tu sais ?~
 
 // Neera (1)
-@83 = ~Ça, je l'avais tellement vu venir. Jamais de la vie quelqu'un a aimé un Magicien Rouge. Les seules personnes qui peuvent, c'est eux-mêmes, ou peut-être leur maman. Et encore, est-ce qu'on en est vraiment sûr ?~
+@83 = ~Ça, je l'avais tellement vu venir. Jamais de la vie quelqu'un pouvait aimé un Magicien Rouge. Les seules personnes qui le peuvent, c'est eux-mêmes, ou peut-être leur maman. Et encore, est-ce qu'on en est vraiment sûr ?~
 @84 = ~Ferme-la, Neera.~
-@85 = ~C'est un peu malpoli de demander à quelqu'un de se taire sans lui dire s'il te plaît, tu sais. Et puis, soyons honnêtes. Edwin est une personne épouvantable, toi aussi d'ailleurs. On vous met ensemble et ça fait épouvantable épouvantable.~
+@85 = ~C'est un peu malpoli de demander à quelqu'un de se taire sans lui dire s'il te plaît, tu sais. Et puis, soyons honnêtes. Edwin est une personne épouvantable, toi aussi d'ailleurs. On vous met ensemble et ça fait un épouvantable épouvantable.~
 @86 = ~J'imagine même pas si vous aviez décidé d'avoir des enfants. Quelle horreur.~
 @87 = ~FERME-LA ! FERME-LA ! FERME-LA !~
-@88 = ~Si je t'entends prononcer ce nom à nouveau, je te jure que ton existence sur les plans va se terminer très vite.~
+@88 = ~Si je t'entends prononcer son nom à nouveau, je te jure que ton existence sur les plans va se terminer très vite.~
 @89 = ~Quoi qu'il y ait eu entre Edwin et moi... c'est fini.~
 @90 = ~Donc ça n'a plus d'importance. Ça ne mérite même pas qu'on en parle.~
 
