@@ -1,155 +1,184 @@
+// Minyae, sons
 @1 = ~Minyae~
-@2 = ~I can no longer take this asinine group.~ [QI#Mi019]
-@3 = ~Quelle glorieuse jounée.~ [QI#Mi020]
+@2 = ~Je n'en peux plus de ce groupe d'idiots.~ [QI#Mi019]
+@3 = ~Quelle glorieuse journée.~ [QI#Mi020]
 @4 = ~Cela commence à m'agacer.~ [QI#Mi012]
-@5 = ~Your leadership is failing this party.~ [QI#Mi023]
-@6 = ~You have finally realized my potential.~ [QI#Mi013]
-@7 = ~You will die this day!~ [QI#Mi014]
-@8 = ~You will kneel before me.~ [QI#Mi032]
-@9 = ~How eager are you to die?~ [QI#Mi028]
+@5 = ~Tu mènes ce groupe à sa perte.~ [QI#Mi023]
+@6 = ~Tu t'es enfin rendu compte de mon potentiel.~ [QI#Mi013]
+@7 = ~C'est aujourd'hui que tu meures !~ [QI#Mi014]
+@8 = ~Rampe à mes pieds.~ [QI#Mi032]
+@9 = ~Tu as donc à ce point hâte de mourir ?~ [QI#Mi028]
 @10 = ~Ugh.~ [QI#Mi027]
-@11 = ~Not like this...~ [QI#Mi021]
+@11 = ~Pas comme ça...~ [QI#Mi021]
 @12 = ~Aide moi !~ [QI#Mi030]
-@13 = ~This place brings back so many memories.~ [QI#Mi010]
+@13 = ~Cet endroit me rappelle tellement de souvenirs.~ [QI#Mi010]
 @14 = ~La puanteur de cette cité est accablante.~ [QI#Mi015]
-@15 = ~I find this place uncomfortable.~ [QI#Mi017]
-@16 = ~Another day to learn.~ [QI#Mi025]
-@17 = ~Ah, my favorite part of the day.~ [QI#Mi007]
+@15 = ~Cet endroit me met mal à l'aise.~ [QI#Mi017]
+@16 = ~Une nouvelle journée, une nouvelle occasion de parfaire ses connaissances.~ [QI#Mi025]
+@17 = ~Ah, mon moment préféré de la journée.~ [QI#Mi007]
 @18 = ~Que veux-tu ?~ [QI#Mi008]
 @19 = ~Oui ?~ [QI#Mi011]
-@20 = ~Quelle idiotie veux-tu me faire faire maintenant ?~ [QI#Mi024]
-@21 = ~Hm?~ [QI#Mi009]
-@22 = ~I guess I am needed?~ [QI#Mi022] 
+@20 = ~Quelle idiotie veux-tu que je fasse maintenant ?~ [QI#Mi024]
+@21 = ~Hm ?~ [QI#Mi009]
+@22 = ~Il semble qu'on a besoin de moi ?~ [QI#Mi022] 
 @23 = ~Je suppose.~ [QI#Mi002]
 @24 = ~Si je dois.~ [QI#Mi001]
 @25 = ~Je peux à peine te supporter.~ [QI#Mi006]
-@26 = ~Can you not have someone else do it?~ [QI#Mi003]
+@26 = ~Tu ne peux pas demander à quelqu'un d'autre ?~ [QI#Mi003]
 @27 = ~Tout cela commence à m'ennuyer.~ [QI#Mi004]
-@28 = ~Do you have anything interesting to discuss?~ [QI#Mi016]
-@29 = ~How frustrating!~ [QI#Mi031]
-@30 = ~Of course, I hit.~ [QI#Mi033]
+@28 = ~As-tu quelque chose d'intéressant à me dire ?~ [QI#Mi016]
+@29 = ~Que c'est frustrant !~ [QI#Mi031]
+@30 = ~Évidemment, touché.~ [QI#Mi033]
 @31 = ~Rien, je ne fais rien !~ [QI#Mi026]
-@32 = ~I am no pack mule. You can find your belongings on the ground.~ [QI#Mi005]
+@32 = ~Je ne suis pas une mule. J'ai laissé tes affaires au sol.~ [QI#Mi005]
 @33 = ~J'ai perdu ma concentration !~ [QI#Mi029]
-@34 = ~Nous devrions bientôt nous reposer.~ [QI#Mi018]
-@35 = ~When asked about her past, MINYAE scoffs at you. She tells you that she cannot remember her parents or any type of family for that matter, only that her "family" was most likely dead. In fact, the only thing she can remember is that her full name is Minyae Beaurin, and that she has always had a talent for thievery and magic. "Stealing is what kept me alive when I was alone, and magic is what I used when I figured out there was an easier way to get what I wanted." She looks as if she is about to tell you more but abruptly stops in her tracks, looks at you square in the eyes, and then turns away.~
+@34 = ~Nous ne devrions pas tarder à nous reposer.~ [QI#Mi018]
+
+// Minyae, biographie
+@35 = ~Quand vous l'interrogez sur son passé, MINYAE a un petit rire dédaigneux. Elle vous dit qu'elle ne se rappelle pas de ses parents ou d'une quelconque famille d'ailleurs, et qu'ils sont de toute manière probablement morts. En fait, la seule chose dont elle se souvient est que son nom est Minyae Beaurin, et qu'elle a toujours été douée pour le vol et la magie. "Voler m'a permis de survivre quand j'étais seule, et la magie m'a été utile afin d'obtenir plus facilement ce que je voulais." On dirait qu'elle est sur le point de vous en dire plus mais elle s'interrompt brutalement, vous fixe des yeux, puis détourne le regard.~
+
+// Elaryn, sons
 @36 = ~Elaryn~
-@37 = ~I hope you're enjoying yourself.~ [ffight2#]
+@37 = ~J'espère que tu t'amuses bien.~ [ffight2#]
 @38 = ~~
-@40 = ~Why must you act like such a child?~ [ffight2_]
-@41 = ~I shall lead the way!~ [ffight2b]
-@42 = ~Attack!~ [ffight2a]
-@43 = ~As you wish.~ [ffight2k]
-@45 = ~Noo!~ [ffight2m]
+@40 = ~Peux-tu cesser ce comportement enfantin ?~ [ffight2_]
+@41 = ~Je vais ouvrir la marche !~ [ffight2b]
+@42 = ~À l'attaque !~ [ffight2a]
+@43 = ~Comme tu voudras.~ [ffight2k]
+@45 = ~Non !~ [ffight2m]
 @46 = ~Ugh.~ [ffight2l]
 @47 = ~~
-@50 = ~Let us not waste time.~ [ffight2d]
+@50 = ~Ne perdons pas plus de temps.~ [ffight2d]
 @51 = ~~
-@52 = ~Indeed.~ [ffight2s]
-@53 = ~Yes?~ [ffight2h]
-@54 = ~I am by your side.~ [ffight2g]
-@55 = ~I see.~ [ffight2v]
-@56 = ~Done.~ [ffight2u]
-@57 = ~No small task.~ [ffight2t]
-@58 = ~Stop doing that.~ [ffight2x]
-@59 = ~Idiot.~ [ffight2y]
-@63 = ~I can no longer carry anymore, I have left it on the ground.~
-@65 = ~I am exhausted.~ [ffight2c]
-@66 = ~When asked about her past, ELARYN's eyes grow dark. She tells you that when Minyae and her separated, she was captured along with the guard captain. Her captors tried to sell her into slavery, but she was able to gravely injure a good number of them before they halted their attack. She starts to speak more, but pauses and says that is a tale for another time.~
+@52 = ~En effet.~ [ffight2s]
+@53 = ~Oui ?~ [ffight2h]
+@54 = ~Je suis à tes côtés.~ [ffight2g]
+@55 = ~Je vois.~ [ffight2v]
+@56 = ~C'est fait.~ [ffight2u]
+@57 = ~Ce n'est pas une tâche facile.~ [ffight2t]
+@58 = ~Arrête ça tout de suite.~ [ffight2x]
+@59 = ~Imbécile.~ [ffight2y]
+@63 = ~Je ne peux rien transporter de plus, je l'ai laissé à terre.~
+@65 = ~Je suis épuisée.~ [ffight2c]
 
-@70 = ~Robe of Elegance~
-@71 = ~Since the age of Netheril, mages have learned to bestow a wide variety of magical properties upon the everyday objects that surround them. A favorite tiem of such enhancement is the common robe. It is lightweight, affordable, and holds its enchantment well, thereby making it ideal equipment for a mage. Due to their magicacl heritage, however, only single-, dual-, and multi-class mages may wear these enchanted robes.
+// Elaryn, biographie
+@66 = ~Quand vous l'interrogez sur son passé, ELARYN a les yeux qui s'assombrissent. Elle vous explique qu'à sa séparation de Minyae, elle a été capturée en même temps que le capitaine de la garde. Ces ravisseurs ont essayé de la vendre comme esclave, mais elle a réussi à en blesser mortellement un bon nombre avant qu'ils ne stoppent leur attaque. Elle s'apprête à vous en raconter plus, mais s'interrompt et vous dit que c'est une histoire pour une autre fois.~
 
-STATISTICS:
+@70 = ~Robe d'élégance~
+@71 = ~Depuis l'ère de Néthéril, les mages ont appris à conférer aux objets quotidiens qui les entouraient une grande variété de propriétés magiques. L'un des plus usités de ces objets est la robe courante. Elle est légère, peu onéreuse et conserve bien ses enchantements. Cela en fait une parure de mage idéale. Cependant, en raison de leur héritage magique, ces robes enchantées ne peuvent être portées que par des mages mono classés, à classes jumelées ou multiclassés.
 
-Weight: 3~
-@72 = ~An elegant, but powerful mage robe with fur-padded shoulders that offers protection from all forms of physical attack while at the same time increasing one's Magic Resistance. Minyae has taken the liberty of increasing the elegance of the robe by adding a Charisma enchantment.
+PARAMÈTRES :
 
-STATISTICS:
+Poids : 3~
+@72 = ~Cette robe aux pouvoirs immenses, très élégante avec ses épaulettes en fourrure, protège son porteur contre toute forme d'attaque physique, tout en accroissant sa résistance à la magie et ses jets de sauvegarde. Minyae s'est permis de l'améliorer en y ajoutant un enchantement de charisme.
 
-Equipped abilities:
-- Armor Class: 5
-- Magic Resistance: 5
-- Charisma: +1
+PARAMÈTRES :
 
-Weight: 6~
-@73 = ~Indeed.~ [ffight2s]
-@74 = ~My wounds need tending.~ [ffight2e]
-@75 = ~You have need of me?~ [ffight2f]
-@83 = ~Minyae's Necklace~
-@84 = ~This is a close replica to the necklace Edwin wears around his neck. It was given as a gift by the Red Wizard to Minyae.
+Capacités d'équipement :
+- Classe d'armure : 5
+- Résistance à la magie : 5%
+- Charisme : +1
 
-STATISTICS:
+Poids : 6~
+@73 = ~En effet.~ [ffight2s]
+@74 = ~J'ai besoin de soins.~ [ffight2e]
+@75 = ~Tu as besoin de moi ?~ [ffight2f]
+@83 = ~Amulette de Minyae~
+@84 = ~Cette amulette est une réplique fidèle de celle qu'Edwin porte autour du coup. C'est un cadeau du Magicien Rouge à Minyae.
 
-Equipped abilities:
-- Resist Fear
-- Vocalize
+PARAMÈTRES :
 
-Weight: 1~
+Capacités d'équipement :
+- Résistance à la peur
+- Vocaliser
+
+Poids : 1~
+
+// Épilogue Minyae 1
 @87 = ~After being in the company of <CHARNAME>, Minyae found herself lost - seeing as how she only had one true purpose beforehand. Not knowing what to do next, Minyae wandered aimlessly for many years, searching for a new purpose to her life. Rumors have it that she, once again, took up her search of becoming a lich and traveled to a different plane out of respect for <CHARNAME>. However, others say that Minyae felt so much guilt for the death of her sister that she attempted to resurrect her. It was not until many years that the latter was proven to be true. While Elaryn's resurrection was successful, she had lost all her emotions except for her rage, thus forcing a final confrontation between the two sisters. The battle between them was vicious and bloody and when the dust cleared, two lifeless bodies lay bloodied and battered - thus, finally ending the Beaurin legacy.~
-@88 = ~There was no mention of Minyae after parting ways with <CHARNAME>'s company. However, there were rumors of a purple-hooded figure taking away young children in the dark of night circulating in large cities, usually from an abnormally large amount of lower class citizens. It was only until many years later when she made her reappearance, but the sightings did not come from this plane, but from another. She was seen raiding through ancient tombs and libraries, always in search of more knowledge with legions of the undead at her beckon. Eventually, the order in which her sister had died for, found her and attempted to end her life, but all were met with a horrendous death; they were resurrected later, only to serve Minyae in death. It is said that every kill caused by Minyae Beaurin was dedicated to <CHARNAME>. Fear struck all who dared utter the name "Beaurin" and if there is one thing that still holds true to this day, it is that the Beaurin legacy will live on.~
-@89 = ~There was no mention of Minyae after parting ways with <CHARNAME>'s company. However, there were rumors of a purple-hooded figure taking away young children in the dark of night circulating in large cities, with an abnormally large amount of lower class citizens. It was only until many years later when she made her reappearance, but the sightings did not come from this plane, but from another. She was seen raiding through ancient tombs and libraries, always in search of more knowledge with legions of the undead at her beckon. Eventually, the order in which her sister had died for, found her and attempted to end her life, but all were met with a horrendous death; they were resurrected later, only to serve Minyae in death. Fear struck all who dared utter the name "Beaurin" and if there is one thing that still holds true to this day, it is that the Beaurin legacy will live on.~
-@90 = ~Edwin and Minyae were considered one of the most renowned adventurers with their travels with <CHARNAME>, and in the years following their association they would exploit that. In time, they achieved enough influence to subjugate even the Red Wizards themselves, becoming the greatest leaders they had known in recent memory. During this time, Minyae returned to dark thoughts transforming her human lover into a lich but ultimately, she dismissed the thought for reasons she would not discuss with him. She kept to herself for a few months, hiding her growing secret from the public eye and her beloved. Edwin had grown impatient and frustrated with her, but in time, he would realize that there were other ways that his legacy would live on. The birth of their daughter and the following days after, were the happiest and the bitterest days for the both of them. The birth of Edwin's daughter came upon the ears of his enemies in Thay, as well as the weakened state of his advisor and lover. The Red Wizards seized this opportunity to rise up against Edwin and Minyae and successfully captured the control of the city once again.
 
-The three barely managed to escape with their lives and have been on the run ever since. After many years of relocating and staying away from their adversaries, the Red Wizards finally caught up to the trio. Their daughter mysteriously vanished and Edwin was driven to madness. Minyae became infuriated with the insanity of her lover and the disappearance of her child, so she took it upon herself to launch a crusade against the Red Wizards in the hopes of finding her daughter. It is said that till this very day, she is still searching for her lost daughter - leaving the Beaurin legacy unknown.~
+// Épilogue Minyae 2
+@88 = ~On n'entendit plus jamais parler de Minyae après qu'elle quitta le groupe de <CHARNAME>. Cependant, dans les grandes cités, des rumeurs circulaient à propos d'une silhouette, encapuchonnée de violet, enlevant de jeunes enfants la nuit, principalement dans les quartiers pauvres. Ce n'est que bien des années plus tard qu'elle réapparut, même si c'est dans d'autres plans qu'on l'aperçut. Elle pillait tombes anciennes et vieilles bibliothèques, à la recherche de toujours plus de connaissances, des légions de morts-vivants à ses ordres. Finalement, l'ordre pour lequel sa sœur avait donné sa vie, la retrouva et tenta de la supprimer, mais ils connurent tous une fin atroce ; ils furent ensuite ressuscité pour servir Minyae dans la mort. On raconte que chaque tuerie perpétrée par Minyae Beaurin l'était en hommage à <CHARNAME>. La peur frappait tous ceux qui osaient prononcer son nom et s'il y a bien une chose qui reste vrai à ce jour, c'est que l'héritage des Beaurin perdure.~
+
+// Épilogue Minyae 3
+@89 = ~There was no mention of Minyae after parting ways with <CHARNAME>'s company. However, there were rumors of a purple-hooded figure taking away young children in the dark of night circulating in large cities, with an abnormally large amount of lower class citizens. It was only until many years later when she made her reappearance, but the sightings did not come from this plane, but from another. She was seen raiding through ancient tombs and libraries, always in search of more knowledge with legions of the undead at her beckon. Eventually, the order in which her sister had died for, found her and attempted to end her life, but all were met with a horrendous death; they were resurrected later, only to serve Minyae in death. Fear struck all who dared utter the name "Beaurin" and if there is one thing that still holds true to this day, it is that the Beaurin legacy will live on.~
+
+// Épilogue Minyae 4
+@90 = ~Edwin and Minyae were considered one of the most renowned adventurers with their travels with <CHARNAME>, and in the years following their association they would exploit that. Avec le temps, ils gagnèrent suffisamment d'influence pour contrôler les Magiciens Rouges eux-mêmes, becoming the greatest leaders they had known in recent memory. During this time, Minyae returned to dark thoughts transforming her human lover into a lich avant de les abandonner pour des raisons dont elle ne souhaita pas discuter avec lui. Elle se tint à l'écart pendant quelques mois, cachant son secret naissant du public et de son bien-aimé. Edwin devint impatient et frustré, mais avec le temps, il réalisa qu'il y avait un autre moyen pour son héritage de perdurer. La naissance de leur fille et les jours qui suivirent, furent pour eux deux à la fois les plus heureux et les plus amers. The birth of Edwin's daughter came upon the ears of his enemies in Thay, as well as the weakened state of his advisor and lover. Les Magiciens Rouges saisirent l'occasion de se dresser contre Edwin et Minyae et reprirent le contrôle de la cité à nouveau.
+
+The three barely managed to escape with their lives and have been on the run ever since. After many years of relocating and staying away from their adversaries, the Red Wizards finally caught up to the trio. Leur fille disparut mystérieusement et Edwin devint fou. Minyae became infuriated with the insanity of her lover and the disappearance of her child, so she took it upon herself to launch a crusade against the Red Wizards in the hopes of finding her daughter. On raconte qu'encore aujourd'hui, she is still searching for her lost daughter - leaving the Beaurin legacy unknown.~
+
+// Épilogue Minyae 5
 @91 = ~Edwin and Minyae gained great infamy in their travels with <CHARNAME>, and in the years following their association, they would exploit that infamy. In time, they achieved enough influence to subjugate even the Red Wizards themselves, becoming the greatest leaders they had known in recent memory. During this time, Edwin and Minyae were ready to solidify their legacy by becoming liches so that they could rule Thay for an eternity. However, before their plans could come into fruition, Minyae disappeared for reasons unknown to Edwin.
 
 It was later discovered that she had taken refuge in the forests near Velen, however, she was not alone. Sightings from nearby villages and towns confirm the presence of a very young boy, who wore a necklace similar to those of a certain Red Wizard, was constantly at her side. The duo led a rather quiet life until one fateful day. Upon returning from a nearby village, Minyae was astonished to see her former lover greeting her. However, their greeting was not a pleasant one and a terrible battle was fought. In the end, Minyae was no match for the Red Wizard and as he was about to strike the killing blow, her son blocked the attack but it ultimately cost him his life. Overcome with a great sadness, Minyae struggled to reach her dying son. She did not notice the sudden departure of Edwin Odesseiron, nor did she realize that he had spared her.
 
 No one knows what happened to Minyae Beaurin after the death of her son, some say she still haunts the woods of Velen. Others say that she took her life when her son died. There are those that speculate that she was driven by madness on a search to revive her child. However, if there is one thing that is most certainly true, the future of the Beaurin legacy is unknown.~
+
+// Épilogue Minyae 6
 @92 = ~Edwin and Minyae gained great infamy in their travels with <CHARNAME>, and in the years following their association, they would exploit that infamy. In time, they achieved enough influence to subjugate even the Red Wizards themselves, becoming the greatest leaders they had known in recent memory. During this time, Edwin and Minyae were ready to solidify their legacy by becoming liches so that they could rule Thay for an eternity. However, before their plans could come into fruition, Minyae disappeared for reasons unknown to Edwin. Word spread quickly throughout Thay about the sudden disappearance of Edwin's beloved, and the Red Wizards seized this opportunity to rise up against Edwin and recapture the city.
 
 Filled with feelings of betrayal and hurt, Edwin did not seek vengeance on the Red Wizards, but on his former love. He hunted her for many years and at last came upon her in the forests near Velen. They fought a terrible battle, but as the Red Wizard was about to strike the killing blow, a young boy blocked the attack. Not realizing the gravity of what he had done, Edwin sneered at the young boy's lifeless body and turned his attention back to Minyae. He was pleased to see her slowly crawling towards him - waiting for her to beg and grovel for her life, but to his amazement and surprise, she took the young boy in her arms and wept. Finally piecing together the events, he promptly left the scene without another word.
 
 It would not be until years later that many would hear or see Edwin Odesseiron. Until, the Red Wizard suddenly announced that he would take on the greatest challenge known to existence: a battle with Elminster of Shadowdale himself. It was a short affair that saw the end of Edwin's existence in the Realms. Edwina, however, tends bar in a Waterdeep tavern. She is a bitter, bitter woman.~
+
+// Épilogue Minyae 7
 @93 = ~Edwin and Minyae were considered one of the most renowned adventurers with their travels with <CHARNAME>, and in the years following their association they would exploit that. In time, they achieved enough influence to subjugate even the Red Wizards themselves, becoming the greatest leaders they had known in recent memory. During this time, Minyae contemplated transforming her human lover into a lich but ultimately, she dismissed the thought for reasons she would not discuss. Edwin was furious with her decision, but in time, he realized that there were other ways that his legacy would live on. The birth of their daughter and the following days after, were the happiest and the bitterest days for the both of them. The birth of Edwin's daughter came upon the ears of his enemies in Thay, as well as the weakened state of his advisor and lover. The Red Wizards seized this opportunity to rise up against Edwin and Minyae and successfully captured the control of the city once again.
 
 The trio barely managed to escape with their lives and have been on the run ever since. After many years of relocating and staying away from their adversaries, the Red Wizards finally caught up to the trio. Their daughter mysteriously vanished and Edwin was driven to madness. So much so that he took on the greatest challenge known to existence: a battle with Elminster of Shadowdale himself, a short affair that saw the end of Edwin's existence in the Realms. Edwina, however, tends bar in a Waterdeep tavern. She is a bitter, bitter woman.~
+
+// Épilogue Elaryn 1
 @95 = ~After leaving <CHARNAME>'s company, Elaryn found herself re-tracing her deceased sister's footsteps. Curious as how her sister managed to survive all those years by herself, Elaryn would chronicle and document all those that had crossed paths with her sister, specifically the merchant caravans that had traveled near the forests of Velen that had been victimized by the legendary "Witch of Velen". It was during one of these travels that Elaryn found herself in the midst of a pillaged village. She single-handedly shot a volley of arrows that sent the group of invaders running to the hills, but not before the damage to the village had already been done. Amongst the piles of rubble, soot, and bodies, Elaryn found a small, orphaned child and took him as her own. From that day forward, she raised him as her own but shortly after he reached adulthood, she vanished. The current whereabouts of Elaryn are unknown, but when asking her adopted son, he would solemnly state that she left this world with a smile on her face - thus, ending the Beaurin legacy.~
+
+// Épilogue Elaryn 2
 @96 = ~After leaving <CHARNAME>'s company, Elaryn found herself wandering aimlessly from town to town. Try as she might to remain anonymous, she was remembered for her deeds with <CHARNAME>. The constant fame and attention made her withdraw even more from the world than before and one day, she disappeared altogether. No one truly knows the whereabouts of Elaryn Beaurin but rumors have been circulating from the forests of Velen all the way to the streets of Amn. Some say a dark entity now guards the area around Velen and other says that a morose elven maiden guides those in their darkest hours back onto the path of light. However, the common denominator from all the songs of bards and minstrels, and even from the great storyteller Volo himself, is that Elaryn Beaurin was no more - thus, ending the Beaurin legacy.~
-@97 = ~An elegant, but powerful mage robe with fur-padded shoulders that offers protection from all forms of physical attack while at the same time increasing one's Magic Resistance. Minyae has taken the liberty of increasing the elegance of the robe by adding a Charisma enchantment. Given to Cespenar, the imp further enhanced the robes by increasing the wearer's armor class and magical resistance.
 
-STATISTICS:
+// Équipements
+@97 = ~Cette robe aux pouvoirs immenses, très élégante avec ses épaulettes en fourrure, protège son porteur contre toute forme d'attaque physique, tout en accroissant sa résistance à la magie et ses jets de sauvegarde. Minyae s'est permis de l'améliorer en y ajoutant un enchantement de charisme. Cespenar l'a perfectionnée d'avantage en y ajoutant des protections supplémentaires.
 
-Equipped abilities:
-- Armor Class: 3
-- Magic Resistance: 10
-- Charisma: +1
+PARAMÈTRES :
 
-Weight: 6~
-@98 = ~Enchanting Robe of Elegance~
-@99 = ~Mage Dagger +4~
-@100 = ~Like most typical daggers, this dagger has a pointed, double-edged blade. It has also been imbued with magical abilities which have increased its usefulness.
+Capacités d'équipement :
+- Classe d'armure : 3
+- Résistance à la magie : 10%
+- Charisme : +1
 
-STATISTICS:
+Poids : 6~
+@98 = ~Robe d'élégance enchantée~
+@99 = ~Dague du magicien +4~
+@100 = ~Comme la plupart des dagues, celle-ci est une lame pointue à double tranchant. It has also been imbued with magical abilities which have increased its usefulness.
 
-Equipped abilities:
-- Armor Class: +2
-- Save vs. Spell: +3
-- Magic Resistance: +15%
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +2
+- Jet de sauvegarde contre les sorts : +3
+- Résistance à la magie : +15%
 - Can cast one extra 1st-, 2nd- and 3rd-level wizard spell 
 
-THAC0: +4
-Damage: 1d4+4 (piercing)
-Speed Factor: 2
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength
+TAC0 : +4
+Dégâts : 1d4 + 4 (perforant)
+Facteur de vitesse : 2
+Type de compétence : dague
+Type : arme à une main
+Nécessite :
+ 3 en Force
 
-Weight: 1~
-@101 = ~The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter.
+Poids : 1~
+@101 = ~Les dagues sont des lames pointues à double tranchant, contrairement aux couteaux, plus petits, qui n'en ont qu'un.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 1d4 (piercing)
-Speed Factor: 2
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength
+Dégâts : 1d4 (perforant)
+Facteur de vitesse : 2
+Type de compétence : dague
+Type : arme à une main
+Nécessite :
+ 3 en Force
 
-Weight: 1~
+Poids : 1~
+
+// Installation + extra
 @102 = ~Installation du crossmod pour The Beaurin Legacy pour BGII~
 @103 = ~Le mod The Beaurin Legacy est requis pour l'installation.~
 @104 = ~~
@@ -158,9 +187,9 @@ Weight: 1~
 @107 = ~Aneila~
 @108 = ~Kaldava~
 @109 = ~Swiftee~
-@110 = ~Dusty Tome~
-@111 = ~A dusty, old tome that reveals nothing but blank pages when opened. This object would only be of use to Minyae.~
-@112 = ~Skeleton Warrior~
+@110 = ~Grimoire poussiéreux~
+@111 = ~Un vieux grimoire poussiéreux that reveals nothing but blank pages when opened. Il ne pourra être utile qu'à Minyae.~
+@112 = ~Guerrier squelette~
 
 @1000 = ~The Beaurin Legacy pour BG2:SoA & ToB & BGII:EE~
 @1010 = ~Ce composant requiert le composant principal de The Beaurin Legacy.~
