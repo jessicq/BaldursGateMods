@@ -737,15 +737,15 @@ Elle suit un chemin que peu emprunte."~
 // Initié par le joueur, interaction
 @614 = ~(Alors que vous essayez d'enlacer Minyae, elle vous stoppe en tendant le bras.)~
 @615 = ~Ne me touche pas.~
-@616 = ~Tu as de la chance que j'ai l'habitude de ton comportement stupide, ou je t'aurais déjà détruit depuis un moment.~ ~Tu as de la chance que j'ai l'habitude de ton comportement stupide, ou je t'aurais déjà détruite depuis un moment.~
+@616 = ~Tu as de la chance que je sois habituée à ton comportement stupide, ou je t'aurais déjà détruit depuis un moment.~ ~Tu as de la chance que je sois habituée à ton comportement stupide, ou je t'aurais déjà détruite depuis un moment.~
 @617 = ~(Vous vous approchez pour enlacer Minyae, mais ce faisant, ne remarquez pas le pied qui dépasse. Vous finissez à terre.)~
 @618 = ~(soupir) Tu n'apprends donc jamais ?~
 @619 = ~(Alors que vous lui donnez une tape dans le dos, Minyae sursaute à votre contact.)~
-@620 = ~(Elle se retourne d'un coup et écarte votre main d'une gifle.)~
+@620 = ~(Elle se retourne d'un coup et écarte votre main d'un revers.)~
 @621 = ~(Vous la prenez par surprise, elle pousse un petit cri et fait un bond.)~
 @622 = ~...Tu n'as jamais entendu ça.~
 @623 = ~Touche moi à nouveau, et je te crame.~
-@624 = ~(Alors que vous essayez de lui donner un petit coup, elle se retourne rapidement et vous tord le doigt. Une douleur aiguë vous traverse la main, et vous devez lutter pour l'éloigner d'elle.)~
+@624 = ~(Alors que vous essayez de lui donner un petit coup, elle se retourne rapidement et vous tord le doigt. Une douleur aiguë vous traverse la main, et vous devez lutter pour qu'elle le relâche.)~
 @625 = ~Qu'est-ce que tu n'as pas compris dans "on ne touche pas" ?!~
 
 // Initié par le joueur, cicatrices
@@ -798,8 +798,8 @@ Elle suit un chemin que peu emprunte."~
 @666 = ~Edwin et moi passons de bons moments ensemble. C'est très temporaire, jusqu'à ce que je trouve quelque chose ou quelqu'un de plus divertissant.~
 
 // Initié par le joueur, conseils
-@667 = ~Prend ça à cœur : comprends les choses pour ce qu'elles sont vraiment.~
-@668 = ~Ne mémorise rien pour le plaisir. Tu peux oublier ce que tu as simplement regardé, mais tu ne pourras jamais effacer de ta mémoire ce que tu as appris et compris.~
+@667 = ~Prend ça au sérieux : comprends les choses pour ce qu'elles sont vraiment.~
+@668 = ~Ne récite rien par cœur. Tu peux oublier ce que tu as simplement regardé, mais tu ne pourras jamais effacer de ta mémoire ce que tu as appris et compris.~
 @669 = ~Les pauvres le sont pour une raison. Ils ont les moyens de s'extirper de leur condition, mais choisissent de se reproduire continuellement et de dépenser plus qu'ils ne peuvent se permettre.~
 @670 = ~Ne gaspille pas ton temps avec les "plus démunis".~
 @671 = ~L'amour est la plus grande des faiblesses.~
