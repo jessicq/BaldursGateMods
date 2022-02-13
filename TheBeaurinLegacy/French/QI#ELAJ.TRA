@@ -1,85 +1,118 @@
-@0 = ~Your life is shrouded in pain and loss no matter what and where you go. If you to continue on the path you currently take, you will never know the freedom you desire.~
-@1 = ~Thank you for your time, my good lady. I will take your words into great consideration.~
-@2 = ~A dark-haired maiden with the duskiest -~
-@3 = ~Why the sudden pause?~
-@4 = ~F-forgive me, my lady. But you remind me of someone that passed along here not too long ago. Of course, you were just as or even more radiant than her.~
-@5 = ~(sigh) You must be referring to my sister.~
-@6 = ~Ah, forgive me...~
-@7 = ~No need for apologies.~
-@8 = ~Greetings, my lady. I am Madame Nin, and -~
-@9 = ~I have no interest in whatever you have to offer. Thanks.~
-@10 = ~Elaryn, an unexpected ally and twin sister of Minyae. Her piercing blue eyes look at you expectantly.~
-@11 = ~Elaryn, this is and was never your fight.~ 
-@12 = ~You have done well in place of your sister, you may leave if you wish it.~ 
-@13 = ~Are you for the end of this madness? I need you to be more attentive than ever.~ 
-@14 = ~My sister stayed with you for a reason. I will see it to the end for you and for her.~
-@15 = ~It is done, it is finally over. How are you feeling <CHARNAME>?~
-@16 =  ~I take it this is Hell. So be it.~
-@17 = ~Your death will be nothing short of joy for all of us. You will die here and never return.~
-@18 = ~You must free this man, <CHARNAME>. Slaves should not exist at this day and age. These people are despicable.~
-@19 = ~What a vile man this is, <CHARNAME>. I can literally smell his stench a mile away.~
-@20 = ~His request sounds deceitful. Please consider what must be done and do what is best, not for you, but for everyone.~
-@21 = ~We do not really need a reward, do we <CHARNAME>? Their gratitude should be enough.~
-@22 = ~Poor fools...~
-@23 = ~You must free this man, <CHARNAME>. No person should be enslaved like this. This is barbaric.~
-@24 = ~We cannot let such an evil leave this place!~
-@25 = ~Foolish girl. I tire of your -~
-@26 = ~What is that smell?  What is your kind doing here?! THIS IS AN INSULT!~
-@27 = ~You have questions, I can see it on your face. Ask me, and I will do my best to give you the answer.~
-@28 = ~I don't even know what to say, I'm still in shock.~
-@29 = ~What is going?~
-@30 = ~I don't know where to start...~ 
-@31 = ~I'll just start from the beginning.~
-@32 = ~Minyae and I are... were siblings, but you probably could have solved that yourself. Well, at least I hope you could.~
-@33 = ~I am, of course, the older sibling, born a decade or two before her. We are orphans, our parents were killed, and the only thing they left to us was their family name - Beaurin. That is all I can remember too, and that is probably all Minyae remembered as well.~
-@34 = ~...I always knew that Minyae would and could be easily influenced. I was not around as much as I should have been around her, but I always had a feeling that something could go sour with her if it could happen. She was the only family I had left and so I needed to protect her, shelter her from the evils on the outside world.~
-@35 = ~I should have known she would not risk her life for someone she did not know, but as her sister, I should have never left her for a stranger. If I could go back in time, I would. Anything would be better than her death, especially by my hands.~
-@36 = ~You did what you had to do.~ 
-@37 = ~If you are going to start moping around, I really don't want to hear it.~
-@38 = ~If you need some time to settle down, just let me know.~
-@39 = ~That's always the excuse isn't it?~
-@40 = ~Fair enough.~
-@41 = ~Thank you for listening to me, I will tell you everything after we finish your current quest. You must be tired of hearing my sob story, so let's go.~
-@42 = ~Is there something I can help you with?~
-@43 = ~I have noticed that you are not as talkative as your sister, why is that?~
-@44 = ~Do you have any advice to give?~ 
-@45 = ~What do you think of me Elaryn?~
-@46 = ~I see you have a scar.~
-@47 = ~There is such a difference in attitude between you and Minyae.~ 
-@48 = ~There is nothing at the moment.~
-@49 = ~Do you think all siblings act exactly alike? If so, you are clearly mistaken.~
-@50 = ~Minyae and I both lived different lives, and we both took different directions in continuing our paths.~
-@51 = ~There is no way we could have had the same opinions or thoughts, I do not even think that is possible for any set of siblings. Maybe if they were with each other all the time, but Minyae and I were separated from each during most of our lives.~
-@52 = ~Yes, it is a daily remember of that fateful day where I chose to help a stranger rather than stay with my sister.~
-@53 = ~You must make sacrifices in order to fulfill the greater good of the world, do not linger on the decisions that you need to make.~
-@54 = ~You never know what will happen. Always be on your guard.~
-@55 = ~Always do good, the good will always come back to you.~
-@56 = ~I think your heart is in a good place. You are a good man.~
-@57 = ~I mean romantically.~
-@58 = ~Nevermind.~ 
-@59 = ~I think your hear is in a good place. You are a good woman.~
-@60 = ~I mean romantically.~
-@61 = ~Nevermind.~
+// Kveroslava - voyante
+@0 = ~Où que vous alliez et quoi que vous fassiez, votre vie est enveloppée de douleur et de mort. Si vous continuez à suivre cette voie, vous ne connaîtrez jamais cette liberté que vous désirez tant.~
+@1 = ~Merci pour ton temps, ma bonne dame. Je vais prendre tes paroles très à cœur.~
+
+// Salvanas
+@2 = ~Une jeune elfe aux cheveux bruns, ses yeux sont sombres et -~
+@3 = ~Pourquoi t'interrompre ainsi ?~
+@4 = ~P-pardonnez-moi, ma dame. Mais vous me rappelez quelqu'un que j'ai croisé il y a peu de temps. Bien sûr, vous êtes au moins aussi resplendissante qu'elle, si ce n'est plus.~
+@5 = ~(soupir) Tu parles probablement de ma sœur.~
+@6 = ~Ah, mes excuses...~
+@7 = ~Elles ne sont pas nécessaires.~
+
+// Madame Nin
+@8 = ~Salutations. Je suis Madame Nin, et -~
+@9 = ~Tes services ne m'intéressent pas. Merci.~
+
+// Arbre de vie
+@10 = ~Elaryn, une alliée inattendue et la sœur de Minyae. Une lueur d'espoir illumine ses yeux bleus et perçants.~
+@11 = ~Elaryn, ce n'est pas ton combat, ça ne l'a jamais été.~ 
+@12 = ~Tu t'en es bien tirée à la place de ta sœur, tu peux partir si tu le souhaites.~ 
+@13 = ~Es-tu prête à mettre fin à cette folie ? J'ai besoin de te savoir plus concentrée que jamais.~ 
+@14 = ~Ma sœur est restée avec toi pour une bonne raison. J'irai jusqu'au bout, pour toi et pour elle.~
+
+// Arbre de vie - Irenicus
+@15 = ~C'est fait, c'est enfin terminé. Comment te sens-tu <CHARNAME> ?~
+
+// Enfer
+@16 = ~J'imagine que nous sommes en Enfer. Qu'il en soit ainsi.~
+
+// Irenicus - la fin
+@17 = ~Ta mort sera un soulagement pour absolument tout le monde. Tu vas périr ici, à tout jamais.~
+
+// Hendak
+@18 = ~Tu dois libérer cet homme, <CHARNAME>. Personne ne devrait être réduit ainsi en esclavage de nos jours. Ces gens sont méprisables.~
+
+// Lehtinan
+@19 = ~Quel homme abominable, <CHARNAME>. Il empeste depuis l'autre bout de la salle.~
+
+// Tolgerias
+@20 = ~Sa demande semble trompeuse. Réfléchis bien à ce qui doit être fait et prend la bonne décision, pas que pour toi, mais pour tout le monde.~
+
+// Collines d'Umar - maire
+@21 = ~Nous n'avons pas vraiment besoin d'une récompense, pas vrai <CHARNAME> ? Leur reconnaissance est largement suffisante.~
+
+// Mendiants
+@22 = ~Pauvres diables...~
+
+// Hendak, pas utilisé
+@23 = ~Tu dois libérer cet homme, <CHARNAME>. Personne ne devrait être réduit à l'esclavage ainsi. C'est un acte barbare.~
+
+// Kangaxx
+@24 = ~Nous ne pouvons laisser un tel mal s'échapper !~
+@25 = ~Impudente. Tu me fatigues avec tes -~
+@26 = ~Quelle est cette odeur ? Qu'est-ce que ta race fait ici ?! CECI EST UN AFFRONT !~
+
+// Après la rencontre
+@27 = ~Tu as des questions, je le vois sur ton visage. Pose-les, et je te répondrai du mieux que je peux.~
+@28 = ~Je ne sais que dire, je n'en reviens toujours pas.~
+@29 = ~Qu'est-ce qu'il se passe ?~
+@30 = ~Je ne sais pas par où commencer...~ 
+@31 = ~Je vais commencer du début alors.~
+@32 = ~Minyae et moi sommes... étions sœurs, mais tu avais probablement deviné par toi-même. Enfin, j'espère que c'est le cas.~
+@33 = ~De nous deux, je suis bien sûr la plus vieille, d'une dizaine d'années, peut-être une vingtaine. Nous sommes orphelines, nos parents ont été tués, et la seule chose qu'ils nous ont légué est leur nom de famille - Beaurin. C'est tout ce dont je me souviens, et c'est probablement tout ce dont se souvenait Minyae aussi.~
+@34 = ~...J'ai toujours su que Minyae était facilement influençable, et se laisserait facilement influencer. Je n'ai pas été assez présente pour elle, et j'ai toujours eu l'impression qu'elle pourrait mal tourner si l'occasion se présentait. Elle était la seule famille qu'il me restait et je devais la protéger, la défendre contre le mal de ce monde.~
+@35 = ~J'aurais dû savoir qu'elle ne risquerait pas sa vie pour un inconnu, mais je suis sa sœur, je n'aurais pas dû l'abandonner pour aider cet homme. Si je pouvais revenir en arrière, je le ferais sans hésiter. N'importe quoi plutôt que sa mort, surtout quand j'en suis responsable.~
+@36 = ~Tu as fait ce qui était nécessaire.~ 
+@37 = ~Si tu es sur le point de broyer du noir, ça ne m'intéresse vraiment pas.~
+@38 = ~Si tu as besoin de te poser un moment, dis-le-moi.~
+@39 = ~C'est la meilleur des excuses, n'est-ce pas ?~
+@40 = ~Pas de problème.~
+@41 = ~Merci de m'avoir écoutée, je te raconterai tout quand nous en aurons terminé avec ta quête. Mes histoires larmoyantes doivent te fatiguer alors allons-y.~
+
+// Initié par le joueur
+@42 = ~Puis-je t'aider d'une quelconque manière ?~
+@43 = ~J'ai remarqué que tu n'étais pas aussi bavarde que ta sœur, pourquoi cela ?~
+@44 = ~As-tu un conseil à me donner ?~ 
+@45 = ~Que penses-tu de moi Elaryn?~
+@46 = ~Je vois que tu as une cicatrice.~
+@47 = ~Il y a une telle différence de caractères entre Minyae et toi.~ 
+@48 = ~Je n'ai besoin de rien pour le moment.~
+@49 = ~Tu penses que tous les frères et sœurs se ressemblent ? Si c'est le cas, tu te trompes clairement.~
+@50 = ~Minyae et moi n'avons pas eu la même enfance, et nous avons ensuite suivi des chemins radicalement différents.~
+@51 = ~Je ne pense pas qu'il soit possible pour des frères et sœurs d'avoir exactement les mêmes idées et opinions et nous ne faisions pas exception. Peut-être que si nous étions restées ensemble tout ce temps, mais Minyae et moi avons vécu séparées la majeure partie de notre vie.~
+@52 = ~Oui, c'est un rappel quotidien de ce jour fatidique où j'ai choisi d'aider un étranger plutôt que de rester avec ma sœur.~
+@53 = ~Œuvrer pour le plus grand bien nécessite parfois que l'on fasse des sacrifices, ne t'attarde pas sur les choix que tu dois faire.~
+@54 = ~On ne sait jamais ce qui peut arriver. Reste toujours sur tes gardes.~
+@55 = ~Fais le bien autour de toi, on récolte toujours ce que l'on sème.~
+@56 = ~Je pense que tu es quelqu'un de bien intentionné. Tu es un homme bon.~
+@57 = ~Je voulais dire d'un point de vue plus romantique.~
+@58 = ~Laisse tomber.~ 
+@59 = ~Je pense que tu es quelqu'un de bien intentionné. Tu es une femme bonne.~
+@60 = ~Je voulais dire d'un point de vue plus romantique.~
+@61 = ~Laisse tomber.~
 @62 = ~Oh...~
-@63 = ~As a stated before, you are a good person, but unfortunately, I am involved with someone.~
-@64 = ~Oh, that is good.~ 
-@65 = ~Who is this lucky person?~ 
-@66 = ~No one has to know.~ 
-@67 = ~I am sorry, <CHARNAME>.~
-@68 = ~My Willias. Some say he is an average-looking human man, but I think he is an absolutely charming man. His heart is always in the right place, and he is a gentleman. I am truly blessed to find such a love during these dark times.~
-@69 = ~But I'm sure you don't want to hear any more about my love life. Let us be on our way.~
-@70 = ~No, I must decline that offer. I am in love with another.~
-@71 = ~My sister was telling the truth, we know nothing of our family name. Only that the liches, specifically the undead curse us.~
-@72 = ~Maybe in time, we will find out the answer.~
-@73 = ~I was never a talker. My sister was always the one to interject and speak her opinions, however vulgar they were, but she did know when to hold her tongue.~
-@74 = ~Just because Minyae was my younger sister, does not mean I share her attitude, I only share her face.~
-@75 = ~Your sister...~
-@76 = ~But one day, we saw a caravan in the thick of night being attacked. There was only one man left, and I did not think he could survive on his own. I thought my sister was right behind me when I charged in to aid the man, but when I looked back, she was not there.~
-@77 = ~What is so important about your family name? Minyae said she didn't know anything, but if she neglected to tell me about you, she could have been lying about that too.~
-@78 = ~There once was an elf filled with sorrow,
-She walks with hopes of a new 'morrow.
-New hopes she has, but none she will get;
-Much foreseeable loss, and so she will fret. 
-What has fallen is beyond redemption.~
-@79 = ~Harsh words, but how true are they I wonder?~
+@63 = ~Comme je viens de le dire, tu es une bonne personne, mais malheureusement, je fréquente déjà quelqu'un.~
+@64 = ~Oh, je suis heureux pour toi.~ ~Oh, je suis heureuse pour toi.~
+@65 = ~Cette personne est décidément bien chanceuse. Puis-je te demander qui est-ce ?~ 
+@66 = ~Il ou elle n'a pas besoin d'être au courant.~ 
+@67 = ~Je suis désolée, <CHARNAME>.~
+@68 = ~Mon cher Willias. Certains disent que c'est un humain plutôt quelconque, mais moi, je le trouve absolument charmant. Il est toujours si bien intentionné et si prévenant. J'ai une chance inouïe d'avoir trouvé l'amour de ma vie durant ces temps troublés.~
+@69 = ~Mais je suis certaine que tu n'as pas envie de m'entendre parler de ma vie amoureuse pendant des heures. Mettons-nous en route.~
+@70 = ~Non, je suis obligée de refuser cette proposition. J'en aime un autre.~
+@71 = ~Elle t'a dit la vérité, nous n'en savons effectivement rien. Seulement que les morts-vivants, et plus spécifiquement les liches, nous maudissent.~
+@72 = ~Peut-être qu'avec le temps, nous obtiendrons une réponse.~
+@73 = ~Je ne l'ai jamais beaucoup été. C'était elle qui donnait sans cesse son opinion, souvent de la plus vulgaire des manières, toujours à couper la parole de son interlocuteur, mais elle savait aussi tenir sa langue quand il le fallait.~
+@74 = ~Ce n'est pas parce que Minyae est ma petite sœur que nous nous ressemblons, autrement que physiquement en tout cas.~
+@75 = ~Ta sœur...~ // Dialogue précédent
+@76 = ~Mais un jour, nous avons vu une caravane se faire attaquer au beau milieu de la nuit. Il ne restait plus qu'un homme debout, et je ne le voyais pas survivre sans aide. Je pensais que ma sœur était juste derrière moi quand j'ai chargé à son secours, mais quand je me suis retournée, elle avait disparu.~
+@77 = ~Qu'y-a-t-il de si important à propos de votre nom de famille ? Minyae m'a dit qu'elle n'en savait rien, mais elle a omis de mentionner ton existence, elle aurait pu mentir sur ça aussi.~
+
+// Celvan le dingue 
+@78 = ~"Il était une fois une elfe pleine de chagrin,
+Elle avance avec le désir de meilleurs lendemains.
+Elle est pleine d'espoirs mais aucun ne se concrétisera ;
+Les pertes seront inévitables et elle s'inquiétera. 
+Ce qui est tombé est au delà de toute rédemption."~
+@79 = ~Des mots durs, mais je me demande, sont-ils le reflet de la vérité ?~
 
