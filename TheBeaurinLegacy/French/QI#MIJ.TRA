@@ -1,16 +1,16 @@
 // Kveroslava - voyante (1)
-@0 = ~Soyez prudente avec votre quête. Il y a d'autres moyens de parvenir à votre but.~
+@0 = ~Soyez prudente dans votre quête. Il y a d'autres moyens de parvenir à vos fins.~
 
 // Celvan le dingue
-@1 = ~"Il était une fois une elfe avec de sombres désirs.
+@1 = ~"Il était une fois une elfe aux sombres désirs.
 Elle ne savait pas de qui elle provoquerait l'ire.
 Mais bientôt elle verra où son ambition la conduit.
 Son avidité lui empoisonne-t-elle la vie ?
-Elle suit un chemin que peu emprunte."~
+En empruntant ce chemin qui n'est pas commun."~
 @2 = ~Je suis le chemin qui me plaît, tu ne sais pas de quoi tu parles.~
 
 // Transformation écorcheur
-@3 = ~Intéressant. Tu viens de puiser dans des pouvoirs enfouis en toi, mais il te faut trouver un moyen de les contrôler.~
+@3 = ~Intéressant. Tu viens de libérer des pouvoirs qui étaient enfouis en toi, mais il te faut trouver un moyen de les contrôler.~
 
 // Aboleth
 @4 = ~Nous aurions dû casser son aquarium quand nous en avions l'opportunité !~
@@ -19,7 +19,7 @@ Elle suit un chemin que peu emprunte."~
 @5 = ~Boo ! Fais-le sortir, c'est horrible ! Ne me regarde pas comme ça, quelqu'un devait bien s'en charger. Autant que ce soit moi.~
 
 // Madame Nin
-@6 = ~Salutations. Je suis Madame Nin, et je suis là pour m'assurer que vous passiez une soirée des plus plaisantes. Mes services vous intéresseraient-ils ?~
+@6 = ~Salutations. Je suis Madame Nin, et je suis là pour m'assurer que vous passiez une soirée des plus plaisantes. Seriez-vous intéressée par nos services ?~
 @7 = ~C'est assez tentant. Peut-être une autre fois ?~
 
 // Trahison Yoshimo
@@ -30,37 +30,37 @@ Elle suit un chemin que peu emprunte."~
 
 // Arbre de vie - pas pote
 @10 = ~Minyae, une magicienne compétente et une voleuse habile. Elle vous regarde avec un sourire narquois et commence à caresser son arme. Vous vous demandez parfois pourquoi elle est toujours avec vous et quelles sont ses intentions.~
-@11 = ~Minyae, ce n'est pas ton combat. Je ne m'attends pas à ce que tu ailles au bout.~
+@11 = ~Minyae, ce n'est pas ton combat. Je ne m'attends pas à ce que tu ailles jusqu'au bout.~
 @12 = ~Tes services m'ont été très utiles, Minyae. Tu peux nous quitter maintenant si tu le souhaites.~
 @13 = ~Es-tu prête pour ce qui nous attend ? J'ai besoin de toi au meilleur de ta forme.~ 
 @14 = ~Si je te quittais maintenant, je raterais un des plus grands événements de notre histoire, et je ne saurais pas ce qu'il est advenu de toi. Je ne partirai pas, et je suis prête, quels que soient les dangers qui nous attendent.~
 
 // Arbre de vie - pote
 @15 = ~Minyae, autrefois une étrangère et maintenant une amie fidèle. Elle vous regarde avec un sourire narquois et commence à caresser son arme.~
-@16 = ~Tu ne m'as pas laissée tomber quand j'en avais besoin, je resterai donc à tes côtés tant qu'Irenicus n'aura pas payé pour ses actes.~
+@16 = ~Tu ne m'as pas laissée tomber quand j'étais dans le besoin, je resterai donc à tes côtés tant qu'Irenicus n'aura pas payé pour ses actes.~
 @17 = ~Tu es un de mes plus proches amis, et je mènerai ce combat jusqu'au bout.~ ~Tu es une de mes plus proches amis, et je mènerai ce combat jusqu'au bout.~
 
 // Arbre de vie - Irenicus
-@18 = ~Oh comme notre adversaire tombe de son piédestal, mais cela a t-il eu un quelconque effet sur toi ? As-tu retrouvé ton âme ?~
+@18 = ~Oh comme notre adversaire tombe de son piédestal... Ressens-tu un quelconque effet ? As-tu retrouvé ton âme ?~
 
 // Enfer
-@19 = ~Qu'est-ce qu'il se passe ? Suis-je morte et en enfer ? Ce n'est pas comme ça que c'était sensé se terminer !~ [QI#Mi131]
+@19 = ~Qu'est-ce qu'il se passe ? Suis-je morte... et en enfer ? Ce n'était pas sensé se terminer comme ça !~ [QI#Mi131]
 
 // Irenicus - la fin
-@20 = ~J'aimerais tellement te regarder agoniser à petit feu, mais malheureusement, je trouve ta présence répugnante. Dépêche-toi de mourir, Irenicus!~ [QI#Mi130]
+@20 = ~J'aimerais tellement profiter de ta lente agonie, mais malheureusement, je trouve ta présence répugnante. Dépêche-toi de mourir, Irenicus !~ [QI#Mi130]
 
 // Bodhi
 @21 = ~Mais pour qui elle se prend ? Il vaudrait mieux que ça soit notre dernière mission...~
 @22 = ~Un accueil chaleureux au milieu de la nuit, mais est-il vraiment si chaleureux que ça ?~
 
 // Hendak
-@23 = ~Oui, libère donc cette brave personne <CHARNAME>. Déclenche une émeute. Fais-le.~
+@23 = ~Oui, libère donc cette brave personne <CHARNAME>. Fais-le. Déclenche une rébellion.~
 @24 = ~Prendre le contrôle de la taverne ? Quelle idée splendide.~
 
 // Mendiants
 @25 = ~Bah ! Arrête donc de perdre ton temps avec ces imbéciles !~
 @26 = ~Ne gaspille pas ton argent.~
-@27 = ~Ce cafard pathétique ment <CHARNAME>.~
+@27 = ~Ce cafard pathétique est un menteur <CHARNAME>.~
 
 // Firkraag
 @28 = ~Je pense que ça serait une bonne idée de laisser cette puissante créature tranquille, <CHARNAME>.~
@@ -68,22 +68,22 @@ Elle suit un chemin que peu emprunte."~
 // Quête Nalia
 @29 = ~Elle nous cache des choses et je n'aime pas beaucoup ça, mais je suppose que nous avons besoin de l'argent.~
 @30 = ~Des trolls ? Ah ! Quelle bande d'humains pathétiques. Alors qu'il suffit d'utiliser du feu et de l'acide.~
-@31 = ~(soupir) Inutiles. Complètement incompétents, tous autant qu'ils sont.~
+@31 = ~(soupir) Incompétents. Complètement inutiles, tous autant qu'ils sont.~
 @32 = ~Un troll qui utilise la magie ? J'ai hâte de l'anéantir avec mes propres sorts !~
 
 // Quête Aerie
-@33 = ~Elle aurait probablement été plus utile si c'était restée un ogre...~
+@33 = ~Elle aurait probablement été plus utile sous sa forme d'ogre...~
 
 // Quête Œil aveugle
-@34 = ~Un sol sacré, mon œil. J'ai toujours détesté les religions...~
+@34 = ~Un sol sacré, je m'assoie dessus. J'ai toujours détesté les religions...~
 
 // Voleurs de l'ombre
 @35 = ~Hmm.... Cet Edwin a l'air plutôt intéressant.~
-@36 = ~Ah ! Ce sont des VOLEURS. Évidemment qu'il y a un traître. C'est ridicule.~
+@36 = ~Hé ! Ce sont des VOLEURS. Évidemment qu'il y a un traître. C'en est presque drôle.~
 @37 = ~Ça me parait un bon plan.~
 @38 = ~Du travail bâclé ? Quelle importance quand ta vie est en jeu ?~
 @39 = ~Chef des voleurs, <CHARNAME> ? Quel retournement de situation.~
-@40 = ~Les vampires ne font jamais plaisir à voir.~
+@40 = ~Les vampires, ce n'est jamais un plaisir de les rencontrer.~
 @41 = ~Hmph. J'espère que c'est la première et dernière fois qu'il nous fait ce coup.~
 @42 = ~Plus de corvées ?! Nous ne sommes pas tes larbins !~
 @43 = ~Imagine... tout ça aurait pu être évité s'ils avaient daigné nous aider plus tôt.~
@@ -101,7 +101,7 @@ Elle suit un chemin que peu emprunte."~
 @51 = ~Tu ne peux nous reprocher d'en demander plus, particulièrement quand c'est amplement mérité.~
 
 // Paladins déchus
-@52 = ~Ou peut-être que leur point de vue est simplement devenu plus réaliste.~
+@52 = ~Ou peut-être sont-ils simplement devenu plus réalistes.~
 
 // Tolgerias
 @53 = ~Ça a l'air plutôt simple.~
@@ -110,7 +110,7 @@ Elle suit un chemin que peu emprunte."~
 @54 = ~"Tué les génies"... Si cet idiot continue, c'est lui que je vais mettre en pièce.~
 
 // Logan
-@55 = ~Et lui empeste la médiocrité. Il n'est même pas capable de protéger ses citoyens, pas plus que de résoudre ses ennuis seul.~
+@55 = ~Lui alors ! Il empeste la médiocrité. Incapable de protéger ses citoyens et de résoudre ses problèmes seul.~
 @56 = ~Toujours plus de tâches ingrates. Ô joie.~
 
 // Faldorn
@@ -121,11 +121,11 @@ Elle suit un chemin que peu emprunte."~
 @59 = ~Tout cela semble suspect. Avançons prudemment <CHARNAME>.~
 
 // Sahuagin
-@60 = ~(soupir) Mais pourquoi est-ce qu'on se retrouve toujours mêlé à ce genre d'histoires?~
+@60 = ~(soupir) Mais pourquoi est-ce qu'on se retrouve toujours mêlé à ce genre d'histoires ?~
 
 // Adalon
 @61 = ~Un dragon d'argent. Quelle créature magnifique... Je crois que leur sang est un ingrédient magique très rare.~
-@62 = ~Provoquer la bête avec la perte de ses œufs, parfait ! Nous pourrons prélever le sang de cette sublime créature et examiner ses propriétés magiques. Ça va être passionnant même si la bataille à venir risque de me rendre folle !~
+@62 = ~Provoquer la bête avec la perte de ses œufs, parfait ! Nous pourrons prélever le sang de cette sublime créature et examiner ses propriétés magiques. Ça va être passionnant même si la bataille à venir promet d'être démentielle !~
 @63 = ~La déception par excellence.~
 
 // Elhan
@@ -138,24 +138,24 @@ Elle suit un chemin que peu emprunte."~
 @66 = ~Cette femme dit la vérité ! Si nous avions déjà rencontré cet Edwin, son génie nous aurait illuminés !~
 
 // Quête tanneur
-@67 = ~En quoi est-ce un problème ? Ce tueur nettoie les rues des mendiants. Ça devrait au contraire nous emplir de joie !~
+@67 = ~En quoi est-ce un problème ? Ce tueur nettoie les rues des mendiants. Ça devrait plutôt nous emplir de joie !~
 @68 = ~Vous semblez être une fervente admiratrice de ce meurtrier. Si vous n'étiez pas avec ce groupe, je vous aurais déjà mise aux fers.~
-@69 = ~J'aurais aimé te voir essayer, mais malheureusement, il semblerait que j'ai dépassé les bornes, vu comment tout le monde me regarde. Tu peux reprendre, imbécile.~
+@69 = ~J'aurais aimé te voir essayer, mais malheureusement, il semblerait que j'ai dépassé les bornes, vu comment tout le monde me regarde. Tu peux continuer, imbécile.~
 @70 = ~Tu gaspillerais ton argent avec les gens de son espèce ? Ridicule !~
 @71 = ~Non, tu ne vas pas nous extorquer notre argent quand tu n'as RIEN FAIT pour le mériter ! Donne-nous ce que nous cherchons OU TU MOURRAS !~
 @72 = ~O-oui, Rampah va le donner à la gentille dame. P-pas besoin de faire du mal au p-pauvre Rampah.~
-@73 = ~Maintenant, dis-nous tout ce que nous voulons savoir à propos de ce que tu as trouvé !~ 
+@73 = ~Maintenant, dis-nous tout ce que nous voulons savoir à propos de cet indice !~ 
 
 // Duels dans la taverne drow
-@74 = ~Sérieusement ? ...C'est vrai que d'entre nous, j'ai probablement le plus de chances de gagner. Regarde nos ennemis périr sous mes coups.~
+@74 = ~Sérieusement ? ...Après tout, je suis celle qui a le plus de chances de gagner. Alors observe pendant que nos ennemis périssent sous mes coups.~
 
 // Saemon
 @75 = ~Tu penses que tes petites histoires effrayantes vont nous stimuler ? Détrompe-toi, Saemon.~
-@76 = ~Oh merveilleux, on est sur le point d'aider ce misérable traître n'est-ce pas ? Ne pourrait-on pas en finir et le tuer pour de bon ?~
+@76 = ~Oh merveilleux, on est sur le point d'aider ce misérable traître, n'est-ce pas ? Ne pourrait-on pas le tuer maintenant et en finir avec lui pour de bon ?~
 
 // Sir Sarles
-@77 = ~Je dois vraiment me retenir pour ne pas tuer cet homme...~
-@78 = ~Il ose nous insulter avec ces exigences ridicules. Il chérit ses mains c'est ça ? Laisse-moi les lui incinérer...~
+@77 = ~Je dois vraiment me retenir pour ne pas étrangler cet homme...~
+@78 = ~Il ose nous insulter avec ces exigences ridicules. Il chérit ses mains c'est ça ? Permets-moi de les carboniser...~
 @79 = ~Non ? (soupir) Ne me regarde pas comme ça, je voulais juste aider.~
 
 // Prostituée
@@ -166,18 +166,18 @@ Elle suit un chemin que peu emprunte."~
 
 // Liche du Crâne Tordu
 @82 = ~Donne-moi le livre que je cherche, liche, et nous partirons sans te faire du mal !~
-@83 = ~J'ai vécu bien longtemps, et on n'a jamais rien exigé de moi ainsi. Qui es-tu pour oser le faire ? Tu n'auras aucune réponse tant que ma curiosité ne sera pas satisfaite.~
+@83 = ~J'ai vécu bien longtemps, personne n'a jamais eu de telles exigences. Qui es-tu pour oser me commander ? Tu n'en sauras pas plus tant que ma curiosité ne sera pas satisfaite.~
 @84 = ~Lâche. Mon nom est Minyae Beaurin, et je t'ordonne de me remettre le grimoire !~
-@85 = ~Beaurin... oui, j'ai déjà entendu ce nom. Je crache sur toi et ta famille. Je vais prendre plaisir à vaincre ta lignée.~
-@86 = ~Mais avant que la mort ne t'accueille à bras ouverts, je vais prendre plaisir à te voir frétiller d'impatience pour ensuite écraser tous tes espoirs en un instant.~
+@85 = ~Beaurin... oui, j'ai déjà entendu ce nom. Je crache sur toi et tes ancêtres. Je vais prendre plaisir à achever ta lignée.~
+@86 = ~Mais avant que la mort ne t'étreigne, je vais prendre plaisir en te regardant trépigner d'impatience, avant d'écraser tous tes espoirs d'un claquement de doigts.~
 @87 = ~Le grimoire n'est plus ici, dérobé par un autre de ta race. Ah, je vois les étincelles dans ton regard. Elles ne vont pas tarder à s'éteindre.~
 @88 = ~Tu mens. TU MENS !~
-@89 = ~Qu'aurais-je à gagner à mentir à un cadavre ? Ton grimoire a disparu, et il va t'arriver le même sort.~
+@89 = ~Pourquoi mentirais-je à un cadavre ? Ton grimoire a disparu, et tu es la suivante.~
 
 // Kangaxx
 @90 = ~Pas si on te tue à nouveau !~
 @91 = ~Impudente. Tu me fatigues avec tes -~
-@92 = ~Quelle est cette odeur ? Qu'est-ce que ta race fait ici ?! CECI EST UN AFFRONT !~
+@92 = ~Quelle est cette odeur ? Qu'est-ce que ton engeance fait ici ?! C'EST UN AFFRONT !~
 
 // Pas de bouquin
 @93 = ~Le grimoire n'est pas ici. Quelqu'un d'autre a dû s'en emparer...~
@@ -185,13 +185,13 @@ Elle suit un chemin que peu emprunte."~
 
 // Discussion - après la liche
 @95 = ~Je pense que je te dois une explication... ou des excuses tout du moins.~ [QI#Mi039]
-@96 = ~Tu as bien raison, tu me dois de sacrées excuses. Nous avons failli être tués par ta faute.~
+@96 = ~Tu as bien raison, tu me dois de sacrées excuses. Nous avons failli être tous tués par ta faute.~
 @97 = ~Ce n'est pas grave, je suis juste un peu déçu que nous n'ayons rien trouvé.~
-@98 = ~Non, je n'ai que faire de tes excuses. Contente-toi de suivre mes ordres, je ne veux plus entendre parler de toi.~
+@98 = ~Non, je n'ai que faire de tes excuses. Contente-toi de suivre mes ordres dorénavant, je ne veux plus t'entendre parler.~
 @99 = ~Tu n'es qu'une sale menteuse, et je ne veux plus jamais te revoir.~
-@100 = ~Pour être franche, si je t'avais dit qui gardait le grimoire, tu n'aurais probablement pas accepté de m'aider.~
-@101 = ~Tu aurais au moins dû me prévenir, nous aurions pu mieux nous préparer. Tu dois me faire confiance.~
-@102 = ~Tu n'as pas tort. Je suppose que je ne peux pas te le reprocher, mais tu dois pouvoir me faire confiance.~
+@100 = ~Pour être franche, si je t'avais dit ce qui gardait le grimoire, tu n'aurais probablement pas accepté de m'aider.~
+@101 = ~Tu aurais au moins dû me prévenir, nous aurions pu mieux nous préparer. Tu dois me faire plus confiance.~
+@102 = ~Tu n'as pas tort. Je suppose que je ne peux pas te le reprocher, mais tu dois être capable de me faire confiance.~
 @103 = ~Te faire confiance ? Comme je viens juste de le dire, tu ne m'aurais ni crue, ni aidée, si je t'avais parlé de la liche.~
 @104 = ~Mais je suppose que tu as raison, peut-être qu'un jour je te ferai suffisamment confiance pour partager ce genre d'informations.~
 @105 = ~Je suis contente que tu comprennes mon point de vue.~
@@ -199,7 +199,7 @@ Elle suit un chemin que peu emprunte."~
 @107 = ~Ah, en effet, ce n'est pas ce à quoi je m'attendais.~
 @108 = ~Néanmoins, merci pour ton aide et ta confiance.~
 @109 = ~Très bien.~
-@110 = ~Tu m'as aidée gratuitement et maintenant tu te sépares de moi ? Un marché qui me convient parfaitement !~
+@110 = ~Tu m'as aidée sans rien en retour et maintenant tu me laisses partir ? C'est un marché qui me convient parfaitement !~
 @111 = ~Tu n'auras pas besoin de te répéter. Tu ne me reverras plus.~
 
 // Discussion - origines
@@ -217,56 +217,56 @@ Elle suit un chemin que peu emprunte."~
 @123 = ~Je ne te regardais pas particulièrement. Tu m'as l'air d'être complexée.~ 
 @124 = ~Tu n'as pas besoin d'être si agressive. C'était une simple question.~ 
 @125 = ~Je ne m'attends pas à ce que tu comprennes.~
-@126 = ~On pourrait probablement dire que je suis orpheline. Je passais de ville en ville quand j'étais plus jeune, toujours proche d'une route, mais jamais très loin des forêts non plus. Ces dernières assuraient ma sécurité, et les routes me fournissaient des cibles.~
-@127 = ~Je n'allais te montrer aucune compassion. Tu sembles plutôt indépendante.~
+@126 = ~On pourrait probablement dire que je suis orpheline. J'allais de ville en ville quand j'étais plus jeune, toujours proche d'une route, mais jamais très loin des forêts non plus. Ces dernières assuraient ma sécurité, et les routes me fournissaient des cibles.~
+@127 = ~Je ne vais pas te plaindre. Tu sembles plutôt indépendante.~
 @128 = ~Que veux-tu dire par cibles ?~
 @129 = ~Bien. Je l'étais en effet, et le suis toujours, suffisamment pour me débrouiller seule. Mes cibles en revanche...~
-@130 = ~C'était tous ceux dont je pouvais tirer profit, que ce soit de l'argent ou de la nourriture. Je voulais tout. Les marchants voyageant seuls, se pensant en sécurité sur une route qu'ils connaissaient bien, étaient les plus juteuses.~ [QI#Mi042]
-@131 = ~Futée comme j'étais, je savais que personne ne viendrait au secours de ces pauvres bougres, sifflotant tranquillement. Et pourquoi eux n'aideraient pas une gamine sale, en pleurs et affamée ?~
-@132 = ~Dès qu'ils se penchaient pour me donner une pomme ou quoi que ce soit d'autre pour me rassasier, je dérobais leur bourse. Tellement simple et facile, le mieux étant qu'ils ne s'en rendaient jamais compte.~
-@133 = ~Ouah, tu étais vraiment une enfant horrible.~
+@130 = ~C'était tous ceux dont je pouvais tirer profit, que ce soit de l'argent ou de la nourriture. Je voulais tout. Les marchands voyageant seuls, se pensant en sécurité sur une route qu'ils connaissaient bien, étaient les plus juteuses.~ [QI#Mi042]
+@131 = ~Futée comme j'étais, je savais que personne ne viendrait au secours de ces pauvres bougres, sifflotant tranquillement. Et pourquoi se seraient-ils méfié d'une gamine crasseuse, implorante et affamée ?~
+@132 = ~Dès qu'ils se penchaient pour me donner une pomme ou quoi que ce soit d'autre pour me sustenter, je dérobais leur bourse. Tellement simple et facile, le plus beau, c'est qu'ils ne s'en rendaient jamais compte.~
+@133 = ~Ouah, tu étais vraiment une enfant terrible.~
 @134 = ~Et bien, tu as fait ce qui était nécessaire pour survivre.~
 @135 = ~Pourquoi ne pas simplement les tuer et t'emparer de toutes leurs possessions ?~
-@136 = ~Horrible ? Horriblement intelligente et rusée tu veux dire.~
-@137 = ~C'est exactement ce que je pensais que j'étais une enfant. Je me sentais coupable de voler cet argent durement gagné.~
+@136 = ~Terrible ? Terriblement intelligente et astucieuse tu veux dire.~
+@137 = ~C'est exactement ce que je pensais à l'époque et je me sentais coupable de voler leur argent durement gagné.~
 @138 = ~Puis j'ai accepté que j'en avais plus besoin qu'eux. Et que rien n'était plus important que moi-même.~
 @139 = ~Et risquer de perdre des cibles potentielles ? Non, ça aurait été stupide.~
-@140 = ~Sais-tu ce qu'il se serait passé si j'avais tué ces marchants isolés ? Leurs familles auraient fini par s'inquiéter d'où ils étaient et auraient réalisé qu'ils avaient disparu. Elles auraient envoyé un groupe à la recherche de leurs bien-aimés. Tôt ou tard, je me serais fait prendre, et qui sait le sort que ces sauvages m'auraient réservé.~
+@140 = ~Sais-tu ce qu'il se serait passé si j'avais tué ces marchands isolés ? Leurs familles auraient fini par s'inquiéter de leur absence avant de réaliser qu'ils avaient disparu. Elles auraient envoyé un groupe à la recherche de leurs bien-aimés. Tôt ou tard, je me serais fait prendre, et qui sait le sort que ces sauvages m'auraient réservé.~
 @141 = ~Énoncer des évidences m'ennuie. Cette discussion est terminée pour le moment.~
 @142 = ~Si ça te fait du bien de t'en persuader, pas de soucis. Mais je vais satisfaire ta curiosité malgré tout.~
 @143 = ~Mais cette conversation me fatigue.~
 @144 = ~Maintenant, si ça ne te dérange pas, j'ai des choses importantes dont je dois m'occuper.~
-@145 = ~Parce que où que j'aille, il y aura toujours quelque chose de nouveau à apprendre.~
+@145 = ~Parce que où que tu ailles, il y aura toujours quelque chose de nouveau à apprendre.~
 @146 = ~Un sujet en particulier t'intéresse ?~
 @147 = ~Je désire apprendre tout ce qui pourra m'être utile. Tout ce qui pourra m'aider à étendre mes connaissances sur les arts arcaniques ou améliorer mes talents.~
-@148 = ~Nous apprenons en permanence, tous les jours. Chacun est l'opportunité de faire de nouvelles expériences.~
+@148 = ~Nous apprenons constamment. Chaque jour est une opportunité pour faire de nouvelles expériences.~
 @149 = ~Alors, d'où est-ce que tu viens ?~
 @150 = ~Je suis d'accord avec ça. On dirait que tu sais plutôt bien te défendre. Tu sembles assez indépendante.~ 
 @151 = ~Je ne suis pas d'accord.~
 @152 = ~Je ne m'attendais de toute manière pas à ce que quelqu'un de ta stature accepte cette évidence. Mais je suis prête à t'accorder le bénéfice du doute, puisque tu es compétent, et puis j'ai mes propres raisons. J'ai appris à me débrouiller alors que je n'étais encore qu'une enfant.~ ~Je ne m'attendais de toute manière pas à ce que quelqu'un de ta stature accepte cette évidence. Mais je suis prête à t'accorder le bénéfice du doute, puisque tu es compétente, et puis j'ai mes propres raisons. J'ai appris à me débrouiller alors que je n'étais encore qu'une enfant.~
 @153 = ~Le pouvoir qui vient avec la connaissance.~ [QI#Mi043]
-@154 = ~C'est tout ? Pouvoir et connaissance ne suffisent pas.~
+@154 = ~C'est tout ? Le pouvoir et la connaissance ne sont pas tout dans la vie.~
 @155 = ~Ah, je peux le comprendre.~
 @156 = ~Ton idée de ce qui définit le pouvoir est ridicule. Il est toujours plus efficace de recourir à ses muscles qu'à sa tête, et tu n'es de toute évidence pas très musclée.~
-@157 = ~Ah ! Et qu'il y a t-il de plus dans ce monde ? C'est la connaissance qui m'a fournit des moyens de survivre, et c'est la connaissance qui m'a permit de rester en vie ! J'ai appris à me débrouiller alors que je n'étais encore qu'une enfant !~
+@157 = ~Ah ! Et qu'il y a t-il de plus dans ce monde ? C'est la connaissance qui m'a fournit des moyens de survivre, qui m'a permit de rester en vie ! J'ai appris à me débrouiller alors que je n'étais encore qu'une enfant !~
 @158 = ~C'est bon à savoir. J'ai appris à me débrouiller alors que je n'étais encore qu'une enfant.~
-@159 = ~Tu préfères la force brute à l'intelligence ? Tu es encore plus obtus que ce que je pensais.~ ~Tu préfères la force brute à l'intelligence ? Tu es encore plus obtuse que ce que je pensais.~
+@159 = ~Tu préfères la force brute à l'intelligence ? Tu es encore plus étroit d'esprit que ce que je pensais.~ ~Tu préfères la force brute à l'intelligence ? Tu es encore plus étroite d'esprit que ce que je pensais.~
 @160 = ~Peux-tu seulement imaginer un monde sans la moindre trace d'intelligence ? Nous serions tous des barbares bafouillant, empêtrés dans des guerres sans fin à propos de sujets minables tel que "quel fils est le plus fort" ou bien "quelle tribu a le maïs le plus jaune".~
-@161 = ~Ton manque de discernement et de bon sens me déçoit grandement. Je n'avais pas réalisé que le chef de ce groupe de malheureux était en fait un abruti.~ ~Ton manque de discernement et de bon sens me déçoit grandement. Je n'avais pas réalisé que la chef de ce groupe de malheureux était en fait une abrutie.~ 
+@161 = ~Ton manque de clairvoyance et de discernement me consterne. Je n'avais pas réalisé que le chef de ce groupe de malheureux était en fait un abruti.~ ~Ton manque de clairvoyance et de discernement me consterne. Je n'avais pas réalisé que la cheffe de ce groupe de malheureux était en fait une abrutie.~ 
 @162 = ~Nous n'avons plus rien à nous dire. Il est évident que tu ne vaux guère mieux qu'un roturier.~ ~Nous n'avons plus rien à nous dire. Il est évident que tu ne vaux guère mieux qu'une roturière.~
-@163 = ~Oh ? Alors tu m'as fait perdre mon temps, et j'exige un service de ta part.~
-@164 = ~Exiger un service ? Tu n'es pas en position d'exiger quoi que ce soit de moi.~
+@163 = ~Oh ? Alors tu m'as fait perdre mon temps, j'exige donc un service de ta part.~
+@164 = ~Exiger un service ? Tu n'es pas en position d'exiger quoi que ce soit.~
 @165 = ~Vas-y. Quel est-il ?~
-@166 = ~Je n'ai pas le temps pour des banalités. Si je veux te parler, je le ferais. Mais dans l'autre sens ? Je ne crois pas.~
+@166 = ~Je n'ai pas le temps de faire la causette. Si je veux te parler, je t'adresserai la parole. Mais dans l'autre sens ? Je ne crois pas.~
 @167 = ~Si je t'autorise à me poser des questions. Alors j'ai le droit de te demander des services.~
-@168 = ~La prochaine fois que tu as besoin de renseignements sur moi, plutôt que de me dévisager comme un bouffon, pose tes questions.~
+@168 = ~La prochaine fois, quand tu auras besoin de quelque chose, plutôt que de me dévisager comme un bouffon, pose tes questions.~
 @169 = ~Très bien. J'ai effectivement une question ou deux pour toi.~
-@170 = ~D'accord, c'est bon, voilà une question pour toi : d'où es-tu originaire ?~
+@170 = ~D'accord, c'est bon, voilà une question pour toi : d'où viens-tu ?~
 @171 = ~Tes exigences sont sans intérêt. Je me fiche de ce que tu as à dire, mais tu devrais tendre l'oreille attentivement à ce que moi je te raconte.~ 
-@172 = ~La prochaine fois, quand tu auras besoin de renseignements sur moi, plutôt que de me dévisager comme un bouffon, pose tes questions.~
-@173 = ~Si tu penses que ça va marcher, j'ai peur que tu te trompes. Mais je vais prendre ça comme une bonne nouvelle.~
+@172 = ~La prochaine fois, quand tu auras besoin de quelque chose, plutôt que de me dévisager comme un bouffon, pose tes questions.~
+@173 = ~Si tu penses que ça va se passer comme ça, tu te trompes lourdement. Mais je vais prendre ça comme une bonne nouvelle.~
 @174 = ~Je n'aurai plus à entendre ton insupportable voix.~
-@175 = ~Alors arrête de perdre ton temps et demande.~
+@175 = ~Alors arrête de perdre du temps et parle.~
 @176 = ~D'où est-ce que tu viens ?~ 
 @177 = ~Pourquoi es-tu là ?~
 @178 = ~Que cherches-tu ?~ 
@@ -283,14 +283,14 @@ Elle suit un chemin que peu emprunte."~
 @187 = ~J'ai l'intention de rester dans les limites du raisonnable bien sûr.~
 @188 = ~Je désire pouvoir et gloire afin de protéger les pauvres et aider les faibles.~
 @189 = ~Je dirais que c'est une réponse relativement correcte, mais en même temps, un peu stupide.~
-@190 = ~Quand quelqu'un dit qu'il va accomplir quelque chose "par tous les moyens à sa disposition", ce n'est clairement pas possible. Qu'as-tu à sacrifier d'important qui ne soit pas ta propre vie ? Celle des autres ? Elle est déjà sans intérêt.~
+@190 = ~Quand quelqu'un dit qu'il va accomplir quelque chose "par tous les moyens à sa disposition", ce n'est clairement pas possible. Qu'as-tu à sacrifier d'important à part ta propre vie ? Celles des autres ? Elles sont déjà sans valeur à tes yeux.~
 @191 = ~Je retire ce que j'ai dit alors, je ne sais pas ce que je ferais.~
 @192 = ~Toutes les vies comptent. Si je peux l'éviter, je ne ferais de mal à personne.~
 @193 = ~Je suppose que tes paroles sont sensées.~
 @194 = ~Et maintenant tu reviens sur tes paroles ? Tu n'as ni la force ni la volonté d'assumer ta réponse ?~
 @195 = ~L'indécision est pour moi une faiblesse.~
 @196 = ~Et bien, que veux-tu que je dise ?~
-@197 = ~Tu as raison, je dois être plus sûr de moi quand je parle.~ ~Tu as raison, je dois être plus sure de moi quand je parle.~
+@197 = ~Tu as raison, je devrais être plus sûr de moi et de ce que je dis.~ ~Tu as raison, je devrais être plus sure de moi et de ce que je dis.~
 @198 = ~Ton opinion ne m'intéresse pas, je pense ce que je veux.~ 
 @199 = ~En temps normal, ça n'aurait aucune importance.~
 @200 = ~Mais parce que tu mènes ce groupe, ou en est le point de mire tout du moins, tes décisions pèsent fortement dans ce que nous faisons et comment nous l'accomplissons. Si tu hésites sur des questions aussi insignifiantes, ta quête va forcément échouer et ceux qui te suivent vont mourir.~
@@ -298,50 +298,50 @@ Elle suit un chemin que peu emprunte."~
 @202 = ~Tes décisions pèsent fortement dans ce que nous faisons et comment nous l'accomplissons. Si tu hésites sur des questions aussi insignifiantes, ta quête va forcément échouer et ceux qui te suivent vont mourir.~
 @203 = ~Un jour tu devras choisir entre atteindre tes objectifs ou les mettre de côté, simplement parce que tu auras voulu aider un mendiant dans la rue.~
 @204 = ~Quelle importance ce que je choisis ?~
-@205 = ~Et si je me mettais en quatre pour quelqu'un comme ça ?~
+@205 = ~Et si je décidais de mettre ma quête de côté pour l'un d'entre eux ?~
 @206 = ~Je choisirais évidemment mes objectifs. Je n'ai pas le temps pour des tâches sans intérêt.~
-@207 = ~S'il te plaît, explique-moi ce que la populace a fait pour toi. T'ont-ils donné naissance ? Ont-ils empêché qu'on te nuise ?~ [QI#Mi045]
-@208 = ~Non, s'ils pouvaient, ils se serviraient de toi comme de la chair à canon. S'ils pouvaient, ils te prendraient tout ce à quoi tu tiens. Si tu étais allongé mourant juste ici, tu sais ce que les gens du peuple feraient ? Ils te prendraient tous tes objets de valeur et te laisseraient agoniser dans la douleur.~ ~Non, s'ils pouvaient, ils se serviraient de toi comme de la chair à canon. S'ils pouvaient, ils te prendraient tout ce à quoi tu tiens. Si tu étais allongée mourante juste ici, tu sais ce que les gens du peuple feraient ? Ils te prendraient tous tes objets de valeur et te laisseraient agoniser dans la douleur.~
-@209 = ~Les gens sont des outils, pourquoi les traiter différemment ?~
+@207 = ~S'il te plaît, explique-moi ce que la populace a fait pour toi. Sont-ils de ta famille ? Ont-ils empêché qu'on te nuise ?~ [QI#Mi045]
+@208 = ~Non, s'ils pouvaient, ils se serviraient de toi comme de la chair à canon. S'ils pouvaient, ils te prendraient tout ce à quoi tu tiens. Si tu étais mourant, étendu à leurs pieds, tu sais ce que les gens du peuple feraient ? Ils te prendraient tous tes objets de valeur et te laisseraient agoniser dans la douleur.~ ~Non, s'ils pouvaient, ils se serviraient de toi comme de la chair à canon. S'ils pouvaient, ils te prendraient tout ce à quoi tu tiens. Si tu étais mourante, étendue à leurs pieds, tu sais ce que les gens du peuple feraient ? Ils te prendraient tous tes objets de valeur et te laisseraient agoniser dans la douleur.~
+@209 = ~Les gens sont juste des outils, pourquoi les traiter différemment ?~
 @210 = ~Tu as tort. Je ne veux plus entendre un mot sortir de ta bouche maléfique. À partir de maintenant, tu vas te taire.~ 
-@211 = ~Les gens ne sont pas des outils. Les gens sont des gens, et ils ont mérité de vivre tout autant que toi.~
+@211 = ~Les gens ne sont pas des outils. Les gens sont des gens, et ils méritent de vivre tout autant que toi.~
 @212 = ~Encore une fois, tu as raison.~
 @213 = ~Comme tu voudras. Sache juste que ce raisonnement est pour les faibles.~ [QI#Mi046]
 @214 = ~À chacun ses opinions je suppose, mêmes si elles sont idiotes et déraisonnables.~
 @215 = ~Certaines vies ont plus de valeur que d'autres. Le monde a toujours fonctionné ainsi. Plus on est puissant et riche, plus notre vie est influente et précieuse en comparaison de ceux qui ne le sont pas. Un roturier de bas-étage ou un mendiant ? Ils n'auront jamais aucune influence sur le cours de l'histoire.~
 @216 = ~Pourquoi ne pas être d'accord avec moi dès le départ alors, que je ne perde pas mon temps à t'expliquer des choses élémentaires.~
-@217 = ~Néanmoins, je suis satisfaite d'avoir pu t'éclairer sur la vérité. Souviens-toi juste que certaines vies ont plus de valeur que d'autres. Le monde a toujours fonctionné ainsi. Plus on est puissant et riche, plus notre vie est influente et précieuse en comparaison de ceux qui ne le sont pas. Un roturier de bas-étage ou un mendiant ? Ils n'auront jamais aucune influence sur le cours de l'histoire.~
-@218 = ~L'égalité n'existe pas, il y aura toujours des pauvres. Même si tu les inondais de richesses au delà de toute imagination, ils arriveraient toujours à replonger dans la misère où ils étaient précédemment. Ils sont démunis pour une raison.~ [QI#Mi048]
+@217 = ~Néanmoins, je suis satisfaite d'avoir pu t'éclairer sur la réalité. Souviens-toi juste que certaines vies ont plus de valeur que d'autres. Le monde a toujours fonctionné ainsi. Plus on est puissant et riche, plus notre vie est influente et précieuse en comparaison de ceux qui ne le sont pas. Un roturier de bas-étage ou un mendiant ? Ils n'auront jamais aucune influence sur le cours de l'histoire.~
+@218 = ~L'égalité n'existe pas, il y aura toujours des pauvres. Même si tu les couvrais de richesses au delà de toute imagination, ils arriveraient toujours à replonger dans la misère où ils étaient précédemment. Ils sont démunis pour une raison.~ [QI#Mi048]
 @219 = ~N'accorde jamais d'importance à ceux qui te sont inférieurs.~ [QI#Mi049]
 @220 = ~"Les limites du raisonnable" - ça c'est un avis avec lequel je suis d'accord.~
 @221 = ~J'ai rencontré très peu de personnes qui étaient aussi rationnelles que toi. Je peux donc en conclure que nous sommes d'accord sur un point : la vie de ceux qui nous sont inférieurs ne signifie rien pour nous. Je suis contente que nous ayons le même point de vue.~
 @222 = ~Attends, je n'ai jamais rien dit de tel. Tu ne peux pas en déduire ça.~
-@223 = ~C'est horrible à dire ! Tout le monde mérite une chance de vivre, personne ne vaut moins que son prochain. Toutes nos existences se valent.~
+@223 = ~C'est horrible à dire ! Tout le monde mérite sa chance, une vie en vaut une autre et nous sommes tous égaux.~
 @224 = ~Et ta supposition serait correcte.~
 @225 = ~Je suis contente de voir que nous avons certaines opinions en commun. Tu remontes très légèrement dans mon estime, mais n'y accorde pas trop d'importance. Tu pars de vraiment bas.~
-@226 = ~Néanmoins, je suis satisfaite d'avoir pu t'éclairer sur la vérité. Souviens-toi juste que certaines vies ont plus de valeur que d'autres. Le monde a toujours fonctionné ainsi. Plus on est puissant et riche, plus notre vie est influente et précieuse en comparaison de ceux qui ne le sont pas. Un roturier de bas-étage ou un mendiant ? Ils n'auront jamais aucune influence sur le cours de l'histoire.~
-@227 = ~Hm... c'est très intéressant en effet. Mais que pouvait-il bien te vouloir ? Tu n'as pourtant pas l'air de sortir de l'ordinaire, en dehors de tes origines bien sûr.~
+@226 = ~Néanmoins, je suis satisfaite d'avoir pu t'éclairer sur la réalité. Souviens-toi juste que certaines vies ont plus de valeur que d'autres. Le monde a toujours fonctionné ainsi. Plus on est puissant et riche, plus notre vie est influente et précieuse en comparaison de ceux qui ne le sont pas. Un roturier de bas-étage ou un mendiant ? Ils n'auront jamais aucune influence sur le cours de l'histoire.~
+@227 = ~Hm... c'est très intéressant en effet. Mais que pouvait-il bien te vouloir ? Tu n'as pourtant pas l'air de sortir de l'ordinaire, à l'exception de tes origines bien sûr.~
 @228 = ~Excuse-moi. Je suis toujours là.~
 @229 = ~Exactement ce que je pensais.~
-@230 = ~Ce qu'il me veut n'a pas d'importance, c'est ce qu'il m'a fait qui en a. Il doit payer pour ses actions.~
-@231 = ~Est-ce que tu as vraiment l'impression que ça m'importe ? Si c'était le cas, ça ne se serait pas échapper de mes lèvres.~
-@232 = ~Parfois, te parler ou même t'écouter me demande un tel effort intellectuel, mais je suppose qu'il y a toujours une récompense à écouter des benêts, que ce soit des ragots juteux ou les entendre se plaindre des "difficultés" de la vie.~
+@230 = ~Ce qu'il me veut n'a pas d'importance, c'est ce qu'il m'a fait qui en a. Il doit payer pour ses actes.~
+@231 = ~As-tu vraiment l'impression que j'en ai quelque chose à faire ? Si c'était le cas, ça ne m'aurait pas glissé entre les lèvres.~
+@232 = ~Parfois, te parler ou même t'écouter me demande un tel effort intellectuel, mais je suppose qu'il y a toujours une récompense à écouter des benêts, que ce soit pour des informations lucratives ou simplement pour les entendre se plaindre de leur vie si "difficile".~
 @233 = ~Pourquoi as-tu une aussi mauvaise opinion des gens du peuple ?~
 @234 = ~J'envie les gens qui mènent une existence normale. Je pense que ça me sera pour toujours inaccessible.~ 
 @235 = ~Ah ! Je suis entièrement d'accord.~
 @236 = ~Tu envies cette racaille ?!~
-@237 = ~Tu veux vivre dans l'ennui ? Ils ne connaissent aucune excitation, et laissent le reste du monde les contrôler. Ils ne peuvent jamais devenir célèbres. Quand ils meurent, ils sont aussitôt oubliés.~
-@238 = ~Leur vie est triste, sans histoire. Si j'avais su que tu étais aussi bête qu'eux, je n'aurais jamais accepté de t'accompagner.~
-@239 = ~Cependant, laisse-moi clarifier mes propos, tu n'es pas aussi banal que la plèbe d'Amn, ou d'une quelconque autre ville d'ailleurs.~ ~Cependant, laisse-moi clarifier mes propos, tu n'es pas aussi banale que la plèbe d'Amn, ou d'une quelconque autre ville d'ailleurs.~
+@237 = ~Tu veux vivre dans l'ennui ? Ils ne connaissent aucune excitation, et laissent le reste du monde les contrôler. Ils n'auront jamais aucune renommée. A leur mort, ils seront aussitôt oubliés.~
+@238 = ~Leur vie est triste, sans histoire. Si j'avais su que tu étais à leur niveau, je n'aurais jamais accepté de t'accompagner.~
+@239 = ~Cependant, laisse-moi clarifier mes propos, tu n'es pas aussi banal que ces manants qui pullulent en Amn, ou ailleurs.~ ~Cependant, laisse-moi clarifier mes propos, tu n'es pas aussi banale que ces manants qui pullulent en Amn, ou ailleurs.~
 @240 = ~Ta vie a définitivement plus de valeur que la leur n'en aura jamais.~
 @241 = ~Pourquoi as-tu une aussi mauvaise opinion des gens du peuple ?~
 @242 = ~J'envie les gens qui mènent une existence normale. Je pense que ça me sera pour toujours inaccessible.~
 @243 = ~Ah ! Je suis entièrement d'accord.~
 @244 = ~Bien sûr, je suis d'accord, il doit payer.~
-@245 = ~Amie ? En quoi est-elle importante pour toi ?~
+@245 = ~Ton amie ? En quoi est-elle importante pour toi ?~
 @246 = ~C'est mon amie d'enfance.~
 @247 = ~Elle pourrait avoir des informations d'importance sur mon ravisseur.~
-@248 = ~Les amis tu dis, je suppose qu'ils peuvent être bien pratiques... s'ils sont de la bonne sorte évidemment.~
+@248 = ~Les amis tu dis, je suppose qu'ils peuvent être bien pratiques... s'ils en valent la peine évidemment.~
 @249 = ~Je vais supposer que ton amie est une mage puissante ou une guerrière de renom. Ça n'aurait pas de sens de faire tant d'efforts pour secourir une personne moins importante.~
 @250 = ~Personne ne mérite d'être torturé par Irenicus. Je sauverais n'importe qui de ses griffes, même des gens ordinaires.~
 @251 = ~Certaines personnes méritent tout simplement qu'on les sauve.~
@@ -353,44 +353,44 @@ Elle suit un chemin que peu emprunte."~
 @255 = ~Tu as été élevé à Château-Suif, c'est bien cela ?~ ~Tu as été élevée à Château-Suif, c'est bien cela ?~ [QI#Mi050]
 @256 = ~Oui, c'est exact. Pourquoi cette question ?~ 
 @257 = ~Je n'ai pas le temps de discuter de choses sans importance Minyae.~
-@258 = ~Je suis curieuse de comment tu fais pour survivre.~
-@259 = ~Tu as dû être très protégé. Comment as-tu obtenu une si grande puissance ?~ ~Tu as dû être très protégée. Comment as-tu obtenu une si grande puissance ?~
-@260 = ~Pourquoi est-ce que toutes tes conversations, ou presque, ont pour sujet la puissance ?~
-@261 = ~De quoi d'autre voudrais-tu que nous parlions ? Du temps que met l'herbe à pousser ?~ [QI#Mi051]
-@262 = ~Pourquoi est-ce qu'on ne parlerait pas de toi ?~
+@258 = ~Je suis curieuse de savoir comment tu fais pour survivre.~
+@259 = ~Tu as dû être très protégé. Comment as-tu obtenu autant de pouvoir ?~ ~Tu as dû être très protégée. Comment as-tu obtenu autant de pouvoir ?~
+@260 = ~Pourquoi est-ce que toutes tes conversations, ou presque, tournent-elles autour du pouvoir ?~
+@261 = ~De quoi d'autre voudrais-tu que nous parlions ? Du temps qu'il fait ? De l'herbe qui pousse ?~ [QI#Mi051]
+@262 = ~Pourquoi ne parlerait-on pas de toi ?~
 @263 = ~Pourquoi devrais-je te raconter quoi que ce soit à mon propos ?~
-@264 = ~Parce que j'ai demandé en premier. Si tu as des questions, pose-les moi.~
-@265 = ~Tu n'es pas aussi divertissant que je pensais.~ ~Tu n'es pas aussi divertissante que je pensais.~
+@264 = ~Parce que j'ai demandé en premier. Si tu as des questions, tu n'as qu'à venir me les poser.~
+@265 = ~Tu n'es pas aussi distrayant que je pensais.~ ~Tu n'es pas aussi distrayante que je pensais.~
 @266 = ~Quel dommage.~
 
 // Discussion - histoire partie 1
 @267 = ~Te souviens-tu de notre dernière discussion ?~ [QI#Mi052]
 @268 = ~Oui, bien sûr.~
 @269 = ~Non, pas trop.~
-@270 = ~Bien. Tant mieux que je n'aie pas à me répéter. C'est quelque chose que je déteste faire.~
-@271 = ~Bref, ce n'est pas le sujet de cette conversation en particulier.~
+@270 = ~Bien. Tant mieux, je déteste me répéter.~
+@271 = ~Bref, ce n'est pas le sujet de cette conversation de toute façon.~
 @272 = ~J'ai une histoire à te raconter.~
 @273 = ~Bien sûr, j'ai le temps de t'écouter.~ 
 @274 = ~D'accord mais abrège.~
 @275 = ~Minyae, je me fiche complètement de l'histoire de ta vie ou de quoi que ce soit d'autre que tu aurais à me raconter. Tu n'es ici que pour une seule raison et c'est de m'aider dans ma quête.~
-@276 = ~J'espère que tu connais le profond respect que j'ai envers le savoir. J'ai été claire sur le sujet de nombreuses fois. Si tu n'avais pas encore saisi, tu es clairement obtus.~ ~J'espère que tu connais le profond respect que j'ai envers le savoir. J'ai été claire sur le sujet de nombreuses fois. Si tu n'avais pas encore saisi, tu es clairement obtuse.~
+@276 = ~J'espère que tu connais mon profond respect pour le savoir. J'ai été claire sur le sujet de nombreuses fois. Si tu n'avais pas encore saisi, tu es clairement obtus.~ ~J'espère que tu connais mon profond respect pour le savoir. J'ai été claire sur le sujet de nombreuses fois. Si tu n'avais pas encore saisi, tu es clairement obtuse.~
 @277 = ~Mais je me laisse distraire à nouveau, alors je vais maintenant commencer mon histoire.~
-@278 = ~Je t'ai dit que pour moi, manipuler les gens et les voler était une grande source d'excitation. En fait, ça n'a pas toujours été le cas.~
-@279 = ~Quand j'étais une petit fille, j'avais l'habitude d'attendre et de regarder passer les caravanes de marchants à travers la forêt.~
+@278 = ~Je t'ai raconté que pour moi, manipuler les gens et les voler était une grande source d'excitation. En fait, ça n'a pas toujours été le cas.~
+@279 = ~Quand j'étais une petit fille, j'avais l'habitude d'attendre les caravanes de marchands pour les regarder passer à travers la forêt.~
 @280 = ~Je vais avoir besoin que tu accélères un peu la suite.~
 @281 = ~Continue.~
-@282 = ~Tu m'as dit juste avant que tu avais le temps, il n'y a donc aucune raison d'accélérer. Mais puisque je suis une si bonne personne, je vais tenir compte de ta demande, ce qui est clairement plus que tu ne mérites.~
-@283 = ~Alors, où en étais-je avant d'être brutalement ininterrompue ? Ah, je me souviens...~
+@282 = ~Tu viens de me dire que tu avais le temps, il n'y a donc aucune raison pour que j'accélère. Mais je suis tellement gentille que je vais tenir compte de ta demande, même si tu ne le mérites pas.~
+@283 = ~Alors, où en étais-je avant d'être si brutalement interrompue ? Ah, je me souviens...~
 @284 = ~C'est effectivement une information importante, au moins, me voilà au courant. Je ne gaspillerai plus ma salive à te parler.~
 @285 = ~Et bien laisse-moi rafraîchir ta mémoire engourdie.~
-@286 = ~Tu t'es renseigné sur mon passé, et je t'ai donné les réponses que tu cherchais. Nous avons discuté de comment j'ai survécu durant mon enfance, puis mon adolescence.~
-@287 = ~Mais je ne suis pas là pour te redonner les mêmes informations qu'avant.~
-@288 = ~Et j'ai une histoire à te raconter.~
-@289 = ~Quand j'étais une petite fille, j'avais l'habitude d'attendre et de regarder passer les caravanes de marchants à travers la forêt où je vivais. Je me perchais haut dans les arbres pour voir combien de gardes protégeaient les caravanes. Et alors qu'ils installaient leur camp pour la nuit, je me glissais discrètement près du feu pour les écouter.~
-@290 = ~Je les écoutais parler de ce qu'ils transportaient et des "difficultés" de leurs vies simples. J'aimais particulièrement les entendre narrer leurs souvenirs pour passer le temps. C'était mon moment préféré, celui où je pouvais enfin briller. Celui où je mettais mes talents à profit.~
-@291 = ~À un moment, je me souviens avoir été réveillée par des chuchotements et le bruit sourd des roues sur l'herbe luxuriante de la forêt sombre. Je me souviens avoir regardé aux alentours depuis mon perchoir, à moitié endormie et avoir vu un convoi lourdement gardé.~
-@292 = ~Par chance, ils s'étaient arrêtés pour se reposer pile sous l'arbre sur lequel je dormais. J'ai remarqué le groupe de cinq gardes rassemblés autour d'un chariot aux roues bordées d'argent.~
-@293 = ~"Ils transportent probablement quelque chose de suspect... ou de précieux", je me suis dit. Et rien ne m'excitait plus que la perspective d'un butin de valeur, et que le risque de me faire prendre. Mais je ne me serais jamais attendue à ce que les événements prennent une telle tournure.~
+@286 = ~Tu voulais en savoir plus sur mon passé, et je t'ai donné les réponses que tu cherchais. Nous avons discuté de comment j'ai survécu durant mon enfance, puis mon adolescence.~
+@287 = ~Mais je ne suis pas là pour répéter ce que j'ai déjà dit.~
+@288 = ~Par contre j'ai une histoire à te raconter.~
+@289 = ~Quand j'étais une petite fille, j'avais l'habitude d'attendre les caravanes de marchands pour les regarder passer à travers la forêt où je vivais. Je me perchais haut dans les arbres pour voir combien de gardes les protégeaient. Et alors qu'ils installaient leur camp pour la nuit, je me glissais discrètement près du feu pour les écouter.~
+@290 = ~Je les écoutais parler de leurs marchandises et des "difficultés" de leurs vies quotidiennes. J'aimais particulièrement les entendre narrer leurs souvenirs pour passer le temps. C'était mon moment préféré, celui où je pouvais enfin briller. Celui où je mettais mes talents à profit.~
+@291 = ~Un jour, je me souviens avoir été réveillée par des chuchotements et le bruit sourd des roues sur l'herbe luxuriante de cette sombre forêt. Je me souviens avoir regardé aux alentours depuis mon perchoir, à moitié endormie et avoir aperçu un convoi lourdement gardé.~
+@292 = ~Par chance, ils s'étaient arrêtés pour se reposer au pied de l'arbre sur lequel je dormais. J'ai alors remarqué un groupe de cinq gardes rassemblés autour d'un chariot aux roues bordées d'argent.~
+@293 = ~Je me suis dit : "ils transportent probablement quelque chose de louche... ou de précieux". Et rien ne m'excitait plus que la perspective d'un butin de valeur, et que le risque de me faire prendre. Mais je ne me serais jamais attendue à ce que les événements prennent une telle tournure.~
 @294 = ~Laisse-moi deviner, tu as tenté de voler le chariot et tu t'es faite attraper ?~ 
 @295 = ~Que s'est-il passé ?~
 @296 = ~Et c'est le moment où je te laisse sur ce rebondissement insoutenable.~ [QI#Mi053]
@@ -400,74 +400,74 @@ Elle suit un chemin que peu emprunte."~
 // Discussion - histoire partie 2
 @299 = ~Je suis prête à continuer mon histoire, si tu veux bien prendre le temps d'écouter.~ [QI#Mi055]
 @300 = ~Évidemment, j'ai assez hâte de savoir la suite.~ 
-@301 = ~Si tu te dépêches, je te laisse parler.~
-@302 = ~Je n'ai pas le temps pour ça ! Je ne vois pas où tu veux en venir avec ton histoire, je ne vois même pas pourquoi tu continues à parler.~
-@303 = ~Pour te rafraîchir la mémoire, je me suis arrêtée vers le point culminant de l'histoire. Et je me suis délectée de voir ta tête quand j'ai refusé de la poursuivre.~
-@304 = ~Mais maintenant je vais continuer...~
-@305 = ~Encore ces exigences ! Ça commence à me fatiguer. Mais je vais faire comme tu veux pour le moment...~
-@306 = ~Alors tu n'as jamais été très patient. Tu es non seulement impétueux, mais aussi idiot.~ ~Alors tu n'as jamais été très patiente. Tu es non seulement impétueuse, mais aussi idiote.~
+@301 = ~Si tu te dépêches, je t'écoute.~
+@302 = ~Je n'ai pas le temps pour ça ! Je ne vois pas où tu veux en venir avec ton histoire, je ne comprends même pas pourquoi tu continues à parler.~
+@303 = ~Afin de rafraîchir ta mémoire, je m'étais arrêtée au point culminant. Et je me suis délectée de ton dépit quand j'ai refusé de la poursuivre.~
+@304 = ~Mais maintenant je vais te raconter la suite...~
+@305 = ~Encore des exigences ! Ça commence à me fatiguer. Mais je vais faire à ta guise pour le moment...~
+@306 = ~Alors tu n'as jamais eu aucune patience. Tu es non seulement impétueux, mais aussi idiot.~ ~Alors tu n'as jamais eu aucune patience. Tu es non seulement impétueuse, mais aussi idiote.~
 @307 = ~Au moins, je sais que je peux arrêter de perdre mon temps avec toi.~
 @308 = ~J'avais récemment découvert que j'étais douée de magie, et comme tu peux le deviner, je l'ai utilisé à mon avantage.~
-@309 = ~Je ne pouvais lancer que quelques sorts mineurs à l'époque, mais je n'avais pas besoin de plus. J'ai créé une petite flamme que j'ai tirée dans les airs pour servir de distraction, et quelle distraction ça a été.~
+@309 = ~Je ne pouvais lancer que quelques sorts mineurs à l'époque, mais je n'avais pas besoin de plus. J'ai créé une petite flamme que j'ai envoyée dans les airs pour servir de distraction, et quelle distraction ça a été.~
 @310 = ~Et après ?~
 @311 = ~La vive lumière rouge a tout de suite alertée les gardes, et celui que j'ai supposé être leur chef, a calmement fait un signe à la moitié de la troupe pour qu'ils explorent la zone.~ 
-@312 = ~J'étais une petit gamine maigrichonne alors on ne me repérait pas facilement. J'ai saisi cette opportunité pour me diriger vers le chariot, maintenant à moitié surveillé. Entre moi et mon prix, il n'y avait plus que le commandant du groupe et deux de ses gardes.~
-@313 = ~L'obscurité de la nuit jouait en ma faveur, mais hélas, ce qui est arrivé ensuite m'a stupéfait.~ 
-@314 = ~Une volée de flèches a été tirée depuis des buissons de l'autre côté du chariot. Elle a instantanément tué les deux gardes restant, ne laissant que le commandant debout, seul.~
+@312 = ~J'étais une petit gamine maigrichonne alors on ne me repérait pas facilement. J'ai saisi cette opportunité pour me diriger vers le chariot, maintenant à moitié surveillé. Entre moi et mon butin, il n'y avait plus que le commandant du groupe et deux de ses gardes.~
+@313 = ~L'obscurité de la nuit jouait en ma faveur, mais hélas, ce qui est arrivé ensuite m'a profondément bouleversée.~ 
+@314 = ~Une volée de flèches a été tirée depuis des buissons de l'autre côté du chariot, tuant instantanément les deux gardes, ne laissant que le commandant debout, seul contre tous.~
 @315 = ~As-tu tenté de le sauver ?~
-@316 = ~Qu'est-ce que tu as fait ?~
+@316 = ~Qu'as-tu fait alors ?~
 @317 = ~Ah ! Je n'étais qu'une enfant, comment aurais-je pu aider un homme équipé d'une lourde et bruyante cotte de mailles ?~
 @318 = ~Ses ennemis auraient entendu les cliquetis du métal à plusieurs mètres de distance et nous auraient tué tous les deux !~
 @319 = ~J'ai réagi comme n'importe quelle autre petite elfe rusée à ma place.~
 @320 = ~Durant les quelques secondes qu'il a fallu pour viser et tirer une autre volée, je me suis faufilée dans la caravane criblée de flèches et j'ai pris avec moi le plus petit objet que je pouvais transporter.~
-@321 = ~Je n'ai pas eu beaucoup de temps pour regarder ce que c'était, mais je ne devais pas m'attarder. J'ai serré mon butin contre ma poitrine, et je me suis précipitée en direction des arbres, toujours plus loin du chariot.~
-@322 = ~J'ai dû courir pendant des heures, parce que je ne me suis arrêtée qu'après avoir atteint une petite ouverture dans la forêt, que la lune éclairait intensément.~
+@321 = ~Je n'ai pas eu beaucoup de temps pour regarder ce que c'était, je ne pouvais pas m'attarder. J'ai serré mon butin contre ma poitrine, et je me suis précipitée en direction des arbres, toujours plus loin du chariot.~
+@322 = ~J'ai dû courir pendant des heures, je ne me suis arrêtée qu'après avoir atteint une petite clairière, que la lune éclairait intensément.~
 @323 = ~Mais tu as laissé cet homme mourir ! Comment peux-tu vivre avec ça ?~
 @324 = ~Tu as probablement fait le choix le plus intelligent.~
 @325 = ~Je me fiche de cet homme. Son devoir était de protéger le chariot, et il a lamentablement échoué. Son châtiment était mérité.~ [QI#Mi056]
-@326 = ~Je ne vois pas pourquoi j'aiderais un homme qui est déjà condamné.~
+@326 = ~Je ne vois pas pourquoi j'aurais dû aider un homme déjà condamné.~
 @327 = ~Toute vie est précieuse - quelle qu'elle soit.~
 @328 = ~Pourquoi te considères-tu à ce point au dessus des autres ?~
 @329 = ~Je crois que je peux comprendre ton raisonnement.~
-@330 = ~Mais est-ce vraiment le cas ? Tu marches sur de l'herbe. Tu tues des animaux pour leur fourrure et leur viande. Tu massacres les malheureux qui se mettent en travers de ta quête.~ [QI#Mi057]
+@330 = ~Vraiment ? Tu piétines bien l'herbe et tues les animaux pour leur fourrure et leur viande. Tu massacres aussi les malheureux qui se mettent en travers de ta route.~ [QI#Mi057]
 @331 = ~Je n'en tire aucun plaisir. Je le fais car je le dois.~
 @332 = ~Je crois que je comprends ton raisonnement.~
-@333 = ~Mais comment quelqu'un comme toi peut-il juger mes actions alors que la mort te suit où que tu ailles ?~ [QI#Mi058]
-@334 = ~Je suis meilleure que n'importe quel roturier. Je suis plus rapide, plus intelligente, plus belle aussi... la liste est longue.~
-@335 = ~Mais je n'ai pas besoin de te le prouver.~
+@333 = ~Et comment quelqu'un comme toi peut-il me juger alors que la mort te suit partout ?~ [QI#Mi058]
+@334 = ~Je suis bien meilleure que n'importe quel roturier. Je suis plus rapide, plus intelligente, plus belle aussi... la liste est longue.~
+@335 = ~Mais je n'ai rien à te prouver.~
 @336 = ~Tant mieux si tu partages mon point de vue.~
 @337 = ~Ceci étant dit, voici matière à réflexion pour quand nous seront sur la route.~
-@338 = ~Peux-tu réellement juger quelqu'un uniquement sur ses actions ? Pour toi ou un autre, la définition du mal est ce que tu considères comme moralement répréhensible.~ [QI#Mi059]
-@339 = ~Mais imagine-toi à la place d'un conquérant qui a tué par milliers et assujetti nombre de terres afin de protéger son peuple. Celui-ci va penser que c'est un dirigeant aimant et juste, tandis que les conquis vont le considérer comme un tyran.~ [QI#Mi060]
-@340 = ~Peux-tu vraiment condamner quelqu'un qui fait ce qu'il pense être le mieux pour son pays ? Peux-tu me condamner pour essayer de vivre, pour essayer de survivre même ?~ [QI#Mi061]
-@341 = ~J'en ai dit bien assez, et tu es probablement déjà submergé par tes propres pensées. Réfléchis bien à mes paroles.~ ~J'en ai dit bien assez, et tu es probablement déjà submergée par tes propres pensées. Réfléchis bien à mes paroles.~
-@342 = ~Et avant que tu ne décides de me casser les pieds, les démons sont une vraie source du mal.~
+@338 = ~Peux-tu réellement juger quelqu'un uniquement sur ses actes ? Pour toi ou n'importe qui, la définition du mal est ce que chacun considère comme moralement répréhensible.~ [QI#Mi059]
+@339 = ~Mais imagine-toi à la place d'un conquérant qui aurait tué par milliers et annexé nombre de terres afin de protéger les siens. Son peuple le verra comme un dirigeant aimant et juste, tandis que ceux qui ont été conquis l'appelleront tyran.~ [QI#Mi060]
+@340 = ~Peux-tu vraiment condamner quelqu'un qui pense sincèrement agir pour son pays ? Peux-tu me condamner pour essayer de vivre, pour essayer de survivre même ?~ [QI#Mi061]
+@341 = ~J'en ai dit bien assez, et tu es probablement submergé par tes propres pensées. Prends le temps de réfléchir à mes paroles.~ ~J'en ai dit bien assez, et tu es probablement submergée par tes propres pensées. Prends le temps de réfléchir à mes paroles.~
+@342 = ~Et avant que tu ne décides de me casser les pieds, oui, les démons sont vraiment maléfiques.~
 
 // Discussion - histoire partie 3
-@343 = ~Je crois que je t'ai laissé assez de temps pour réfléchir à nos discussions, tu ne penses pas ?~ [QI#Mi062]
-@344 = ~Aucune importance de toute manière, ton opinion ne m'intéresse pas. Je voulais juste te montrer que le monde n'est pas simplement noir ou blanc, et je pense que j'ai réussi à te faire passer le message.~
+@343 = ~Je crois que je t'ai laissé assez de temps pour réfléchir à notre discussion, tu ne penses pas ?~ [QI#Mi062]
+@344 = ~Aucune importance de toute manière, ton opinion m'importe peu. Je voulais juste te montrer que le monde n'est pas simplement noir ou blanc, et je pense que j'ai réussi à te faire passer le message.~
 @345 = ~Oui, ce dont nous avons discuté était réellement fascinant. Ça m'a fait profondément réfléchir, et je t'en remercie.~
 @346 = ~C'était intéressant, mais ça ne méritait pas particulièrement que j'y réfléchisse plus que ça.~
 @347 = ~Le monde est tout noir ou tout blanc. C'est comme ça, ça l'a toujours été.~
 @348 = ~Si tu te fiches de mon avis, pourquoi prendre la peine de me partager une idée si controversée ?~ 
 @349 = ~Bien. Peut-être que tu n'es pas complètement une cause perdue finalement.~
 @350 = ~Au moins, tu as pris le temps d'y penser, c'est plus que je n'en espérais.~
-@351 = ~Si c'est ce que tu penses et que tu n'en démordras pas, alors il n'y a rien que je puisse faire pour te persuader du contraire.~
-@352 = ~Mes arguments étaient plutôt convaincants, si je peux me permettre, mais tu refuses de voir au delà de tes croyances. Je t'ai probablement accordé plus de crédit que tu n'en méritais.~
+@351 = ~Si tu ne comptes pas en démordre, alors il n'y a rien que je puisse faire pour te persuader du contraire.~
+@352 = ~Mes arguments étaient plutôt convaincants, si je peux me permettre, mais tu refuses de voir au delà de tes certitudes. Je t'ai probablement accordé plus de crédit que tu n'en méritais.~
 @353 = ~Parce que tu en aurais au moins eu connaissance et peux-être même que tu l'aurais considérée. Mais je suppose que c'est ma faute, je t'ai probablement accordé plus de crédit que tu n'en méritais.~
 @354 = ~Toutefois, mon histoire n'est pas encore terminée.~ [QI#Mi063]
 @355 = ~Toujours pas ? Ugh, ça va être encore long ? Fais vite par pitié.~
-@356 = ~Alors poursuis s'il te plaît. J'aimerais que tu la finisses.~
+@356 = ~Alors poursuis s'il te plaît. J'aimerais entendre la suite.~
 @357 = ~Je suppose que tu peux continuer.~
 @358 = ~Tes divagations commencent vraiment à me fatiguer.~
 @359 = ~Patience !~
-@360 = ~La patience est la clé de toutes les connaissances ! La patience est la clé de tout ce que tu pourras apprendre ! On n'assimile pas un livre simplement en le regardant et en parcourant ses pages !~
-@361 = ~T'entendre te plaindre me fatigue. Tu n'es rien d'autre qu'un idiot.~ ~T'entendre te plaindre me fatigue. Tu n'es rien d'autre qu'une idiote.~
+@360 = ~La patience est la clé de tout apprentissage ! La base de toutes les connaissances ! On n'assimile pas un livre simplement en le regardant et en survolant ses pages !~
+@361 = ~Je suis lasse de tes remarques. Tu n'es rien d'autre qu'un idiot.~ ~Je suis lasse de tes remarques. Tu n'es rien d'autre qu'une idiote.~
 @362 = ~Je te remercie pour ton infinie patience. Il est plaisant de voir que tout le monde n'en est pas dépourvu.~
 @363 = ~Alors, où nous étions nous arrêté... Ah oui, je me rappelle maintenant. L'objet que je tenais dans mes mains était un tout petit coffre, et j'étais sur le point de découvrir son contenu.~
 @364 = ~Évidemment, il était verrouillé et piégé, mais j'étais suffisamment talentueuse pour me défaire de ces deux protections avec succès.~
 @365 = ~Je ne suis pas là pour t'écouter te vanter.~
-@366 = ~Bravo. Tu peux continuer ton histoire maintenant ?~
+@366 = ~Bravo. Peux-tu continuer maintenant ?~
 @367 = ~Hmm, je dois l'admettre. Pour une fois, tu n'as pas tort. Mais tout de même, j'ai senti que je devais te rappeler à quel point j'étais extraordinaire pour un si jeune âge.~
 @368 = ~Mais je vais nous faire à tous les deux ce plaisir, et poursuivre.~
 @369 = ~J'ai senti que je devais te rappeler à quel point j'étais extraordinaire pour un si jeune âge. Mais très bien, je reprends.~
@@ -476,9 +476,9 @@ Elle suit un chemin que peu emprunte."~
 @372 = ~Qu'est-ce que c'était ?~
 @373 = ~J'ai trouvé un morceau de parchemin.~
 @374 = ~Tu as trouvé un bout de papier ?~
-@375 = ~Oui, "un bout de papier". Il était complètement vierge aussi. J'étais tellement furieuse. J'avais risqué ma vie pour un bout de papier, et pas seulement ça, il y avait d'autres coffres à ma disposition, mais il a fallu que je choisisse celui-ci en particulier !~
-@376 = ~J'ai froissé le papier et l'ai jeté par terre, dans l'herbe éclairée par la lune. J'étais sur le point de m'éloigner quand mon instinct m'a poussé à me retourner.~
-@377 = ~Et là, j'ai vu que le parchemin était couvert de gribouillages bleus. J'ai compris comment j'avais si facilement désarmé le piège et le verrous - il était imprégné d'un pouvoir magique qui lui était propre. Seul le clair de lune... d'une pleine lune avait révélé son secret. Sinon, ce serait resté un simple parchemin, qui aurait fini dans les livres de compte d'un marchand ou bien jeté aux ordures.~
+@375 = ~Oui, "un bout de papier"... complètement vierge. J'étais tellement furieuse. Il y avait d'autres coffres à ma disposition, mais il a fallu que je choisisse celui-ci en particulier ! Il a fallu que je risque ma vie pour un bout de papier !~
+@376 = ~J'ai froissé le papier et l'ai jeté dans l'herbe, sous le clair de lune. J'étais sur le point de m'éloigner quand mon instinct m'a poussé à me retourner.~
+@377 = ~Et là, j'ai vu que le parchemin était couvert de gribouillages bleus. J'ai compris comment j'avais si facilement désarmé le piège et le verrous - il était imprégné d'un pouvoir magique particulier. Seul la lumière de la lune... de la pleine lune pouvait révéler son secret. Sans elle, ce serait resté un simple parchemin, un parchemin qui aurait certainement fini dans les livres de compte d'un marchand ou bien jeté aux ordures.~
 @378 = ~Et qu'il y avait-il dessus ?~
 @379 = ~Ce n'est pas quelque chose que je suis disposée à partager avec toi pour le moment.~ [QI#Mi064]
 @380 = ~Peut-être un autre jour.~ [QI#Mi065]
@@ -914,7 +914,7 @@ Elle suit un chemin que peu emprunte."~
 @760 = ~Avec tout l'argent que nous venons de dépenser, j'espère bien.~
 
 // Kveroslava - voyante (2)
-@761 = ~Et qu'est-ce que tu connais de mon but d'abord ? Absolument rien. Hors de ma vue. Quelle perte de temps et d'argent.~
+@761 = ~Et que sais tu de mes intentions ? Absolument rien. Hors de ma vue. Quelle perte de temps et d'argent.~
 
 /* Conflits avec le mod Edwin Romance (du coup, féminin uniquement) */
 
