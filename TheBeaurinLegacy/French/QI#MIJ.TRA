@@ -518,7 +518,7 @@ En empruntant ce chemin qui n'est pas commun."~
 @412 = ~J'ai pris le parchemin froissé et je l'ai tenu sous l'éclat de la lune, puis j'ai attendu que les écritures bleus familières apparaissent à nouveau, comme par le passé.~
 @413 = ~Et enfin, il s'est mis à briller de nouveau, et cette fois, j'étais capable de le lire. Et c'est ainsi que j'ai appris la plus importante leçon de ma vie.~
 @414 = ~La connaissance est le pouvoir.~ [QI#Mi069]
-@415 = ~La mort semble en effet bien t'apprécier. Mais la survie est effectivement une raison valable pour tracer ta propre voie.~
+@415 = ~La mort semble en effet beaucoup t'apprécier. Mais la survie est définitivement une raison valable pour tracer ta propre voie.~
 
 // Discussion - vie éternelle
 @416 = ~Que ferais-tu si tu pouvais vivre éternellement ?~ [QI#Mi070]
@@ -625,71 +625,71 @@ En empruntant ce chemin qui n'est pas commun."~
 
 // Ruines du temple - carte
 @513 = ~Cet endroit... Cet endroit me rappelle des souvenirs.~
-@514 = ~Tu vas bien ? Tu es un peu pâle.~
-@515 = ~Tu connais cet endroit ? Y es-tu déjà venue dans le passé ?~ 
+@514 = ~Tout va bien ? Tu es un peu pâle.~
+@515 = ~Tu connais cette forêt ? Tu es déjà venue par ici ?~ 
 @516 = ~Tes bafouillages me rappellent ceux d'Aerie.~ 
 @517 = ~Je n'ai vraiment pas le temps pour tes petits retours en enfance.~ 
 @518 = ~Si il y avait un problème, je t'en aurais déjà fait part.~
-@519 = ~Avançons.~
-@520 = ~Bien sûr que non. Tu penses vraiment que j'oublierais un tel lieu ?~
-@521 = ~La stupidité est vraiment contagieuse de nos jours, mais je ne te pensais pas encore contaminé.~ ~La stupidité est vraiment contagieuse de nos jours, mais je ne te pensais pas encore contaminée.~
+@519 = ~Continuons d'avancer.~
+@520 = ~Bien sûr que non. Tu penses vraiment que j'oublierais un lieu pareil ?~
+@521 = ~Je sais que la plupart des gens sont stupides de nos jours, mais là, tu m'en bouches un coin.~
 @522 = ~Assez bavardé, mettons-nous en marche.~
 @523 = ~Moi non plus.~
-@524 = ~Ne me compare pas avec cette mauviette. Il y a un gouffre qui nous sépare.~
+@524 = ~Ne me compare pas à cette mauviette, un gouffre nous sépare.~
 @525 = ~Nous avons mieux à faire que de rester plantés là à regarder l'herbe pousser, alors allons-y.~
 
 // Ruines du temple - entrée
-@526 = ~Nous devons être prudent ici, cet endroit est probablement piégé. Nous ne savons pas à quoi nous attendre, et je préférerais que nous évitions de nous faire attaquer comme la dernière fois.~
-@527 = ~Que voulais-tu dire par "comme la dernière fois"?~ 
+@526 = ~Nous devrions faire attention aux pièges dans cet endroit. Nous ne savons pas à quoi nous attendre et je préférerais éviter une nouvelle confrontation.~
+@527 = ~Que veux-tu dire par "nouvelle confrontation" ?~ 
 @528 = ~Ne t'inquiète pas, j'ai la situation sous contrôle.~ 
-@529 = ~Bien entendu, n'as-tu donc aucun conseil à me donner qui soit plus pertinent que tes suggestions évidentes ?~ 
-@530 = ~Tais-toi s'il te plaît, j'ai exploré des ruines plus traîtres que celle-ci d'aussi loin que je me souvienne.~ 
-@531 = ~J'ai dit ça ? Et bien, rien du tout en particulier.~
+@529 = ~Bien entendu, as-tu d'autres suggestions aussi évidentes à me soumettre ?~ 
+@530 = ~Tais-toi s'il te plaît, j'ai exploré des ruines bien plus menaçantes par le passé.~ 
+@531 = ~Hein ? Et bien, J'ai dit ça sans raison particulière.~
 @532 = ~C'était juste un lapsus.~
 @533 = ~N'esquive pas la question.~ 
 @534 = ~Si tu le dis.~ 
 @535 = ~Écoute, ce n'est ni le moment ni l'endroit pour me harceler de la sorte avec tes questions inutiles.~
 @536 = ~Donc à moins que tu n'aies un conseil brillant à me donner, j'exige que nous avancions.~
-@537 = ~Parfois, on ne peut pas contrôler les anciennes magies.~
+@537 = ~Parfois, les anciennes magies sont incontrôlables.~
 @538 = ~Mais si tu as à ce point confiance en toi, je connais maintenant ton principal point faible.~
 @539 = ~Quoi qu'il en soit, je vais rester muette mais vigilante, ne serait-ce que pour ma propre sécurité.~
-@540 = ~Tu ferais bien d'écouter ceux qui sont clairement plus intelligents que toi. Fais preuve d'un peu de reconnaissance.~ 
+@540 = ~Tu ferais mieux d'écouter ceux qui sont clairement plus intelligents que toi. Et de faire preuve d'un peu de reconnaissance.~ 
 @541 = ~Quoi qu'il en soit, je vais rester muette mais vigilante, ne serait-ce que pour ma propre sécurité.~
 @542 = ~Ah !~
 @543 = ~Tu oublies que je suis une elfe, imbécile.~
 @544 = ~Quoi qu'il en soit, je vais rester muette mais vigilante, ne serait-ce que pour ma propre sécurité.~
 
 // Ruines du temple - fin
-@545 = ~J'ai pu constater tes prouesses dans cette vieille ruine poussiéreuse, et je dois dire que je suis plutôt impressionnée. Surtout que tu ignorais si des pièges magiques ou de enchantements avaient été posés par ses précédents occupants.~
+@545 = ~J'ai pu constater tes prouesses dans cette vieille ruine poussiéreuse, et je dois dire que je suis plutôt impressionnée. Surtout que tu ignorais si des pièges magiques et autres enchantements avaient été posés par ses précédents occupants.~
 @546 = ~Bien sûr que je me débrouille, aie donc un peu confiance en moi.~ 
 @547 = ~J'apprécie le compliment, merci.~ 
-@548 = ~Je suppose que je te dois une explication sur la manière dont j'ai réagi lors de notre petit aventure dans ces ruines.~
+@548 = ~Je suppose que je te dois une explication sur certaines de mes réactions lors de notre petit aventure dans ces ruines.~
 @549 = ~Dis-moi.~ 
-@550 = ~Ton explication ne m'intéresse pas. Nous avons mieux à faire.~ 
+@550 = ~Ton explication ne m'intéresse pas vraiment. Nous avons mieux à faire.~ 
 @551 = ~Soit.~
-@552 = ~J'ai voyagé quelques temps avec un autre groupe d'aventuriers avant qu'on ne se rencontre à l'auberge du Crâne Tordu.~
+@552 = ~J'ai voyagé quelques temps avec un autre groupe d'aventuriers avant notre rencontre à l'auberge du Crâne Tordu.~
 @553 = ~Nous étions trois. Un paladin, un rôdeur, et une aspirante kensai.~
-@554 = ~Étonnamment, nous nous entendions plutôt bien, en dehors de quelques disputes occasionnelles entre la kensai et moi. Mais ce sont des choses courantes, n'est-ce pas ?~
-@555 = ~J'étudiais les ruines depuis un certain temps, et j'avais pensé utiliser mes compagnons comme chair à canon pour les pièges, mais ils se sont révélés plus que capable de se défendre. Ce n'était pas des personnes ordinaires. Ils étaient doués à mes yeux. Pourquoi gaspiller leurs vies alors qu'ils pouvaient m'être tellement plus utiles ?~
-@556 = ~Notre mission s'est soudainement arrêtée après que je... après une erreur de calcul de ma part. Je ne pouvais pas savoir ce qu'il se terrait au fond.~
+@554 = ~Étonnamment, nous nous entendions plutôt bien, en dehors de quelques disputes occasionnelles entre la kensai et moi. Mais c'est plutôt normal, n'est-ce pas ?~
+@555 = ~J'étudiais les ruines depuis un moment déjà, et j'avais l'intention d'utiliser mes compagnons comme chair à canon contre les pièges, mais ils se sont révélés plus que capable de se défendre. Ce n'était pas des personnes ordinaires et je les trouvais vraiment doués. Pourquoi gaspiller leurs vies alors qu'ils pouvaient m'être tellement plus utiles ?~
+@556 = ~Notre mission s'est soudainement arrêtée après que je... après une erreur de calcul de ma part. Je n'aurais pu imaginer ce qu'il se terrait au fond.~
 @557 = ~J'ai vu le paladin traîné au sol vers une mort certaine par une main démoniaque, et le rôdeur et la kensai se précipiter pour l'aider.~
 @558 = ~Et moi ? Je me suis enfuie.~
-@559 = ~Nous faisons tous des erreurs. Ce n'est pas très grave de le reconnaître.~
-@560 = ~C'est compréhensible, tu as eu peur. Tu n'as pas à avoir honte de toi.~ 
+@559 = ~Nous faisons tous des erreurs. C'est bien de les reconnaître.~
+@560 = ~C'est compréhensible, tu as eu peur. Tu n'as pas à avoir honte.~ 
 @561 = ~Ouah, et c'est toi qui traite tout le temps les autres de lâches.~ 
-@562 = ~Je vais parfaitement bien. Ton inquiétude n'est pas la bienvenue.~	// Réponse à @514 ?
-@563 = ~Je n'ai pas eu peur. Ce n'était pas ma faute. Je n'allais pas les suivre pour périr à mon tour.~
-@564 = ~J'ai *insisté* pour qu'ils soient prudents, mais ils ont refusé de tenir compte de mes avertissements. Ça leur a coûté la vie.~
+@562 = ~Je vais parfaitement bien et je n'aime pas qu'on s'occupe de mes affaires.~	// Réponse à @514 ?
+@563 = ~Je n'ai pas eu peur. Ce n'était pas ma faute. Je n'allais pas les suivre et périr à mon tour.~
+@564 = ~J'ai *insisté* pour qu'ils soient prudents, mais ils ont refusé de tenir compte de mes avertissements. Ça leur a coûté la vie, à tous les trois.~
 @565 = ~Je suis désolé de l'apprendre.~ ~Je suis désolée de l'apprendre.~
-@566 = ~Ils l'ont bien mérité.~
-@567 = ~Je n'ai pas besoin de tes excuses.~
-@568 = ~Le passé est le passé.~
-@569 = ~Il est inutile de s'attarder là dessus. Je suis passée à autre chose, et tu devrais aussi.~
+@566 = ~Ils l'avaient bien mérité.~
+@567 = ~Je n'ai pas besoin de ta pitié.~
+@568 = ~C'est du passé.~
+@569 = ~Il est inutile de s'étendre là dessus. Ce n'est plus mon problème, et encore moins le tiens.~
 @570 = ~Évidemment.~
-@571 = ~Tant mieux que tu réalises leur stupidité. Maintenant, allons-y.~
+@571 = ~C'est très bien si tu comprends que c'était stupide de leur part. Maintenant, allons-y.~
 @572 = ~Moi, lâche ? Très loin de là.~
-@573 = ~J'ai été la seule du groupe avec la présence d'esprit de faire le nécessaire pour survivre. C'est moi qui ai mené le groupe aussi loin, et il n'y a que moi qui méritait de vivre.~
-@574 = ~Malgré tout, c'est quelque chose que je n'oublierai jamais, et tu ferais bien d'apprendre de mes erreurs.~
+@573 = ~J'ai été la seule du groupe à avoir la présence d'esprit de faire ce qu'il fallait pour survivre. C'est moi qui ai mené le groupe aussi loin, et il n'y a que moi qui méritait de vivre.~
+@574 = ~Mais c'est quelque chose que je n'oublierai jamais, et toi, tu ferais bien d'apprendre de mes erreurs.~
 
 // Initié par le joueur, base
 @575 = ~Qu'est-ce que tu veux ?~ [QI#Mi008]
@@ -703,12 +703,12 @@ En empruntant ce chemin qui n'est pas commun."~
 @583 = ~Ça te dirait de boire un verre avec moi ?~
 @584 = ~Tu es différente de la plupart des gens.~
 @585 = ~Ton teint de peau est peu commun.~ 
-@586 = ~Tu as dit que si j'avais la moindre question, je devais te la poser. Donc me voilà.~
-@587 = ~Ces gens, et ta sœur, qu'est-ce qu'ils te voulaient ?~ 
+@586 = ~Tu m'as dit que si j'avais la moindre question, je n'avais qu'à demander. Alors me voilà.~
+@587 = ~Ta sœur et ces individus, que te voulaient-ils ?~ 
 @588 = ~Nous avons risqué nos vies pour toi. Nous avons tué ta sœur. J'exige des réponses !~
 @589 = ~Qu'est-ce que tu penses de moi, Minyae ?~ 
 @590 = ~Je trouve étrange que tu n'aies aucune cicatrice visible.~ 
-@591 = ~Peux-tu me parler de tes compagnons ? Ceux avec qui tu voyageais avant ?~
+@591 = ~Peux-tu me parler de tes anciens compagnons de voyage ?~
 @592 = ~Je n'ai besoin de rien.~
 
 // Initié par le joueur, compagnons
@@ -716,23 +716,23 @@ En empruntant ce chemin qui n'est pas commun."~
 @594 = ~Très bien.~
 @595 = ~Le paladin était un modèle de vertu comme on peut s'y attendre avec ceux de sa profession.~
 @596 = ~Mais de ce que j'ai pu en déduire, il avait un sombre passé.~
-@597 = ~Il ne voulait rien me raconter, mais à la kensai? Il se confiait à elle toute la journée. J'ai pensé qu'ils étaient amants, mais ils n'arrêtaient pas de me répéter que ce n'était pas le cas. Qui sait ?~
+@597 = ~Il ne voulait rien me raconter, mais à la kensai ? Il se confiait à elle toute la journée. J'ai pensé qu'ils étaient amants, mais ils n'arrêtaient pas de me répéter que ce n'était pas le cas. Qui sait ?~
 @598 = ~Et c'est tout ce que je suis disposée à partager avec toi pour le moment.~
 @599 = ~Soit, mais je ne te donnerai aucun nom. Et pas la peine d'insister.~
 @600 = ~Très bien.~
-@601 = ~L'aspirante kensai. Elle n'en était pas vraiment une, c'était une ancienne garde. D'où ? À cette époque, j'aurais été capable de te donner le nom de son village, mais j'ai complètement oublié depuis le temps.~
-@602 = ~Elle essayait de respecter l'ordre et la loi autant que possible, mais alors que nous nous rapprochions de plus en plus des ruines, elle a commencé à se parler à elle même.~
-@603 = ~En vérité, ça me faisait peur. Si ça se trouve, elle était complètement folle, elle se comportait comme telle en tout cas.~
+@601 = ~L'aspirante kensai. Elle n'en était pas vraiment une, c'était une ancienne garde. D'où ? À l'époque, j'aurais été capable de te donner le nom de son village, mais j'ai complètement oublié depuis le temps.~
+@602 = ~Elle essayait d'être aussi droite que possible, mais alors que nous nous rapprochions de plus en plus des ruines, elle commença à se parler à elle même.~
+@603 = ~En vérité, son attitude me faisait peur. Pour ce que j'en savais, elle aurait pu être complètement folle... Elle se comportait comme telle en tout cas.~
 @604 = ~Je me souviens m'être réveillée un matin, elle s'était complètement débarrassée de son armure de plates et l'avait remplacée par un habit si fin qu'on voyait presque à travers. Je n'avais jamais vu l'habit en question avant, mais j'ai senti qu'il était imprégné d'une magie puissante.~
-@605 = ~Et c'est tout ce que je suis disposée à partager avec toi pour le moment.~
+@605 = ~Et c'est tout ce que je suis disposée à te dévoiler aujourd'hui.~
 @606 = ~Soit, mais je ne te donnerai aucun nom. Et pas la peine d'insister.~
 @607 = ~Très bien.~ 
 @608 = ~Le rôdeur était... réservé. Il restait à l'écart et ne parlait que quand c'était vraiment nécessaire. C'était lui dont je me méfiais le plus. Sa visée à l'arc était parfaite, et je sentais toujours son regard posé sur chacun de nous.~
 @609 = ~C'est sa mort qui m'a le plus affectée.~
-@610 = ~Ne serait-ce que parce qu'il savait quand ne pas argumenter avec ceux plus intelligents que lui.~
+@610 = ~Ne serait-ce que parce qu'il savait quand ne pas argumenter avec plus intelligents que lui.~
 @611 = ~Certains auraient beaucoup à apprendre à ses côtés à propos du silence, mais malheureusement, il n'est plus.~
-@612 = ~Et c'est tout ce que je suis disposée à partager avec toi pour le moment.~
-@613 = ~Non. Je t'ai déjà dit qu'il ne fallait pas remuer le passé. Maintenant, va-t'en.~
+@612 = ~Et je ne t'en dirais pas plus pour le moment.~
+@613 = ~Non. Je t'ai déjà dit qu'il ne fallait pas ressasser le passé. Maintenant, va-t'en.~
 
 // Initié par le joueur, interaction
 @614 = ~(Alors que vous essayez d'enlacer Minyae, elle vous stoppe en tendant le bras.)~
@@ -756,22 +756,22 @@ En empruntant ce chemin qui n'est pas commun."~
 @630 = ~Je suis une elfe. Tu penses qu'on nous connaît pour notre maladresse ? Non, imbécile. Nous sommes réputés pour notre grâce et notre beauté.~
 @631 = ~Tu ferais mieux de me demander si quiconque m'a déjà frappée suffisamment fort pour me laisser une cicatrice.~
 @632 = ~Pourquoi devrait-il être marqué par quoi que ce soit ?~
-@633 = ~Mais pour satisfaire ta curiosité, je suis particulièrement fière de mon physique... surtout mon visage.~
-@634 = ~Ça va te paraître idiot, mais la première impression qu'on laisse est celle de notre visage. J'essaie d'éviter à tout prix toute imperfection qui pourrait ternir mon apparence. Je peux cependant te garantir que ce n'est pas une tâche facile.~
+@633 = ~Mais pour satisfaire ta curiosité, je suis particulièrement fière de mon physique... surtout de mon visage.~
+@634 = ~Ça va peut-être te paraître idiot, mais la première impression que l'on donne est celle de notre visage. J'essaie d'éviter à tout prix tout ce qui pourrait ternir mon apparence. Je peux cependant te promettre que ce n'est pas une tâche facile.~
 
 // Initié par le joueur, ce qu'elle pense de charname
-@635 = ~Que veux-tu que je te dise ? Que je n'ai jamais admiré homme plus parfait que toi ? Non, très loin de là.~
+@635 = ~Que veux-tu que je te dise ? Que je n'ai jamais admiré d'homme plus parfait que toi ? Non, très loin de là.~
 @636 = ~Je voulais dire d'un point de vue plus romantique.~
 @637 = ~Laisse tomber.~
-@638 = ~Romantique ? Je n'ai aucune envie d'avoir une liaison avec un rejeton de Bhaal. C'est une chose de voyager avec un et d'apprécier sa compagnie, c'en est une tout autre de coucher avec.~
-@639 = ~Je ne te crains pas, j'ai peur de ce que tu pourrais devenir et de ce que je pourrais potentiellement perdre si je commençais à en pincer pour quelqu'un de ton espèce. Je n'ai pas pour habitude de casser mes précieux outils, je suis donc réticente à en choisir un qui pourrait être disparaître à tout jamais.~
+@638 = ~Romantique ? Je n'ai aucune envie d'avoir une liaison avec un rejeton de Bhaal. C'est une chose de voyager avec l'un d'entre eux et d'apprécier sa compagnie, c'en est une tout autre de coucher avec.~
+@639 = ~Je ne te crains pas, j'ai peur de ce qu'il pourrait advenir, de ce que je pourrais perdre si je commençais à en pincer pour quelqu'un de ton espèce. Je n'ai pas pour habitude de renoncer à mes précieux jouets, je suis donc réticente à en choisir un qui pourrait disparaître à tout jamais.~
 @640 = ~Tu comprendrais mieux si tu étais à ma place.~
-@641 = ~Que veux-tu que je te dise ? Que je n'ai jamais admiré femme plus parfaite que toi ? Non, très loin de là.~
+@641 = ~Que veux-tu que je te dise ? Que je n'ai jamais admiré de femme plus parfaite que toi ? Non, très loin de là.~
 @642 = ~Je voulais dire d'un point de vue plus romantique.~
 @643 = ~Laisse tomber.~
-@644 = ~Romantique ? Je n'ai aucune envie d'avoir une liaison avec un rejeton de Bhaal. C'est une chose de voyager avec un et d'apprécier sa compagnie, c'en est une tout autre de coucher avec.~
-@645 = ~Je ne te crains pas, j'ai peur de ce que tu pourrais devenir et de ce que je pourrais potentiellement perdre si je commençais à en pincer pour quelqu'un de ton espèce. Je n'ai pas pour habitude de casser mes précieux outils, je suis donc réticente à en choisir un qui pourrait être disparaître à tout jamais.~
-@646 = ~Pour tout te dire, je ne suis pas intéressée par les femmes. Je n'ai aucun problème avec les autres femmes qui le sont, ce n'est pas mes affaires. Quant à moi, j'aime le côté séduisant d'un homme, son odeur et aucune femme ne pourra remplacer ça.~
+@644 = ~Romantique ? Je n'ai aucune envie d'avoir une liaison avec un rejeton de Bhaal. C'est une chose de voyager avec l'une d'entre elle et d'apprécier sa compagnie, c'en est une tout autre de coucher avec.~
+@645 = ~Je ne te crains pas, j'ai peur de ce qu'il pourrait advenir, de ce que je pourrais perdre si je commençais à en pincer pour quelqu'un de ton espèce. Je n'ai pas pour habitude de renoncer à mes précieux jouets, je suis donc réticente à en choisir un qui pourrait disparaître à tout jamais.~
+@646 = ~Pour tout te dire, je ne suis pas intéressée par les femmes. Je n'ai aucun problème avec celles qui le sont, ce n'est pas mes affaires. Quant à moi, j'aime la stature et l'odeur d'un homme, aucune femme ne pourra remplacer ça.~
 
 // Initié par le joueur, grimoire
 @647 = ~Ce n'est pas tes affaires.~
@@ -781,21 +781,21 @@ En empruntant ce chemin qui n'est pas commun."~
 @651 = ~Tu me tiendras au courant quand tu y seras parvenue ?~
 @652 = ~Peut-être.~
 @653 = ~Je suppose que ça ne peux pas faire de mal.~
-@654 = ~De ce que je sais, le sort est un processus long et difficile. C'est au delà de tes connaissances.~
-@655 = ~Quel est ce sort ?~
-@656 = ~Ça, c'est quelque chose que je ne suis pas prête à t'expliquer.~
+@654 = ~De ce que j'ai compris, ce sort s'accomplit au cours d'un processus long et difficile. C'est au-delà de tes connaissances.~
+@655 = ~De quel sort s'agit-il ?~
+@656 = ~Ça, c'est quelque chose que je ne suis pas encore prête à partager avec toi.~
 
 // Initié par le joueur, Edwin
 @657 = ~Et alors ?~
 @658 = ~Vous êtes ensemble ?~
 @659 = ~Vous avez l'air d'être vraiment proches en ce moment...~ 
-@660 = ~Il y a quelque chose entre vous deux ? Si oui, il vaudrait mieux que ça ne mette pas en danger notre quête.~
+@660 = ~Il y a quelque chose entre vous deux ? Si c'est le cas, il vaudrait mieux que ça ne porte pas préjudice à ma quête.~
 @661 = ~Tu veux en parler ?~
-@662 = ~Non, nous passons simplement un peu de bon temps ensemble. Il est libre de faire ce qu'il veut, et moi de même.~
+@662 = ~Non, nous passons simplement un peu de bon temps ensemble. Il est libre de faire ce qu'il veut, et moi aussi.~
 @663 = ~Rien de plus, rien de moins.~
-@664 = ~Ne t'inquiète pas. Je ne suis pas faible et lui non plus.~
+@664 = ~Ne t'inquiète pas. Cela ne me rend pas faible pour autant, et lui non plus.~
 @665 = ~Il n'y a vraiment pas grand chose à dire.~
-@666 = ~Edwin et moi passons de bons moments ensemble. C'est très temporaire, jusqu'à ce que je trouve quelque chose ou quelqu'un de plus divertissant.~
+@666 = ~Edwin et moi passons de bons moments ensemble. C'est tout à fait temporaire, jusqu'à ce que je trouve quelque chose ou quelqu'un de plus divertissant.~
 
 // Initié par le joueur, conseils
 @667 = ~Prend ça au sérieux : comprends les choses pour ce qu'elles sont vraiment.~
@@ -803,7 +803,7 @@ En empruntant ce chemin qui n'est pas commun."~
 @669 = ~Les pauvres le sont pour une raison. Ils ont les moyens de s'extirper de leur condition, mais choisissent de se reproduire continuellement et de dépenser plus qu'ils ne peuvent se permettre.~
 @670 = ~Ne gaspille pas ton temps avec les "plus démunis".~
 @671 = ~L'amour est la plus grande des faiblesses.~
-@672 = ~Fuis-le si tu peux.~
+@672 = ~Fais ce que tu peux pour l'éviter.~
 @673 = ~Ne fais confiance à personne pour faire le sale boulot à ta place.~
 @674 = ~Les personnes que tu engages ne pensent qu'à elles, et elles te dénonceront au moindre problème.~
 @675 = ~Plus tu vivras longtemps, plus tu feras d'expériences.~
@@ -813,8 +813,8 @@ En empruntant ce chemin qui n'est pas commun."~
 @677 = ~Et qu'est-ce que c'est sensé vouloir dire ?~
 @678 = ~Tu n'es pas aussi cruelle que je le pensais.~
 @679 = ~Tu es encore pire que ce que j'imaginais.~
-@680 = ~Rien. Oublie que j'ai dit quoi que ce soit~
-@681 = ~Ah ! On dirait que mes duperies sont plutôt efficaces !~
+@680 = ~Rien. Oublie ce que j'ai dit.~
+@681 = ~Ah ! On dirait que je suis plutôt douée pour te duper !~
 @682 = ~Quel compliment merveilleux.~
 
 // Initié par le jouer, teint de peau
@@ -822,12 +822,12 @@ En empruntant ce chemin qui n'est pas commun."~
 @684 = ~Je trouvais juste ça intéressant. Qu'est-ce que tu es ?~
 @685 = ~Tu es extrêmement belle.~
 @686 = ~C'est repoussant. Absolument épouvantable. Te regarder me donne la nausée.~
-@687 = ~Je suis une elfe, espèce d'imbécile profond.~
+@687 = ~Je suis une elfe, espèce d'idiot sans cervelle.~ ~Je suis une elfe, espèce d'idiote sans cervelle.~
 @688 = ~Mais je suppose que je peux te laisser le bénéfice du doute puisque tu as été assez intelligent pour m'accepter dans ton groupe.~ ~Mais je suppose que je peux te laisser le bénéfice du doute puisque tu as été assez intelligente pour m'accepter dans ton groupe.~
-@689 = ~Je pense que mes parents étaient elfe des bois et elfe de la lune. Être une elfe de la lune expliquerait mon talent inné avec la magie. Tandis que mes origines d'elfe des bois expliqueraient mon bronzage et ma couleur de peau légèrement cuivrée. Mais qui sait ?~
+@689 = ~Je pense que l'un de mes parents était un elfe des bois et l'autre un elfe de la lune. Être une elfe de la lune expliquerait mon talent inné avec la magie. Tandis que mes origines d'elfe des bois expliqueraient mon bronzage et ma couleur de peau légèrement cuivrée. Mais comment en être sure ?~
 @690 = ~J'en suis bien consciente.~
 @691 = ~Ah ! Regarde-toi donc dans un miroir !~
-@692 = ~Mais je suppose qu'on a pas tous la chance d'être aussi incroyablement sublime que moi.~
+@692 = ~Mais je suppose que tout le monde n'a pas la chance d'avoir mon incroyable et sublime beauté.~
 @693 = ~Ça, c'est ton problème.~
 @694 = ~Je te suggère de trouver un moyen de t'en accommoder, parce que je ne vais nulle part.~
 
@@ -835,7 +835,7 @@ En empruntant ce chemin qui n'est pas commun."~
 @695 = ~Ça me semble plutôt évident pourtant. Ils me voulaient morte et c'est tout ce que tu as besoin de savoir pour le moment.~
 
 // Initié par le jouer, des réponses
-@696 = ~Tes exigences ne signifient rien pour moi. J'ai le grimoire et c'est tout ce qui compte, sache juste que ma quête n'est pas terminée. J'aurai besoin de toi à nouveau un jour.~
+@696 = ~Tes exigences ne signifient rien pour moi. J'ai le grimoire et c'est tout ce qui compte, sache juste que ma quête n'est pas terminée. J'aurai à nouveau besoin de toi un jour ou l'autre.~
 
 // Initié par le jouer, boire un verre
 @697 = ~Tu penses vraiment que nous avons le temps de traînasser ?~
@@ -843,42 +843,42 @@ En empruntant ce chemin qui n'est pas commun."~
 @699 = ~Non.~
 
 // Initié par le jouer, enfance
-@700 = ~Effectivement te voilà. Mais je ne vais pas attendre une éternité que tu demandes ni que tu formules tes exigences alors dépêche-toi.~ [QI#Mi078]
+@700 = ~Te voilà en effet. Mais toujours pas de demandes à l'horizon ou de questions auxquelles je pourrais répondre.~ [QI#Mi078]
 @701 = ~Parle moi de ta jeunesse.~
-@702 = ~Finalement, je n'ai pas de questions ni de préoccupations te concernant pour le moment.~
-@703 = ~Qu'y a-t-il à en dire ? Je ne me rappelle rien de quand j'étais bébé. J'avais un père et une mère comme tous les autres enfants.~ [QI#Mi079]
-@704 = ~Je veux dire, comment en es-tu arrivée où tu es aujourd'hui ?~
+@702 = ~En fait, je n'ai pas de questions à te poser, ni de demandes à te faire pour le moment.~
+@703 = ~Qu'y a-t-il à en dire ? Je ne me rappelle pas de mes premières années. J'avais un père et une mère comme tous les autres enfants.~ [QI#Mi079]
+@704 = ~Je veux dire, comment es-tu devenue la personne que tu es aujourd'hui ?~
 @705 = ~Arrête de me faire perdre mon temps et viens-en aux faits !~
-@706 = ~Très bien, je ferai ce que tu demandes pour cette fois. Mais surveille tes paroles si tu ne veux pas qu'un sort te réduise au silence.~
+@706 = ~Très bien, je me plierai à tes exigences pour cette fois. Mais surveille tes paroles si tu ne veux pas qu'un de mes sorts ne te réduise au silence.~
 @707 = ~Pourquoi ne suis-je pas surprise.~
 @708 = ~J'étais une orpheline. J'ai fait ce que je devais pour survivre.~
-@709 = ~Si tu veux vraiment savoir, étant enfant, je volais ce dont j'avais besoin ou ce que je convoitais. Et quand j'ai compris que j'étais douée de magie, je l'ai utilisée pour des envies plus superflues. Adulte, je me suis rendu compte que les hommes me désiraient - et je m'en suis servi à mon avantage.~ [QI#Mi080]
-@710 = ~J'ai aussi accepté que je ne devais pas m'accrocher, au passé par exemple. Il y a des choses qui auraient dû être changées, certaines qui auraient pu, d'autres mêmes qui auraient changées, mais c'est la vie.~
+@709 = ~Si tu veux vraiment savoir, étant enfant, je volais, que ce soit par besoin ou par convoitise. Quand j'ai compris que j'étais douée de magie, je l'ai utilisée pour des plaisirs plus superflues. Une fois devenue femme, je me suis rendu compte que les hommes me désiraient - et je m'en suis servi à mon avantage.~ [QI#Mi080]
+@710 = ~J'ai aussi accepté que je ne devais pas m'accrocher à quoi que ce soit, comme le passé par exemple. Il y a des choses qui auraient dû être changées, certaines qui auraient pu, d'autres mêmes qui auraient changées, mais c'est la vie.~
 @711 = ~Peut-être que tu penses à Gorion de temps en temps, et c'est normal, mais que ce soit de la colère, de la haine, ou des regrets, ça n'a pas d'importance. Ça ne devrait pas en avoir. En tout cas, c'est ce que je me dis.~
-@712 = ~Mais surtout, j'aime vivre, j'évite donc autant que possible de me mettre en danger.~ 
+@712 = ~Mais par dessus tout, j'aime vivre, alors j'évite de me mettre en danger... Autant que possible.~ 
 @713 = ~C'est tout ?~
 @714 = ~On dirait que tu n'as pas eu une vie facile.~
-@715 = ~Quelle triste vie tu as menée. Pas étonnant que tu sois devenue triste toi même.~ 
-@716 = ~Que voulais-tu que je te dise ? Tu t'attendais à ce que je gémisse ou que je pleure, alors que c'est quelque chose sur lequel je ne peux plus revenir ?~
+@715 = ~Quelle vie lamentable tu as menée. Aussi lamentable que la personne que tu es devenue.~ 
+@716 = ~Que voudrais-tu que je dise de plus ? Tu t'attendais à ce que je gémisse ou que je pleure, alors que je ne peux plus rien y faire ?~
 @717 = ~Je n'ai rien à cacher si c'est ce que tu avais en tête.~
-@718 = ~Rien ? Quel ennui !~
+@718 = ~Rien du tout ? Quel ennui !~
 @719 = ~Je ne sais pas trop à quoi je m'attendais.~
 @720 = ~Je m'attendais à ce que tu ne dises rien du tout.~
-@721 = ~Hmph. Les secrets sont inutiles. Ils se retourneront contre toi si tu ne fais pas très attention à tout ce que tu dis.~
+@721 = ~Hmph. Les secrets sont inutiles. Ils finiront par se retourner contre toi si tu ne fais pas très attention à tout ce que tu dis.~
 @722 = ~C'est bien ce que je pensais. Je me demande parfois comment tu arrives à mettre un pied devant l'autre, et je ne parle même pas de mener ce groupe.~
 @723 = ~Intéressant. Mais c'est probablement ta stupidité qui parle.~
 @724 = ~Bref, nous devrions nous remettre au travail. Nous avons tant à faire, et tes questions incessantes commencent à m'agacer.~
 @725 = ~Ah ! Peut-être bien, mais je m'y épanouissais.~
-@726 = ~Ne pas savoir de quoi serait fait mon prochain repas ou quel serait mon prochain subterfuge... C'est des souvenirs que je chéris.~
+@726 = ~Ne pas savoir de quoi serait fait mon prochain repas ou quel serait mon prochain subterfuge... Ce sont des souvenirs que je chéris.~
 @727 = ~"Ces petits moments simples" ?~
 @728 = ~Ça devait être merveilleux.~ 
 @729 = ~Ça avait l'air affreux.~
 @730 = ~Ta vie était probablement très différente de la mienne.~
 @731 = ~C'était un mode de vie incroyable !~
 @732 = ~Alors tu n'y connais rien à la vie.~
-@733 = ~Il est bon que je te partage quelques informations à propos de mon passé, mais je commence à me demander si tu as vraiment le courage nécessaire pour mener ce groupe.~
-@734 = ~Malgré tout, il est bon que je te partage quelques informations à propos de mon passé. Il est important que tu saches avec qui tu voyages.~
-@735 = ~Triste tu dis ? Très loin de là.~
+@733 = ~Il est bon de partager les souvenirs de mon passé, mais je commence à me demander si tu as vraiment les épaules pour diriger ce groupe.~
+@734 = ~En tout cas, il est bon de partager les souvenirs de mon passé et c'est important que tu saches avec qui tu voyages.~
+@735 = ~Lamentable tu dis ? Très loin de là.~
 @736 = ~Je me délectais de ces jours où je ne savais pas de quoi serait fait mon prochain repas ou quel serait mon prochain subterfuge... C'est des souvenirs que je chéris.~
 @737 = ~J'appréciais ces petits moments simples de la vie.~ [QI#Mi081]
 @738 = ~Quoi par exemple ?~
