@@ -886,27 +886,27 @@ En empruntant ce chemin qui n'est pas commun."~
 
 // Liche du Crâne Tordu déjà morte
 @740 = ~Elle est déjà morte ? Mais comment...?~
-@741 = ~Je le savais ! Tu étais au courant de ce qui se cachait ici !~
-@742 = ~Ouais, nous avons déjà tué la liche qui se trouvait ici.~
-@743 = ~Jette un œil à la pièce. Il y a peut-être quelque chose que j'ai raté la première fois.~
+@741 = ~Je le savais ! Tu étais au courant de sa présence !~
+@742 = ~Ouais, nous avons déjà tué la liche qui se cachait ici.~
+@743 = ~Jette un œil autour de toi. Il y a peut-être quelque chose que j'ai manqué la première fois.~
 @744 = ~Oui, oui. Bon travail.~
 @745 = ~Maintenant... Où est mon grimoire ?~
-@746 = ~Je ne vois rien. Rien que de la poussière. Quelqu'un d'autre l'a certainement déjà pris.~
+@746 = ~Je ne vois rien. Seulement de la poussière. Quelqu'un d'autre s'en est certainement déjà emparé.~
 @747 = ~Hmph. Je ne m'y attendais pas, mais au moins, ça m'épargne un combat inutile.~
 @748 = ~Oui, bien sûr.~
-@749 = ~...Pas de grimoire en vue. Quelqu'un d'autre l'a certainement déjà pris.~
+@749 = ~...Pas de grimoire en vue. Quelqu'un d'autre s'en est certainement déjà emparé.~
 
 // Début chapitre 6, avant la sœur
-@750 = ~<CHARNAME>, je sais que nous avons une mission importe en cours. Cependant, je sens que quelque chose se rapproche de nous en ce moment même.~
-@751 = ~Dirigeons-nous à l'entrée de la Couronne de Cuivre dès que nous en aurons l'occasion.~
+@750 = ~<CHARNAME>, je sais que nous sommes au milieu d'une importante mission. Cependant, je perçois une présence qui se rapproche de nous en ce moment même.~
+@751 = ~Dirigeons-nous vers l'entrée de la Couronne de Cuivre dès que nous en aurons l'occasion.~
 
 // Salvanas
-@752 = ~Une jeune elfe aux cheveux bruns, ses yeux sont sombres et flamboyants, sa peau aussi séduisante qu'un jour nouveau. Que m'en coûtera-t-il de toucher du bout des doigts cette perfection ?~ 
+@752 = ~Une jeune elfe aux cheveux bruns, ses yeux sont sombres et flamboyants, sa peau aussi somptueuse qu'un lever de soleil. Que m'en coûtera-t-il de toucher du bout des doigts cette perfection ?~ 
 @753 = ~Que de paroles flatteuses, continue.~
-@754 = ~Oh cette moue enivrante et ce déhanché hypnotisant. Ma déesse, par pitié, laissez-moi dessiner les courbes de votre corps de mes lèvres !~
+@754 = ~Oh quelle moue enivrante et quel déhanché ensorcelant. Ma déesse, par pitié, laissez mes lèvres parcourir les courbes de votre corps !~
 @755 = ~Hmm... Je vais réfléchir à cette charmante proposition. Pourrais-je entendre un vers de plus ?~
-@756 = ~Minyae, tu ne peux pas sérieusement envisager de laisser cet idiot poser ses sales pattes sur toi. (Elle ne peut pas, n'est-ce pas ?)~
-@757 = ~Bien sûr, ma dame, vous êtes si élégante, si belle. Le son de votre voix délicieuse me donne des frissons dans le dos. Oh, comme je me languis de vous serrer dans mes bras.~
+@756 = ~Minyae, tu ne peux pas sérieusement envisager de laisser cet idiot poser ses sales pattes sur toi. (Elle n'est pas sérieuse, hein ?)~
+@757 = ~Bien sûr, ma dame, vous êtes si élégante, si belle. Le son de votre voix délicieuse me donne des frissons dans le dos. Oh, comme je languis que vous soyez mienne.~
 @758 = ~Hm, bien. J'ai eu ma dose de compliments. Allez, file maintenant.~
 @759 = ~Hélas, il me faudra vénérer ma déesse de loin !~
 
@@ -919,58 +919,58 @@ En empruntant ce chemin qui n'est pas commun."~
 /* Conflits avec le mod Edwin Romance (du coup, féminin uniquement) */
 
 // Conflit 1
-@762 = ~Je ne pensais pas que notre Magicien Rouge t'intéressait, à moins que son intellect ne t'intrigue et que tu désires obtenir certaines des connaissances enfouies dans son cerveau.~
+@762 = ~Je ne pensais pas que notre Magicien Rouge t'intéressait, à moins que son intellect ne t'intrigue et que tu désires obtenir certaines connaissances enfouies dans son cerveau.~
 @763 = ~Ce qui serait tout à fait compréhensible. Cependant, je ne peux m'empêcher de me demander si il n'y aurait pas plus entre vous deux..?~
 @764 = ~Ce n'est pas tes affaires, Minyae.~
-@765 = ~J'aime passer du temps avec lui. C'est tout ce qu'il y a à en dire.~
-@766 = ~Je l'admets, j'apprécie de passer du temps avec lui. J'aime bien Edwin.~
+@765 = ~J'aime passer du temps avec lui. Et c'est tout.~
+@766 = ~Je l'admets, j'apprécie le temps que nous passons ensemble. J'aime bien Edwin.~
 @767 = ~Il se trouve que j'aime bien Edwin, mais nous verrons bien où ça nous mène.~
 @768 = ~C'est un type intéressant, je veux bien lui accorder ça.~
-@769 = ~Edwin est un outil, rien de plus.~
+@769 = ~Edwin est un outil pour moi, rien de plus.~
 @770 = ~Je ne ressens absolument rien pour Edwin.~
 @771 = ~Peut-être bien que non.~
-@772 = ~Ou peut-être bien que *si* parce que je n'ai pas l'intention de rester plantée là à vous regarder vous reluquer pendant que le reste du groupe est occupé à se battre à votre place. Ou as-tu oublié ton objectif à cause de cet idiot ?~
-@773 = ~Qu'importe. Je pense que j'en ai dit assez.~
-@774 = ~Je te suggère de mettre fin à tes petits jeux avec lui avant que ça n'aille plus loin.~
+@772 = ~Ou peut-être bien que *si* parce que je n'ai pas l'intention de rester plantée là à vous regarder vous faire les yeux doux pendant que le reste du groupe est occupé à se battre à votre place. À moins que tu aies oublié ton objectif à cause de cet idiot ?~
+@773 = ~Peu importe. Je pense que j'en ai assez dit.~
+@774 = ~Je te suggère de mettre fin à vos petits jeux avant que ça n'aille plus loin.~
 @775 = ~Je vois.~
-@776 = ~Sache que je n'ai pas l'intention de rester plantée là à vous regarder vous reluquer pendant que le reste du groupe est occupé à se battre à votre place. Ou as-tu oublié ton objectif à cause de cet idiot ?~
-@777 = ~Qu'importe. Je pense que j'en ai dit assez.~
-@778 = ~Je te suggère de mettre fin à tes petits jeux avec lui avant que ça n'aille plus loin.~
-@779 = ~Oui, il est assez intéressant, n'est-ce pas ?~
-@780 = ~*ahem* Qu'importe. Sache que je n'ai pas l'intention de rester plantée là à vous regarder vous reluquer pendant que le reste du groupe est occupé à se battre à votre place. Ou as-tu oublié ton objectif à cause de cet idiot ?~
-@781 = ~Je pense que j'ai été claire donc je te suggère de mettre fin à tes petits jeux avec lui avant que ça n'aille plus loin.~
+@776 = ~Sache que je n'ai pas l'intention de rester plantée là à vous regarder vous faire les yeux doux pendant que le reste du groupe est occupé à se battre à votre place. À moins que tu aies oublié ton objectif à cause de cet idiot ?~
+@777 = ~Peu importe. Je pense que j'en ai assez dit.~
+@778 = ~Je te suggère de mettre fin à vos petits jeux avant que ça n'aille plus loin.~
+@779 = ~Oui, il est plutôt intéressant, n'est-ce pas ?~
+@780 = ~*ahem* Peu importe. Sache que je n'ai pas l'intention de rester plantée là à vous regarder vous faire les yeux doux pendant que le reste du groupe est occupé à se battre à votre place. À moins que tu aies oublié ton objectif à cause de cet idiot ?~
+@781 = ~Je pense que j'ai été claire donc je te suggère de mettre fin à vos petits jeux avant que ça n'aille plus loin.~
 @782 = ~Ça, c'est un point de vue que je comprends et que je peux respecter.~
 @783 = ~Il est plutôt utile, n'est-ce pas ? Bien que je trouve ses incessants grommellements à lui même plutôt agaçants. La prochaine fois que tu lui parles, peut-être que tu pourras lui suggérer d'arrêter, non ?~
 @784 = ~Rien du tout ?~
-@785 = ~C'est bon à savoir. Il ne ferait que te détourner de ton but. En parlant de ça, nous avons assez perdu de temps. Poursuivons notre chemin.~
+@785 = ~C'est bon à savoir. Il ne ferait que te détourner de ta quête. En parlant de ça, nous avons assez perdu de temps. Poursuivons notre chemin.~
 
 // Conflit 2
 @786 = ~<CHARNAME>. J'ai besoin de te parler. Tout de suite.~
 @787 = ~Est-ce que ça peut attendre ?~
 @788 = ~Bien sûr, de quoi as-tu besoin?~
-@789 = ~Ce ton me déplaît. Peut-être que si tu me parlais plus gentiment, je te prêterais l'oreille.~
+@789 = ~Peut-être que si tu me parlais sur un autre ton, je te prêterais l'oreille.~
 @790 = ~Je n'ai pas le temps pour ça maintenant.~
 @791 = ~Non.~
 @792 = ~Cela ne peut attendre. Nous devons en parler.~
-@793 = ~Est-ce que tu as vraiment l'impression que j'ai quoi que ce soit à faire de ce que *tu* veux ?~
+@793 = ~Est-ce que tu as vraiment l'impression que j'en ai quoi que ce soit à faire de ce que *tu* veux ?~
 @794 = ~Toi et Edwin.~
-@795 = ~Quoi à notre propos ?~
-@796 = ~Tu penses vraiment que t'associer avec un Magicien Rouge de Thay est bon pour ta réputation ? Un enfant de Bhaal et les tristement célèbres Magiciens Rouges.~
-@797 = ~Je me fous de ce que les autres ont à dire à notre propos. Je tiens à lui.~
-@798 = ~Que veux-tu dire ?~
-@799 = ~Comme si ce que tu disais m'importais.~ 
+@795 = ~Quoi, moi et Edwin ?~
+@796 = ~Tu penses vraiment que t'afficher avec un Magicien Rouge de Thay est bon pour ta réputation ? L'enfant de Bhaal et les infâmes Magiciens Rouges.~
+@797 = ~Je me fous de ce que les autres diront à notre propos. Je tiens à lui.~
+@798 = ~Où veux-tu en venir ?~
+@799 = ~Tu as l'air de penser que ton avis m'intéresse.~ 
 @800 = ~Je pense qu'il y a plus que ce que tu veux bien laisser paraître...~
 @801 = ~...Tu tiens à lui ?~
 @802 = ~C'est ridicule ! Comment pourrais-tu savoir ce que ça signifie de tenir à quelqu'un ? Tu es un enfant de Bhaal - ta vie empeste la mort !~
 @803 = ~Je veux dire que vous ne devriez pas être ensemble.~
-@804 = ~Ça devrait pourtant. Je le connais mieux que tu ne pourras jamais en rêver. Rends-toi ce service et quitte-le.~
-@805 = ~Je --! Je...~
+@804 = ~Ça devrait pourtant. Je le connais mieux que tu ne le pourras jamais. Rends-toi service et quitte-le.~
+@805 = ~Je -- ! Je...~
 @806 = ~...Edwin a eu une influence profonde sur ma vie.~
-@807 = ~C'est un homme brillant et peu le valent.~
+@807 = ~C'est un homme brillant, bien au-dessus des autres.~
 @808 = ~Je ne veux pas qu'il soit... déconcentré par quoi que ce soit. Mon seul souhait est de le voir s'épanouir et atteindre son vrai potentiel.~
 @809 = ~Vraiment ?~ 
 @810 = ~Tu l'apprécies. Admets-le.~
-@811 = ~Je ne savais pas que tu avais de tels sentiments pour lui. Edwin m'est cher, mais je vois qu'il l'est plus encore pour toi. Je suis désolée de m'en être mêlée, je vais mettre un terme à notre relation tout de suite.~
+@811 = ~Je ne savais pas que tu avais de tels sentiments pour lui. Edwin est important pour moi, mais je vois qu'il l'est plus encore pour toi. Je suis désolée de m'être immiscée entre vous et je vais mettre un terme à notre relation sur le champ.~
 @812 = ~Minyae, je suis désolée de l'entendre, mais je tiens à Edwin et je ne veux pas le quitter.~
 @813 = ~C'est tellement mignon. Dommage que je m'en fiche. Il est à moi et si tu ne laisses pas tomber, tu vas devoir quitter ce groupe.~
 @814 = ~Et si c'était le cas ?~
