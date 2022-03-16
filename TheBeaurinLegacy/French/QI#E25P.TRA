@@ -1,9 +1,9 @@
-@0 = ~Si tu souhaites que je parte, ce sera pour de bon. Il y a d'autres affaires dont je dois m'occuper, et je n'ai pas le temps d'attendre ici que tu reviennes me chercher.~
+@0 = ~Si tu souhaites mon départ, ce sera définitif. Il y a d'autres affaires dont je dois m'occuper, et je n'ai pas le temps d'attendre que tu reviennes me chercher.~
 @1 = ~Je m'excuse, s'il te plaît, joins-toi à nouveau à moi.~ 
 @2 = ~Oui, j'en suis certain.~ ~Oui, j'en suis certaine.~
-@3 = ~Qu'est-ce qu'il y a de si important que tu doives partir ?~ 
+@3 = ~Qu'y a-t-il de si important pour que tu doives partir ?~ 
 @4 = ~Adieu, <CHARNAME>. Que la chance t'accompagne dans tes voyages.~
-@5 = ~Je ne peux te donner plus de détails, mais je peux t'expliquer la raison de mon départ.~
+@5 = ~Je ne peux pas te donner de détails, mais je peux t'expliquer la raison de mon départ.~
 @6 = ~Mon ordre a besoin de mes conseils pour certains événements à venir. Nous avons un devoir, et nous devons nous en acquitter.~
 @7 = ~Maintenant, as-tu toujours besoin de mes services ? Si non, je te laisse.~
 @8 = ~Je m'excuse, s'il te plaît, joins-toi à nouveau à moi.~ 
