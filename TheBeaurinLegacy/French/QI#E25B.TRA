@@ -1,85 +1,120 @@
-@0 = ~You and <CHARNAME> are such a sight for sore eyes.~
-@1 = ~Thank you, Elaryn. That was very kind of you to say that.~
-@2 = ~Sometimes love shows up in the most unexpected places.~
-@3 = ~You and I are more similar than what meets the eyes, Minsc.~
-@4 = ~You have a giant space hamster too?~
-@5 = ~That's not quite what I was going for, but I used to have a companion similar to Boo.~
-@6 = ~And where is this great fellow now? Boo would like to meet him or her.~
-@7 = ~My sparrow died long ago.~
-@8 = ~Elves live too long.~
-@9 = ~Hmph. I would prefer some privacy with <CHARNAME>, wandering eyes are unwelcome.~
-@10 = ~My apologies. Sometimes love shows up in the most unexpected places.~
-@11 = ~Your scars... t-they look so familar.~
-@12 = ~And the one on your face, you can still feel the pain there... right?~
-@13 = ~Yes. It is a constant reminder of my regrets.~
-@14 = ~But it is also a reminder of what I have been through and to keep fighting.~
-@15 = ~Y-you are a strong person, Elaryn.~
-@16 = ~(smiles) Thank you, Aerie.~
-@17 = ~But this is all a facade.~ 
-@18 = ~My finch, next we stop at a tavern with sweet music and fine wine, let me help to ease your sorrows with a show.~
-@19 = ~I appreciate the offer, Haer'Dalis. But I would prefer it if you would leave me be.~ 
-@20 = ~To hear music and to hear the sounds of carefree laughter is almost an insult to my ears.~
-@21 = ~As you wish, my finch.~
-@22 = ~Aye, thank you my lady.~
-@23 = ~<CHARNAME> is the most wondrous woman I have ever had the pleasure of meeting. I only hope to please her every day until the end of days.~
-@24 = ~Sometimes love shows up in the most unexpected places.~
-@25 = ~I am glad to see you two so happy despite these troubling times.~
-@26 = ~I don't appreciate your stares, Red Wizard.~
-@27 = ~I am not gawking at your pathetic form, elf! I was looking past your miniscule capitulum. (Not that I need to explain myself to this monkey...)~ 
-@28 = ~<CHARNAME> keeps you here for a reason and I will respect it.~
-@29 = ~But the day you wag your finger the wrong way, I will pierce your wicked heart with my arrows.~
-@30 = ~And I never miss.~
-@31 = ~Here, take this.~
-@32 = ~...Why would I need or want this?~
-@33 = ~Hey, don't look a gift horse in the mouth. Sometimes gifts don't need a requirement or necessity behind them, but in this case, I think this is more of a sentimental value for you.~
-@34 = ~You know, I once had a lot of these in my pack. Funny story really, I was once selling a whole bunch of them when --~
-@35 = ~I don't understand how this turnip lip balm would prove to be of any value to me.~
-@36 = ~You have to let me finish!~
-@37 = ~You're testing my patience, gnome.~ 
-@38 = ~Gnome, eh? Starting to sound like your sister if you ask me. Fine. Your sister liked using these lip balms, and I thought you might like one of them to try out too.~
-@39 = ~Oh... I am sorry, Jan.~ 
-@40 = ~Thank you.~  
-@41 = ~You've changed so much. It's like seeing two different people within the same body.~
-@42 = ~I have learned much since the beginning of my travels with <CHARNAME>. It is only natural that my powers have grown considerably.~
-@43 = ~I almost missed the old Nalia.~
-@44 = ~I don't. She was so naive.~
-@45 = ~I suppose, but perhaps it was your innocence that was lost.~
-@46 = ~Take a look at this.~
-@47 = ~What is it, Imoen?~ 
-@48 = ~What do you see?~
-@49 = ~It's a flower.~
-@50 = ~Why of course it is, silly. But let's go beyond that. What do you think of it?~
-@51 = ~Why are you asking me this? We have more urgent things to do.~
-@52 = ~I know, I know.~
-@53 = ~But sometimes you need to stop with whatever you're doing just for a moment and close your eyes. Take a deep breath around you and smell the flowers around you. Take this one, I will find another one for myself.~
-@54 = ~Speak elsewhere, darthiir.~
-@55 = ~I do not know how <CHARNAME> is able to put up with your kind, especially you.~
-@56 = ~But I suppose love can be found in the most unexpected places.~
-@57 = ~To see as many battles as you have and to have a family through it all... it is something to aspire to.~ 
-@58 = ~It is... difficult to maintain but my family is a shining beacon throughout the battles.~
-@59 = ~My duties to the order will soon cease however. It is time I spend my remaining days with them.~ 
-@60 = ~That is a wonderful and lovely sentiment.~
-@61 = ~After your travels with <CHARNAME>, will you return to your son?~
-@62 = ~Of course. I will travel to him as soon as I am able to.~
-@63 = ~Good. A child needs their father.~
-@64 = ~But nature is always calling, will you allow your son to be one with nature as you are?~
-@65 = ~This is something that has yet to be seen.~
-@66 = ~Once again, I am astounded by your never-ending dedication and commitment to the task at hand. You truly are a force of good and righteousness to be reckoned with.~
-@67 = ~Thank you, Elaryn. It is not every day I hear such a genuine praise from a ranger.~ 
-@68 = ~You are as humble as one can be.~
-@69 = ~I can only ever wish and hope the best for you.~ 
-@70 = ~I'll be ye two coppers to see ye drink, elf!~
-@71 = ~I don't ever recall giving you permission to speak to me.~ 
-@72 = ~Ha! I don't be needin' that. Me axe is all I need.~
-@73 = ~I find your presence most relaxing, Valygar.~
-@74 = ~Truly? You are among the first to have said that and probably the last.~
-@75 = ~Perhaps it is because I feel akin to you, but maybe it is the calmness of your voice.~
-@76 = ~Either way, I am glad to have you by my side.~
-@77 = ~And I, you.~ 
-@78 = ~You are an abomination to nature.~
-@79 = ~Many things are an affront to nature, yet you direct your attentions to me.~ 
-@80 = ~Direct your ferocity elsewhere.~
-@81 = ~You shouldn't exist. You have defied death. No one should be beyond that.~
-@82 = ~Ha! Yes, I have defied death itself. This alone should be a warning to you to stay out of my way.~
-@83 = ~You have some nerve to speak to me in that manner.~
-@84 = ~Regardless, I will keep a close watch on you.~
+// Commun (*)
+@0 = ~Vous faites vraiment plaisir à voir, toi et <CHARNAME>.~
+
+// Aerie (*)
+@1 = ~Je vous remercie, Elaryn. C'est vraiment gentil de votre part.~
+@2 = ~Parfois, l'amour nous tombe dessus dans les moments les plus inattendus.~
+
+// Minsc
+@3 = ~Nous nous ressemblons plus qu'on ne pourrait penser au premier abord, Minsc.~
+@4 = ~Tu as un hamster géant de l'espace miniature, toi aussi ?~
+@5 = ~Ce n'est pas tout à fait ce que j'avais en tête, mais j'ai aussi eu un compagnon, un peu comme Boo.~
+@6 = ~Et où est ce grand héros ? Boo aimerait certainement le rencontrer.~
+@7 = ~Mon moineau est mort il y a bien longtemps.~
+@8 = ~La longévité des elfes est trop importante.~
+
+// Jaheira (*)
+@9 = ~Hmph. J'apprécierais que l'on respecte mon intimité avec <CHARNAME>, les yeux baladeurs sont importuns.~
+@10 = ~Toutes mes excuses. Parfois, l'amour nous tombe dessus dans les moments les plus inattendus.~
+
+// Aerie
+@11 = ~Vos cicatrices... E-elles me font penser aux miennes.~
+@12 = ~Celle sur votre visage, elle est toujours douloureuse... N'est-ce pas ?~
+@13 = ~Oui. C'est un rappel constant de mes regrets.~
+@14 = ~Mais c'est aussi un rappel de ce que j'ai traversé et que je dois continuer à me battre.~
+@15 = ~V-vous êtes forte, Elaryn.~
+@16 = ~(sourire) Merci, Aerie.~
+@17 = ~Mais ce ne sont que des apparences.~ 
+
+// Haer'Dalis
+@18 = ~Mon pinson, la prochaine fois que nous nous arrêtons dans une taverne où on joue de la douce musique et où on sert du bon vin, laisse-moi alléger ta peine avec un spectacle.~
+@19 = ~Je te remercie pour la proposition, Haer'Dalis. Mais je préférerais que tu me laisses tranquille.~ 
+@20 = ~La musique et les rires insouciants, tout ça est presque une insulte à mes oreilles.~
+@21 = ~Comme tu voudras, mon pinson.~
+
+// Anomen (*)
+@22 = ~Oui, je vous remercie ma dame.~
+@23 = ~<CHARNAME> est la plus merveilleuse femme qu'il m'ait été donné de rencontrer. J'espère la combler de bonheur chaque jour jusqu'à la fin de ma vie.~
+@24 = ~Parfois, l'amour nous tombe dessus dans les moments les plus inattendus.~
+@25 = ~Je suis contente de vous voir si heureux malgré ces temps troublés.~
+
+// Edwin
+@26 = ~Je n'aime pas trop que tu me fixes comme ça, Magicien Rouge.~
+@27 = ~Je n'admirais pas du tout tes formes pathétiques, elfe ! Je regardais au loin et ta minuscule tête était en travers. (Je n'ai pas à me justifier à cette simienne...)~ 
+@28 = ~<CHARNAME> a probablement une bonne raison de te garder avec lui et je respecterai sa décision.~ ~<CHARNAME> a probablement une bonne raison de te garder avec elle et je respecterai sa décision.~
+@29 = ~Mais au premier signe menaçant, je transperce ton cœur cruel de mes flèches.~
+@30 = ~Sache que je ne rate jamais ma cible.~
+
+// Jan
+@31 = ~Tiens, prends ça.~
+@32 = ~...Je n'en ai pas besoin, qu'est-ce que tu voudrais que j'en fasse ?~
+@33 = ~Hé, à cheval donné on ne regarde pas les dents. Un cadeau n'a pas forcément besoin d'être utile, mais dans ce cas, je pense que celui-ci aura une valeur sentimentale pour toi.~
+@34 = ~Tu sais, j'en avais plein mes sacs avant. C'est vraiment une histoire cocasse, j'étais en train d'en refourguer une grosse quantité quand...~
+@35 = ~Je ne vois pas en quoi ce baume à lèvres au navet aurait une quelconque valeur pour moi.~
+@36 = ~Mais laisse-moi donc finir !~
+@37 = ~Tu mets ma patience à rude épreuve, gnome.~ 
+@38 = ~Gnome, hein ? On croirait entendre ta sœur. Bon. Elle aimait beaucoup ces baumes à lèvre, j'ai pensé que ça te plairait de les essayer aussi.~
+@39 = ~Oh... Je suis désolée, Jan.~ 
+@40 = ~Je te remercie.~  // Utilisé aussi en réponse à Imoen @53
+
+// Nalia
+@41 = ~Tu as tellement changé. Tu es la même et pourtant, c'est comme si je ne te reconnaissais plus.~
+@42 = ~J'ai énormément appris depuis que je voyage avec <CHARNAME>. C'est tout naturel que mes pouvoirs aient considérablement augmenté.~
+@43 = ~La Nalia d'avant me manque presque.~
+@44 = ~Pas moi. Elle était tellement naïve.~
+@45 = ~Ce n'est pas faux, mais tu as peut-être aussi perdu ton innocence au passage.~
+
+// Imoen
+@46 = ~Regarde ça.~
+@47 = ~Qu'est-ce que c'est, Imoen ?~ 
+@48 = ~Qu'est-ce que tu vois ?~
+@49 = ~C'est une fleur.~
+@50 = ~Mais oui bien sûr, idiote. Et au delà de ça. Qu'est-ce que tu en penses ?~
+@51 = ~Pourquoi me poses-tu cette question ? Nous avons plus important à faire.~
+@52 = ~Je sais, je sais.~
+@53 = ~Mais des fois, il est bon de faire une pause et de simplement fermer les yeux. Prendre une profonde inspiration et laisser les senteurs autour de soi nous envahir. Tiens, je te donne celle-ci, je m'en trouverai une autre.~
+
+// Viconia (*)
+@54 = ~Va baragouiner ailleurs, darthiir.~
+@55 = ~Je ne comprends vraiment pas comment <CHARNAME> arrive à supporter quelqu'un de ton espèce, toi en particulier.~
+@56 = ~Mais je suppose que l'amour nous tombe parfois dessus dans les moments les plus inattendus.~
+
+// Keldorn
+@57 = ~Avoir mené autant de batailles que toi tout en ayant une famille... C'est vraiment un idéal à poursuivre.~ 
+@58 = ~C'est... difficile à préserver mais ma famille est un phare qui m'aide à affronter ces combats.~
+@59 = ~Mes devoirs envers l'ordre sont bientôt terminés cependant. Il est temps de finir mes vieux jours avec eux.~ 
+@60 = ~C'est une perspective merveilleuse.~
+
+// Cernd
+@61 = ~Après la conclusion de nos aventures avec <CHARNAME>, retourneras-tu auprès de ton fils ?~
+@62 = ~Bien sûr. J'ai l'intention de voyager avec lui dès que ça sera possible.~
+@63 = ~Bien. Un enfant a besoin de son père.~
+@64 = ~Mais l'appel de la nature est incessant, laisseras-tu ton fils l'entendre à son tour ?~
+@65 = ~C'est une question à laquelle je n'ai pas encore de réponse.~
+
+// Mazzy
+@66 = ~À nouveau, ton dévouement sans faille et ton engagement dans notre quête me stupéfient. Tu es vraiment une force du bien et un parangon de vertu.~
+@67 = ~Je vous remercie, Elaryn. Ce n'est pas tous les jours que je reçois un compliment si sincère de la part d'une rôdeuse.~ 
+@68 = ~Ta modestie est sans égale.~
+@69 = ~Je ne peux que te souhaiter le meilleur pour l'avenir.~ 
+
+// Korgan
+@70 = ~J'donnerais n'importe quoi pour t'voir picoler, elfe !~
+@71 = ~Je ne me rappelle pas t'avoir autorisé à m'adresser la parole.~ 
+@72 = ~Ah ! Comme si j'en avais b'soin. Y'a qu'ma hache dont j'ai b'soin.~
+
+// Valygar
+@73 = ~Je trouve ta compagnie très relaxante, Valygar.~
+@74 = ~Vraiment ? Vous êtes la première à me le dire et probablement la dernière.~
+@75 = ~C'est peut-être parce que je me sens proche de toi, ou bien la douceur de ta voix.~
+@76 = ~Quoi qu'il en soit, je suis contente de t'avoir à mes côtés.~
+@77 = ~C'est réciproque.~ 
+
+// Sarevok
+@78 = ~Tu es une abomination de la nature.~
+@79 = ~Comme le sont bien d'autres choses, et pourtant c'est dans ma direction que tu regardes.~ 
+@80 = ~Dirige ta colère vers une autre cible.~
+@81 = ~Tu ne devrais pas exister. Tu as défié la mort. Personne ne devrait lui échapper.~
+@82 = ~Ah ! Oui, j'ai défié la mort elle-même. Ce qui devrait te servir d'avertissement qu'il ne vaut mieux pas se trouver en travers de ma route.~
+@83 = ~Tu en as du culot de me parler comme ça.~
+@84 = ~Quoi qu'il en soit, je vais te surveiller de près.~
