@@ -31,7 +31,7 @@
 @21 = ~En effet, ça ne m'intéresse vraiment pas.~ 
 @22 = ~Très bien.~ [ffight2j]
 @23 = ~Je ne sais pas à quel point Minyae t'a parlé de son enfance, elle était peut-être trop jeune pour se souvenir de détails en particulier. Ou peut-être que tout était tellement confus qu'elle a préféré oublier, je ne sais pas trop. J'espère que ce n'est pas cette deuxième possibilité.~
-@24 = ~Minyae disait toujours que j'étais la sœur "pas drôle", mais j'aimais à penser que j'étais plutôt calme et responsable.~
+@24 = ~Minyae disait toujours que j'étais la sœur « pas drôle », mais j'aimais à penser que j'étais plutôt calme et responsable.~
 @25 = ~*soupir* Je n'arrête pas de penser à ce jour. Cette sinistre nuit, j'aurais dû rester. Peut-être que je voulais vraiment m'ériger en parangon de vertu ou simplement faire mes preuves, mais j'aurais dû rester. À cause de mon imprudence, j'ai été obligée de tuer ma sœur, ma propre famille. Combien de fois vais-je devoir me répéter que c'était la bonne décision avant que ma cause ne me rende folle ?~
 @26 = ~Est-ce que ça te dérangerait de me répéter ce qu'il s'est passé ?~ 
 @27 = ~N'oublie surtout pas ton but. Et ne doute pas de toi comme ça.~ 
@@ -80,7 +80,7 @@
 // Ordre secret
 @69 = ~Souhaites-tu en savoir plus sur mon ordre ?~ 
 @70 = ~Très bien, je te laisse donc tranquille.~
-@71 = ~Je pensais que le mot "secret" piquerait ta curiosité. Alors, je t'en parle ou pas ?~
+@71 = ~Je pensais que le mot « secret » piquerait ta curiosité. Alors, je t'en parle ou pas ?~
 @72 = ~Bien sûr.~
 @73 = ~Je n'ai pas le temps, désolé.~ ~Je n'ai pas le temps, désolée.~
 @74 = ~Non.~ 
@@ -205,7 +205,7 @@
 
 // Les secrets
 @187 = ~Toutes les personnes et toutes les familles cachent un secret, tu sais.~
-@188 = ~Une famille peut sembler absolument parfaite pour quiconque de l'extérieur, mais qui sait quelles traîtrises cache cette "perfection" ? Ils ne mentionneront jamais l'enfant perturbé enfermé au sous-sol ou celui qui tue ses animaux de compagnie pour s'amuser.~
+@188 = ~Une famille peut sembler absolument parfaite pour quiconque de l'extérieur, mais qui sait quelles traîtrises cache cette « perfection » ? Ils ne mentionneront jamais l'enfant perturbé enfermé au sous-sol ou celui qui tue ses animaux de compagnie pour s'amuser.~
 @189 = ~Non. Tout cela est bien évidemment dissimulé aux yeux du monde, car qui voudrait d'une relation avec une famille rongée par le désastre ? Tout le monde cherche à atteindre la perfection, mais c'est une chimère.~
 @190 = ~Qu'est-ce qui te prend ?~
 @191 = ~Hum, tu vas bien ?~
@@ -300,7 +300,7 @@
 @276 = ~Je ne sais pas ce que je ferai une fois que nous aurons terminé, du moins, si nous survivons à cette épreuve.~
 
 // Ordre secret (premières questions du perso)
-@277 = ~Je pensais que c'était un ordre "secret".~
+@277 = ~Je pensais que c'était un ordre « secret ».~
 @278 = ~Si tu es d'accord pour en parler, je suis disposé à t'écouter.~ ~Si tu es d'accord pour en parler, je suis disposée à t'écouter.~
 @279 = ~Qu'est-ce qui te fait croire que ça m'intéresse ?~
 @280 = ~Je me fiche de ton ordre.~

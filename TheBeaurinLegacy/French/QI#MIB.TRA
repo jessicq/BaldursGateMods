@@ -98,7 +98,7 @@
 @76 = ~Surveille ta bouche fillette.~
 @77 = ~Oh je ne voulais aucun mal avec ma petit remarque. C'était une simple observation. Ne t'arrive t-il jamais de dire ce qu'il te passe par la tête, nain ? Je suis certaine que oui.~
 @78 = ~J'aurais aucun problème à dormir c'soir si j'te tranchais en deux, elfe.~
-@79 = ~Mais si tu "m'tranchais en deux", qui désarmerait tous les pièges et déverrouillerait tous les coffres qui renferment toutes les bonnes choses ?~
+@79 = ~Mais si tu « m'tranchais en deux », qui désarmerait tous les pièges et déverrouillerait tous les coffres qui renferment toutes les bonnes choses ?~
 @80 = ~Pas toi j'imagine. Je te vois bien tenter de forcer la serrure mais échouer lamentablement. Tu réduirais en poussière le contenu du coffre, et tout le monde serait mécontent, en particulier <CHARNAME>. En fait, je n'ai pas l'impression que ce que pense <CHARNAME> t'importe vraiment, tu n'es là que pour l'or.~
 @81 = ~Ouais fillette, t'as pas tort. Des richesses, des femmes, c'est tout c'que j'ai besoin !~
 
@@ -128,7 +128,7 @@
 // Jaheira
 @99 = ~Je veux l'entendre de ta bouche, Jaheira.~ [QI#Mi159]
 @100 = ~Qu'es-tu en train de jacasser ?~ 
-@101 = ~Je n'ai pu m'empêcher de surprendre dans une conversation le nom "Irenicus". Qu'as-tu ressenti dans son donjon ?~
+@101 = ~Je n'ai pu m'empêcher de surprendre dans une conversation le nom « Irenicus ». Qu'as-tu ressenti dans son donjon ?~
 @102 = ~Tu parles comme si avoir été capturé par un fou furieux était un honneur.~
 @103 = ~Oh non, bien sur que non. Il n'est jamais très plaisant d'être torturé, mais c'est parfois nécessaire.~
 @104 = ~Cette discussion avec toi me fatigue Minyae. Tu ne sais rien d'Irenicus, et je n'essaierais pas de le comprendre à ta place.~
@@ -248,7 +248,7 @@
 @190 = ~L'est-ce vraiment cependant ?~
 @191 = ~Peux-tu dire qu'un dictateur est mauvais quand il est persuadé d'agir pour le bien de son peuple ? À ses yeux, c'est un bon dirigeant. Il est le bien qui défie le mal. Mais dans les régions qu'il conquiert, les vaincus le considèrent maléfique.~
 @192 = ~Minyae, il y a une séparation claire entre la vertu et le -~
-@193 = ~Tu penses apporter la "lumière" à ceux que tu rencontres. Mais tu amènes les ténèbres à ceux qui ne t'accueillent pas à bras ouvert.~
+@193 = ~Tu penses apporter la « lumière » à ceux que tu rencontres. Mais tu amènes les ténèbres à ceux qui ne t'accueillent pas à bras ouvert.~
 
 // Korgan
 @194 = ~Fillette, j'te préviens. J'vais t'étriper !~
@@ -278,7 +278,7 @@
 @212 = ~Les petites-personnes sont les plus savoureuses !~
 @213 = ~Je ne tiens pas à participer à cette discussion...~
 @214 = ~Ah ! Plutôt mourir que de me réincarner en petite-gens ! Ils sont grotesques, lent d'esprit. Je n'en ai jamais vu un se montrer plus rusé qu'un elfe !~
-@215 = ~C'est un point de vue un peu sévère sur ceux de mon peuple. Nous ne sortons pas du ventre de notre mère en criant, "Nous voulons être minuscule pour toujours !". Mais il n'y a pas que des inconvénients à notre petite taille, il est ainsi plus facile de se dissimuler sans être vu. Sans parler de notre tradition familiale pour fabriquer des gadgets uniques. Ceux-ci dépassent l'intelligence de n'importe quel elfe.~
+@215 = ~C'est un point de vue un peu sévère sur ceux de mon peuple. Nous ne sortons pas du ventre de notre mère en criant, « Nous voulons être minuscule pour toujours ! ». Mais il n'y a pas que des inconvénients à notre petite taille, il est ainsi plus facile de se dissimuler sans être vu. Sans parler de notre tradition familiale pour fabriquer des gadgets uniques. Ceux-ci dépassent l'intelligence de n'importe quel elfe.~
 @216 = ~Je pourrais m'éterniser sur mon aversion pour ton peuple, mais pour le bien de ma santé mentale, je refuse de prononcer un mot de plus sur ce sujet crasse.~
 
 // Valygar
@@ -322,7 +322,7 @@
 @248 = ~Cela étant dit, nous devrions mettre un terme à cette fascinante conversation avant que je ne sois plus en mesure de me contenir en clignant des cils dans votre direction.~
 
 // Edwin 1
-@249 = ~ Ne me parle pas sur ce ton femelle. J'exige que tu m'en dises plus sur ce "chef d'œuvre". (Que peut-elle bien cacher ?)~
+@249 = ~ Ne me parle pas sur ce ton femelle. J'exige que tu m'en dises plus sur ce « chef d'œuvre ». (Que peut-elle bien cacher ?)~
 @250 = ~Ne m'appelle plus jamais femelle, chien de Thay.~ [QI#Mi090]
 @251 = ~Hein ? (Elle essaie de m'insulter, mais ne se rend pas compte que ces mots ne me font aucun effet !)~
 @252 = ~...Tu te parles à toi même ? Es-tu tellement un imbécile que -~
@@ -352,7 +352,7 @@
 @272 = ~De nombreuses femmes ont désiré l'incroyable Edwin Odesseiron. Je te donne une opportunité dont elles rêvent toutes !~
 @273 = ~Une offre généreuse. Mais que je vais devoir refuser, redemande moi plus tard.~
 @274 = ~Hmph. (Elle reviendra bien me supplier tôt ou tard.)~
-@275 = ~Vraiment ? Qu'ai-je à gagner d'une telle "opportunité" ?~
+@275 = ~Vraiment ? Qu'ai-je à gagner d'une telle « opportunité » ?~
 @276 = ~Vais-je inexplicablement maîtriser les quatre éléments qui constituent notre monde ? Pourrais-je me déplacer bon gré mal gré entre les plans ? Vais-je pouvoir démarrer ma conquête et détruire tout Thay ?~
 @277 = ~Euh...~
 @278 = ~C'est bien ce que je pensais.~
@@ -380,7 +380,7 @@
 // Edwin 6
 @295 = ~Je croyais que les magiciens thayvien rasaient leur tête et étaient couverts de tatouages magiques.~
 @296 = ~C'est une vieille tradition d'origine Mulan... et une erreur courante des simples d'esprit. (Je ne suis clairement pas couvert de tatouages, peut-être que les yeux elfes ont perdu de leur précision.)~
-@297 = ~Pourquoi ne pas m'instruire alors afin que je sois moins "simple d'esprit" ?~
+@297 = ~Pourquoi ne pas m'instruire alors afin que je sois moins « simple d'esprit » ?~
 @298 = ~Je vais y réfléchir.~
 @299 = ~Tu réfléchis à ma proposition depuis un moment. Y a t-il un problème ?~
 @300 = ~Je suppose que tu m'as largement laissé le temps d'y songer. (Trois jours est suffisant, n'est-ce pas ?)~
@@ -511,7 +511,7 @@
 @405 = ~C'est de moi que tu parles ?~
 @406 = ~Oui, ta cervelle comprends de plus en plus vite. (Je vois que notre association a décuplé son intellect.)~
 @407 = ~Ou peut-être est-ce l'inverse. Y as-tu pensé ?~
-@408 = ~Quoi qu'il en soit, moi aussi, je suis à l'aise avec notre "relation".~
+@408 = ~Quoi qu'il en soit, moi aussi, je suis à l'aise avec notre « relation ».~
 @409 = ~Parfait.~
 
 // Edwin 17
@@ -570,7 +570,7 @@
 @456 = ~Ça n'a pas de sens de se moquer d'une femme si puissante.~
 @457 = ~Je ne suis pas une femme ! Je suis la force et l'intelligence incarnées - je suis un homme ! (Ton esprit naïf n'aurait jamais pu comprendre ce qu'il vient de se produire, je suis plus proche du pouvoir que personne ne l'a jamais imaginé. Ce n'est qu'un très léger contretemps, j'espère...)~
 @458 = ~Puisque tu le dis. Même si je pense toutefois que les femmes sont réputées pour leur tolérance ainsi que leur extraordinaire pédagogie.~
-@459 = ~Pourquoi ne pas faire bon usage de tes talents et m'enseigner à être moins "simple d'esprit" ? Profitons de cette opportunité.~
+@459 = ~Pourquoi ne pas faire bon usage de tes talents et m'enseigner à être moins « simple d'esprit » ? Profitons de cette opportunité.~
 @460 = ~Ne te rappelles-tu donc de rien de ce que je t'ai enseigné ?!~
 @461 = ~J'espérais extraire quelques informations supplémentaires de ta part.~
 @462 = ~Mais je suppose que non.~

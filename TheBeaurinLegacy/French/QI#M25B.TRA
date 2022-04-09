@@ -53,7 +53,7 @@
 @41 = ~J'ai écouté les récits de tes escapades en forêt.~
 @42 = ~Récits ? Escapades en forêt ?~ [QI#Mi188]
 @43 = ~Il est assez remarquable et réconfortant de voir que tu es à ce point en harmonie avec les forêts qui t'entourent.~
-@44 = ~Ces "récits" et mes "escapades en forêt" étaient mon enfance et mon moyen de survivre.~
+@44 = ~Ces « récits » et mes « escapades en forêt » étaient mon enfance et mon moyen de survivre.~
 @45 = ~Peut-être que si la vie t'avait un peu plus épargnée, tu aurais choisi une voie différente.~
 @46 = ~Ah ! Si tu penses que je serais devenu druide, tu te trompes lourdement.~
 @47 = ~Les arbres m'importaient parce qu'ils me cachaient des gardes. La rivière m'importait car elle étanchait ma soif. Les glands tombés des arbres m'importaient parce qu'ils pouvaient me servir de diversion - de munitions même si besoin !~ 
@@ -122,7 +122,7 @@
 // Korgan
 @95 = ~Bois un coup ma belle !~
 @96 = ~Combien de fois vais-je devoir t'expliquer que je ne bois *pas*, nain ?~ [QI#Mi196]
-@97 = ~J'ai qu'entendu les mots "je bois".~ 
+@97 = ~J'ai qu'entendu les mots « je bois ».~ 
 @98 = ~Toi et ta race, vous êtes vraiment insupportables.~
 
 // Aerie
@@ -145,7 +145,7 @@
 @113 = ~Fin de la discussion.~
 
 // Mazzy
-@114 = ~Tu dois souvent te l'entendre dire, mais les "paladins" petites-personnes sont exceptionnellement rares.~ [QI#Mi199]
+@114 = ~Tu dois souvent te l'entendre dire, mais les « paladins » petites-personnes sont exceptionnellement rares.~ [QI#Mi199]
 @115 = ~Ceux qui se battent pour un monde meilleur ne sont pas durs à trouver, Minyae.~
 @116 = ~Tu devrais le savoir depuis le temps.~
 @117 = ~Mes connaissances sont à la fois immenses et infimes, mais ce que je ne sais pas, je veux l'apprendre.~
@@ -175,9 +175,9 @@
 // Imoen + Edwin
 @136 = ~Je suis obligée de le reconnaître. C'est bizarrement mignon de vous voir ensemble.~
 @137 = ~Mais de quoi est-ce que tu me parles ?~ [QI#Mi202]
-@138 = ~Toi et comme tu l'appelles, "Eddie".~
+@138 = ~Toi et comme tu l'appelles, « Eddie ».~
 @139 = ~NON ! Je laisse déjà une femme utiliser ce surnom ridicule, je n'ai pas besoin de deux qui prennent cette habitude ! (Et surtout pas cette gamine de bas-étage avec ces cheveux roses !)~ 
-@140 = ~Imoen, je crois que tu as utilisé le mot "mignon" de manière erronée. En tant que mage douée d'un minimum d'intelligence, je dois dire que je suis assez déçue de te voir prononcer "mignon" et "relation avec Edwin" dans la même phrase.~
+@140 = ~Imoen, je crois que tu as utilisé le mot « mignon » de manière erronée. En tant que mage douée d'un minimum d'intelligence, je dois dire que je suis assez déçue de te voir prononcer « mignon » et « relation avec Edwin » dans la même phrase.~
 @141 = ~Peut-être que les événements à Spellhold ont eu des conséquences sur toi plus graves que nous ne l'imaginions.~
 @142 = ~D'accord, d'accord, tu marques un point.~
 @143 = ~*gloussement* Je trouve quand même que c'est mignon.~
@@ -248,7 +248,7 @@
 @198 = ~Es-tu stupide à ce point ?! Faut-il que je te fasse un dessin à chaque fois ?~
 @199 = ~...Ce que j'essaie de dire c'est que nos querelles la nuit à propos de je ne sais quels sujets controversés étaient, et sont toujours, les meilleurs moments de mes journées, mais j'ai l'impression que tu n'es pas de cet avis.~
 @200 = ~Ah ! Non seulement ton intellect est endommagé au delà de toute réparation, mais en plus tu es une hypocrite. (Cette femme a le culot de me trouver stupide !)~  
-@201 = ~Si tu étais si "belle et intelligente" comme tu l'affirmes, tu percevrais que ce que je ressens est similaire. Penses-tu que je gâcherais mes nuits de sommeil à débattre avec un singe ? NON.~ 
+@201 = ~Si tu étais si « belle et intelligente » comme tu l'affirmes, tu percevrais que ce que je ressens est similaire. Penses-tu que je gâcherais mes nuits de sommeil à débattre avec un singe ? NON.~ 
 @202 = ~Oh. je n'avais pas compris que -~
 @203 = ~Tu ne comprends pas assez souvent.~
 
@@ -325,7 +325,7 @@
 @267 = ~Je continuerai à vivre bien après ta mort.~
 @268 = ~Hmph. (Pourquoi continue-t-elle avec ces évidences ?)~
 @269 = ~Et ta quête ? Utilise les connaissances que tu as acquises, et laisse-moi vivre pour toujours à tes côtés.~
-@270 = ~Tu as passé de nombreuses et laborieuses années à te former sur les conditions nécessaires pour accomplir ta transformation. Tu gâcherais tout ça, parce que je suis un "humain" ?~
+@270 = ~Tu as passé de nombreuses et laborieuses années à te former sur les conditions nécessaires pour accomplir ta transformation. Tu gâcherais tout ça, parce que je suis un « humain » ?~
 @271 = ~C'est une idée qui mérite effectivement réflexion, mais je ne suis pas sûre que tu saisisses toutes les implications de ce que tu désires.~ 
 @272 = ~Et quelle importance ? Si je peux prolonger ma vie, pourquoi ne pas le faire ?~
 @273 = ~J'ai peur que tu y perdes ton humanité.~
@@ -395,7 +395,7 @@
 @333 = ~Quelle excellente nouvelle ! (Je sauterais de joie si ma robe le permettait !)~ 
 
 // Edwin - liche
-@334 = ~Je t'ai vu froncer les sourcils la dernière fois quand j'ai mentionné mes "plans pour la suite". Plutôt que de me fixer de loin, pourquoi est-ce que tu ne dirais pas ce que tu as en tête ?~
+@334 = ~Je t'ai vu froncer les sourcils la dernière fois quand j'ai mentionné mes « plans pour la suite ». Plutôt que de me fixer de loin, pourquoi est-ce que tu ne dirais pas ce que tu as en tête ?~
 @335 = ~Une liche hein ? (Peut-être que je peux soutirer à cette elfe quelques détails juteux.)~
 @336 = ~Oui, une liche. Et ?~
 @337 = ~Et ?~

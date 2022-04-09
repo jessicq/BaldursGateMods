@@ -4,7 +4,7 @@
 
 // Demogorgon
 @2 = ~J'ai ressenti le mal sous bien des formes, <CHARNAME>...mais jamais avec une telle intensité.~ 
-@3 = ~Une fois de plus, tu fais preuve de cette "compassion" superflue. Est-ce que ces gens la mérite vraiment par contre ?~
+@3 = ~Une fois de plus, tu fais preuve de cette « compassion » superflue. Est-ce que ces gens la mérite vraiment par contre ?~
 
 // Fin
 @4 = ~Alors c'est la fin, n'est-ce pas ? Qui aurait cru que je me tiendrais aux côtés du plus grand Enfant de Bhaal ayant jamais vécu. Autrefois, je t'aurais conseillé de saisir cette chance sans hésiter, mais maintenant que tu m'as ouvert les yeux sur le monde qui m'entoure, je te conjure d'y réfléchir prudemment. Je te soutiendrai quoi que tu fasses, mais sache que je chérirai toujours nos aventures ensemble.~ [QI#Mi107]
@@ -66,10 +66,10 @@
 @56 = ~Trahis ceux que tu accompagnes. Voici un avant-goût de ce que je peux t'offrir si tu me rejoins.~
 @57 = ~Non. Je ne te suivrai pas. J'ai encore beaucoup à faire avec <CHARNAME>.~ 
 @58 = ~Très bien jeune elfe. Prie pour que nous ne nous revoyions jamais. À notre prochaine rencontre, tu mourras.~
-@59 = ~Je ne voudrais pas parler à la place de <CHARNAME>, mais sache que cet "enfant divin" est plus puissant que tu ne pourras jamais l'imaginer.~ 
+@59 = ~Je ne voudrais pas parler à la place de <CHARNAME>, mais sache que cet « enfant divin » est plus puissant que tu ne pourras jamais l'imaginer.~ 
 @60 = ~J'ai appris que tu étais en possession d'un grimoire de grande valeur, un grimoire qui pourrait m'aider à...prolonger ma vie.~
 @61 = ~Il se pourrait que je possède quelque chose de la sorte, jeune elfe, mais je n'ai aucune envie de t'en parler. Peut-être que cette lame assouvira ta soif de connaissances.~
-@62 = ~Je n'apprécie pas particulièrement ce genre de "cadeaux", sache que tu viens de faire une grave erreur.~
+@62 = ~Je n'apprécie pas particulièrement ce genre de « cadeaux », sache que tu viens de faire une grave erreur.~
 
 // Retrouvailles
 @63 = ~Ce n'est probablement pas le meilleur moment pour évoquer le sujet, mais je me sens dans l'obligation de le faire avant d'oublier.~ [QI#Mi109]
@@ -124,7 +124,7 @@
 @110 = ~Nous ne pouvons rien y faire pour le moment, nous devons poursuivre.~
 @111 = ~Je préférerais ne pas y penser.~
 @112 = ~Elle nous colle à la peau, n'est-ce pas ? Même quand j'annihile nos ennemies avec du feu magique, je ne remarque pas l'odeur. Peut-être parce que le feu est magique justement ou peut-être que je m'y suis habituée ? Mais alors, pourquoi est-ce que je ne peux pas me sortir cette odeur de la tête ? C'est comme si tout ce qui c'était produit jusque là n'était qu'un rêve.~ [QI#Mi217]
-@113 = ~Je me fiche que ces gens soient morts. C'est leur faute s'ils sont venus à Saradush et se sont laissé enfermer comme du bétail dans cet enfer. Et non, je ne me "ramolli" pas non plus, je dis juste que cette odeur de chair brûlée est envahissante. Tu vas me trouver ridicule, mais j'ai l'impression d'être dans un rêve.~
+@113 = ~Je me fiche que ces gens soient morts. C'est leur faute s'ils sont venus à Saradush et se sont laissé enfermer comme du bétail dans cet enfer. Et non, je ne me « ramolli » pas non plus, je dis juste que cette odeur de chair brûlée est envahissante. Tu vas me trouver ridicule, mais j'ai l'impression d'être dans un rêve.~
 @114 = ~Comme toujours, tu as raison sur ce point. Même au cœur d'une telle destruction, tu sais rester impassible. J'admire ce trait de ta personnalité. Par contre, je n'arrive pas à me débarrasser de cette odeur de chair brûlée, on se croirait dans un rêve.~
 @115 = ~Et je ne t'en veux pas de réagir ainsi, mais peux-tu vraiment ignorer ce qu'il s'est passé ? Peux-tu vraiment effacer de ta mémoire l'annihilation de Saradush ? Moi je n'en reviens toujours pas, c'est comme si j'étais en plein rêve.~
 @116 = ~Je ne sais que penser de ce qui est en train de se passer. J'étais convaincue que tout ça ne m'importait pas.~
@@ -164,7 +164,7 @@
 @148 = ~Je suis bien d'accord, ces gens sont des idiots.~
 @149 = ~Alors tu es vraiment un idiot. Pourquoi gâcherais-tu ta vie pour une *cause*. Ça me révolte rien que d'y penser.~ ~Alors tu es vraiment une idiote. Pourquoi gâcherais-tu ta vie pour une *cause*. Ça me révolte rien que d'y penser.~
 @150 = ~Tant mieux si nous sommes d'accord. Par contre, le comportement des masses me laissera toujours perplexe.~
-@151 = ~Pourquoi quiconque choisirait de gâcher sa vie inutilement ? J'ai écouté les ragots de ces "croyants", mais ça ne rime à rien. Ils se battent pour des changements, mais ne comprennent pas que s'ils vont au delà de ce qu'ils ont besoin de faire, ils perdront la vie ? Et après ? Tous ces changements pour lesquels ils se battent, ils n'en verront pas le fruit, parce qu'ils sont maintenant des cadavres. Si ils n'aboutissent à rien, pourquoi même essayer ?~
+@151 = ~Pourquoi quiconque choisirait de gâcher sa vie inutilement ? J'ai écouté les ragots de ces « croyants », mais ça ne rime à rien. Ils se battent pour des changements, mais ne comprennent pas que s'ils vont au delà de ce qu'ils ont besoin de faire, ils perdront la vie ? Et après ? Tous ces changements pour lesquels ils se battent, ils n'en verront pas le fruit, parce qu'ils sont maintenant des cadavres. Si ils n'aboutissent à rien, pourquoi même essayer ?~
 @152 = ~Agh ! Je ne comprends pas ce qui motive ces gens ! MAIS POURQUOI EST-CE QU'ILS SE BATTENT ?!~ [QI#Mi120]
 @153 = ~Tu n'as pas besoin de comprendre ce qui pousse les gens à agir comme ils le font. Ils ont simplement foi en leur cause.~
 @154 = ~Tu devrais te calmer. Qui sait pourquoi ces gens se battent ? Ne cherche pas à comprendre.~
@@ -268,18 +268,18 @@
 @244 = ~Je suis toujours prête pour ce que tu me réserves.~
 @245 = ~Mais au cas où ça ne se terminerait pas comme prévu, je voudrais te parler une dernière fois.~ [QI#Mi125]
 @246 = ~Je veux te remercier personnellement pour m'avoir aidée à ne jamais perdre de vue mes objectifs...et m'avoir fait rencontrer l'amour de ma vie.~ [QI#Mi600]
-@247 = ~Après la première "mort" de ma sœur, j'étais perdue. Je me suis donc mise en quête de la seule chose qui donnait encore un sens à ma misérable existence - un morceau de parchemin. C'était devenu une obsession, sans ça, comment continuer à avancer ? Qu'avais-je d'autre à perdre que ma propre vie ? Je me répétais que je devais vivre pour ma sœur, pour ma famille, pour les Beaurins. Ma vie était mon bien le plus précieux, et celles des autres ne signifiaient pas grand chose pour moi.~
+@247 = ~Après la première « mort » de ma sœur, j'étais perdue. Je me suis donc mise en quête de la seule chose qui donnait encore un sens à ma misérable existence - un morceau de parchemin. C'était devenu une obsession, sans ça, comment continuer à avancer ? Qu'avais-je d'autre à perdre que ma propre vie ? Je me répétais que je devais vivre pour ma sœur, pour ma famille, pour les Beaurins. Ma vie était mon bien le plus précieux, et celles des autres ne signifiaient pas grand chose pour moi.~
 @248 = ~Quand nous nous sommes rencontrés pour la première fois au Crâne Tordu, j'ai pensé pouvoir me servir de toi comme d'un outil, afin de rester à l'abri du danger. Le petit détail que j'ai évidemment oublié de te mentionner, c'est que j'étais au bout du rouleau, et que je savais ce qui se terrait derrière la porte secrète. Comment étais-je sensée tuer une liche par moi-même ? Je ne sais pas ce que j'aurais fait ni quelles mesures drastiques j'aurais employées si tu ne m'avais pas abordée ce jour-là.~
 @249 = ~Après la véritable mort de ma sœur, j'étais bouleversée intérieurement. Ma volonté de poursuivre mes recherches pour devenir une liche et mes convictions s'amenuisaient au point que j'en étais presque brisée, mais tu as toujours été là pour me guider.~
 @250 = ~Et comment oublier que tu m'as aidée à trouver ce que mon cœur désirait le plus. Je n'aurais jamais pensé avoir la chance de rencontrer un homme aussi formidable qu'Edwin. J'ai vu que tout était possible avec tes conseils, ta direction. Mille mercis pour tout ce que tu as fait pour moi.~ 
 @251 = ~Je veux te remercier personnellement pour m'avoir aidée à ne jamais perdre de vue mes objectifs.~ [QI#Mi601]
 @252 = ~Je ne laisserai pas tes efforts pour aider ma cause être vains, je poursuivrai mon but de toutes mes forces. Si j'ai le plaisir de te revoir, je serai une puissante mage mort-vivante. Je serai à ton service, du meilleur de mes capacités. Tu pourras toujours me compter comme une alliée.~
 @253 = ~Je veux te remercier personnellement pour m'avoir montrée que mon passé ne me définit pas, et que je peux choisir d'être qui j'ai envie...et m'avoir fait rencontrer l'amour de ma vie.~ [QI#Mi602]
-@254 = ~Après la première "mort" de ma sœur, j'étais perdue. Je me suis donc mise en quête de la seule chose qui donnait encore un sens à ma misérable existence - le bout de parchemin qui a corrompu ma vie. N'importe quoi pour ne plus penser à tout ce qu'il s'était mal passé. C'était devenu une obsession, sans ça, comment continuer à avancer ? Qu'avais-je d'autre à perdre que ma propre vie ? Je me répétais que je devais vivre pour ma sœur, pour ma famille, pour les Beaurins. Ma vie était mon bien le plus précieux, et celles des autres ne signifiaient pas grand chose pour moi.~
+@254 = ~Après la première « mort » de ma sœur, j'étais perdue. Je me suis donc mise en quête de la seule chose qui donnait encore un sens à ma misérable existence - le bout de parchemin qui a corrompu ma vie. N'importe quoi pour ne plus penser à tout ce qu'il s'était mal passé. C'était devenu une obsession, sans ça, comment continuer à avancer ? Qu'avais-je d'autre à perdre que ma propre vie ? Je me répétais que je devais vivre pour ma sœur, pour ma famille, pour les Beaurins. Ma vie était mon bien le plus précieux, et celles des autres ne signifiaient pas grand chose pour moi.~
 @255 = ~Après la véritable mort de ma sœur, j'étais bouleversée intérieurement. Avec le temps, j'apprendrai à me pardonner, mais je ne laisserai pas sa mort être vaine même si c'est mon obstination qui est la cause de son décès prématuré.~
 @256 = ~Et comment oublier que tu m'as aidée à trouver ce que mon cœur désirait le plus. Je n'aurais jamais pensé avoir la chance de rencontrer un homme aussi formidable qu'Edwin. J'ai vu que tout était possible avec tes conseils, ta direction. Mille mercis pour tout ce que tu as fait pour moi.~
 @257 = ~Je veux te remercier personnellement pour m'avoir montrée que mon passé ne me définit pas, et que je peux choisir d'être qui j'ai envie.~ [QI#Mi603]
-@258 = ~Après la première "mort" de ma sœur, j'étais perdue. Je me suis donc mise en quête de la seule chose qui donnait encore un sens à ma misérable existence - le bout de parchemin qui a corrompu ma vie. N'importe quoi pour ne plus penser à tout ce qu'il s'était mal passé. C'était devenu une obsession, sans ça, comment continuer à avancer ? Qu'avais-je d'autre à perdre que ma propre vie ? Je me répétais que je devais vivre pour ma sœur, pour ma famille, pour les Beaurins. Ma vie était mon bien le plus précieux, et celles des autres ne signifiaient pas grand chose pour moi.~
+@258 = ~Après la première « mort » de ma sœur, j'étais perdue. Je me suis donc mise en quête de la seule chose qui donnait encore un sens à ma misérable existence - le bout de parchemin qui a corrompu ma vie. N'importe quoi pour ne plus penser à tout ce qu'il s'était mal passé. C'était devenu une obsession, sans ça, comment continuer à avancer ? Qu'avais-je d'autre à perdre que ma propre vie ? Je me répétais que je devais vivre pour ma sœur, pour ma famille, pour les Beaurins. Ma vie était mon bien le plus précieux, et celles des autres ne signifiaient pas grand chose pour moi.~
 @259 = ~Après la véritable mort de ma sœur, j'étais bouleversée intérieurement. Je ne pense pas jamais arriver à me pardonner pour les atrocités que j'ai commises contre ma propre famille, mais je *vais* trouver un moyen de la ramener. Elle aura la vie qu'elle a toujours méritée.~
 @260 = ~Notre amitié m'est chère, <CHARNAME>. Aucune parole ne suffira à exprimer ma gratitude envers toi, mais j'espère que ma férocité dans la bataille à venir sera sans équivoque.~ [QI#Mi126]
 @261 = ~Je me battrai pour toi jusqu'à la fin des temps.~
@@ -303,7 +303,7 @@
 @277 = ~Il va falloir que tu sois plus précise.~
 @278 = ~Je ne sais pas trop. Tout ne s'est pas passé comme je l'avais prévu.~
 @279 = ~C'était juste sensé être un divertissement ! C'est un spectacle comique à lui tout seul, je veux dire, combien de personnes de son importance se parlent à elles-mêmes et pensent que c'est acceptable ? Ça me semble complètement ridicule, mais apparemment pas pour lui.~
-@280 = ~Nos chamailleries permanentes étaient les meilleurs moments de mes journées, et les nuits étaient plus que satisfaisantes. Nous nous étions même mis d'accord de n'entretenir aucun sentiment l'un envers l'autre, que seule notre attirance physique nous "unirait".~ 
+@280 = ~Nos chamailleries permanentes étaient les meilleurs moments de mes journées, et les nuits étaient plus que satisfaisantes. Nous nous étions même mis d'accord de n'entretenir aucun sentiment l'un envers l'autre, que seule notre attirance physique nous « unirait ».~ 
 @281 = ~Mais tout a commencé à changer après les événements survenus à Suldanessellar. Peut-être que c'était l'abondance de vin et de mets raffinés, ou les nuits de beuverie, mais quelque chose s'est passé un soir durant une de nos discussions.~
 @282 = ~C'était une conversation particulièrement intense, et je défendais durement ma position sur le sujet. Mais tout à coup, l'idiot a plaqué une de ses mains sur ma bouche pour me faire taire et utilisé l'autre pour me maintenir au sol. Au début, je pensais qu'il faisait juste son salopard et ne supportait pas de se laisser dominer dans le débat par quelqu'un d'évidement supérieure à lui.~
 @283 = ~Je me préparais à lui mettre une bonne gifle, quand je me suis rendu compte que son regard avait quelque chose de différent. Ce n'était plus le même feu ardent que je lui connaissais, mais celui d'un homme battu. Je ne l'avais jamais vu ainsi, et j'ai abaissé ma main.~
@@ -316,7 +316,7 @@
 @290 = ~Il est évident que tes sentiments pour Edwin sont forts. Tu devrais suivre ton cœur.~ 
 @291 = ~Les sentiments ne signifient rien. Rappelle-toi la raison de ta présence ici. N'oublie pas ton propre conseil, l'amour est une faiblesse.~
 @292 = ~Je ne veux pas être responsable de cette décision. Tu dois faire ce choix toi-même.~ 
-@293 = ~Je voudrais croire que c'est aussi simple que "suivre son cœur". Mais est-ce vraiment le cas ?~
+@293 = ~Je voudrais croire que c'est aussi simple que « suivre son cœur ». Mais est-ce vraiment le cas ?~
 @294 = ~Ça peut l'être si c'est ce que tu veux.~
 @295 = ~Réflexion faite, je ne pense pas que ça soit une très bonne idée.~
 @296 = ~Oui...tu as raison.~
@@ -471,7 +471,7 @@
 @441 = ~C'est assez gênant à admettre, mais Edwin et moi avons piqué un roupillon.~
 @442 = ~Vous avez quoi ?~
 @443 = ~Tu m'as très bien entendue, ne fais pas semblant d'être sourd.~ ~Tu m'as très bien entendue, ne fais pas semblant d'être sourde.~
-@444 = ~Ça avait été une journée particulièrement fatigante après tout. Nous pensions filer en douce pour *ahem* "nous amuser", mais nous nous sommes endormis à peine mis au lit.~
+@444 = ~Ça avait été une journée particulièrement fatigante après tout. Nous pensions filer en douce pour *ahem* « nous amuser », mais nous nous sommes endormis à peine mis au lit.~
 @445 = ~J'espérais une histoire un peu plus passionnante.~
 @446 = ~Eh, bien, c'est bon à savoir, je suppose.~ 
 @447 = ~C'est tout ?~
@@ -532,7 +532,7 @@
 @500 = ~...Tu n'as jamais entendu ça.~
 @501 = ~Touche moi à nouveau, et je te crame.~
 @502 = ~(Alors que vous essayez de lui donner un petit coup, elle se retourne rapidement et vous tord le doigt. Une douleur aiguë vous traverse la main, et vous devez lutter pour qu'elle le relâche.)~
-@503 = ~Qu'est-ce que tu n'as pas compris dans "on ne touche pas" ?!~
+@503 = ~Qu'est-ce que tu n'as pas compris dans « on ne touche pas » ?!~
 
 // Initié par le joueur, sœur 1
 @504 = ~Je suppose que ça ne ferait pas de mal de te parler d'elle. Qu'est-ce que tu veux savoir ?~
@@ -547,7 +547,7 @@
 @511 = ~Prend ça au sérieux : comprends les choses pour ce qu'elles sont vraiment.~
 @512 = ~Ne récite rien par cœur. Tu peux oublier ce que tu as simplement regardé, mais tu ne pourras jamais effacer de ta mémoire ce que tu as appris et compris.~
 @513 = ~Les pauvres le sont pour une raison. Ils ont les moyens de s'extirper de leur condition, mais choisissent de se reproduire continuellement et de dépenser plus qu'ils ne peuvent se permettre.~
-@514 = ~Ne gaspille pas ton temps avec les "plus démunis".~
+@514 = ~Ne gaspille pas ton temps avec les « plus démunis ».~
 @515 = ~L'amour est la plus grande des faiblesses.~
 @516 = ~Fuis-le si tu peux.~
 @517 = ~La première leçon importante que la vie m'a apprise, c'est que la connaissance est le pouvoir. Je te l'ai déjà dit d'innombrables fois.~
@@ -591,7 +591,7 @@
 @553 = ~Elle était tout ce que je ne suis pas.~
 @554 = ~J'étais celle qui tentait de détruire une fourmilière avec mes petites flammes, et elle était celle qui venait au secours de ces pauvres bêtes. Elle courait aussi vite que possible à la source d'eau la plus proche et tentait d'en ramener un peu avec ses petites mains en coupe pour éteindre mes feux.~
 @555 = ~Ses tentatives inutiles m'amusaient toujours, mais au final, je finissais par le faire moi-même.~
-@556 = ~Son visage se tordait de colère comme je "gâchais la vie de ces braves et fortes créatures", mais ce n'était que des fourmis, et elles étaient si nombreuses. Je n'ai jamais compris pourquoi ça avait tant d'importance pour elle, je ne le comprends toujours pas.~
+@556 = ~Son visage se tordait de colère comme je « gâchais la vie de ces braves et fortes créatures », mais ce n'était que des fourmis, et elles étaient si nombreuses. Je n'ai jamais compris pourquoi ça avait tant d'importance pour elle, je ne le comprends toujours pas.~
 @557 = ~Hmph. Je la détestais et l'adorais tellement à la fois.~
 @558 = ~On pourrait dire en quelque sorte que j'étais la petite sœur envieuse. Mais nous avions une chose en commun, nous étions toutes les deux très têtues. Nos débats duraient une éternité, ils étaient pour la plupart insignifiants et jamais très sérieux.~
 @559 = ~Mais ces débats... Ils étaient une telle source de joie.~
