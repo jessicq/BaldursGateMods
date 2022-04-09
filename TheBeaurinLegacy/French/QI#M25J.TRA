@@ -16,10 +16,10 @@
 @8 = ~Une voleuse habile et une magicienne ingénieuse, les rumeurs qui circulent affirment que la jeune elfe aux cheveux bruns est à la recherche d'un savoir ancestral.~
 @9 = ~Quiconque me surveille de si près est clairement capable de se renseigner correctement, mais que cela reste des rumeurs pour le moment. Je préférerais éviter les ennuis si possible, et ces ennuis là sont certainement évitables.~ 
 @10 = ~On dit que l'Enfant de Bhaal et la jeune elfe ont uni leurs forces et sont une puissance redoutable.~
-@11 = ~On dit aussi que la jeune elfe aux cheveux bruns a trouvé une protection inattendue dans les bras d'un certain Magicien Rouge de Thay. Personne ne connaît la véritable nature de leur relation, mais je vous serais infiniment reconnaissant de m'accorder un moment en privé à ce propos. Et si nous nous revoyions demain pour en discuter plus en détails ?~
+@11 = ~On dit aussi que la jeune elfe aux cheveux bruns a trouvé une protection inattendue dans les bras d'un certain Sorcier Rouge de Thay. Personne ne connaît la véritable nature de leur relation, mais je vous serais infiniment reconnaissant de m'accorder un moment en privé à ce propos. Et si nous nous revoyions demain pour en discuter plus en détails ?~
 @12 = ~Il n'y a rien entre Edwin et moi, fourre-toi ça dans le crâne et répète-le bien à qui veut l'entendre. Au moins, la partie à propos de <CHARNAME> et moi n'est pas mensongère.~
 @13 = ~J'étais déjà redoutable bien avant <CHARNAME>, mais il a fait de moi une femme meilleure, plus forte.~ ~J'étais déjà redoutable bien avant <CHARNAME>, mais elle a fait de moi une femme meilleure, plus forte.~
-@14 = ~On dit que la jeune elfe aux cheveux bruns a trouvé une protection inattendue dans les bras d'un certain Magicien Rouge de Thay. Personne ne connaît la véritable nature de leur relation, mais je vous serais infiniment reconnaissant de m'accorder un moment en privé à ce propos. Et si nous nous revoyions demain pour en discuter plus en détails ?~
+@14 = ~On dit que la jeune elfe aux cheveux bruns a trouvé une protection inattendue dans les bras d'un certain Sorcier Rouge de Thay. Personne ne connaît la véritable nature de leur relation, mais je vous serais infiniment reconnaissant de m'accorder un moment en privé à ce propos. Et si nous nous revoyions demain pour en discuter plus en détails ?~
 @15 = ~Il n'y a rien entre Edwin et moi, fourre-toi ça dans le crâne et répète-le bien à qui veut l'entendre.~
 
 // Vongoethe + autres
@@ -436,13 +436,13 @@
 @406 = ~Vous avez l'air de moins vous chamailler qu'avant.~
 @407 = ~Vous avez tous les deux disparu quelques heures après la fête. Pour une voleuse, tu n'es pas très discrète.~ 
 @408 = ~Je vous ai aperçus ensemble à la lueur de la lune.~
-@409 = ~Qu'est-ce qui te plaît chez le Magicien Rouge ?~ 
+@409 = ~Qu'est-ce qui te plaît chez le Sorcier Rouge ?~ 
 @410 = ~Oui, pourquoi pas.~
 @411 = ~Très bien, qu'est-ce que tu veux savoir ?~
 @412 = ~Vous avez l'air de moins vous chamailler qu'avant.~
 @413 = ~Vous avez tous les deux disparu quelques heures après la fête. Pour une voleuse, tu n'es pas très discrète.~ 
 @414 = ~Je vous ai aperçus ensemble à la lueur de la lune.~ 
-@415 = ~Qu'est-ce qui te plaît chez le Magicien Rouge ?~
+@415 = ~Qu'est-ce qui te plaît chez le Sorcier Rouge ?~
 @416 = ~Ah ! Tu penses que je me confierais *à toi* ?~
 @417 = ~Hors de ma vue, avant que je ne m'énerve.~
 @418 = ~Tu trouves ?~
@@ -501,7 +501,7 @@
 @471 = ~Très bien.~
 @472 = ~La lumière de la lune m'a toujours réconfortée quand j'en avais le plus besoin.~
 @473 = ~C'est aussi un moment où je me remémore le début de mon aventure.~
-@474 = ~Toutefois, je suis encore plus à l'aise quand un certain Magicien Rouge m'accompagne lors de ces balades nocturnes. Normalement, je vérifie consciencieusement les alentours avant mes petites marches insouciantes. Avec Edwin à mes côtés, je sais que c'est un allié redoutable et je ne me sens pas aussi menacée ou méfiante, ce qui pourrait aussi un jour causer ma perte.~
+@474 = ~Toutefois, je suis encore plus à l'aise quand un certain Sorcier Rouge m'accompagne lors de ces balades nocturnes. Normalement, je vérifie consciencieusement les alentours avant mes petites marches insouciantes. Avec Edwin à mes côtés, je sais que c'est un allié redoutable et je ne me sens pas aussi menacée ou méfiante, ce qui pourrait aussi un jour causer ma perte.~
 @475 = ~Mais d'ici là, je sais que je n'affronterai pas le danger seule.~
 @476 = ~C'est un homme avec une barbe et qui porte une robe rouge.~
 @477 = ~Merci pour l'évidence.~
@@ -623,7 +623,7 @@
 
 // Le reste en vrac
 @583 = ~Alors tu vas mourir aussi !~
-@584 = ~Ou bien que la jeune elfe aux cheveux bruns a trouvé une protection inattendue dans les bras d'un certain Magicien Rouge de Thay. Personne ne connaît la véritable nature de leur relation, mais je vous serais infiniment reconnaissant de m'accorder un moment en privé à ce propos. Et si nous nous revoyions demain pour en discuter plus en détails ?~
+@584 = ~Ou bien que la jeune elfe aux cheveux bruns a trouvé une protection inattendue dans les bras d'un certain Sorcier Rouge de Thay. Personne ne connaît la véritable nature de leur relation, mais je vous serais infiniment reconnaissant de m'accorder un moment en privé à ce propos. Et si nous nous revoyions demain pour en discuter plus en détails ?~
 @585 = ~Ton ancêtre a cherché un savoir qu'il a été incapable d'obtenir et ce faisant, a scellé le destin de ta famille.~
 @586 = ~Et tu oserais malgré tout refuser mon offre, malgré les crimes de ta famille ? La descendance d'un baelnorn est sur le point de trépasser.~
 @587 = ~Si ce que tu dis à propos de mon sang est vrai, alors en tant que descendante, j'ai le pouvoir de facilement mettre un terme à ta vie. ~

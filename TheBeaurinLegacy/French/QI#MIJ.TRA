@@ -919,7 +919,7 @@ En empruntant ce chemin qui n'est pas commun."~
 /* Conflits avec le mod Edwin Romance (du coup, féminin uniquement) */
 
 // Conflit 1
-@762 = ~Je ne pensais pas que notre Magicien Rouge t'intéressait, à moins que son intellect ne t'intrigue et que tu désires obtenir certaines connaissances enfouies dans son cerveau.~
+@762 = ~Je ne pensais pas que notre Sorcier Rouge t'intéressait, à moins que son intellect ne t'intrigue et que tu désires obtenir certaines connaissances enfouies dans son cerveau.~
 @763 = ~Ce qui serait tout à fait compréhensible. Cependant, je ne peux m'empêcher de me demander si il n'y aurait pas plus entre vous deux..?~
 @764 = ~Ce n'est pas tes affaires, Minyae.~
 @765 = ~J'aime passer du temps avec lui. Et c'est tout.~
@@ -955,7 +955,7 @@ En empruntant ce chemin qui n'est pas commun."~
 @793 = ~Est-ce que tu as vraiment l'impression que j'en ai quoi que ce soit à faire de ce que *tu* veux ?~
 @794 = ~Toi et Edwin.~
 @795 = ~Quoi, moi et Edwin ?~
-@796 = ~Tu penses vraiment que t'afficher avec un Magicien Rouge de Thay est bon pour ta réputation ? L'enfant de Bhaal et les infâmes Magiciens Rouges.~
+@796 = ~Tu penses vraiment que t'afficher avec un Sorcier Rouge de Thay est bon pour ta réputation ? L'enfant de Bhaal et les infâmes Sorciers Rouges.~
 @797 = ~Je me fous de ce que les autres diront à notre propos. Je tiens à lui.~
 @798 = ~Où veux-tu en venir ?~
 @799 = ~Tu as l'air de penser que ton avis m'intéresse.~ 
