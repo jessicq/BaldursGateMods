@@ -10,7 +10,7 @@
 
 // Aerie
 @8 = ~Vo-vous allez bien ensemble.~
-@9 = ~Je te remercie, Aerie -~ [QI#Mi184]
+@9 = ~Je te remercie, Aerie...~ [QI#Mi184]
 @10 = ~Vous avez tous les deux le cœur noir.~
 @11 = ~Ah ! On dirait que le temps passé en ma compagnie t'as enfin donné un peu de courage.~
 @12 = ~Peut-être.~
@@ -33,9 +33,9 @@
 @25 = ~Bah, ce n'est qu'un livre. Je suis sûr qu'il en existe nombre d'autres copies.~
 @26 = ~Vous pouvez probablement vous passer de celui-ci.~
 @27 = ~Non seulement tu es un idiot pompeux et arrogant mais en plus tu es complètement stupide !~ 
-@28 = ~Surveillez votre langage, femme. Je ne vous laisserai pas diffamer -- ~
+@28 = ~Surveillez votre langage, femme. Je ne vous laisserai pas diffamer...~
 @29 = ~Je devrais t'embrocher les yeux avec mes dagues et les jeter aux vautours pour que tu ne puisses plus jamais t'en servir !~ 
-@30 = ~Je vais --~
+@30 = ~Je vais...~
 @31 = ~*ahem* Tu n'en vaux pas la peine, je ne gaspillerai pas ma salive avec toi.~
 
 // Viconia
@@ -103,10 +103,10 @@
 @79 = ~Et moi qui pensais que nous ne nous adressions plus la parole.~ [QI#Mi194]
 @80 = ~Silence ! Ne rends pas ça plus dur que nécessaire.~
 @81 = ~Alors qu'est-ce que tu me veux, Viconia?~
-@82 = ~Si tu n'avais pas encore saisi à propos de ma relation avec <CHARNAME>, alors tu es vraiment une -~
+@82 = ~Si tu n'avais pas encore saisi à propos de ma relation avec <CHARNAME>, alors tu es vraiment une...~
 @83 = ~Oui. Je suis au courant pour toi et <CHARNAME>. En fait, tout le monde l'est.~
 @84 = ~Iblith ! Arrête de m'interrompre !~
-@85 = ~*ahem* Comme je disais... toi et Edwin êtes --.~
+@85 = ~*ahem* Comme je disais... toi et Edwin êtes...~
 @86 = ~Pas un mot de plus Viconia, je comprends très bien où tu veux en venir. Et je t'en remercie.~
 @87 = ~Je vois que tu ne sais toujours pas la fermer quand il faut...~
 
@@ -187,7 +187,7 @@
 @145 = ~Qu'est-ce que tu veux ?~ [QI#Mi203]
 @146 = ~Ça va aller.~
 @147 = ~Mais de quoi est-ce que tu parles ?~
-@148 = ~Toi et --~
+@148 = ~Toi et...~
 @149 = ~Il n'y a jamais rien eu entre nous.~ 
 @150 = ~Fin de la discussion.~
 
@@ -249,7 +249,7 @@
 @199 = ~...Ce que j'essaie de dire c'est que nos querelles la nuit à propos de je ne sais quels sujets controversés étaient, et sont toujours, les meilleurs moments de mes journées, mais j'ai l'impression que tu n'es pas de cet avis.~
 @200 = ~Ah ! Non seulement ton intellect est endommagé au delà de toute réparation, mais en plus tu es une hypocrite. (Cette femme a le culot de me trouver stupide !)~ 
 @201 = ~Si tu étais si « belle et intelligente » comme tu l'affirmes, tu percevrais que ce que je ressens est similaire. Penses-tu que je gâcherais mes nuits de sommeil à débattre avec un singe ? NON.~ 
-@202 = ~Oh. je n'avais pas compris que -~
+@202 = ~Oh. je n'avais pas compris que...~
 @203 = ~Tu ne comprends pas assez souvent.~
 
 // Edwin - confession
@@ -305,7 +305,7 @@
 @249 = ~C'est pour toi. (Suis-je toujours obligé de lui expliquer l'évidence ?)~
 @250 = ~Pourquoi est-ce que j'en voudrais ?~ 
 @251 = ~Femme ingrate ! Regarde-la bien !~
-@252 = ~Qu'est-ce qu'il y a à rega-~
+@252 = ~Qu'est-ce qu'il y a à rega...~
 @253 = ~Oh.~
 @254 = ~Elle ressemble à celle que tu portes à ton coup.~
 @255 = ~Je me suis essayé aux enchantements et l'ai imprégnée de propriétés magiques. (Parce que je suis génial à ce point.)~

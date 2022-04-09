@@ -1,7 +1,7 @@
 // Neera
-@0 = ~Comment as-tu -~
+@0 = ~Comment as-tu...~
 @1 = ~Je ne suis pas vraiment d'humeur à répondre à des questions, tu sais ? Mais JE SUIS d'humeur à en poser.~
-@2 = ~Ne m'interr -~
+@2 = ~Ne m'interr...~
 @3 = ~Voyons... hmm. Qu'est-ce que tu penses de celle-ci. D'où est-ce que te viennent tes talents ? Tu sais, les petits larcins que je te vois commettre de temps en temps ?~
 @4 = ~Mais que...~
 @5 = ~OH ! J'en ai une encore meilleure, qu'est-ce que tu veux savoir à propos de moi ? Et si j'essayais de te soutirer des petits secrets ?~
@@ -56,7 +56,7 @@
 
 // Rasaad
 @42 = ~Pourquoi est-ce que la religion t'importe tellement, moine ?~
-@43 = ~C'est un mode de vie. C'est comme ça que je -~
+@43 = ~C'est un mode de vie. C'est comme ça que je...~
 @44 = ~Laisse tomber. Cette discussion ne m'intéresse déjà plus. Toutes ces croyances sont insignifiantes pour moi.~
 @45 = ~Qu'il en soit ainsi.~
 
@@ -65,7 +65,7 @@
 @47 = ~Comme tu veux. Mais tu réaliseras mon potentiel en temps voulu.~
 
 // Dorn (2)
-@48 = ~De toi évidemment. Regardez moi ces -~
+@48 = ~De toi évidemment. Regardez moi ces...~
 
 // Dorn
 @49 = ~Il s'en est passé des choses, tu ne trouves pas ?~

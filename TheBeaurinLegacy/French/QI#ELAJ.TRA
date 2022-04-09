@@ -3,7 +3,7 @@
 @1 = ~Merci pour ton temps, ma bonne dame. Je vais prendre tes paroles très à cœur.~
 
 // Salvanas
-@2 = ~Une jeune elfe aux cheveux bruns, ses yeux sont sombres et -~
+@2 = ~Une jeune elfe aux cheveux bruns, ses yeux sont sombres et...~
 @3 = ~Pourquoi t'interrompre ainsi ?~
 @4 = ~P-pardonnez-moi, ma dame. Mais vous me rappelez quelqu'un que j'ai croisé il y a peu de temps. Bien sûr, vous êtes au moins aussi resplendissante qu'elle, si ce n'est plus.~
 @5 = ~(soupir) Tu parles probablement de ma sœur.~
@@ -11,7 +11,7 @@
 @7 = ~Elles ne sont pas nécessaires.~
 
 // Madame Nin
-@8 = ~Salutations. Je suis Madame Nin, et -~
+@8 = ~Salutations. Je suis Madame Nin, et...~
 @9 = ~Tes services ne m'intéressent pas. Merci.~
 
 // Arbre de vie
@@ -50,7 +50,7 @@
 
 // Kangaxx
 @24 = ~Nous ne pouvons laisser un tel mal s'échapper !~
-@25 = ~Impudente. Tu me fatigues avec tes -~
+@25 = ~Impudente. Tu me fatigues avec tes...~
 @26 = ~Quelle est cette odeur ? Qu'est-ce que ta race fait ici ?! CECI EST UN AFFRONT !~
 
 // Après la rencontre
