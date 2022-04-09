@@ -45,7 +45,7 @@
 @35 = ~Il n'y a pas besoin de me faire du mal pour m'agacer.~
 
 // Minsc
-@36 = ~Boo et moi pensions...~
+@36 = ~Bouh et moi pensions...~
 @37 = ~Je ne m'étais jamais rendu compte que vous deux étiez capable d'une tâche si éprouvante.~ [QI#Mi151]
 @38 = ~Ah ! Nous savons à quel petit jeu tu joues. Tu essaies de nous rendre fou pour voir notre vrai potentiel ! Tout comme <CHARNAME> dans le donjon d'Irenicus.~
 @39 = ~Non seulement tu es lent d'esprit, mais tu accordes ton respect bien trop rapidement. Mais assez de ce bavardage ennuyeux. Il n'y a rien à gagner à parler à des gens comme toi.~
@@ -177,7 +177,7 @@
 
 // Minsc
 @137 = ~Quel est l'intérêt de cet affreux rat ?~ [QI#Mi165]
-@138 = ~Rat ? Non, non, non. Boo est un hamster géant de l'espace miniature !~
+@138 = ~Rat ? Non, non, non. Bouh est un hamster géant de l'espace miniature !~
 @139 = ~Pourquoi ai-je pris la peine de demander..?~
 
 // Imoen
@@ -308,7 +308,7 @@
 @236 = ~Très bien. Tu as gagné, Jan.~ 
 
 // Minsc + Jaheira
-@237 = ~Boo me dit que toi et Edwin commettez des actes épouvantables ! Dis-moi que ce n'est pas le cas !~
+@237 = ~Bouh me dit que toi et Edwin commettez des actes épouvantables ! Dis-moi que ce n'est pas le cas !~
 @238 = ~J'ai peur que ton petit rat ait raison, Minsc. Peut-être que tu devrais essayer de plus lui ressembler.~ [QI#Mi181]
 @239 = ~Pourquoi, Minyae ? Pourquoi ferais-tu ça ? Il a voulu tuer Dynaheir, ma sorcière bien aimée ! C'est un fou.~
 @240 = ~Elle méritait de mourir, idiot.~

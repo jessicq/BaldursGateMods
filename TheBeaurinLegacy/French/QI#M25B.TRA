@@ -1,11 +1,11 @@
 // Minsc + Jan
 @0 = ~J'aimerais examiner ton rat de l'espace géant.~ [QI#Mi183]
-@1 = ~Boo n'est pas un rat, c'est un hamster. Et désolé, Boo n'est pas très affectueux en dehors de moi.~
+@1 = ~Bouh n'est pas un rat, c'est un hamster. Et désolé, Bouh n'est pas très affectueux en dehors de moi.~
 @2 = ~J'ai vu le gnome là-bas le serrer dans ses bras.~
-@3 = ~Le nom du *gnome* est Jan, et Boo m'aime vraiment, d'abord. Nous avons eu une petite aventure très amusante ensemble, à batifoler dans les bois, quand j'ai aidé Minsc à le garder.~
-@4 = ~M'aider à le garder ?! Tu as volé Boo à Minsc quand il ne regardait pas !~
+@3 = ~Le nom du *gnome* est Jan, et Bouh m'aime vraiment, d'abord. Nous avons eu une petite aventure très amusante ensemble, à batifoler dans les bois, quand j'ai aidé Minsc à le garder.~
+@4 = ~M'aider à le garder ?! Tu as volé Bouh à Minsc quand il ne regardait pas !~
 @5 = ~Oui, bon, je veux juste jeter un coup d'œil rapide sur lui. Je te promets de te le rendre quand j'ai terminé. Qu'est-ce que tu en penses ?~
-@6 = ~Non, ce n'est pas bon pour le pauvre Boo. Tu vas trop l'exciter.~
+@6 = ~Non, ce n'est pas bon pour le pauvre Bouh. Tu vas trop l'exciter.~
 @7 = ~*soupir* Comme tu voudras.~ 
 
 // Aerie
@@ -67,10 +67,10 @@
 @53 = ~C'est noté.~
 
 // Minsc
-@54 = ~Boo et Minsc veulent que tu saches que ce que tu as fait avec le Magicien Rouge est une bonne chose. C'est un homme vraiment très maléfique.~
+@54 = ~Bouh et Minsc veulent que tu saches que ce que tu as fait avec le Magicien Rouge est une bonne chose. C'est un homme vraiment très maléfique.~
 @55 = ~Je n'ai pas besoin de ta compassion.~ [QI#Mi190]
-@56 = ~Oui, tu es une femme très forte. Boo sait que tu iras plus loin dans la vie sans lui.~
-@57 = ~Merci, Boo.~ 
+@56 = ~Oui, tu es une femme très forte. Bouh sait que tu iras plus loin dans la vie sans lui.~
+@57 = ~Merci, Bouh.~ 
 
 // Keldorn
 @58 = ~Vous débarrasser du Magicien Rouge est peut-être la décision la plus judicieuse que vous ayez pris pour votre futur, Minyae.~
@@ -337,7 +337,7 @@
 @277 = ~À propos de notre dernière discussion...~
 @278 = ~Et alors ? (S'est-elle enfin rendu compte du potentiel de ma suggestion ?)~
 @279 = ~Penses-y. Tu crains d'être la dernière de ta lignée - la dernière des Beaurins. Ça n'aura pas à être le cas. Tu vivras pour toujours. Ton héritage sera éternel. (Tout comme moi !)~
-@280 = ~Toutes ces histoires de liches et de morts-vivants, cela n'est pas bon ! Boo pense qu'ils méritent l'empreinte de la botte de Minsc sur le derrière.~ // Minsc
+@280 = ~Toutes ces histoires de liches et de morts-vivants, cela n'est pas bon ! Bouh pense qu'ils méritent l'empreinte de la botte de Minsc sur le derrière.~ // Minsc
 @281 = ~Vous chercheriez à vous transformer en liche ? Ne vous souvenez-vous pas de ce qui est arrivé à ma famille ? Si vous y parvenez, vous serez maudite. Vous serez tous les deux maudits.~ // Valygar
 @282 = ~D-des liches ? Notre monde n'est-il déjà pas assez maléfique ? Devenir une liche n'est pas quelque chose à prendre à la légère ! Minyae, il y a forcément une alternative à cette folie !~ // Aerie
 @283 = ~Vous deux pensez vraiment que de tels actes resteront impunis ? Réalisez-vous seulement ce qu'implique la création d'une telle monstruosité ?~ // Jaheira
