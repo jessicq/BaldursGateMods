@@ -110,11 +110,11 @@
 @98 = ~Reste concentrée, Minyae. *C'est* le monde dans lequel nous vivons maintenant.~ 
 @99 = ~Moi aussi, je me demande parfois si je suis sur le droit chemin, mais ai-je vraiment une autre alternative ?~ 
 @100 = ~Une partie de moi se demande souvent : et si j'étais restée, et si j'avais combattu à ses côtés ? À quel point nos vies seraient-elles différentes ? Je sais qu'il est inutile de songer à ce genre de choses maintenant, mais il m'arrive parfois de me remettre en question. Je me demande si je suis sur le chemin qui me convient...~
-@101 = ~Et moi qui pensais que tu étais une fripouille sure d'elle ! Je ne te connaissais pas de telles angoisses.~
+@101 = ~Et moi qui pensais que tu étais une fripouille sûre d'elle ! Je ne te connaissais pas de telles angoisses.~
 @102 = ~Tu as raison. C'est mon monde à présent, et j'ai beau prendre mes désirs pour des réalités, je ne peux pas revenir en arrière.~
 @103 = ~Même si je suis d'accord avec toi pour le moment, j'ai malgré tout ces préoccupations. Peut-être que nous aurons l'occasion d'en reparler en chemin.~
 @104 = ~Et moi qui était persuadée être la seule avec ces pensées. Il est bon de savoir que ce n'est pas le cas.~
-@105 = ~Je suis une fripouille sure d'elle et bien plus encore ! D'ailleurs, je ne considère pas ça comme des angoisses.~
+@105 = ~Je suis une fripouille sûre d'elle et bien plus encore ! D'ailleurs, je ne considère pas ça comme des angoisses.~
 @106 = ~C'est juste un tourbillon de pensées qui s'agite dans mon esprit, mais peut-être que nous aurons l'occasion d'en reparler un autre jour.~
 
 // Saradush
@@ -197,7 +197,7 @@
 @181 = ~Il y a toujours une autre voie possible, celle-ci en est une.~ 
 @182 = ~Tu es maléfique, Tu ne changeras pas ça si facilement. Tiens-t'en à ce que tu connais.~
 @183 = ~Tu es celle qui sait que le savoir est le pouvoir. Tu es celle qui vivra pour l'éternité en tant que liche, et quiconque osera se mettre sur ta route périra.~ 
-@184 = ~Je ne suis pas sure de comprendre parfaitement la signification de tes paroles, mais en même temps, je sens qu'elles m'ont changée. Pour le meilleur ou pour le pire ? Je n'en suis pas sure. Seul le temps le dira.~ [QI#Mi213]
+@184 = ~Je ne suis pas sûre de comprendre parfaitement la signification de tes paroles, mais en même temps, je sens qu'elles m'ont changée. Pour le meilleur ou pour le pire ? Je n'en suis pas sure. Seul le temps le dira.~ [QI#Mi213]
 @185 = ~Mais pour le moment, mon esprit est plus vif et j'y vois plus clair, comme si un brouillard épais s'était enfin dissipé. Je te fais confiance, <CHARNAME>. Tu es un ami proche, et si tu penses que j'ai le pouvoir de choisir ma voie, de forger ma propre légende, je peux et vais le faire.~ ~Mais pour le moment, mon esprit est plus vif et j'y vois plus clair, comme si un brouillard épais s'était enfin dissipé. Je te fais confiance, <CHARNAME>. Tu es une amie proche, et si tu penses que j'ai le pouvoir de choisir ma voie, de forger ma propre légende, je peux et vais le faire.~
 @186 = ~Je ne compte plus les fois où je l'ai dit, mais tu as raison. Tu as toujours eu raison, tu as toujours été à mes côtés et ne m'as jamais induite en erreur.~ [QI#Mi214]
 @187 = ~J'ai confiance en toi, et si tu es convaincu que c'est la voie que je dois suivre. Alors je le ferai.~ ~J'ai confiance en toi, et si tu es convaincue que c'est la voie que je dois suivre. Alors je le ferai.~ [QI#Mi211]
@@ -567,7 +567,7 @@
 @529 = ~Je pensais qu'elle était morte le jour où j'ai fui l'embuscade de la caravane.~
 @530 = ~C'était ma sœur, et nous avions traversé tellement d'épreuves ensemble jusque là. J'ai pensé que le meilleur moyen de me souvenir d'elle était de porter ses couleurs, et de les porter fièrement. De plus, si j'arrivais à me faufiler et à voler les paysans et les nobles avec une couleur si étrange, je serais capable de tout.~
 @531 = ~C'est une histoire plutôt drôle en fait.~
-@532 = ~Es-tu sûr que tu veux l'entendre ?~ ~Es-tu sure que tu veux l'entendre ?~
+@532 = ~Es-tu sûr que tu veux l'entendre ?~ ~Es-tu sûre que tu veux l'entendre ?~
 @533 = ~Oui, raconte-la moi.~ 
 @534 = ~Réflexion faite, ça ira.~
 @535 = ~Je me suis toujours rebellée contre tout, en particulier contre ma sœur. Elle était si pure, si élégante, si belle... Comparée à elle, je n'étais qu'une gamine débraillée.~
