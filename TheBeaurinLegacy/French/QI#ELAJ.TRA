@@ -1,13 +1,13 @@
 // Kveroslava - voyante
-@0 = ~Où que vous alliez et quoi que vous fassiez, votre vie est enveloppée de douleur et de mort. Si vous continuez à suivre cette voie, vous ne connaîtrez jamais cette liberté que vous désirez tant.~
+@0 = ~Où que vous alliez et quoi que vous fassiez, votre vie est enveloppée par la douleur et la mort. Si vous continuez sur cette voie, vous ne connaîtrez jamais cette liberté que vous désirez tant.~
 @1 = ~Merci pour ton temps, ma bonne dame. Je vais prendre tes paroles très à cœur.~
 
 // Salvanas
 @2 = ~Une jeune elfe aux cheveux bruns, ses yeux sont sombres et...~
 @3 = ~Pourquoi t'interrompre ainsi ?~
-@4 = ~P-pardonnez-moi, ma dame. Mais vous me rappelez quelqu'un que j'ai croisé il y a peu de temps. Bien sûr, vous êtes au moins aussi resplendissante qu'elle, si ce n'est plus.~
+@4 = ~P-pardonnez-moi, ma dame. Mais vous me rappelez quelqu'un que j'ai rencontré il y a peu de temps. Bien sûr, vous êtes au moins aussi resplendissante qu'elle, si ce n'est plus.~
 @5 = ~(soupir) Tu parles probablement de ma sœur.~
-@6 = ~Ah, mes excuses...~
+@6 = ~Ah, toutes mes excuses...~
 @7 = ~Elles ne sont pas nécessaires.~
 
 // Madame Nin
@@ -15,32 +15,32 @@
 @9 = ~Tes services ne m'intéressent pas. Merci.~
 
 // Arbre de vie
-@10 = ~Elaryn, une alliée inattendue et la sœur de Minyae. Une lueur d'espoir illumine ses yeux bleus et perçants.~
+@10 = ~Elaryn, à la fois la sœur de Minyae et une alliée inattendue. Une lueur d'espoir illumine ses yeux bleus et perçants.~
 @11 = ~Elaryn, ce n'est pas ton combat, ça ne l'a jamais été.~ 
 @12 = ~Tu t'en es bien tirée à la place de ta sœur, tu peux partir si tu le souhaites.~ 
-@13 = ~Es-tu prête à mettre fin à cette folie ? J'ai besoin de te savoir plus concentrée que jamais.~ 
-@14 = ~Ma sœur est restée avec toi pour une bonne raison. J'irai jusqu'au bout, pour toi et pour elle.~
+@13 = ~Es-tu prête à mettre fin à cette folie ? J'ai besoin que tu sois plus concentrée que jamais.~ 
+@14 = ~Ma sœur t'a accompagné pour une bonne raison. J'irai jusqu'au bout, pour toi et pour elle.~ ~Ma sœur t'a accompagnée pour une bonne raison. J'irai jusqu'au bout, pour toi et pour elle.~
 
 // Arbre de vie - Irenicus
 @15 = ~C'est fait, c'est enfin terminé. Comment te sens-tu <CHARNAME> ?~
 
 // Enfer
-@16 = ~J'imagine que nous sommes en Enfer. Qu'il en soit ainsi.~
+@16 = ~J'imagine que nous sommes en Enfer. Alors en avant !~
 
 // Irenicus - la fin
-@17 = ~Ta mort sera un soulagement pour absolument tout le monde. Tu vas périr ici, à tout jamais.~
+@17 = ~Ta mort sera un soulagement pour chacun d'entre nous. Tu vas périr ici, à tout jamais.~
 
 // Hendak
 @18 = ~Tu dois libérer cet homme, <CHARNAME>. Personne ne devrait être réduit ainsi en esclavage de nos jours. Ces gens sont méprisables.~
 
 // Lehtinan
-@19 = ~Quel homme abominable, <CHARNAME>. Il empeste depuis l'autre bout de la salle.~
+@19 = ~Quel homme abominable, <CHARNAME>. Il empeste la malveillance depuis l'autre bout de la salle.~
 
 // Tolgerias
-@20 = ~Sa demande semble trompeuse. Réfléchis bien à ce qui doit être fait et prend la bonne décision, pas que pour toi, mais pour tout le monde.~
+@20 = ~Sa demande semble trompeuse. Réfléchis bien à ce qui doit être fait et prend la bonne décision, pas seulement pour toi, mais pour nous tous.~
 
 // Collines d'Umar - maire
-@21 = ~Nous n'avons pas vraiment besoin d'une récompense, pas vrai <CHARNAME> ? Leur reconnaissance est largement suffisante.~
+@21 = ~Nous n'avons pas vraiment besoin de récompense, pas vrai <CHARNAME> ? Leur reconnaissance est largement suffisante.~
 
 // Mendiants
 @22 = ~Pauvres diables...~
@@ -51,44 +51,44 @@
 // Kangaxx
 @24 = ~Nous ne pouvons laisser un tel mal s'échapper !~
 @25 = ~Impudente. Tu me fatigues avec tes...~
-@26 = ~Quelle est cette odeur ? Qu'est-ce que ta race fait ici ?! CECI EST UN AFFRONT !~
+@26 = ~Quelle est cette odeur ? Qu'est-ce que ton engeance fait ici ?! C'EST UN AFFRONT !~
 
 // Après la rencontre
-@27 = ~Tu as des questions, je le vois sur ton visage. Pose-les, et je te répondrai du mieux que je peux.~
+@27 = ~Je vois bien que tu as des questions. Pose-les, et je ferai de mon mieux pour te donner une réponse.~
 @28 = ~Je ne sais que dire, je n'en reviens toujours pas.~
 @29 = ~Qu'est-ce qu'il se passe ?~
 @30 = ~Je ne sais pas par où commencer...~ 
-@31 = ~Je vais commencer du début alors.~
-@32 = ~Minyae et moi sommes... étions sœurs, mais tu avais probablement deviné par toi-même. Enfin, j'espère que c'est le cas.~
-@33 = ~De nous deux, je suis bien sûr la plus vieille, d'une dizaine d'années, peut-être une vingtaine. Nous sommes orphelines, nos parents ont été tués, et la seule chose qu'ils nous ont légué est leur nom de famille - Beaurin. C'est tout ce dont je me souviens, et c'est probablement tout ce dont se souvenait Minyae aussi.~
-@34 = ~...J'ai toujours su que Minyae était facilement influençable, et se laisserait facilement influencer. Je n'ai pas été assez présente pour elle, et j'ai toujours eu l'impression qu'elle pourrait mal tourner si l'occasion se présentait. Elle était la seule famille qu'il me restait et je devais la protéger, la défendre contre le mal de ce monde.~
+@31 = ~Commençons du début alors.~
+@32 = ~Minyae est ma... était ma sœur, mais tu avais certainement deviné par toi-même. Enfin, je l'espère.~
+@33 = ~De nous deux, je suis bien sûr l'aînée, d'une dizaine d'années, peut-être une vingtaine. Nous sommes orphelines depuis que nos parents ont été tués, et tout ce qu'ils nous ont légué est leur nom de famille, Beaurin. C'est tout ce dont je me souviens, et c'est probablement tout ce dont se souvenait Minyae aussi.~
+@34 = ~...J'ai toujours su que ma sœur était facilement influençable, et qu'elle se laisserait facilement influencer. Je n'ai pas été assez présente pour elle, et j'ai toujours eu l'impression qu'elle pourrait mal tourner si l'occasion se présentait. Minyae était ma seule famille et c'était mon rôle de la protéger, de la défendre contre la méchanceté de ce monde.~
 @35 = ~J'aurais dû savoir qu'elle ne risquerait pas sa vie pour un inconnu, mais je suis sa sœur, je n'aurais pas dû l'abandonner pour aider cet homme. Si je pouvais revenir en arrière, je le ferais sans hésiter. N'importe quoi plutôt que sa mort, surtout quand j'en suis responsable.~
 @36 = ~Tu as fait ce qui était nécessaire.~ 
 @37 = ~Si tu es sur le point de broyer du noir, ça ne m'intéresse vraiment pas.~
-@38 = ~Si tu as besoin de te poser un moment, dis-le-moi.~
-@39 = ~C'est la meilleur des excuses, n'est-ce pas ?~
+@38 = ~Si tu as besoin d'un peu de temps pour te remettre, dis-le-moi.~
+@39 = ~Un excuse en or, n'est-ce pas ?~
 @40 = ~Pas de problème.~
-@41 = ~Merci de m'avoir écoutée, je te raconterai tout quand nous en aurons terminé avec ta quête. Mes histoires larmoyantes doivent te fatiguer alors allons-y.~
+@41 = ~Merci de m'avoir écoutée, je te raconterai tout quand nous en aurons terminé avec ta quête. Tu dois en avoir par dessus la tête de mes histoires larmoyantes, alors allons-y.~
 
 // Initié par le joueur
 @42 = ~Puis-je t'aider d'une quelconque manière ?~
-@43 = ~J'ai remarqué que tu n'étais pas aussi bavarde que ta sœur, pourquoi cela ?~
+@43 = ~J'ai remarqué que tu n'étais pas aussi bavarde que ta sœur, je suis curieux de savoir pourquoi ?~ ~J'ai remarqué que tu n'étais pas aussi bavarde que ta sœur, je suis curieuse de savoir pourquoi ?~
 @44 = ~As-tu un conseil à me donner ?~ 
 @45 = ~Que penses-tu de moi Elaryn?~
 @46 = ~Je vois que tu as une cicatrice.~
 @47 = ~Il y a une telle différence de caractères entre Minyae et toi.~ 
 @48 = ~Je n'ai besoin de rien pour le moment.~
-@49 = ~Tu penses que tous les frères et sœurs se ressemblent ? Si c'est le cas, tu te trompes clairement.~
-@50 = ~Minyae et moi n'avons pas eu la même enfance, et nous avons ensuite suivi des chemins radicalement différents.~
-@51 = ~Je ne pense pas qu'il soit possible pour des frères et sœurs d'avoir exactement les mêmes idées et opinions et nous ne faisions pas exception. Peut-être que si nous étions restées ensemble tout ce temps, mais Minyae et moi avons vécu séparées la majeure partie de notre vie.~
-@52 = ~Oui, c'est un rappel quotidien de ce jour fatidique où j'ai choisi d'aider un étranger plutôt que de rester avec ma sœur.~
-@53 = ~Œuvrer pour le plus grand bien nécessite parfois que l'on fasse des sacrifices, ne t'attarde pas sur les choix que tu dois faire.~
+@49 = ~Tu penses que tous les frères et sœurs se ressemblent ? Si c'est le cas, tu te trompes lourdement.~
+@50 = ~Minyae et moi n'avons pas eu la même enfance, et en grandissant, nous avons suivi des chemins radicalement différents.~
+@51 = ~Je ne pense pas qu'il soit possible pour des frères et sœurs d'avoir exactement les mêmes idées et opinions et nous ne faisions pas exception. Peut-être que si nous étions restées ensemble tout ce temps, mais nous avons vécu séparées la majeure partie de notre vie.~
+@52 = ~Oui, c'est un rappel quotidien de ce jour fatidique où j'ai choisi d'aider un inconnu plutôt que de rester avec ma propre sœur.~
+@53 = ~Œuvrer pour le plus grand bien nécessite parfois des sacrifices, ne t'attarde pas sur les choix que tu dois faire.~
 @54 = ~On ne sait jamais ce qui peut arriver. Reste toujours sur tes gardes.~
 @55 = ~Fais le bien autour de toi, on récolte toujours ce que l'on sème.~
-@56 = ~Je pense que tu es quelqu'un de bien intentionné. Tu es un homme bon.~
+@56 = ~Je pense que tu es quelqu'un de bien intentionné. Tu es un homme honorable.~
 @57 = ~Je voulais dire d'un point de vue plus romantique.~
 @58 = ~Laisse tomber.~ 
-@59 = ~Je pense que tu es quelqu'un de bien intentionné. Tu es une femme bonne.~
+@59 = ~Je pense que tu es quelqu'un de bien intentionné. Tu es une femme honorable.~
 @60 = ~Je voulais dire d'un point de vue plus romantique.~
 @61 = ~Laisse tomber.~
 @62 = ~Oh...~
@@ -97,22 +97,22 @@
 @65 = ~Cette personne est décidément bien chanceuse. Puis-je te demander qui est-ce ?~ 
 @66 = ~Il ou elle n'a pas besoin d'être au courant.~ 
 @67 = ~Je suis désolée, <CHARNAME>.~
-@68 = ~Mon cher Willias. Certains disent que c'est un humain plutôt quelconque, mais moi, je le trouve absolument charmant. Il est toujours si bien intentionné et si prévenant. J'ai une chance inouïe d'avoir trouvé l'amour de ma vie durant ces temps troublés.~
+@68 = ~Mon cher Willias. Certains disent que c'est un humain plutôt quelconque, mais moi, je le trouve absolument charmant. Il est toujours si bon et si prévenant. J'ai une chance inouïe d'avoir trouvé l'amour de ma vie durant ces temps troublés.~
 @69 = ~Mais je suis certaine que tu n'as pas envie de m'entendre parler de ma vie amoureuse pendant des heures. Mettons-nous en route.~
-@70 = ~Non, je suis obligée de refuser cette proposition. J'en aime un autre.~
-@71 = ~Elle t'a dit la vérité, nous n'en savons effectivement rien. Seulement que les morts-vivants, et plus spécifiquement les liches, nous maudissent.~
+@70 = ~Non, je dois décliner ta proposition. Mon cœur appartient déjà à quelqu'un d'autre.~
+@71 = ~Elle t'a dit la vérité, nous n'en savons effectivement rien. Seulement que les morts-vivants nous haïssent, et les liches tout particulièrement.~
 @72 = ~Peut-être qu'avec le temps, nous obtiendrons une réponse.~
-@73 = ~Je ne l'ai jamais beaucoup été. C'était elle qui donnait sans cesse son opinion, souvent de la plus vulgaire des manières, toujours à couper la parole de son interlocuteur, mais elle savait aussi tenir sa langue quand il le fallait.~
-@74 = ~Ce n'est pas parce que Minyae est ma petite sœur que nous nous ressemblons, autrement que physiquement en tout cas.~
+@73 = ~Je ne l'ai jamais beaucoup été. C'était elle qui donnait sans cesse son avis, souvent de la plus vulgaire des manières, toujours à couper la parole de son interlocuteur. Mais elle savait aussi tenir sa langue quand c'était nécessaire.~
+@74 = ~Minyae était ma petite sœur et nous nous ressemblions beaucoup physiquement, mais nous n'avions rien d'autre en commun.~
 @75 = ~Ta sœur...~ // Dialogue précédent
-@76 = ~Mais un jour, nous avons vu une caravane se faire attaquer au beau milieu de la nuit. Il ne restait plus qu'un homme debout, et je ne le voyais pas survivre sans aide. Je pensais que ma sœur était juste derrière moi quand j'ai chargé à son secours, mais quand je me suis retournée, elle avait disparu.~
-@77 = ~Qu'y-a-t-il de si important à propos de votre nom de famille ? Minyae m'a dit qu'elle n'en savait rien, mais elle a omis de mentionner ton existence, elle aurait pu mentir sur ça aussi.~
+@76 = ~Mais une nuit, nous nous sommes retrouvées au beau milieu d'une attaque de caravane. Il ne restait plus qu'un homme debout, et je ne le voyais pas survivre sans mon aide. j'ai chargé à son secours pensant ma sœur juste derrière moi, mais quand je me suis retournée, elle avait disparu.~
+@77 = ~Pourquoi votre nom de famille est-il si important ? Minyae m'a dit qu'elle n'en savait rien, mais elle a omis de mentionner ton existence, elle aurait pu mentir sur ça aussi.~
 
 // Celvan le dingue 
-@78 = ~"Il était une fois une elfe pleine de chagrin,
-Elle avance avec le désir de meilleurs lendemains.
-Elle est pleine d'espoirs mais aucun ne se concrétisera ;
-Les pertes seront inévitables et elle s'inquiétera. 
+@78 = ~"Il était une fois une elfe emplie de chagrin,
+Elle avance en espérant de meilleurs lendemains.
+Des rêves plein la tête mais aucun ne se concrétisera ;
+Les pertes seront inévitables et elle en souffrira. 
 Ce qui est tombé est au delà de toute rédemption."~
-@79 = ~Des mots durs, mais je me demande, sont-ils le reflet de la vérité ?~
+@79 = ~Des mots durs... Je me demande, sont-ils le reflet de la réalité ?~
 
