@@ -19,7 +19,7 @@
 
 // Aerie
 @15 = ~Pourquoi <CHARNAME> te garde auprès de lui. Je n'en ai pas la moindre idée.~ ~Pourquoi <CHARNAME> te garde auprès d'elle. Je n'en ai pas la moindre idée.~ [QI#Mi148]
-@16 =  ~Pa-parlez-vous de moi ?~
+@16 = ~Pa-parlez-vous de moi ?~
 @17 = ~Ah ! Tu es si pitoyable que tu n'arrives même pas à aligner cinq mots ! Il est tout simplement abrutissant de t'entendre parler. Tu me fatigues déjà !~
 @18 = ~Ce sont des mots très blessants, Minyae. Je-je ne comprends vraiment pas pourquoi je mérite votre colère. Si vous aviez enduré ce que j'ai enduré, vo-vous comprendriez !~
 @19 = ~Et que sais-tu du milieu dans lequel j'ai grandi ? Que peux-tu bien savoir à mon propos ?~
@@ -58,7 +58,7 @@
 @44 = ~Je n'ai peur de personne.~
 @45 = ~Alors pourquoi me regardes-tu comme ça la nuit tombée ? Je peux sentir ton regard posé sur moi alors que je me retire dans ma tente. C'est soit de la prudence, soit du désir, mais je pencherais plutôt pour la première option.~
 @46 = ~On n'est jamais trop prudent avec ceux qui combattent à nos côtés, particulièrement ceux comme vous.~
-@47 = ~Tu as peur que je  trahisse le groupe ? Tu es fou, si c'était mon  intention, je vous aurais tous tranché la gorge au milieu de la nuit.~
+@47 = ~Tu as peur que je trahisse le groupe ? Tu es fou, si c'était mon intention, je vous aurais tous tranché la gorge au milieu de la nuit.~
 @48 = ~Oui, et c'est bien pour ça que mes actions sont fondées.~
 
 // Haer'Dalis
@@ -201,7 +201,7 @@
 // Jaheira
 @154 = ~Que représente <CHARNAME> pour toi ?~ [QI#Mi169]
 @155 = ~<CHARNAME> est sous ma responsabilité. Je suis là pour veiller sur lui.~ ~<CHARNAME> est sous ma responsabilité. Je suis là pour veiller sur elle.~
-@156 = ~Hm, je ne m'étais pas rendu  compte que <CHARNAME> était encore un enfant.~ ~Hm, je ne m'étais pas rendu  compte que <CHARNAME> était encore une enfant.~
+@156 = ~Hm, je ne m'étais pas rendu compte que <CHARNAME> était encore un enfant.~ ~Hm, je ne m'étais pas rendu compte que <CHARNAME> était encore une enfant.~
 @157 = ~J'en ai fait la promesse à un ami cher.~
 @158 = ~Et laisse-moi deviner, il ou elle est mort. Ainsi va la vie.~
 @159 = ~Tu ne peux pas parler des morts comme s'il n'avait jamais existé. Ils ont laissé une trace dans ce monde et méritent le respect !~
@@ -412,7 +412,7 @@
 
 // Edwin 8
 @324 = ~Et bien, quelle charmante demoiselle tu es devenue, Eddie.~ [QI#Mi087]
-@325 =  ~Ce n'est qu'un problème temporaire ! Et tu continueras à m'adresser par Edwin - Edwin Odesseiron! N'oublie pas ton rang, femelle.~
+@325 = ~Ce n'est qu'un problème temporaire ! Et tu continueras à m'adresser par Edwin - Edwin Odesseiron! N'oublie pas ton rang, femelle.~
 @326 = ~*gloussements* Qui est la femelle là ? Je me demande comment tu comptes satisfaire les femmes Eddie, maintenant que tu n'as, tu sais, plus de -~
 @327 = ~SILENCE FEMELLE !~
 @328 = ~Comme tu voudras... Edwina.~
@@ -472,7 +472,7 @@
 @372 = ~*C'est* ma récompense ?~
 @373 = ~Tu... ne veux pas de moi ?~
 @374 = ~Un Odesseiron ne paie jamais une femelle.~
-@375 =  ~Toujours à te vanter à quel point les femmes supplient pour être avec toi et comment tu les honores de tes prouesses...~
+@375 = ~Toujours à te vanter à quel point les femmes supplient pour être avec toi et comment tu les honores de tes prouesses...~
 @376 = ~Et pourtant, tu es incapable de faire tes preuves avec moi, en particulier avec moi.~
 @377 = ~Tu es encore plus une chienne maintenant que quand tu étais une femme.~
 @378 = ~Minyae ! Arrête tes enfantillages et regarde moi !~

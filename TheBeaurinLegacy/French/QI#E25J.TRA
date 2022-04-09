@@ -36,7 +36,7 @@
 @26 = ~Est-ce que ça te dérangerait de me répéter ce qu'il s'est passé ?~ 
 @27 = ~N'oublie surtout pas ton but. Et ne doute pas de toi comme ça.~ 
 @28 = ~C'est une bonne question. Combien de fois vas-tu devoir te répéter que c'était la bonne décision ? Ça commence à être fatiguant de l'entendre.~ 
-@29 = ~Ce deuil de ta sœur commence à m'insupporter.~  
+@29 = ~Ce deuil de ta sœur commence à m'insupporter.~ 
 @30 = ~Et me remémorer sa mort horrible pendant que je te raconte comment je l'ai abandonnée ? Pourquoi est-ce que tu me demandes ça ?~
 @31 = ~Je... Je m'excuse. Je sais que tu ne pensais pas à mal avec ta question. C'est juste... J'ai l'impression que ça s'est passé hier. Je revois encore le sentiment de défaite et la terreur dans ses yeux alors que sa vie la quittait.~
 @32 = ~Je vais te faire un résumé rapide.~
@@ -118,7 +118,7 @@
 @104 = ~Ils sont... tous morts.~
 @105 = ~Ce n'est pas surprenant quand on est le rejeton du Seigneur du Meurtre.~
 @106 = ~Oui... J'ai du mal à y croire aussi.~
-@107 = ~C'est une vision d'horreur, je sais.~  
+@107 = ~C'est une vision d'horreur, je sais.~ 
 @108 = ~Et bien, au moins, nous aurons tout tenté. On ne devrait pas s'attarder plus longtemps dessus.~
 @109 = ~Bon débarras.~ 
 @110 = ~Quelle importance ? Ces gens étaient tous des inconnus.~
@@ -162,7 +162,7 @@
 @146 = ~Ne le prends pas mal, mais ta vie amoureuse ne m'intéresse pas vraiment.~
 @147 = ~Est-ce que tu as envie de me parler de lui ?~ 
 @148 = ~Je serais curieux d'en savoir plus à propos de ce Willias.~ ~Je serais curieuse d'en savoir plus à propos de ce Willias.~
-@149 = ~Je ne pense pas que ce soit le lieu ni l'endroit pour se raconter des souvenirs.~  
+@149 = ~Je ne pense pas que ce soit le lieu ni l'endroit pour se raconter des souvenirs.~ 
 @150 = ~Il y a cette force en toi, <CHARNAME>. J'aimerais posséder une telle volonté.~
 @151 = ~C'est vraiment triste de penser qu'ils font partie de notre vie de tous les jours.~
 @152 = ~Vraiment ? J'admire cela.~
@@ -217,8 +217,8 @@
 @197 = ~Mais de quoi est-ce que tu parles ?~ 
 @198 = ~Si tu ne veux pas écouter ce que j'ai à dire, tant pis pour toi.~
 @199 = ~Me laisseras-tu m'exprimer ?~
-@200 = ~Très bien. De quoi voulais-tu me parler ?~  
-@201 = ~Non, ça ne m'intéresse pas. Pars et que je ne te revois plus jamais.~  
+@200 = ~Très bien. De quoi voulais-tu me parler ?~ 
+@201 = ~Non, ça ne m'intéresse pas. Pars et que je ne te revois plus jamais.~ 
 @202 = ~Comme tu veux.~ [ffight2k]
 @203 = ~Ma famille a reçu la bénédiction de la Seldarine. On m'a raconté que Minyae et moi sommes des descendantes d'un baelnorn.~
 @204 = ~Un baelnorn ?~

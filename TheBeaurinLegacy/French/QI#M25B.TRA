@@ -47,7 +47,7 @@
 @37 = ~Moi, jamais !~ 
 @38 = ~Écoute-toi parler iblith !~
 @39 = ~Cette conversation est terminée, Viconia.~ 
-@40 = ~Pathétique.~  
+@40 = ~Pathétique.~ 
 
 // Cernd
 @41 = ~J'ai écouté les récits de tes escapades en forêt.~
@@ -126,7 +126,7 @@
 @98 = ~Toi et ta race, vous êtes vraiment insupportables.~
 
 // Aerie
-@99 = ~Aerie, j'aimerais m'excuser pour la manière dont je t'ai traitée.~  [QI#Mi197]
+@99 = ~Aerie, j'aimerais m'excuser pour la manière dont je t'ai traitée.~ [QI#Mi197]
 @100 = ~Êtes-vous malade ? Je peux panser vos blessures.~
 @101 = ~Non ça va, je me sens bien.~
 @102 = ~Mais mon évolution te trouble, je le serais aussi étant donné mon comportement avec toi, mais ce sont des excuses sincères. Les accepteras-tu ?~
@@ -164,7 +164,7 @@
 // Imoen
 @127 = ~Je te préfère maintenant.~
 @128 = ~Tu souris plus souvent et quand tu le fais, on voit que tu prends vraiment du plaisir.~
-@129 = ~Je suis toujours la même, Imoen. J'ai simplement revu mes opinions.~  [QI#Mi201]
+@129 = ~Je suis toujours la même, Imoen. J'ai simplement revu mes opinions.~ [QI#Mi201]
 @130 = ~Est-ce ce dont tu essaies de te persuader ?~
 @131 = ~Oui, parce que c'est la vérité.~
 @132 = ~Ou peut-être que *tu* penses que c'est la vérité.~
@@ -247,7 +247,7 @@
 @197 = ~Bah ! Quelle idée ridicule en effet, Minyae! Comment as-tu pu aimer les nuits dans la ville quand nous nous chamaillions en permanence ? (Les désaccords sont intéressants, pas sublimes, non ?)~
 @198 = ~Es-tu stupide à ce point ?! Faut-il que je te fasse un dessin à chaque fois ?~
 @199 = ~...Ce que j'essaie de dire c'est que nos querelles la nuit à propos de je ne sais quels sujets controversés étaient, et sont toujours, les meilleurs moments de mes journées, mais j'ai l'impression que tu n'es pas de cet avis.~
-@200 = ~Ah ! Non seulement ton intellect est endommagé au delà de toute réparation, mais en plus tu es une hypocrite. (Cette femme a le culot de me trouver stupide !)~  
+@200 = ~Ah ! Non seulement ton intellect est endommagé au delà de toute réparation, mais en plus tu es une hypocrite. (Cette femme a le culot de me trouver stupide !)~ 
 @201 = ~Si tu étais si « belle et intelligente » comme tu l'affirmes, tu percevrais que ce que je ressens est similaire. Penses-tu que je gâcherais mes nuits de sommeil à débattre avec un singe ? NON.~ 
 @202 = ~Oh. je n'avais pas compris que -~
 @203 = ~Tu ne comprends pas assez souvent.~
