@@ -178,7 +178,7 @@
 // Minsc
 @137 = ~À quoi sert cet horrible rat ?~ [QI#Mi165]
 @138 = ~Un rat ? Non, non, non. Bouh est un hamster géant de l'espace miniature !~
-@139 = ~Pourquoi ai-je pris la peine de demander..?~
+@139 = ~Pourquoi ai-je pris la peine de demander... ?~
 
 // Imoen
 @140 = ~Pourquoi es-tu tellement intéressée par ce que j'ai appris d'Irenicus, Minyae ?~
@@ -346,7 +346,7 @@
 
 // Edwin 3
 @268 = ~Je sens ton regard, Edwin.~ [QI#Mi089]
-@269 = ~Oui, tu as plus conscience de ce qui t'entoures qu'une limace. Je te félicite.~
+@269 = ~Oui, tu as plus conscience de ce qui t'entoure qu'une limace. Je te félicite.~
 @270 = ~Edwin, tu me fatigues à me regarder constamment. Tu as de la chance de m'amuser. Ou je t'aurais cramé les yeux depuis un moment.~
 @271 = ~(Hmm.. c'est le moment parfait pour agir !) J'ai une proposition que tu ne pourras refuser.~
 @272 = ~De nombreuses femmes ont désiré l'incroyable Edwin Odesseiron. Je te donne une opportunité dont elles ont toutes rêvé !~
@@ -406,7 +406,7 @@
 @318 = ~J'ai l'impression que si tu évites la question, c'est que tu ne connais pas la réponse. D'habitude, tu n'as aucune difficulté avec mes interrogations.~
 @319 = ~Je fatigue simplement de ton babillage incessant. Tu veux que je déduise ces minutes de notre prochain cours ?~
 @320 = ~*soupir* Très bien. Je te remercie.~
-@321 = ~Tu me remercies..?~
+@321 = ~Tu me remercies... ?~
 @322 = ~Je remercie le plus élégant et plus talentueux des magiciens qu'il m'ait été donné de contempler.~
 @323 = ~Hmph. Je préfère ça.~
 
@@ -435,7 +435,7 @@
 @343 = ~(Mais qu'ai-je donc fait pour mériter une telle torture ??)~
 
 // Edwin 10
-@344 = ~Minyae..?~
+@344 = ~Minyae... ?~
 @345 = ~Que ce passe-t-il ? Qu'as-tu fait à Edwin ? D'habitude, c'est plutôt femme ou femelle !~ [QI#Mi092]
 @346 = ~*ahem* Tu me répondras malgré tout. N'oublie pas qui je suis et ce dont mes pouvoirs sont capables.~
 @347 = ~Bien sûr ! Tout ce que tu désires, oh grand et puissant magicien de Thay!~
