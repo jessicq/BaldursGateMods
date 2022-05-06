@@ -1,0 +1,204 @@
+// Minyae, sons
+@1 = ~Minyae~
+@2 = ~Je n'en peux plus de ce groupe d'idiots.~ [QI#Mi019]
+@3 = ~Quelle glorieuse journée.~ [QI#Mi020]
+@4 = ~Cela commence à m'agacer.~ [QI#Mi012]
+@5 = ~Tu mènes ce groupe à sa perte.~ [QI#Mi023]
+@6 = ~Tu t'es enfin rendu compte de mon potentiel.~ [QI#Mi013]
+@7 = ~C'est aujourd'hui que tu meures !~ [QI#Mi014]
+@8 = ~Rampe à mes pieds.~ [QI#Mi032]
+@9 = ~Tu as donc à ce point hâte de mourir ?~ [QI#Mi028]
+@10 = ~Ugh.~ [QI#Mi027]
+@11 = ~Non, pas comme ça...~ [QI#Mi021]
+@12 = ~Aide moi !~ [QI#Mi030]
+@13 = ~Cet endroit me rappelle tellement de souvenirs.~ [QI#Mi010]
+@14 = ~La puanteur de cette cité est accablante.~ [QI#Mi015]
+@15 = ~Cet endroit me met mal à l'aise.~ [QI#Mi017]
+@16 = ~Une nouvelle journée, une nouvelle occasion de parfaire ses connaissances.~ [QI#Mi025]
+@17 = ~Ah, mon moment préféré de la journée.~ [QI#Mi007]
+@18 = ~Que veux-tu ?~ [QI#Mi008]
+@19 = ~Oui ?~ [QI#Mi011]
+@20 = ~Quelle idiotie veux-tu que je fasse maintenant ?~ [QI#Mi024]
+@21 = ~Hm ?~ [QI#Mi009]
+@22 = ~Il semble qu'on a besoin de moi ?~ [QI#Mi022] 
+@23 = ~Je suppose.~ [QI#Mi002]
+@24 = ~Si je dois.~ [QI#Mi001]
+@25 = ~Je peux à peine te supporter.~ [QI#Mi006]
+@26 = ~Tu ne peux pas demander à quelqu'un d'autre ?~ [QI#Mi003]
+@27 = ~Tout cela commence à m'ennuyer.~ [QI#Mi004]
+@28 = ~As-tu quelque chose d'intéressant à me dire ?~ [QI#Mi016]
+@29 = ~Que c'est frustrant !~ [QI#Mi031]
+@30 = ~Évidemment, touché.~ [QI#Mi033]
+@31 = ~Rien, je ne fais rien !~ [QI#Mi026]
+@32 = ~Je ne suis pas une mule. J'ai laissé tes affaires au sol.~ [QI#Mi005]
+@33 = ~J'ai perdu ma concentration !~ [QI#Mi029]
+@34 = ~Nous ne devrions pas tarder à nous reposer.~ [QI#Mi018]
+
+// Minyae, biographie
+@35 = ~Quand vous l'interrogez sur son passé, MINYAE a un petit rire dédaigneux. Elle ne se rappelle pas de ses parents ou d'une quelconque famille d'ailleurs. « Ils sont probablement morts de toute façon » vous dit-elle. En fait, la seule chose dont elle se souvient est que son nom est Minyae Beaurin, et qu'elle a toujours été douée pour le vol et la magie. « Voler m'a gardé en vie lorsque j'étais seule, et la magie m'a permis d'assouvir aisément mes besoins ». On dirait qu'elle est sur le point de vous en dire plus mais elle s'interrompt brutalement, vous fixe un instant, puis détourne le regard.~
+
+// Elaryn, sons
+@36 = ~Elaryn~
+@37 = ~J'espère que tu t'amuses bien.~ [ffight2#]
+@38 = ~~
+@40 = ~Peux-tu cesser ce comportement puéril ?~ [ffight2_]
+@41 = ~Je vais ouvrir la marche !~ [ffight2b]
+@42 = ~À l'attaque !~ [ffight2a]
+@43 = ~Comme tu voudras.~ [ffight2k]
+@45 = ~Non !~ [ffight2m]
+@46 = ~Ugh.~ [ffight2l]
+@47 = ~~
+@50 = ~Ne perdons pas plus de temps.~ [ffight2d]
+@51 = ~~
+@52 = ~En effet.~ [ffight2s]
+@53 = ~Oui ?~ [ffight2h]
+@54 = ~Je suis avec toi.~ [ffight2g]
+@55 = ~Je vois.~ [ffight2v]
+@56 = ~C'est fait.~ [ffight2u]
+@57 = ~Ce n'est pas une tâche facile.~ [ffight2t]
+@58 = ~Arrête ça tout de suite.~ [ffight2x]
+@59 = ~Imbécile.~ [ffight2y]
+@63 = ~Je ne peux rien transporter de plus, j'ai laissé quelque chose à terre.~
+@65 = ~Je suis épuisée.~ [ffight2c]
+
+// Elaryn, biographie
+@66 = ~Quand vous l'interrogez sur son passé, ELARYN a les yeux qui s'assombrissent. Elle vous raconte avoir été capturée en même temps que le capitaine de la garde, lors de sa séparation avec Minyae. Ces ravisseurs souhaitaient la vendre comme esclave, elle réussi à blesser mortellement bon nombre d'entre eux, avant d'être faite prisonnière. Elle s'apprête à vous en raconter plus, mais s'interrompt et vous dit que c'est une histoire pour une autre fois.~
+
+// Équipements 1
+@70 = ~Robe d'élégance~
+@71 = ~Depuis l'ère de Néthéril, les mages ont appris à conférer aux objets quotidiens qui les entouraient une grande variété de propriétés magiques. L'un des plus usités de ces objets est la robe courante. Elle est légère, peu onéreuse et conserve bien ses enchantements. Cela en fait une parure de mage idéale. Cependant, en raison de leur héritage magique, ces robes enchantées ne peuvent être portées que par des mages mono classés, à classes jumelées ou multiclassés.
+
+PARAMÈTRES :
+
+Poids : 3~
+@72 = ~Cette robe aux pouvoirs immenses, très élégante avec ses épaulettes en fourrure, protège son porteur contre toute forme d'attaque physique, tout en accroissant sa résistance à la magie et ses jets de sauvegarde. Minyae s'est permis d'ajouter un enchantement qui améliore le charisme.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : 5
+- Résistance à la magie : 5%
+- Charisme : +1
+
+Poids : 6~
+@73 = ~En effet.~ [ffight2s]
+@74 = ~J'ai besoin de soins.~ [ffight2e]
+@75 = ~Tu as besoin de moi ?~ [ffight2f]
+@83 = ~Amulette de Minyae~
+@84 = ~Cette amulette est une réplique fidèle de celle qu'Edwin porte autour du coup. C'est un cadeau du Sorcier Rouge à Minyae.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Résistance à la peur
+- Vocaliser
+
+Poids : 1~
+
+// Épilogue Minyae 1
+@87 = ~Après avoir quitté le groupe de <CHARNAME>, Minyae était perdue - son seul objectif dans la vie s'étant envolé. Ne sachant que faire ensuite, elle erra sans but pendant des années, à la recherche d'une nouvelle raison d'être. D'après les rumeurs, elle se rendit sur un autre plan par respect pour <CHARNAME> et reprit ses recherches pour devenir une liche. Cependant, on raconte aussi que Minyae se senti tellement coupable de la mort de sa sœur qu'elle tenta de la ressusciter. Ce n'est que des années plus tard que l'une de ces rumeurs s'avéra bien réelle. Bien que la résurrection d'Elaryn fut un succès, celle-ci avait perdu toute émotion autre que la rage, provoquant ainsi une ultime confrontation entre les deux sœurs. La bataille fut vicieuse et sanglante et quand la poussière retomba, deux corps sans vie gisaient à terre, meurtris et couverts de sang - mettant ainsi un terme à l'héritage des Beaurin.~
+
+// Épilogue Minyae 2
+@88 = ~On n'entendit plus jamais parler de Minyae après son départ du groupe de <CHARNAME>. Cependant, des rumeurs commencèrent à circuler dans les grandes cités, à propos d'une silhouette encapuchonnée de violet, enlevant de jeunes enfants la nuit, principalement dans les quartiers pauvres. Ce n'est que bien des années plus tard qu'elle réapparut, même si c'est dans d'autres plans qu'on l'aperçut, des légions de morts-vivants à ses ordres, pillant tombes anciennes et vieilles bibliothèques, toujours à la recherche de nouvelles connaissances. Finalement, l'ordre pour lequel sa sœur avait donné sa vie, la retrouva et tenta de la supprimer. Inutile de dire qu'ils connurent tous une fin atroce, avant d'être ensuite ressuscités pour servir Minyae dans la mort. On raconte que chaque tuerie perpétrée par Minyae Beaurin était un hommage à <CHARNAME>. La peur frappait tous ceux qui osaient prononcer son nom et s'il y a bien une chose qui reste vrai à ce jour, c'est que l'héritage des Beaurin perdure.~
+
+// Épilogue Minyae 3
+@89 = ~On n'entendit plus jamais parler de Minyae après son départ du groupe de <CHARNAME>. Cependant, des rumeurs commencèrent à circuler dans les grandes cités, à propos d'une silhouette encapuchonnée de violet, enlevant de jeunes enfants la nuit, principalement dans les quartiers pauvres. Ce n'est que bien des années plus tard qu'elle réapparut, même si c'est dans d'autres plans qu'on l'aperçut, des légions de morts-vivants à ses ordres, pillant tombes anciennes et vieilles bibliothèques, toujours à la recherche de nouvelles connaissances. Finalement, l'ordre pour lequel sa sœur avait donné sa vie, la retrouva et tenta de la supprimer. Inutile de dire qu'ils connurent tous une fin atroce, avant d'être ensuite ressuscités pour servir Minyae dans la mort. La peur frappait tous ceux qui osaient prononcer son nom et s'il y a bien une chose qui reste vrai à ce jour, c'est que l'héritage des Beaurin perdure.~
+
+// Épilogue Minyae 4
+@90 = ~Edwin et Minyae virent leur renommée grandir de manière considérable suite à leurs aventures avec <CHARNAME>, et dans les années qui suivirent, ils l'exploitèrent sans vergogne. Avec le temps, ils gagnèrent suffisamment d'influence pour contrôler les Sorciers Rouges eux-mêmes, devenant les plus grands Zulkirs connus de mémoire d'homme. À ce moment-là, Minyae songeait encore à transformer son amant en liche avant d'abandonner ses sombres pensés pour des raisons qu'elle ne souhaita pas partager. Elle se tint à l'écart du monde pendant quelques mois, dissimulant son secret naissant même à son bien-aimé. Edwin de plus en plus impatient et frustré, finirait par comprendre qu'il y avait d'autres moyens pour son héritage de perdurer. La naissance de leur fille et les jours qui suivirent, furent pour le couple à la fois les plus doux et les plus amers. En effet, la nouvelle parvint aux oreilles des ennemies d'Edwin. Profitant de l'affaiblissement de sa conseillère et amante, les Sorciers Rouges saisirent l'occasion de se dresser contre eux afin de reprendre le contrôle de la cité.
+
+Le trio réussi à s'échapper de justesse et commença alors une vie de fugitifs. Après plusieurs années sur la route dans l'espoir de se tenir le plus éloignés possible de leurs adversaires, les Sorciers Rouges les rattrapèrent. Leur fille disparut mystérieusement et Edwin fut poussé à la folie. Minyae, furieuse face à la disparition de son enfant et la démence de son amant, se chargea de lancer une croisade contre les Sorciers Rouges dans l'espoir de retrouver sa fille. On raconte qu'aujourd'hui encore, elle est toujours à sa recherche - on ne sait donc pas ce qu'il est advenu de l'héritage des Beaurin.~
+
+// Épilogue Minyae 5
+@91 = ~Edwin et Minyae se forgèrent une sinistre réputation durant leurs voyages avec <CHARNAME>, et dans les années qui suivirent, ils l'exploitèrent sans vergogne. Avec le temps, ils gagnèrent suffisamment d'influence pour contrôler les Sorciers Rouges eux-mêmes, devenant les plus grands Zulkirs connus de mémoire d'homme. Durant cette période, Edwin et Minyae se préparèrent à consolider leur héritage en devenant des liches avec l'intention de diriger Thay pour l'éternité. Cependant, avant que leurs desseins ne puissent s'accomplir, Minyae disparu, sans un mot pour Edwin.
+
+On ne découvrit que plus tard qu'elle avait trouvé refuge dans les forêts de Velen, et qu'elle n'était pas seule. Ceux des villes et villages alentours qui l'aperçurent confirmèrent la présence d'un jeune garçon toujours à ses côtés, arborant un collier similaire à celui d'un certain Sorcier Rouge. Le duo mena une vie relativement calme jusqu'à ce jour fatidique. En revenant d'un village voisin, Minyae fut stupéfaite de voir son ancien amant la saluer. Les retrouvailles ne furent pas chaleureuses et une terrible bataille s'ensuivit. Minyae ne fit pas le poids face au Sorcier Rouge et alors qu'il était sur le point de l'achever, l'enfant se sacrifia pour sauver sa mère. Submergée par le chagrin, Minyae rampa pour atteindre son fils à l'agonie. Elle ne remarqua même pas le départ d'Edwin Odesseiron, ni que celui-ci avait épargné sa vie.
+
+Personne ne sait ce qu'il advint de Minyae Beaurin après cette perte tragique, certains disent qu'elle hante toujours les bois de Velen. D'autres qu'elle l'a rejoint dans la mort ou que ses recherches pour le ramener à la vie l'auraient rendue folle. Une chose est sure, c'est que l'on ne sait pas ce qu'il est advenu de l'héritage des Beaurin.~
+
+// Épilogue Edwin 1
+@92 = ~Edwin et Minyae se forgèrent une sinistre réputation durant leurs voyages avec <CHARNAME>, et dans les années qui suivirent, ils l'exploitèrent sans vergogne. Avec le temps, ils gagnèrent suffisamment d'influence pour contrôler les Sorciers Rouges eux-mêmes, devenant les plus grands Zulkirs connus de mémoire d'homme. Durant cette période, Edwin et Minyae se préparèrent à consolider leur héritage en devenant des liches avec l'intention de diriger Thay pour l'éternité. Cependant, avant que leurs desseins ne puisse s'accomplir, Minyae disparu, sans un mot pour Edwin. La nouvelle de la disparition de sa bien-aimée se répandit à travers le pays comme une traînée de poudre et les Sorciers Rouges saisirent l'occasion pour se dresser contre lui et reprendre le contrôle de la cité à nouveau.
+
+Se sentant trahi et blessé, Edwin ne dirigea pas sa vengeance contre les Sorciers Rouges, mais envers son ancien amour. Il la traqua pendant des années pour finalement la retrouver dans une forêt aux alentours de Velen. La bataille fut terrible, mais alors que le Sorcier Rouge était sur le point de l'achever, un jeune garçon se sacrifia en s'interposant. Ne se rendant pas compte de la gravité de son geste, Edwin ricana en regardant le corps sans vie puis tourna son attention vers Minyae. Il se réjouit de la voir ramper dans sa direction - attendant qu'elle le supplie et implore pour avoir la vie sauve, mais à son grand étonnement, elle prit le jeune garçon dans ses bras et se mit à pleurer. Reconstituant enfin le cours des événements, il quitta rapidement les lieux sans prononcer un mot.
+
+Il ne refit surface que longtemps après et se rendit célèbre en défiant Elminster lui-même, ce qui mit un terme définitif à son existence, et son nom sombra dans l'oubli sans que personne ne songe à s'en plaindre. On vit néanmoins apparaître une certaine Edwina, tenancière d'une taverne des plus glauques à Eau-Profonde. Elle est connue pour son caractère épouvantable et la qualité plus que médiocre des boissons frelatées qu'elle vend (à prix d'or).~
+
+// Épilogue Edwin 2
+@93 = ~Edwin et Minyae virent leur renommée grandir de manière considérable suite à leurs aventures avec <CHARNAME>, et dans les années qui suivirent, ils l'exploitèrent sans vergogne. Avec le temps, ils gagnèrent suffisamment d'influence pour contrôler les Sorciers Rouges eux-mêmes, devenant les plus grands Zulkirs connus de mémoire d'homme. À ce moment-là, Minyae songeait encore à transformer son amant en liche avant d'abandonner ses sombres pensés pour des raisons qu'elle ne souhaita pas partager. Elle se tint à l'écart du monde pendant quelques mois, dissimulant son secret naissant, même à son bien-aimé. Edwin de plus en plus impatient et frustré, finirait par comprendre qu'il y avait d'autres moyens pour son héritage de perdurer. La naissance de leur fille et les jours qui suivirent, furent pour le couple à la fois les plus doux et les plus amers. En effet, la nouvelle parvint aux oreilles des ennemies d'Edwin. Profitant de l'affaiblissement de sa conseillère et amante, les Sorciers Rouges saisirent l'occasion de se dresser contre Edwin et Minyae afin de reprendre le contrôle de la cité.
+
+Le trio parvint tout juste à s'échapper vivant et dû fuir depuis ce jour. Après plusieurs années à se déplacer en permanence et à se tenir éloignés de leurs adversaires, les Sorciers Rouges les rattrapèrent enfin. Leur fille disparut mystérieusement et Edwin fut poussé à la folie. À tel point qu'il décida d'affronter le plus grand de tous, Elminster lui-même, ce qui mit un terme définitif à son existence, et son nom sombra dans l'oubli sans que personne ne songe à s'en plaindre. On vit néanmoins apparaître une certaine Edwina, tenancière d'une taverne des plus glauques à Eau-Profonde. Elle est connue pour son caractère épouvantable et la qualité plus que médiocre des boissons frelatées qu'elle vend (à prix d'or).~
+
+// Épilogue Elaryn 1
+@95 = ~Après avoir quitté <CHARNAME>, Elaryn décida de retracer le parcours de sa défunte sœur. Curieuse de savoir comment elle avait réussi à survivre seule pendant toutes ces années, Elaryn chroniqua et documenta tous ceux qui avaient croisé sa route, particulièrement les caravanes de marchands qui voyageaient près des forêts de Velen, ceux-là mêmes qui furent persécutés par la célèbre « Sorcière de Velen ». C'est durant un de ces voyages qu'Elaryn se retrouva au milieu du pillage d'un village. Elle se débarrassa à elle seule des envahisseurs, les renvoyant dans les collines d'une simple volée de flèches, mais il était trop tard, le mal été fait. Parmi les piles de décombres et de corps noircis, Elaryn découvrit un petit orphelin et décida de l'adopter. À partir de ce jour, elle l'éleva comme son propre fils mais peu après son passage à l'age adulte, elle disparut. On ne sait pas où se trouve Elaryn aujourd'hui et lorsque l'on demande à son fils adoptif, il déclare d'un air grave, « Elle a quitté ce monde en souriant » - mettant un terme à l'héritage des Beaurin.~
+
+// Épilogue Elaryn 2
+@96 = ~Après avoir quitté <CHARNAME>, Elaryn erra de ville en ville sans aucune raison d'être. Malgré tous ses efforts pour préserver son anonymat, on se souvenait de ses exploits au côté de l'enfant de Bhaal. Cette célébrité attirait l'attention partout où elle se rendait et cela la poussa à se retirer du monde de plus en plus, puis un jour, elle disparut complètement. Personne ne sait vraiment ce qu'il advint d'Elaryn Beaurin mais des rumeurs circulent à son sujet, des forêts de Velen jusqu'aux ruelles d'Amn. Certaines disent qu'une sombre entité garde maintenant les alentours de Velen, d'autres qu'une jeune femme elfe à l'air morose guide ceux qui, dans leurs heures les plus sombres, ont besoin d'aide pour retrouver le chemin de la lumière. Cependant, les chants des bardes et des ménestrels, et même les histoires de Volo en personne, s'accordent sur un point, Elaryn Beaurin n'est plus - mettant ainsi un terme à l'héritage des Beaurin.~
+
+// Équipements 2
+@97 = ~Cette robe aux pouvoirs immenses, très élégante avec ses épaulettes en fourrure, protège son porteur contre toute forme d'attaque physique, tout en accroissant sa résistance à la magie et ses jets de sauvegarde. Minyae s'est permis d'ajouter un enchantement qui améliore le charisme. Cespenar l'a perfectionnée davantage en y ajoutant des protections supplémentaires.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : 3
+- Résistance à la magie : 10%
+- Charisme : +1
+
+Poids : 6~
+@98 = ~Robe d'élégance enchantée~
+@99 = ~Dague du magicien +4~
+@100 = ~Comme la plupart des dagues, celle-ci est une lame pointue à double tranchant. Elle est d'autant plus utile maintenant qu'elle a été imprégnée de propriétés magiques.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +2
+- Jet de sauvegarde contre les sorts : +3
+- Résistance à la magie : +15%
+- Peut mémoriser un sort supplémentaire du premier, deuxième, et troisième niveau
+
+TAC0 : +4
+Dégâts : 1d4 + 4 (perforant)
+Facteur de vitesse : 2
+Type de compétence : dague
+Type : arme à une main
+Nécessite :
+ 3 en Force
+
+Poids : 1~
+@101 = ~Les dagues sont des lames pointues à double tranchant, contrairement aux couteaux, plus petits, qui n'en ont qu'un.
+
+PARAMÈTRES :
+
+Dégâts : 1d4 (perforant)
+Facteur de vitesse : 2
+Type de compétence : dague
+Type : arme à une main
+Nécessite :
+ 3 en Force
+
+Poids : 1~
+
+// Installation + extra
+@102 = ~Installation du crossmod pour "The Beaurin Legacy" pour BGII~
+@103 = ~Le mod "The Beaurin Legacy" est requis pour l'installation.~
+@104 = ~~
+@105 = ~~
+@106 = ~Willias~
+@107 = ~Aneila~
+@108 = ~Kaldava~
+@109 = ~Swiftee~
+@110 = ~Grimoire poussiéreux~
+@111 = ~Un vieux grimoire poussiéreux, ses pages sont vierges quand vous l'ouvrez. Il ne pourra être utile qu'à Minyae.~
+@112 = ~Guerrier squelette~
+
+@1000 = ~"The Beaurin Legacy" pour BG2:SoA & ToB & BGII:EE~
+@1010 = ~Ce composant requiert le composant principal de "The Beaurin Legacy".~
+
+@2000 = ~Changer la classe de Minyae en Enchanteresse (plutot que multiclasses Enchanteresse/Voleuse)~
+
+@3000 = ~Portrait de Minyae~
+@3010 = ~Alternative disponible pour le portrait de Minyae par TamikaProud de DeviantArt~
+@3020 = ~Alternative disponible pour le portrait de Minyae par ErisForan de DeviantArt~
+@3030 = ~Alternative disponible pour le portrait de Minyae par Aerwindale de DeviantArt~
+

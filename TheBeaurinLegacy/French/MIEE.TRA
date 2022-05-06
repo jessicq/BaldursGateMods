@@ -1,0 +1,121 @@
+// Neera
+@0 = ~Comment as-tu...~
+@1 = ~Je ne suis pas vraiment d'humeur à répondre à des questions, tu sais ? Mais JE SUIS d'humeur à en poser.~
+@2 = ~Ne m'interr...~
+@3 = ~Voyons... hmm. Qu'est-ce que tu penses de celle-ci. D'où est-ce que te viennent tes talents ? Tu sais, les petits larcins que je te vois commettre de temps en temps ?~
+@4 = ~Mais que...~
+@5 = ~OH ! J'en ai une encore meilleure, qu'est-ce que tu veux savoir à propos de moi ? Et si j'essayais de te soutirer des petits secrets ?~
+@6 = ~C'est bon, c'est bon, j'ai compris.~
+
+// Neera
+@7 = ~Tu es une personne épouvantable, Minyae.~
+@8 = ~Dis-moi plutôt quelque chose que je ne sais pas déjà.~
+@9 = ~Je t'ai encore aperçue en train de voler.~
+@10 = ~Et ?~
+@11 = ~C'est contraire aux lois, tu sais ? Pas que ça m'importe beaucoup cela dit...~
+@12 = ~Quoi que tu m'aies vu prendre, j'en avais plus besoin que la personne à qui je l'ai volé.~
+@13 = ~C'est la belle histoire qui te berce avant d'aller te coucher ?~
+@14 = ~Pourquoi est-ce que je perds mon temps à te parler ?~
+
+// Neera
+@15 = ~Sérieusement ? Tu es vraiment avec le Sorcier Rouge ? Tu ne réalises pas que tu pourrais avoir teeeeeellement mieux ?~
+@16 = ~Je veux dire, regarde-toi. T'es parfois un peu débraillée, et tu devrais peut-être te peigner les cheveux un peu plus souvent, mais tu as un très joli visage. En plus, tu as l'air assez souple et robuste. Par contre, tu ne dois pas être très forte, parce que je suis assez sûre qu'un coup de hache pourrait te trancher en deux.~
+@17 = ~Ce que je fais, et pourquoi je le fais, ne sont pas tes affaires, Neera.~
+@18 = ~Je vous entends ! (De quoi la femelle est-elle en train de parler ?! Mon physique séducteur ferait s'évanouir toutes les femmes ! Sans parler de ma barbe, les dames l'adorent, elle les chatouille pile aux bons endroits...)~
+@19 = ~Neera, n'as-tu donc toujours pas compris que quelque soit la nature de ma relation avec Edwin, ce n'est VRAIMENT PAS sérieux. C'est juste pour passer du bon temps.~
+@20 = ~Tout de même...~
+
+// Dorn (1)
+@21 = ~Quel corps splendide.~
+@22 = ~De quoi ou de qui parles-tu ?~
+@23 = ~Tu vas te taire femme. Ne te moque pas de moi ou tu vas le regretter.~
+
+// Dorn
+@24 = ~Qu'est-ce qui te fait penser que je me moquerais de toi, Dorn ? Tu es l'incarnation même de la force.~
+@25 = ~Si je devais envisager l'idée que toi et moi pourrions un jour être ensemble...~
+@26 = ~Alors qu'attends-tu ?~
+@27 = ~Tu ne m'as pas laissé terminer. Je préférerais mourir que de fréquenter une sorcière maléfique.~
+
+// Dorn
+@28 = ~Pourquoi te donner autant de mal pour un simple livre ?~
+@29 = ~Comme je l'ai toujours dit, il y a du pouvoir dans la connaissance.~
+@30 = ~Rien n'est plus puissant qu'une main sûre et une lame bien aiguisée.~
+@31 = ~Je ne suis pas entièrement d'accord.~
+@32 = ~Toi et ton peuple, vous êtes petits et maigres. Je pourrais vous trancher en deux d'un seul coup.~
+@33 = ~Tu peux probablement essayer, mais je te le déconseille.~
+
+// Dorn + Edwin
+@34 = ~Je ne te pensais pas du genre à aimer les hommes barbus.~
+@35 = ~Oh, serais-tu jaloux ? C'est pas grave si c'est le cas tu sais, je comprends tout à fait.~
+@36 = ~(Quel est le problème avec les hommes barbus ?)~
+@37 = ~Moi ? Jaloux ? Tu te trompes.~
+@38 = ~Ça aurait pu être toi, Dorn, mais tu m'as rejetée. Refuser l'affection d'une dame, quelle grossièreté.~
+@39 = ~J'ai vu clair dans ton petit jeu aguicheur, j'ai vu le mensonge derrière tes intentions.~
+@40 = ~Et qu'est-ce qui te fait penser que mes intentions avec Eddie ne sont pas aussi mensongères ? En quoi es-tu si différent de lui ?~
+@41 = ~Je suis déterminé, et je ne suis pas inconscient.~
+
+// Rasaad
+@42 = ~Pourquoi est-ce que la religion t'importe tellement, moine ?~
+@43 = ~C'est un mode de vie. C'est comme ça que je...~
+@44 = ~Laisse tomber. Cette discussion ne m'intéresse déjà plus. Toutes ces croyances sont insignifiantes pour moi.~
+@45 = ~Qu'il en soit ainsi.~
+
+// Hexxat
+@46 = ~Soyons claires toutes les deux. L'aura que tu dégages est troublante, mais je peux te supporter si tu ne te mets pas en travers de mon chemin.~
+@47 = ~Comme tu veux. Mais tu réaliseras mon potentiel en temps voulu.~
+
+// Dorn (2)
+@48 = ~De toi évidemment. Regardez moi ces...~
+
+// Dorn
+@49 = ~Il s'en est passé des choses, tu ne trouves pas ?~
+@50 = ~Oui, je suppose.~
+@51 = ~Tu tiens le coup pour le moment ?~
+@52 = ~Pourquoi ces banalités ? Quelle importance ?~
+@53 = ~Aucune en effet. Je pensais juste échanger quelques civilités.~
+@54 = ~Tu ne serais pas si aimable si tu n'avais pas quelque chose à me demander.~
+@55 = ~Je vois que tu m'as percée à jour. Tu es vraiment un homme plus intelligent que la moyenne.~
+@56 = ~Je ne suis pas un homme.~
+@57 = ~Oui, ce n'est pas faux.~
+@58 = ~Maintenant, qu'est-ce que tu me veux ?~
+@59 = ~Rien en particulier. Je voulais juste voir si j'arrivais à te pousser à bout. On pourrait dire que je tâtais le terrain.~ 
+@60 = ~Recommence, et tu verras bien ce qu'il se passe.~
+@61 = ~J'en prends note.~
+
+// Hexxat
+@62 = ~Je n'aime pas que tu me fixes en permanence, Hexxat. Crache le morceau si tu ne veux pas te retrouver nue comme un ver en plein soleil.~
+@63 = ~Tes enchantements n'ont aucun effet sur une créature telle que moi.~ 
+@64 = ~Ne me sous-estime pas, vampire.~
+@65 = ~Attention, tu ne voudrais pas me mettre en colère, n'est-ce pas ?~
+@66 = ~Est-ce que c'est une menace ?~
+@67 = ~Ça, c'est toi qui le décide, Minyae.~
+
+// Rasaad
+@68 = ~As-tu déjà envisagé le chemin de la rédemption, Minyae?~
+@69 = ~Même si c'était le cas, Rasaad. Ce n'est pas à toi que je demanderais conseil.~ 
+@70 = ~Ce qui est fait est fait.~ // Neera (2)
+@71 = ~Vu à quel point tu t'es écarté du tien.~
+@72 = ~Je ne crois pas que tu saisisses bien tout ce qu'il m'est arrivé.~
+@73 = ~J'en sais assez pour savoir que parler avec toi d'une quelconque rédemption serait une pure perte de temps.~
+
+// Neera
+@74 = ~Tu l'aimes vraiment. Tu es sérieusement amoureuse d'un homme comme Edwin. Jamais de la vie j'aurais pensé qu'un Sorcier Rouge puisse le mériter et encore moins aimer en retour.~
+@75 = ~Et jamais de la vie j'aurais pensé devoir supporter la compagnie d'une personne aussi pitoyable et agaçante.~
+@76 = ~Enfin, je veux dire, c'est TOI qui es avec Edwin. Pourquoi t'as choisi de te mettre dans ce pétrin, ça m'échappe complètement.~
+@77 = ~Je parlais de toi, idiote.~ 
+@78 = ~Oh allez. Ce n'est *pas* possible que je sois la personne la plus agaçante du groupe parce que déjà, ce n'est pas moi qui passe mon temps à parader avec ma robe rouge tout en essayant d'attirer l'attention dessus partout où je vais.~
+@79 = ~On dirait que les Sorciers Rouges t'effraient, Neera. Pourquoi insisterais-tu autant sur sa robe sinon ?~ 
+@80 = ~Euh, tu n'as vraiment RIEN suivi du tout ? Ils me traquent à cause de mes pouvoirs !~
+@81 = ~Alors pourquoi est-ce que tu ne nous rendrais pas à tous un service en disparaissant comme par magie, hein ?~
+@82 = ~Tu peux être vraiment méchante parfois, tu sais ?~
+
+// Neera (1)
+@83 = ~Ça, je l'avais tellement vu venir. Jamais de la vie quelqu'un pouvait aimé un Sorcier Rouge. Les seules personnes qui le peuvent, c'est eux-mêmes, ou peut-être leur maman. Et encore, est-ce qu'on en est vraiment sûr ?~
+@84 = ~Ferme-la, Neera.~
+@85 = ~C'est un peu malpoli de demander à quelqu'un de se taire sans lui dire s'il te plaît, tu sais. Et puis, soyons honnêtes. Edwin est une personne épouvantable, toi aussi d'ailleurs. On vous met ensemble et ça fait un épouvantable épouvantable.~
+@86 = ~J'imagine même pas si vous aviez décidé d'avoir des enfants. Quelle horreur.~
+@87 = ~FERME-LA ! FERME-LA ! FERME-LA !~
+@88 = ~Si je t'entends prononcer son nom à nouveau, je te jure que ton existence sur les plans va se terminer très vite.~
+@89 = ~Quoi qu'il y ait eu entre Edwin et moi... c'est fini.~
+@90 = ~Donc ça n'a plus d'importance. Ça ne mérite même pas qu'on en parle.~
+

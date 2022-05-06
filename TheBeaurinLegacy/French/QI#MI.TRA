@@ -1,0 +1,49 @@
+@0 = ~Que veux-tu étranger ?~ ~Que veux-tu étrangère ?~ [QI#Mi034]
+@1 = ~On dirait que tu as besoin d'aide, non ?~
+@2 = ~À ta place, je ferais attention à mes manières.~ 
+@3 = ~Rien. Je suis simplement de passage.~ 
+@4 = ~Non, pourquoi voudrais-je quoi que ce soit de toi et ta bande de vagabonds ?~ [QI#Mi035]
+@5 = ~...Finalement, je retire ce que je viens de dire. Toi et ton groupe avez l'air décemment équipés, et j'ai effectivement besoin d'aide.~ [QI#Mi036]
+@6 = ~Pardon ? Des vagabonds ? Je te propose mon aide et tu m'insultes ?~
+@7 = ~Oui, bon, comment puis-je t'aider ?~
+@8 = ~En fait, j'ai changé d'avis. Je vais m'en aller.~
+@9 = ~Je suppose que oui. Que puis-je faire pour toi ?~ 
+@10 = ~Non, nous ne pouvons pas. Adieu.~
+@11 = ~J'ai passé de longues années en recherches, à me préparer pour ma quête personnelle.~
+@12 = ~J'ai enfin trouvé l'emplacement qui me permettra d'accomplir l'œuvre de ma vie. Et toi, brave aventurier, c'est là que tu entres en scène.~ ~J'ai enfin trouvé l'emplacement qui me permettra d'accomplir l'œuvre de ma vie. Et toi, brave aventurière, c'est là que tu entres en scène.~
+@13 = ~Mes études et mes calculs m'ont conduit ici - dans cette ville infestée de mendiants.~
+@14 = ~Il y a une porte cachée que tu dois franchir, et je vais t'accompagner. Je n'accepterai aucun refus sur le sujet, si tu te poses la question.~ [QI#Mi038]
+@15 = ~Et qu'est-ce que tout cela va me rapporter ?~ 
+@16 = ~Pourquoi as-tu besoin de moi pour récupérer un simple livre ? Où est l'entourloupe ?~ 
+@17 = ~Ça a l'air relativement simple. Faisons-le.~ 
+@18 = ~À bien y réfléchir, je n'ai vraiment pas le temps pour ça.~ 
+@19 = ~Je t'offre mes services jusqu'à ce que ta quête soit terminée. Je suis assez compétente dans les arts arcaniques, et suis plutôt fière des « emprunts » que je fais aux autres.~
+@20 = ~Si tu comprends ce dont je parle bien sûr, mais en supposant que tu sois confus, je vais le redire plus simplement. Je suis douée pour voler des choses.~
+@21 = ~Donc quelles que soient les richesses que tu désires, elles seront bien plus facile à obtenir.~
+@22 = ~Nous avons un marché. Allons trouver ton livre.~
+@23 = ~Non merci.~
+@24 = ~Hm, tu es malin toi.~ ~Hm, tu es maligne toi.~
+@25 = ~Malheureusement non, pas d'entourloupe. La magie qui camouflait la porte a diminué avec le temps, et la tombe devrait être juste à l'intérieur.~
+@26 = ~Mais pourquoi quelqu'un aurait-il besoin de dissimuler une porte par magie ? À moins que ce soit pour empêcher quelqu'un d'entrer... Ou quelque chose d'en sortir.~ 
+@27 = ~Très bien, allons-y alors.~
+@28 = ~Je ne le sens pas du tout. Ça ne m'intéresse pas.~
+@29 = ~C'est possible. Mais quoi qu'il y ait à l'interieur, c'est probablement mort depuis bien longtemps.~
+@30 = ~Je refuse de t'aider tant que tu ne me diras pas la vérité !~ 
+@31 = ~Je suppose que tu as raison. Finissons-en alors.~
+@32 = ~J'ai perdu l'envie de t'aider dans ta quête, il y a quelque chose qui cloche ici.~ 
+@33 = ~Tu as vraiment envie de savoir ?!~
+@34 = ~Et bien, désolée pour toi, mais il n'y a RIEN !~
+@35 = ~Maintenant, tu m'aides, ou pas, mais décide toi !~
+@36 = ~Je suppose que tu as raison. Finissons-en alors.~
+@37 = ~Non, je ne participerai pas.~
+@38 = ~File alors. Ne me fais pas perdre mon temps.~
+@39 = ~Excellent.~
+@40 = ~Je vois que tu es de retour. Vas-tu me faire perdre mon temps à nouveau ou as-tu changé d'avis ?~ [QI#MI037]
+@41 = ~Après avoir bien réfléchi, j'ai décidé de t'apporter mon aide.~ 
+@42 = ~Non, désolé.~ ~Non, désolée.~
+@43 = ~Écoute, je m'excuse pour mes paroles hâtives. Peux-tu m'aider ou non ?~
+
+@88888 = ~Un livre caché
+
+Une jeune femme elfe, du nom de Minyae, m'a proposé ses services si je l'aide à récupérer un grimoire. Sa requête semble relativement simple. Entrer dans une pièce, trouver le livre, le ramasser, s'en aller. Et c'est tout... N'est-ce pas ?~
+

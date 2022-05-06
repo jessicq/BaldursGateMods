@@ -1,0 +1,149 @@
+// Haer'Dalis
+@0 = ~Tu es très différente de ta jeune sœur, mon pinson. Cependant, je m'attendais à un peu plus de panache de ta part.~
+@1 = ~Pardon , mais qu'entends-tu par là ? Je ne suis pas une actrice comme toi, Haer'Dalis. Je suis quelqu'un de simple et mes désirs le sont tout autant.~
+@2 = ~Non, ce moineau ne parlait pas de ta piètre interprétation, mais il se posait des questions sur ton caractère. Ta sœur avait une personnalité très marquée, et le chaton ne craignait pas de clamer haut et fort son opinion.~
+@3 = ~Ça lui ressemble bien. Minyae n'a jamais aimé rester silencieuse. Quand nous étions enfant, c'était toujours elle qu'on entendait, toujours elle qui attirait l'attention. Elle était particulièrement douée à ce petit jeu. J'étais la plus vieille de nous deux, mais aussi la plus réservée et certainement pas la plus charmante. Alors, ça me convenait bien de la laisser parler.~
+@4 = ~Maintenant que le chaos et l'entropie l'ont engloutie, n'est-ce pas le moment pour toi de briller ? N'est-ce pas le moment de déployer tes ailes, de t'envoler dans les cieux, et de décrocher le premier rôle ?~
+@5 = ~Je préfère largement rester dans l'ombre de la scène. Le « premier rôle » ne m'intéresse absolument pas. Je suis bien à ma place, et je ne vois pas de raison d'en changer.~
+@6 = ~Tu ne devrais pas te contenter de si peu, mon cher pinson. Ta sœur cherchait à...~
+@7 = ~Je ne suis pas ma sœur.~
+
+// Anomen
+@8 = ~Vous avoir dans notre groupe plutôt que votre sœur est une bouffée d'air frais. Elle était belle, mais son cœur était perfide. J'espère que mes paroles ne vous offensent pas. Vos visages sont si semblables et pourtant, contrairement à elle, vous êtes pure et d'une grande bonté.~
+@9 = ~Il n'y a pas de mal, Sire Anomen.~
+@10 = ~Il n'y a pas de mal, Anomen.~
+@11 = ~Je te remercie pour cet aimable compliment, mais il ne fonctionnera pas sur moi. Les hommes ne m'intéressent pas en ce moment. Ma vie est très mouvementée, et je ne peux tout simplement pas me permettre d'entretenir une relation.~
+@12 = ~Vous vous trompez sur mes intentions, ma dame. J'admirais simplement votre beauté et voulais vous assurer que mon soutien vous est acquis, si jamais vous en ressentez le besoin. Je comprends que vous êtes en partie responsable de la mort de votre sœur bien aimée. Elle était malfaisante, vous ne devriez pas laisser ce sentiment vous ronger même si vos décisions vous rendent triste.~
+@13 = ~Une nouvelle fois, je te remercie pour ton soutien, mais je n'en ai nullement besoin. Ma sœur est morte par ma faute, mais en même temps, elle s'est mise en danger de sa propre volonté dans sa quête d'immortalité.~
+@14 = ~Tu as cependant raison sur un point, sa mort me rend triste, mais quand c'est nécessaire, il faut agir pour le plus grand bien. Je ne peux me permettre de regarder en arrière, je dois aller de l'avant.~
+
+// Aerie
+@15 = ~To-toutes mes condoléances, Elaryn.~
+@16 = ~Ce n'est pas nécessaire, Aerie. Pour être tout à fait honnête, c'est moi qui devrais m'excuser. J'ai pris la vie d'une de tes amies, un membre du groupe, et je me suis substituée à elle.~
+@17 = ~N-non. Minyae n'était pas aussi bienveillante.~
+@18 = ~Ah, ça ne me surprend guère. Elle va probablement se retourner dans sa tombe, mais en son nom, je te demande pardon.~
+@19 = ~Et j'aimerais que tu saches qu'elle n'a pas toujours été ainsi. Ce n'était qu'une enfant à la curiosité maladive et comme on dit, la curiosité est un vilain défaut. Même si, je reconnais que c'est par ma faute qu'elle a emprunté ce chemin. Je n'aurais jamais dû la laisser.~
+
+// Edwin
+@20 = ~Un Sorcier Rouge dans ce groupe ? Je ne serais pas surprise que tu te sois acoquiné avec ma sœur. En fait, c'est bien possible que ta transformation en femme soit un subterfuge pour un complot de plus grande envergure. Donne-moi une bonne raison de ne pas te tuer.~
+@21 = ~Hein ? À propos de quoi est-ce que tu jacasses encore ? (Je pensais m'être débarrassé d'un problème, et voilà qu'un autre me tombe sur le dos !)~
+@22 = ~Ne fais pas l'idiot avec moi ! Rien ne m'empêche de te planter une flèche entre les deux yeux. Raconte-moi ce que tu sais à propos de la quête de ma sœur. Parle !~
+@23 = ~Tu oses exiger de ma personne ?! Ta simienne de sœur ne m'a rien raconté ! Elle a refusé de me dire quoi que ce soit à propos de sa maudite quête. En fait, personne ne savait rien de ses objectifs avant qu'on ne te rencontre. (Qu'est-ce que je ne ferais pas pour anéantir cette femelle...)~
+@24 = ~Elle aura au moins fait ça bien. Je n'ai pas de bonne raison de te tuer dans l'immédiat, mais ne me tente pas trop, Edwin.~
+@25 = ~Hmph. (Je préférais ta sœur...)~
+
+// Edwin
+@26 = ~Vas-tu enfin me rejoindre dans mon couchage ? (De toute manière, elle lui ressemble. Alors, quelle différence ?)~
+@27 = ~Quoi ?~
+@28 = ~Tu m'as très bien entendu femelle, à moins que ta tête sans cervelle n'ait reçu un peu trop de coup ?~
+@29 = ~Tu avais une relation avec ma sœur, et pourtant tu ne regrettes rien de ce qui est arrivé ? Quel genre monstre es-tu ?~
+@30 = ~Hmph. Ta sœur et moi avions un arrangement, je te fais l'immense honneur de le renouveler en ta faveur.~
+@31 = ~Tu es malade. Tu penses vraiment que je coucherais avec le jouet de ma défunte sœur ?~
+@32 = ~Tu penses probablement que tu nous es supérieur. Je la connaissais bien, à mon avis, c'est plutôt elle qui te manipulait. Tu te serais éperdument épris d'elle, et à cet instant, elle t'aurait jeté comme un vulgaire déchet.~
+@33 = ~Non, son cœur était peut-être noir, mais elle méritait mieux. Ça m'attriste qu'elle se soit donnée à un homme tel que toi. Et ça me dégoutte sans commune mesure que tu oses aborder ce sujet répugnant.~
+@34 = ~Comme tu voudras. (Elle rampera bientôt à mes pieds, tout comme sa sœur.)~
+
+// Edwin
+@35 = ~Je sais de quoi je parle en matière d'actes maléfiques, mais celui-là pourrait bien être le pire. Tuer sa propre sœur alors qu'on a l'option de la libérer ? Du jamais vu, sauf peut-être chez les comploteurs à Thay, mais nous ne sommes pas à Thay.~
+@36 = ~Je n'avais pas le choix. Si je l'avais laissée partir, qui sait quel mal elle aurait causé ? Tu ne comprends vraiment pas à quel point sa mort était inéluctable ? J'ai rendu service au monde entier, mais ne va pas croire que ma souffrance n'est pas réelle.~
+@37 = ~Je sais que je suis responsable de la mort de ma sœur. J'aimerais pouvoir revenir en arrière, mais ce n'est pas possible. J'ai fait ce qui était nécessaire, comme n'importe quelle autre personne sensée. J'ai agi pour le plus grand bien, il y a déjà bien assez de noirceur en ce monde.~
+@38 = ~Tu te trompes sur ta sœur. Tu ne sais rien si tu crois qu'elle n'était qu'une boule de destruction, seuls les simiens pensent ainsi. (De toute manière, elle ne pouvait pas détruire grand chose, elle était toute petite.)~
+@39 = ~Tu parles de ma sœur comme si tu la connaissais, comme si tu tenais à elle. Si c'est la vérité, si elle a appris l'affection et l'amour, alors peut-être que tout n'était pas perdu pour elle. Si c'est vraiment la vérité, alors j'ai peur de lui avoir causé un tort irréparable. Peut-être que j'aurais dû lui laisser une chance...~
+@40 = ~Et pourtant tu ne l'as pas fait, tu l'as ASSASSINÉE. Son corps pourrit six pieds sous terre, pendant que les asticots et les vers s'en repaissent ! (Un si beau corps gâché...)~
+@41 = ~Je ne voulais pas...~
+@42 = ~Des excuses.~
+
+// Jan
+@43 = ~Je te comprends Ela. J'espère que ça ne te dérange pas si je t'appelle Ela. J'ai eu une grande grande grande grande grande tante qui s'appelait Ela. C'est un joli nom, il te va bien. Pour en revenir à ce que je disais, un membre de ma famille a perdu sa sœur un jour. Si je me rappelle bien, les deux sœurs se disputaient violemment. Au plus fort de leur colère, elles ont commencé à se jeter de la vaisselle et des chaises, jusqu'à ce qu'un couteau traverse la pièce. Pile dans l'œil !~
+@44 = ~Je ne pense pas que ma situation soit très similaire Jan, mais merci pour la tentative de réconfort.~
+@45 = ~Je fais de mon mieux, si ça peut t'aider. Tiens, prends donc un échantillon de mon célèbre baume à lèvres au navet. Si il y a bien une chose qu'elle aimait, en dehors de brimer les autres et d'ignorer mes histoires, c'est ça. Je pense qu'elle aurait voulu que tu le prennes.~
+@46 = ~Je... Merci.~
+@47 = ~Y a pas de quoi.~
+
+// Nalia
+@48 = ~Je trouve que tu fais un bien fou autour de toi, Nalia. Tout ce temps que tu passes avec les pauvres et les moins fortunés, ça fait vraiment plaisir à voir.~
+@49 = ~Votre sœur n'était pas du même avis.~
+@50 = ~Nous avons toujours eu des opinons diamétralement opposées.~
+@51 = ~Si plus de gens suivaient ton exemple quand Minyae et moi étions enfants, tout aurait été si différent. Peut-être qu'elle serait toujours en vie... En fait, je sais qu'elle serait toujours en vie. Ta bonté est infinie et je voudrais te remercier de la part de tous ceux à qui tu as donné un peu de ton temps et une partie de ta richesse.~
+@52 = ~Merci pour ces paroles. Il est bon de savoir que tu approuves, c'est une vraie source d'inspiration pour moi. Peut-être que je pourrai empêcher qu'une tragédie similaire à celle de ta sœur ne se produise dans le futur.~
+@53 = ~Oui, peut-être.~
+
+// Jaheira
+@54 = ~Tu ne devrais pas dissimuler ta douleur ainsi. J'ai moi aussi récemment perdu mon mari, mon bien aimé Khalid.~
+@55 = ~Oui, je suis au courant pour ton mari. Je te présente mes condoléances les plus sincères, et je te remercie pour ta gentillesse.~
+@56 = ~Personne ne devrait affronter une telle souffrance seul. <CHARNAME> est toujours là pour moi et je lui en suis immensément reconnaissante.~
+@57 = ~Tu peux avoir confiance en lui.~ ~Tu peux avoir confiance en elle.~
+@58 = ~Ce n'est pas un problème de confiance. J'ai juste besoin d'un peu de temps seule.~
+@59 = ~Je n'oublierai pas ta sympathie, et je t'en suis reconnaissante.~
+
+// Minsc
+@60 = ~Bouh et Minsc sont désolés pour ta sœur. C'est dur de perdre sa famille.~
+@61 = ~Merci à tous les deux, Minsc et Bouh.~
+@62 = ~Ne te fais pas de souci Elaryn. Ne sois pas triste. Avec <CHARNAME>, nous avons beaucoup de coups de pied à distribuer. Bientôt, ta botte trouvera son chemin vers les fesses du mal.~
+@63 = ~J'attends ça avec impatience.~
+
+// Imoen
+@64 = ~Ce n'est jamais simple de faire face à la mort d'un membre de sa famille, ça ne le sera jamais.~
+@65 = ~Je n'ai jamais pensé que ça serait simple, je m'attendais à ce que les événements se déroulent ainsi.~
+@66 = ~Tu as fait ce qu'il fallait, personne ne peut te reprocher les mauvaises actions de ta sœur. Devenir immortel n'est pas quelque chose à prendre à la légère, ta sœur est malheureusement allée trop loin dans sa quête.~
+@67 = ~Tu as raison. Elle est allée trop loin, mais je ne peux mettre de côté que c'est ma sœur malgré tout. Je sais que j'aurais pu faire quelque chose pour elle, peut-être pas à ce moment là, mais quand nous étions plus jeunes.~
+@68 = ~Tu ne peux pas continuer à t'en vouloir pour les erreurs du passé. Tu dois te rendre compte qu'elle a fait ses propre choix.~
+@69 = ~Il y a une grande sagesse dans tes paroles, Imoen. Tu as évidemment raison.~
+@70 = ~Je suis là pour toi si tu as besoin de quoi que ce soit. Rappelle-toi que tu n'es jamais seule, d'accord ?~
+@71 = ~Oui, bien sûr.~
+
+// Viconia
+@72 = ~Tes tentatives pathétiques pour étouffer tes pleurs la nuit me donnent la nausée. Ta sœur se serait débarrassée de toi si tu ne l'avais pas tuée la première.~
+@73 = ~Je crois que tu as mal entendu Viconia. C'était les hurlements de ton peuple agonisant dans ma tente. Qu'est-ce que je les déteste ces elfes noirs.~
+@74 = ~Ah ! Tu penses me berner avec un mensonge aussi minable ?~
+@75 = ~Sale iblith ! Tu es faible ! Ta sœur avait du cran elle au moins, les rôles auraient dû être inversés. C'est toi qui aurait dû mourir à sa place.~
+@76 = ~Peut-être.~
+
+// Keldorn
+@77 = ~C'est un plaisir de voir une force du bien rejoindre notre groupe et remplacer une force du mal.~
+@78 = ~Je suis sûre que tu apprécies, mais ça ne justifie pas la mort de mon unique sœur pour autant.~
+@79 = ~Elle avait le cœur sombre, Elaryn. La mort d'un membre de sa famille est toujours tragique, mais Minyae a défié la loi et s'est ouvertement dressée contre ce qui était juste. Elle a choisi ce chemin qui l'a menée à sa perte.~
+@80 = ~Tu dois comprendre qu'elle n'a pas toujours été ainsi. Elle avait bon cœur avant, je pense qu'elle ne l'a jamais complètement perdu. Elle avait besoin d'un guide, un rôle dans lequel j'ai échoué.~
+@81 = ~Vous ne pouvez vous reprocher les actions de quelqu'un d'autre. Vous avez choisi le chemin de la vertu, elle l'a rejeté. C'est aussi simple que ça.~
+@82 = ~N'est-ce pas un peu réducteur ? Peux-tu lui reprocher toutes ces décisions ? Parfois, on cherche à survivre quel qu'en soit le prix.~ 
+@83 = ~Nous ne pouvions compter que l'une sur l'autre la majeure partie de notre enfance. Étant orphelines, nous avons dû nous débrouiller seules et faire ce qu'il fallait pour nous procurer le minimum nécessaire à notre survis, Keldorn, même si pour ça nous avons dû enfreindre la loi.~
+@84 = ~Et pourtant, malgré les épreuves que vous avez traversées en grandissant, vous avez réussi à vous détourner du chemin que votre sœur a emprunté. Vous êtes restée vertueuse et avez continué à faire le bien. Même si vous avez péché dans le passé, vos crimes ont été payés au centuple.~
+@85 = ~Tu ne sais pas de quoi tu parles.~
+
+// Cernd
+@86 = ~Le cycle de la vie suis toujours son cours, ainsi va la nature, Elaryn. Quoi que l'on fasse, notre mort est inévitable. Ta sœur retournera à la terre, comme nous tous.~
+@87 = ~Oui Cernd, tu as raison. Elle va se réincarner en arbre, c'est ça ?~
+@88 = ~Je crois sentir une pointe de sarcasme dans tes propos. Tu es une rôdeuse, n'est-ce pas ?~
+@89 = ~En effet, je suis une rôdeuse, pas une druidesse. Je ne fais qu'un avec la nature et les créatures qui la peuplent, mais je ne suis pour autant pas aussi spirituelle que toi, et je préférerais ne pas imaginer ma sœur réincarnée en arbre dans sa prochaine vie.~
+@90 = ~J'aurais pensé que nous nous entendrions bien. Il était peu probable que ta sœur et moi partagions des centres d'intérêt, mais toi ? Nous nous ressemblons plus que tu ne crois.~
+@91 = ~Je comprends pourquoi ma sœur était si grossière avec ceux de ton espèce. Nos professions sont peut-être similaires, mais je ne souhaite pas discuter plus longtemps avec toi.~
+@92 = ~Merci pour la tentative de réconfort, mais ça n'a pas été très efficace.~
+
+// Mazzy
+@93 = ~Tu as tout mon respect, Mazzy. Tu ne peux porter le titre de paladin, et pourtant tes paroles et tes actes en sont dignes.~
+@94 = ~Je vous remercie, ma dame. Vos paroles m'honorent.~
+@95 = ~C'est toi qui m'honore en te battant à mes côtés.~
+@96 = ~Je sens que vous êtes bouleversée. Parlez, ma dame. Je vous aiderai de tout mon possible.~
+@97 = ~Je ne souhaite pas t'accabler avec mes problèmes. Peut-être un autre jour.~
+
+// Korgan
+@98 = ~T'as la même tête que ta p'tite sœur. P't-être un peu plus vieille ! Ah !~
+@99 = ~Je sens que ma sœur ne t'aimait pas beaucoup.~
+@100 = ~HA HA !~
+@101 = ~La fillette elfe veut tâter de ma grosse hache comme sa sœur ?~
+@102 = ~Je n'ai besoin que d'une flèche pour mettre fin à ta pathétique vie.~
+@103 = ~Alors on va se battre fillette !~
+@104 = ~Non, je refuse. Je n'ai pas l'intention de semer le chaos dans ce groupe.~
+@105 = ~Bah ! Quelle déception.~
+
+// Valygar
+@106 = ~Tu as perdu ta famille, toi aussi. J'ai entendu parler des Corthala, ainsi que de ta situation désespérée avec les Mages cagoulés.~
+@107 = ~Et alors ?~
+@108 = ~Je comprends ta douleur. Tu es l'unique survivant, tout comme moi. Nous sommes les derniers de notre lignée.~
+@109 = ~Trouvez-vous vraiment du réconfort dans ce minuscule point commun que nous partageons ?~
+@110 = ~Non, bien sûr que non. Je faisais simplement remarquer que...~
+@111 = ~Vous n'avez pas besoin de continuer. Je devine ce que vous allez dire, ne gaspillez pas votre salive.~
+@112 = ~Je n'ai pas réfl...~
+@113 = ~Oui, vous ne réfléchissez pas. En tout cas pas assez mûrement.~
+@114 = ~Vous devez me pardonner la sévérité de mes propos... Mais je ne pense pas que vous puissiez me dire quoi que ce soit de réconfortant. Ça ne fera pas revenir ma famille, et ça ne fera pas table rase de mon passé.~
+@115 = ~Oui, je ne le comprends que trop bien. Quoi que les gens en disent, personne ne fera revenir ma sœur. Sinon, j'aurais déjà essayé.~

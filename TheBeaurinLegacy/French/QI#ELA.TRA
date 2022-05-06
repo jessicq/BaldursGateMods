@@ -1,0 +1,26 @@
+// Participation vs Minyae
+@0 = ~Je te remercie pour ton aide étranger. Je sais qu'il a dû être douloureux de tuer un de tes compagnons, mais tu as fait le bon choix.~ ~Je te remercie pour ton aide étrangère. Je sais qu'il a dû être douloureux de tuer un de tes compagnons, mais tu as fait le bon choix.~
+@1 = ~C'était très dur, oui. Maintenant, peut-on parler de mon paiement ?~ 
+@2 = ~Je n'en suis pas si sûr. J'espère avoir agi pour le mieux...~ ~Je n'en suis pas si sure. J'espère avoir agi pour le mieux...~
+@3 = ~Je n'éprouve aucune pitié. J'ai fait ce qui était nécessaire.~
+@4 = ~À propos de ta récompense...~
+@5 = ~Je vois en toi une puissance redoutable ainsi que des intentions pures et honorables.~
+@6 = ~Je t'ai pris un compagnon de voyage. Permets-moi de la remplacer. C'est le moins que je puisse faire.~
+@7 = ~Je n'ai peut-être pas les compétences arcaniques de ma sœur ou son « talent » pour subtiliser des bibelots, pour le dire gentiment. Mais j'excelle dans d'autres domaines, avec un arc et des flèches par exemple.~
+@8 = ~Je peux t'aider. Je prendrai la place de ma sœur. Laisse-moi voyager avec toi.~
+@9 = ~C'est une excellente idée. Je serais honoré de t'avoir dans mon groupe.~ ~C'est une excellente idée. Je serais honorée de t'avoir dans mon groupe.~ 
+@10 = ~J'espère que tu me serviras mieux que ta sœur.~ 
+@11 = ~Toi ? Je ne veux pas de toi dans mon groupe. Ta sœur était inutile et j'ai bien l'impression que tu ne vaux pas mieux.~ 
+@12 = ~Je te remercie pour ta proposition et je t'en suis reconnaissant. Mais je vais devoir refuser.~ ~Je te remercie pour ta proposition et je t'en suis reconnaissante. Mais je vais devoir refuser.~ 
+@13 = ~Merci d'accepter mon aide. Je vais racheter l'absence de ma sœur au centuple.~
+@14 = ~Je suis persuadée que ma sœur était à la hauteur. Ce sera dur de l'égaler mais je ferai de mon mieux.~
+@15 = ~Tu es aveugle si tu ne vois pas à quel point je peux t'être utile, mais si tu n'as pas besoin de mon aide, il est temps que je prenne congé.~
+@16 = ~Tiens, voilà de quoi soulager ta douleur.~
+@17 = ~Je peux t'assurer que c'est le cas. Il n'est jamais facile de voir un proche perdre la vie.~
+@18 = ~...Ce n'est pas facile pour moi, ça au moins je le sais. Mais passons.~
+@19 = ~Tu es impitoyable, même si tu dois penser que c'est hypocrite de ma part de te juger ainsi. J'ai en effet joué un rôle dans la mort de ma sœur. Mais passons.~
+
+// Non participation, Elaryn a gagné le duel
+@20 = ~Je te remercie de m'avoir laissé m'en charger. Je le regrette, mais c'était nécessaire.~
+@21 = ~Je ne te dérangerai pas plus longtemps, espérons que nos chemins ne se recroisent pas.~
+

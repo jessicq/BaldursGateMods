@@ -1,0 +1,50 @@
+// Neera
+@0 = ~Je n'ai jamais rencontré une magicienne incapable de contrôler ses pouvoirs.~
+@1 = ~Et je n'ai jamais rencontré une elfe rôdeuse et vertueuse qui avait une sœur maléfique. Maintenant que j'y pense, c'est carrément le vieux dilemme de l'inné sur l'acquis. Tu en as sûrement déjà entendu parler, non ?~
+@2 = ~Oui, en effet. Je suppose que tu n'as pas tort.~
+@3 = ~Et un point pour l'acquis !~
+
+// Dorn
+@4 = ~Ce qu'il y a de bien avec toi c'est que tu es bien moins bavarde que ta sœur.~
+@5 = ~Je suis sûre qu'elle avait davantage à vous offrir que de simples bravades et autres opinions personnelles.~
+@6 = ~Elle l'ouvrait beaucoup trop, nous l'avons réduite définitivement au silence et c'est tant mieux.~
+@7 = ~Surveille tes paroles. Nous avons peut-être suivi des chemins différents, mais elle... elle reste ma sœur. C'est toi que je vais réduire au silence.~
+@8 = ~Ne me dis pas que tu es une de ces elfes gentillets.~
+@9 = ~Je pensais avoir été claire, je suis une elfe « gentillette ».~
+@10 = ~Je retire ce que j'ai dit. Ta sœur convenait bien mieux à ce groupe.~
+
+// Rasaad
+@11 = ~Tu es un moine. Ma sœur n'a jamais beaucoup apprécié les dévots.~
+@12 = ~Non, en effet.~
+@13 = ~Je m'excuse pour tout le mal qu'elle a pu te causer.~
+@14 = ~Ce n'est pas nécessaire, ce n'était pas ta faute.~
+@15 = ~C'est pourtant tout comme.~
+
+// Hexxat
+@16 = ~Je suppose que tu as les mêmes croyances et préjugés que ta sœur ?~
+@17 = ~Ça dépend, de quoi parlons-nous exactement ?~
+@18 = ~De moi-même.~
+@19 = ~Ne te mets pas en travers de ma route, et nous n'aurons pas de problèmes.~
+@20 = ~C'est donc un oui.~
+
+// Hexxat
+@21 = ~Laisse tes mains en évidence, Hexxat.~
+@22 = ~Si je te voulais du mal, Elaryn, tu le saurais depuis longtemps.~
+@23 = ~Quoi qu'il en soit, je ne te fais pas confiance et je ne comprends pas pourquoi <CHARNAME> t'accorde la sienne.~
+@24 = ~Et je comprends encore moins qu'il tienne a une créature de ton espèce.~ ~Et je comprends encore moins qu'elle tienne a une créature de ton espèce.~ // Si romance
+
+// Rasaad romance
+@25 = ~Vous faites vraiment plaisir à voir, toi et <CHARNAME>.~
+@26 = ~C'est une vraie source de bonté et un phare qui me guide quand je traverse des moments difficiles.~
+@27 = ~Parfois, l'amour nous tombe dessus dans les moments les plus inattendus.~ 
+
+// Dorn
+@28 = ~Éloigne-toi de moi, demi-orque. Ta puanteur maléfique me donne la nausée.~
+@29 = ~Je m'éloigne si je veux, elfe. Tu n'as rien à exiger de moi.~
+@30 = ~Je ne comprendrai jamais comment <CHARNAME> tolère ta présence.~
+@31 = ~Et encore moins comment il peut t'aimer.~ ~Et encore moins comment elle peut t'aimer.~ // Si romance
+
+// Neera romance
+@32 = ~Vous faites vraiment plaisir à voir, toi et <CHARNAME>.~
+@33 = ~Oh ça alors, merci.~
+@34 = ~Parfois, l'amour nous tombe dessus dans les moments les plus inattendus.~

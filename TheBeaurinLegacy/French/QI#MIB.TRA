@@ -1,0 +1,588 @@
+// Haer'Dalis
+@0 = ~Je suppose que tu n'as pas encore exploité tout ton potentiel, Haer'Dalis ?~ [QI#Mi146]
+@1 = ~Je l'ai exploité bien plus que tu ne le crois, mon chaton.~
+@2 = ~Vraiment ?~
+@3 = ~Si seulement tu te laissais emporter par mes mélodies, tu verrais clairement ce dont je parle.~
+@4 = ~...Je vais aussi supposer que tu n'utilises pas tes capacités démoniaques, tu ne voyagerais pas avec <CHARNAME> sinon.~
+@5 = ~Et pourquoi pas ? <CHARNAME> est à l'origine des aventures les plus fantastiques et nombres d'entre elles n'ont pas encore été racontées ! N'es-tu pas avec nous pour en faire partie toi aussi ? Mais peut-être nous accompagnes-tu pour la renommée et la gloire uniquement ?~
+@6 = ~J'ai mes propres raisons d'être ici. La renommée, la gloire, et les avantages qui vont avec, viendront en temps voulu.~
+@7 = ~Alors j'attendrai impatiemment les ballades qui chanteront tes exploits, mon chaton.~
+
+// Anomen
+@8 = ~Pour une demoiselle d'une si grande beauté, vous avez un cœur bien perfide.~
+@9 = ~Et bien merci, Anomen. je n'aurais pas dit mieux moi-même.~ [QI#Mi147]
+@10 = ~Ce n'était pas un compliment, Minyae. J'ai entendu vos médisances, vous méprisez les autres, en particulier ceux que vous estimez inférieurs. Vous n'êtes en aucun cas une bonne personne.~
+@11 = ~Quelle importance ? Je suis clairement meilleure que l'immense majorité des habitants de Toril. Je serais même tentée de dire que je suis au sommet des plans.~
+@12 = ~Votre fierté sera votre perte. Notre rôle est de servir autrui, même dans les bas-quartiers corrompus d'Athkatla, nous devons rétablir l'ordre et la justice.~
+@13 = ~Rétablir la justice ? As-tu seulement conscience de ce que tu viens de dire ? Je ne saurais même pas par où commencer pour t'expliquer ce qu'il se passe vraiment dans ces cités. J'ai entendu et vu des choses qui te feraient froid dans le dos Anomen.~
+@14 = ~Vous êtes tous des hypocrites.~
+
+// Aerie
+@15 = ~Pourquoi <CHARNAME> te garde auprès de lui. Je n'en ai pas la moindre idée.~ ~Pourquoi <CHARNAME> te garde auprès d'elle. Je n'en ai pas la moindre idée.~ [QI#Mi148]
+@16 = ~Pa-parlez-vous de moi ?~
+@17 = ~Ah ! Tu es si pitoyable que tu n'arrives même pas à aligner cinq mots ! C'est tout simplement abrutissant de t'entendre parler. Tu me fatigues déjà !~
+@18 = ~Ce sont des mots très blessants, Minyae. Je-je ne comprends vraiment pas pourquoi je mérite votre colère. Si vous aviez enduré ce que j'ai enduré, vo-vous comprendriez !~
+@19 = ~Et que sais-tu des épreuves que j'ai traversé au cours de ma vie ? Que peux-tu bien savoir à propos de moi ?~
+@20 = ~Je vois que vous êtes une femme brisée, brûlant d'un désir ardent d'être comme tous les autres. Vo-vous n'avez pas besoin d'être si cruelle. Je vous en prie.~
+@21 = ~Non seulement tes paroles sont ridicules, mais tu n'es clairement pas assez perceptive pour te rendre compte que jamais je n'ai été brisée !~
+@22 = ~Pourquoi est-ce que je gaspille ma salive avec des gens de ton envergure ? Aucune idée, mais je sais que tu es à des lieues de la vérité, Aerie.~
+
+// Jan
+@23 = ~Je vois que tu as des rougeurs sur le bras, Minyae.~
+@24 = ~Et alors ?~ [QI#Mi149]
+@25 = ~Permet moi de te donner cette pommade à base de navets. Je tiens cette recette de ma grande-grande-grande-grande tante du côté de ma mère. Je suis sûr qu'elle te sera utile.~
+@26 = ~Hmph. Merci.~
+
+// Nalia
+@27 = ~Tu dois te considérer comme une si bonne personne, n'est-ce pas ?~ [QI#Mi150]
+@28 = ~Et bien, je ne dirais pas ça. Je fais juste ce que je peux pour aider les pauvres et ceux dans le besoin.~
+@29 = ~Tu donnes l'aumône.~
+@30 = ~Quoi ? Non, je...~
+@31 = ~Comprends bien ça, Nalia - plus tu leur donnes, plus ils te prendront. Tu gaspilles ton temps et ton argent.~
+@32 = ~Rien n'est gaspillé, Minyae. Chaque pièce est utilisée à bon escient, que ce soit pour acheter de la nourriture ou des vêtements. Je fais beaucoup de bien de cette manière.~
+@33 = ~C'est ça que tu te racontes quand tu t'endors dans ton grand lit chaud et confortable ? Je ne comprends pas pourquoi tu salis tes vêtements en leur compagnie. T'es tu au moins demandé comment ils s'étaient retrouvé dans une telle situation ?~
+@34 = ~Tout le monde peut se retrouver en difficulté. Pourquoi n'avez-vous aucune sympathie envers ces gens ? Ils ne vous ont rien fait de mal.~
+@35 = ~Il n'y a pas besoin de me faire du mal pour m'agacer.~
+
+// Minsc
+@36 = ~Bouh et moi pensions...~
+@37 = ~Je ne m'étais jamais rendu compte que vous deux étiez capable d'une tâche si éprouvante.~ [QI#Mi151]
+@38 = ~Ah ! Nous savons à quel petit jeu tu joues. Tu essaies de nous rendre fou pour voir notre vrai potentiel ! Tout comme <CHARNAME> dans le donjon d'Irenicus.~
+@39 = ~Non seulement tu es lent d'esprit, mais tu accordes aussi ton respect bien trop rapidement. Assez de ce bavardage des plus ennuyeux. Il n'y a rien à gagner à parler à des gens de ton niveau.~
+
+// Anomen
+@40 = ~Pourquoi suivez-vous un tel chemin, Minyae ?~
+@41 = ~Je choisis ma propre voie. Tout comme tu choisis la tienne.~ [QI#Mi152]
+@42 = ~Oui effectivement. Mais mon but est noble, alors que le votre n'est pas pour les âmes sensibles.~
+@43 = ~Est-ce que je t'effraie ?~
+@44 = ~Je n'ai peur de personne.~
+@45 = ~Alors pourquoi me fixes-tu à la nuit tombée ? Je peux sentir ton regard posé sur moi alors que je me retire dans ma tente. C'est soit de la prudence, soit du désir, mais je pencherais plutôt pour la première option.~
+@46 = ~On n'est jamais trop prudent avec ceux qui combattent à nos côtés, particulièrement ceux ayant vos aspirations.~
+@47 = ~Tu as peur que je trahisse le groupe ? Tu es fou, si c'était mon intention, je vous aurais déjà tranché la gorge au milieu de la nuit.~
+@48 = ~Oui, et c'est bien pour ça que la prudence est de mise.~
+
+// Haer'Dalis
+@49 = ~Pourquoi cet air morose mon chaton sournois ?~
+@50 = ~Parce que je ne suis pas un félin.~
+@51 = ~Si ce n'est que ça, il te suffit de demander.~
+@52 = ~Mais est-ce vraiment si simple, Haer'Dalis?~
+@53 = ~Oui, des fois, le plus simple est de demander.~
+
+// Jan
+@54 = ~Raconte moi ce que t'ont enseigné tes ancêtres, gnome.~ [QI#Mi153]
+@55 = ~J'ai un nom tu sais.~
+@56 = ~Les noms. Quelle importance ?~
+@57 = ~Je ne te raconterai aucun de mes secrets tant que tu ne m'appelleras pas par mon nom.~
+@58 = ~Alors je n'ai rien à te dire.~
+@59 = ~Oh allez. Dis mon nom !~
+@60 = ~Non.~
+@61 = ~Arrête ! Très bien... Jan.~
+@62 = ~Je suis si fier de toi !~
+
+// Imoen + Jaheira
+@63 = ~Qu'as-tu appris pendant le temps que tu as passé avec Irenicus ?~ [QI#Mi154]
+@64 = ~Pourquoi penses-tu que j'ai appris quoi que ce soit dans cet endroit horrible ?~
+@65 = ~D'après ce que j'ai pu recueillir de mon côté, Irenicus est un mage puissant, extrêmement dangereux. Mais tu as passé bien plus de temps en sa compagnie que <CHARNAME>. Tu as certainement pu en tirer davantage d'informations.~
+@66 = ~Tu as raison, Irenicus est un mage puissant et extrêmement dangereux. Pourquoi aurais-je voulu en savoir davantage à son sujet ?~
+@67 = ~Avec <CHARNAME>, il nous a torturé encore et encore jusqu'à ce que nous perdions connaissance. Et d'ailleurs même si j'avais pu apprendre quoi que ce soit de lui, pourquoi penses-tu que je t'en parlerais ?~
+@68 = ~Tu dois apprendre à rester à ta place Minyae ! Il y a des blessures qui ne doivent pas être ravivées.~
+@69 = ~Comme la perte de ton mari Khalid ? Ah oui, en effet, je perçois ta colère maintenant. Passe à autre chose, Jaheira. Il ne reviendra pas et même s'il pouvait, en valait-il vraiment la peine ? J'ai cru comprendre qu'il était particulièrement faible et...~
+@70 = ~Prépare tes sortilèges, sorcière. Tu as besoin d'une bonne leçon.~
+@71 = ~Par pitié toutes les deux ! Je vous en conjure, arrêtez. Vous battre à ce sujet ne nous apportera rien et n'aidera aucune d'entre nous. Minyae, sache qu'aucune connaissance ne vaut la douleur et la peine qu'Irenicus nous a infligé.~
+@72 = ~Je vois que tu es restée une enfant naïve qui ne comprend pas que pour obtenir un immense savoir, il faut être prêt à souffrir.~
+@73 = ~Mais je vois aussi que tu n'as plus envie d'en parler. En temps voulu, tu me raconteras tout.~
+
+// Korgan
+@74 = ~Attention à comment t'me regardes Minyae.~
+@75 = ~Hein ? Désolé, je n'ai pas pu m'empêcher de remarquer à quel point ta hache était grande comparée à ta taille.~ [QI#Mi155]
+@76 = ~Surveille ta bouche fillette.~
+@77 = ~Oh je ne te voulais aucun mal avec ma petit remarque. C'était une simple observation. Ne t'arrive t-il jamais de dire ce qu'il te passe par la tête, nain ? Je suis certaine que oui.~
+@78 = ~J'aurais aucun problème à dormir c'soir si j'te tranchais en deux, elfe.~
+@79 = ~Mais si tu « m'tranchais en deux », qui désarmerait tous les pièges et déverrouillerait tous les coffres qui renferment toutes les bonnes choses ?~
+@80 = ~Pas toi j'imagine. Je te vois bien tenter de forcer une serrure et échouer lamentablement. Tu réduirais en poussière le contenu du coffre, et tout le monde serait mécontent, <CHARNAME> en particulier. Mais j'ai l'impression que les désirs de <CHARNAME> t'importent peu, tu n'es là que pour l'or.~
+@81 = ~Ouais fillette, t'as pas tort. Des richesses, des femmes, c'est tout c'dont j'ai besoin !~
+
+// Anomen CN
+@82 = ~Regardez-moi ça. Tellement sauvage, tellement... délicieux.~ [QI#Mi156]
+@83 = ~Écartez-vous, femme !~
+@84 = ~Et tellement exigeant. J'apprécie ce nouvel Anomen Delryn.~
+@85 = ~Je n'ai que faire de votre appréciation. Je n'ai besoin de rien, ni de vous ni de personne !~
+@86 = ~Tu t'exprimes comme un dément. Je ne faisais que donner mon opinion.~
+@87 = ~Mais je sais quand j'ai dépassé les bornes et risque d'être brutalement assassinée. Je te laisse te morfondre.~
+
+// Anomen LG
+@88 = ~Regardez-moi ça. Quelle arrogance, quelle suffisance.~ [QI#Mi157]
+@89 = ~Rien de tout ça, je suis immensément reconnaissant de m'être vu conférer un tel honneur.~
+@90 = ~L'honneur de protéger les faibles et les malades ? Merveilleux. Je préférerais encore me jeter d'une falaise et m'empaler sur des pieux dans une mer déchaînée.~
+@91 = ~Minyae, je pense que nous devrions discuter de vos pensées et opinions. Elles sont déplacées.~
+@92 = ~Qui crois-tu être pour me dire ce que je dois penser ou non ? Tu te considères au dessus des autres maintenant ? Un chevalier n'est qu'accablé de devoirs inutiles, tu aurais mieux fait d'échouer ton test.~
+@93 = ~Tu aurais au moins été libre.~
+
+// Valygar
+@94 = ~Tu n'es pas très bavard hein ?~ [QI#Mi158]
+@95 = ~Je n'aime pas les magiciens.~
+@96 = ~Je ne suis pas une simple magicienne, imbécile.~
+@97 = ~Je n'aime pas les voleurs non plus.~
+@98 = ~Très bien.~ 
+
+// Jaheira
+@99 = ~Je veux l'entendre de ta bouche, Jaheira.~ [QI#Mi159]
+@100 = ~Qu'es-tu en train de jacasser ?~ 
+@101 = ~Je n'ai pas pu m'empêcher d'entendre le nom « Irenicus » dans une de vos conversations. Qu'as-tu ressenti dans son donjon ?~
+@102 = ~Tu parles comme si avoir été capturé par un fou furieux était un honneur.~
+@103 = ~Oh non, bien sur que non. Il n'est jamais très plaisant d'être torturé, mais c'est parfois nécessaire.~
+@104 = ~Cette discussion me fatigue Minyae. Tu ne sais rien d'Irenicus, et si j'étais toi, je n'essaierais pas de le comprendre.~
+
+// Viconia
+@105 = ~Avant que tu ne m'adresses la parole Viconia. Laisse-moi répondre à la question qui te brûle les lèvres.~ [QI#Mi160]
+@106 = ~Iblith. Ne vois-tu pas que je n'ai aucune envie de parler ? Surtout à une ordure de la surface telle que toi.~
+@107 = ~Oh mais tu vas m'écouter elfe noire !~
+@108 = ~Je ne suis pas faible comme tous ceux de mon espèce. Je désire le pouvoir et rien de plus, nous nous ressemblons toi et moi. C'est tout ce que j'avais à te dire.~
+
+// Yoshimo
+@109 = ~Je suis curieux de tes origines. Je n'ai pas encore réussi à les déterminer.~
+@110 = ~Bien que j'aimerais moi aussi connaître cette information, je n'en ai aucune idée.~ [QI#Mi161]
+@111 = ~Cependant, je pense être le mélange de deux races d'elfes.~
+@112 = ~Yoshimo est désolé de l'apprendre.~
+@113 = ~Je n'ai que faire de ta compassion. Tu as posé une question simple et j'y ai répondu simplement.~
+
+// Keldorn
+@114 = ~Bien, bien. Qu'avons-nous là ? Un paladin, à ce que je vois.~ [QI#Mi162]
+@115 = ~Ah, je suis heureux que vous le remarquiez. Mais vous devriez aussi vous rendre compte que je n'ai aucune envie de vous parler.~
+@116 = ~Vraiment ? Mais pourquoi une telle véhémence envers une frêle jeune fille ? Qu'ai-je bien pu faire pour mériter ton courroux ?~
+@117 = ~Ce que vous avez bien pu faire ?! Vous êtes un mal qui doit être...~
+@118 = ~D'accord ! Je vois où cela nous mène, et je tiens à garder ma tête. Tu gagnes paladin... pour cette fois.~
+
+// Cernd
+@119 = ~Qu'est-ce que cette terre a fait pour toi ?~ [QI#Mi163]
+@120 = ~Il n'est pas question de ce que cette terre a fait pour moi, mais de ce que je peux faire pour elle.~
+@121 = ~Tu n'as pas répondu à ma question.~
+@122 = ~Cette terre nous donne la vie Minyae. Que peut-on dire de plus ? Tu es une elfe n'est-ce pas ? Ton peuple...~
+@123 = ~Mon peuple ?!~
+@124 = ~Tu pars du principe que nous sommes tous des amoureux de la nature. Bah !~
+@125 = ~Nous ne sommes pas tous faibles, certains d'entre nous comprennent la signification du pouvoir ! Ce n'est clairement pas ton cas.~
+
+// Anomen + Edwin
+@126 = ~Tu sembles fatigué, Anomen. Pourquoi ne t'allongerais-tu pas, que je masse ton dos endolori ?~ [QI#Mi164]
+@127 = ~Cela semble très agréable, mais je ne me laisserai pas abuser par vos intentions maléfiques. Que me voulez-vous ?~
+@128 = ~Oh allez, Anomen. Mon cœur n'est pas aussi noir que tu le penses.~
+@129 = ~Tu as cependant raison. J'ai une demande à te faire, rassure-toi, elle est plutôt triviale. Veux-tu bien m'écouter ?~
+@130 = ~Je n'ai pas de raison de refuser. Parlez mais soyez brève.~
+@131 = ~Bien sûr, je ne gaspillerai pas une minute de ton temps si précieux.~
+@132 = ~Tu vas me trouver stupide, ou même ingénue, mais je n'ai encore jamais pu caresser les cicatrices d'un guerrier, d'un vrai mâle.~
+@133 = ~Laisse mes mains courir sur ton large et puissant torse...~
+@134 = ~Utiliser tes charmes sur un pathétique chevalier déchu ? J'avais une meilleure estime de toi (très légèrement meilleure).~
+@135 = ~Ah ! Et moi qui croyait que vous réclameriez mon sang pour quelque rituel dément que vous auriez inventé, mais ça ?~
+@136 = ~Une requête si simple d'une femme si belle... je vais certainement y prendre du plaisir.~
+
+// Minsc
+@137 = ~À quoi sert cet horrible rat ?~ [QI#Mi165]
+@138 = ~Un rat ? Non, non, non. Bouh est un hamster géant de l'espace miniature !~
+@139 = ~Pourquoi ai-je pris la peine de demander... ?~
+
+// Imoen
+@140 = ~Pourquoi es-tu tellement intéressée par ce que j'ai appris d'Irenicus, Minyae ?~
+@141 = ~Pourquoi ne le serais-je pas ? C'était la chance de ta vie, et tu ne vois même pas la formidable opportunité que tu as ratée.~ [QI#Mi167]
+@142 = ~Irenicus est un être maléfique. Je ne souhaiterais une telle situation à personne, pas même à mon pire ennemi.~
+@143 = ~Alors tu es une idiote.~
+@144 = ~C'est encore ce que je préfère.~
+
+// Valygar
+@145 = ~Vous prétendez être une enchanteresse, et pourtant vous n'avez aucun ami. Pourquoi donc ?~
+@146 = ~Et maintenant tu veux discuter ? Hmph. Qu'est-ce qui te fait croire que j'ai envie de répondre à tes questions ?~ [QI#Mi168]
+@147 = ~Cela m'a paru étrange.~
+@148 = ~Tout te parait étrange et suspicieux, en quoi est-ce important ?~
+@149 = ~Si je dois combattre à vos côtés, je dois pouvoir vous faire confiance.~
+@150 = ~Comment savoir que vous ne trahirez pas notre groupe ?~
+@151 = ~Je suis toujours là, non ?~
+@152 = ~Vous êtes toujours là, en effet, mais le serez-vous encore demain ?~
+@153 = ~Qui sait ?~
+
+// Jaheira
+@154 = ~Que représente <CHARNAME> pour toi ?~ [QI#Mi169]
+@155 = ~<CHARNAME> est sous ma responsabilité. Je suis là pour veiller sur lui.~ ~<CHARNAME> est sous ma responsabilité. Je suis là pour veiller sur elle.~
+@156 = ~Hm, je ne m'étais pas rendu compte que <CHARNAME> était encore un enfant.~ ~Hm, je ne m'étais pas rendu compte que <CHARNAME> était encore une enfant.~
+@157 = ~J'en ai fait la promesse à un ami très cher.~
+@158 = ~Et laisse-moi deviner, il ou elle est mort. Ainsi va la vie.~
+@159 = ~Tu ne peux pas parler des défunts comme s'ils n'avaient jamais existé. Ils ont laissé leur empreinte dans ce monde et méritent notre respect !~
+@160 = ~J'ai déjà toléré ton irrévérence une fois, je ne suis pas sûre de pouvoir me contenir si cela se reproduit.~
+@161 = ~Alors lâche toi. Montre-moi ce que tu as dans le ventre.~
+@162 = ~Si tel est ton souhait. Je ne te l'accorderai pas.~
+@163 = ~Quel dommage. J'étais si proche de voir la placide Jaheira perdre son calme, mais tout comme moi, tu as le droit d'avoir ton propre point de vue.~
+@164 = ~Les morts ne reviendront pas et les seuls égards qui leurs sont accordés se résument à un cercueil, une pierre tombale, et un petit lopin de terre. Si tu penses que c'est du respect, c'est toi qui voit.~
+
+// Nalia
+@165 = ~Minyae ?~
+@166 = ~Que me veux-tu ?~ [QI#Mi170]
+@167 = ~Avez-vous besoin de quelque chose ?~
+@168 = ~Je n'ai que faire de ta charité, Nalia. Hors de ma vue.~
+@169 = ~Écoutez, j'essaie simplement de vous aider.~
+@170 = ~Qu'est-ce qui te fait croire que j'ai besoin d'aide ? Qu'est-ce qui te fait croire que j'ai besoin de *ton* aide ?~
+@171 = ~Hors de ma vue.~
+
+// Viconia
+@172 = ~Alors tu es avec le mâle Thayen ?~
+@173 = ~Juste pour m'amuser, ma chère Viconia.~ [QI#Mi171]
+@174 = ~Ah ! Tu as peut-être plus de cran que je ne l'imaginais !~
+
+// Jan
+@175 = ~Alors, il y a quoi dans ce livre ?~
+@176 = ~Pourquoi est-ce que je te le dirais ?~
+@177 = ~De quoi as-tu peur ? Tu penses qu'un voleur faucherait une consœur ?~
+@178 = ~Oui.~
+@179 = ~Nous sommes donc deux.~
+
+// Aerie
+@180 = ~Tu es une elfe M-Minyae.~
+@181 = ~Très perspicace de ta part, Aerie. Je t'en prie, as-tu d'autres évidences à me raconter ?~ [QI#Mi172]
+@182 = ~Vo-vous êtes une personne exécrable ! Les elfes s-sont bons et doux.~
+@183 = ~Tu préférerais que je sois aussi fragile et misérable que toi ? Tu voudrais que je porte assistance à tous les mendiants que l'on croise ? Écoute-moi bien, Aerie.~
+@184 = ~Si quelqu'un n'a rien à m'apporter, pourquoi l'aiderais-je ?~
+@185 = ~Pa-parce que c'est la bonne chose à faire.~
+@186 = ~Pourquoi devrais-je donner le fruit de mon dur labeur à ceux qui se complaisent dans leur propre crasse ? Ils ont tous la possibilité de changer la donne, de prendre sur eux et de gagner leur vie, pourtant ils choisissent de ne pas le faire.~
+@187 = ~Je n'ai aucune pitié pour les faibles, et tu ne devrais pas en avoir non plus.~
+
+// Mazzy
+@188 = ~Connais-tu la signification du bien et du mal, Mazzy ?~ [QI#Mi173]
+@189 = ~C'est tout à fait clair, le bien d'un côté et le mal de l'autre.~
+@190 = ~Est-ce vraiment si simple ?~
+@191 = ~Un dictateur persuadé d'agir pour le bien de son peuple, est-il réellement malfaisant ? À ses yeux, c'est un bon dirigeant... le bien défiant le mal. Mais dans les régions sous son joug, son peuple l'appellera tyran.~
+@192 = ~Minyae, il y a une séparation évidente entre la vertu et le...~
+@193 = ~Tu penses peut-être apporter la « lumière » à ceux que tu rencontres. Mais tu amènes certainement les ténèbres à ceux qui s'opposent à toi.~
+
+// Korgan
+@194 = ~Fillette, j'te préviens. J'vais t'étriper !~
+@195 = ~Fais de ton mieux.~ [QI#Mi174]
+@196 = ~Ouais, t'as du cran pour une elfe !~
+@197 = ~Ma hache a soif de sang elfe, t'ferais bien de surveiller tes arrières.~
+
+// Haer'Dalis + Edwin
+@198 = ~Je vois...et j'entends que le chaton et l'épervier à robe rouge dansent et chantent sur le même air.~
+@199 = ~Je ne chante pas et je ne danse pas Haer'Dalis, Edwin non plus d'ailleurs.~ [QI#Mi175]
+@200 = ~Oh ? Ce moineau pense qu'avec la bonne musique, les deux tourtereaux s'envoleront haut dans le ciel. Il me semble que la mélodie parfaite est une composition ciel de nuit avec la lueur de la lune oblitérant les ténèbres sur son chemin. Une splendide robe de soie rouge devrait être fabriquée pour le chaton afin de s'accorder avec son épervier tout de rouge vêtu.~
+@201 = ~Complètement et absolument ridicule. Comment peux-tu croire que j'accepterais une chose pareille ? Et penses-tu vraiment qu'Edwin serait d'accord ? J'en doute fortement, et pour être honnête, j'ai une réputation à tenir.~
+@202 = ~Qui me prendrait au sérieux si je portais une robe soyeuse ? Personne. Ton idée est absurde.~
+@203 = ~Oui, tout à fait d'accord ! Quelle idée ridicule ! (Une robe de soie rouge soulignerait ses formes voluptueuses, peut-être que ça en vaut la peine ?)~
+@204 = ~Vous allez me rendre folle tous les deux. Cette discussion est terminée.~
+
+// Anomen
+@205 = ~Il est écœurant de vous voir et de vous entendre batifoler avec cet homme maléfique. Mais il est logique que deux êtes corrompus soient fait l'un pour l'autre.~
+@206 = ~Ce n'est pas mon problème, rien ne t'oblige à nous écouter. Enfonce tes chausses dans tes oreilles ou endors-toi plus vite.~ [QI#Mi176]
+@207 = ~Je n'ai pas le choix. Si j'étais un ennemi, je serais en mesure de traquer ce groupe sur des lieues à la ronde.~
+@208 = ~Merci pour ton exagération Anomen, mais ce n'est vraiment pas nécessaire. Je serai particulièrement exubérante, juste pour ce pauvre chevalier si solitaire.~
+
+// Korgan + Mazzy
+@209 = ~Hein ? La petite elfe et le magicien barbu ? Tu n'as que la peau sur les os fillette !~
+@210 = ~Je suis parfaitement proportionnée, nain. Pourquoi voudrais-je être lente et grassouillette, comme toi ou les femelles de ton peuple ?~ [QI#Mi177]
+@211 = ~Les petites-gens sont les meilleurs ! Tu n'as pas vu la petite damoiselle qui voyage avec nous ? Regarde comme ses formes se balancent quand elle marche !~
+@212 = ~Les petites-personnes sont les plus délicieuses !~
+@213 = ~Je ne tiens pas à participer à cette discussion...~
+@214 = ~Ah ! Plutôt mourir que de me réincarner en petite-gens ! Ils sont grotesques, lent d'esprit. Je n'ai jamais vu l'un d'entre eux se montrer plus rusé qu'un elfe !~
+@215 = ~C'est un point de vue un peu sévère sur ceux de mon peuple. Nous ne sortons pas du ventre de notre mère en criant, « Nous voulons être minuscule pour toujours ! ». Mais il n'y a pas que des inconvénients à notre petite taille, il est ainsi plus facile de se dissimuler efficacement. Sans parler de notre savoir-faire ancestral pour fabriquer des gadgets uniques, qui dépassent l'intelligence de n'importe quel elfe.~
+@216 = ~Je pourrais m'éterniser sur l'aversion que je porte à ton peuple, mais pour le bien de ma santé mentale, je refuse d'échanger un mot de plus avec ton engeance répugnante.~
+
+// Valygar
+@217 = ~Par le passé, j'ai entendu des rumeurs sur une sorcière qui résidait dans la forêt de Velen.~
+@218 = ~Et tu m'accuses d'être la sorcière en question ? Accordes-tu de la valeur aux pleurnicheries de paysans terrifiés ?~ [QI#Mi178]
+@219 = ~Je ne vous ai pas accusé de quoi que ce soit.~
+@220 = ~Le ton de ta voix en disait long.~
+@221 = ~Et vos mots de même.~
+
+// Aerie
+@222 = ~Minyae, J-je suis si heureuse de vous voir dans cet état. Je ne vous ai pas vu de si bonne humeur depuis... depuis jamais je crois. Je suis c-contente que vous vous amusiez bien, vous êtes si s-souriants tous les deux.~
+@223 = ~Il n'y a rien à voir, Aerie, cet homme ne représente rien pour moi et je ne représente rien pour lui. Nous passons simplement du bon temps. Tu ne peux pas comprendre.~ [QI#Mi179]
+@224 = ~A-arrêtez de me parler comme si je n'étais qu'une enfant. J-je ne le suis plus ! Votre logique est insensée, l'amour est...~
+@225 = ~Tu penses que c'est de l'amour ?! Comme je n'ai pas été assez CLAIRE, je ne l'aime pas et lui non plus. Ce n'est que pour le plaisir, ce n'est que pour la jouissance. Il n'y a aucun sentiment dans nos étreintes, et il n'y en aura jamais.~
+@226 = ~Je ne vous crois pas Minyae. L'amour est fort, et il vous trouvera quand vous vous y attendrez le moins.~
+@227 = ~Es-tu bête ? Tu ne comprends donc rien à ce que je t'explique ? L'amour est pour les faibles, et je n'en fais pas partie.~
+@228 = ~J-j'espère que vous tomberez amoureuse malgré toute la cruauté dont vous faites preuve. Ainsi j'aurai ma revanche.~
+
+// Jan
+@229 = ~Pourrais-tu faire moins de bruit la nuit ? J'aimerais vraiment me réveiller du bon pied.~
+@230 = ~Et que me donneras-tu si je satisfaisais ta demande ?~ [QI#Mi180]
+@231 = ~Tu sais ce que je ne te donnerais plus ? Ce baume à lèvres au navet dont tu raffoles. Tu as les lèvres bien gercées, n'est-ce pas ? Et si tu en étais privée ? J'en suis bientôt à court, et je ne pourrai me réapprovisionner qu'une fois rentré chez moi. Qui sait combien de temps cela pourrait prendre.~
+@232 = ~Tu me priverais de mon baume à lèvres ? C'est absurde !~
+@233 = ~Tu ne me crois pas ? J'avais une grande grande tante qui ne m'a pas cru non plus quand je lui ai raconté que je n'avais pas caché un scorpion dans sa bourse. Mais quand elle y a enfoncé sa main, elle a vite compris qu'elle s'était fait prendre à son propre jeu. Je m'écouterais si j'étais toi.~
+@234 = ~Et que penserais-tu d'une petite malédiction, gnome ? Tu ne veux pas me croire ? Je m'écouterais si j'étais toi.~
+@235 = ~Mais tu vois, Minny, ce n'est pas que je ne te crois pas, je le *sais*. Tu ne prendrais jamais un tel risque, pas avec ton baume à lèvres favori en jeu. Et si j'étais toi, j'appellerais ce gnome par son nom ou il pourrait bien repousser l'approvisionnement indéfiniment.~
+@236 = ~Très bien. Tu as gagné, Jan.~ 
+
+// Minsc + Jaheira
+@237 = ~Bouh me dit que toi et Edwin commettez l'impensable ! Dis-moi que ce n'est pas vrai !~
+@238 = ~J'ai bien peur que ton petit rat ait raison, Minsc. Peut-être que tu devrais essayer de suivre son exemple.~ [QI#Mi181]
+@239 = ~Pourquoi, Minyae ? Pourquoi fais-tu ça ? Il a voulu tuer Dynaheir, ma sorcière bien aimée ! C'est un fou furieux.~
+@240 = ~Elle méritait de mourir, idiot.~
+@241 = ~Non ! C'était une femme si douce, avec un grand cœur. Elle n'a pas mérité son destin !~
+@242 = ~Si elle est morte des mains d'Irenicus, alors elle était faible.~
+@243 = ~Si tu insinues que tous ceux qui sont morts des mains d'Irenicus sont faible, alors tu es une imbécile.~
+@244 = ~Ton pitoyable et bégayant imbécile de mari était lui aussi un faible, Jaheira.~
+@245 = ~NON ! Tu déshonores la mémoire de notre ami Khalid et de la douce Dynaheir !~
+@246 = ~Allons, allons, ne nous emballons pas. Bien que je prendrais un certain plaisir à voir Edwin désintégrer ce qu'il reste de ton cerveau, rôdeur, ce n'est pas le moment le plus approprié.~
+@247 = ~Pareil pour toi, Jaheira. J'adorerais voir Edwin te réduire en cendres, mais nous pourrions avoir besoin de tes talents dans les jours à venir. Évidemment, nous n'avons pas besoin de vous pour compléter cette quête, mais un petit coup de main est toujours bon à prendre.~
+@248 = ~Cela étant dit, nous devrions mettre un terme à cette fascinante conversation avant que je ne sois plus en mesure de me contenter de vous faire les yeux doux.~
+
+// Edwin 1
+@249 = ~ Ne me parle pas sur ce ton femelle. J'exige que tu m'en dises plus sur cette soi-disant « œuvre de ta vie ». (Que peut-elle bien cacher ?)~
+@250 = ~Ne m'appelle plus jamais femelle, chien de Thay.~ [QI#Mi090]
+@251 = ~Hein ? (Elle essaie de m'insulter, mais ne se rend pas compte que ses mots sont sans effet !)~
+@252 = ~...Tu te parles à toi même ? Es-tu tellement demeuré que...~
+@253 = ~Demeuré, moi ?! Quelle irritante...~
+@254 = ~Ah ! Tu as le culot de me trouver irritante ?~
+@255 = ~C'est toi qui a démarré cette conversation en te renseignant sur mon grimoire. Je refuse d'assouvir la curiosité des imbéciles !~
+
+// Edwin 2
+@256 = ~*ahem* Avant d'être grossièrement interrompu par une certaine simienne durant notre précédente conversation, j'allais me renseigner sur un sujet en particulier.~
+@257 = ~Hélas, cher Edwin. Impossible de me rappeler avec quelle idiotie tu me bassinais.~ [QI#Mi088]
+@258 = ~Je n'avais pas réalisé que ton cerveau incompétent n'était même pas capable d'une tache aussi triviale que se souvenir, surtout quant il s'agit de quelque chose d'important pour moi.~
+@259 = ~Et si j'avais choisi d'oublier ? Y as tu pensé ?~
+@260 = ~Ah ! J'ai envisagé toutes les possibilités.~
+@261 = ~Fais encore un effort Eddie.~
+@262 = ~Je te l'ai déjà dit femelle, j'ai... Eddie ?! (Mais pour qui cette femme se prend-elle ?!)~
+@263 = ~Oh ! Et alors Eddie. Tu rougis ?~
+@264 = ~QUOI ?! Ton piètre esprit ne peut-il pas concevoir que si mes joues rougissent, c'est que je suis révolté ?!~
+@265 = ~Dans l'intérêt de <CHARNAME> qui pour des raisons inexplicables t'a acceptée dans notre aventure, j'épargnerai ton insignifiante vie, pour cette fois !~
+@266 = ~Trop aimable. Je vais donc m'abstenir de t'appeler Eddie, Eddie.~
+@267 = ~AGH !~
+
+// Edwin 3
+@268 = ~Je sens ton regard, Edwin.~ [QI#Mi089]
+@269 = ~Oui, tu as plus conscience de ce qui t'entoure qu'une limace. Je te félicite.~
+@270 = ~Edwin, tu me fatigues à me regarder constamment. Tu as de la chance de m'amuser. Ou je t'aurais cramé les yeux depuis un moment.~
+@271 = ~(Hmm.. c'est le moment parfait pour agir !) J'ai une proposition que tu ne pourras refuser.~
+@272 = ~De nombreuses femmes ont désiré l'incroyable Edwin Odesseiron. Je te donne une opportunité dont elles ont toutes rêvé !~
+@273 = ~Une offre généreuse. Mais que je vais devoir refuser, redemande moi plus tard.~
+@274 = ~Hmph. (Elle reviendra bien me supplier tôt ou tard.)~
+@275 = ~Vraiment ? Qu'ai-je à gagner d'une telle « opportunité » ?~
+@276 = ~Vais-je maîtriser les quatre éléments qui constituent notre monde du jour au lendemain ? Serais-je en mesure me déplacer bon gré mal gré entre les plans ? Vais-je pouvoir démarrer ma conquête ici et maintenant et détruire tout Thay ?~
+@277 = ~Euh...~
+@278 = ~C'est bien ce que je pensais.~
+
+// Edwin 4
+@279 = ~Quelle idée impressionnante (particulièrement venant d'une bâtarde de si basse condition). À la prochaine taverne, pourquoi ne m'amènerais-tu pas une chope de la meilleure bière que la populace locale aura à nous offrir, hein ? (Elle ne va certainement pas dire non à une si aimable demande. Elle devrait être reconnaissante que je la remarque !)~
+@280 = ~Débrouille toi, pour qui est-ce que tu me prends ? Une serveuse ?~
+@281 = ~Tu as déjà dépassé mes attentes les plus insignifiantes, te mettre à leur niveau serait une insulte pour les serveuses, fillette.~
+@282 = ~*Fillette* ?~
+@283 = ~C'est moi qui devrait t'appeler *garçon*, j'ai vécu bien plus d'hivers que toi. Je pourrais même être ta mère !~
+@284 = ~Possible, mais à combien d'années humaines correspondent tes années elfes, hein ? Peut-être vingt-et-un ou vingt-deux ans ? Vingt-quatre au maximum ?~
+@285 = ~Je t'accorde cette minuscule victoire, idiot.~
+
+// Edwin 5
+@286 = ~Essayons quelque chose de nouveau, Edwin.~
+@287 = ~Plutôt que nos chamailleries quotidiennes et bien que tes grommellements soient toujours un régal, pourquoi ne me parlerais-tu pas des Sorciers Rouges de Thay?~
+@288 = ~Ça alors ? Tu envisages de nous rejoindre ?~
+@289 = ~Laisse-moi être le premier à te le dire, les Sorciers Rouges de Thay n'acceptent que les meilleurs. (Tel que moi.) ~
+@290 = ~Ah ! Et pourquoi perdrais-je mon temps avec une organisation aussi quelconque ? D'ailleurs, j'ai entendu dire que vous aviez lamentablement échoué dans vos tentatives pour soumettre les Sorcières de Rashemanie.~
+@291 = ~Il semble que les femmes, ou pour utiliser le terme dont tu nous gratifies si souvent, les femelles sont vos supérieures.~
+@292 = ~Bah ! Tu penses que je n'ai aucun respect pour les femmes ? Je déteste être le porteur d'une si mauvaise nouvelle, mais je me dois d'informer ton cerveau décidément demeuré qu'elles sont à mes yeux un trophée des plus précieux.~
+@293 = ~Au lit, tout du moins.~
+@294 = ~C'est *toi* qui est insupportable.~
+
+// Edwin 6
+@295 = ~Je croyais que les magiciens Thayens se rasaient la tête et étaient couverts de tatouages magiques.~
+@296 = ~C'est une vieille tradition d'origine Mulan... et une erreur courante des simples d'esprit. (Je ne suis visiblement pas couvert de tatouages, peut-être que les yeux elfes ont perdu de leur superbe.)~
+@297 = ~Alors pourquoi ne pas ne pas m'en dire plus que je puisse « affûter mon esprit » ?~
+@298 = ~Je vais y réfléchir.~
+@299 = ~Tu réfléchis à ma proposition depuis un moment. Y a t-il un problème ?~
+@300 = ~Je suppose que tu m'as laissé suffisamment de temps pour y songer. (Trois jours c'est assez, n'est-ce pas ?)~
+@301 = ~Et bien, qu'est-ce que tu en dis ?~
+@302 = ~Une idiote inepte de moins dans ce monde ne me semble pas une mauvaise idée.~
+@303 = ~Mais es-tu vraiment digne de mon précieux temps ?~
+@304 = ~Je ferai en sorte que ça en vaille la peine.~
+@305 = ~Oh ? Qu'est-ce que tu as en tête ? (Quelque trésor caché j'espère.)~
+@306 = ~Je ne dirai rien tant que tu n'auras pas promis de m'aider dans mon apprentissage. J'ai besoin d'au moins trois heures de ta journée.~
+@307 = ~M'occuper de toi pendant trois heures serait insupportable ! Tu auras dix minutes, pas une de plus !~
+@308 = ~Deux heures.~
+@309 = ~Trente minutes.~
+@310 = ~Une heure et demi.~
+@311 = ~Une heure. C'est ma dernière offre.~
+@312 = ~Vendu.~
+@313 = ~(La femelle est dure en affaire.)~
+
+// Edwin 7
+@314 = ~Impressionnant, hein ?~
+@315 = ~On dirait bien. Mais comment des magiciens si puissants peuvent-ils perdre des batailles quant ils reçoivent en plus l'aide de démons, de diantrefosses et d'elfes noirs ?~
+@316 = ~On imaginerait aisément que leurs puissances combinées règnent sur tout Faerun.~
+@317 = ~Oui bon, ton heure est écoulée. Maintenant, laisse-moi à mes occupations. (Je devrais lui faire payer chaque seconde de plus que prévu.)~
+@318 = ~J'ai l'impression que si tu évites la question, c'est que tu ne connais pas la réponse. D'habitude, tu n'as aucune difficulté avec mes interrogations.~
+@319 = ~Je fatigue simplement de ton babillage incessant. Tu veux que je déduise ces minutes de notre prochain cours ?~
+@320 = ~*soupir* Très bien. Je te remercie.~
+@321 = ~Tu me remercies... ?~
+@322 = ~Je remercie le plus élégant et plus talentueux des magiciens qu'il m'ait été donné de contempler.~
+@323 = ~Hmph. Je préfère ça.~
+
+// Edwin 8
+@324 = ~Et bien, quelle charmante demoiselle tu es devenue, Eddie.~ [QI#Mi087]
+@325 = ~Ce n'est qu'un inconvénient des plus temporaire ! Et tu continueras à m'adresser par Edwin - Edwin Odesseiron! N'oublie pas ton rang, femelle.~
+@326 = ~*gloussements* Qui est la femelle là ? Je me demande comment tu vas t-y prendre pour satisfaire les femmes Eddie, maintenant que tu n'as plus de... tu sais, plus de...~
+@327 = ~SILENCE FEMELLE !~
+@328 = ~Comme tu voudras... Edwina.~
+@329 = ~Comment oses-tu te moquer de moi ? Si j'étais dans un corps plus adapté, je t'aurais déjà réduite en poussière.~
+@330 = ~Je dirais que ce corps te convient à ravir Eddie, tous les grands esprits savent que ce sont les femmes de ce monde qui détiennent le vrai pouvoir.~ 
+@331 = ~Par exemple, que deviendraient les rois sans leurs reines ? Quelle vertu un chevalier pourrait-il revendiquer sans sa dame ? Les femmes sont souvent à l'origine des guerres, y as-tu jamais pensé ?~
+@332 = ~Et bien, dit comme ça... (Non ! C'est une femme, elle tente de te tromper, de profiter de ton moment de faiblesse !)~
+@333 = ~Edwin, comment pourrais-je te mentir ? Tu es une femme, tu es l'incarnation même de la force.~
+@334 = ~(Quels traîtres mensonges !)~
+@335 = ~Tu t'en rendras compte par toi même Eddie, un jour ou l'autre.~
+
+// Edwin 9
+@336 = ~Oh Edwina, je me demandais quand tu serais prête. Je commençais à croire que tu avais des difficultés à enfiler ta belle jupe rouge.~ [QI#Mi091]
+@337 = ~C'est une ROBE fabriquée exclusivement pour les magiciens les plus exceptionnels ! (Si seulement je pouvais me débarrasser de ce misérable corps et de ce maudit nom !)~
+@338 = ~Oh ? Une robe tu dis ? Est-elle en soie ?~
+@339 = ~Je crois bien que oui, et elle convient parfaitement à tes formes plantureuses.~
+@340 = ~(Hm, elle n'a pas tort. J'ai plutôt belle allure dans cette robe... non ! Elle tente à nouveau de me remplir le crâne avec ces inepties !)~
+@341 = ~Allez, c'était un compliment sincère ! Tu me crois donc cruelle et sans cœur ? Je te fais seulement part de mes observations, sans aucune fourberie.~
+@342 = ~Mais si tu ne veux pas me faire confiance, tu devrais probablement en essayer d'autres, et je te donnerai mon avis. Encore mieux, nous pourrions toutes les deux en essayer de nouvelles !~
+@343 = ~(Mais qu'ai-je donc fait pour mériter une telle torture ??)~
+
+// Edwin 10
+@344 = ~Minyae... ?~
+@345 = ~Que ce passe-t-il ? Qu'as-tu fait à Edwin ? D'habitude, c'est plutôt femme ou femelle !~ [QI#Mi092]
+@346 = ~*ahem* Tu me répondras malgré tout. N'oublie pas qui je suis et ce dont mes pouvoirs sont capables.~
+@347 = ~Bien sûr ! Tout ce que tu désires, oh grand et puissant magicien de Thay!~
+@348 = ~Femme ! Je suis au fond du trou et pourtant tu continues à m'enfoncer ! Tu regretteras le jour où moi, Edwin Od...~
+@349 = ~Oh ferme-la, Edwina.~
+
+// Edwin 11
+@350 = ~Pourquoi ce regard noir Eddie ? Moi qui pensais que nous devenions bons amis. T'ai-je contrarié durant notre précédente conversation ?~ [QI#Mi093]
+@351 = ~Tu vas la boucler femelle, de peur que je lance un sortilège qui te réduise au silence définitivement.~
+@352 = ~Alors que nous nous entendions si bien. Tellement que j'ai presque cru que te cesserais de m'appeler femelle.~
+@353 = ~Mais si c'est des excuses que tu attends, je pense que je peux faire un effort.~
+@354 = ~*sourcillement* Pour ? (J'exige qu'elle supplie mon pardon à genoux ! Je veux la voir ramper et baiser mes pieds !)~
+@355 = ~Allons allons, Eddie, c'est un peu extrême tu ne trouves pas ?~
+@356 = ~Mais si tu insistes à ce point, alors moi, Minyae Beaurin, suis profondément désolée de mon comportement à votre égard, Madame.~
+@357 = ~J'ai eu plus qu'assez de tes sottises pour aujourd'hui, mais je te remercie...~
+
+// Edwin 12
+@358 = ~Edwin. Je veux que tu saches que je suis là pour toi.~
+@359 = ~Hein ? (Quelle nouvelle ruse est-elle en train de préparer ?)~
+@360 = ~Malgré tout ce que j'ai pu te dire, tu es un frère d'armes et je te respecte.~
+@361 = ~Ton savoir est immense, de même que ton pouvoir, et je t'envie pour ça.~
+@362 = ~Que me veux-tu femme ? (Je suis content qu'elle ait finalement réalisé mon vrai potentiel ! Il ne reste plus qu'à convaincre les autres...)~
+@363 = ~Je veux que tu saches que je suis là pour toi, c'est tout.~
+@364 = ~Je suppose que je devrais me montrer reconnaissant. Alors voilà, je te suis reconnaissant. (C'est bien ce que les gens ordinaires disent, non ?)~
+@365 = ~Il n'y a pas de quoi.~
+
+// Edwin 13
+@366 = ~On célèbre le retour de ta virilité je vois.~ [QI#Mi094]
+@367 = ~Évidemment. (Nos assauts érotiques vont enfin pouvoir reprendre !)~
+@368 = ~Alors c'est ton jour de chance. Je me sens fatiguée, et ai besoin de tes douces mains pour me guider jusqu'à mon lit.~
+@369 = ~Peux-tu faire ça pour moi Eddie?~
+@370 = ~Quelle demande fascinante. (Qu'est-ce que ça veut dire ? S'est-elle enfin rendu compte qu'elle ne pouvait résister aux charmes d'Edwin Odesseiron?)~
+@371 = ~Ne t'ai-je pas dis que je te revaudrais les leçons que tu m'as si gracieusement données, malgré ta situation personnelle très... compliquée ?~
+@372 = ~C'est *ça* ma récompense ?~
+@373 = ~Tu... tu ne veux pas de moi ?~
+@374 = ~Un Odesseiron ne paie jamais une femelle.~
+@375 = ~Toujours à te vanter du nombre de femmes qui supplient pour tes faveurs et de comment tu les honores de tes prouesses...~
+@376 = ~Et pourtant, tu es incapable de faire tes preuves avec moi, en particulier avec moi.~
+@377 = ~Tu es encore plus une chienne maintenant que quand tu étais une femme.~
+@378 = ~Minyae ! Arrête tes enfantillages et regarde moi !~
+@379 = ~Je n'ai rien à te dire.~
+@380 = ~Tu n'as pas besoin de parler. (Ces facultés de discernement sont évidemment obscurcies.)~ 
+@381 = ~C'est moi qui le ferai.~
+@382 = ~Ce n'était pas le bon... moment.~
+@383 = ~Y a t-il vraiment besoin d'attendre un meilleur moment pour tout ?~
+@384 = ~Maintenant.~
+@385 = ~Maintenant quoi ?~
+@386 = ~C'est le meilleur moment, maintenant.~
+@387 = ~Tu sais quoi ? Je me sens d'humeur généreuse aujourd'hui. Je te donne ta chance. Impressionne moi.~
+@388 = ~Tu seras impressionnée, et bien plus encore.~
+
+// Edwin 14
+@389 = ~Oh là là, Eddie. Mais quel appétit tu as.~
+@390 = ~Bien sûr, Minyae. Nous mages Thayens sommes réputés pour notre endurance et notre vigueur (comme elle devrait s'en être rendu compte depuis le temps).~
+@391 = ~Je parlais de la quantité de nourriture que tu as ingurgitée l'autre jour.~
+@392 = ~Il te reste quelques tâches sur la robe et la barbe.~
+@393 = ~Cette femme...~
+@394 = ~(Au moins, elle est de meilleure humeur - et nous savons tous les deux pourquoi...)~
+
+// Edwin 15
+@395 = ~Edwin ?~ [QI#Mi095]
+@396 = ~Ouuuuiiiiii ?~
+@397 = ~C'était il y a quelque temps. Mais tu te souviens quand je t'ai interrompu ?~
+@398 = ~Bah ! Tu m'interromps sans cesse. Comment suis-je sensé me rappeler de toutes les fois où c'est arrivé ? (Je me suis arrêté de compter après la dixième !)~
+@399 = ~Et bien, quand tu étais une femme.~
+@400 = ~Tu t'es retourné et tu m'as regardé d'un air triste. Pourquoi ?~
+@401 = ~Je n'aurais pas dû t'interrompre, mais je l'ai fait. Et maintenant, je me demande ce que tu allais me dire.~
+@402 = ~Tu n'en sauras probablement jamais rien ! (Si ce que j'avais à dire l'intéressait tant que ça, elle n'avait qu'à pas me couper la parole !)~
+@403 = ~Je suppose...~
+
+// Edwin 16
+@404 = ~Notre relation actuelle me convient parfaitement.~
+@405 = ~C'est de moi que tu parles ?~
+@406 = ~Oui, ta cervelle comprends de plus en plus vite. (Je vois que notre association a décuplé son intellect.)~
+@407 = ~Ou peut-être est-ce l'inverse. Y as-tu pensé ?~
+@408 = ~Quoi qu'il en soit, moi aussi, je suis à l'aise avec notre « relation ».~
+@409 = ~Parfait.~
+
+// Edwin 17
+@410 = ~Maintenant que nous sommes *ahem* intimement liés... peut-être pourrais-tu répondre à une de mes interrogations, Minyae ?~
+@411 = ~Ouah, Eddie. C'était la question la plus gentille que tu ne m'aies jamais posé. Bien sûr que je peux, c'est si adorablement demandé.~
+@412 = ~Hmph. (Comment je tolère cette femme, je ne comprendrai jamais.)~
+@413 = ~Il s'avère que je suis curieux à propos de ton passé et de ton enfance. (Il est normal de s'informer sur la vie de quelqu'un après avoir couché avec, n'est-ce pas ? Ou est-ce dans l'autre sens...)~
+@414 = ~Je ne connais pas mes véritables origines Edwin. Mais si j'avais à deviner, je suis issue de deux races, elfe de la lune et elfe des bois. Ou peut-être juste elfe des bois... et mon temps passé à vivre dans la forêt et dans la rue a perturbé ma croissance.~
+@415 = ~Mais les elfes des bois ne sont pas les plus doués pour la magie, et je suis sacrément douée, si je peux me permettre. Ce qui me pousse à croire que je suis partiellement elfe de la lune puisqu'à ma connaissance, ils sont les plus répandus.~
+@416 = ~ Mais je pense que ce n'est pas ce que tu voulais savoir.~
+@417 = ~En vérité, Je n'ai jamais couché avec un autre Homme.~
+@418 = ~Cette hypothèse semble crédible. (Cela veut certainement dire que je suis son premier ?)~
+@419 = ~J'ai dit que je n'avais jamais couché avec un *Homme*. Je n'ai pas parlé des autres races.~
+@420 = ~...~
+@421 = ~Tu es jaloux, Eddie?~
+@422 = ~Je plaisantais. Je n'ai connu que toi.~
+
+// Edwin 18
+@423 = ~C'est une nuit magnifique, tu ne trouves pas Edwin ?~ [QI#Mi096]
+@424 = ~Hein ? Je n'ai pas de temps à perdre avec les étoiles.~
+@425 = ~Et pourquoi pas ? Quand tu regardes le ciel, ne peux-tu pas imaginer les histoires ? Ne vois-tu pas les images se dessiner dans les étoiles ?~
+@426 = ~Observe par ici, sers toi de ta cervelle pour une fois et raconte moi ce que tes yeux d'humain voient.~
+@427 = ~Arrête avec tes idioties, Minyae. Je ne vois que de petites boules de lumière gênantes dans un ciel sombre. Elles ne dessinent aucun motif et il n'y a rien d'exceptionnel à leur propos. (Rien n'est aussi exceptionnel que moi !)~
+@428 = ~Il me déçoit que tu t'intéresses à de tels futilités.~
+@429 = ~Mais sont-elles vraiment si insignifiantes Edwin ? Les étoiles tiennent compagnie à la lune. Ensemble, elles guident les voyageurs fatigués à travers les bois, elles sont aussi très utiles à notre groupe.~
+@430 = ~Et quand la lune est trop fatiguée pour briller, ses compagnons lui prêtent main forte. La laissant se reposer tandis qu'ils acceptent son fardeau.~
+@431 = ~...C'est à quoi je pensais quand j'étais une enfant. J'aimais à croire que la lune et les étoiles étaient là pour moi quand j'étais seule dans les bois, et que je ne savais pas si la direction que je prenais était la bonne.~ [QI#Mi097]
+@432 = ~Que de fantasmes inutiles tu avais dans ta jeunesse. Mais je suppose qu'il est acceptable d'avoir de sottes pensées quand on est un enfant.~
+@433 = ~Quand j'étais adolescent, nous ne nous faisions aucune illusion. Les Sorciers Rouges les plus doués, tel que moi, n'avaient que très rarement le temps de regarder bêtement les étoiles par la fenêtre.~
+@434 = ~Nous étions en permanence plongé dans nos études. Toujours à comploter la chute d'un autre afin de nous élever socialement.~
+@435 = ~Je n'ai jamais eu cette chance.~ [QI#Mi098]
+@436 = ~Toutefois, quand la lune et les étoiles illuminaient la forêt, c'était le signe qu'il ne fallait plus attaquer les caravanes marchandes, parce qu'ils auraient de plus grandes chances de me repérer.~
+@437 = ~Hm...~
+@438 = ~Thay te plairait.~
+
+// Edwin 19
+@439 = ~Edwin, je voudrais me confier à toi.~ [QI#Mi099]
+@440 = ~Oh ? Des secrets ? (Et si je les divulgue ?)~
+@441 = ~Pas vraiment un secret. Je veux juste te parler, te confesser quelque chose plutôt.~ [QI#Mi100]
+@442 = ~Une confession ? (Veut-elle mettre un terme à nos petites parties de plaisir ?!)~
+@443 = ~J'ai constaté combien il est agréable de parler avec toi. J'apprécie sincèrement nos discussions, particulièrement celles à la nuit tombée.~ [QI#Mi101]
+@444 = ~Économise tes paroles.~ [QI#Mi102]
+@445 = ~Tu n'as pas à t'inquiéter de mes sentiments pour toi. Je suis au delà de ça.~ [QI#Mi103]
+@446 = ~Je fais mon possible, comme tu le sais bien, pour toujours améliorer ma condition. Si j'estime que je n'ai plus besoin de toi ou que tu ne m'es plus utile, tu seras au courant.~ [QI#Mi104]
+@447 = ~C'est... bon à savoir.~
+
+// Edwin other
+@448 = ~De plus, il est ironique que tu me traites de femelle alors que tu partages un corps similaire au mien, mais en beaucoup moins élégant.~
+@449 = ~Tu as une question ? Parle et vite.~
+@450 = ~Tu me regardes comme si je t'avais offensé. Soit un homme et parle.~
+@451 = ~La prochaine fois que nous nous arrêtons dans une auberge, fais moi une faveur et noie toi dans un tonneau de bière. J'en ai mal à la tête de d'entendre maugréer constamment.~
+@452 = ~Oh magnifique, dois-je me préparer à une nouvelle salve d'insultes de ta part ?~
+@453 = ~Enlève tes sales pattes de là !~
+@454 = ~Tu as quelque chose à me dire, Sorcier Rouge ?~
+@455 = ~Tes joues sont encore plus écarlates que ta robe, Eddie. J'hésite à le demander, mais puis-je faire quoi que ce soit pour apaiser tes rougeurs ?~
+@456 = ~Ça n'a pas de sens de se moquer d'une femme si puissante.~
+@457 = ~Je ne suis pas une femme ! Je suis la force et l'intelligence incarnées, je suis un homme ! (Ton esprit naïf ne pourra jamais comprendre ce qu'il vient de se produire, je suis plus proche du pouvoir que personne ne l'a jamais imaginé. Ce n'est qu'un très léger contretemps, j'espère...)~
+@458 = ~Si tu le dis. Mais je pense tout de même que les femmes sont réputées pour leur tolérance et leur extraordinaire pédagogie.~
+@459 = ~Pourquoi ne pas faire bon usage de tes talents et m'enseigner à être moins « simple d'esprit » ? Profitons de cette opportunité.~
+@460 = ~Ne te rappelles-tu donc de rien de ce que je t'ai enseigné ?!~
+@461 = ~J'espérais te soutirer quelques informations supplémentaires.~
+@462 = ~Mais je suppose que non.~
+@463 = ~Hmm... C'est envisageable.~
+@464 = ~Mais tu te souviens sans doute du marché que nous avions quand tu...~
+@465 = ~Silence femelle ! Je me souviens. (Ce maudit sort n'a pas endommagé ma mémoire !)~
+@466 = ~Bien, bien. Tant mieux si je n'ai pas à te rafraîchir la mémoire. Je déteste me répéter.~
+@467 = ~Juste une heure tous les jours, s'il te plaît ? Allez, s'te plaît ?~
+@468 = ~Très bien, très bien. (Peut-être ira t-elle ennuyer quelqu'un d'autre après ça.)~
+@469 = ~Euh... Peut-être que je devrais dire élégante ?~
+@470 = ~Bah ! Allez femme, file !~
+@471 = ~C'est donc ça, l'histoire de Thay?~
+
+// Jan other
+@472 = ~Allez, c'est seulement trois lettres. J - A - N. Tu sais, ça me rappelle une fois où...~
