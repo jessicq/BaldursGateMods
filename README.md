@@ -25,4 +25,4 @@ Topls/Resources Used:
 10. Zamzar by Zamzar
 11. Notepad++
 
-*Huge thank you to the staff at Gibberlings3 for hosting The Beaurin Legacy!! (https://www.gibberlings3.net/mods/npcs/beaurin/)*
+*Huge thank you to the staff at Gibberlings3 for hosting The Beaurin Legacy, Zakrion, and Yoshimo's Remorse!! (https://www.gibberlings3.net/mods/npcs/beaurin/)*
