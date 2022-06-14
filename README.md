@@ -16,8 +16,8 @@ Currently Released and Supported Mod(s) Include:
 2. Yoshimo's Remorse (in collaboration with Lava) - Baldur's Gate II: Shadows of Amn & Throne of Bhaal Enhanced Edition (released in 2019) - DONE
   Available in these languages:
   (1) English
-  (2) Polish - GoForTheEyes at G3
-  (3) Russian - Arkie at G3
+  (2) Polish, thanks to GoForTheEyes at G3
+  (3) Russian, thanks Arkie at G3
 
 3. Zakrion - Baldur's Gate I Enhanced Edition (released in 2020)
   Available in these languages:
