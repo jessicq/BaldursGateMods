@@ -49,4 +49,4 @@ Topls/Resources Used:
 10. Zamzar by Zamzar
 11. Notepad++
 
-*Huge thank you to the staff at Gibberlings3 for hosting <a href="https://www.gibberlings3.net/mods/npcs/beaurin/">The Beaurin Legacy</a>, <a href="https://www.gibberlings3.net/mods/npcs/zakrion/">Zakrion</a>, and <a href="https://www.gibberlings3.net/mods/npcs/yoshimos-remorse/">Yoshimo's Remorse</a>!!*
+*Huge thank you to the staff at <a href="https://www.gibberlings3.net/">Gibberlings3</a> for hosting <a href="https://www.gibberlings3.net/mods/npcs/beaurin/">The Beaurin Legacy</a>, <a href="https://www.gibberlings3.net/mods/npcs/zakrion/">Zakrion</a>, and <a href="https://www.gibberlings3.net/mods/npcs/yoshimos-remorse/">Yoshimo's Remorse</a>!!*
