@@ -8,8 +8,21 @@ Baldur's Gate Trilogy: Enhanced Edition (enhanced by Beamdog).
 
 Currently Released and Supported Mod(s) Include:
 1. The Beaurin Legacy - Baldur's Gate II: Shadows of Amn & Throne of Bhaal Enhanced Edition and the vanilla games (released in 2018) - DONE
+  Available in these languages:
+  (1) English
+  (2) Russian, thanks to Austin at G3
+  (3) French, thanks to Mera and JohnBob at G3
+
 2. Yoshimo's Remorse (in collaboration with Lava) - Baldur's Gate II: Shadows of Amn & Throne of Bhaal Enhanced Edition (released in 2019) - DONE
+  Available in these languages:
+  (1) English
+  (2) Polish - GoForTheEyes at G3
+  (3) Russian - Arkie at G3
+
 3. Zakrion - Baldur's Gate I Enhanced Edition (released in 2020)
+  Available in these languages:
+  (1) English
+
 4. Zakrion - Baldur's Gate II: Shadows of Amn & Throne of Bhaal Enhanced Edition - IN PROGRESS
 
 Topls/Resources Used: 
