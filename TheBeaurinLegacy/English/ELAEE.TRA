@@ -1,10 +1,10 @@
 @0 = ~I have never met a mage that could not control her abilities.~
 @1 = ~And I have never met a good elven ranger who had an evil sister. Come to think of it, it is totally like the argument of nature versus nurture. I'm sure you've heard of it, right?~
-@2 = ~I have heard of it before, yes. I guess you could say that too.~
+@2 = ~I have heard of it before, yes. I guess you could say that, too.~
 @3 = ~Then one point goes to nurture!~
 @4 = ~At least the one good thing about you is that you are quieter than your sister.~
 @5 = ~I am sure my sister had more to offer than just her thoughts and opinions.~
-@6 = ~She had a mouth, I'm glad she was permanently silenced.~
+@6 = ~She had a mouth; I'm glad she was permanently silenced.~
 @7 = ~Mind your tongue. She may have taken a different road than me, but she is... was still my sister. I would have your tongue cut out.~
 @8 = ~Don't tell me you are one of those goody elves now.~
 @9 = ~I thought it was clear that I am one of those "goody" elves.~
@@ -12,7 +12,7 @@
 @11 = ~You are a monk. My sister was never a fan of religious folk.~
 @12 = ~No, she was not.~
 @13 = ~I apologize for any pains she may have caused you.~
-@14 = ~No need to apologize, they were not your actions.~
+@14 = ~No need to apologize. They were not your actions.~
 @15 = ~They might as well have been.~
 @16 = ~I presume you have the same beliefs and thoughts as your sister?~
 @17 = ~It depends on what the thought is.~
@@ -28,8 +28,8 @@
 @27 = ~Sometimes love shows up in the most unexpected places.~ 
 @28 = ~Stand away from me, half-orc. Your stench of evil fills me with incredible unease.~
 @29 = ~I stand where I wish, elf. Do not make demands from me.~
-@30 = ~How <CHARNAME> tolerates your presence, I will never know.~
+@30 = ~How <CHARNAME> tolerates your presence I will never know.~
 @31 = ~And how <PRO_HESHE> could ever love you is beyond my grasp.~
 @32 = ~You and <CHARNAME> are a sight for sore eyes.~
 @33 = ~Oh gee, thanks.~
-@34 = ~Sometimes love shows up in the most unexpected places.~
+@34 = ~Sometimes, love shows up in the most unexpected places.~
