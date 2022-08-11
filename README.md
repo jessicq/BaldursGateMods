@@ -26,7 +26,7 @@ Currently Released and Supported Mod(s) Include:
        
       (2) Polish, thanks to GoForTheEyes at G3
        
-      (3) Russian, thanks Arkie at G3
+      (3) Russian, thanks to Arkie at G3
 
 **3. Zakrion - Baldur's Gate I Enhanced Edition (released in 2020)**
   
