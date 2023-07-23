@@ -3,6 +3,7 @@ BEGIN QI#MIB
 //Haer'Dalis
 CHAIN
 IF ~InParty("Haer'Dalis")
+InParty("QI#Mi")
 See("Haer'Dalis")
 !StateCheck("HaerDalis",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -22,6 +23,7 @@ EXIT
 //Anomen
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Anomen")
 See("QI#Mi")
 !StateCheck("Anomen",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -40,6 +42,7 @@ EXIT
 //Aerie
 CHAIN
 IF ~InParty("Aerie")
+InParty("QI#Mi")
 See("Aerie")
 !StateCheck("Aerie",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -59,6 +62,7 @@ EXIT
 //Jan
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Jan")
 See("QI#Mi")
 !StateCheck("Jan",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -74,6 +78,7 @@ EXIT
 //Nalia
 CHAIN
 IF ~InParty("Nalia")
+InParty("QI#Mi")
 See("Nalia")
 !StateCheck("Nalia",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -94,6 +99,7 @@ EXIT
 //Minsc
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Minsc")
 See("QI#Mi")
 !StateCheck("Minsc",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -109,6 +115,7 @@ EXIT
 //Anomen
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Anomen")
 See("QI#Mi")
 !StateCheck("Anomen",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -129,6 +136,7 @@ EXIT
 //Haer'Dalis
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("HaerDalis")
 See("QI#Mi")
 !StateCheck("HaerDalis",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -145,6 +153,7 @@ EXIT
 //Jan
 CHAIN
 IF ~InParty("Jan")
+InParty("QI#Mi")
 See("Jan")
 !StateCheck("Jan",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -166,6 +175,7 @@ EXIT
 //Imoen
 CHAIN
 IF ~InParty("Imoen2")
+InParty("QI#Mi")
 See("Imoen2")
 !StateCheck("Imoen2",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -188,6 +198,7 @@ EXIT
 //Korgan
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Korgan")
 See("QI#Mi")
 !StateCheck("Korgan",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -207,6 +218,7 @@ EXIT
 //Anomen-NotKnight
 CHAIN
 IF ~InParty("Anomen")
+InParty("QI#Mi")
 See("Anomen")
 Global("AnomenIsNotKnight","GLOBAL",1)
 !StateCheck("Anomen",CD_STATE_NOTVALID)
@@ -225,6 +237,7 @@ EXIT
 //Anomen-IsKnight
 CHAIN
 IF ~InParty("Anomen")
+InParty("QI#Mi")
 See("Anomen")
 Global("AnomenIsKnight","GLOBAL",1)
 !StateCheck("Anomen",CD_STATE_NOTVALID)
@@ -243,6 +256,7 @@ EXIT
 //Valygar
 CHAIN 
 IF ~InParty("Valygar")
+InParty("QI#Mi")
 See("Valygar")
 !StateCheck("Valygar",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -259,6 +273,7 @@ EXIT
 //Jaheira
 CHAIN
 IF ~InParty("Jaheira")
+InParty("QI#Mi")
 See("Jaheira")
 !StateCheck("Jaheira",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -276,6 +291,7 @@ EXIT
 //Viconia
 CHAIN
 IF ~InParty("Viconia")
+InParty("QI#Mi")
 See("Viconia")
 !StateCheck("Viconia",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -291,6 +307,7 @@ EXIT
 //Yoshimo
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Yoshimo")
 See("QI#Mi")
 !StateCheck("Yoshimo",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -308,6 +325,7 @@ EXIT
 //Keldorn
 CHAIN 
 IF ~InParty("Keldorn")
+InParty("QI#Mi")
 See("Keldorn")
 !StateCheck("Keldorn",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -324,6 +342,7 @@ EXIT
 //Cernd
 CHAIN 
 IF ~InParty("Cernd")
+InParty("QI#Mi")
 See("Cernd")
 !StateCheck("Cernd",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -342,6 +361,7 @@ EXIT
 //Anomen-NotKnight
 CHAIN
 IF ~InParty("Anomen")
+InParty("QI#Mi")
 See("Anomen")
 Global("AnomenIsNotKnight","GLOBAL",1)
 !StateCheck("Anomen",CD_STATE_NOTVALID)
@@ -351,7 +371,7 @@ Global("AnomenIsNotKnight","GLOBAL",1)
 GlobalLT("QI#MiEdwinRomanceSoA","GLOBAL",26)
 AreaType(CITY)
 CombatCounter(0)
-OR(12)
+OR(10)
         AreaCheck("AR0021") // Crooked Crane
         AreaCheck("AR0406") // Copper Coronet
         AreaCheck("AR0704") // Mithrest Inn
@@ -381,6 +401,7 @@ EXIT
 //Minsc
 CHAIN
 IF ~InParty("Minsc")
+InParty("QI#Mi")
 See("Minsc")
 !StateCheck("Minsc",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -395,6 +416,7 @@ EXIT
 //Imoen
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Imoen2")
 See("QI#Mi")
 !StateCheck("Imoen2",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -411,6 +433,7 @@ EXIT
 //Valygar
 CHAIN 
 IF ~InParty("QI#Mi")
+InParty("Valygar")
 See("QI#Mi")
 !StateCheck("Valygar",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -431,6 +454,7 @@ EXIT
 //Jaheira
 CHAIN
 IF ~InParty("Jaheira")
+InParty("QI#Mi")
 See("Jaheira")
 !StateCheck("Jaheira",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -453,13 +477,14 @@ EXIT
 //Nalia
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Nalia")
 See("QI#Mi")
 !StateCheck("Nalia",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 CombatCounter(0)
 Global("QI#MiNalia2","GLOBAL",0)~ THEN BNALIA QI#MiNalia2
 @165
-DO ~SetGlobal("QI#MiNalia1","GLOBAL",1)~
+DO ~SetGlobal("QI#MiNalia2","GLOBAL",1)~
 == QI#MIB @166
 == BNALIA @167
 == QI#MIB @168
@@ -471,6 +496,7 @@ EXIT
 //Viconia
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Viconia")
 See("QI#Mi")
 Global("QI#MiEdwinRomance","GLOBAL",2)
 !StateCheck("Viconia",CD_STATE_NOTVALID)
@@ -486,6 +512,7 @@ EXIT
 //Jan
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Jan")
 See("QI#Mi")
 Global("QI#MiQuest1","GLOBAL",2)
 !StateCheck("Jan",CD_STATE_NOTVALID)
@@ -503,6 +530,7 @@ EXIT
 //Aerie
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Aerie")
 See("QI#Mi")
 !StateCheck("Aerie",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -522,6 +550,7 @@ EXIT
 //Mazzy
 CHAIN 
 IF ~InParty("Mazzy")
+InParty("QI#Mi")
 See("Mazzy")
 !StateCheck("Mazzy",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -539,6 +568,7 @@ EXIT
 //Korgan
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Korgan")
 See("QI#Mi")
 !StateCheck("Korgan",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -558,6 +588,7 @@ EXIT
 CHAIN
 IF ~InParty("QI#Mi")
 InParty("Edwin")
+InParty("HaerDalis")
 See("QI#Mi")
 !StateCheck("HaerDalis",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -577,6 +608,7 @@ EXIT
 //Anomen
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Anomen")
 InParty("Edwin")
 See("QI#Mi")
 !StateCheck("Anomen",CD_STATE_NOTVALID)
@@ -594,6 +626,7 @@ EXIT
 //Korgan
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Korgan")
 InParty("Edwin")
 See("QI#Mi")
 !StateCheck("Korgan",CD_STATE_NOTVALID)
@@ -615,6 +648,7 @@ EXIT
 //Valygar
 CHAIN 
 IF ~InParty("QI#Mi")
+InParty("Valygar")
 See("QI#Mi")
 !StateCheck("Valygar",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
@@ -631,6 +665,7 @@ EXIT
 //Aerie
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Aerie")
 See("QI#Mi")
 InParty("Edwin")
 !StateCheck("Aerie",CD_STATE_NOTVALID)
@@ -651,6 +686,7 @@ EXIT
 //Jan
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Jan")
 See("QI#Mi")
 InParty("Edwin")
 !StateCheck("Jan",CD_STATE_NOTVALID)
@@ -672,6 +708,7 @@ EXIT
 //Minsc
 CHAIN
 IF ~InParty("QI#Mi")
+InParty("Minsc")
 See("QI#Mi")
 InParty("Edwin")
 !StateCheck("Minsc",CD_STATE_NOTVALID)
@@ -905,6 +942,7 @@ Gender("Edwin",FEMALE)
 !StateCheck("Edwin",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+Global("QI#MiPauseTalks","GLOBAL",1)
 !GlobalTimerNotExpired("QI#MiEdwinFemaleTimer","GLOBAL")
 CombatCounter(0)
 Global("QI#MiEdwinFemale","GLOBAL",1)~ THEN QI#MIB QI#MiEdwin3.99
@@ -932,6 +970,7 @@ Gender("Edwin",FEMALE)
 !StateCheck("Edwin",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+Global("QI#MiPauseTalks","GLOBAL",1)
 !GlobalTimerNotExpired("QI#MiEdwinFemaleTimer","GLOBAL")
 CombatCounter(0)
 Global("QI#MiEdwinFemale","GLOBAL",2)~ THEN QI#MIB QI#MiEdwin4.01
@@ -961,6 +1000,7 @@ Gender("Edwin",FEMALE)
 !StateCheck("Edwin",CD_STATE_NOTVALID)
 !StateCheck("QI#Mi",CD_STATE_NOTVALID)
 !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+Global("QI#MiPauseTalks","GLOBAL",1)
 !GlobalTimerNotExpired("QI#MiEdwinFemaleTimer","GLOBAL")
 CombatCounter(0)
 Global("QI#MiEdwinFemale","GLOBAL",3)~ THEN QI#MIB QI#MiEdwin4.02
@@ -976,7 +1016,7 @@ Global("QI#MiEdwinFemale","GLOBAL",3)~ THEN QI#MIB QI#MiEdwin4.02
 == QI#MIB @322
 == QI#MIB @469
 == BEDWIN @470
-DO ~IncrementGlobal("QI#MiEdwinFemale","GLOBAL",1) SetGlobal("QI#MiEdwinRomanceSoA","GLOBAL",9)~
+DO ~IncrementGlobal("QI#MiEdwinFemale","GLOBAL",1) SetGlobal("QI#MiEdwinRomanceSoA","GLOBAL",9) SetGlobal("QI#MiPauseTalks","GLOBAL",0)~
 EXIT
 
 

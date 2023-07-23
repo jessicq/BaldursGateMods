@@ -92,7 +92,7 @@ COPY_TRANS PLAYER1 33
 
 //Friends - Tree of Life
 EXTEND_BOTTOM PLAYER1 33 
-IF ~InParty("QI#Mi") InMyArea("QI#Mi") !StateCheck("QI#Mi",CD_STATE_NOTVALID) Global("QI#MiTreeOfLife","GLOBAL",0) Global("QI#MiEncounter","GLOBAL",1) Global("QI#MiNoFriendship","GLOBAL",0)~ EXTERN PLAYER1 friends
+IF ~InParty("QI#Mi") InMyArea("QI#Mi") !StateCheck("QI#Mi",CD_STATE_NOTVALID) Global("QI#MiTreeOfLife","GLOBAL",0) Global("QI#MiNoFriendship","GLOBAL",0)~ EXTERN PLAYER1 friends
 END
 
 CHAIN PLAYER1 friends
@@ -370,7 +370,6 @@ I_C_T UDDROW16 19 QI#DROW19
 END
 
 I_C_T UDDROW16 20 QI#DROW20
-
 == QI#MIJ IF ~InParty("QI#Mi") InMyArea("QI#Mi") Name("QI#Mi",Player5)~ THEN @74
 END
 
@@ -821,9 +820,6 @@ SAY @189
 ++ @191 + t3.1.1a
 ++ @192 + t3.1.1b
 ++ @193 + t3.1.2a
-
-
-
 END
 
 IF ~~ t3.1.1a
@@ -1706,7 +1702,7 @@ IF ~~ DO ~IncrementGlobal("QI#MiRuinTalk","GLOBAL",1)~ EXIT
 END
 
 //Go to Slums in Athkatla
-IF ~Global("Chapter","GLOBAL",6) !Global("QI#Slums","GLOBAL",1)~ ElaSlum
+IF ~Global("Chapter","GLOBAL",%bg2_chapter_6%) !Global("QI#Slums","GLOBAL",1)~ ElaSlum
 SAY @750
 = @751
 IF ~~ DO ~SetGlobal("QI#Slums","GLOBAL",1)~ EXIT
