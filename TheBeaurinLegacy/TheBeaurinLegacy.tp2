@@ -1,7 +1,7 @@
 BACKUP ~TheBeaurinLegacy/backup~
 SUPPORT ~https://www.gibberlings3.net/forums/forum/200-the-beaurin-legacy/~
 README ~%MOD_FOLDER%/TheBeaurinLegacy-ReadMe.html~
-VERSION ~v5.0~
+VERSION ~v5.3~
 
 AUTO_EVAL_STRINGS
 ALWAYS
@@ -83,6 +83,7 @@ BEGIN @1000 DESIGNATED 1000 LABEL BeaurinLegacyMain
         SAY INVENTORY_FULL @32
         SAY SPELL_DISRUPTED @33
         SAY TIRED @34
+		SAY PICKED_POCKET @38
         SAY BIO @35
     END ELSE BEGIN
         COPY ~%MOD_FOLDER%/Creatures/Default/BG2/MINYAE.cre~ ~override/MINYAE.cre~
@@ -124,6 +125,7 @@ BEGIN @1000 DESIGNATED 1000 LABEL BeaurinLegacyMain
         SAY INVENTORY_FULL @32
         SAY SPELL_DISRUPTED @33
         SAY TIRED @34
+		SAY PICKED_POCKET @38
         SAY BIO @35
         ADD_CRE_ITEM ~clck17~ #0 #0 #0 ~IDENTIFIED~ ~armor~
         ADD_CRE_ITEM ~dagg02~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~
@@ -169,6 +171,7 @@ BEGIN @1000 DESIGNATED 1000 LABEL BeaurinLegacyMain
     SAY INVENTORY_FULL @63
     SAY SPELL_DISRUPTED @59
     SAY TIRED @65
+	SAY PICKED_POCKET @38
     SAY BIO @66
 
     COMPILE
@@ -251,6 +254,7 @@ BEGIN @1000 DESIGNATED 1000 LABEL BeaurinLegacyMain
         SAY INVENTORY_FULL @32
         SAY SPELL_DISRUPTED @33
         SAY TIRED @34
+		SAY PICKED_POCKET @38
         SAY BIO @35
         END ELSE BEGIN
         COPY ~%MOD_FOLDER%/Creatures/Default/BG2/MIN25.cre~ ~override/MIN25.cre~
@@ -293,6 +297,7 @@ BEGIN @1000 DESIGNATED 1000 LABEL BeaurinLegacyMain
         SAY INVENTORY_FULL @32
         SAY SPELL_DISRUPTED @33
         SAY TIRED @34
+		SAY PICKED_POCKET @38
         SAY BIO @35
         ADD_CRE_ITEM ~clck17~ #0 #0 #0 ~IDENTIFIED~ ~armor~
         ADD_CRE_ITEM ~dagg02~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~
@@ -339,6 +344,7 @@ BEGIN @1000 DESIGNATED 1000 LABEL BeaurinLegacyMain
     SAY INVENTORY_FULL @63
     SAY SPELL_DISRUPTED @59
     SAY TIRED @65
+	SAY PICKED_POCKET @38
     SAY BIO @66
 
     COPY ~%MOD_FOLDER%/Creatures/QI#Will.cre~ ~override/QI#Will.cre~
@@ -556,6 +562,7 @@ BEGIN @2000 DESIGNATED 2000 LABEL BeaurinLegacyMinyaeClassEnchanter
         SAY INVENTORY_FULL @32
         SAY SPELL_DISRUPTED @33
         SAY TIRED @34
+		SAY PICKED_POCKET @38
         SAY BIO @35
         ADD_CRE_ITEM ~dagg02~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~
         ADD_CRE_ITEM ~dart02~ #40 #0 #0 ~IDENTIFIED~ ~weapon2~
@@ -600,6 +607,7 @@ BEGIN @2000 DESIGNATED 2000 LABEL BeaurinLegacyMinyaeClassEnchanter
         SAY INVENTORY_FULL @32
         SAY SPELL_DISRUPTED @33
         SAY TIRED @34
+		SAY PICKED_POCKET @38
         SAY BIO @35
         ADD_CRE_ITEM ~clck17~ #0 #0 #0 ~IDENTIFIED~ ~armor~
         ADD_CRE_ITEM ~dagg02~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~
@@ -648,6 +656,7 @@ BEGIN @2000 DESIGNATED 2000 LABEL BeaurinLegacyMinyaeClassEnchanter
             SAY INVENTORY_FULL @32
             SAY SPELL_DISRUPTED @33
             SAY TIRED @34
+			SAY PICKED_POCKET @38
             SAY BIO @35
             ADD_CRE_ITEM ~dagg02~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~
             ADD_CRE_ITEM ~dart02~ #40 #0 #0 ~IDENTIFIED~ ~weapon2~
@@ -692,6 +701,7 @@ BEGIN @2000 DESIGNATED 2000 LABEL BeaurinLegacyMinyaeClassEnchanter
             SAY INVENTORY_FULL @32
             SAY SPELL_DISRUPTED @33
             SAY TIRED @34
+			SAY PICKED_POCKET @38
             SAY BIO @35
             ADD_CRE_ITEM ~clck17~ #0 #0 #0 ~IDENTIFIED~ ~armor~
             ADD_CRE_ITEM ~dagg02~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~
