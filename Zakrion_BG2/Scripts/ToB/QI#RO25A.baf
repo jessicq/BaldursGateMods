@@ -1,0 +1,16 @@
+/**************************************************************************************************
+										Roe's Script - Awakened
+**************************************************************************************************/
+
+// Leave after Reunion
+IF 
+	InParty("QI#ZAK2")
+	OR(4)
+		Global("QI#ZakrionKRFamilyTalk","GLOBAL",3)
+		Global("QI#ZakrionNKFamilyTalk","GLOBAL",3)
+		Global("QI#ZakrionFriendshipFamilyTalk","GLOBAL",3)
+		Global("QI#ZakrionFamilyTalk","GLOBAL",3)
+THEN
+RESPONSE #100
+	EscapeArea()
+END 

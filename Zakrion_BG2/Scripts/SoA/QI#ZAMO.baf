@@ -1,0 +1,25 @@
+/**************************************************************************************************
+								Zakrion's Mother Script
+**************************************************************************************************/
+
+IF
+	Global("QI#ZakMomEncounter","GLOBAL",0)
+	OR(2)
+	   GlobalGT("QI#ZakrionKnownRomanceTalk","GLOBAL",6)
+	   GlobalGT("QI#ZakrionNotKnownRomanceTalk","GLOBAL",6)
+THEN 
+RESPONSE #100
+	SetGlobal("QI#ZakMomEncounter","GLOBAL",1)
+END 
+
+IF
+	See(Player1)
+	See("QI#ZAK2")
+	!StateCheck("QI#ZAK2",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakMomEncounter","GLOBAL",1)
+THEN
+RESPONSE #100
+	Dialogue("QI#ZAK2")
+END 

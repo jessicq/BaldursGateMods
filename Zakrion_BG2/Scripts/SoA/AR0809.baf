@@ -1,0 +1,12 @@
+/**************************************************************************************************
+		Zakrion's Abduction - Adding to Bodhi's crypt: Script for Zakrion's Vampire Appearance
+**************************************************************************************************/
+
+IF
+	Global("QI#ZakrionVampire","GLOBAL",1)
+THEN
+RESPONSE #100
+	CreateCreature("QI#ZAK2V",[1473.332],2) 
+	GiveItemCreate("QI#ZAKB","QI#ZAK2V",1,0,0) // When Zakrion the vampire dies, we are going to get her body
+	SetGlobal("QI#ZakrionVampire","GLOBAL",2)
+END

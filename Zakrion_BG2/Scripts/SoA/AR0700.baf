@@ -1,0 +1,19 @@
+/**************************************************************************************************
+			Zakrion's Mom and Half Brother's Location: Waukeen's Promenade
+**************************************************************************************************/
+
+IF
+	InParty("QI#ZAK2")
+	Global("QI#ZakMomExists","AR0700",0)
+	Global("QI#ZakBoyExists","AR0700",0)
+	OR(2)
+	   GlobalGT("QI#ZakrionKnownRomanceTalk","GLOBAL",6)
+	   GlobalGT("QI#ZakrionNotKnownRomanceTalk","GLOBAL",6)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakMomExists","AR0700",1)
+	SetGlobal("QI#ZakBoyExists","AR0700",1)
+	CreateCreature("QI#ZAMO",[453.1239],5)
+	CreateCreature("QI#ZABO",[384.1173],3)
+	Continue()
+END 

@@ -1,0 +1,35 @@
+/**************************************************************************************************
+										Zakrion's Step-Father Script
+**************************************************************************************************/
+
+// If Roe is Cured
+IF
+	InParty("QI#ZAK2")
+	Dead("Yaga01")
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+THEN
+RESPONSE #100
+	MoveBetweenAreas("AR5500",[3200.519],8)
+END 
+
+// If Roe isn't Cured
+IF
+	InParty("QI#ZAK2")
+	Dead("Yaga01")
+	Global("QI#ZakrionFamilyAlive","GLOBAL",0)
+THEN
+RESPONSE #100
+	Kill(Myself)
+END 
+
+// Leave after Reunion
+IF 
+	InParty("QI#ZAK2")
+	OR(3)
+		GlobalGT("QI#ZakrionKnownRomanceFamilyTalk","GLOBAL",3)
+		GlobalGT("QI#ZakrionNotKnownRomanceFamilyTalk","GLOBAL",3)
+		GlobalGT("QI#ZakrionFriendshipFamilyTalk","GLOBAL",3)
+THEN
+RESPONSE #100
+	EscapeArea()
+END 

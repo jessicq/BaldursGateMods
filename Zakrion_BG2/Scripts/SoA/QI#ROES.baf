@@ -1,0 +1,27 @@
+/**************************************************************************************************
+								Zakrion's Friend - Roe Pumperknickle
+**************************************************************************************************/
+
+IF
+	InParty("QI#ZAK2")
+	See("QI#ZAK2")
+	!StateCheck("QI#ZAK2",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#RoeEncounter","GLOBAL",0)
+THEN 
+RESPONSE #100
+	SetGlobal("QI#RoeEncounter","GLOBAL",1)
+END 
+
+IF
+	InParty("QI#ZAK2")
+	See("QI#ZAK2")
+	!StateCheck("QI#ZAK2",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#RoeEncounter","GLOBAL",1)
+THEN
+RESPONSE #100
+	Dialogue("QI#ZAK2")
+END 

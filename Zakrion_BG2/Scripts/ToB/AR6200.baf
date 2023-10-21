@@ -1,0 +1,252 @@
+/**************************************************************************************************
+										Epilogues
+**************************************************************************************************/
+
+// No Friendship and No Romance
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	!Global("QI#ZakrionTalkActive","GLOBAL",0)
+	!Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionBio","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak01")
+	SmallWait(1)
+	Continue()
+END
+
+// Friendship Track, but No Romance
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	!Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionBio","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak02")
+	SmallWait(1)
+	Continue()
+END
+
+// Known Romance Track + PC Ascended
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakrionBio","GLOBAL",0)
+	Global("PlayerChoseEssence","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak03")
+	SmallWait(1)
+	Continue()
+END
+
+// Known Romance Track + PC Not Ascended + Family + Ocean + Family is Alive
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakrionFamilyWanted","GLOBAL",1)
+	Global("QI#ZakrionOceanWanted","GLOBAL",1)
+	Global("QI#ZakrionBio","GLOBAL",0)
+	!Global("PlayerChoseEssence","GLOBAL",1)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak04")
+	SmallWait(1)
+	Continue()
+END
+
+// Known Romance Track + PC Not Ascended + Family + Ocean + Family is Not Alive
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakrionFamilyWanted","GLOBAL",1)
+	Global("QI#ZakrionOceanWanted","GLOBAL",1)
+	Global("QI#ZakrionBio","GLOBAL",0)
+	!Global("PlayerChoseEssence","GLOBAL",1)
+	!Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak13")
+	SmallWait(1)
+	Continue()
+END
+
+// Known Romance Track + PC Not Ascended + Family + No Ocean
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakrionFamilyWanted","GLOBAL",1)
+	!Global("QI#ZakrionOceanWanted","GLOBAL",1)
+	Global("QI#ZakrionBio","GLOBAL",0)
+	!Global("PlayerChoseEssence","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak05")
+	SmallWait(1)
+	Continue()
+END
+
+// Known Romance Track + PC Not Ascended + No Family + Ocean
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	!Global("QI#ZakrionFamilyWanted","GLOBAL",1)
+	Global("QI#ZakrionOceanWanted","GLOBAL",1)
+	Global("QI#ZakrionBio","GLOBAL",0)
+	!Global("PlayerChoseEssence","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak06")
+	SmallWait(1)
+	Continue()
+END
+
+// Known Romance Track + PC Not Ascended + No Family + No Ocean
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	!Global("QI#ZakrionFamilyWanted","GLOBAL",1)
+	!Global("QI#ZakrionOceanWanted","GLOBAL",1)
+	Global("QI#ZakrionBio","GLOBAL",0)
+	!Global("PlayerChoseEssence","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak07")
+	SmallWait(1)
+	Continue()
+END
+
+
+// Not Known Romance Track + PC Ascended
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakrionBio","GLOBAL",0)
+	Global("PlayerChoseEssence","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak08")
+	SmallWait(1)
+	Continue()
+END
+
+// Not Known Romance Track + PC Not Ascended + Family + Ocean + Family is Alive
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakrionFamilyWanted","GLOBAL",1)
+	Global("QI#ZakrionOceanWanted","GLOBAL",1)
+	Global("QI#ZakrionBio","GLOBAL",0)
+	!Global("PlayerChoseEssence","GLOBAL",1)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak09")
+	SmallWait(1)
+	Continue()
+END
+
+// Not Known Romance Track + PC Not Ascended + Family + Ocean + Family is Not Alive
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakrionFamilyWanted","GLOBAL",1)
+	Global("QI#ZakrionOceanWanted","GLOBAL",1)
+	Global("QI#ZakrionBio","GLOBAL",0)
+	!Global("PlayerChoseEssence","GLOBAL",1)
+	!Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak14")
+	SmallWait(1)
+	Continue()
+END
+
+// Not Known Romance Track + PC Not Ascended + Family + No Ocean
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakrionFamilyWanted","GLOBAL",1)
+	!Global("QI#ZakrionOceanWanted","GLOBAL",1)
+	Global("QI#ZakrionBio","GLOBAL",0)
+	!Global("PlayerChoseEssence","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak10")
+	SmallWait(1)
+	Continue()
+END
+
+// Not Known Romance Track + PC Not Ascended + No Family + Ocean
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	!Global("QI#ZakrionFamilyWanted","GLOBAL",1)
+	Global("QI#ZakrionOceanWanted","GLOBAL",1)
+	Global("QI#ZakrionBio","GLOBAL",0)
+	!Global("PlayerChoseEssence","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak11")
+	SmallWait(1)
+	Continue()
+END
+
+// Not Known Romance Track + PC Not Ascended + No Family + No Ocean
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	!Global("QI#ZakrionFamilyWanted","GLOBAL",1)
+	!Global("QI#ZakrionOceanWanted","GLOBAL",1)
+	Global("QI#ZakrionBio","GLOBAL",0)
+	!Global("PlayerChoseEssence","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionBio","GLOBAL",1)
+	TextScreen("QI#Zak12")
+	SmallWait(1)
+	Continue()
+END
+
+

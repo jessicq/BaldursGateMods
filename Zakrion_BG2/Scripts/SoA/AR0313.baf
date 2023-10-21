@@ -1,0 +1,63 @@
+
+/**************************************************************************************************
+			Zakrion's Location: Sea Bounty's Tavern
+**************************************************************************************************/
+
+IF
+	Dead("PIRSEA01")
+	Global("QI#ZAK2Exists","AR0313",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2Exists","AR0313",1)
+	CreateCreature("QI#ZAK2",[560.208],10)
+	Continue()
+END
+
+/**************************************************************************************************
+			Leveling Up According to the PC's Level
+**************************************************************************************************/
+
+IF
+	InParty("QI#ZAK2")
+	Global("QI#ZAK2ExperienceSet","GLOBAL",0)
+	XPLT(Player1,280001)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2ExperienceSet","GLOBAL",1)
+	Continue()
+END
+
+IF
+	InParty("QI#ZAK2")
+	Global("QI#ZAK2ExperienceSet","GLOBAL",0)
+	XPGT(Player1,280000)
+	XPLT(Player1,600001)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2ExperienceSet","GLOBAL",1)
+	AddXPObject("QI#ZAK2",239000)
+	Continue()
+END
+
+IF
+	InParty("QI#ZAK2")
+	Global("QI#ZAK2ExperienceSet","GLOBAL",0)
+	XPGT(Player1,600000)
+	XPLT(Player1,1000001)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2ExperienceSet","GLOBAL",1)
+	AddXPObject("QI#ZAK2",639000)
+	Continue()
+END
+
+IF
+	InParty("QI#ZAK2")
+	Global("QI#ZAK2ExperienceSet","GLOBAL",0)
+	XPGT(Player1,1000000)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2ExperienceSet","GLOBAL",1)
+	AddXPObject("QI#ZAK2",1039000)
+	Continue()
+END

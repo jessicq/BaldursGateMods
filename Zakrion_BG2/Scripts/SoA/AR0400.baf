@@ -1,0 +1,14 @@
+/**************************************************************************************************
+							Halfling Child + Salbread Quest in Slums
+**************************************************************************************************/
+
+IF
+	InParty("QI#ZAK2")
+	GlobalGT("QI#ZakrionTalk","GLOBAL",12)
+	Global("QI#HALFCExists","AR0400",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#HALFCExists","AR0400",1)
+	CreateCreature("QI#HALFC",[2875.1170],9)
+	Continue()
+END 

@@ -1,0 +1,13 @@
+/**************************************************************************************************
+						Roe Pumperknickle's Location: Brynnlaw
+**************************************************************************************************/
+
+IF
+	InParty("QI#ZAK2")
+	Global("QI#RoePumperknickleExists","AR1600",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#RoePumperknickleExists","AR1600",1)
+	CreateCreature("QI#ROE",[3085.2077],8)
+	Continue()
+END 

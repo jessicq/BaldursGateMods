@@ -1,0 +1,47 @@
+/**************************************************************************************************
+										The "Bully" 1
+**************************************************************************************************/
+
+/* Docks District Encounter */
+IF
+	InParty("QI#ZAK2")
+	See("QI#ZAK2")	
+	!StateCheck("QI#ZAK2",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakSalbreadQuest","GLOBAL",2)
+	!Global("QI#ZakSalbreadQuestActive","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakSalbreadQuest","GLOBAL",3)
+END 
+
+IF
+	InParty("QI#ZAK2")
+	See("QI#ZAK2")
+	!StateCheck("QI#ZAK2",CD_STATE_NOTVALID)
+	Global("QI#ZakSalbreadQuest","GLOBAL",3)
+THEN
+RESPONSE #100
+	Dialogue("QI#ZAK2")
+END 
+
+/* Sewers District Final Encounter */
+IF
+	InParty("QI#ZAK2")
+	See("QI#ZAK2")	
+	!StateCheck("QI#ZAK2",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakSalbreadQuest","GLOBAL",5)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakSalbreadQuest","GLOBAL",6)
+END
+
+IF
+	Global("QI#ZakSalbreadQuest","GLOBAL",6)
+THEN
+RESPONSE #100
+	StartDialogueNoSet("QI#ZAK2")
+END 

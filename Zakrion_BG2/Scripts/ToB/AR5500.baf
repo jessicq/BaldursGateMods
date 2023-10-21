@@ -1,0 +1,72 @@
+/**************************************************************************************************
+										Amkethran
+**************************************************************************************************/
+
+// Spawning Awakened Roe
+IF
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakrionKRFamilyTalk","GLOBAL",0)
+	Global("QI#RoeAwakensExists","AR5500",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#RoeAwakensExists","AR5500",1)
+	SetGlobal("QI#ZakrionKRFamilyTalk","GLOBAL",1)
+	CreateCreature("QI#RO25A", [3175.579], 13)
+	Continue()
+END 
+
+IF
+	InParty("QI#ZAK2")
+	!Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	Global("QI#ZakrionFriendshipFamilyTalk","GLOBAL",0)
+	Global("QI#RoeAwakensExists","AR5500",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#RoeAwakensExists","AR5500",1)
+	SetGlobal("QI#ZakrionFriendshipFamilyTalk","GLOBAL",1)
+	CreateCreature("QI#RO25A", [3175.579], 13)
+	Continue()
+END 
+
+IF
+	InParty("QI#ZAK2")
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakrionNKFamilyTalk","GLOBAL",0)
+	Global("QI#RoeAwakensExists","AR5500",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#RoeAwakensExists","AR5500",1)
+	SetGlobal("QI#ZakrionNKFamilyTalk","GLOBAL",1)
+	CreateCreature("QI#RO25A", [3175.579], 13)
+	Continue()
+END 
+
+IF
+	InParty("QI#ZAK2")
+	!Global("QI#ZakRomanceActive","GLOBAL",2)
+	!Global("QI#ZakrionTalkActive","GLOBAL",0)
+	Global("QI#ZakrionFamilyTalk","GLOBAL",0)
+	Global("QI#RoeAwakensExists","AR5500",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#RoeAwakensExists","AR5500",1)
+	SetGlobal("QI#ZakrionFamilyTalk","GLOBAL",1)
+	CreateCreature("QI#RO25A", [3175.579], 13)
+	Continue()
+END 
+
+// Spawning Escaped Edith
+IF
+	InParty("QI#ZAK2")
+	Global("QI#EdithEscaped","AR5500",0)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#EdithEscaped","AR5500",1)
+	CreateCreature("QI#ZME25", [3058.560], 12)
+	Continue()
+END 

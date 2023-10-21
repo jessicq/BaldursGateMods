@@ -1,0 +1,15 @@
+/**************************************************************************************************
+							Nabel Spawn in the Sewers
+**************************************************************************************************/
+
+IF
+	InParty("QI#ZAK2")
+	Global("QI#ZakSalbreadQuest","GLOBAL",5)
+	!Global("QI#ZakSalbreadQuestActive","GLOBAL",1)
+	Global("QI#BULL2Exists","AR0701",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#BULL2Exists","AR0701",1)
+	CreateCreature("QI#BULL2",[2242.2165],14)
+	Continue()
+END 

@@ -1,0 +1,1134 @@
+/**************************************************************************************************
+							Summoning Zakrion through the Fate Spirits
+**************************************************************************************************/
+
+IF
+	Global("QI#ZakSummoned","GLOBAL",1)
+THEN
+RESPONSE #100
+	Wait(1)
+	StartDialogueNoSet([PC])
+END
+
+
+/**************************************************************************************************
+							Leveling Up According to the PC's Level
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	Global("QI#ZAK2ExperienceSet","GLOBAL",0)
+	XPLT(Player1,280001)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2ExperienceSet","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	Global("QI#ZAK2ExperienceSet","GLOBAL",0)
+	XPGT(Player1,280000)
+	XPLT(Player1,600001)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2ExperienceSet","GLOBAL",1)
+	AddXPObject(Myself,239000)
+END
+
+IF
+	InParty(Myself)
+	Global("QI#ZAK2ExperienceSet","GLOBAL",0)
+	XPGT(Player1,600000)
+	XPLT(Player1,1000001)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2ExperienceSet","GLOBAL",1)
+	AddXPObject(Myself,639000)
+END
+
+IF
+	InParty(Myself)
+	Global("QI#ZAK2ExperienceSet","GLOBAL",0)
+	XPGT(Player1,1000000)
+	XPLT(Player1,1600001)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2ExperienceSet","GLOBAL",1)
+	AddXPObject(Myself,1039000)
+END
+
+IF 
+	InParty(Myself)
+	Global("QI#ZAK2ExperienceSet","GLOBAL",0)
+	XPGT(Player1,1600000)
+	XPLT(Player1,2000001)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2ExperienceSet","GLOBAL",1)
+	AddXPObject(Myself,1639000)
+END
+
+IF 
+	InParty(Myself)
+	Global("QI#ZAK2ExperienceSet","GLOBAL",0)
+	XPGT(Player1,2000000)
+	XPLT(Player1,2500001)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2ExperienceSet","GLOBAL",1)
+	AddXPObject(Myself,2039000)
+END
+
+IF 
+	InParty(Myself)
+	Global("QI#ZAK2ExperienceSet","GLOBAL",0)
+	XPGT(Player1,2500000)
+	XPLT(Player1,3000001)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2ExperienceSet","GLOBAL",1)
+	AddXPObject(Myself,2539000)
+END
+
+IF 
+	InParty(Myself)
+	Global("QI#ZAK2ExperienceSet","GLOBAL",0)
+	XPGT(Player1,3000000)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZAK2ExperienceSet","GLOBAL",1)
+	AddXPObject(Myself,3039000)
+END
+
+
+/**************************************************************************************************
+									Friendship Talks
+**************************************************************************************************/
+
+/*		Main Friendship Talks		*/
+IF
+	InParty(Myself)
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	Global("QI#ZakrionFriendshipToBTalk","GLOBAL",0)
+	!Global("QI#ZakRomanceActive","GLOBAL",2)
+THEN
+RESPONSE #100
+	RealSetGlobalTimer("QI#ZakrionFriendshipToBTimer","GLOBAL",3600)
+	SetGlobal("QI#ZakrionFriendshipToBTalk","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionFriendshipToBTimer","GLOBAL")
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	!Global("QI#ZakRomanceActive","GLOBAL",2)
+	OR(2)
+		Global("QI#ZakrionFriendshipToBTalk","GLOBAL",1)
+		Global("QI#ZakrionFriendshipToBTalk","GLOBAL",3)
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakrionFriendshipToBTalk","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionFriendshipToBTimer","GLOBAL")
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	!Global("QI#ZakRomanceActive","GLOBAL",2)
+	OR(2)
+		Global("QI#ZakrionFriendshipToBTalk","GLOBAL",2)
+		Global("QI#ZakrionFriendshipToBTalk","GLOBAL",4)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
+/*		Saradush Talk and Family Quest		*/
+IF
+	InParty(Myself)
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	!Global("QI#ZakRomanceActive","GLOBAL",2)
+	Dead("Yaga01")
+	Global("SaradushSacked","GLOBAL",1)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON) 
+	Global("QI#ZakrionFriendshipDestTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionFriendshipDestTalk","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakrionFriendshipDestTalk","GLOBAL",1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON) 
+	Dead("Yaga01")
+	Global("SaradushSacked","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
+/*		Talk After Seeing Roe and/or Family in Amkethran		*/
+
+// Everyone is Alive
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	See("QI#ZME25")
+	Global("QI#ZakrionFriendshipFamilyTalk","GLOBAL",1)
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionFriendshipFamilyTalk","GLOBAL",2)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	See("QI#ZME25")
+	Global("QI#ZakrionFriendshipFamilyTalk","GLOBAL",2)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!See("QI#RO25A")
+	Global("QI#ZakrionFriendshipFamilyTalk","GLOBAL",3)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+// Family is Dead
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	Global("QI#ZakrionFriendshipFamilyTalk","GLOBAL",1)
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionFriendshipFamilyTalk","GLOBAL",2)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	Global("QI#ZakrionFriendshipFamilyTalk","GLOBAL",2)
+	!Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!See("QI#ROE")
+	Global("QI#ZakrionFriendshipFamilyTalk","GLOBAL",3)
+	!Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+/*		Family Discussion Aftermath	- For All Tracks	*/
+IF
+	InParty(Myself)
+	See(Player1)
+	OR(2)
+		RealGlobalTimerExpired("QI#ZakrionFriendshipToBTimer","GLOBAL")
+		RealGlobalTimerExpired("QI#ZakrionRomanceToBTimer","GLOBAL")
+	Global("QI#ZakrionFamilyDiscussionTalk","GLOBAL",0)
+	OR(2)
+		Global("QI#ZakrionTalkActive","GLOBAL",0)
+		Global("QI#ZakRomanceActive","GLOBAL",2)
+	OR(3)
+		Global("QI#ZakrionFriendshipFamilyTalk","GLOBAL",4)
+		Global("QI#ZakrionKRFamilyTalk","GLOBAL",4)
+		Global("QI#ZakrionNKFamilyTalk","GLOBAL",4)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionFamilyDiscussionTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	See(Player1)
+	OR(2)
+		RealGlobalTimerExpired("QI#ZakrionFriendshipToBTimer","GLOBAL")
+		RealGlobalTimerExpired("QI#ZakrionRomanceToBTimer","GLOBAL")
+	Global("QI#ZakrionFamilyDiscussionTalk","GLOBAL",1)
+	OR(2)
+		Global("QI#ZakrionTalkActive","GLOBAL",0)
+		Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
+/*		Final Talk Before Amelyssan		*/
+IF
+	InParty(Myself)
+	See(Player1)
+	Dead("chalrv01")
+	Global("QI#ZakrionFriendshipFinalTalk","GLOBAL",0)
+	!Global("QI#ZakRomanceActive","GLOBAL",2)	
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionFriendshipFinalTalk","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakrionFriendshipFinalTalk","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
+/**************************************************************************************************
+									Known Romance Talks
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionKnownRomanceToBTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionKnownRomanceToBTalk","GLOBAL",1)
+	RealSetGlobalTimer("QI#ZakrionRomanceToBTimer","GLOBAL",3600)
+END 
+
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	RealGlobalTimerExpired("QI#ZakrionRomanceToBTimer","GLOBAL")
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	OR(3)
+		Global("QI#ZakrionKnownRomanceToBTalk","GLOBAL",1)
+		Global("QI#ZakrionKnownRomanceToBTalk","GLOBAL",3)
+		Global("QI#ZakrionKnownRomanceToBTalk","GLOBAL",5)
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakrionKnownRomanceToBTalk","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	RealGlobalTimerExpired("QI#ZakrionRomanceToBTimer","GLOBAL")
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	OR(3)
+		Global("QI#ZakrionKnownRomanceToBTalk","GLOBAL",2)
+		Global("QI#ZakrionKnownRomanceToBTalk","GLOBAL",4)
+		Global("QI#ZakrionKnownRomanceToBTalk","GLOBAL",6)
+THEN
+RESPONSE #100	
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END 
+
+/*		Saradush Talk and Family Quest		*/
+IF
+	InParty(Myself)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Dead("Yaga01")
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON) 
+	Global("SaradushSacked","GLOBAL",1)
+	Global("QI#ZakrionKnownRomanceDestTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionKnownRomanceDestTalk","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Dead("Yaga01")
+	Global("SaradushSacked","GLOBAL",1)
+	Global("QI#ZakrionKnownRomanceDestTalk","GLOBAL",1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON) 
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakrionCheckBodies","GLOBAL",2)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
+/*		Talk After Seeing Roe and/or Family in Amkethran		*/
+
+// Everyone is Alive
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	See("QI#ZME25")
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#ZakrionKRFamilyTalk","GLOBAL",1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionKRFamilyTalk","GLOBAL",2)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	See("QI#ZME25")
+	Global("QI#ZakrionKRFamilyTalk","GLOBAL",2)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!See("QI#RO25A")
+	Global("QI#ZakrionKRFamilyTalk","GLOBAL",3)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+// Family is Dead
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	Global("QI#ZakrionKRFamilyTalk","GLOBAL",1)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionKRFamilyTalk","GLOBAL",2)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	Global("QI#ZakrionKRFamilyTalk","GLOBAL",2)
+	!Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!See("QI#RO25A")
+	Global("QI#ZakrionKRFamilyTalk","GLOBAL",3)
+	!Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+/*		After the Third Challenge		*/
+IF
+	InParty(Myself)
+	See(Player1)
+	GlobalGT("BeginChallenge3","GLOBAL",2)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakrionKnownChallengeTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionKnownChallengeTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	See(Player1)
+	Global("QI#ZakrionKnownChallengeTalk","GLOBAL",1)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100	
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END
+
+
+/*		Proposal		*/
+IF
+	InParty(Myself)
+	See(Player1)
+	Global("QI#ZakrionKnownChallengeTalk","GLOBAL",2)
+	Global("QI#ZakrionProposal","GLOBAL",0)
+	RealGlobalTimerExpired("QI#ZakrionRomanceToBTimer","GLOBAL")
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionProposal","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	Global("QI#ZakrionKnownChallengeTalk","GLOBAL",2)
+	RealGlobalTimerExpired("QI#ZakrionRomanceToBTimer","GLOBAL")
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakrionProposal","GLOBAL",1)
+THEN
+RESPONSE #100	
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END
+
+
+/*		Final Talk Before Amelyssan		*/
+IF
+	InParty(Myself)
+	See(Player1)
+	Dead("chalrv01")
+	Global("QI#ZakrionKnownRomanceFinalTalk","GLOBAL",0)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionKnownRomanceFinalTalk","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionKnownRomanceFinalTalk","GLOBAL",1)
+THEN
+RESPONSE #100
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END
+
+
+/**************************************************************************************************
+									Not Known Romance Talks
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionNotKnownRomanceToBTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionNotKnownRomanceToBTalk","GLOBAL",1)
+	RealSetGlobalTimer("QI#ZakrionRomanceToBTimer","GLOBAL",3600)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	RealGlobalTimerExpired("QI#ZakrionRomanceToBTimer","GLOBAL")
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	OR(3)
+		Global("QI#ZakrionNotKnownRomanceToBTalk","GLOBAL",1)
+		Global("QI#ZakrionNotKnownRomanceToBTalk","GLOBAL",3)
+		Global("QI#ZakrionNotKnownRomanceToBTalk","GLOBAL",5)
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakrionNotKnownRomanceToBTalk","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	RealGlobalTimerExpired("QI#ZakrionRomanceToBTimer","GLOBAL")
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	OR(3)
+		Global("QI#ZakrionNotKnownRomanceToBTalk","GLOBAL",2)
+		Global("QI#ZakrionNotKnownRomanceToBTalk","GLOBAL",4)
+		Global("QI#ZakrionNotKnownRomanceToBTalk","GLOBAL",6)
+THEN
+RESPONSE #100	
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END 
+
+
+/*		Saradush Talk and Family Quest		*/
+IF
+	InParty(Myself)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Dead("Yaga01")
+	Global("SaradushSacked","GLOBAL",1)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON) 
+	Global("QI#ZakrionNKRomanceDestTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionNKRomanceDestTalk","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionNKRomanceDestTalk","GLOBAL",1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON) 
+	Dead("Yaga01")
+	Global("SaradushSacked","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
+/*		Talk After Seeing Roe and/or Family in Amkethran		*/
+
+// Everyone is Alive
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	See("QI#ZME25")
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#ZakrionNKFamilyTalk","GLOBAL",1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionNKFamilyTalk","GLOBAL",2)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	See("QI#ZME25")
+	Global("QI#ZakrionNKFamilyTalk","GLOBAL",2)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!See("QI#RO25A")
+	Global("QI#ZakrionNKFamilyTalk","GLOBAL",3)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+// Family is Dead
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	Global("QI#ZakrionNKFamilyTalk","GLOBAL",1)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionNKFamilyTalk","GLOBAL",2)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	Global("QI#ZakrionNKFamilyTalk","GLOBAL",2)
+	!Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!See("QI#ROE")
+	Global("QI#ZakrionNKFamilyTalk","GLOBAL",3)
+	!Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+/*		After the Third Challenge		*/
+IF
+	InParty(Myself)
+	See(Player1)
+	GlobalGT("BeginChallenge3","GLOBAL",2)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakrionNotKnownChallengeTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionNotKnownChallengeTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	See(Player1)
+	Global("QI#ZakrionNotKnownChallengeTalk","GLOBAL",1)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100	
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END
+
+/*		Final Talk Before Amelyssan		*/
+IF
+	InParty(Myself)
+	See(Player1)
+	Dead("chalrv01")
+	Global("QI#ZakrionNKRomanceFinalTalk","GLOBAL",0)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionNKRomanceFinalTalk","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionNKRomanceFinalTalk","GLOBAL",1)
+THEN
+RESPONSE #100
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END
+
+
+/**************************************************************************************************
+									Gorion's Wraith, Romance Only
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionWraithSpirit","GLOBAL",1)
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakrionWraithSpirit","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionWraithSpirit","GLOBAL",2)
+THEN
+RESPONSE #100
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END 
+
+/**************************************************************************************************
+									Secured Berries - Roe is Sick Quest
+***************************************************************************************************/
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakSaradushFamily","GLOBAL",4)
+	PartyHasItem("QI#ZBERR")
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakSaradushFamily","GLOBAL",5)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakSaradushFamily","GLOBAL",5)
+	PartyHasItem("QI#ZBERR")
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakSaradushFamily","GLOBAL",2)
+	Global("QI#ZakSaradushFamilyOut","GLOBAL",0)
+	!AreaCheck("AR5012")
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakSaradushFamilyOut","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaCheck("AR5012")
+	Global("QI#ZakSaradushFamily","GLOBAL",2)
+	Global("QI#ZakSaradushFamilyOut","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+/**************************************************************************************************
+									No Friendship or Romance
+***************************************************************************************************/
+
+
+/*		Talk After Seeing Roe and/or Family in Amkethran		*/
+
+// Everyone is Alive
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	See("QI#ZME25")
+	Global("QI#ZakrionFamilyTalk","GLOBAL",1)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionFamilyTalk","GLOBAL",2)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	See("QI#ZME25")
+	Global("QI#ZakrionFamilyTalk","GLOBAL",2)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+
+// Family is Dead
+IF
+	InParty(Myself)
+	See(Player1)
+	See("QI#RO25A")
+	Global("QI#ZakrionFamilyTalk","GLOBAL",1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionFamilyTalk","GLOBAL",2)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	Global("QI#ZakrionFamilyTalk","GLOBAL",2)
+	!Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	!StateCheck(Player1,CD_STATE_NOTVALID) 
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+ 

@@ -1,0 +1,15 @@
+/**************************************************************************************************
+							Halfling Child + Salbread Quest in Docks
+**************************************************************************************************/
+
+IF
+	InParty("QI#ZAK2")
+	Global("QI#ZakSalbreadQuest","GLOBAL",2)
+	!Global("QI#ZakSalbreadQuestActive","GLOBAL",1)
+	Global("QI#BULL1Exists","AR0300",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#BULL1Exists","AR0300",1)
+	CreateCreature("QI#BULL1",[2041.3325],1)
+	Continue()
+END 

@@ -1,0 +1,742 @@
+/**************************************************************************************************
+								Introduction - Finding Zakrion
+**************************************************************************************************/
+
+IF
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakFreed","GLOBAL",0)
+	Dead("PIRSEA01")
+THEN 
+RESPONSE #100
+	SetGlobal("QI#ZakFreed","GLOBAL",1)
+END 
+
+IF
+	Global("QI#ZakFreed","GLOBAL",1)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+/**************************************************************************************************
+										Friendship Track
+**************************************************************************************************/
+
+/*		Requirements	*/
+IF 
+	InParty(Myself)
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	Global("QI#ZakrionTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+	RealSetGlobalTimer("QI#ZakrionTalkTimer","GLOBAL",3600)
+	SetGlobal("QI#ZakrionTalk","GLOBAL",1)
+END 
+
+/*		Initiating Friendship Talks		*/
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionTalkTimer","GLOBAL")
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	OR(11)
+		Global("QI#ZakrionTalk","GLOBAL",1) // Talk 1 - Buttercup Introduction
+		Global("QI#ZakrionTalk","GLOBAL",3) // Talk 2 - Irenicus who?
+		Global("QI#ZakrionTalk","GLOBAL",5) // Talk 3 - I've been thinking...
+		Global("QI#ZakrionTalk","GLOBAL",7) // Talk 4 - My doubts
+		Global("QI#ZakrionTalk","GLOBAL",9) // Talk 5 - Feels like I keep apologizing to you
+		Global("QI#ZakrionTalk","GLOBAL",11) // Talk 6 - What does being a Bhaalspawn mean to you?
+		Global("QI#ZakrionTalk","GLOBAL",13) // Talk 7 - Maybe you should consider getting yourself a Buttercup
+		Global("QI#ZakrionTalk","GLOBAL",15) // Talk 8 - I'm seeing you accomplish so much
+		Global("QI#ZakrionTalk","GLOBAL",17) // Talk 9 - I guess I never told you about how I was captured, huh?
+		Global("QI#ZakrionTalk","GLOBAL",19) // Talk 10 - So, care to tell me what you've been up to since Baldur's Gate?
+		Global("QI#ZakrionTalk","GLOBAL",21) // Talk 11 - Daydreaming
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakrionTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionTalkTimer","GLOBAL")
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	OR(11)
+		Global("QI#ZakrionTalk","GLOBAL",2) // Talk 1 - Buttcup Introduction
+		Global("QI#ZakrionTalk","GLOBAL",4) // Talk 2 - Irenicus who?
+		Global("QI#ZakrionTalk","GLOBAL",6) // Talk 3 - I've been thinking...
+		Global("QI#ZakrionTalk","GLOBAL",8) // Talk 4 - My doubts
+		Global("QI#ZakrionTalk","GLOBAL",10) // Talk 5 - Feels like I keep apologizing to you
+		Global("QI#ZakrionTalk","GLOBAL",12) // Talk 6 - What does being a Bhaalspawn mean to you?
+		Global("QI#ZakrionTalk","GLOBAL",14) // Talk 7 - Maybe you should consider getting yourself a Buttercup
+		Global("QI#ZakrionTalk","GLOBAL",16) // Talk 8 - I'm seeing you accomplish so much
+		Global("QI#ZakrionTalk","GLOBAL",18) // Talk 9 - I guess I never told you about how I was captured, huh?
+		Global("QI#ZakrionTalk","GLOBAL",20) // Talk 10 - So, care to tell me what you've been up to since Baldur's Gate?
+		Global("QI#ZakrionTalk","GLOBAL",22) // Talk 11 - Daydreaming
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
+/**************************************************************************************************
+					Known Romance Track
+**************************************************************************************************/
+
+/*		Requirements	*/
+IF
+	InParty(Myself)
+	Global("QI#ZakrionKnownRomanceTalk","GLOBAL",0)
+	Global("QI#ZakRomanceActive","GLOBAL",1)
+	Global("ZakrionTalkActive","GLOBAL",0)
+	GlobalGT("QI#ZakrionTalk","GLOBAL",22)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionKnownRomanceTalk","GLOBAL",1)
+	RealSetGlobalTimer("QI#ZakrionRomanceTimer","GLOBAL",3600)
+END
+
+
+/*		Initiating Romance Talks		*/
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	!Global("QI#ZakrionKnownDecision","GLOBAL",1)
+	OR(7)
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",1) // Talk 1 - I still can't believe I'm here with you
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",3) // Talk 2 - What happened with Irenicus?
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",5) // Talk 3 - Have you ever made a mistake before?
+		//Global("QI#ZakrionKnownRomanceTalk","GLOBAL",7) // Talk 4 - Meeting with His Mom
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",9) // Talk 5 - My best friend is Buttercup
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",11) // Talk 6 - I meant to ask you...
+		//Global("QI#ZakrionKnownRomanceTalk","GLOBAL",13) // Talk 7 - Stay the night with me
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",15) // Talk 8 - Salbread
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",17) // Talk 9 - This feels right
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakrionKnownRomanceTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakPCKnown","GLOBAL",1)
+	!Global("QI#ZakrionKnownDecision","GLOBAL",1)
+	OR(7)
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",2) // Talk 1 - I still can't believe I'm here with you
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",4) // Talk 2 - What happened with Irenicus?
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",6) // Talk 3 - Have you ever made a mistake before?
+		//Global("QI#ZakrionKnownRomanceTalk","GLOBAL",8) // Talk 4 - Meeting with His Mom
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",10) // Talk 5 - My best friend is Buttercup
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",12) // Talk 6 - I meant to ask you...
+		//Global("QI#ZakrionKnownRomanceTalk","GLOBAL",14) // Talk 7 - Stay the night with me
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",16) // Talk 8 - Salbread
+		Global("QI#ZakrionKnownRomanceTalk","GLOBAL",18) // Talk 9 - This feels right
+THEN
+RESPONSE #100
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END
+
+
+/*		Talk 4 - Encounter with His Mom		*/
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakMomEncounter","GLOBAL",4)
+	!Global("QI#ZakrionKnownDecision","GLOBAL",1)
+	Global("QI#ZakrionKnownRomanceTalk","GLOBAL",7)
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakrionKnownRomanceTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	!Global("QI#ZakrionKnownDecision","GLOBAL",1)
+	Global("QI#ZakrionKnownRomanceTalk","GLOBAL",8)
+THEN
+RESPONSE #100
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END
+
+
+/* 		Spent the night together	 */
+IF 
+	//PartyRested()
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakrionKnownNotNightSpent","GLOBAL",0)
+	!Global("QI#ZakrionKnownDecision","GLOBAL",1)
+	Global("QI#ZakrionKnownNightSpent","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionKnownNightSpent","GLOBAL",2)
+END 
+
+IF
+	Global("QI#ZakrionKnownNightSpent","GLOBAL",2)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+/* 		Did not spend the night together	 */
+IF 
+	//PartyRested()
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	!Global("QI#ZakrionKnownDecision","GLOBAL",1)
+	Global("QI#ZakrionKnownNotNightSpent","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionKnownNotNightSpent","GLOBAL",2)
+END 
+
+IF
+	Global("QI#ZakrionKnownNotNightSpent","GLOBAL",2)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/**************************************************************************************************
+										Not Known Romance Track
+**************************************************************************************************/
+
+/*		Requirements	*/
+IF
+	InParty(Myself)
+	Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",0)
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	Global("QI#ZakrionTalkActive","GLOBAL",0)
+	GlobalGT("QI#ZakrionTalk","GLOBAL",22)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionNotKnownRomanceTalk","GLOBAL",1)
+	RealSetGlobalTimer("QI#ZakrionRomanceTimer","GLOBAL",3600)
+END
+
+
+/*		Initiating Romance Talks		*/
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	!Global("QI#ZakrionNotKnownDecision","GLOBAL",1)
+	OR(7)
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",1) // Talk 1 - This is a new 
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",3) // Talk 2 - What happened with Irenicus?
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",5) // Talk 3 - Have you ever made a mistake before?
+		//Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",7) // Talk 4 - Meeting with His Mom
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",9) // Talk 5 - My best friend is Buttercup
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",11) // Talk 6 - I meant to ask you...
+		//Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",13) // Talk 7 - Stay the night with me
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",15) // Talk 8 - Salbread
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",17) // Talk 9 - I feel like I'm on the right track 
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakrionNotKnownRomanceTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	!Global("QI#ZakPCKnown","GLOBAL",1)
+	!Global("QI#ZakrionNotKnownDecision","GLOBAL",1)
+	OR(7)
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",2) // Talk 1 - This is a new 
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",4) // Talk 2 - What happened with Irenicus?
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",6) // Talk 3 - Have you ever made a mistake before?
+		//Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",8) // Talk 4 - Meeting with His Mom
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",10) // Talk 5 - My best friend is Buttercup
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",12) // Talk 6 - I meant to ask you...
+		//Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",14) // Talk 7 - Stay the night with me
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",16) // Talk 8 - Salbread
+		Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",18) // Talk 9 - I feel like I'm on the right track 
+THEN
+RESPONSE #100
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END
+
+
+/*		Talk 4 - Encounter with His Mom		*/
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakMomEncounter","GLOBAL",4)
+	Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",7)
+	!Global("QI#ZakrionNotKnownDecision","GLOBAL",1)
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakrionNotKnownRomanceTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",8)
+	!Global("QI#ZakrionNotKnownDecision","GLOBAL",1)
+THEN
+RESPONSE #100
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END
+
+
+/* 		Spent the night together	 */
+IF 
+	//PartyRested()
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakrionNotKnownNotNightSpent","GLOBAL",0)
+	Global("QI#ZakrionNotKnownNightSpent","GLOBAL",1)
+	!Global("QI#ZakrionNotKnownDecision","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionNotKnownNightSpent","GLOBAL",2)
+END 
+
+IF
+	Global("QI#ZakrionNotKnownNightSpent","GLOBAL",2)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+/* 		Did not spend the night together	 */
+IF 
+	//PartyRested()
+	InParty(Myself)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakrionNotKnownNotNightSpent","GLOBAL",1)
+	!Global("QI#ZakrionNotKnownDecision","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionNotKnownNotNightSpent","GLOBAL",2)
+END 
+
+IF
+	Global("QI#ZakrionNotKnownNotNightSpent","GLOBAL",2)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/**************************************************************************************************
+						Romance Track - Extra Dialogue if PC is a Halfling
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	Race(Player1,HALFLING)
+	Global("QI#ZakPCIsHalflingTalk","GLOBAL",0)
+	OR(2)
+		GlobalGT("QI#ZakrionNotKnownRomanceTalk","GLOBAL",18)
+		GlobalGT("QI#ZakrionKnownRomanceTalk","GLOBAL",18)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakPCIsHalflingTalk","GLOBAL",1)
+END 
+
+IF 
+	InParty(Myself)
+	Global("QI#ZakPCIsHalflingTalk","GLOBAL",1)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/**************************************************************************************************
+										Events
+***************************************************************************************************/
+
+/*		Quest in Docks		*/
+IF 
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakSalbreadQuest","GLOBAL",3)
+	!See("QI#BULL1")
+	!Global("QI#ZakSalbreadQuestActive","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakSalbreadQuest","GLOBAL",4)
+END 
+
+IF
+	Global("QI#ZakSalbreadQuest","GLOBAL",4)
+THEN
+RESPONSE #100
+	Wait(2)
+	StartDialogueNoSet(Player1)
+END 
+
+
+/*		Buttercup Alerts		*/
+
+// In Temple District
+IF
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	PartyHasItem("QI#ZHAND")
+	AreaCheck("AR0900")
+	!Global("QI#ZakSalbreadQuestActive","GLOBAL",1)
+	Global("QI#ZakButtercupAlert","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakButtercupAlert","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakButtercupAlert","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+// In Sewers
+IF
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	PartyHasItem("QI#ZHAND")
+	AreaCheck("AR0701")
+	!Global("QI#ZakSalbreadQuestActive","GLOBAL",1)
+	Global("QI#ZakButtercupAlert","GLOBAL",2)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakButtercupAlert","GLOBAL",3)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakButtercupAlert","GLOBAL",3)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+/*		Buttercup Ability Gained		*/
+IF 
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakSalbreadQuest","GLOBAL",8)
+	!AreaCheck("AR0701")
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakSalbreadQuest","GLOBAL",9)
+END 
+
+IF
+	Global("QI#ZakSalbreadQuest","GLOBAL",9)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
+IF
+	InParty(Myself)
+	Global("QI#ZakSalbreadQuest","GLOBAL",10)	
+THEN
+RESPONSE #100
+	AddSpecialAbility("SPCL521")
+	SetGlobal("QI#ZakSalbreadQuest","GLOBAL",11)	
+END 
+
+
+/*		Arriving at Brynnlaw		*/
+IF
+	InParty(Myself)
+	AreaCheck("AR1600")
+	Global("QI#ZakrionBrynnlaw","GLOBAL",0)
+THEN 
+RESPONSE #100
+	RealSetGlobalTimer("QI#ZakrionBrynnlawTimer","GLOBAL",500)
+	SetGlobal("QI#ZakrionBrynnlaw","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	RealGlobalTimerExpired("QI#ZakrionBrynnlawTimer","GLOBAL")
+	Global("QI#ZakrionBrynnlaw","GLOBAL",1)
+THEN 
+RESPONSE #100
+	SetGlobal("QI#ZakrionBrynnlaw","GLOBAL",2)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakrionBrynnlaw","GLOBAL",2)
+	RealGlobalTimerExpired("QI#ZakrionBrynnlawTimer","GLOBAL")
+THEN 
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+/*		Unable to kill Desharik	- Part 1	*/
+IF
+	InParty(Myself)
+	!Dead("deshar")
+	Global("QI#ZakrionDesharikMeeting","GLOBAL",1)
+	Global("QI#RoeEncounter","GLOBAL",2)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionDesharikMeeting","GLOBAL",2)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakrionDesharikMeeting","GLOBAL",2)
+	!AreaCheck("AR1601")
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/*		Unable to kill Desharik	- Part 2	*/
+IF
+	InParty(Myself)
+	Global("QI#ZakrionDesharikMeeting","GLOBAL",3)
+	RealGlobalTimerExpired("QI#ZakrionDesharikTimer","GLOBAL")
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionDesharikMeeting","GLOBAL",4)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	RealGlobalTimerExpired("QI#ZakrionDesharikTimer","GLOBAL")
+	Global("QI#ZakrionDesharikMeeting","GLOBAL",4)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+/*		If Desharik is somehow killed	*/
+IF
+	InParty(Myself)
+	Dead("deshar")
+	Global("QI#ZakrionDesharikKilled","GLOBAL",0)
+	Global("QI#RoeEncounter","GLOBAL",2)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionDesharikKilled","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakrionDesharikKilled","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+/*		Entering the Sahuagin City		*/
+IF
+	InParty(Myself)
+	AreaCheck("AR2300")
+	Global("QI#ZakrionUnderwaterCity","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionUnderwaterCity","GLOBAL",1)
+	RealSetGlobalTimer("QI#ZakrionUnderwaterCityTimer","GLOBAL",1800)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakrionUnderwaterCity","GLOBAL",1)
+	RealGlobalTimerExpired("QI#ZakrionUnderwaterCityTimer","GLOBAL")
+	AreaCheck("AR2300")
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionUnderwaterCity","GLOBAL",2)
+END 
+
+IF 
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakrionUnderwaterCity","GLOBAL",2)
+	RealGlobalTimerExpired("QI#ZakrionUnderwaterCityTimer","GLOBAL")
+	AreaCheck("AR2300")
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/*		Post-Vampire Dialogue	*/
+IF
+	Global("QI#ZakrionVampire","GLOBAL",4)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)	
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END

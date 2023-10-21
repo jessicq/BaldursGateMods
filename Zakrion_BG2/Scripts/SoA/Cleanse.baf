@@ -1,0 +1,29 @@
+/**************************************************************************************************
+								Zakrion's Abduction - Amaunator's Altar
+**************************************************************************************************/
+
+IF
+	Contains("QI#ZAKB",Myself)
+	Global("QI#ZakrionCleanseVampire","AR1401",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionCleanseVampire","AR1401",1)
+END
+
+IF
+	Contains("QI#ZAKB",Myself)
+	Contains("MISCBP",Myself)   // Bodhi's heart
+THEN
+RESPONSE #100
+	SetInterrupt(FALSE) // We don't want this to be interrupted
+	SetGlobal("QI#ZakrionCleanseVampire","AR1401",2)
+	DestroyItem("QI#ZAKB")      // the body mysteriously disappears
+	DestroyItem("MISCBP")
+	CreateVisualEffect("SPMETSW2",[2592.1701]) // some pretty visual effects
+	CreateVisualEffect("SPMETSW2",[2645.1742])
+	Wait(1)
+	CreateVisualEffect("SPFLESHS",[2565.1677])
+	Wait(1)
+	MoveGlobal("AR1401","QI#ZAK2",[2565.1677])  // And here's Zakrion!
+	SetInterrupt(TRUE)
+END

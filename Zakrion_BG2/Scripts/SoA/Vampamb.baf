@@ -1,0 +1,34 @@
+/**************************************************************************************************
+							Zakrion's New Script During the Abduction
+**************************************************************************************************/
+IF
+	Global("QI#ZakrionCleanseVampire","AR1401",2)
+	Global("QI#ZakrionVampire","GLOBAL",3)
+	Name("QI#ZAK2",Myself)
+	AreaCheck("AR1401")
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionVampire","GLOBAL",4)
+	DialogInterrupt(TRUE)
+	ChangeAIScript("QI#ZAK2S",OVERRIDE) // setting script back when restored via Amaunator's altar
+END
+
+IF
+	Global("QI#ZakrionVampire","GLOBAL",1)
+	Global("QI#ZakrionRomanceVampire","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionRomanceVampire","GLOBAL",1)
+	Continue()
+END
+
+IF
+	Global("QI#ZakrionVampire","GLOBAL",1)
+	Global("QI#ZakrionRomanceVampireTeleport","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionRomanceVampireTeleport","GLOBAL",1)
+	CreateVisualEffectObject("SPDIMNDR",Myself)  
+	Wait(2)
+	DestroySelf()
+END

@@ -1,0 +1,40 @@
+/*			Introduction of Halfling Salbread Quest			*/
+
+IF
+	InParty("QI#ZAK2")
+	See(Player1)
+	See("QI#ZAK2")
+	!StateCheck("Player1",CD_STATE_NOTVALID)
+	!StateCheck("QI#ZAK2",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	GlobalGT("QI#ZakrionTalk","GLOBAL",12)
+	Global("QI#ZakSalbreadQuest","GLOBAL",0)
+THEN 
+RESPONSE #100
+	SetGlobal("QI#ZakSalbreadQuest","GLOBAL",1)
+END 
+
+IF 
+	InParty("QI#ZAK2")
+	See(Player1)
+	See("QI#ZAK2")
+	!StateCheck("Player1",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])	
+	Global("QI#ZakSalbreadQuest","GLOBAL",1)
+THEN
+RESPONSE #100
+	Dialogue(Player1)
+END 
+
+
+/*			Quest Completion			*/
+IF
+	Global("QI#ZakSalbreadQuest","GLOBAL",12)
+THEN
+RESPONSE #100
+	AddexperienceParty(29750)
+	IncrementGlobal("QI#ZakSalbreadQuest","GLOBAL",1)
+	EscapeArea()
+END 

@@ -1,0 +1,50 @@
+/**************************************************************************************************
+										Peasant Home in Saradush
+**************************************************************************************************/
+
+// Spawning Roe
+IF
+	InParty("QI#ZAK2")
+	Global("QI#Roe25Exists","AR5012",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#Roe25Exists","AR5012",1)
+	CreateCreature("QI#ROE25", [145.192], 13)
+	Continue()
+END 
+
+
+// Spawning Step-Father
+IF
+	InParty("QI#ZAK2")
+	Global("QI#ZakStepFatherExists","AR5012",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakStepFatherExists","AR5012",1)
+	CreateCreature("QI#ZST25", [231.291], 11)
+	Continue()
+END 
+
+
+// Spawning Zakrion's Mother - Edith
+IF
+	InParty("QI#ZAK2")
+	Global("QI#ZakMother25Exists","AR5012",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakMother25Exists","AR5012",1)
+	CreateCreature("QI#ZMO25", [244.185], 4)
+	Continue()
+END 
+
+
+// Spawning Half-Bro
+IF
+	InParty("QI#ZAK2")
+	Global("QI#ZakHalfBrotherExists","AR5012",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakHalfBrotherExists","AR5012",1)
+	CreateCreature("QI#ZBO25", [370.227], 9)
+	Continue()
+END 

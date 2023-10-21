@@ -1,0 +1,104 @@
+/**************************************************************************************************
+										Known Romance Track
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakrionKnownRomanceTalk","GLOBAL",13) // Talk 7 - Stay the night with me
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakrionKnownRomanceTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakrionKnownRomanceTalk","GLOBAL",14) // Talk 7 - Stay the night with me
+THEN
+RESPONSE #100
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END
+
+
+/**************************************************************************************************
+										Not Known Romance Track
+**************************************************************************************************/
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",13) // Talk 7 - Stay the night with me
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakrionNotKnownRomanceTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakrionRomanceTimer","GLOBAL")
+	!Global("QI#ZakRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("QI#ZakrionNotKnownRomanceTalk","GLOBAL",14) // Talk 7 - Stay the night with me
+THEN
+RESPONSE #100
+	PlaySong(0)
+	PlaySound("QI#ZAKR")
+	StartDialogueNoSet(Player1)
+END
+
+
+/**************************************************************************************************
+										Events
+***************************************************************************************************/
+
+/*		Unable to kill Desharik	- Part 2	*/
+IF
+	InParty(Myself)
+	!Dead("deshar")
+	Global("QI#ZakrionDesharikMeeting","GLOBAL",3)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionDesharikMeeting","GLOBAL",4)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakrionDesharikMeeting","GLOBAL",4)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 

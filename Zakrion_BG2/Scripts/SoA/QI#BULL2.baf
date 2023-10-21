@@ -1,0 +1,12 @@
+/**************************************************************************************************
+			The "Bully" 2
+**************************************************************************************************/
+
+/* Sewers District Final Encounter */
+IF 
+	Global("QI#ZakSalbreadQuest","GLOBAL",7)
+THEN
+RESPONSE #100
+	ReallyForceSpell("QI#BULL2", WIZARD_HASTE)
+	SetGlobal("QI#ZakSalbreadQuest","GLOBAL",8)
+END 	

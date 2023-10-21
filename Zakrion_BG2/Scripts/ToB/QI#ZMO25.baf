@@ -1,0 +1,85 @@
+/**************************************************************************************************
+										Zakrion's Mother Script
+**************************************************************************************************/
+
+/**************************************************************************************************
+									Roe's Quest - Finding Family
+**************************************************************************************************/
+
+IF
+	InParty("QI#ZAK2")
+	!StateCheck("QI#ZAK2",CD_STATE_NOTVALID) 
+	See("QI#ZAK2")
+	Global("QI#ZakSaradushFamily","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakSaradushFamily","GLOBAL",1)
+END 
+
+IF
+	InParty("QI#ZAK2")
+	!StateCheck("QI#ZAK2",CD_STATE_NOTVALID)
+	See("QI#ZAK2")
+	Global("QI#ZakSaradushFamily","GLOBAL",1)
+THEN
+RESPONSE #100
+	Dialogue("QI#ZAK2")
+END 
+
+
+/**************************************************************************************************
+									Roe's Quest - Returning with Berries
+**************************************************************************************************/
+
+IF
+	InParty("QI#ZAK2")
+	See("QI#ZAK2")
+	PartyHasItem("QI#ZBERR")
+	Global("QI#ZakSaradushFamily","GLOBAL",6)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakSaradushFamily","GLOBAL",7)
+END
+
+IF
+	InParty("QI#ZAK2")
+	See("QI#ZAK2")
+	PartyHasItem("QI#ZBERR")
+	Global("QI#ZakSaradushFamily","GLOBAL",7)
+THEN
+RESPONSE #100
+	Dialogue("QI#ZAK2")
+END 
+
+// Destroy Berries
+IF
+	Global("QI#ZakSaradushFamily","GLOBAL",8)
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+	Global("QI#RoeBerriesEaten","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#RoeBerriesEaten","GLOBAL",1)
+	TakePartyItemAll("QI#ZBERR")
+END 
+
+/* If Roe is Cured
+IF
+	InParty("QI#ZAK2")
+	Dead("Yaga01")
+	Global("QI#ZakrionFamilyAlive","GLOBAL",1)
+THEN
+RESPONSE #100
+	//MoveBetweenAreas("AR5500",[3058.560],12)
+	EscapeAreaMove("AR5500",3058,560,12)
+END 
+
+// If Roe isn't Cured
+IF
+	InParty("QI#ZAK2")
+	Dead("Yaga01")
+	Global("QI#ZakrionFamilyAlive","GLOBAL",0)
+THEN
+RESPONSE #100
+	Kill(Myself)
+END 
+*/
