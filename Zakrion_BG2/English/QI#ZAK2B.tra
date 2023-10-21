@@ -1,0 +1,411 @@
+/**************************************************************************************************
+								Anomen Banters (3 + 4 Romance Conflicts)
+**************************************************************************************************/
+@0 = ~Hey, Anomen. You've been training for quite a while now, and you mentioned you had a good many tales of your great deeds.~
+@1 = ~What's the secret to your success?~
+@2 = ~Aye, I have trained very long and hard to achieve my current status.~
+@3 = ~My secret is my sheer willpower and dedication to the Order of the Radiant Heart.~
+@4 = ~Right, yeah. I understand that. Dedication. Willpower.~
+@5 = ~Isn't that what everyone says? I'm asking what defines you for *you*.~
+@6 = ~Ha! As if you would understand the true definition of those words. Dedication and willpower - what does a pirate know?~
+@7 = ~If anything, you and your people should be brought to justice. You know of only pilfering and the constant swig of ale!~
+@8 = ~Actually, I hear the Moon Rum is making its way to the black hearts of us pirates.~
+@9 = ~You should try some.~
+@10 = ~Care to have a drink, Anomen? It's on me.~
+@11 = ~Aye, that would be most welcome.~
+@12 = ~We don't need to talk about what happened during that whole cult-looking order initiation of knighthood thing.~
+@13 = ~If you ask me, if someone dear was taken from me, I'm sure I would've taken the same course of action as you.~
+@14 = ~The law only goes so far, and it does nothing to help those without wealth.~
+@15 = ~I had dedicated my life to do what was right for the Order, and they toss me aside after I have provided justice!~
+@16 = ~I didn't expect to agree with you, but, aye, you are right. To hell with those damned fools!~
+@17 = ~I mean, I didn't say that, but I'll drink to that!~
+@18 = ~How does it feel to be the man of the honor, Anomen?~
+@19 = ~It is *Sir* Anomen Delryn.~
+@20 = ~Right, but you remember I'm a pirate, right? I don't really care for all the extra pomp and what-not.~
+@21 = ~I have half the mind to turn you in. You have admitted to being a law breaker.~
+@22 = ~But I will stay my hand. I respect <CHARNAME>'s judgment, and, if <PRO_HESHE> decides you should stay, I will trust that decision.~
+@23 = ~How noble of you.~
+@24 = ~You should stay away from <CHARNAME>. She is a lady of great good in this cesspool of corruption.~
+@25 = ~Your presence harms her appearance and the light she brings wherever she stands.~
+@26 = ~Remember, Anomen, I'm a pirate.~
+@27 = ~I go where I please and speak to whomever I please. Besides, <CHARNAME> isn't property: she is a human being.~
+@28 = ~Aye, she is her own being, and I am here to protect that being.~
+@29 = ~That's good of you to do so, but <CHARNAME> is a grown woman. Plus, she hardly needs anyone's protection. She defeated Sarevok.~
+@30 = ~Be that as it may, the most dangerous of enemies are the ones closest to you.~
+@31 = ~I see you have gotten closer to <CHARNAME>. What are your attentions with my lady?~
+@32 = ~I could ask you the same question.~
+@33 = ~Nothing but the purest of intentions. I have nothing to hide.~
+@34 = ~I don't have anything to hide either. I find <CHARNAME> to be a remarkable woman, and I would very much like to learn more about her.~
+@35 = ~Jealousy doesn't look good on you, Anomen.~
+@36 = ~Hmph.~
+@37 = ~I cannot say the same for you. If the stories are true, you walked away from <CHARNAME>. What makes you worthy of her now?~
+@38 = ~That's a fair question, and it's simple. There is nothing that makes me worthy of her. I... did something I'm not proud of.~
+@39 = ~Hmph. <CHARNAME> deserves more.~
+@40 = ~Anomen, could you move about ten feet, or maybe twenty feet, to the left? You're ruining the view.~
+@41 = ~Nay, I will continue to walk side by side with her.~
+@42 = ~Okay.~
+@43 = ~I'm surprised, Zakrion. Your lips usually move more, and noises are generally heard from that gaping hole on your face.~
+@44 = ~It is quite unsightly seeing your reactions. In fact, I think they are spurred by jealousy. I hear jealousy isn't a very good look.~
+@45 = ~Treat her right, Anomen. <CHARNAME> is a... spectacular woman.~
+@46 = ~Hmph. My lady is the shining crown amongst all jewels in this plane and beyond, and she will be treated as such.~
+@47 = ~That's good. I'm glad she has someone that understands her worth.~
+@48 = ~My biggest regret is that I did not...~
+@49 = ~That's good. I'm very glad to hear that.~
+
+/**************************************************************************************************
+								Mazzy Banters (2)
+**************************************************************************************************/
+@50 = ~So, Mazzy, is it? You ever heard of salbread?~
+@51 = ~I beg your pardon, but do you think the worth of all halflings are based on their ability to make salbread?~
+@52 = ~That is definitely not what I was implying.~
+@53 = ~It may not be what you were implicating, but the question itself warrants some speculations.~
+@54 = ~I really didn't mean any harm in it. I was just hoping someone, somewhere could get me some god-forsaken salbread.~
+@55 = ~And my best bet was you.~
+@56 = ~Hm, well, perhaps there is something I could do.~
+@57 = ~That would be amazing. A sailor's dream come true.~
+@58 = ~I make no promises, Zakrion.~
+@59 = ~Pray tell me, Zakrion, your eyes wander, and I'm beginning to wonder how much the ground amuses you.~
+@60 = ~Well, you see, there's a lot to learn about the ground.~
+@61 = ~A trodden path there, a possible blood-splattered grass here, you never know what you're going to find.~
+@62 = ~A good enough reasoning, but your eyes tell a different tale.~
+@63 = ~I assure you, Mazzy, I'll keep my eyes on the ground this time. The actual ground.~
+
+/**************************************************************************************************
+								Edwin Banters (3)
+**************************************************************************************************/
+@64 = ~Edwin! You red-robed, magic-flinging--~
+@65 = ~Enough of your consistent pestering! I have far more important matters to attend to than listening to the yapping of mindless baboons. (How does this man know my name? Could he be the enemy's lackey come to spy on me?)~
+@66 = ~Aw, come now, I'm not here to spy on you. I'm just surprised to see a familiar face, especially one that I thought I'd never see again.~
+@67 = ~I do not know who you are and what you are doing here, but, if I find you rummaging around in my belongings, you will be incinerated on the spot. (Yes, that should show him!)~
+@68 = ~It's good to see things haven't changed.~
+@69 = ~You almost burned with me one of your fireballs the other day. Didn't anyone ever teach you how to aim properly?~
+@70 = ~Casualities are expected in this dangerous world we live in. (Next time, Odesseiron, aim it atop his head!)~
+@71 = ~Yeah, sure, the adventuring life is hard and dangerous, but you could make it a little less dangerous by aiming the fireball way over my head, instead of right next to my left ear.~
+@72 = ~Bah! Be grateful that you were not obliterated by another blast of my powerful magic.~
+@73 = ~Yeah, yeah, I get it. I should be grateful to be alive.~
+@74 = ~Keep your prying eyes away from my figure, mongrel! (I know I have a tempting figure, but these hooligans cannot get their eyes off me. It's infuriating!)~
+@75 = ~Hey, I'm just taking in the view, like any normal man would.~
+@76 = ~Are you telling me that you wouldn't look at yourself, if you were a man?~
+@77 = ~I AM A MAN!~
+@78 = ~Could've had me fooled. Maybe, just maybe, Edwin, this is who you truly are.~
+@79 = ~IT IS NOT!~
+@80 = ~Alright, alright! I think I've given you enough shit for one day. So I'll be back tomorrow with more.~
+
+
+/**************************************************************************************************
+										Minsc Banters (3)
+**************************************************************************************************/
+@81 = ~Minsc and Boo, the dynamic duo from Baldur's Gate. It's good to see you two again.~
+@82 = ~I don't know if you recall, Minsc, but I mentioned having a furry friend like Boo as well.~
+@83 = ~My dear, Zakrion, it is good to see you again, and Boo agrees!~
+@84 = ~You have also brought a friend for Minsc and Boo to meet?~
+@85 = ~Meet Buttercup!~
+@86 = ~*Mrow?*~
+@87 = ~*Squeak!*~
+@88 = ~Boo isn't the fondest of cats.~
+@89 = ~No worries, Buttercup is also part monkey.~
+@90 = ~She generally only eats buttercups, other plants, small bugs, and uh... small rodents?~
+@91 = ~Well, that is good news to Minsc and Boo! Boo is a miniature giant space hamster, so I'm sure they will get along!~
+@92 = ~On second thought, I think it might be good for them to have supervised visits for now.~
+@93 = ~Ah, Zakrion, it seems that Boo wants to give something to Buttercup.~
+@94 = ~Oh? Well, that's very kind of you, Boo. Here, let me set Buttercup down...~
+@95 = ~*Mrroow?*~
+@96 = ~Look, Buttercup, Boo has brought you a blueberry.~
+@97 = ~*Squeak!*~
+@98 = ~*Mrrooow!*~
+@99 = ~*Squeak?*~
+@100 = ~*Mrow.*~
+@101 = ~Looks like they're getting along quite nicely.~
+@102 = ~It is a good day indeed for friends!~
+@103 = ~Minsc and Boo don't quite remember - why was little Buttercup not with you at Baldur's Gate? She is very good company.~
+@104 = ~Yeah, she is very good company.~
+@105 = ~I had some business I had to attend to, and I thought it was going to be dangerous for Buttercup, so I left her behind with a trusted friend.~
+@106 = ~I'm glad I went with my gut feeling that day. I couldn't imagine losing my ship, my crewmates, and her - at least one of those things were saved.~
+@107 = ~Important business to attend to? Must be very important to leave behind a very good friend.~
+@108 = ~Yeah, yeah, it was. Oddly enough, I don't quite remember most of it. It's all a haze. Maybe, I hit my head on some rocks when my ship crashed.~
+@109 = ~Well, Minsc and Boo will hope you will get your memory back soon.~
+@110 = ~Me too.~
+
+
+/**************************************************************************************************
+										Imoen Banters (2)
+**************************************************************************************************/
+@111 = ~I remembered a more light-hearted, jolly lady back at Baldur's Gate.~
+@112 = ~I remembered a more confident, not-so serious man back at Baldur's Gate.~
+@113 = ~Ouch, was it that obvious?~
+@114 = ~When you stare death in its face, it tends to give us, or me, a new perspective.~
+@115 = ~Or you could laugh in death's face as he comes racing towards you.~
+@116 = ~And how many times have you done that?~
+@117 = ~Never. I've never done that.~
+@118 = ~It's a quite depressing, isn't it?~
+@119 = ~What is?~
+@120 = ~How easy it is to snuff the joy out of someone's life.~
+@121 = ~Zakrion, I don't really know what you're trying to get at, but there are times in life where silence is golden.~
+@122 = ~I wouldn't have imagined hearing that from you back at Baldur's Gate.~
+@123 = ~You keep bringing back our travels together at Baldur's Gate as if it was yesterday. It's not. Time has passed, and things have changed. I'm still the same Imoen, just some life events have happened.~
+@124 = ~Yeah, sure, life happens, but I would give up some salbread just to hear your careless, mirthful laughter again.~
+
+
+/**************************************************************************************************
+										Jaheira Banters (2)
+**************************************************************************************************/
+@125 = ~I heard about your husband, Jaheira. I also heard you were the first to find his body.~
+@126 = ~Don't be a fool, I have no obligations sharing anything about Khalid to you.~
+@127 = ~I'm not trying to pry information out of you. I'm only trying to--~
+@128 = ~Your attempts at trying are futile! I will not discuss this matter with you.~
+@129 = ~About our last talk... I didn't like how it ended.~
+@130 = ~The way the conversation ended was appropriate. You have no business meddling in other affairs.~
+@131 = ~I know it's a touchy subject, but it's something you shouldn't have to face alone.~
+@132 = ~Sometimes, Zakrion, sometimes the atrocities committed to an individual is enough for one life to bear.~
+@133 = ~I see there's no way to convince you that it's alright to grieve, so I hope you find solace somewhere or in someone soon.~
+
+
+/**************************************************************************************************
+										Cernd Banters (3)
+**************************************************************************************************/
+@134 = ~I don't know your whole situation, Cernd, but all I know is that you left your child, and that doesn't look good on any man or woman.~
+@135 = ~If only you could understand the predicament I was in, Zakrion. Nature calls, and I must be there to tend to her roots.~
+@136 = ~Nature also called you to fuck your woman, and you couldn't attend to your own roots.~
+@137 = ~Such vulgarity would make even the squirrels flush a bright red.~
+@138 = ~I don't appreciate your nonchalant manner in this. You do realize your son, if, you can even call him your son, will grow up to despise you?~
+@139 = ~While I did resent my father from time to time when he was traveling, I knew that he had to do it to feed my mother and me, and I knew that he would always return to us.~
+@140 = ~You on the other hand? You're just a coward, and we're done talking here.~
+@141 = ~Has your anger floated down the river, Zakrion, or is it still rooted deep in the oaken tree?~
+@142 = ~I don't understand how you can act like you don't care.~
+@143 = ~That is where you misjudge me.~
+@144 = ~A father will always know his offspring and will be there to defend them with his life, but a father must also know his duties to the world. He must know that to tend to nature is to give a better life for his offspring.~
+@145 = ~The absence can and will be bitter like the harsh winds in a stormy blizzard, but it must happen.~
+@146 = ~I cannot control where the roots have sprouted, but I can influence the direction in which the tree moves.~
+@147 = ~I have no interest in your nature comparisons; they're just excuses.~
+@148 = ~I see you carry a supposed woodland friend with you, Zakrion.~
+@149 = ~Yeah? What's it to you?~
+@150 = ~The creature is... most unusual. I haven't seen anything like it before. It has an aura of unnaturalness.~
+@151 = ~The creature has a name. *Her* name is Buttercup.~
+@152 = ~I would've expected someone who is so in-tune with nature to respect nature's inhabitants.~
+@153 = ~I mean no harm to Buttercup, but I wonder what she is?~
+@154 = ~She's half monkey and half cat. One of the two most common animals in nature, and that's all you need to know.~
+
+
+/**************************************************************************************************
+										Haer'Dalis Banters (2)
+**************************************************************************************************/
+@155 = ~Ah, Zakrion, my albatross! A little bird whispered into my ears about your tales aboard a grand, mighty vessel!~
+@156 = ~I hope that little bird of yours didn't tell you about the ship crashes I caused.~
+@157 = ~Song birds only sing partial stories, mayhap you might tell me more?~
+@158 = ~There's not much to tell, other than the usual; I lost my ship, my crewmates drowned or speared to death by the debris or rocks, and probably eaten by an underwater creature.~
+@159 = ~There's no glory in the way they died.~
+@160 = ~Ah, 'tis nothing but the natural cycle of life.~
+@161 = ~There's nothing natural about prematurely dying. Some of my men had children who hadn't seen a winter yet. Those children will never know who their fathers are.~
+@162 = ~Aye, something to be mourned, but every thing must end.~
+@163 = ~But, I see I have upset you with my words. Let me reassure you that we will not meet our ends... yet.~
+@164 = ~You whistle really well. It's loud, crisp, and whimsical.~
+@165 = ~'Tis a great pleasure hearing those words from you, my albatross.~
+@166 = ~If only we had a bard on our ship, where were you when my hearties and I were traveling on the briney deep?~
+@167 = ~Where was I indeed.~
+
+
+/**************************************************************************************************
+										Valygar Banters (3)
+**************************************************************************************************/
+@168 = ~I know this probably won't convince you, seeing as how your family doesn't have the best history with magic, but it isn't all that bad.~
+@169 = ~I had this resident wizard on my crew, and he used some of his magic to bring great gusts upon our sails. We traveled a lot faster that way.~
+@170 = ~Magic shouldn't be used so lightly, but, seeing as how you were once a pirate, it makes sense you would be so careless.~
+@171 = ~How did you know I'm a pirate?~
+@172 = ~You *were* a pirate. You don't have a ship, you don't have a captain, and you're not raiding any lands.~
+@173 = ~I *am* a pirate, I will have a ship, and I *am* the captain... or I will be a captain when I have my ship and my crew.~
+@174 = ~That sounds like a lot of hopeful wishes to me.~
+@175 = ~Don't you worry, Valygar, it will happen.~
+@176 = ~Don't you wish you could fly, Valygar?~
+@177 = ~Why are you asking me these nonsensical questions? You already know the answer to them.~
+@178 = ~I might, but sometimes, the unexpected tends to happen.~
+@179 = ~Instead of letting the unexpected happen, why don't you plan for the unexpected.~
+@180 = ~That's the point of an event being unexpected, though.~
+@181 = ~You can't prepare for it.~
+@182 = ~Is that what you keep telling yourself, Zakrion?~
+@183 = ~I don't know what you're getting.~
+@184 = ~I'm sure you do, and, before you open your mouth again, I would highly recommend thinking through your next words.~
+@185 = ~Valygar.~
+@186 = ~Yes?~
+@187 = ~I thought about what you said earlier, and yeah, yeah, you're right.~
+@188 = ~I think about my ship crashes every day, and there's not one day that goes by when I'm not thinking how I could have prepared for the unexpected.~
+@189 = ~Or what I could've done differently.~
+@190 = ~So, yeah, I wish I could fly or had some magic so I could've saved my crewmates. I wish I had that power.~
+@191 = ~Magic isn't as good as you think it is. If anything, it's possible that if you had this magic, you could've made things worse.~
+@192 = ~How could it have gotten any worse?~
+@193 = ~You could've died.~
+@194 = ~Sometimes... sometimes, I wish I had died along with them.~
+
+
+/**************************************************************************************************
+										Aerie Banters (3)
+**************************************************************************************************/
+@195 = ~I... I heard about what happened to you. I-I'm really sorry for your loss...~
+@196 = ~Thanks, Aerie. I'm sorry about your wings. It must be hard being on foot.~
+@197 = ~I think we're alike in that manner. We're both stuck on land.~
+@198 = ~Oh... t-thank you, and I suppose we are.~
+@199 = ~Here's to hoping we return home one day.~
+@200 = ~You said you are a p-pirate?~
+@201 = ~Yeah, I am. Does that bother you?~
+@202 = ~But pirates raid, kill, and steal. That would bother me, yes.~
+@203 = ~Not saying all pirates are like this, Aerie, and you have my old pops to thank for this, but I have my own moral code that I followed.~
+@204 = ~Sure, I raided, pillaged, and killed... when it was necessary. I made sure my crew didn't touch the women and children unless the women picked up an axe or sword and charged at us.~
+@205 = ~You k-killed innocent people?~
+@206 = ~I don't really know if people are innocent, Aerie, but pirates have to live too.~
+@207 = ~You could all g-get real jobs! There are o-other ways of living than taking from others.~
+@208 = ~One raid is enough to feed my entire crew for months. If I worked as a fisherman, I would only earn enough to feed myself for what? A couple of days, if I ration my coin properly?~
+@209 = ~Don't worry, my crew and I would generally go for the wealthier towns and ships.~
+@210 = ~There's nothing much to be gained from raiding poor towns.~
+@211 = ~I-I don't understand. How can you live with yourself?~
+@212 = ~I live with myself just fine, thanks for asking.~
+@213 = ~No, I wasn't asking how you were doing.~
+@214 = ~I was wondering how you g-go about your life knowing that you've harmed innocents?~
+@215 = ~Those people you stole from were living honest lives.~
+@216 = ~I worked hard for the money I earned too, you know.~
+@217 = ~Y-You stole!~
+@218 = ~Look, Aerie, I know I'm never going to change your mind about this, so let's come to a better understanding of each other.~
+@219 = ~Pirating is a dangerous career choice; I could die at any moment. High risk partnered with high reward.~
+@220 = ~Being a farmer? Sure, it's an 'honest' living, but there's low risk. Therefore, it has a low reward. I don't want to be near the brink of poverty while making an honest living. That's not the lifestyle for me.~
+@221 = ~My crewmates had families and mouths to feed too. We're just all out here trying to survive.~
+@222 = ~I thought you were a much better p-person than this, Zakrion.~
+@223 = ~Sorry to burst your bubble.~
+
+
+/**************************************************************************************************
+										Viconia Banters (2)
+**************************************************************************************************/
+@224 = ~This might be the dumbest question I've asked in my life, but I still need to ask it... I'm probably going to regret asking it too.~
+@225 = ~Do you still think men are useless, Viconia?~
+@226 = ~If you must ask that question, then you have already revealed the answer.~
+@227 = ~Right.~
+@228 = ~Why must you put an emphasis on this... this caballin - this food, rivvil?~
+@229 = ~You must be talking about the salbread. I know you're not from around here, but I think even the salbread would make a drow priestess' mouth twitch.~
+@230 = ~Truly? You think this iblith would garner a reaction from the yathrin?~
+@231 = ~If anything, your addled mind would be killed.~
+@232 = ~You should give more credit to the salbread! It's made my frowns turn upside on some of my darkest days.~
+@233 = ~I will listen no more to this nonsense. Away with you, rivvil.~
+@234 = ~Alright, alright, I'll take my salbread elsewhere.~
+
+
+/**************************************************************************************************
+										Nalia Banters (3)
+**************************************************************************************************/
+@235 = ~I don't know what I've done to you, Zakrion, but why the unwarranted hostility?~
+@236 = ~Oh, was I staring? My fault, it seems I'm losing my touch.~
+@237 = ~Your touch?~
+@238 = ~Yeah, sizing up my next target.~
+@239 = ~I'm your next target? I hope you know that <CHARNAME> won't allow such a thing nor will I stand by and let you take-~
+@240 = ~Hey, that was in another lifetime. You're safe.~
+@241 = ~Besides, I'm not going to rob some poor girl's already-invaded keep. After it has been restored, then we'll talk.~
+@242 = ~I thought you'd be more sympathetic to my situation, but, every time I turn around, you don't seem to acknowledge me.~
+@243 = ~I think you're confusing my disinterest in you with your privilege.~
+@244 = ~I don't need to nod in your direction every time you turn to look at whatever you're looking at.~
+@245 = ~I know, but you won't even *look* at me.~
+@246 = ~And I know I've been born with great fortune, but that doesn't mean I'm not a person too. I've helped many less fortunate people, and I am going to continue on doing that.~
+@247 = ~Good for you?~
+@248 = ~Ugh! Fine. Have it your way.~
+@249 = ~Here, take this.~
+@250 = ~What is this?~
+@251 = ~Just try it.~
+@252 = ~Oh, alright. Thank you, but I need to find my handkerchief first, so I-~
+@253 = ~Hey! Mmph.~
+@254 = ~See? It's great, isn't it?~
+@255 = ~It's disgusting! Don't you ever do that to me again!~
+@256 = ~Wow, I just wasted some perfectly good salbread on you.~
+@257 = ~At least that means more for me in the future. So much for sharing and empathizing.~
+
+
+/**************************************************************************************************
+										Korgan Banters (2)
+**************************************************************************************************/
+@258 = ~Zakrion, were ye aware of yer mere trifle of a beard?~
+@259 = ~Are ye a man or nay?~
+@260 = ~Men don't need to have beards to be men, Korgan.~
+@261 = ~Besides, I like this look, don't you?~
+@262 = ~Ye look like ye're a hairless babe.~
+@263 = ~Lasses like the tickle of me beard.~
+@264 = ~Women also like men without beards too. It can scratch their faces.~
+@265 = ~Bah! Ye need strong, heartier lasses to romp around with!~
+@266 = ~How about this: next time we go to a tavern, let's get some women.~
+@267 = ~Aye! Now ye be talkin'!~
+@268 = ~Alright, Korgan, the ale is on me.~
+@269 = ~Aye! I'll take three pints.~
+@270 = ~What about your strong, hearty women?~
+@271 = ~Nay, right now, ye offerin' free ale. Ale and then, the wenches.~
+@272 = ~Even if the ale tastes like piss?~
+@273 = ~Quit ye whinin', and let's get drinkin'!~
+@274 = ~Sounds like a good time to me.~
+
+
+/**************************************************************************************************
+										Yoshimo Banters (2)
+**************************************************************************************************/
+@275 = ~Tell me, how did you become a pirate?~
+@276 = ~No need for pleasantries and straight to the point? I like it.~
+@277 = ~Do you want the short or long version?~
+@278 = ~Indugle Yoshimo; you pick the best version.~
+@279 = ~Alright, then. The short version, it is.~
+@280 = ~My father was a sailor, and he was often on the seas. One day, his life changed when my mother had enough of being alone with just her son.~
+@281 = ~So he turned to piracy to make ends meet. He made ends meet very well with his new, lucrative job. I think he wanted to get my mother back, but he never admitted it.~
+@282 = ~Either way, he was the only parent there, so he took care of me.~
+@283 = ~That's the story of the former pirate captain, Zakrion Dessani.~
+@284 = ~An interesting tale, albeit quite sad. Thank you for sharing your story with Yoshimo.~
+@285 = ~You've been acting a little odd lately, Yoshimo.~
+@286 = ~Would you want to catch a drink before the night ends and when we're in a decent tavern with something better than piss-tasting ale?~
+@287 = ~Ha! When we're at a better tavern, my friend, there's nothing here but soggy bread and the salty dogs!~
+@288 = ~What? You don't like the smell of salty dogs? You landlubbers.~
+@289 = ~There are better smells. Yoshimo has smelled much better.~
+@290 = ~Ha ha! I'm only running a rig. Don't worry. I'm not too fond of the smell of salty canines either.~
+
+
+/**************************************************************************************************
+										Jan Jansen Banters (3)
+**************************************************************************************************/
+@291 = ~Zakrion. That's a nice name. How do you feel about shortening it? I think Zak has a nice ring to it.~
+@292 = ~That's what my father used to call me.~
+@293 = ~Excellent! Zak will do nicely, very nicely indeed. So, Zak, have you ever heard of my uncle Olivander?~
+@294 = ~He is a pirate, too, don't you know?~
+@295 = ~To be frank with you, Jan, I've never heard of Pirate Olivander.~
+@296 = ~That's very strange; you see, Olivander is the fiercest of all the gnome pirates. He captured a sea hydra and made it his official mount for the seas.~
+@297 = ~Everywhere he and Puff went, other pirate ships would hand over all their booty and flee in the opposite direction. Well, to the other side of the ship. There isn't much fleeing you can do on a boat, is there?~
+@298 = ~So your cousin-~
+@299 = ~Uncle.~
+@300 = ~Right. Uncle.~
+@301 = ~Your uncle had-~
+@302 = ~Has. He and Puff are still alive... at least, last time he wrote to me.~
+@303 = ~Okay, your uncle *has* a sea hydra named Puff that he rides around in the ocean?~
+@304 = ~Precisely. You're a great listener.~
+@305 = ~Jan... ~
+@306 = ~That would make for a great story book. You should definitely write this down.~
+@307 = ~Ah, I like the sound of that! But what would the title be? "Puff, The Magic Sea Hydra?"~
+@308 = ~We'll have time to brainstorm together as we walk.~
+@309 = ~I see you have this obsession with salbread, my good friend, Zak. Have you thought about adding a turnip to it?~
+@310 = ~I haven't, and I don't think a turnip would be a great idea.~
+@311 = ~Turnips are extremely versatile vegetables. They also are very nutritional as they contain a variety of vitamins needed for the body to grow and thrive.~
+@312 = ~The point of salbread is for the taste not for the nutritional value. I don't want my baked goods turning into some health nut's dream.~
+@313 = ~I'm going to leave the baking of salbread to the halflings, sorry, Jan.~
+@314 = ~It's your loss.~
+@315 = ~Jan, your inventions are incredible. How did you do all this?~
+@316 = ~Why, thank you, Zak. I appreciate your appreciativeness towards my work, but it's actually quite simple. A knob here, a screw there, some pieces of wood over a pipe, then some string or rope... and boom! A new gadget!~
+@317 = ~The only thing I know how to do with rope is tying knots to secure a ship.~
+@318 = ~Rope is very handy, but I didn't realize it is used in your gadgets.~
+@319 = ~You should come over and see my workshop! Rope is an extremely versatile piece of equipment. Actually, many of the mundane things you find in your every day life is significant in some way, shape, or fashion.~
+@320 = ~Don't let your mind close your imaginations, Zak! The world is your oyster.~
+@321 = ~When you say it like that, how can I not believe you?~
+
+
+/**************************************************************************************************
+										Keldorn Banters (2)
+**************************************************************************************************/
+@322 = ~Zakrion, you seem like a decent man; it is a pity to see how low you have fallen.~
+@323 = ~I assume you're talking about my career?~
+@324 = ~It is not a 'career'. You are committing crimes against the law.~
+@325 = ~You think I don't know that?~
+@326 = ~I cannot condone this behavior. You must stop this, or I will be forced to take action.~
+@327 = ~Keldorn. As you can see, I don't have a ship and I don't have a crew. Therefore, I can't commit any crimes, even if I wanted to.~
+@328 = ~Let us hope this is still true for your future.~
+@329 = ~The path to redemption is hard, but I have faith you will be able to succeed.~
+@330 = ~The only thing I'm trying to redeem is this pamphlet that claims a bakery in the Slums District of Athkatla is offering free baked goods... if I show them this pamphlet.~
+@331 = ~Do not take this so lightly, Zakrion. By any standards, you are young.~
+@332 = ~You must lead by example and follow the path that is right and true.~
+@333 = ~Yeah, and right now, my stomach is telling me to go to that bakery.~
+@334 = ~*sigh* You will understand one day.~
