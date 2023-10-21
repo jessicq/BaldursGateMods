@@ -1,0 +1,57 @@
+/**************************************************************************************************
+									Roe is Sick 
+**************************************************************************************************/
+
+@0 = ~Ma! What are you doing here?! You need to get out of here.~
+@1 = ~Zakrion... Zakrion! What are *you* doing here?~
+@2 = ~How did you get in?~
+@3 = ~Mother, does this mean we're going to get out of here?~
+@4 = ~Perhaps! If you were able to walk into Saradush, then you should be able to walk out of it!~
+@5 = ~No, it's... it's a long story. You must be my mother's -- ~
+@6 = ~The pleasantries can wait later, boy! I know who you are, your mother has never stopped talking about you.~
+@7 = ~It's good to meet you, but we need to get out of here. You've seen the siege, haven't you?~
+@8 = ~My family and I need to get out of here.~
+@9 = ~Elias!~
+@10 = ~Please forgive him, Zakrion, it has been very stressful here... and we can't leave just yet.~
+@11 = ~We were making our way to Saradush, and, one night, our guide disappeared on us. He just disappeared into thin air, and we were stranded for a few days in the forest. We were so worried about robbers and wolves. Oh, Zakrion, we thought we were going to either be eaten or starve to death.~
+@12 = ~But then, this little halfling woman, or girl, I can't really tell with halflings... she came out of nowhere, and she guided us to safety - to Saradush, where we wanted to be. Only after a tenday later, not even a tenday! The siege started and the halfling girl fell ill with a fever.~
+@13 = ~We can't leave and find her medicine. We've spoken to the church here, and they don't have anything to heal her with. There was a doctor, too, but she said we would need to venture beyond Saradush to find the cure. We've tried to give her what's on hand here, but she oscillates from going in and out of consciousness.~
+@14 = ~Little halfling girl... Roe?~
+@15 = ~For fuck's sake, alright, Ma. Tell me what you know, <CHARNAME> and I might be able to find something.~
+@16 = ~We can't take you out of here, but we can leave.~
+@17 = ~I have hope for us, and I have hope for you, but, please, hold off on the cursing please?~
+@18 = ~There are small children here.~
+@19 = ~I'm almost as tall as you, mother!~
+@20 = ~Zakrion, please, get us out of here soon.~
+@21 = ~I will, Ma, I will. Just tell me how I can help Roe.~
+@22 = ~Yes, yes... some berries? They grow outside of Saradush, perhaps, they'd be on a merchant? They need to be refined properly or something... I don't really know, Zakrion, but that's what one of the doctors here had said before she was obliterated by the debris from the catapaults.~
+@23 = ~I'm so sorry, that's not very helpful!~
+@24 = ~No, Ma, that's great information. Roe has had a fever like this before, and I thought we solved it prior, but I guess we didn't.~
+@25 = ~We'll be back. We'll get you out of here.~
+
+
+/**************************************************************************************************
+									Returning with Berries
+**************************************************************************************************/
+@37 = ~Oh, my dear son, you're back!~
+@26 = ~We're back, Ma, and we have the berries.~
+@27 = ~That's great news, Zakrion! Let me take them and crush them up.~
+@28 = ~Oh, most of them are already crushed. I suppose that makes my life easier.~
+@29 = ~Roe? Will you open your mouth?~
+//@30 = ~Ngh.~
+@31 = ~There we go.~
+@32 = ~She'll need some time to recover.~
+@33 = ~Stay indoors, Ma. Don't worry, we'll find a way to get everyone out of here.~
+@34 = ~I believe you, my son. Make haste, and may Tymora watch over you.~
+
+
+/**************************************************************************************************
+									Roe is Sick - PC Initiates Conversation
+**************************************************************************************************/
+@35 = ~Oh, I really hope we can do something for poor little Roe...~
+
+
+/**************************************************************************************************
+									Roe is Cured - PC Initiates Conversation
+**************************************************************************************************/
+@36 = ~I think I see her stirring! Thank you so much, and please take care of my son.~

@@ -1,0 +1,220 @@
+/**************************************************************************************************
+									Main Component
+**************************************************************************************************/
+
+@0 = ~Zakrion~
+@1 = ~When asked about his past, ZAKRION smiles calmly at you and says that he was a son of a ship captain.  He fondly relays a time where he would stand atop the ship and smell the salty sea breeze. He falls silent for a moment but neither his eyes nor his voice betrays him as he blatantly speaks of his father's ship being taken by pirates. Ever since then, he was named the next captain for the survivors of the invasion until his own ship wreckage where he lost his entire crew and left him as the sole survivor.~
+@2 = ~Cut and run!~ [QI#ZAK15]
+@3 = ~Not sure what you're doing, captain, but it doesn't look too good.~ [QI#ZAK31]
+@4 = ~Had anyone on my crew acted like this, they would be over the barrel.~ [QI#ZAK32]
+@5 = ~I've led crews before, so this should be no problem. I hope.~ [QI#ZAK04]
+@6 = ~I could use a good rest.~ [QI#ZAK05]
+@7 = ~Any day now...~ [QI#ZAK06]
+@8 = ~It's getting a little late to navigate.~ [QI#ZAK33]
+@9 = ~This is the perfect time to get underway.~ [QI#ZAK34]
+@10 = ~I prefer the sea to this.~ [QI#ZAK20] 
+@11 = ~Forests are vast, but not as vast as the sea.~ [QI#ZAK19]
+@12 = ~Your life ends here!~ [QI#ZAK01]
+@13 = ~Clear the deck!~ [QI#ZAK35]
+@14 = ~Today isn't your day, is it?~ [QI#ZAK02]
+@15 = ~I don't think you can ever reach me, but you can certainly try.~ [QI#ZAK03]
+@16 = ~It seems we've got a devil to pay.~ [QI#ZAK36]
+@17 = ~I just wanted to see the ocean one last time...~ [QI#ZAK00]
+@18 = ~The beacons burn so brightly...~ [QI#ZAK07]
+@19 = ~Yeah?~ [QI#ZAK08]
+@20 = ~Is there something I can do?~ [QI#ZAK09]
+@21 = ~Speak up.~ [QI#ZAK11]
+@22 = ~What do you need?~ [QI#ZAK10]
+@23 = ~Above board.~ [QI#ZAK37]
+@24 = ~Don't leave me high and dry.~ [QI#ZAK38]
+@25 = ~I'll get to it.~ [QI#ZAK30]
+@26 = ~Don't worry, I'll do it.~ [QI#ZAK16]
+@27 = ~I got this.~ [QI#ZAK17]
+@28 = ~Done.~ [QI#ZAK28]
+@29 = ~I can do that.~ [QI#ZAK12]
+@30 = ~Sure, sure.~ [QI#ZAK13]
+@31 = ~Alright.~ [QI#ZAK14]
+@32 = ~Didn't see that coming, did you?~ [QI#ZAK23]
+@33 = ~How could I have missed?~ [QI#ZAK22]
+@34 = ~This isn't working.~ [QI#ZAK21]
+@35 = ~Sorry, but you need to find someone else to carry it.~ [QI#ZAK24]
+@36 = ~Ah, what I would do for a square meal right now...~ [QI#ZAK39]
+@37 = ~Do you think we could turn a blind eye for just a moment? Long enough to get a meal, maybe two.~ [QI#ZAK40]
+@38 = ~That wasn't hard, was it?~ [QI#ZAK26]
+@39 = ~Ugh, sorry.~ [QI#ZAK29]
+@40 = ~I'm out of sight.~ [QI#ZAK27]
+@41 = ~I feel sorry for the poor soul who gets stuck in this.~ [QI#ZAK25]
+@42 = ~~ [QI#ZAK18]
+
+/**************************************************************************************************
+									Items
+**************************************************************************************************/
+
+@43 = ~Buttercup~
+@44 = ~This is Buttercup, Zakrion's furry friend. He claims that Buttercup is the product of a wizard experiment gone wrong, which created a hybrid of a cat and a monkey that moves like a lemur.
+
+	STATISTICS:
+
+	Weight: 7~
+@76 = ~Zakrion's Body~
+@77 = ~Zakrion was captured by Bodhi and infected with vampirism, forcing you to slay him. There may be some way to revive him, though you do not know what it would be.~
+@69 = ~Salbread~
+@70 = ~A delectable slice of homemade salbread with bits and pieces of orange peels in it for extra flavor.
+
+	STATISTICS:
+	
+	Weight: 1~
+@71 = ~Shriveled Hand~
+@72 = ~This small, shriveled hand still has remnants of the puff pastry it was wrapped in. It carries a strange odor that only one with a heighted sense of smell could potentially identify.
+
+	STATISTICS:
+	
+	Weight: 1~
+@79 = ~Refined Berries~
+@80 = ~There is a mere handful of mostly crushed berries. However, the whole berries do have a brilliant shine to them.
+
+	STATISTICS:
+	
+	Weight: 0~
+@81 = ~Zakrion's Engagement Ring~
+@82 = ~This ring has been passed down from father to son and is now a symbol of Zakrion's love for <CHARNAME>. With the help of Cespenar, enchantments have been placed to offer protection and feelings of encouragement to his beloved.
+
+	STATISTICS:
+	
+	Equipped Abilities:
+	- Armor Class: +2
+	- Saving Throws: +2
+	- Vocalize
+	
+	Weight: 0~
+
+/**************************************************************************************************
+									Duelist Kit 
+**************************************************************************************************/
+
+@45 = ~duelist~
+@46 = ~Duelist~
+@47 = ~DUELIST: The Duelist is the happy-go-lucky hero with the ready wit and the flashing rapier. He's happiest when he's in the big city but can be an imposing warrior anywhere; enemies often underestimate him because of his charming manners and don't realize that he can hold his own in the melee as well as anyone else. Attacking with a trademark speed and grace, the Duelist's agility makes up for their disdain for heavy armor or large weapons. The Duelist, because he's bright and well-spoken, often becomes party leader... or at least the leader's spokesman.
+
+	Duelists are found among all races and alignments.
+
+	Advantages:
+
+	-  Gains a +1 bonus to weapon speed factor, THAC0 and damage per 10 levels.
+	-  Gains a +1 bonus to armor class per 5 levels.
+
+	Disadvantages:
+
+	-  Grand Mastery may only be attained using single-handed, bladed weapons. All other weapons, and the Two-Handed Weapon fighting style, are limited to one proficiency point.
+	-  May not wear armor heavier than studded leather.~
+
+/**************************************************************************************************
+									Alternative Portraits
+**************************************************************************************************/
+
+@48 = ~This component require the Zakrion main component.~
+@49 = ~Change Zakrion's portrait to Alternative 1 by SwordEnchanter at DeviantArt~
+@3001 = ~Change Zakrion's portrait to Alternative 2 by Midjourney and edited by LavaDelVortel~
+@3002 = ~Change Zakrion's portrait to Alternative 3 by Cher-Ro at DeviantArt~
+
+/**************************************************************************************************
+									Creatures/Characters
+**************************************************************************************************/
+
+@50 = ~Roe Pumperknickle~
+@51 = ~Edith~
+@52 = ~Rayden~
+@53 = ~Wilson detected - Wilson interdia.2da append - set Wilsons's banter file (BWILSON & BWILSO25)~
+@54 = ~Rendyn~
+@73 = ~Jiff~
+@74 = ~Han~
+@75 = ~Nibel~
+@78 = ~Elias~
+
+/**************************************************************************************************
+										Epilogues
+**************************************************************************************************/ 
+
+@55 = ~As soon as the Bhaalspawn saga ended, Zakrion, along with his fellow crewmate, Buttercup, made a beeline to the docks of Athkatla. There, he bought the biggest ship he could find and the most loyal crew that money could buy, thanks to the treasure he had gained during his travels with <CHARNAME>. As soon as his ship and crewmates were able to set sail, he did so. It wasn't too much time later that Zakrion's face appeared on every bounty hunter's most wanted list. It was said that some experienced bounty hunters had boarded Zakrion's ship as he was docked at a fairly remote island. The ambush was grim, and Zakrion was gravely injured. At a turning point during the ambush, Zakrion fled and left his ship and crewmates to their fate. No one really knows where Zakrion fled to, but there were some sightings of him on a small boat heading towards Neverwinter. Rumors have it that a man with a strange creature was forming another crew and purchasing an even bigger ship in the hopes of being the next Pirate Lord.~
+@56 = ~As soon as the Bhaalspawn saga ended, Zakrion, along with his fellow crewmate, Buttercup, made a beeline to the docks of Athkatla. There, he bought the biggest ship he could find and the most loyal crew that money could buy, thanks to the treasure he had gained during his travels with <CHARNAME>. However, before he left the shores, he searched for his friend, Roe Pumperknickle, and he asked the halfling to join his crew as his first mate. The halfling happily accepted the offer and with his crew fully formed, Zakrion and Roe started their travels eagerly on the ocean. Not much has been documented during this time, as Zakrion and his crew were hardly ever seen on land. However, for those returning from the seas, they would tell lavish tales of a pirate ship filled to the brim with the most marvelous of treasures and a dirty, blonde captain with a strange creature on his shoulder at the helm of the ship. It wasn't very long, though, that the name 'Dessani' was spread across the major cities and a bounty was put on his head. Try as they might, no one was able to capture the ellusive captain and his crew, but there was one close encounter.
+
+It was said that some experienced bounty hunters had boarded Zakrion's ship as he was docked at a fairly remote island. The ambush was grim, and Zakrion was gravely injured. Despite his injured state, Zakrion continued to fight and led a final rally against the ambushers. He inspired his crew to charge forward with him and, together, they made the bounty hunters walk the plank. While Zakrion did suffer from grevious wounds, it was not the end for the pirate captain, but he was not seen for at least another decade. The last known record of Zakrion was from his first mate - Roe Pumperknickle, but it wasn't very much to go by. All the scholars know, even to this day, is that somewhere on the seas, Zakrion, Buttercup, and Roe are enjoying life on the seas, and their lives are filled with salbread and buttercups.~
+@57 = ~After <CHARNAME>'s ascension, Zakrion wasted no time in setting sail across the seas. However, instead of becoming the pirate captain he so frequently talked about, he went on a voyage to find a portal to other planes: it was his hope that there was some way he could find and be with his love. He made no mention of his beloved's ascension, but, when questioned about his time with <CHARNAME>, he would simply look up into the sky and say that his one true love is somewhere he could never follow.~
+@58 = ~No longer shackled to Bhaal's legacy, Zakrion and <CHARNAME> were free to choose their path in life. Zakrion wasted no time in bringing his beloved onto the great seas that he loved so much. The decade spent on the seas was filled with grand adventures, and, together, Zakrion, Buttercup, and <CHARNAME> ruled the ocean - and it was on the Sea of Swords that <CHARNAME> and he were wed near the shorelines of Baldur's Gate. They journeyed to every end of Toril, exploring new worlds and seeking great treasures. There was a time that Zakrion wished this life would never end and would forever stay the same. However, not everything lasts for a lifetime, but, for Buttercup, it did last her entire lifetime.
+
+With the peaceful passing of his trusted companion, Zakrion felt it was time for the final voyage of himself and <CHARNAME>. They bought a small ship and paid the crew handsomely for their discretion for their arrival on an undisclosed island, far away from prying eyes and those that would do the duo harm. Life on the island was pure serenity for the couple and, soon enough, they welcomed children of their own into the world. True to his word, Zakrion kept in contact with his mother and his other family, and, once per year, he would take <CHARNAME> and his children to visit their relatives. These were the quietest years of their life and some of the happiest. There was nothing else in the world Zakrion yearned for in the world: he had the adventure of a lifetime, and he spent it with his one true love.~
+@59 = ~No longer shackled to Bhaal's legacy, Zakrion and <CHARNAME> were free to choose their path in life. Zakrion wasted no time in bringing his beloved onto the great seas that he loved so much. The decade spent on the seas was filled with grand adventures, and, together, Zakrion, Buttercup, and <CHARNAME> ruled the ocean - and it was on the Sea of Swords that <CHARNAME> and he were wed near the shorelines of Baldur's Gate. They journeyed to every end of Toril, exploring new worlds and seeking great treasures. There was a time that Zakrion wished this life would never end and would forever stay the same. However, not everything lasts for a lifetime, but, for Buttercup, it did last her entire lifetime.
+
+With the peaceful passing of his trusted companion, Zakrion felt it was time for the final voyage of himself and <CHARNAME>. They bought a small ship and paid the crew handsomely for their discretion for their arrival on an undisclosed island, far away from prying eyes and those that would do the duo harm. Life on the island was pure serenity for the couple, and, when the couple were ready for children, Zakrion struggled to start a family of his own. The remembrance of the deaths of his immediate family, although it had happen a decade prior, was still fresh in his mind. Eventually, though, the couple was gifted with a single child, and that child became the world to Zakrion. Raising their child was the quietest years of their life and some of the happiest. It was a life that the former pirate captain could only have dreamt of.~
+@60 = ~No longer shackled to Bhaal's legacy, Zakrion and <CHARNAME> were free to choose their path in life. They were happy for some time with their newfound freedom, but the allure of the ocean always found its way back to Zakrion's heart. He resisted it every day as he remembered that his one true love had always been and will always be <CHARNAME>. In time, though, he grew resentful of his life on land with <CHARNAME> and made one last plea to his lover to embrace the idea of sailing the ocean - if not together, at least by himself for a time, and, when he would return to her, they would start a family together in earnest. 
+
+<CHARNAME> would not relent to sailing with Zakrion, but she allowed her lover some time on the seas without her. Zakrion promised that this would be his last voyage, and he would never again ask to return to the ocean. However, Zakrion never returned to land; he was never seen again after the last glimpse of his ship's sails disappeared in the horizon. There were many speculations as to where the man had gone: some say he had abandoned <CHARNAME>, yet others say he was killed by pirates. However, when <CHARNAME> searched for her lost beloved, she found a ship wreckage bearing the sails of Zakrion's ship. Many bodies were found amongst the wreckage and, finally, the bodies of Zakrion and Buttercup were discovered. He had meant to return to <CHARNAME>, but the ocean had spoken its final words.~
+@61 = ~No longer shackled to Bhaal's legacy, Zakrion and <CHARNAME> were free to choose their path in life. Zakrion wasted no time in bringing his beloved onto the great seas that he loved so much. The decade spent on the seas was filled with grand adventures, and, together, Zakrion, Buttercup, and <CHARNAME> ruled the ocean - and it was on the Sea of Swords that <CHARNAME> and he were wed near the shorelines of Baldur's Gate. They journeyed to every end of Toril, exploring new worlds and seeking great treasures. There was a time that Zakrion wished this life would never end and would forever stay the same. However, not everything lasts for a lifetime, but, for Buttercup, it did last her entire lifetime.
+
+Zakrion and <CHARNAME> continued to sail the vast ocean, but Zakrion couldn't shake the sadness of Buttercup's missing presence. He and <CHARNAME> sailed aimlessly for a time, and this drew some frustrations from <CHARNAME>, but Zakrion finally came to the realization that his friend lived forever within himself. This newly inspired Zakrion sought more adventurous and even deadlier missions with <CHARNAME>, but, to the duo, it was all great fun and a wonderful experience. But one day, the couple decided that they had explored Toril too many times, and they sought a new type of adventure - one that could not be held on this plane. The last sighting of Zakrion and <CHARNAME> was said to have been in the middle of a great hurricane, where their ship vanished into thin air.~
+@62 = ~No longer shackled to Bhaal's legacy, Zakrion and <CHARNAME> were free to choose their path in life. They were happy for some time with their newfound freedom, but the allure of the ocean always found its way back to Zakrion's heart. He resisted it every day as he remembered that his one true love had always been and will always be <CHARNAME. In time, though, he grew resentful of his life on land with <CHARNAME> and made one last plea to his lover to embrace the idea of sailing the ocean - if not together, at least by himself for a time.
+
+<CHARNAME> would not relent to sailing with Zakrion, but she allowed her lover some time on the seas without her. Zakrion promised that this would be his last voyage, and he would never again ask to return to the ocean. However, Zakrion never returned to land; he was never seen again after the last glimpse of his ship's sails disappeared in the horizon. There were many speculations as to where the man had gone: some say he had abandoned <CHARNAME>, yet others say he was killed by pirates. However, when <CHARNAME> searched for her lost beloved, she found a ship wreckage bearing the sails of Zakrion's ship. Many bodies were found amongst the wreckage and, finally, the bodies of Zakrion and Buttercup were discovered. He had meant to return to <CHARNAME>, but the ocean had spoken its final words.~
+@63 = ~After <CHARNAME>'s ascension, Zakrion wasted no time in setting sail across the seas. He never thought of <CHARNAME>'s ascension as a lost love, but as a love that inspired him to become more than he could have ever hoped to achieve. With this great inspiration, he sought out the pirate lord and defeated him single-handedly. However, instead of taking the mantle of pirate lord, he gave it to his trusted friend, Roe Pumperknickle. When asked about this decision, he would simply say, "I have other goals to achieve, and being pirate lord doesn't fulfill those goals". No one really knew what other goals he had in mind, but, soon after, Zakrion disappeared. Some speculated he left the seas and lived the rest of his life on a remote island. Others firmly believe that there were sightings of him and Buttercup on another plane. Whatever and wherever he may be, one thing will always be true: the fear of failure no longer prohibited him. The world was his to explore.~
+@64 = ~No longer shackled to Bhaal's legacy, Zakrion and <CHARNAME> were free to choose their path in life. Zakrion wasted no time in bringing his beloved onto the great seas that he loved so much. The decade spent on the seas was filled with grand adventures, and, together, Zakrion, Buttercup, and <CHARNAME> ruled the ocean. They journeyed to every end of Toril, exploring new worlds and seeking great treasures. There was a time that Zakrion wished this life would never end and would forever stay the same. However, not everything lasts for a lifetime, but, for Buttercup, it did last her entire lifetime.
+
+With the peaceful passing of his trusted companion, Zakrion felt it was time for the final voyage of himself and <CHARNAME>. Zakrion bought a luxurious ship, made to last a lifetime on the great seas, to live the rest of their lives out upon the great ocean blue. Their life was not easy on the crashing waves of the ocean as this had not been their original plan, but Zakrion was not ready to settle on land, and he would never be. However, the love between the couple held strong and eventually, a child was brought into the world; Zakrion loved this child dearly. In an effort to give their child connections to the world on land, Zakrion kept in-contact with his mother and his other family. Once per year, he would take <CHARNAME> and his child to visit their relatives. These were good years spent together, and years that Zakrion treasured. At the end of the day for the former pirate captain, he would always tell his son that he was exactly where he was supposed to be - here with his great love.~
+@65 = ~No longer shackled to Bhaal's legacy, Zakrion and <CHARNAME> were free to choose their path in life. Zakrion wasted no time in bringing his beloved onto the great seas that he loved so much. The decade spent on the seas was filled with grand adventures, and together, Zakrion, Buttercup, and <CHARNAME> ruled the ocean. They journeyed to every end of Toril, exploring new worlds and seeking great treasures. There was a time that Zakrion wished this life would never end and would forever stay the same. However, not everything lasts for a lifetime, but, for Buttercup, it did last her entire lifetime.
+
+With the peaceful passing of his trusted companion, Zakrion felt it was time for the final voyage of himself and <CHARNAME>. Zakrion bought a luxurious ship, made to last a lifetime on the great seas, to live the rest of their lives out upon the great ocean blue. Their life was not easy on the crashing waves of the ocean as this had not been their original plan, but Zakrion was not ready to settle on land, and he would never be. However, the love between the couple held strong, and, eventually, a child was brought into the world; Zakrion loved this child dearly as this child was the only family he had left - save <CHARNAME>. These were good years spent together, and years that Zakrion treasured. At the end of the day for the former pirate captain, he would always tell his son that he was exactly where he was supposed to be - here with his great love.~
+@66 = ~No longer shackled to Bhaal's legacy, Zakrion and <CHARNAME> were free to choose their path in life. They were happy for some time with their newfound freedom, but the allure of the ocean always found its way back to Zakrion's heart despite the desires of wanting to start a family. And one day, he could no longer resist the great temptation in his heart, and a terrible fight broke out between the two. It inevitably resulted in Zakrion's swift departure back to the seas. Zakrion spoke no more of <CHARNAME>, his former love, but as he sailed further and further away from her, he knew he had made a mistake. He would not admit this to others, but anyone who knew him would say that he was a dark shell of the man he used to be. He became the pirate captain he knew he was meant to be, and, soon enough, many told lavish tales of a pirate ship filled to the brim with the most marvelous of treasures. Captaining the mighty vessel was a dirty, blonde captain with a strange creature on his shoulder at the helm of the ship.
+
+However, as fast as the tales of Zakrion's great life was spun up, they quickly halted. It was said that Zakrion gave up his pirate life in search of his great love, <CHARNAME>, but, during his search, he and his trusted companion lost their lives in a ship crash. No one truly knows where <CHARNAME> is and how she responded to her former lover's death, but if there is one thing for sure: the spirits of Zakrion and Buttercup live on in the great seas.~
+@67 = ~No longer shackled to Bhaal's legacy, Zakrion and <CHARNAME> were free to choose their path in life. Zakrion wasted no time in bringing his beloved onto the great seas that he loved so much. The decade spent on the seas was filled with grand adventures, and, together, Zakrion, Buttercup, and <CHARNAME> ruled the ocean. They journeyed to every end of Toril, exploring new worlds and seeking great treasures. There was a time that Zakrion wished this life would never end and would forever stay the same. However, not everything lasts for a lifetime, but, for Buttercup, it did last her entire lifetime.
+
+With the peaceful passing of his trusted companion, Zakrion felt it was time for the final voyage of himself and <CHARNAME>. Zakrion bought a luxurious ship, made to last a lifetime on the great seas, to live the rest of their lives out upon the great ocean blue. Their life was not easy on the crashing waves of the ocean as this had not been their original plan, but Zakrion was not ready to settle on land, and he would never be. However, the love between the couple held strong, and, eventually, they worked through their issues. Much of their life on the seas was quiet and calm, and these were good years spent together in harmony. At the end of the day for the former pirate captain, he firmly believed that he was exactly where he was supposed to be - here with his great love.~
+@68 = ~No longer shackled to Bhaal's legacy, Zakrion and <CHARNAME> were free to choose their path in life. They were happy for some time with their newfound freedom, but the allure of the ocean always found its way back to Zakrion's heart. And one day, he could no longer resist the great temptation in his heart and a terrible fight broke out between the two. It inevitably resulted in Zakrion's swift departure back to the seas. Zakrion spoke no more of <CHARNAME>, his former love, but, as he sailed further and further away from her, he knew he had made a mistake. He would not admit this to others, but anyone who knew him would say that he was a dark shell of the man he used to be. He became the pirate captain he knew he was meant to be, and, soon enough, many told lavish tales of a pirate ship filled to the brim with the most marvelous of treasures. Captaining the mighty vessel was a dirty, blonde captain with a strange creature on his shoulder at the helm of the ship.
+
+However, as fast as the tales of Zakrion's great life was spun up, they quickly halted. It was said that Zakrion gave up his pirate life in search of his great love, <CHARNAME>, but, during his search, he and his trusted companion lost their lives in a ship crash. No one truly knows where <CHARNAME> is and how she responded to her former lover's death, but if there is one thing for sure: the spirits of Zakrion and Buttercup live on in the great seas.~
+
+/**************************************************************************************************
+									Main Components Titles
+**************************************************************************************************/
+
+@1000 = ~Zakrion for BG2:EE~
+@2000 = ~Change Zakrion's class to Swashbuckler (from Duelist)~
+@3000 = ~Zakrion's Portrait~
+
+/**************************************************************************************************
+									Journal Entries
+**************************************************************************************************/
+
+@100001 = ~The Final Battle with Bodhi.
+
+Bodhi appeared in an ambush shortly before I reached her haven, warning me that she was aware of my pursuit and stealing from me the one person that is dearest to my heart: Branwen.  Before she vanished and unleashed more of her undead creations upon me, Bodhi warned me that if I continue I will lose even more than I thought possible.  I cannot give up on the Rhynn Lanthorn... but now the life and immortal soul of the one I love is at stake as well!~
+@100002 = ~The Final Battle with Bodhi.
+
+While I had feared for some time that Bodhi's final revenge on me would be to take away Zakrion forever, it seems that the information in the lorebook was right... Amaunator's idol has restored Zakrion not only to life but has removed the vampiric curse from him as well.~
+@100003 = ~Roe's Fever of Unknown Origin.
+
+We stumbled across Zakrion's family at an unlikely time and place. However, it seems that their guide, who happens to be the familiar Roe Pumperknickle, is suffering from a fever of unknown origin. Zakrion's mother has stated that a possible cure for her fever is some berries growing around Saradush, but they aren't just any berries. They need to be refined somehow. Perhaps, we can find a merchant outside of Saradush selling this miraculous berry?~
+@100004 = ~Roe's Fever of Unknown Origin.~
+@100005 = ~The Salbread Bully.~
+@100006 = ~The Salbread Bully.
+
+A halfling child has asked us to look into retrieving his 'birthday salbready' from a bully. The child described the bully as big and smelly, but, to a child, everyone is big. However, not everyone is smelly. Perhaps I should start the search for the bully in a place that makes my nose crinkle.~
+@100007 = ~The Salbread Bully.
+
+We met a strange halfling man attempting to sell his goods to Zakrion. However, before we had a chance to ask him any questions, he sprinted away and dropped an oddly-shaped pastry. It turns out, the pungent 'filling' of that pastry was a small, shriveled hand. This is quickly turning out to be more than hunting for the stolen birthday salbread.~
+@100008 = ~The Salbread Bully.
+
+The big, scary bully turned out to be two halfling men. These men were luring halfling children with baked goods and making 'treats' out of their flesh! Unfortunately for the halfling child, his birthday salbread was nowhere in sight. Regardless, we should return to the child and inform him of the absence of his salbread. Hopefully, his birthday won't be ruined.~
+@100009 = ~The Salbread Bully.
+
+We have put an end to the future theft of salbread from halfling children... at least, for the time being. There will always be thieves, but at least we were able to rid Amn of probably two of the worst offenders.~
+@100010 = ~Roe's Fever of Unknown Origin.
+
+We met Zakrion's family during the siege of Saradush. They were escorted here by Zakrion's friend, Roe Pumperknickle. However, she has fallen gravely ill with a fever of unknown origin. The only lead we have for a cure is berries growing outside of Saradush.~
+@100011 = ~Roe's Fever of Unknown Origin.
+
+We were fortunate enough to stumble across a merchant selling some refined berries. Most of them appear to be crushed, but they will have to do. We should hurry back and give them to Roe before her fever worsens.~
+@100012 = ~Roe's Fever of Unknown Origin.
+
+We've given the berries to Roe. All we can do now is wait and see if the berries work.~
+@100013 = ~Roe's Fever of Unknown Origin~
+@100014 = ~The Salbread Bully~
