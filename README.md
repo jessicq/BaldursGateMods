@@ -52,6 +52,7 @@ Topls/Resources Used:
 9. Shadowkeeper
 10. Zamzar
 11. Notepad++
+12. Notepad++ Highlighters
 
 *Huge thank you to the staff at <a href="https://www.gibberlings3.net/">Gibberlings3</a> for hosting <a href="https://www.gibberlings3.net/mods/npcs/beaurin/">The Beaurin Legacy</a>, <a href="https://www.gibberlings3.net/mods/npcs/zakrion/">Zakrion for BG1</a>, <a href="https://www.gibberlings3.net/mods/npcs/zakrion_bg2/">Zakrion for BG2</a>, and <a href="https://www.gibberlings3.net/mods/npcs/yoshimos-remorse/">Yoshimo's Remorse</a>!!*
 
