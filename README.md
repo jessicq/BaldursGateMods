@@ -41,16 +41,16 @@ Currently Released and Supported Mod(s) Include:
       (1) English
 
 Topls/Resources Used: 
-1. Audacity by Sourceforge
-2. MuseScore by Werner Schweer
-3. WeiDu by Weimer
-4. Near Infinity by Jon Olav Hauglid
-5. gedit by NickMead
-6. IESDP maintained by igi
-7. DLTCEP by Avenger
-8. Gimp by Spencer Kimball and Peter Mattis
-9. Shadowkeeper by Mudmaster
-10. Zamzar by Zamzar
+1. Audacity
+2. MuseScore
+3. WeiDU
+4. Near Infinity
+5. gedit
+6. IESDP
+7. DLTCEP
+8. Gimp
+9. Shadowkeeper
+10. Zamzar
 11. Notepad++
 
 *Huge thank you to the staff at <a href="https://www.gibberlings3.net/">Gibberlings3</a> for hosting <a href="https://www.gibberlings3.net/mods/npcs/beaurin/">The Beaurin Legacy</a>, <a href="https://www.gibberlings3.net/mods/npcs/zakrion/">Zakrion for BG1</a>, <a href="https://www.gibberlings3.net/mods/npcs/zakrion_bg2/">Zakrion for BG2</a>, and <a href="https://www.gibberlings3.net/mods/npcs/yoshimos-remorse/">Yoshimo's Remorse</a>!!*
