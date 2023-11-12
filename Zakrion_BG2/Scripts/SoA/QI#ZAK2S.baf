@@ -617,7 +617,7 @@ END
 /*		Unable to kill Desharik	- Part 1	*/
 IF
 	InParty(Myself)
-	!Dead("deshar")
+	!Dead("PPDESH")
 	Global("QI#ZakrionDesharikMeeting","GLOBAL",1)
 	Global("QI#RoeEncounter","GLOBAL",2)
 THEN
@@ -667,7 +667,7 @@ END
 /*		If Desharik is somehow killed	*/
 IF
 	InParty(Myself)
-	Dead("deshar")
+	Dead("PPDESH")
 	Global("QI#ZakrionDesharikKilled","GLOBAL",0)
 	Global("QI#RoeEncounter","GLOBAL",2)
 THEN
@@ -740,3 +740,135 @@ THEN
 RESPONSE #100
 	StartDialogueNoSet(Player1)
 END
+
+/*		Romance Conflict Confrontation: Anomen	*/
+IF
+	InParty(Myself)
+	InParty("Anomen")
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakRomanceActive","GLOBAL",1)
+	Global("AnomenRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionAnomenRomance","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionAnomenRomance","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	InParty("Anomen")
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakRomanceActive","GLOBAL",1)
+	Global("AnomenRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionAnomenRomance","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/*		Romance Conflict Confrontation: Dorn	*/
+IF
+	InParty(Myself)
+	InParty("Dorn")
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakRomanceActive","GLOBAL",1)
+	Global("DornRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionDornRomance","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionDornRomance","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	InParty("Dorn")
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakRomanceActive","GLOBAL",1)
+	Global("DornRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionDornRomance","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/*		Romance Conflict Confrontation: Rasaad	*/
+IF
+	InParty(Myself)
+	InParty("Rasaad")
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakRomanceActive","GLOBAL",1)
+	Global("RasaadRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionRasaadRomance","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionRasaadRomance","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	InParty("Rasaad")
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakRomanceActive","GLOBAL",1)
+	Global("RasaadRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionRasaadRomance","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+/*		Romance Conflict Confrontation: Hexxat	*/
+IF
+	InParty(Myself)
+	InParty("Hexxat")
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakRomanceActive","GLOBAL",1)
+	Global("HexxatRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionHexxatRomance","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakrionHexxatRomance","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	InParty("Hexxat")
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("QI#ZakRomanceActive","GLOBAL",1)
+	Global("HexxatRomanceActive","GLOBAL",2)
+	Global("QI#ZakrionHexxatRomance","GLOBAL",1)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
