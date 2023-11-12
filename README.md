@@ -40,6 +40,8 @@ Currently Released and Supported Mod(s) Include:
  
       (1) English
 
+**5. Unannounced NPC - Baldur's Gate I Enhanced Edition + Siege of Dragonspear - WIP**
+
 Topls/Resources Used: 
 1. Audacity
 2. MuseScore
