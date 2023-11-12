@@ -245,7 +245,7 @@ I_C_T FUCKYU 0 QI#ZakFuckyu1
 END
 
 //Garden Lad
-I_C_T GARDEN 1 QI#ZakGardenLad1
+I_C_T GARDEN 0 QI#ZakGardenLad1
 == QI#ZAKJ IF ~InParty("QI#ZAK") InMyArea("QI#ZAK") !StateCheck("QI#ZAK",CD_STATE_NOTVALID)~ THEN 
 @56
 END
@@ -371,6 +371,25 @@ I_C_T GANDOL 17 QI#ZakGandolar4
 == QI#ZAKJ IF ~InParty("QI#ZAK") InMyArea("QI#ZAK") !StateCheck("QI#ZAK",CD_STATE_NOTVALID)~ THEN 
 @88
 END
+
+// Tenya
+I_C_T TENYA 4 QI#ZakTenya1
+== QI#ZAKJ IF ~InParty("QI#ZAK") InMyArea("QI#ZAK") !StateCheck("QI#ZAK",CD_STATE_NOTVALID)~ THEN 
+@1299
+= @1300
+END 
+
+I_C_T TENYA 17 QI#ZakTenya2
+== QI#ZAKJ IF ~InParty("QI#ZAK") InMyArea("QI#ZAK") !StateCheck("QI#ZAK",CD_STATE_NOTVALID)~ THEN 
+@1301
+END 
+
+// Sonner
+I_C_T SONNER 4 QI#ZakSonner1
+== QI#ZAKJ IF ~InParty("QI#ZAK") InMyArea("QI#ZAK") !StateCheck("QI#ZAK",CD_STATE_NOTVALID)~ THEN 
+@1302
+END 
+
 
 /**************************************************************************************************
 			Introduction: Bring Zakrion to a tavern
@@ -2621,10 +2640,67 @@ END
 IF ~~ QI#ZakSemiRomTalk5.3
 SAY @1042
 = @1043
-IF ~~ DO ~IncrementGlobal("QI#ZakSemiRomTalk","GLOBAL",1) SetGlobal("QI#ZakSemiRomanceActive","GLOBAL",3)~ EXIT 
+IF ~~ DO ~IncrementGlobal("QI#ZakSemiRomTalk","GLOBAL",1) SetGlobal("QI#ZakSemiRomanceActive","GLOBAL",3) RealSetGlobalTimer("QI#ZakSemiRomanceTimer","GLOBAL",3600)~ EXIT 
 END 
 
+/* Talk 6: Are you okay? */ 
+IF ~Global("QI#ZakSemiRomTalk","GLOBAL",12)~ QI#ZakSemiRomTalk6
+SAY @1274
+= @1275
+++ @1276 + QI#ZakSemiRomTalk6.1
+++ @1277 + QI#ZakSemiRomTalk6.1
+++ @1278 + QI#ZakSemiRomTalk6.0.1
+++ @1279 + QI#ZakSemiRomTalk6.0.1
+++ @1280 + QI#ZakSemiRomTalk6.0.2
+++ @1281 + QI#ZakSemiRomTalk6.0x
+++ @1282 + QI#ZakSemiRomTalk6.0x
 END
+
+IF ~~ QI#ZakSemiRomTalk6.0x
+SAY @1283
+= @1284
+= @1285
+IF ~~ DO ~IncrementGlobal("QI#ZakSemiRomTalk","GLOBAL",1)~ EXIT 
+END 
+
+IF ~~ QI#ZakSemiRomTalk6.0.1
+SAY @1286
+IF ~~ + QI#ZakSemiRomTalk6.1
+END
+
+IF ~~ QI#ZakSemiRomTalk6.0.2
+SAY @1287
+IF ~~ + QI#ZakSemiRomTalk6.1
+END 
+
+IF ~~ QI#ZakSemiRomTalk6.1
+SAY @1288
+= @1289
+= @1290
+++ @1291 + QI#ZakSemiRomTalk6.1.1
+++ @1292 + QI#ZakSemiRomTalk6.1.1
+++ @1293 + QI#ZakSemiRomTalk6.1.2
+++ @1294 + QI#ZakSemiRomTalk6.0x
+END
+
+IF ~~ QI#ZakSemiRomTalk6.1.1
+SAY @1295
+IF ~~ + QI#ZakSemiRomTalk6.2
+END 
+
+IF ~~ QI#ZakSemiRomTalk6.1.2
+SAY @1296
+IF ~~ + QI#ZakSemiRomTalk6.2
+END
+
+IF ~~ QI#ZakSemiRomTalk6.2
+SAY @1297
+= @1298
+IF ~~ DO ~IncrementGlobal("QI#ZakSemiRomTalk","GLOBAL",1)~ EXIT 
+END
+
+END
+
 
 /**************************************************************************************************
 			No Romance Only Physical Track
@@ -3172,4 +3248,100 @@ SAY @1272
 = @1273
 IF ~~ DO ~SetGlobal("QI#ZakSailorTavern","GLOBAL",2)~ EXIT 
 END 
+
+/* Event 10: *Umberlee and Talos* - The Bitch Queen or the Storm Lord? */
+// PC Sided
+IF ~Global("QI#ZakSeaGodsDecided","GLOBAL",1)~ QI#ZakSeaGodsDispute1
+SAY @1303
+= @1304
+++ @1305 + QI#ZakSeaGodsDispute1.1
+++ @1306 + QI#ZakSeaGodsDispute1.0.1
+++ @1307 + QI#ZakSeaGodsDispute1.0.2
+++ @1308 + QI#ZakSeaGodsDispute1.0.3
+++ @1309 + QI#ZakSeaGodsDispute1.1
+END
+
+IF ~~ QI#ZakSeaGodsDispute1.0.1
+SAY @1310
+= @1311
+= @1312
+++ @1305 + QI#ZakSeaGodsDispute1.1
+++ @1307 + QI#ZakSeaGodsDispute1.0.2
+++ @1308 + QI#ZakSeaGodsDispute1.0.3
+++ @1309 + QI#ZakSeaGodsDispute1.1
+END 
+
+IF ~~ QI#ZakSeaGodsDispute1.0.2
+SAY @1313
+= @1314
+= @1315
+= @1316
+= @1317
+= @1318
+++ @1305 + QI#ZakSeaGodsDispute1.1
+++ @1306 + QI#ZakSeaGodsDispute1.0.1
+++ @1307 + QI#ZakSeaGodsDispute1.0.2
+++ @1308 + QI#ZakSeaGodsDispute1.0.3
+++ @1309 + QI#ZakSeaGodsDispute1.1
+END 
+
+IF ~~ QI#ZakSeaGodsDispute1.0.3
+SAY @1319
+= @1320
+= @1321
+= @1322
+= @1323
+++ @1305 + QI#ZakSeaGodsDispute1.1
+++ @1306 + QI#ZakSeaGodsDispute1.0.1
+++ @1307 + QI#ZakSeaGodsDispute1.0.2
+++ @1308 + QI#ZakSeaGodsDispute1.0.3
+++ @1309 + QI#ZakSeaGodsDispute1.1
+END 
+
+IF ~~ QI#ZakSeaGodsDispute1.1
+SAY @1324
+IF ~~ DO ~SetGlobal("QI#ZakSeaGodsDecided","GLOBAL",2)~ EXIT 
+END 
+
+//PC Undecided
+IF ~Global("QI#ZakSeaGodsUndecided","GLOBAL",1)~ QI#ZakSeaGodsDispute2
+SAY @1325
+= @1326
+++ @1327 + QI#ZakSeaGodsDispute2.1
+++ @1328 + QI#ZakSeaGodsDispute2.1
+++ @1307 + QI#ZakSeaGodsDispute2.0.1
+++ @1308 + QI#ZakSeaGodsDispute2.0.2
+++ @1329 + QI#ZakSeaGodsDispute2.1
+END
+
+IF ~~ QI#ZakSeaGodsDispute2.0.1
+SAY @1313
+= @1314
+= @1315
+= @1316
+= @1317
+++ @1327 + QI#ZakSeaGodsDispute2.1
+++ @1328 + QI#ZakSeaGodsDispute2.1
+++ @1307 + QI#ZakSeaGodsDispute2.0.1
+++ @1308 + QI#ZakSeaGodsDispute2.0.2
+++ @1329 + QI#ZakSeaGodsDispute2.1
+END 
+
+IF ~~ QI#ZakSeaGodsDispute2.0.2
+SAY @1319
+= @1320
+= @1321
+= @1322
+++ @1327 + QI#ZakSeaGodsDispute2.1
+++ @1328 + QI#ZakSeaGodsDispute2.1
+++ @1307 + QI#ZakSeaGodsDispute2.0.1
+++ @1308 + QI#ZakSeaGodsDispute2.0.2
+++ @1329 + QI#ZakSeaGodsDispute2.1
+END 
+
+IF ~~ QI#ZakSeaGodsDispute2.1
+SAY @1330
+IF ~~ DO ~SetGlobal("QI#ZakSeaGodsUndecided","GLOBAL",2)~ EXIT
+END 
+
 END 

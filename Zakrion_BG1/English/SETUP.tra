@@ -23,17 +23,17 @@ STATISTICS:
 
 Weight: 0~
 @6 = ~Zakrion~
-@7 = ~When asked about his past, ZAKRION smiles calmly at you and says that he was a son of a ship captain.  He fondly relays a time where he would stand atop the ship and smell the salty sea breeze. He falls silent for a moment but neither his eyes nor his voice betrays him as he blatantly speaks of his father's ship being taken by pirates. Ever since then, he was named the next captain for the survivors of the invasion until his own ship wreckage where he lost his entire crew and left him as the sole survivor.~
+@7 = ~When asked about his past, ZAKRION smiles calmly at you and says that he was a son of a ship captain.  He fondly relays a time where he would stand atop the ship and smell the salty sea breeze. He falls silent for a moment but neither his eyes nor his voice betrays him as he blatantly speaks of his father's ship being captured by pirates. Ever since, he was named the next captain for the survivors of the invasion - until his own ship wreckage, where he was left as the sole survivor.~
 @8 = ~Cut and run!~ [QI#ZAK15]
 @9 = ~Not sure what you're doing, captain, but it doesn't look too good.~ [QI#ZAK31]
 @10 = ~Had anyone on my crew acted like this, they would be over the barrel.~ [QI#ZAK32]
-@11 = ~I've led crews before, so this should be no problem. I hope.~ [QI#ZAK04]
+@11 = ~I've led crews before so this should be no problem. I hope.~ [QI#ZAK04]
 @12 = ~I could use a good rest.~ [QI#ZAK05]
 @13 = ~Any day now...~ [QI#ZAK06]
 @14 = ~It's getting a little late to navigate.~ [QI#ZAK33]
 @15 = ~This is the perfect time to get underway.~ [QI#ZAK34]
 @16 = ~I prefer the sea to this.~ [QI#ZAK20]
-@17 = ~Forests are vast, but not as vast as the sea.~ [QI#ZAK19]
+@17 = ~Forests are vast but not as vast as the sea.~ [QI#ZAK19]
 @18 = ~Your life ends here!~ [QI#ZAK01]
 @19 = ~Clear the deck!~ [QI#ZAK35]
 @20 = ~Today isn't your day, is it?~ [QI#ZAK02]
@@ -68,3 +68,9 @@ Weight: 0~
 @49 = ~Alternative Portrait 1 by Nyaka-N at DeviantArt~
 @50 = ~Alternative Portrait 1 - Zakrion~
 @51 = ~You must have Zakrion_BG1 installed to select this option.~
+
+@1000 = ~Zakrion for BGI:EE~
+@1010 = ~This component requires the Zakrion_BG1 main component.~
+
+@2000 = ~Change Zakrion's class to Swashbuckler (from Duelist)~
+

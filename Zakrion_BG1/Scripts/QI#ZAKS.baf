@@ -302,6 +302,39 @@ RESPONSE #100
 	StartDialogueNoSet(Player1)
 END
 
+// Additional Talk - How are you feeling?
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakSemiRomanceTimer","GLOBAL")
+	Global("QI#ZakSemiRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	GlobalGT("Chapter","GLOBAL",6)
+	Global("QI#ZakSemiRomTalk","GLOBAL",11)
+THEN
+RESPONSE #100
+	IncrementGlobal("QI#ZakSemiRomTalk","GLOBAL",1)	
+END 
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("QI#ZakSemiRomanceTimer","GLOBAL")
+	Global("QI#ZakSemiRomanceActive","GLOBAL",3)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakSemiRomTalk","GLOBAL",12)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+
 /**************************************************************************************************
 			Only Physical Track
 **************************************************************************************************/
@@ -650,3 +683,75 @@ THEN
 RESPONSE #100
 	StartDialogueNoSet(Player1)
 END 
+
+/**************************************************************************************************
+			 Event 10: *Umberlee and Talos* - The Bitch Queen or the Storm Lord?
+**************************************************************************************************/
+
+// PC sides with Talos or Umberlee
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck("Player1",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakSeaGodsDecided","GLOBAL",0)
+	OR(2)
+		Global("killed_tenya_fishermen","GLOBAL",1)
+		Global("HelpTenya","GLOBAL",2)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakSeaGodsDecided","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck("Player1",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakSeaGodsDecided","GLOBAL",1)
+	OR(2)
+		Global("killed_tenya_fishermen","GLOBAL",1)
+		Global("HelpTenya","GLOBAL",2)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+
+// PC is undecided
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck("Player1",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakSeaGodsUndecided","GLOBAL",0)
+	Global("HelpJebadoh","GLOBAL",3)
+	!Global("killed_tenya_fishermen","GLOBAL",1)
+	!Global("HelpTenya","GLOBAL",2)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakSeaGodsUndecided","GLOBAL",1)
+END 
+
+IF
+	InParty(Myself)
+	See(Player1)
+	!StateCheck("Player1",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("QI#ZakSeaGodsUndecided","GLOBAL",1)
+	Global("HelpJebadoh","GLOBAL",3)
+	!Global("killed_tenya_fishermen","GLOBAL",1)
+	!Global("HelpTenya","GLOBAL",2)
+THEN
+RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
