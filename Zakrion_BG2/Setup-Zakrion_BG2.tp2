@@ -1,0 +1,683 @@
+BACKUP ~Zakrion_BG2/backup~
+AUTHOR ~jmaeq~
+README ~%MOD_FOLDER%/Zakrion_BG2-ReadMe.html~
+VERSION ~v2.0~
+
+AUTO_EVAL_STRINGS
+ALWAYS
+
+  ACTION_IF NOT VARIABLE_IS_SET bg2_chapter THEN BEGIN // check to make this happen only once per install
+
+    ACTION_IF GAME_IS ~eet~ BEGIN
+        OUTER_SET bg2_chapter = 12
+    END ELSE BEGIN
+        OUTER_SET bg2_chapter = 0
+    END
+    OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+        OUTER_SET bg2_chapter = bg2_chapter + 1
+        OUTER_SPRINT name_source ~bg2_chapter_%i%~
+        OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+    END
+    ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+        OUTER_SET ee_game = 1
+        // convert strings to UTF-8 for BGEE/BG2EE
+        ACTION_DEFINE_ARRAY cdreload BEGIN setup END
+        ACTION_DEFINE_ARRAY cdnoconvert BEGIN ee END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
+        LAF HANDLE_CHARSETS INT_VAR infer_charsets = 1 STR_VAR tra_path = ~Zakrion_BG2~ noconvert_array = cdnoconvert reload_array = cdreload END
+		ADD_JOURNAL EXISTING TITLE (#74337) @100001 @100002
+		ADD_JOURNAL @100005 @100006 @100007 @100007
+    END ELSE BEGIN
+      OUTER_SET ee_game = 0
+    END
+  END
+
+END
+
+AUTO_TRA ~Zakrion_BG2\%s~
+LANGUAGE ~English~ ~English~ ~Zakrion_BG2/English/setup.tra~
+
+BEGIN @1000 DESIGNATED 1000 LABEL ZakrionMain
+
+    APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+    UNLESS ~CD_STATE_NOTVALID~
+
+/**************************************************************************************************
+									Duelist Kit 
+**************************************************************************************************/
+	INCLUDE ~Zakrion_BG2/Library/fl#add_kit_ee.tpa~
+	
+	ADD_KIT ~QI#DUELIST~
+	~QI#DUELIST                 1           1           1           1           1 1           1           1~
+	~QI#DUELIST 5 5 1 1 1 1 1 1 5 5 5 1 1 5 5 5 1 1 1 1 1 1 1 1 1 1 5 1 1 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+	~QI#DUELIST                 9      0      0      0       0      0~
+	~QI#DUELIST                 0       0       0       0       0       0~
+	~QI#DUELIST                 17      0      0       0       0      0~
+	~QI#DUELIST                 15      0      0       0       0      0~
+	~QI#DUELIST                 1       1       1       1       1       1       1 1       1~
+	~QI#DUELIST                 0       1       1       1       1       0~
+	~Zakrion_BG2/Duelist/QI#DUEL.2da~
+	~~
+	~0x00010000     2~
+	~Fi0~
+	~LEAT20 DART03,40 HELM07 BAG26 RING06 RING31 CLCK27 BOOT01 AMUL19 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW11 BOW19 XBOW06~
+	SAY @45
+	SAY @46
+	SAY @47
+	LAF fl#add_kit_ee 
+		STR_VAR kit_name = ~QI#DUELIST~
+	END
+	
+/**************************************************************************************************
+									Zakrion Main Components
+**************************************************************************************************/
+
+    ACTION_IF GAME_IS ~BG2EE EET~ BEGIN
+		COPY ~%MOD_FOLDER%/Creatures/QI#ZAK2.cre~ ~override/QI#ZAK2.cre~
+		WRITE_SHORT 0x246 (0x4000 + ~%QI#DUELIST%~)
+
+		SAY NAME1 @0
+		SAY NAME2 @0
+
+		SAY BIO @1
+		SAY MORALE @2
+		SAY UNHAPPY_ANNOYED @3
+		SAY UNHAPPY_SERIOUS @4
+		SAY LEADER @5
+		SAY TIRED @6
+		SAY BORED @7
+		SAY AREA_NIGHT @8
+		SAY AREA_DAY @9
+		SAY AREA_DUNGEON @10
+		SAY AREA_CITY @10
+		SAY AREA_FOREST @11
+		SAY BATTLE_CRY1 @12
+		SAY BATTLE_CRY2 @13
+		SAY BATTLE_CRY3 @14
+		SAY BATTLE_CRY4 @15
+		SAY BATTLE_CRY5 @16
+		SAY DAMAGE @42
+		SAY DYING @17
+		SAY HURT @18
+		SAY SELECT_COMMON1 @19
+		SAY SELECT_COMMON2 @20
+		SAY SELECT_COMMON3 @21
+		SAY SELECT_COMMON4 @22
+		SAY SELECT_COMMON5 @23
+		SAY SELECT_COMMON6 @24
+		SAY SELECT_ACTION1 @25
+		SAY SELECT_ACTION2 @26
+		SAY SELECT_ACTION3 @27
+		SAY SELECT_ACTION4 @28
+		SAY SELECT_ACTION5 @29
+		SAY SELECT_ACTION6 @30
+		SAY SELECT_ACTION7 @31
+		SAY CRITICAL_HIT @32
+		SAY CRITICAL_MISS @33
+		SAY TARGET_IMMUNE @34
+		SAY INVENTORY_FULL @35
+		SAY SELECT_RARE1 @36
+		SAY SELECT_RARE2 @37
+		SAY PICKED_POCKET @38
+		SAY SPELL_DISRUPTED @39
+		SAY HIDDEN_IN_SHADOWS @40
+		SAY SET_A_TRAP @41
+		
+		WRITE_ASCII 0x248 ~QI#ZAK2S~ #8  // override script
+		WRITE_ASCII 0x2cc ~QI#ZAK2~  #8  // dialogue file
+		WRITE_ASCII 0x280 ~QI#ZAK2~  #32 // death variable 
+		WRITE_ASCII 0x34  ~QI#ZaBuS~ #8  // small portrait
+		WRITE_ASCII 0x3c  ~QI#ZaBuL~ #8  // medium portrait
+			
+		END
+		
+		/********** Items **********/
+		
+		// Buttercup
+		COPY ~%MOD_FOLDER%/BAMs/QI#ZABUL.BAM~ ~override~
+		COPY ~%MOD_FOLDER%/BAMs/QI#ZABUS.BAM~ ~override~
+		COPY ~%MOD_FOLDER%/Items/QI#ZAKBU.itm~ ~override~
+		SAY NAME1 @43
+		SAY NAME2 @43
+		SAY DESC @44
+		
+		// Salbread
+		COPY ~%MOD_FOLDER%/BAMs/QI#ZSALL.BAM~ ~override~
+		COPY ~%MOD_FOLDER%/BAMs/QI#ZSALS.BAM~ ~override~
+		COPY ~%MOD_FOLDER%/Items/QI#ZSALB.itm~ ~override~
+		SAY NAME1 @69
+		SAY NAME2 @69
+		SAY DESC @70
+		
+		// Zakrion's Body
+		COPY ~%MOD_FOLDER%/Items/QI#ZAKB.itm~ ~override~
+		SAY NAME1 @76
+		SAY NAME2 @76
+		SAY UNIDENTIFIED_DESC @77
+		SAY DESC @77
+		
+		// "Salty Treat"
+		COPY ~%MOD_FOLDER%/Items/QI#ZHAND.itm~ ~override~
+		SAY NAME1 @71
+		SAY NAME2 @71
+		SAY UNIDENTIFIED_DESC @72
+		SAY DESC @72
+			
+		/********** Creatures **********/
+		
+		// Vampire Zakrion
+		COPY ~%MOD_FOLDER%/Creatures/QI#ZAK2V.cre~ ~override/QI#ZAK2V.cre~
+		SAY NAME1 @0
+		SAY NAME2 @0
+		WRITE_ASCII 0x248 ~QI#ZAK2V~ #8
+		WRITE_ASCII 0x2cc ~QI#ZAK2V~ #8
+		WRITE_ASCII 0x280 ~QI#ZAK2V~ #32
+		
+		// Roe Pumperknickle
+		COPY ~%MOD_FOLDER%/Creatures/QI#ROE.cre~ ~override/QI#ROE.cre~
+		SAY NAME1 @50
+		SAY NAME2 @50
+		WRITE_ASCII 0x248 ~QI#ROES~ #8	// override script
+		WRITE_ASCII 0x2cc ~QI#ROE~  #8	// dialogue file
+		WRITE_ASCII 0x280 ~QI#ROE~  #32 // death variable 
+		WRITE_ASCII 0x34  ~QI#RoeS~ #8  // small portrait
+		WRITE_ASCII 0x3c  ~QI#RoeM~ #8  // medium portrait
+		
+		// Zakrion's Mother
+		COPY ~%MOD_FOLDER%/Creatures/QI#ZAMO.cre~ ~override/QI#ZAMO.cre~
+		SAY NAME1 @51
+		SAY NAME2 @51
+		WRITE_ASCII 0x248 ~QI#ZAMO~  #8  // override script
+		WRITE_ASCII 0x2cc ~QI#ZAMO~  #8  // dialogue file
+		WRITE_ASCII 0x280 ~QI#ZAMO~  #32 // death variable 
+		
+		// Zakrion's Half Brother
+		COPY ~%MOD_FOLDER%/Creatures/QI#ZABO.cre~ ~override/QI#ZABO.cre~
+		SAY NAME1 @52 
+		SAY NAME2 @52
+		WRITE_ASCII 0x248 ~QI#ZABO~  #8  // override script
+		WRITE_ASCII 0x2cc ~QI#ZABO~  #8  // dialogue file
+		WRITE_ASCII 0x280 ~QI#ZABO~  #32 // death variable 
+		
+		// Halfling Child
+		COPY ~%MOD_FOLDER%/Creatures/QI#HALFC.cre~ ~override/QI#HALFC.cre~
+		SAY NAME1 @73
+		SAY NAME2 @73
+		WRITE_ASCII 0x248 ~QI#HALFC~  #8  // override script
+		WRITE_ASCII 0x2cc ~QI#HALFC~  #8  // dialogue file
+		WRITE_ASCII 0x280 ~QI#HALFC~  #32 // death variable 
+		
+		// Bully 1
+		COPY ~%MOD_FOLDER%/Creatures/QI#BULL1.cre~ ~override/QI#BULL1.cre~
+		SAY NAME1 @74
+		SAY NAME2 @74
+		WRITE_ASCII 0x248 ~QI#BULL1~  #8  // override script
+		WRITE_ASCII 0x2cc ~QI#BULL1~  #8  // dialogue file
+		WRITE_ASCII 0x280 ~QI#BULL1~  #32 // death variable 
+		
+		// Bully 2
+		COPY ~%MOD_FOLDER%/Creatures/QI#BULL2.cre~ ~override/QI#BULL2.cre~
+		SAY NAME1 @75
+		SAY NAME2 @75
+		WRITE_ASCII 0x248 ~QI#BULL2~  #8  // override script
+		WRITE_ASCII 0x2cc ~QI#BULL2~  #8  // dialogue file
+		WRITE_ASCII 0x280 ~QI#BULL2~  #32 // death variable 
+		
+		
+		/********** Dialogues **********/
+			
+		COMPILE 
+			~%MOD_FOLDER%/Dialogues/SoA/QI#ZAK2.d~
+			~%MOD_FOLDER%/Dialogues/SoA/QI#ZAK2P.d~
+				
+		COMPILE EVALUATE_BUFFER
+			~%MOD_FOLDER%/Dialogues/SoA/QI#ZAK2J.d~
+			~%MOD_FOLDER%/Dialogues/SoA/QI#ZAK2B.d~
+				
+		// Other Characters
+		COMPILE
+			~%MOD_FOLDER%/Dialogues/SoA/QI#SBTPC.d~
+			~%MOD_FOLDER%/Dialogues/SoA/QI#ZAMO.d~
+			~%MOD_FOLDER%/Dialogues/SoA/QI#HALFC.d~
+			~%MOD_FOLDER%/Dialogues/SoA/QI#BULLY.d~
+			~%MOD_FOLDER%/Dialogues/SoA/QI#ROE.d~
+			
+		// Thanks to Lava Del'Vortel for getting Wilson to speak!
+		ACTION_IF FILE_EXISTS_IN_GAME ~wilson.dlg~ THEN BEGIN
+		  PRINT @53
+			APPEND ~interdia.2da~ ~WILSON BWILSON~
+			UNLESS ~WILSON~
+			ACTION_IF NOT (FILE_EXISTS_IN_GAME ~BWILSON.dlg~) THEN BEGIN
+				COMPILE ~%MOD_FOLDER%/Dialogues/SoA/BWilsonFix.d~
+				COMPILE ~%MOD_FOLDER%/Dialogues/ToB/BWilso25Fix.d~
+			END
+		END		
+			
+		// Allow banters with Wilson the bear
+		COMPILE ~%MOD_FOLDER%/Dialogues/SoA/QI#ZAK2EE.d~	
+
+
+		/********** Buttercup Interactions **********/	
+			
+		COPY_EXISTING	~QI#ZAKBU.itm~	~override~
+			WRITE_LONG 0x18 (THIS | BIT11)
+			
+		COPY_EXISTING	~itemdial.2da~	~override~
+			COUNT_2DA_COLS cols
+			COUNT_2DA_ROWS cols rows
+			INSERT_2DA_ROW rows cols ~QI#ZAKBU        5689   QI#ZAKBU~
+			PRETTY_PRINT_2DA
+		BUT_ONLY
+		
+		COMPILE	~%MOD_FOLDER%/Dialogues/SoA/QI#ZAKBU.d~
+		
+		/********** Quests **********/	
+		
+		ADD_JOURNAL TITLE (@100014) @100006 @100007 @100008 @100009 USING ~Zakrion_BG2/English/setup.tra~	
+	
+		/********** Scripts **********/
+
+		// Zakrion
+		COMPILE 
+			~%MOD_FOLDER%/Scripts/SoA/QI#ZAK2S.baf~
+			~%MOD_FOLDER%/Scripts/SoA/QI#ZAKVC.baf~
+			~%MOD_FOLDER%/Scripts/SoA/QI#ZAK2V.baf~
+			~%MOD_FOLDER%/Scripts/SoA/QI#ZAK2D.baf~
+			
+		// Zakrion's Dream Script	
+		COMPILE EVALUATE_BUFFER 
+			~%MOD_FOLDER%/Scripts/SoA/QI#ZAK2D.baf~
+			
+		// Other Character Scripts
+		COMPILE
+			~%MOD_FOLDER%/Scripts/SoA/QI#ROES.baf~
+			~%MOD_FOLDER%/Scripts/SoA/QI#ZAMO.baf~
+			~%MOD_FOLDER%/Scripts/SoA/QI#ZABO.baf~
+			~%MOD_FOLDER%/Scripts/SoA/QI#HALFC.baf~
+			~%MOD_FOLDER%/Scripts/SoA/QI#BULL1.baf~
+			~%MOD_FOLDER%/Scripts/SoA/QI#BULL2.baf~
+			
+		// Existing Areas and Scripts	
+		EXTEND_TOP	~AR0313.bcs~	~%MOD_FOLDER%/Scripts/SoA/AR0313.baf~
+		EXTEND_TOP	~AR1600.bcs~	~%MOD_FOLDER%/Scripts/SoA/AR1600.baf~
+		EXTEND_TOP 	~BODHIAMB.bcs~	~%MOD_FOLDER%/Scripts/SoA/Bodhiamb.baf~
+		EXTEND_TOP	~VAMPAMB.bcs~	~%MOD_FOLDER%/Scripts/SoA/Vampamb.baf~
+		EXTEND_TOP	~CLEANSE.bcs~	~%MOD_FOLDER%/Scripts/SoA/Cleanse.baf~
+		EXTEND_TOP	~AR0809.bcs~	~%MOD_FOLDER%/Scripts/SoA/AR0809.baf~
+		EXTEND_TOP	~AR0700.bcs~	~%MOD_FOLDER%/Scripts/SoA/AR0700.baf~
+		EXTEND_TOP	~AR0400.bcs~	~%MOD_FOLDER%/Scripts/SoA/AR0400.baf~
+		EXTEND_TOP	~AR0701.bcs~	~%MOD_FOLDER%/Scripts/SoA/AR0701.baf~
+		EXTEND_TOP	~AR0300.bcs~	~%MOD_FOLDER%/Scripts/SoA/AR0300.baf~
+
+		
+    /********** Throne of Bhaal Content **********/
+	ACTION_IF GAME_INCLUDES ~TOB~ THEN BEGIN
+      ACTION_IF GAME_IS ~BG2EE EET~ BEGIN
+		
+		COPY ~%MOD_FOLDER%/Creatures/QI#ZAK25.cre~ ~override/QI#ZAK25.cre~
+		WRITE_SHORT 0x246 (0x4000 + ~%QI#DUELIST%~)
+		SAY NAME1 @0
+		SAY NAME2 @0
+
+		SAY BIO @1
+		SAY MORALE @2
+		SAY UNHAPPY_ANNOYED @3
+		SAY UNHAPPY_SERIOUS @4
+		SAY LEADER @5
+		SAY TIRED @6
+		SAY BORED @7
+		SAY AREA_NIGHT @8
+		SAY AREA_DAY @9
+		SAY AREA_DUNGEON @10
+		SAY AREA_CITY @10
+		SAY AREA_FOREST @11
+		SAY BATTLE_CRY1 @12
+		SAY BATTLE_CRY2 @13
+		SAY BATTLE_CRY3 @14
+		SAY BATTLE_CRY4 @15
+		SAY BATTLE_CRY5 @16
+		SAY DAMAGE @42
+		SAY DYING @17
+		SAY HURT @18
+		SAY SELECT_COMMON1 @19
+		SAY SELECT_COMMON2 @20
+		SAY SELECT_COMMON3 @21
+		SAY SELECT_COMMON4 @22
+		SAY SELECT_COMMON5 @23
+		SAY SELECT_COMMON6 @24
+		SAY SELECT_ACTION1 @25
+		SAY SELECT_ACTION2 @26
+		SAY SELECT_ACTION3 @27
+		SAY SELECT_ACTION4 @28
+		SAY SELECT_ACTION5 @29
+		SAY SELECT_ACTION6 @30
+		SAY SELECT_ACTION7 @31
+		SAY CRITICAL_HIT @32
+		SAY CRITICAL_MISS @33
+		SAY TARGET_IMMUNE @34
+		SAY INVENTORY_FULL @35
+		SAY SELECT_RARE1 @36
+		SAY SELECT_RARE2 @37
+		SAY PICKED_POCKET @38
+		SAY SPELL_DISRUPTED @39
+		SAY HIDDEN_IN_SHADOWS @40
+		SAY SET_A_TRAP @41
+		
+		WRITE_ASCII 0x248 ~QI#ZA25S~ #8  // override script
+		WRITE_ASCII 0x2cc ~QI#ZAK25~ #8  // dialogue file
+		WRITE_ASCII 0x280 ~QI#ZAK2~  #32 // death variable 
+		WRITE_ASCII 0x34  ~QI#ZaBuS~ #8  // small portrait
+		WRITE_ASCII 0x3c  ~QI#ZaBuL~ #8  // medium portrait
+		
+		END
+		
+		/********** Items **********/
+		
+		// Buttercup
+		COPY ~%MOD_FOLDER%/BAMs/QI#ZABUL.BAM~ ~override~
+		COPY ~%MOD_FOLDER%/BAMs/QI#ZABUS.BAM~ ~override~
+		COPY ~%MOD_FOLDER%/Items/QI#ZAKBU.itm~ ~override~
+		SAY NAME1 @43
+		SAY NAME2 @43
+		SAY DESC @44
+
+		// Berries
+		COPY ~%MOD_FOLDER%/Items/QI#ZBERR.itm~ ~override~
+		SAY NAME1 @79
+		SAY NAME2 @79
+		SAY DESC @80
+		
+		// Zak's Ring
+		COPY ~%MOD_FOLDER%/Items/QI#ZRING.itm~ ~override~
+		SAY NAME1 @81
+		SAY NAME2 @81
+		SAY DESC @82
+		
+		/********** Dialogues **********/
+		
+		COMPILE 
+			~%MOD_FOLDER%/Dialogues/ToB/QI#ZAK25.d~
+			~%MOD_FOLDER%/Dialogues/ToB/QI#ZA25P.d~
+			~%MOD_FOLDER%/Dialogues/ToB/QI#ZA25B.d~
+			~%MOD_FOLDER%/Dialogues/ToB/QI#ZA25J.d~
+			~%MOD_FOLDER%/Dialogues/ToB/QI#ZMO25.d~
+			~%MOD_FOLDER%/Dialogues/ToB/QI#ROE25.d~
+			~%MOD_FOLDER%/Dialogues/ToB/QI#ZST25.d~
+			~%MOD_FOLDER%/Dialogues/ToB/QI#ZBO25.d~	
+			~%MOD_FOLDER%/Dialogues/ToB/QI#RO25A.d~
+			~%MOD_FOLDER%/Dialogues/ToB/QI#ZME25.d~
+	   
+
+	   ACTION_IF GAME_IS ~BG2EE EET~ BEGIN
+		COMPILE ~%MOD_FOLDER%/Dialogues/ToB/QI#ZA25E.d~
+	   END 
+		
+		/********** Scripts **********/
+		COMPILE	
+			~%MOD_FOLDER%/Scripts/ToB/QI#ZA25S.baf~
+			~%MOD_FOLDER%/Scripts/ToB/QI#ZA25G.baf~
+			~%MOD_FOLDER%/Scripts/ToB/QI#RO25S.baf~
+			~%MOD_FOLDER%/Scripts/ToB/QI#ZBO25.baf~
+			~%MOD_FOLDER%/Scripts/ToB/QI#ZMO25.baf~
+			~%MOD_FOLDER%/Scripts/ToB/QI#ZST25.baf~
+			~%MOD_FOLDER%/Scripts/ToB/QI#ZACU1.baf~
+			~%MOD_FOLDER%/Scripts/ToB/QI#RO25A.baf~
+			~%MOD_FOLDER%/Scripts/ToB/QI#ZME25.baf~
+			
+		EXTEND_TOP 	~AR6200.bcs~ 	~%MOD_FOLDER%/Scripts/ToB/AR6200.baf~	
+		EXTEND_TOP	~cut218g.bcs~	~%MOD_FOLDER%/Scripts/ToB/cut218g.baf~
+		EXTEND_TOP	~AR5012.bcs~	~%MOD_FOLDER%/Scripts/ToB/AR5012.baf~
+		EXTEND_TOP	~AR5500.bcs~	~%MOD_FOLDER%/Scripts/ToB/AR5500.baf~
+		
+		/********** Buttercup Interactions **********/	
+		
+		COPY_EXISTING	~QI#ZAKBU.itm~	~override~
+			WRITE_LONG 0x18 (THIS | BIT11)
+			
+		COPY_EXISTING	~itemdial.2da~	~override~
+			COUNT_2DA_COLS cols
+			COUNT_2DA_ROWS cols rows
+			INSERT_2DA_ROW rows cols ~QI#ZAKBU        5689   QI#ZAKBU~
+			PRETTY_PRINT_2DA
+		BUT_ONLY
+		
+		COMPILE	~%MOD_FOLDER%/Dialogues/ToB/QI#ZBU25.d~
+		
+		/********** Quests **********/	
+		
+		ADD_JOURNAL TITLE (@100013) @100010 @100011 @100012 USING ~Zakrion_BG2/English/setup.tra~	
+			
+		/********** Epilogues **********/			
+		
+		// No Friendship and No Romance
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak01.2da~
+		REPLACE ~99999~ @55
+		
+		// Frienship Track, but No Romance
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak02.2da~
+		REPLACE ~99999~ @56
+		
+		// Known Romance Track + PC Ascended
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak03.2da~
+		REPLACE ~99999~ @57
+		
+		// Known Romance Track + PC Not Ascended + Family + Ocean + Family is Alive
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak04.2da~
+		REPLACE ~99999~ @58
+		
+		// Known Romance Track + PC Not Ascended + Family + Ocean + Family is Not Alive
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak13.2da~
+		REPLACE ~99999~ @59
+		
+		// Known Romance Track + PC Not Ascended + Family + No Ocean
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak05.2da~
+		REPLACE ~99999~ @60
+		
+		// Known Romance Track + PC Not Ascended + No Family + Ocean
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak06.2da~
+		REPLACE ~99999~ @61
+		
+		// Known Romance Track + PC Not Ascended + No Family + No Ocean
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak07.2da~
+		REPLACE ~99999~ @62
+		
+		// Not Known Romance Track + PC Ascended
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak08.2da~
+		REPLACE ~99999~ @63
+		
+		// Not Known Romance Track + PC Not Ascended + Family + Ocean + Family is Alive
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak09.2da~
+		REPLACE ~99999~ @64
+		
+		// Not Known Romance Track + PC Not Ascended + Family + Ocean + Family is Not Alive
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak14.2da~
+		REPLACE ~99999~ @65
+		
+		// Not Known Romance Track + PC Not Ascended + Family + No Ocean
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak10.2da~
+		REPLACE ~99999~ @66
+		
+		// Not Known Romance Track + PC Not Ascended + No Family + Ocean
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak11.2da~
+		REPLACE ~99999~ @67
+		
+		// Not Known Romance Track + PC Not Ascended + No Family + No Ocean
+		COPY ~%MOD_FOLDER%/Epilogues/QI#ZA25Z.2da~ ~override/QI#Zak012.2da~
+		REPLACE ~99999~ @68
+		
+				
+		/********** Creatures **********/
+
+		// Roe Pumperknickle - Sleeping
+		COPY ~%MOD_FOLDER%/Creatures/QI#ROE25.cre~ ~override~
+		SAY NAME1 @50
+		SAY NAME2 @50
+		WRITE_ASCII 0x248 ~QI#RO25S~ #8
+		WRITE_ASCII 0x2cc ~QI#ROE25~ #8
+		WRITE_ASCII 0x280 ~QI#ROE~   #32
+
+		// Roe Pumperknickle - Awakened
+		COPY ~%MOD_FOLDER%/Creatures/QI#RO25A.cre~ ~override~
+		SAY NAME1 @50
+		SAY NAME2 @50
+		WRITE_ASCII 0x248 ~QI#RO25A~ #8
+		WRITE_ASCII 0x2cc ~QI#RO25A~ #8
+		WRITE_ASCII 0x280 ~QI#RO25A~ #32
+		WRITE_ASCII 0x34  ~QI#RoeS~  #8  // small portrait
+		WRITE_ASCII 0x3c  ~QI#RoeM~  #8  // medium portrait
+		
+		// Zakrion's Mother
+		COPY ~%MOD_FOLDER%/Creatures/QI#ZMO25.cre~ ~override~
+		SAY NAME1 @51
+		SAY NAME2 @51
+		WRITE_ASCII 0x248 ~QI#ZMO25~ #8
+		WRITE_ASCII 0x2cc ~QI#ZMO25~ #8
+		WRITE_ASCII 0x280 ~QI#ZAMO~ #32
+		
+		// Zakrion's Mother - Escaped
+		COPY ~%MOD_FOLDER%/Creatures/QI#ZME25.cre~ ~override~
+		SAY NAME1 @51
+		SAY NAME2 @51
+		WRITE_ASCII 0x248 ~QI#ZME25~ #8
+		WRITE_ASCII 0x2cc ~QI#ZME25~ #8
+		WRITE_ASCII 0x280 ~QI#ZME25~ #32
+		
+		// Zakrion's Half Brother
+		COPY ~%MOD_FOLDER%/Creatures/QI#ZBO25.cre~ ~override~
+		SAY NAME1 @52
+		SAY NAME2 @52
+		WRITE_ASCII 0x248 ~QI#ZBO25~ #8
+		WRITE_ASCII 0x2cc ~QI#ZBO25~ #8
+		WRITE_ASCII 0x280 ~QI#ZABO~ #32
+		
+		// Zakrion's Stepfather
+		COPY ~%MOD_FOLDER%/Creatures/QI#ZST25.cre~ ~override~
+		SAY NAME1 @78
+		SAY NAME2 @78
+		WRITE_ASCII 0x248 ~QI#ZST25~ #8
+		WRITE_ASCII 0x2cc ~QI#ZST25~ #8
+		WRITE_ASCII 0x280 ~QI#ZSTEP~ #32
+		
+		// Zakrion's Father
+		COPY ~%MOD_FOLDER%/Creatures/QI#ZA25G.cre~ ~override~
+		SAY NAME1 @54
+		SAY NAME2 @54
+		WRITE_ASCII 0x248 ~QI#ZA25G~ #8	// override
+		WRITE_ASCII 0x2cc ~QI#ZA25G~ #8  // dialogue
+		WRITE_ASCII 0x280 ~QI#ZA25G~ #32 // death variable
+		WRITE_ASCII 0x250 ~~ 	     #8  // class script
+		WRITE_ASCII 0x258 ~~ 	     #8  // race script
+		WRITE_ASCII 0x260 ~~ 	     #8  // general script
+		WRITE_ASCII 0x268 ~~	     #8	// default script
+				
+	END // ToB Content Ends Here
+
+	/********** Portraits **********/
+	
+	COPY ~%MOD_FOLDER%/Portraits/QI#ZaBuL.bmp~ ~override/QI#ZaBuL.bmp~
+	COPY ~%MOD_FOLDER%/Portraits/QI#ZaBuS.bmp~ ~override/QI#ZaBuS.bmp~
+	
+  
+ 	/********** Sound **********/
+	
+	COPY ~%MOD_FOLDER%/Audio/QI#Zak2Blank.mus~ ~music~
+	COPY_EXISTING ~songlist.2da~ ~override~
+	SET_2DA_ENTRY 0 2 3 ~QI#Zak2Blank.MUS~
+
+	LAF HANDLE_AUDIO
+	STR_VAR
+		audio_path = ~%MOD_FOLDER%/Audio~
+		oggdec_path = ~%MOD_FOLDER%/Audio~
+		sox_path = ~%MOD_FOLDER%/Audio~
+	END
+
+	APPEND ~pdialog.2da~
+	~QI#ZAK2 QI#ZAK2P QI#ZAK2J QI#ZAK2D QI#ZA25P QI#ZA25J QI#ZA25D QI#ZA25S~
+	UNLESS ~QI#ZAK2~
+
+	APPEND ~interdia.2da~ 
+	~QI#ZAK2 QI#ZAK2B QI#ZA25B~
+	UNLESS ~QI#ZAK2~
+
+
+
+BEGIN @2000 DESIGNATED 2000 LABEL ZakrionAlternativeSwashbuckler
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2" (ID_OF_LABEL "%MOD_FOLDER%.tp2" ZakrionMain) @48
+	
+	COPY ~%MOD_FOLDER%/Creatures/QI#ZAK2S.cre~ ~override/QI#ZAK2.cre~
+	
+	SAY NAME1 @0
+	SAY NAME2 @0
+
+	SAY BIO @1
+	SAY MORALE @2
+	SAY UNHAPPY_ANNOYED @3
+	SAY UNHAPPY_SERIOUS @4
+	SAY LEADER @5
+	SAY TIRED @6
+	SAY BORED @7
+	SAY AREA_NIGHT @8
+	SAY AREA_DAY @9
+	SAY AREA_DUNGEON @10
+	SAY AREA_CITY @10
+	SAY AREA_FOREST @11
+	SAY BATTLE_CRY1 @12
+	SAY BATTLE_CRY2 @13
+	SAY BATTLE_CRY3 @14
+	SAY BATTLE_CRY4 @15
+	SAY BATTLE_CRY5 @16
+	SAY DAMAGE @42
+	SAY DYING @17
+	SAY HURT @18
+	SAY SELECT_COMMON1 @19
+	SAY SELECT_COMMON2 @20
+	SAY SELECT_COMMON3 @21
+	SAY SELECT_COMMON4 @22
+	SAY SELECT_COMMON5 @23
+	SAY SELECT_COMMON6 @24
+	SAY SELECT_ACTION1 @25
+	SAY SELECT_ACTION2 @26
+	SAY SELECT_ACTION3 @27
+	SAY SELECT_ACTION4 @28
+	SAY SELECT_ACTION5 @29
+	SAY SELECT_ACTION6 @30
+	SAY SELECT_ACTION7 @31
+	SAY CRITICAL_HIT @32
+	SAY CRITICAL_MISS @33
+	SAY TARGET_IMMUNE @34
+	SAY INVENTORY_FULL @35
+	SAY SELECT_RARE1 @36
+	SAY SELECT_RARE2 @37
+	SAY PICKED_POCKET @38
+	SAY SPELL_DISRUPTED @39
+	SAY HIDDEN_IN_SHADOWS @40
+	SAY SET_A_TRAP @41
+	
+	WRITE_ASCII 0x248 ~QI#ZAK2S~ #8  // override script
+	WRITE_ASCII 0x2cc ~QI#ZAK2~  #8  // dialogue file
+	WRITE_ASCII 0x280 ~QI#ZAK2~  #32 // death variable
+	WRITE_ASCII 0x34  ~QI#ZaBuS~ #8  // small portrait
+	WRITE_ASCII 0x3c  ~QI#ZaBuL~ #8  // medium portrait
+
+/**************************************************************************************************
+									Alternative Portraits
+**************************************************************************************************/
+
+BEGIN @49 DESIGNATED 3010 SUBCOMPONENT @3000 LABEL ZakrionSwordEnchanter
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2" (ID_OF_LABEL "%MOD_FOLDER%.tp2" ZakrionMain) @48
+		COPY ~%MOD_FOLDER%/Portraits/QI#ZB1L.bmp~ ~override/QI#ZaBuL.bmp~
+		COPY ~%MOD_FOLDER%/Portraits/QI#ZB1S.bmp~ ~override/QI#ZaBuS.bmp~
+		
+BEGIN @3001 DESIGNATED 3020 SUBCOMPONENT @3000 LABEL ZakrionLavaDelVortel
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2" (ID_OF_LABEL "%MOD_FOLDER%.tp2" ZakrionMain) @48
+		COPY ~%MOD_FOLDER%/Portraits/QI#ZAK1L.bmp~ ~override/QI#ZaBuL.bmp~
+		COPY ~%MOD_FOLDER%/Portraits/QI#ZAK1S.bmp~ ~override/QI#ZaBuS.bmp~
+		
+BEGIN @3002 DESIGNATED 3030 SUBCOMPONENT @3000 LABEL ZakrionCherRo
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2" (ID_OF_LABEL "%MOD_FOLDER%.tp2" ZakrionMain) @48
+		COPY ~%MOD_FOLDER%/Portraits/QI#ZB2L.bmp~ ~override/QI#ZaBuL.bmp~
+		COPY ~%MOD_FOLDER%/Portraits/QI#ZB2S.bmp~ ~override/QI#ZaBuS.bmp~
+		
+BEGIN @3003 DESIGNATED 3040 SUBCOMPONENT @3000 LABEL ZakrionAzraelion
+	REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2" (ID_OF_LABEL "%MOD_FOLDER%.tp2" ZakrionMain) @48
+		COPY ~%MOD_FOLDER%/Portraits/QI#ZB3L.bmp~ ~override/QI#ZaBuL.bmp~
+		COPY ~%MOD_FOLDER%/Portraits/QI#ZB3S.bmp~ ~override/QI#ZaBuS.bmp~
