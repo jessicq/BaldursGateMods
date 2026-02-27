@@ -1,0 +1,69 @@
+@0 = ~Where in the Nine Hells--~
+@1 = ~<CHARNAME>! It's nice to see a familiar face around here, but why am I here?~
+@2 = ~You're here because I need your help.~
+@3 = ~Welcome to my pocket plane!~
+@4 = ~I'll answer your questions later. Right now, I need you for something important.~
+@5 = ~'Pocket plane'? Right.~
+@6 = ~My life keeps getting stranger and stranger.~
+@7 = ~So what is it that you need?~
+@8 = ~I'd like for you to rejoin the party.~ 
+@9 = ~I'll fill you in on the details as we travel. Let's go.~
+@10 = ~Actually, it's nothing. Would you mind waiting here?~
+@11 = ~You want me to wait here? For you?~
+@12 = ~You're running a rig on me, aren't you?~
+@13 = ~... I can see that you're not. Alright, <CHARNAME>, I'll be here. I don't know how to get out of this place without you anyway.~
+@14 = ~Great, let's get out of here, then.~
+@15 = ~Ahoy, captain! It's good to see you again ...although I wished you had called for me a bit later. I was in the middle of singing one of my favorite sea shanties.~
+@16 = ~This place doesn't look like a good place to sing sea shanties, though.~
+@17 = ~It's good to see you again too, Zakrion.~
+@18 = ~Yeah, yeah, you can sing your sea shanties later. Right now, I need you for something far more important.~
+@19 = ~'Pocket plane'? I've never heard or seen anything like this.~
+@20 = ~Frankly, it reminds me of the Nine Hells.~
+@21 = ~More important than sea shanties? This better be about salbread, then.~
+@22 = ~You wouldn't pull me out of my sea shanties for nothing.~
+@23 = ~What's going on, captain?~
+@24 = ~I need you back in the crew, Zakrion.~
+@25 = ~I'll fill you in on the details as we travel together. Let's go.~
+@26 = ~Actually, it's nothing. Would you mind waiting here?~ 
+@27 = ~Don't take offense to this, captain, I don't want to be in this place waiting for you to come back, but, yeah, sure.~
+@28 = ~Just don't make me wait here for too long.~
+@29 = ~Excellent!~
+@30 = ~Buttercup and I would be more than happy to rejoin the crew. Isn't that right, Buttercup?~
+@31 = ~*Mrrooow!*~
+@32 = ~<CHARNAME>! My love, my captain, I was wondering where you had gone.~
+@33 = ~You have a knack for disappearing, and I'm trying my best to keep up.~
+@34 = ~I'm sorry to have worried you, my love, but we're together again.~
+@35 = ~It's good to see you again, Zakrion. I missed having you at my side.~
+@36 = ~There's no time for pleasantries. There are important things to attend to.~
+@37 = ~There's always time to appreciate you, my captain, but I understand your urgency.~
+@38 = ~We're together again, and that's what matters... despite being in this strange place.~
+@39 = ~What voyage are we partaking in, <CHARNAME>?~
+@40 = ~I have a lead, and we're going to follow it.~
+@41 = ~There's a lot to explain, but we have a lot of time for that as we travel together.~
+@42 = ~On second thought, would you mind waiting here for me?~
+@43 = ~I'd rather be with you, but, if you think this is the best, then Buttercup and I will wait for you here.~ 
+@44 = ~Don't make us wait too long.~
+@45 = ~Let's get to it, then.~
+@46 = ~Buttercup and I missed traveling with you.~
+@47 = ~*Mroow!*~
+@48 = ~Yeah, sure, of course. I understand your urgency.~
+@49 = ~So, <CHARNAME>, what voyage are we partaking in?~
+
+/**************************************************************************************************
+									Rejoining - No Romance Active
+**************************************************************************************************/
+@50 = ~Is it time to rejoin the crew? Buttercup and I have been getting antsy waiting around here... there's no shit deck to ponder life on.~
+@51 = ~*Mrroow!*~
+@52 = ~See? Buttercup agrees.~
+@53 = ~Get onboard, you two.~
+@54 = ~Not yet.~
+@55 = ~Weigh the anchor!~
+
+/**************************************************************************************************
+									Rejoining - Romance Active
+**************************************************************************************************/
+@56 = ~Seeing you again makes me want to sing a sea shanty.~
+@57 = ~Not for the physical labor you'll have me do, but I wouldn't complain.~
+@58 = ~Rejoin me, Zakrion.~
+@59 = ~Never mind.~
+@60 = ~Say no more, my captain.~

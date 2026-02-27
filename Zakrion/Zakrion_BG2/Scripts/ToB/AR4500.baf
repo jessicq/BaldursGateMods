@@ -1,0 +1,41 @@
+//appended only if type = 2 or 3
+IF
+  InPartyAllowDead("%dv%")
+  Global("%SummonedVar%","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("%dv%",ChangeAIScript("%override_ToB%",OVERRIDE))
+    SetGlobal("%SummonedVar%","GLOBAL",2)
+END
+// AR4500.BCS is extended bottom with the code that migrates NPC from BG2 area to Pocket Plane:
+
+IF
+  Global("NEWGAME_TOB","GLOBAL",0)
+  Global("%SummonedVar%","GLOBAL",1)
+  Global("%SpawnPlaneVar%","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateVisualEffect("SPPORTAL",[1999.1218])
+    Wait(2)
+    ActionOverride("%dv%",SetDialog("%dialog_ToB%"))
+    ActionOverride("%dv%",ChangeAIScript("%override_ToB%",OVERRIDE))
+    MoveGlobal("AR4500","%dv%",[1999.1218])
+    ActionOverride("%dv%",Face(S))
+    ActionOverride("%dv%",SetGlobal("BD_JOINXP","LOCALS",0))
+    ActionOverride("%dv%",SetGlobal("KickedOut","LOCALS",0))
+    ActionOverride("%dv%",SetNumTimesTalkedTo(0))
+    SetGlobal("%SpawnPlaneVar%","GLOBAL",1)
+END
+
+//appended only if type = 4 and/or default_ToB = 1
+IF
+  Global("NEWGAME_TOB","GLOBAL",1) //this line is skipped if type = 4
+  Global("%SummonedVar%","GLOBAL",1)
+  Global("%SpawnPlaneVar%","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateVisualEffect("SPPORTAL",[1999.1218])
+    Wait(2)
+    CreateCreature("%cre_ToB%",[1999.1218],S)
+    SetGlobal("%SpawnPlaneVar%","GLOBAL",1)
+END

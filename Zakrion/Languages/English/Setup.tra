@@ -1,0 +1,20 @@
+@0 = ~This mod can only be installed on BG:EE or EET.~
+@1 = ~This mod can only be installed on BG2:EE or EET.~
+@2 = ~EET needs to be installed for this component.~
+
+// EET fate spirit
+@500 = ~Bring me Zakrion, the human duelist.~
+
+// Components
+@1000 = ~Zakrion for BGI:EE and EET~
+@2000 = ~Change Zakrion's class to Swashbuckler (from Duelist) in BG1~
+@3000 = ~BG1: Zakrion's Portrait~
+@3001 = ~Change Zakrion's portrait to Alternative 1 by bash-a at DeviantArt~
+@4000 = ~Zakrion for BGII:EE and EET~
+@5000 = ~Change Zakrion's class to Swashbuckler (from Duelist) in BG2~
+@6000 = ~BG2: Zakrion's Portrait~
+@6001 = ~Change Zakrion's portrait to Alternative 1 by SwordEnchanter at DeviantArt~
+@6002 = ~Change Zakrion's portrait to Alternative 2 by Midjourney and edited by LavaDelVortel~
+@6003 = ~Change Zakrion's portrait to Alternative 3 by Cher-Ro at DeviantArt~
+@6004 = ~Change Zakrion's portrait to Alternative 4 by Azraelion at X, formerly Twitter~
+@10000 = ~Zakrion for EET~

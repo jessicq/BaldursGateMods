@@ -1,0 +1,20 @@
+// AR4000.BCS has additional code that will check if the NPC is currently in party or was in party at some point during BG1 and BG2. 
+
+IF
+  InPartyAllowDead("%dv%")
+  Global("%SummonedVar%","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("%dv%",ChangeAIScript("%override_ToB%",OVERRIDE))
+    SetGlobal("%SummonedVar%","GLOBAL",2)
+END
+
+IF
+  Global("NEWGAME_TOB","GLOBAL",0)
+  Global("%SummonedVar%","GLOBAL",0)
+  !BeenInParty("%dv%")
+THEN
+  RESPONSE #100
+    SetGlobal("%SummonedVar%","GLOBAL",2)
+    Continue()
+END

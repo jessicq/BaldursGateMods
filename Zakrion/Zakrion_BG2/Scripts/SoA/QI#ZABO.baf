@@ -1,0 +1,21 @@
+/**************************************************************************************************
+								Zakrion's Half Brother Script
+**************************************************************************************************/
+
+/*		Follows Mother	*/
+IF
+	See("QI#ZAMO")
+	GlobalLT("QI#ZakMomEncounter","GLOBAL",3)
+THEN
+RESPONSE #100
+	MoveToObjectFollow("QI#ZAMO")
+END 
+
+/*		Leaves the Area with Mother	*/
+IF
+	Global("QI#ZakMomEncounter","GLOBAL",3)
+THEN
+RESPONSE #100
+	SetGlobal("QI#ZakMomEncounter","GLOBAL",4)
+	EscapeArea()
+END 

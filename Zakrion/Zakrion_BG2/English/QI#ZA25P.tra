@@ -1,0 +1,42 @@
+@0 = ~So that's it? I'm off the hook?~
+@1 = ~No, you're not off the hook. Get back in line.~
+@2 = ~Not quite. Can you wait here?~
+@3 = ~Yeah, you're off the hook.~
+@4 = ~Damn. Here I was, hoping that Buttercup and I would be able to get on a ship...~
+@5 = ~It seems we'll have to wait another day.~
+@6 = ~Let's get back on the ocean, Buttercup.~
+@7 = ~I won't make us wait a moment longer.~
+@8 = ~*Mroow!*~
+@9 = ~Captain, are you sure this is a good idea right now? One less crewmate isn't advisable.~
+@10 = ~You're right. One less crewmate isn't advisable. Rejoin the crew.~
+@11 = ~Wait right here. I'll be back. It won't be long.~
+@12 = ~I am sure, Zakrion.~
+@13 = ~If that's what you think is best, I won't question it anymore.~
+@14 = ~Alright.~
+@15 = ~Buttercup and I wish your voyage nothing but success. We would've liked to have seen it through with you to the end, but this is your voyage.~
+@16 = ~You're the captain, and you know what is best for yourself.~
+@17 = ~My captain, I don't think this is a good idea. I'd rather be at your side.~
+@18 = ~You're right. I would rather not be parted from you either. Nevermind this.~
+@19 = ~It will only be for a moment, my love.~
+@20 = ~I think this is a good idea, Zakrion. Goodbye.~
+@21 = ~I don't want to be parted from you for even a second, but I understand, and I will do as you ask.~
+@22 = ~I don't understand why you're doing this, but if this is what you really want... I won't question you any longer.~
+
+/**************************************************************************************************
+									Rejoining - No Romance Active
+**************************************************************************************************/
+@23 = ~Is it time to rejoin the crew? Buttercup and I have been getting antsy waiting around here... there's no shit deck to ponder life on.~
+@24 = ~*Mrroow!*~
+@25 = ~See? Buttercup agrees.~
+@26 = ~Get onboard, you two.~
+@27 = ~Not yet.~
+@28 = ~Weigh the anchor!~
+
+/**************************************************************************************************
+									Rejoining - Romance Active
+**************************************************************************************************/
+@29 = ~Seeing you again makes me want to sing a sea shanty.~
+@30 = ~Not for the physical labor you'll have me do, but I wouldn't complain.~
+@31 = ~Rejoin me, Zakrion.~
+@32 = ~Never mind.~
+@33 = ~Say no more, my captain.~

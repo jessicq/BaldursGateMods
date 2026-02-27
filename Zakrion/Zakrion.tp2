@@ -1,0 +1,129 @@
+BACKUP		~Zakrion/Backup~
+AUTHOR		~jmaeq~
+VERSION		~v3.0~
+
+README 		~Zakrion/Zakrion-ReadMe.html~
+
+// Credit goes to the Sword and Fist mod for the Duelist kit
+ALWAYS
+	INCLUDE ~Zakrion/Library/fl#add_kit_ee.tpa~
+END
+		 
+// Translations
+AUTO_TRA 	~Zakrion/Languages/%s~
+LANGUAGE 	~English~	
+			~English~
+			~Zakrion/Languages/English/Setup.tra~
+			
+/*******************************************************/
+/*					Zakrion for BG1		 	   	       */
+/*******************************************************/
+BEGIN @1000 DESIGNATED 1000 LABEL Zakrion_BG1_Continuous
+	REQUIRE_PREDICATE GAME_IS ~bgee eet~ @0
+	
+		ACTION_IF GAME_IS ~eet~ BEGIN
+			INCLUDE ~EET/other/EET_functions.tph~
+			LAF EET_PLATFORM_CONVERSION STR_VAR path = EVAL ~%MOD_FOLDER%~ skip_array = "skip_array" END
+		END
+
+		// Adding BG1 Content
+		INCLUDE		~Zakrion/Zakrion_BG1/Zakrion_BG1.tpa~
+		LOAD_TRA 	~Zakrion/Languages/English/Setup.tra~ 
+	
+// Alternative Class for BG1
+BEGIN @2000 DESIGNATED 2000 LABEL Zakrion_BG1_Swashbuckler
+	REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2"
+	(ID_OF_LABEL "%MOD_FOLDER%.tp2" Zakrion_BG1_Continuous) @0
+
+		INCLUDE ~Zakrion/Library/Zak_BG1_Swash.tpa~
+	
+// Alternative Portraits for BG1
+BEGIN @3001 DESIGNATED 3000 SUBCOMPONENT @3000 LABEL ZakrionBash-a
+	REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2"
+	(ID_OF_LABEL "%MOD_FOLDER%.tp2" Zakrion_BG1_Continuous)	@0
+	   COPY ~Zakrion/Zakrion_BG1/Portraits/BGee/QI#ZA1L.bmp~ ~override/QI#ZakL.bmp~
+	   COPY ~Zakrion/Zakrion_BG1/Portraits/BGee/QI#ZA1M.bmp~ ~override/QI#ZakM.bmp~
+	   COPY ~Zakrion/Zakrion_BG1/Portraits/BGee/QI#ZA1S.bmp~ ~override/QI#ZakS.bmp~
+   
+/*******************************************************/
+/*					Zakrion for BG2			 	   	   */
+/*******************************************************/
+BEGIN @4000 DESIGNATED 4000 LABEL Zakrion_BG2_Continuous
+	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @1
+
+		// Adding BG2 Content
+		INCLUDE 	~Zakrion/Zakrion_BG2/Zakrion_BG2.tpa~
+		LOAD_TRA 	~Zakrion/Languages/English/Setup.tra~ 
+	
+// Alternative Class for BG2
+BEGIN @5000 DESIGNATED 5000 LABEL Zakrion_BG2_Swashbuckler
+	REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2"
+	(ID_OF_LABEL "%MOD_FOLDER%.tp2" Zakrion_BG2_Continuous) @1
+	
+		INCLUDE ~Zakrion/Library/Zak_BG2_Swash.tpa~
+		
+// Alternative Portraits for BG2
+BEGIN @6001 DESIGNATED 6010 SUBCOMPONENT @6000 LABEL ZakrionSwordEnchanter
+	REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2"
+	(ID_OF_LABEL "%MOD_FOLDER%.tp2" Zakrion_BG2_Continuous) @1
+		COPY ~Zakrion/Zakrion_BG2/Portraits/QI#ZB1L.bmp~ ~override/QI#ZaBuL.bmp~
+		COPY ~Zakrion/Zakrion_BG2/Portraits/QI#ZB1S.bmp~ ~override/QI#ZaBuS.bmp~
+			
+BEGIN @6002 DESIGNATED 6020 SUBCOMPONENT @6000 LABEL ZakrionLavaDelVortel
+	REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2"
+	(ID_OF_LABEL "%MOD_FOLDER%.tp2" Zakrion_BG2_Continuous) @1
+		COPY ~Zakrion/Zakrion_BG2/Portraits/QI#ZAK1L.bmp~ ~override/QI#ZaBuL.bmp~
+		COPY ~Zakrion/Zakrion_BG2/Portraits/QI#ZAK1S.bmp~ ~override/QI#ZaBuS.bmp~
+		
+BEGIN @6003 DESIGNATED 6030 SUBCOMPONENT @6000 LABEL ZakrionCherRo
+	REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2"
+	(ID_OF_LABEL "%MOD_FOLDER%.tp2" Zakrion_BG2_Continuous) @1
+		COPY ~Zakrion/Zakrion_BG2/Portraits/QI#ZB2L.bmp~ ~override/QI#ZaBuL.bmp~
+		COPY ~Zakrion/Zakrion_BG2/Portraits/QI#ZB2S.bmp~ ~override/QI#ZaBuS.bmp~
+		
+BEGIN @6004 DESIGNATED 6040 SUBCOMPONENT @6000 LABEL ZakrionAzraelion
+	REQUIRE_PREDICATE MOD_IS_INSTALLED "%MOD_FOLDER%.tp2"
+	(ID_OF_LABEL "%MOD_FOLDER%.tp2" Zakrion_BG2_Continuous) @1
+		COPY ~Zakrion/Zakrion_BG2/Portraits/QI#ZB3L.bmp~ ~override/QI#ZaBuL.bmp~
+		COPY ~Zakrion/Zakrion_BG2/Portraits/QI#ZB3S.bmp~ ~override/QI#ZaBuS.bmp~	
+	
+/*******************************************************/
+/*					EET Component 		 	   	   	   */
+/*******************************************************/
+BEGIN @10000 DESIGNATED 10000 LABEL Zakrion_EET
+	REQUIRE_PREDICATE GAME_IS ~eet~ OR GAME_IS ~bg2 eet~ @2
+
+	// EET Transitions
+	ACTION_IF GAME_IS ~eet~ 
+	BEGIN
+		LAF ~EET_NPC_TRANSITION~
+			INT_VAR
+			  type = 3
+			  clean_ToB = 1
+			STR_VAR
+			  dv = "QI#ZAK"
+			  override_BG1 = "QI#ZAKS" 
+			  override_SoD = "" 
+			  override_SoA = "QI#ZAK2S"
+			  override_ToB = "QI#ZAK25S"
+			  cre_toB = "QI#ZAK25"
+			  dialog_ToB = "QI#ZAK25"
+			  traFile = EVAL "Zakrion/Languages/English/Setup.tra"
+			  string = "@500"					//Bring me Zakrion, the human duelist.
+			  stringPosDV = "QI#ZAK"
+			  clean_ToB_DV = ""
+		END
+	END ELSE 
+	BEGIN
+		LAF ~EET_NPC_TRANSITION~
+			INT_VAR
+			  type = 1
+			STR_VAR
+			  dv = "QI#ZAK"
+			  override_BG1 = "QI#ZAK"
+			  override_SoD = ""
+			  traFile = EVAL "Zakrion/Languages/English/Setup.tra"
+			  string = "@500"					//Bring me Zakion, the human duelist.
+			  stringPosDV = "QI#ZAK"
+		END
+	END 

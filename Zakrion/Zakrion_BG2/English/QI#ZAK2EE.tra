@@ -1,0 +1,95 @@
+/**************************************************************************************************
+										Neera Banters (2)
+**************************************************************************************************/
+@0 = ~Neera, I don't mean to be so blunt to a woman I don't really know, but you're really loud. Unnecessarily loud at times.~
+@1 = ~Well, I think that's quite rude. And, since I'm a woman you don't really know, I think it's even ruder that you said that to me.~
+@2 = ~Yeah, you're not wrong, but I think <CHARNAME> is generally a nice pereson. I don't think <PRO_HESHE> would be mean enough to tell you to shut up from time to time, so I'm taking that duty.~
+@3 = ~Although I wish <PRO_HESHE> would.~
+@4 = ~Then, I think you should be more like <CHARNAME>. Be kinder. MAYBE then, will I consider what you want, but I don't think so.~
+@5 = ~It was worth a try.~
+@6 = ~Can you PLEASE get your smell cat-monkey away from my belongings? I don't want its fur all over my stuff.~
+@7 = ~First, the cat-monkey has a name. *Her* name is Buttercup.~
+@8 = ~As you said earlier, Neera, if you want someone to hear you out, you have to respect them first.~
+@9 = ~I didn't say anything like that. I have no idea what you're going on about.~
+@10 = ~I really hate it when people try to take back their words.~
+@11 = ~Go ahead, Buttercup. Keep rifling through her things, and don't forget to get that matted fur off you too while you're at it.~
+@12 = ~UGH!~
+
+
+/**************************************************************************************************
+										Dorn Banters (2)
+**************************************************************************************************/
+@13 = ~How is it a scrawny weakling like you became a pirate captain?~
+@14 = ~They must have been lacking strong individuals.~
+@15 = ~Do you really think your insults have any effect on my ego?~
+@16 = ~I've heard worse, much worse. If there is one thing that pirates are known for, it's their creative insults.~
+@17 = ~The perfect insult can deflate a pirate's ego so much that they will throw themselves off the plank.~
+@18 = ~Hah! You pirates are much more interesting than I initially thought.~
+@19 = ~Give me your best insult, pirate.~
+@20 = ~I've a plethora in my arsenal.~
+@21 = ~I think this one is my favorite, though: your face is so ugly it would makes babies cry!~
+@22 = ~... That's it?~
+@23 = ~Then, you should fire back and say, "Aw, is that why you have tears in your eyes, little guy?"~
+@24 = ~...~
+@25 = ~Ah, right. You're a half-orc, that was inconsiderate of me. What about this next one?~
+@26 = ~You are stupid and uncultured, a true swine.~
+@27 = ~I've heard that one plenty of times before.~
+@28 = ~No, no. You say, "But pork is delicious, mouthwateringly divine!"~
+@29 = ~This is pure stupidity. I should smite you where you stand for wasting my time. Why do I constantly have to deal with idiots and buffoons?~
+@30 = ~I expect it's because you're an insufferable goon!~
+@31 = ~ENOUGH! WE ARE DONE HERE.~
+@32 = ~It was fun while it lasted, Dorn. I appreciate the nice throwback.~
+
+
+/**************************************************************************************************
+										Rasaad Banters (2)
+**************************************************************************************************/
+@33 = ~Do you ever want to talk about anything else other than your Sun Soul monks?~
+@34 = ~Of course, you need only but ask, my friend.~
+@35 = ~Right, I'll keep that in mind when I have something I want to talk to you about.~
+@36 = ~Something seems off today with you, Zakrion. Care to tell me what's on your mind?~
+@37 = ~There's really nothing I want to discuss with you.~
+@38 = ~Why are you so hostile towards me? I've noticed your face changes when you see monks and some clerics.~
+@39 = ~My father was the religious type; what good did that do him?~
+@40 = ~Ah, I see.~
+@41 = ~Resentment is never the answer, my friend. Gods and goddesses cannot pick favorites, and the world is can be an orderless place.~
+@42 = ~You cannot blame the gods and goddesses of this world for the death of your father. It is out of their control.~
+@43 = ~If the gods and goddesses of this world are so powerful, then they have the ability to stop an unnecessary death.~
+@44 = ~They are not as powerful as they think they are.~
+@45 = ~Zakrion, those are harsh words. I would be careful if I were you.~
+@46 = ~Whatever you say, Rasaad.~
+
+
+/**************************************************************************************************
+										Hexxat Banters (2)
+**************************************************************************************************/
+@47 = ~Your wary looks do not go unnoticed, Zakrion.~
+@48 = ~You can't blame me for wanting to be more guarded around you.~
+@49 = ~No, you have a right to be cautious, but it is unnecessary. As long as you're with <CHARNAME>, you have nothing to be frightened of.~
+@50 = ~Yeah, well, I can't always be around <CHARNAME>, can I?~
+@51 = ~Then, I suppose you do have cause for suspicion.~
+@52 = ~Hexxat, I have no problems putting a stake in your heart if I one day woke up to you hovering over Buttercup's body.~
+@53 = ~If you so much come within five feet of her, you will truly die.~
+@54 = ~You think I would take the blood of an unwanted creature?~
+@55 = ~I have standards.~
+@56 = ~You're right. Buttercup wouldn't make your standards; she's too good for you.~
+@57 = ~You really do have a death wish, don't you?~
+
+
+/**************************************************************************************************
+										Wilson Banters (2)
+**************************************************************************************************/
+@58 = ~Wilson! What are you doing sniffing around over there?~
+@59 = ~You're angering Buttercup.~
+@60 = ~*Mroooow!*~
+@61 = ~ROAR!~
+@62 = ~Hey, look. I'm not trying to start a fight here, but you shouldn't be rustling over there. That's Buttercup's stuff, and she's not afraid to swat at you.~
+@63 = ~Snort. Growl.~
+@64 = ~Okay, good. Looks like the situation has been diffused.~
+@65 = ~*MRRROOOW!*~
+@66 = ~Growl, grr.~
+@67 = ~*Mrow?*~
+@68 = ~Sniff, sniff, sniff?~
+@69 = ~*Mrooow.*~
+@70 = ~Rff, roar.~
+@71 = ~Making friends, I see. Keep going, you two, don't mind me.~

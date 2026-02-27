@@ -1,0 +1,18 @@
+/**************************************************************************************************
+									Zakrion Checks Bodies
+**************************************************************************************************/
+
+IF
+	True()
+THEN
+RESPONSE #100
+	CutSceneId(Myself)
+	StartCutSceneMode()
+	FadeToColor([40.0],0)
+	Wait(4)
+	AdvanceTime(TEN_HOURS)
+	FadeFromColor([30.0],0)
+	EndCutSceneMode()
+	SetGlobal("QI#ZakrionCheckBodies","GLOBAL",2)
+	//ActionOverride(Myself,StartDialogueNoSet(Player1))
+END 
