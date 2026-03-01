@@ -13,11 +13,11 @@ LOAD_TRA	~Zakrion/Zakrion_BG2/English/setup.tra~
         	OUTER_SPRINT name_source ~bg2_chapter_%i%~
         	OUTER_SET EVAL ~%name_source%~ = bg2_chapter
     	END
-  END
-  ADD_JOURNAL EXISTING TITLE (#74337) @100001 @100002
-  ADD_JOURNAL @100005 @100006 @100007 @100008 @100009
-
-    APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+  	END
+  	ADD_JOURNAL EXISTING TITLE (#74337) @100001 @100002
+  	ADD_JOURNAL @100005 @100006 @100007 @100008 @100009
+	
+	APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
     UNLESS ~CD_STATE_NOTVALID~
 
 /**************************************************************************************************
@@ -617,4 +617,5 @@ LOAD_TRA	~Zakrion/Zakrion_BG2/English/setup.tra~
 	APPEND ~interdia.2da~ 
 	~QI#ZAK2 QI#ZAK2B QI#ZA25B~
 	UNLESS ~QI#ZAK2~
+
 
