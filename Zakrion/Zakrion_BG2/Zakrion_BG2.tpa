@@ -1,24 +1,10 @@
 LOAD_TRA	~Zakrion/Zakrion_BG2/English/setup.tra~	
-	
-	ACTION_IF NOT VARIABLE_IS_SET bg2_chapter THEN BEGIN // check to make this happen only once per install
 
-    ACTION_IF GAME_IS ~eet~ BEGIN
-	
-        OUTER_SET bg2_chapter = 12
-    	END ELSE BEGIN
-        OUTER_SET bg2_chapter = 0
-    	END
-    	OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
-        	OUTER_SET bg2_chapter = bg2_chapter + 1
-        	OUTER_SPRINT name_source ~bg2_chapter_%i%~
-        	OUTER_SET EVAL ~%name_source%~ = bg2_chapter
-    	END
-  	END
-  	ADD_JOURNAL EXISTING TITLE (#74337) @100001 @100002
-  	ADD_JOURNAL @100005 @100006 @100007 @100008 @100009
-	
-	APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+    APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
     UNLESS ~CD_STATE_NOTVALID~
+	
+	ADD_JOURNAL EXISTING TITLE (#74337) @100001 @100002
+	ADD_JOURNAL @100005 @100006 @100007 @100008 @100009
 
 /**************************************************************************************************
 							Duelist Kit - Credits to the Sword and Fist Mod
@@ -617,5 +603,3 @@ LOAD_TRA	~Zakrion/Zakrion_BG2/English/setup.tra~
 	APPEND ~interdia.2da~ 
 	~QI#ZAK2 QI#ZAK2B QI#ZA25B~
 	UNLESS ~QI#ZAK2~
-
-
