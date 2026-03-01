@@ -5,14 +5,14 @@ LOAD_TRA	~Zakrion/Zakrion_BG2/English/setup.tra~
     ACTION_IF GAME_IS ~eet~ BEGIN
 	
         OUTER_SET bg2_chapter = 12
-    END ELSE BEGIN
+    	END ELSE BEGIN
         OUTER_SET bg2_chapter = 0
-    END
-    OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
-        OUTER_SET bg2_chapter = bg2_chapter + 1
-        OUTER_SPRINT name_source ~bg2_chapter_%i%~
-        OUTER_SET EVAL ~%name_source%~ = bg2_chapter
-    END
+    	END
+    	OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+        	OUTER_SET bg2_chapter = bg2_chapter + 1
+        	OUTER_SPRINT name_source ~bg2_chapter_%i%~
+        	OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+    	END
   END
   ADD_JOURNAL EXISTING TITLE (#74337) @100001 @100002
   ADD_JOURNAL @100005 @100006 @100007 @100008 @100009
@@ -617,3 +617,4 @@ LOAD_TRA	~Zakrion/Zakrion_BG2/English/setup.tra~
 	APPEND ~interdia.2da~ 
 	~QI#ZAK2 QI#ZAK2B QI#ZA25B~
 	UNLESS ~QI#ZAK2~
+
