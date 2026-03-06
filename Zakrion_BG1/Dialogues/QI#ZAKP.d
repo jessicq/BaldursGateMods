@@ -26,7 +26,7 @@ SAY @9
 IF ~~ DO ~SetGlobal("QI#ZakJoined","GLOBAL",0) EscapeArea()~ EXIT
 END 
 
-IF ~Global("QI#HalaJoined","GLOBAL",0)~ QI#ZakRejoinParty
+IF ~Global("QI#ZakJoined","GLOBAL",0)~ QI#ZakRejoinParty
 SAY @11
 = @12
 = @13
@@ -53,4 +53,5 @@ IF ~~ QI#ZakRejoinParty1.3
 SAY @23
 = @24
 IF ~~ EXIT 
+
 END 
